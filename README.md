@@ -3,8 +3,7 @@ This repository provides the simvastatin and cholesterol physiological based pha
 
 
 The model is distributed as [SBML](http://sbml.org) available from [`simvastatin_body_flat.xml`](./models/simvastatin_body_flat.xml) with 
-corresponding SBML4humans model report at [https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/simvastatin-model/main/models/simvastatin_body.xml](https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/simvastatin-model/main/models/simvastatin_body_flat.xml) 
-
+corresponding SBML4humans model report at [https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/simvastatin-model/main/models/simvastatin_body_flat.xml](https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/simvastatin-model/main/models/simvastatin_body_flat.xml)
 
 ### Comp submodels
 The liver submodel is available from [`simvastatin_liver.xml`](./models/simvastatin_liver.xml) with corresponding SBML4humans report at
