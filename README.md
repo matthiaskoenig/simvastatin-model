@@ -21,9 +21,11 @@ The whole-body submodel is available from [`simvastatin_body.xml`](./models/simv
 [https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/simvastatin-model/main/models/simvastatin_body.xml](https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/simvastatin-model/main/models/simvastatin_body.xml)
 
 ## How to cite
-König, Matthias, & Bartsch, Florian. (2021).  
-*Simvastatin and cholesterol physiological based pharmacokinetics model (PBPK) (0.7.0).*   
-Zenodo. [https://doi.org/10.5281/zenodo.5554092](https://doi.org/10.5281/zenodo.5554092)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5554092.svg)](https://doi.org/10.5281/zenodo.5554092)
+
+> König, Matthias, & Bartsch, Florian. (2021).  
+> *Simvastatin and cholesterol physiological based pharmacokinetics model (PBPK) (0.7.0).*   
+> Zenodo. [https://doi.org/10.5281/zenodo.5554092](https://doi.org/10.5281/zenodo.5554092)
 
 ## License
 
