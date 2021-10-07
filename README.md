@@ -7,13 +7,13 @@ corresponding SBML4humans model report at [https://sbml4humans.de/model_url?url=
 
 ### Comp submodels
 The liver submodel is available from [`simvastatin_liver.xml`](./models/simvastatin_liver.xml) with corresponding SBML4humans report at
-[https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/simvastatin-model/main/models/simvastatin_body.xml](https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/simvastatin-model/main/models/simvastatin_liver.xml)
+[https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/simvastatin-model/main/models/simvastatin_liver.xml](https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/simvastatin-model/main/models/simvastatin_liver.xml)
 
 The kidney submodel is available from [`simvastatin_kidney.xml`](./models/simvastatin_kidney.xml) with corresponding SBML4humans report at
-[https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/simvastatin-model/main/models/simvastatin_body.xml](https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/simvastatin-model/main/models/simvastatin_kidney.xml)
+[https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/simvastatin-model/main/models/simvastatin_kidney.xml](https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/simvastatin-model/main/models/simvastatin_kidney.xml)
 
 The intestin submodel is available from [`simvastatin_intestine.xml`](./models/simvastatin_intestine.xml) with corresponding SBML4humans report at
-[https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/simvastatin-model/main/models/simvastatin_body.xml](https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/simvastatin-model/main/models/simvastatin_intestine.xml)
+[https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/simvastatin-model/main/models/simvastatin_intestine.xml](https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/simvastatin-model/main/models/simvastatin_intestine.xml)
 
 The whole-body submodel is available from [`simvastatin_body.xml`](./models/simvastatin_body.xml) with corresponding SBML4humans report at
 [https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/simvastatin-model/main/models/simvastatin_body.xml](https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/simvastatin-model/main/models/simvastatin_body.xml)
