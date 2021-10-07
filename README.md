@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5554092.svg)](https://doi.org/10.5281/zenodo.5554092)
+
 # Simvastatin and cholesterol model
 This repository provides the simvastatin and cholesterol physiological based pharmacokinetics model (PBPK).
 
@@ -18,6 +20,10 @@ The intestin submodel is available from [`simvastatin_intestine.xml`](./models/s
 The whole-body submodel is available from [`simvastatin_body.xml`](./models/simvastatin_body.xml) with corresponding SBML4humans report at
 [https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/simvastatin-model/main/models/simvastatin_body.xml](https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/simvastatin-model/main/models/simvastatin_body.xml)
 
+## How to cite
+König, Matthias, & Bartsch, Florian. (2021).  
+*Simvastatin and cholesterol physiological based pharmacokinetics model (PBPK) (0.7.0).*   
+Zenodo. [https://doi.org/10.5281/zenodo.5554092](https://doi.org/10.5281/zenodo.5554092)
 
 ## License
 
