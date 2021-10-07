@@ -1,4 +1,4 @@
-# ICG model
+# Simvastatin and cholesterol model
 This repository provides the simvastatin and cholesterol physiological based pharmacokinetics model (PBPK).
 
 
@@ -7,17 +7,17 @@ corresponding SBML4humans model report at [https://sbml4humans.de/model_url?url=
 
 
 ### Comp submodels
-The liver submodel is available from [`icg_liver.xml`](./models/icg_liver.xml) with corresponding SBML4humans report at
-[https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/icg-model/main/models/icg_body.xml](https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/icg-model/main/models/icg_liver.xml)
+The liver submodel is available from [`simvastatin_liver.xml`](./models/simvastatin_liver.xml) with corresponding SBML4humans report at
+[https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/simvastatin-model/main/models/simvastatin_body.xml](https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/simvastatin-model/main/models/simvastatin_liver.xml)
 
-The kidney submodel is available from [`icg_liver.xml`](./models/icg_liver.xml) with corresponding SBML4humans report at
-[https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/icg-model/main/models/icg_body.xml](https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/icg-model/main/models/icg_liver.xml)
+The kidney submodel is available from [`simvastatin_kidney.xml`](./models/simvastatin_kidney.xml) with corresponding SBML4humans report at
+[https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/simvastatin-model/main/models/simvastatin_body.xml](https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/simvastatin-model/main/models/simvastatin_kidney.xml)
 
-The intestin submodel is available from [`icg_liver.xml`](./models/icg_liver.xml) with corresponding SBML4humans report at
-[https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/icg-model/main/models/icg_body.xml](https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/icg-model/main/models/icg_liver.xml)
+The intestin submodel is available from [`simvastatin_intestine.xml`](./models/simvastatin_intestine.xml) with corresponding SBML4humans report at
+[https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/simvastatin-model/main/models/simvastatin_body.xml](https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/simvastatin-model/main/models/simvastatin_intestine.xml)
 
-The whole-body submodel is available from [`icg_body.xml`](./models/icg_body.xml) with corresponding SBML4humans report at
-[https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/icg-model/main/models/icg_body.xml](https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/icg-model/main/models/icg_body.xml)
+The whole-body submodel is available from [`simvastatin_body.xml`](./models/simvastatin_body.xml) with corresponding SBML4humans report at
+[https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/simvastatin-model/main/models/simvastatin_body.xml](https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/simvastatin-model/main/models/simvastatin_body.xml)
 
 
 ## License
@@ -26,7 +26,7 @@ The whole-body submodel is available from [`icg_body.xml`](./models/icg_body.xml
 * Documentation: [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/)
 * Models: [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/)
 
-The icg-model source is released under both the GPL and LGPL licenses version 2 or
+The simvastatin-model source is released under both the GPL and LGPL licenses version 2 or
 later. You may choose which license you choose to use the software under.
 
 This program is free software: you can redistribute it and/or modify it under
