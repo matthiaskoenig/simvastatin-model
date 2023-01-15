@@ -14,7 +14,7 @@ The liver submodel is available from [`simvastatin_liver.xml`](./models/simvasta
 The kidney submodel is available from [`simvastatin_kidney.xml`](./models/simvastatin_kidney.xml) with corresponding SBML4humans report at
 [https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/simvastatin-model/main/models/simvastatin_kidney.xml](https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/simvastatin-model/main/models/simvastatin_kidney.xml)
 
-The intestin submodel is available from [`simvastatin_intestine.xml`](./models/simvastatin_intestine.xml) with corresponding SBML4humans report at
+The intestine submodel is available from [`simvastatin_intestine.xml`](./models/simvastatin_intestine.xml) with corresponding SBML4humans report at
 [https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/simvastatin-model/main/models/simvastatin_intestine.xml](https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/simvastatin-model/main/models/simvastatin_intestine.xml)
 
 The whole-body submodel is available from [`simvastatin_body.xml`](./models/simvastatin_body.xml) with corresponding SBML4humans report at
@@ -48,9 +48,10 @@ PARTICULAR PURPOSE. See the GNU General Public License for more details.
 Funding
 =======
 Florian Bartsch and Matthias König are supported by the Federal Ministry of Education and Research (BMBF, Germany)
-within the research network Systems Medicine of the Liver (**LiSyM**, grant number 031L0054). Matthias König
-is supported by the German Research Foundation (DFG) within the Research Unit Programme FOR 5151
-[QuaLiPerF](https://qualiperf.de) (Quantifying Liver Perfusion-Function Relationship in Complex Resecti)
-A Systems Medicine Approach)" by grant number 436883643.
+within the research network Systems Medicine of the Liver (**LiSyM**, grant number 031L0054) and by the German Research 
+Foundation (DFG) within the Research Unit Programme FOR 5151
+[QuaLiPerF](https://qualiperf.de) (Quantifying Liver Perfusion-Function Relationship in Complex Resection -
+A Systems Medicine Approach)" by grant number 436883643. MK is supported by the German Research 
+Foundation (DFG) by grant number 465194077 (Priority Programme SPP 2311, Subproject SimLivA).
 
-© 2020-2021 [Matthias König](https://livermetabolism.com)
+© 2020-2023 [Matthias König](https://livermetabolism.com)

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" xmlns:comp="http://www.sbml.org/sbml/level3/version1/comp/version1" level="3" version="1" comp:required="true">
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" xmlns:comp="http://www.sbml.org/sbml/level3/version1/comp/version1" level="3" version="2" comp:required="true">
   <notes>
     <body xmlns="http://www.w3.org/1999/xhtml">
       <p>Created with <a href="https://github.com/matthiaskoenig/sbmlutils">https://github.com/matthiaskoenig/sbmlutils</a>.
@@ -13,7 +13,7 @@
         <h1>Model for simvastatin metabolism in the liver</h1>
         <p>The content of this model has been carefully created in a manual research effort.</p>
         <h2>Terms of use</h2>
-        <p>Copyright © 2021 <a href="https://livermetabolism.com" title="Matthias König" target="_blank">Matthias König</a>.</p>
+        <p>Copyright © 2023 <a href="https://livermetabolism.com" title="Matthias König" target="_blank">Matthias König</a>.</p>
         <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
           <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png"/>
         </a>
@@ -35,24 +35,20 @@ implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</p></bo
           <dcterms:creator>
             <rdf:Bag>
               <rdf:li rdf:parseType="Resource">
-                <vCard:N rdf:parseType="Resource">
-                  <vCard:Family>Bartsch</vCard:Family>
-                  <vCard:Given>Florian</vCard:Given>
-                </vCard:N>
-                <vCard:EMAIL>florian@mathiasbartsch.de</vCard:EMAIL>
-                <vCard:ORG rdf:parseType="Resource">
-                  <vCard:Orgname>Humboldt-University Berlin, Institute for Theoretical Biology</vCard:Orgname>
-                </vCard:ORG>
+                <vCard4:hasName rdf:parseType="Resource">
+                  <vCard4:family-name>Bartsch</vCard4:family-name>
+                  <vCard4:given-name>Florian</vCard4:given-name>
+                </vCard4:hasName>
+                <vCard4:hasEmail>florian@mathiasbartsch.de</vCard4:hasEmail>
+                <vCard4:organization-name>Humboldt-University Berlin, Institute for Theoretical Biology</vCard4:organization-name>
               </rdf:li>
               <rdf:li rdf:parseType="Resource">
-                <vCard:N rdf:parseType="Resource">
-                  <vCard:Family>König</vCard:Family>
-                  <vCard:Given>Matthias</vCard:Given>
-                </vCard:N>
-                <vCard:EMAIL>koenigmx@hu-berlin.de</vCard:EMAIL>
-                <vCard:ORG rdf:parseType="Resource">
-                  <vCard:Orgname>Humboldt-University Berlin, Institute for Theoretical Biology</vCard:Orgname>
-                </vCard:ORG>
+                <vCard4:hasName rdf:parseType="Resource">
+                  <vCard4:family-name>König</vCard4:family-name>
+                  <vCard4:given-name>Matthias</vCard4:given-name>
+                </vCard4:hasName>
+                <vCard4:hasEmail>koenigmx@hu-berlin.de</vCard4:hasEmail>
+                <vCard4:organization-name>Humboldt-University Berlin, Institute for Theoretical Biology</vCard4:organization-name>
               </rdf:li>
             </rdf:Bag>
           </dcterms:creator>
@@ -66,6 +62,12 @@ implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</p></bo
       </rdf:RDF>
     </annotation>
     <listOfUnitDefinitions>
+      <unitDefinition id="g_per_mole" name="g/mole">
+        <listOfUnits>
+          <unit kind="gram" exponent="1" scale="0" multiplier="1"/>
+          <unit kind="mole" exponent="-1" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
       <unitDefinition id="kg" name="kilogram">
         <listOfUnits>
           <unit kind="gram" exponent="1" scale="0" multiplier="1000"/>
@@ -84,6 +86,13 @@ implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</p></bo
           <unit kind="gram" exponent="-1" scale="0" multiplier="1000"/>
         </listOfUnits>
       </unitDefinition>
+      <unitDefinition id="l_per_min_mmole" name="l/min/mmole">
+        <listOfUnits>
+          <unit kind="litre" exponent="1" scale="0" multiplier="1"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="60"/>
+          <unit kind="mole" exponent="-1" scale="0" multiplier="0.001"/>
+        </listOfUnits>
+      </unitDefinition>
       <unitDefinition id="m2" name="meter^2">
         <listOfUnits>
           <unit kind="metre" exponent="2" scale="0" multiplier="1"/>
@@ -95,9 +104,20 @@ implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</p></bo
           <unit kind="litre" exponent="-1" scale="0" multiplier="1"/>
         </listOfUnits>
       </unitDefinition>
+      <unitDefinition id="mg" name="mg">
+        <listOfUnits>
+          <unit kind="gram" exponent="1" scale="0" multiplier="0.001"/>
+        </listOfUnits>
+      </unitDefinition>
       <unitDefinition id="min" name="min">
         <listOfUnits>
           <unit kind="second" exponent="1" scale="0" multiplier="60"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="min_per_hr" name="min/hr">
+        <listOfUnits>
+          <unit kind="second" exponent="1" scale="0" multiplier="60"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="3600"/>
         </listOfUnits>
       </unitDefinition>
       <unitDefinition id="mmole" name="mmole">
@@ -111,16 +131,27 @@ implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</p></bo
           <unit kind="second" exponent="-1" scale="0" multiplier="60"/>
         </listOfUnits>
       </unitDefinition>
-      <unitDefinition id="mmole_per_min_l" name="mmole/min/l">
+      <unitDefinition id="mmole_per_min_l" name="mmole/min/liter">
         <listOfUnits>
           <unit kind="mole" exponent="1" scale="0" multiplier="0.001"/>
           <unit kind="second" exponent="-1" scale="0" multiplier="60"/>
           <unit kind="litre" exponent="-1" scale="0" multiplier="1"/>
         </listOfUnits>
       </unitDefinition>
+      <unitDefinition id="per_hr" name="1/hr">
+        <listOfUnits>
+          <unit kind="second" exponent="-1" scale="0" multiplier="3600"/>
+        </listOfUnits>
+      </unitDefinition>
       <unitDefinition id="per_min" name="1/min">
         <listOfUnits>
           <unit kind="second" exponent="-1" scale="0" multiplier="60"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="per_min_l" name="1/min/liter">
+        <listOfUnits>
+          <unit kind="second" exponent="-1" scale="0" multiplier="60"/>
+          <unit kind="litre" exponent="-1" scale="0" multiplier="1"/>
         </listOfUnits>
       </unitDefinition>
     </listOfUnitDefinitions>
@@ -131,10 +162,39 @@ implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</p></bo
             <rdf:Description rdf:about="#meta_Vext">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000290"/>
-                  <rdf:li rdf:resource="https://identifiers.org/FMA:62970"/>
-                  <rdf:li rdf:resource="https://identifiers.org/ncit/C13356"/>
-                  <rdf:li rdf:resource="https://identifiers.org/BTO:0000131"/>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000290"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ncit/C13356"/>
+                  <rdf:li rdf:resource="http://identifiers.org/BTO:0000131"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </compartment>
+      <compartment metaid="meta_Vbaso" sboTerm="SBO:0000290" id="Vbaso" name="basolateral membrane" spatialDimensions="2" size="1" units="m2" constant="true">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_Vbaso">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000290"/>
+                  <rdf:li rdf:resource="http://identifiers.org/FMA:84669"/>
+                  <rdf:li rdf:resource="http://identifiers.org/GO:0016323"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </compartment>
+      <compartment metaid="meta_Vapical" sboTerm="SBO:0000290" id="Vapical" name="apical membrane" spatialDimensions="2" size="NaN" units="m2" constant="true">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_Vapical">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000290"/>
+                  <rdf:li rdf:resource="http://identifiers.org/FMA:84666"/>
+                  <rdf:li rdf:resource="http://identifiers.org/GO:0016324"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -147,39 +207,25 @@ implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</p></bo
             <rdf:Description rdf:about="#meta_Vli">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000290"/>
-                  <rdf:li rdf:resource="https://identifiers.org/FMA:7197"/>
-                  <rdf:li rdf:resource="https://identifiers.org/BTO:0000759"/>
-                  <rdf:li rdf:resource="https://identifiers.org/ncit/C12392"/>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000290"/>
+                  <rdf:li rdf:resource="http://identifiers.org/FMA:7197"/>
+                  <rdf:li rdf:resource="http://identifiers.org/BTO:0000759"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ncit/C12392"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
       </compartment>
-      <compartment metaid="meta_Vint" sboTerm="SBO:0000290" id="Vint" name="intestine" spatialDimensions="3" size="1" units="litre" constant="true">
+      <compartment metaid="meta_Vlumen" sboTerm="SBO:0000290" id="Vlumen" name="intestinal lumen (inner part of intestine)" spatialDimensions="3" size="1.15425" units="litre" constant="false">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_Vint">
+            <rdf:Description rdf:about="#meta_Vlumen">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000290"/>
-                  <rdf:li rdf:resource="https://identifiers.org/FMA:7199"/>
-                  <rdf:li rdf:resource="https://identifiers.org/ncit/C12736"/>
-                  <rdf:li rdf:resource="https://identifiers.org/BTO:0000648"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </compartment>
-      <compartment metaid="meta_Vli_membrane" sboTerm="SBO:0000290" id="Vli_membrane" name="liver membrane" spatialDimensions="3" size="1" units="litre" constant="true">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_Vli_membrane">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000290"/>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000290"/>
+                  <rdf:li rdf:resource="http://identifiers.org/FMA:14586"/>
+                  <rdf:li rdf:resource="http://identifiers.org/UBERON:0018543"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -194,10 +240,10 @@ implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</p></bo
             <rdf:Description rdf:about="#meta_simacid">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000247"/>
-                  <rdf:li rdf:resource="https://identifiers.org/ncit/C96309"/>
-                  <rdf:li rdf:resource="https://identifiers.org/pubchem.substance/64718"/>
-                  <rdf:li rdf:resource="https://identifiers.org/inchikey/XWLXKKNPFMNSFA-HGQWONQESA-N"/>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000247"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ncit/C96309"/>
+                  <rdf:li rdf:resource="http://identifiers.org/pubchem.substance/64718"/>
+                  <rdf:li rdf:resource="http://identifiers.org/inchikey/XWLXKKNPFMNSFA-HGQWONQESA-N"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -210,7 +256,7 @@ implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</p></bo
             <rdf:Description rdf:about="#meta_simmets">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000247"/>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000247"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -223,10 +269,10 @@ implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</p></bo
             <rdf:Description rdf:about="#meta_simva_ext">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000247"/>
-                  <rdf:li rdf:resource="https://identifiers.org/ncit/C29454"/>
-                  <rdf:li rdf:resource="https://identifiers.org/CHEBI:9150"/>
-                  <rdf:li rdf:resource="https://identifiers.org/omit/0019802"/>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000247"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ncit/C29454"/>
+                  <rdf:li rdf:resource="http://identifiers.org/CHEBI:9150"/>
+                  <rdf:li rdf:resource="http://identifiers.org/omit/0019802"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -239,10 +285,10 @@ implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</p></bo
             <rdf:Description rdf:about="#meta_simacid_ext">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000247"/>
-                  <rdf:li rdf:resource="https://identifiers.org/ncit/C96309"/>
-                  <rdf:li rdf:resource="https://identifiers.org/pubchem.substance/64718"/>
-                  <rdf:li rdf:resource="https://identifiers.org/inchikey/XWLXKKNPFMNSFA-HGQWONQESA-N"/>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000247"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ncit/C96309"/>
+                  <rdf:li rdf:resource="http://identifiers.org/pubchem.substance/64718"/>
+                  <rdf:li rdf:resource="http://identifiers.org/inchikey/XWLXKKNPFMNSFA-HGQWONQESA-N"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -255,7 +301,7 @@ implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</p></bo
             <rdf:Description rdf:about="#meta_simmets_ext">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000247"/>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000247"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -268,23 +314,23 @@ implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</p></bo
             <rdf:Description rdf:about="#meta_simva">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000247"/>
-                  <rdf:li rdf:resource="https://identifiers.org/ncit/C29454"/>
-                  <rdf:li rdf:resource="https://identifiers.org/CHEBI:9150"/>
-                  <rdf:li rdf:resource="https://identifiers.org/omit/0019802"/>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000247"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ncit/C29454"/>
+                  <rdf:li rdf:resource="http://identifiers.org/CHEBI:9150"/>
+                  <rdf:li rdf:resource="http://identifiers.org/omit/0019802"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_simmets_gu" sboTerm="SBO:0000247" id="simmets_gu" name="simvastatin metabolites (gut)" compartment="Vint" initialConcentration="0" substanceUnits="mmole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species metaid="meta_simmets_lumen" sboTerm="SBO:0000247" id="simmets_lumen" name="simvastatin metabolites (intestinal lumen)" compartment="Vlumen" initialConcentration="0" substanceUnits="mmole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_simmets_gu">
+            <rdf:Description rdf:about="#meta_simmets_lumen">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000247"/>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000247"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -299,7 +345,7 @@ implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</p></bo
             <rdf:Description rdf:about="#meta_CYP3A4_Km">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000322"/>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000322"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -312,7 +358,7 @@ implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</p></bo
             <rdf:Description rdf:about="#meta_SIMVA_CYP3A4LI_Vmax">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000186"/>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000186"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -325,20 +371,20 @@ implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</p></bo
             <rdf:Description rdf:about="#meta_SIMVAIMP_Km">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000322"/>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000322"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
       </parameter>
-      <parameter metaid="meta_SIMVAIMP_f" sboTerm="SBO:0000002" id="SIMVAIMP_f" name="scaling for simvastatin import" value="100" units="dimensionless" constant="true">
+      <parameter metaid="meta_SIMVAIMP_f" sboTerm="SBO:0000002" id="SIMVAIMP_f" name="scaling for simvastatin import" value="3.2829307643549" units="dimensionless" constant="true">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_SIMVAIMP_f">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000002"/>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000002"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -356,20 +402,20 @@ implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</p></bo
             <rdf:Description rdf:about="#meta_SIMACIDIMP_Km">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000322"/>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000322"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
       </parameter>
-      <parameter metaid="meta_SIMACIDIMP_f" sboTerm="SBO:0000002" id="SIMACIDIMP_f" name="scaling for simvastatin acid import" value="100" units="dimensionless" constant="true">
+      <parameter metaid="meta_SIMACIDIMP_f" sboTerm="SBO:0000002" id="SIMACIDIMP_f" name="scaling for simvastatin acid import" value="0.00813573253447234" units="dimensionless" constant="true">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_SIMACIDIMP_f">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000002"/>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000002"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -389,20 +435,20 @@ Simvastatin lactone 9.7 µM (Chen et al., 2005).</p>
             <rdf:Description rdf:about="#meta_SIMMETSIMP_Km">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000322"/>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000322"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
       </parameter>
-      <parameter metaid="meta_SIMMETSIMP_f" sboTerm="SBO:0000002" id="SIMMETSIMP_f" name="scaling for simvastatin metabolites import" value="100" units="dimensionless" constant="true">
+      <parameter metaid="meta_SIMMETSIMP_f" sboTerm="SBO:0000002" id="SIMMETSIMP_f" name="scaling for simvastatin metabolites import" value="21.5719950233245" units="dimensionless" constant="true">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_SIMMETSIMP_f">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000002"/>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000002"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -415,46 +461,46 @@ Simvastatin lactone 9.7 µM (Chen et al., 2005).</p>
             <rdf:Description rdf:about="#meta_ESTERASE_Km">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000322"/>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000322"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
       </parameter>
-      <parameter metaid="meta_ESTERASE_f" sboTerm="SBO:0000002" id="ESTERASE_f" name="scaling esterase" value="1" units="dimensionless" constant="true">
+      <parameter metaid="meta_ESTERASE_f" sboTerm="SBO:0000002" id="ESTERASE_f" name="scaling esterase" value="0.169649233886581" units="dimensionless" constant="true">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_ESTERASE_f">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000002"/>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000002"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
       </parameter>
-      <parameter metaid="meta_SIMACID_CYP3A4_f" sboTerm="SBO:0000002" id="SIMACID_CYP3A4_f" name="scaling of simacid conversion relative to simva" value="1" units="dimensionless" constant="true">
+      <parameter metaid="meta_SIMACID_CYP3A4_f" sboTerm="SBO:0000002" id="SIMACID_CYP3A4_f" name="scaling of simacid conversion relative to simva" value="4.71220615375002" units="dimensionless" constant="true">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_SIMACID_CYP3A4_f">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000002"/>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000002"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
       </parameter>
-      <parameter metaid="meta_EHC_simmets_k" sboTerm="SBO:0000009" id="EHC_simmets_k" name="rate of EHC for simvastatin metabolites" value="0.1" units="per_min" constant="true">
+      <parameter metaid="meta_EHC_simmets_k" sboTerm="SBO:0000009" id="EHC_simmets_k" name="rate of EHC for simvastatin metabolites" value="3.11377145675411" units="per_min" constant="true">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_EHC_simmets_k">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000009"/>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000009"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -463,13 +509,13 @@ Simvastatin lactone 9.7 µM (Chen et al., 2005).</p>
       </parameter>
     </listOfParameters>
     <listOfReactions>
-      <reaction metaid="meta_SIMVAIMP" sboTerm="SBO:0000655" id="SIMVAIMP" name="SV import" reversible="true" fast="false" compartment="Vli_membrane">
+      <reaction metaid="meta_SIMVAIMP" sboTerm="SBO:0000655" id="SIMVAIMP" name="SV import" reversible="true" compartment="Vbaso">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_SIMVAIMP">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000655"/>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000655"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -482,7 +528,7 @@ Simvastatin lactone 9.7 µM (Chen et al., 2005).</p>
           <speciesReference species="simva" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+          <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
             <apply>
               <divide/>
               <apply>
@@ -521,13 +567,13 @@ Simvastatin lactone 9.7 µM (Chen et al., 2005).</p>
           </math>
         </kineticLaw>
       </reaction>
-      <reaction metaid="meta_SIMACIDIMP" sboTerm="SBO:0000655" id="SIMACIDIMP" name="SVA export (OATP1B1)" reversible="true" fast="false" compartment="Vli_membrane">
+      <reaction metaid="meta_SIMACIDIMP" sboTerm="SBO:0000655" id="SIMACIDIMP" name="SVA export (OATP1B1)" reversible="true" compartment="Vbaso">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_SIMACIDIMP">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000655"/>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000655"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -540,7 +586,7 @@ Simvastatin lactone 9.7 µM (Chen et al., 2005).</p>
           <speciesReference species="simacid_ext" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+          <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
             <apply>
               <divide/>
               <apply>
@@ -579,13 +625,13 @@ Simvastatin lactone 9.7 µM (Chen et al., 2005).</p>
           </math>
         </kineticLaw>
       </reaction>
-      <reaction metaid="meta_SIMMETSIMP" sboTerm="SBO:0000655" id="SIMMETSIMP" name="SVM export (OATP1B1)" reversible="true" fast="false" compartment="Vli_membrane">
+      <reaction metaid="meta_SIMMETSIMP" sboTerm="SBO:0000655" id="SIMMETSIMP" name="SVM export (OATP1B1)" reversible="true" compartment="Vbaso">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_SIMMETSIMP">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000655"/>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000655"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -598,7 +644,7 @@ Simvastatin lactone 9.7 µM (Chen et al., 2005).</p>
           <speciesReference species="simmets_ext" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+          <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
             <apply>
               <divide/>
               <apply>
@@ -637,7 +683,7 @@ Simvastatin lactone 9.7 µM (Chen et al., 2005).</p>
           </math>
         </kineticLaw>
       </reaction>
-      <reaction metaid="meta_ESTERASE" sboTerm="SBO:0000176" id="ESTERASE" name="Esterase: SV to SVA" reversible="false" fast="false" compartment="Vli">
+      <reaction metaid="meta_ESTERASE" sboTerm="SBO:0000176" id="ESTERASE" name="Esterase: SV to SVA" reversible="false" compartment="Vli">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>[Fukami2010] Ki, 0.8 +- 0.1 (human liver microsomes)</p>
@@ -648,7 +694,7 @@ Simvastatin lactone 9.7 µM (Chen et al., 2005).</p>
             <rdf:Description rdf:about="#meta_ESTERASE">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000176"/>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000176"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -683,13 +729,13 @@ Simvastatin lactone 9.7 µM (Chen et al., 2005).</p>
           </math>
         </kineticLaw>
       </reaction>
-      <reaction metaid="meta_SIMVA_CYP3A4" sboTerm="SBO:0000176" id="SIMVA_CYP3A4" name="CYP3A4: SV to SVM" reversible="false" fast="false" compartment="Vli">
+      <reaction metaid="meta_SIMVA_CYP3A4" sboTerm="SBO:0000176" id="SIMVA_CYP3A4" name="CYP3A4: SV to SVM" reversible="false" compartment="Vli">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_SIMVA_CYP3A4">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000176"/>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000176"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -720,13 +766,13 @@ Simvastatin lactone 9.7 µM (Chen et al., 2005).</p>
           </math>
         </kineticLaw>
       </reaction>
-      <reaction metaid="meta_SIMACID_CYP3A4" sboTerm="SBO:0000176" id="SIMACID_CYP3A4" name="CYP3A4: SVA to SVM" reversible="false" fast="false" compartment="Vli">
+      <reaction metaid="meta_SIMACID_CYP3A4" sboTerm="SBO:0000176" id="SIMACID_CYP3A4" name="CYP3A4: SVA to SVM" reversible="false" compartment="Vli">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_SIMACID_CYP3A4">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000176"/>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000176"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -761,13 +807,13 @@ Simvastatin lactone 9.7 µM (Chen et al., 2005).</p>
           </math>
         </kineticLaw>
       </reaction>
-      <reaction metaid="meta_EHC_simmets" sboTerm="SBO:0000655" id="EHC_simmets" name="EHC SVM" reversible="false" fast="false" compartment="Vli_membrane">
+      <reaction metaid="meta_EHC_simmets" sboTerm="SBO:0000655" id="EHC_simmets" name="EHC SVM" reversible="false" compartment="Vapical">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_EHC_simmets">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000655"/>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000655"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -777,7 +823,7 @@ Simvastatin lactone 9.7 µM (Chen et al., 2005).</p>
           <speciesReference species="simmets" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="simmets_gu" stoichiometry="1" constant="true"/>
+          <speciesReference species="simmets_lumen" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -796,12 +842,11 @@ Simvastatin lactone 9.7 µM (Chen et al., 2005).</p>
       <comp:port metaid="SIMVA_CYP3A4LI_Vmax_port" sboTerm="SBO:0000599" comp:idRef="SIMVA_CYP3A4LI_Vmax" comp:id="SIMVA_CYP3A4LI_Vmax_port" comp:name="Port of SIMVA_CYP3A4LI_Vmax"/>
       <comp:port metaid="Vext_port" sboTerm="SBO:0000599" comp:idRef="Vext" comp:id="Vext_port" comp:name="Port of Vext"/>
       <comp:port metaid="Vli_port" sboTerm="SBO:0000599" comp:idRef="Vli" comp:id="Vli_port" comp:name="Port of Vli"/>
-      <comp:port metaid="Vint_port" sboTerm="SBO:0000599" comp:idRef="Vint" comp:id="Vint_port" comp:name="Port of Vint"/>
-      <comp:port metaid="Vli_membrane_port" sboTerm="SBO:0000599" comp:idRef="Vli_membrane" comp:id="Vli_membrane_port" comp:name="Port of Vli_membrane"/>
+      <comp:port metaid="Vlumen_port" sboTerm="SBO:0000599" comp:idRef="Vlumen" comp:id="Vlumen_port" comp:name="Port of Vlumen"/>
       <comp:port metaid="simva_ext_port" sboTerm="SBO:0000599" comp:idRef="simva_ext" comp:id="simva_ext_port" comp:name="Port of simva_ext"/>
       <comp:port metaid="simacid_ext_port" sboTerm="SBO:0000599" comp:idRef="simacid_ext" comp:id="simacid_ext_port" comp:name="Port of simacid_ext"/>
       <comp:port metaid="simmets_ext_port" sboTerm="SBO:0000599" comp:idRef="simmets_ext" comp:id="simmets_ext_port" comp:name="Port of simmets_ext"/>
-      <comp:port metaid="simmets_gu_port" sboTerm="SBO:0000599" comp:idRef="simmets_gu" comp:id="simmets_gu_port" comp:name="Port of simmets_gu"/>
+      <comp:port metaid="simmets_lumen_port" sboTerm="SBO:0000599" comp:idRef="simmets_lumen" comp:id="simmets_lumen_port" comp:name="Port of simmets_lumen"/>
     </comp:listOfPorts>
   </model>
 </sbml>

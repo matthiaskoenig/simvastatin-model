@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" xmlns:comp="http://www.sbml.org/sbml/level3/version1/comp/version1" level="3" version="1" comp:required="true">
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" xmlns:comp="http://www.sbml.org/sbml/level3/version1/comp/version1" level="3" version="2" comp:required="true">
   <notes>
     <body xmlns="http://www.w3.org/1999/xhtml">
       <p>Created with <a href="https://github.com/matthiaskoenig/sbmlutils">https://github.com/matthiaskoenig/sbmlutils</a>.
@@ -12,19 +12,19 @@
       <body xmlns="http://www.w3.org/1999/xhtml">
         <h1>Model for intestinal/gut simvastatin metabolism</h1>
         <ul>
-          <li>Simvastatin is taken up via absorption and appears within the intestinal wall
-cells. The absorption processes are modeled in the whole-body model.</li>
+          <li>Simvastatin is taken up via absorption and appears within the enterocytes. Complete absorption is assumed.</li>
+          <li>Simvastatin metabolites are taken up via absorption and appears within the enterocytes. Incomplete absorption
+is assumed and non-absorbed metabolites are excreted in the feces (only simvastatin metabolites are found in feces).</li>
           <li>Simvastatin can be converted to simvastatin metabolites by CYP3A4
 (first pass metabolism).</li>
           <li>The possible conversion simvastatin -&gt; simvastatin acid (esterases) and
 simvastatin acid -&gt; simvastatin metabolites are assumed to mainly take place in
-the liver, and are not modeled explicitly.</li>
-          <li>Simvastatin is transported irreversible.</li>
-          <li>Only simvastatin metabolites are found in feces. Irreversible clearance reaction.</li>
+the liver, and are not modeled in the intestine.</li>
+          <li>Simvastatin and simvastatin metabolites are transported irreversible from the enterocytes in the gut plasma.</li>
         </ul>
         <p>The content of this model has been carefully created in a manual research effort.</p>
         <h2>Terms of use</h2>
-        <p>Copyright © 2021 <a href="https://livermetabolism.com" title="Matthias König" target="_blank">Matthias König</a>.</p>
+        <p>Copyright © 2023 <a href="https://livermetabolism.com" title="Matthias König" target="_blank">Matthias König</a>.</p>
         <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
           <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png"/>
         </a>
@@ -46,24 +46,20 @@ implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</p></bo
           <dcterms:creator>
             <rdf:Bag>
               <rdf:li rdf:parseType="Resource">
-                <vCard:N rdf:parseType="Resource">
-                  <vCard:Family>Bartsch</vCard:Family>
-                  <vCard:Given>Florian</vCard:Given>
-                </vCard:N>
-                <vCard:EMAIL>florian@mathiasbartsch.de</vCard:EMAIL>
-                <vCard:ORG rdf:parseType="Resource">
-                  <vCard:Orgname>Humboldt-University Berlin, Institute for Theoretical Biology</vCard:Orgname>
-                </vCard:ORG>
+                <vCard4:hasName rdf:parseType="Resource">
+                  <vCard4:family-name>Bartsch</vCard4:family-name>
+                  <vCard4:given-name>Florian</vCard4:given-name>
+                </vCard4:hasName>
+                <vCard4:hasEmail>florian@mathiasbartsch.de</vCard4:hasEmail>
+                <vCard4:organization-name>Humboldt-University Berlin, Institute for Theoretical Biology</vCard4:organization-name>
               </rdf:li>
               <rdf:li rdf:parseType="Resource">
-                <vCard:N rdf:parseType="Resource">
-                  <vCard:Family>König</vCard:Family>
-                  <vCard:Given>Matthias</vCard:Given>
-                </vCard:N>
-                <vCard:EMAIL>koenigmx@hu-berlin.de</vCard:EMAIL>
-                <vCard:ORG rdf:parseType="Resource">
-                  <vCard:Orgname>Humboldt-University Berlin, Institute for Theoretical Biology</vCard:Orgname>
-                </vCard:ORG>
+                <vCard4:hasName rdf:parseType="Resource">
+                  <vCard4:family-name>König</vCard4:family-name>
+                  <vCard4:given-name>Matthias</vCard4:given-name>
+                </vCard4:hasName>
+                <vCard4:hasEmail>koenigmx@hu-berlin.de</vCard4:hasEmail>
+                <vCard4:organization-name>Humboldt-University Berlin, Institute for Theoretical Biology</vCard4:organization-name>
               </rdf:li>
             </rdf:Bag>
           </dcterms:creator>
@@ -77,6 +73,12 @@ implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</p></bo
       </rdf:RDF>
     </annotation>
     <listOfUnitDefinitions>
+      <unitDefinition id="g_per_mole" name="g/mole">
+        <listOfUnits>
+          <unit kind="gram" exponent="1" scale="0" multiplier="1"/>
+          <unit kind="mole" exponent="-1" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
       <unitDefinition id="kg" name="kilogram">
         <listOfUnits>
           <unit kind="gram" exponent="1" scale="0" multiplier="1000"/>
@@ -95,6 +97,13 @@ implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</p></bo
           <unit kind="gram" exponent="-1" scale="0" multiplier="1000"/>
         </listOfUnits>
       </unitDefinition>
+      <unitDefinition id="l_per_min_mmole" name="l/min/mmole">
+        <listOfUnits>
+          <unit kind="litre" exponent="1" scale="0" multiplier="1"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="60"/>
+          <unit kind="mole" exponent="-1" scale="0" multiplier="0.001"/>
+        </listOfUnits>
+      </unitDefinition>
       <unitDefinition id="m2" name="meter^2">
         <listOfUnits>
           <unit kind="metre" exponent="2" scale="0" multiplier="1"/>
@@ -106,9 +115,20 @@ implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</p></bo
           <unit kind="litre" exponent="-1" scale="0" multiplier="1"/>
         </listOfUnits>
       </unitDefinition>
+      <unitDefinition id="mg" name="mg">
+        <listOfUnits>
+          <unit kind="gram" exponent="1" scale="0" multiplier="0.001"/>
+        </listOfUnits>
+      </unitDefinition>
       <unitDefinition id="min" name="min">
         <listOfUnits>
           <unit kind="second" exponent="1" scale="0" multiplier="60"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="min_per_hr" name="min/hr">
+        <listOfUnits>
+          <unit kind="second" exponent="1" scale="0" multiplier="60"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="3600"/>
         </listOfUnits>
       </unitDefinition>
       <unitDefinition id="mmole" name="mmole">
@@ -122,16 +142,27 @@ implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</p></bo
           <unit kind="second" exponent="-1" scale="0" multiplier="60"/>
         </listOfUnits>
       </unitDefinition>
-      <unitDefinition id="mmole_per_min_l" name="mmole/min/l">
+      <unitDefinition id="mmole_per_min_l" name="mmole/min/liter">
         <listOfUnits>
           <unit kind="mole" exponent="1" scale="0" multiplier="0.001"/>
           <unit kind="second" exponent="-1" scale="0" multiplier="60"/>
           <unit kind="litre" exponent="-1" scale="0" multiplier="1"/>
         </listOfUnits>
       </unitDefinition>
+      <unitDefinition id="per_hr" name="1/hr">
+        <listOfUnits>
+          <unit kind="second" exponent="-1" scale="0" multiplier="3600"/>
+        </listOfUnits>
+      </unitDefinition>
       <unitDefinition id="per_min" name="1/min">
         <listOfUnits>
           <unit kind="second" exponent="-1" scale="0" multiplier="60"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="per_min_l" name="1/min/liter">
+        <listOfUnits>
+          <unit kind="second" exponent="-1" scale="0" multiplier="60"/>
+          <unit kind="litre" exponent="-1" scale="0" multiplier="1"/>
         </listOfUnits>
       </unitDefinition>
     </listOfUnitDefinitions>
@@ -142,26 +173,42 @@ implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</p></bo
             <rdf:Description rdf:about="#meta_Vext">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000290"/>
-                  <rdf:li rdf:resource="https://identifiers.org/FMA:62970"/>
-                  <rdf:li rdf:resource="https://identifiers.org/ncit/C13356"/>
-                  <rdf:li rdf:resource="https://identifiers.org/BTO:0000131"/>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000290"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ncit/C13356"/>
+                  <rdf:li rdf:resource="http://identifiers.org/BTO:0000131"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
       </compartment>
-      <compartment metaid="meta_Vint" sboTerm="SBO:0000290" id="Vint" name="intestine" spatialDimensions="3" size="1" units="litre" constant="true">
+      <compartment metaid="meta_Vgu" sboTerm="SBO:0000290" id="Vgu" name="intestine" spatialDimensions="3" size="1.2825" units="litre" constant="true">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_Vint">
+            <rdf:Description rdf:about="#meta_Vgu">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000290"/>
-                  <rdf:li rdf:resource="https://identifiers.org/FMA:7199"/>
-                  <rdf:li rdf:resource="https://identifiers.org/ncit/C12736"/>
-                  <rdf:li rdf:resource="https://identifiers.org/BTO:0000648"/>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000290"/>
+                  <rdf:li rdf:resource="http://identifiers.org/FMA:45615"/>
+                  <rdf:li rdf:resource="http://identifiers.org/BTO:0000545"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ncit/C12736"/>
+                  <rdf:li rdf:resource="http://identifiers.org/FMA:7199"/>
+                  <rdf:li rdf:resource="http://identifiers.org/BTO:0000648"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </compartment>
+      <compartment metaid="meta_Vlumen" sboTerm="SBO:0000290" id="Vlumen" name="intestinal lumen (inner part of intestine)" spatialDimensions="3" size="1.15425" units="litre" constant="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_Vlumen">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000290"/>
+                  <rdf:li rdf:resource="http://identifiers.org/FMA:14586"/>
+                  <rdf:li rdf:resource="http://identifiers.org/UBERON:0018543"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -174,10 +221,53 @@ implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</p></bo
             <rdf:Description rdf:about="#meta_Vfeces">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000290"/>
-                  <rdf:li rdf:resource="https://identifiers.org/FMA:64183"/>
-                  <rdf:li rdf:resource="https://identifiers.org/ncit/C13234"/>
-                  <rdf:li rdf:resource="https://identifiers.org/BTO:0000440"/>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000290"/>
+                  <rdf:li rdf:resource="http://identifiers.org/FMA:64183"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ncit/C13234"/>
+                  <rdf:li rdf:resource="http://identifiers.org/BTO:0000440"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </compartment>
+      <compartment metaid="meta_Ventero" sboTerm="SBO:0000290" id="Ventero" name="intestinal lining (enterocytes)" spatialDimensions="3" size="NaN" units="litre" constant="true">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_Ventero">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000290"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </compartment>
+      <compartment metaid="meta_Vapical" sboTerm="SBO:0000290" id="Vapical" name="apical membrane (intestinal membrane enterocytes)" spatialDimensions="2" size="NaN" units="m2" constant="true">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_Vapical">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000290"/>
+                  <rdf:li rdf:resource="http://identifiers.org/FMA:84666"/>
+                  <rdf:li rdf:resource="http://identifiers.org/GO:0016324"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </compartment>
+      <compartment metaid="meta_Vbaso" sboTerm="SBO:0000290" id="Vbaso" name="basolateral membrane (intestinal membrane enterocytes)" spatialDimensions="2" size="NaN" units="m2" constant="true">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_Vbaso">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000290"/>
+                  <rdf:li rdf:resource="http://identifiers.org/FMA:84669"/>
+                  <rdf:li rdf:resource="http://identifiers.org/GO:0016323"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -186,32 +276,74 @@ implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</p></bo
       </compartment>
     </listOfCompartments>
     <listOfSpecies>
-      <species metaid="meta_simva_ext" sboTerm="SBO:0000247" id="simva_ext" name="simvastatin (plasma)" compartment="Vext" initialConcentration="0" substanceUnits="mmole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species metaid="meta_simva_lumen" sboTerm="SBO:0000247" id="simva_lumen" name="simvastatin (intestinal lumen)" compartment="Vlumen" initialConcentration="0" substanceUnits="mmole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_simva_ext">
+            <rdf:Description rdf:about="#meta_simva_lumen">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000247"/>
-                  <rdf:li rdf:resource="https://identifiers.org/ncit/C29454"/>
-                  <rdf:li rdf:resource="https://identifiers.org/CHEBI:9150"/>
-                  <rdf:li rdf:resource="https://identifiers.org/omit/0019802"/>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000247"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ncit/C29454"/>
+                  <rdf:li rdf:resource="http://identifiers.org/CHEBI:9150"/>
+                  <rdf:li rdf:resource="http://identifiers.org/omit/0019802"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_simacid_ext" sboTerm="SBO:0000247" id="simacid_ext" name="simvastatin acid (plasma)" compartment="Vext" initialConcentration="0" substanceUnits="mmole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species metaid="meta_simva" sboTerm="SBO:0000247" id="simva" name="simvastatin (enterocytes)" compartment="Vgu" initialConcentration="0" substanceUnits="mmole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_simacid_ext">
+            <rdf:Description rdf:about="#meta_simva">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000247"/>
-                  <rdf:li rdf:resource="https://identifiers.org/ncit/C96309"/>
-                  <rdf:li rdf:resource="https://identifiers.org/pubchem.substance/64718"/>
-                  <rdf:li rdf:resource="https://identifiers.org/inchikey/XWLXKKNPFMNSFA-HGQWONQESA-N"/>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000247"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ncit/C29454"/>
+                  <rdf:li rdf:resource="http://identifiers.org/CHEBI:9150"/>
+                  <rdf:li rdf:resource="http://identifiers.org/omit/0019802"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_simva_ext" sboTerm="SBO:0000247" id="simva_ext" name="simvastatin (plasma)" compartment="Vext" initialConcentration="0" substanceUnits="mmole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_simva_ext">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000247"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ncit/C29454"/>
+                  <rdf:li rdf:resource="http://identifiers.org/CHEBI:9150"/>
+                  <rdf:li rdf:resource="http://identifiers.org/omit/0019802"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_simmets_lumen" sboTerm="SBO:0000247" id="simmets_lumen" name="simvastatin metabolites (intestinal lumen)" compartment="Vlumen" initialConcentration="0" substanceUnits="mmole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_simmets_lumen">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000247"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="meta_simmets" sboTerm="SBO:0000247" id="simmets" name="simvastatin metabolites (intestine)" compartment="Vgu" initialConcentration="0" substanceUnits="mmole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_simmets">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000247"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -224,52 +356,7 @@ implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</p></bo
             <rdf:Description rdf:about="#meta_simmets_ext">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000247"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="meta_simva" sboTerm="SBO:0000247" id="simva" name="simvastatin (intestine)" compartment="Vint" initialConcentration="0" substanceUnits="mmole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_simva">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000247"/>
-                  <rdf:li rdf:resource="https://identifiers.org/ncit/C29454"/>
-                  <rdf:li rdf:resource="https://identifiers.org/CHEBI:9150"/>
-                  <rdf:li rdf:resource="https://identifiers.org/omit/0019802"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="meta_simacid" sboTerm="SBO:0000247" id="simacid" name="simvastatin acid (intestine)" compartment="Vint" initialConcentration="0" substanceUnits="mmole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_simacid">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000247"/>
-                  <rdf:li rdf:resource="https://identifiers.org/ncit/C96309"/>
-                  <rdf:li rdf:resource="https://identifiers.org/pubchem.substance/64718"/>
-                  <rdf:li rdf:resource="https://identifiers.org/inchikey/XWLXKKNPFMNSFA-HGQWONQESA-N"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="meta_simmets" sboTerm="SBO:0000247" id="simmets" name="simvastatin metabolites (intestine)" compartment="Vint" initialConcentration="0" substanceUnits="mmole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_simmets">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000247"/>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000247"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -282,7 +369,7 @@ implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</p></bo
             <rdf:Description rdf:about="#meta_simmets_feces">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000247"/>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000247"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -291,13 +378,85 @@ implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</p></bo
       </species>
     </listOfSpecies>
     <listOfParameters>
+      <parameter metaid="meta_F_abs_simva" sboTerm="SBO:0000002" id="F_abs_simva" name="fraction absorbed simvastatin" value="1" units="dimensionless" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>Fraction absorbed, i.e., only a fraction of the simvastatin in the intestinal lumen
+is absorbed. Due to total absorption no simvastatin reaches the feces.
+(~60% Cheng1993, ~61-85% Vickers1990a, probably bioavailability).</p>
+            <ul>
+              <li>Model structure only works for complete absorption, i.e., F=1.0. Otherwise extension
+with fecal excretion required.</li>
+            </ul>
+          </body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_F_abs_simva">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000002"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </parameter>
+      <parameter metaid="meta_F_abs_simmets" sboTerm="SBO:0000002" id="F_abs_simmets" name="fraction absorbed simvastatin metabolites" value="0.269058563251583" units="dimensionless" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>Fraction absorbed, i.e., only a fraction of the simvastatin metabolites in the intestinal lumen
+is absorbed. This parameter determines how much of the simvastatin metabolites is excreted in
+every round of the enterohepatic circulation.</p>
+            <p>
+              <code>F_abs_simmets</code> of dose is absorbed. <code>(1-F_abs_simmets)</code> is excreted in feces.</p>
+            </body>
+          </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_F_abs_simmets">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000002"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </parameter>
+      <parameter metaid="meta_SIMVAABS_k" sboTerm="SBO:0000002" id="SIMVAABS_k" name="rate of absorption simvastatin" value="1.50880120939059" units="per_hr" constant="true">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_SIMVAABS_k">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000002"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </parameter>
+      <parameter metaid="meta_SIMMETSABS_k" sboTerm="SBO:0000002" id="SIMMETSABS_k" name="rate of absorption simvastatin metabolites" value="0.0224530492990211" units="per_hr" constant="true">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_SIMMETSABS_k">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000002"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </parameter>
       <parameter metaid="meta_CYP3A4_Km" sboTerm="SBO:0000322" id="CYP3A4_Km" name="Km CYP3A4" value="0.025" units="mM" constant="true">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_CYP3A4_Km">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000322"/>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000322"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -310,27 +469,14 @@ implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</p></bo
             <rdf:Description rdf:about="#meta_SIMVA_CYP3A4LI_Vmax">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000186"/>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000186"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
       </parameter>
-      <parameter metaid="meta_SIMMETSCLKI_k" sboTerm="SBO:0000009" id="SIMMETSCLKI_k" name="scaling of renal and fecal clearance" value="0.01" units="per_min" constant="true">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_SIMMETSCLKI_k">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000009"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </parameter>
-      <parameter metaid="meta_SIMVA_CYP3A4_f" sboTerm="SBO:0000002" id="SIMVA_CYP3A4_f" name="scaling of intestinal Vmax CYP3A4 relative to liver" value="1" units="dimensionless" constant="true">
+      <parameter metaid="meta_SIMVA_CYP3A4_f" sboTerm="SBO:0000002" id="SIMVA_CYP3A4_f" name="scaling of intestinal Vmax CYP3A4 relative to liver" value="0.00102579844361996" units="dimensionless" constant="true">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>
@@ -346,14 +492,13 @@ implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</p></bo
             <rdf:Description rdf:about="#meta_SIMVA_CYP3A4_f">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000002"/>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000002"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
       </parameter>
-      <parameter id="SIMVA_CYP3A4GU_Vmax" name="Vmax for CYP3A4 metabolism" value="NaN" units="mmole_per_min_l" constant="false"/>
       <parameter metaid="meta_SIMVAEXP_Km" sboTerm="SBO:0000322" id="SIMVAEXP_Km" name="Km simvastatin export" value="0.0097" units="mM" constant="true">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
@@ -366,52 +511,20 @@ simvastatin lactone 9.7 µM (Chen et al., 2005)</p>
             <rdf:Description rdf:about="#meta_SIMVAEXP_Km">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000322"/>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000322"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
       </parameter>
-      <parameter metaid="meta_SIMVAEXP_f" sboTerm="SBO:0000002" id="SIMVAEXP_f" name="scaling simvastatin export" value="100" units="dimensionless" constant="true">
+      <parameter metaid="meta_SIMVAEXP_f" sboTerm="SBO:0000002" id="SIMVAEXP_f" name="scaling simvastatin export" value="10.962705138908" units="dimensionless" constant="true">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_SIMVAEXP_f">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000002"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </parameter>
-      <parameter metaid="meta_SIMACIDEXP_Km" sboTerm="SBO:0000322" id="SIMACIDEXP_Km" name="Km simvastatin acid export" value="0.0036" units="mM" constant="true">
-        <notes>
-          <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>Assuming identical Km then OATP1B1 in liver:
-Simvastatin acid 3.6 µM (Nakai et al., 2001; Chen et al., 2005)</p>
-          </body>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_SIMACIDEXP_Km">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000322"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </parameter>
-      <parameter metaid="meta_SIMACIDEXP_f" sboTerm="SBO:0000002" id="SIMACIDEXP_f" name="scaling simvastatin acid export" value="100" units="dimensionless" constant="true">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_SIMACIDEXP_f">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000002"/>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000002"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -424,55 +537,45 @@ Simvastatin acid 3.6 µM (Nakai et al., 2001; Chen et al., 2005)</p>
             <rdf:Description rdf:about="#meta_SIMMETSEXP_Km">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000322"/>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000322"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
       </parameter>
-      <parameter metaid="meta_SIMMETSEXP_f" sboTerm="SBO:0000002" id="SIMMETSEXP_f" name="scaling simvastatin metabolite export" value="100" units="dimensionless" constant="true">
+      <parameter metaid="meta_SIMMETSEXP_f" sboTerm="SBO:0000002" id="SIMMETSEXP_f" name="scaling simvastatin metabolite export" value="29.2759147390725" units="dimensionless" constant="true">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_SIMMETSEXP_f">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000002"/>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000002"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
       </parameter>
-      <parameter metaid="meta_SIMACID_CYP3A4_f" sboTerm="SBO:0000002" id="SIMACID_CYP3A4_f" name="scaling of CYP3A4 activity" value="1" units="dimensionless" constant="true">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_SIMACID_CYP3A4_f">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000002"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </parameter>
-      <parameter metaid="meta_SIMMETSCL_f" sboTerm="SBO:0000002" id="SIMMETSCL_f" name="scaling fecal simvastatin clearance" value="1" units="dimensionless" constant="true">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_SIMMETSCL_f">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000002"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </parameter>
+      <parameter id="absorption_simmets" name="absorption simvastatin metabolites" value="NaN" units="mmole_per_min" constant="false"/>
+      <parameter id="SIMVA_CYP3A4GU_Vmax" name="Vmax for CYP3A4 metabolism" value="NaN" units="mmole_per_min_l" constant="false"/>
     </listOfParameters>
     <listOfRules>
-      <assignmentRule variable="SIMVA_CYP3A4GU_Vmax">
+      <assignmentRule name="absorption simvastatin metabolites" variable="absorption_simmets">
+        <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
+          <apply>
+            <times/>
+            <apply>
+              <divide/>
+              <ci> SIMMETSABS_k </ci>
+              <cn sbml:units="min_per_hr" type="integer"> 60 </cn>
+            </apply>
+            <ci> Vgu </ci>
+            <ci> simmets_lumen </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule name="Vmax for CYP3A4 metabolism" variable="SIMVA_CYP3A4GU_Vmax">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <apply>
             <times/>
@@ -483,13 +586,110 @@ Simvastatin acid 3.6 µM (Nakai et al., 2001; Chen et al., 2005)</p>
       </assignmentRule>
     </listOfRules>
     <listOfReactions>
-      <reaction metaid="meta_SIMVAEXP" sboTerm="SBO:0000655" id="SIMVAEXP" name="SV export" reversible="false" fast="false" compartment="Vint">
+      <reaction metaid="meta_SIMVAABS" sboTerm="SBO:0000655" id="SIMVAABS" name="absorption simvastatin" reversible="false" compartment="Vbaso">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_SIMVAABS">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000655"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="simva_lumen" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="simva" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> F_abs_simva </ci>
+                  <ci> SIMVAABS_k </ci>
+                </apply>
+                <cn sbml:units="min_per_hr" type="integer"> 60 </cn>
+              </apply>
+              <ci> Vgu </ci>
+              <ci> simva_lumen </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="meta_SIMMETSABS" sboTerm="SBO:0000655" id="SIMMETSABS" name="absorption simvastatin metabolites" reversible="false" compartment="Vbaso">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_SIMMETSABS">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000655"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="simmets_lumen" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="simmets" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> F_abs_simmets </ci>
+              <ci> absorption_simmets </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="meta_SIMMETSEXC" sboTerm="SBO:0000655" id="SIMMETSEXC" name="excretion simvastatin metabolites" reversible="false" compartment="Vlumen">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_SIMMETSEXC">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000655"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="simmets_lumen" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="simmets_feces" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core">
+            <apply>
+              <times/>
+              <apply>
+                <minus/>
+                <cn sbml:units="dimensionless" type="integer"> 1 </cn>
+                <ci> F_abs_simmets </ci>
+              </apply>
+              <ci> absorption_simmets </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="meta_SIMVAEXP" sboTerm="SBO:0000655" id="SIMVAEXP" name="SV export" reversible="false" compartment="Vapical">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_SIMVAEXP">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000655"/>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000655"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -507,7 +707,7 @@ Simvastatin acid 3.6 µM (Nakai et al., 2001; Chen et al., 2005)</p>
               <divide/>
               <apply>
                 <times/>
-                <ci> Vint </ci>
+                <ci> Vgu </ci>
                 <apply>
                   <times/>
                   <ci> SIMVA_CYP3A4GU_Vmax </ci>
@@ -524,48 +724,7 @@ Simvastatin acid 3.6 µM (Nakai et al., 2001; Chen et al., 2005)</p>
           </math>
         </kineticLaw>
       </reaction>
-      <reaction metaid="meta_SIMACIDEXP" sboTerm="SBO:0000655" id="SIMACIDEXP" name="SVA export" reversible="false" fast="false" compartment="Vint">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_SIMACIDEXP">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000655"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="simacid" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="simacid_ext" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <apply>
-              <divide/>
-              <apply>
-                <times/>
-                <ci> Vint </ci>
-                <apply>
-                  <times/>
-                  <ci> SIMVA_CYP3A4GU_Vmax </ci>
-                  <ci> SIMACIDEXP_f </ci>
-                </apply>
-                <ci> simacid </ci>
-              </apply>
-              <apply>
-                <plus/>
-                <ci> simacid </ci>
-                <ci> SIMACIDEXP_Km </ci>
-              </apply>
-            </apply>
-          </math>
-        </kineticLaw>
-      </reaction>
-      <reaction metaid="meta_SIMMETSEXP" sboTerm="SBO:0000655" id="SIMMETSEXP" name="SVM export" reversible="false" fast="false" compartment="Vint">
+      <reaction metaid="meta_SIMMETSEXP" sboTerm="SBO:0000655" id="SIMMETSEXP" name="SVM export" reversible="false" compartment="Vapical">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>assuming identical Km then OATP1B1 in liver
@@ -578,7 +737,7 @@ Simvastatin lactone 9.7 µM (Chen et al., 2005)</p>
             <rdf:Description rdf:about="#meta_SIMMETSEXP">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000655"/>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000655"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -596,7 +755,7 @@ Simvastatin lactone 9.7 µM (Chen et al., 2005)</p>
               <divide/>
               <apply>
                 <times/>
-                <ci> Vint </ci>
+                <ci> Vgu </ci>
                 <apply>
                   <times/>
                   <ci> SIMVA_CYP3A4GU_Vmax </ci>
@@ -613,7 +772,7 @@ Simvastatin lactone 9.7 µM (Chen et al., 2005)</p>
           </math>
         </kineticLaw>
       </reaction>
-      <reaction metaid="meta_SIMVA_CYP3A4" sboTerm="SBO:0000176" id="SIMVA_CYP3A4" name="CYP3A4: SV to SVM" reversible="false" fast="false" compartment="Vint">
+      <reaction metaid="meta_SIMVA_CYP3A4" sboTerm="SBO:0000176" id="SIMVA_CYP3A4" name="CYP3A4: SV to SVM" reversible="false" compartment="Ventero">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>CYP3A4: identical Km for simvastatin and simvastatin acid assumed</p>
@@ -624,7 +783,7 @@ Simvastatin lactone 9.7 µM (Chen et al., 2005)</p>
             <rdf:Description rdf:about="#meta_SIMVA_CYP3A4">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000176"/>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000176"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -642,7 +801,7 @@ Simvastatin lactone 9.7 µM (Chen et al., 2005)</p>
               <divide/>
               <apply>
                 <times/>
-                <ci> Vint </ci>
+                <ci> Vgu </ci>
                 <ci> SIMVA_CYP3A4GU_Vmax </ci>
                 <ci> simva </ci>
               </apply>
@@ -651,93 +810,6 @@ Simvastatin lactone 9.7 µM (Chen et al., 2005)</p>
                 <ci> simva </ci>
                 <ci> CYP3A4_Km </ci>
               </apply>
-            </apply>
-          </math>
-        </kineticLaw>
-      </reaction>
-      <reaction metaid="meta_SIMACID_CYP3A4" sboTerm="SBO:0000176" id="SIMACID_CYP3A4" name="CYP3A4: SVA to SVM" reversible="false" fast="false" compartment="Vint">
-        <notes>
-          <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>CYP3A4: identical Km for simvastatin and simvastatin acid assumed</p>
-            <p>see Lilja2004: when applying grapefruit juice (CYP3A4 inhibitor in small
-intestinal wall) -&gt; AUC SV, SVA increases -&gt; CYP3A4 conversion from SV+SVA to
-SVM takes place!</p>
-          </body>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_SIMACID_CYP3A4">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000176"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="simacid" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="simmets" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <apply>
-              <divide/>
-              <apply>
-                <times/>
-                <ci> Vint </ci>
-                <ci> SIMVA_CYP3A4GU_Vmax </ci>
-                <ci> SIMACID_CYP3A4_f </ci>
-                <ci> simacid </ci>
-              </apply>
-              <apply>
-                <plus/>
-                <ci> simacid </ci>
-                <ci> CYP3A4_Km </ci>
-              </apply>
-            </apply>
-          </math>
-        </kineticLaw>
-      </reaction>
-      <reaction metaid="meta_SIMMETSCL" sboTerm="SBO:0000655" id="SIMMETSCL" name="fecal SVM clearance" reversible="false" fast="false" compartment="Vint">
-        <notes>
-          <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>Clearance reaction into feces for simvastatin acid metabolites
-assumption: no excretion of simva and simacid
-how much of the enterohepatic circulation is removed to the feces
-(&lt; 100% recirculate to liver)</p>
-          </body>
-        </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_SIMMETSCL">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="https://identifiers.org/SBO:0000655"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-        <listOfReactants>
-          <speciesReference species="simmets" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="simmets_feces" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <apply>
-              <times/>
-              <ci> Vint </ci>
-              <apply>
-                <times/>
-                <ci> SIMMETSCLKI_k </ci>
-                <ci> SIMMETSCL_f </ci>
-              </apply>
-              <ci> simmets </ci>
             </apply>
           </math>
         </kineticLaw>
@@ -746,16 +818,16 @@ how much of the enterohepatic circulation is removed to the feces
     <comp:listOfPorts>
       <comp:port metaid="CYP3A4_Km_port" sboTerm="SBO:0000599" comp:idRef="CYP3A4_Km" comp:id="CYP3A4_Km_port" comp:name="Port of CYP3A4_Km"/>
       <comp:port metaid="SIMVA_CYP3A4LI_Vmax_port" sboTerm="SBO:0000599" comp:idRef="SIMVA_CYP3A4LI_Vmax" comp:id="SIMVA_CYP3A4LI_Vmax_port" comp:name="Port of SIMVA_CYP3A4LI_Vmax"/>
-      <comp:port metaid="SIMMETSCLKI_k_port" sboTerm="SBO:0000599" comp:idRef="SIMMETSCLKI_k" comp:id="SIMMETSCLKI_k_port" comp:name="Port of SIMMETSCLKI_k"/>
       <comp:port metaid="Vext_port" sboTerm="SBO:0000599" comp:idRef="Vext" comp:id="Vext_port" comp:name="Port of Vext"/>
-      <comp:port metaid="Vint_port" sboTerm="SBO:0000599" comp:idRef="Vint" comp:id="Vint_port" comp:name="Port of Vint"/>
+      <comp:port metaid="Vgu_port" sboTerm="SBO:0000599" comp:idRef="Vgu" comp:id="Vgu_port" comp:name="Port of Vgu"/>
+      <comp:port metaid="Vlumen_port" sboTerm="SBO:0000599" comp:idRef="Vlumen" comp:id="Vlumen_port" comp:name="Port of Vlumen"/>
       <comp:port metaid="Vfeces_port" sboTerm="SBO:0000599" comp:idRef="Vfeces" comp:id="Vfeces_port" comp:name="Port of Vfeces"/>
-      <comp:port metaid="simva_ext_port" sboTerm="SBO:0000599" comp:idRef="simva_ext" comp:id="simva_ext_port" comp:name="Port of simva_ext"/>
-      <comp:port metaid="simacid_ext_port" sboTerm="SBO:0000599" comp:idRef="simacid_ext" comp:id="simacid_ext_port" comp:name="Port of simacid_ext"/>
-      <comp:port metaid="simmets_ext_port" sboTerm="SBO:0000599" comp:idRef="simmets_ext" comp:id="simmets_ext_port" comp:name="Port of simmets_ext"/>
+      <comp:port metaid="simva_lumen_port" sboTerm="SBO:0000599" comp:idRef="simva_lumen" comp:id="simva_lumen_port" comp:name="Port of simva_lumen"/>
       <comp:port metaid="simva_port" sboTerm="SBO:0000599" comp:idRef="simva" comp:id="simva_port" comp:name="Port of simva"/>
-      <comp:port metaid="simacid_port" sboTerm="SBO:0000599" comp:idRef="simacid" comp:id="simacid_port" comp:name="Port of simacid"/>
+      <comp:port metaid="simva_ext_port" sboTerm="SBO:0000599" comp:idRef="simva_ext" comp:id="simva_ext_port" comp:name="Port of simva_ext"/>
+      <comp:port metaid="simmets_lumen_port" sboTerm="SBO:0000599" comp:idRef="simmets_lumen" comp:id="simmets_lumen_port" comp:name="Port of simmets_lumen"/>
       <comp:port metaid="simmets_port" sboTerm="SBO:0000599" comp:idRef="simmets" comp:id="simmets_port" comp:name="Port of simmets"/>
+      <comp:port metaid="simmets_ext_port" sboTerm="SBO:0000599" comp:idRef="simmets_ext" comp:id="simmets_ext_port" comp:name="Port of simmets_ext"/>
       <comp:port metaid="simmets_feces_port" sboTerm="SBO:0000599" comp:idRef="simmets_feces" comp:id="simmets_feces_port" comp:name="Port of simmets_feces"/>
     </comp:listOfPorts>
   </model>
