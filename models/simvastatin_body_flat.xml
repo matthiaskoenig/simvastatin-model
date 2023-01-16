@@ -3401,7 +3401,7 @@ SYNTHESIS_LDLR_Vmax = 4 * DEGRADATION_LDLR_Vmax * LDLR_ss
           </rdf:RDF>
         </annotation>
       </parameter>
-      <parameter metaid="LI__meta_SIMACIDIMP_Km" sboTerm="SBO:0000322" id="LI__SIMACIDIMP_Km" name="Km for simvastatin acid import" value="0.0036" units="LI__mM" constant="true">
+      <parameter metaid="LI__meta_SIMACIDEXP_Km" sboTerm="SBO:0000322" id="LI__SIMACIDEXP_Km" name="Km for simvastatin acid import" value="0.0036" units="LI__mM" constant="true">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>Km for simvastatin acid 3.6 µM (Chen et al., 2005)</p>
@@ -3409,7 +3409,7 @@ SYNTHESIS_LDLR_Vmax = 4 * DEGRADATION_LDLR_Vmax * LDLR_ss
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#LI__meta_SIMACIDIMP_Km">
+            <rdf:Description rdf:about="#LI__meta_SIMACIDEXP_Km">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/SBO:0000322"/>
@@ -3419,10 +3419,10 @@ SYNTHESIS_LDLR_Vmax = 4 * DEGRADATION_LDLR_Vmax * LDLR_ss
           </rdf:RDF>
         </annotation>
       </parameter>
-      <parameter metaid="LI__meta_SIMACIDIMP_f" sboTerm="SBO:0000002" id="LI__SIMACIDIMP_f" name="scaling for simvastatin acid import" value="0.00813573253447234" units="dimensionless" constant="true">
+      <parameter metaid="LI__meta_SIMACIDEXP_f" sboTerm="SBO:0000002" id="LI__SIMACIDEXP_f" name="scaling for simvastatin acid import" value="0.00813573253447234" units="dimensionless" constant="true">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#LI__meta_SIMACIDIMP_f">
+            <rdf:Description rdf:about="#LI__meta_SIMACIDEXP_f">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/SBO:0000002"/>
@@ -3432,7 +3432,7 @@ SYNTHESIS_LDLR_Vmax = 4 * DEGRADATION_LDLR_Vmax * LDLR_ss
           </rdf:RDF>
         </annotation>
       </parameter>
-      <parameter metaid="LI__meta_SIMMETSIMP_Km" sboTerm="SBO:0000322" id="LI__SIMMETSIMP_Km" name="Km for simvastatin metabolites import" value="0.0067" units="LI__mM" constant="true">
+      <parameter metaid="LI__meta_SIMMETSEXP_Km" sboTerm="SBO:0000322" id="LI__SIMMETSEXP_Km" name="Km for simvastatin metabolites import" value="0.0067" units="LI__mM" constant="true">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>Assuming similar transport Km then simva and simacid via OATP1B1.
@@ -3442,7 +3442,7 @@ Simvastatin lactone 9.7 µM (Chen et al., 2005).</p>
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#LI__meta_SIMMETSIMP_Km">
+            <rdf:Description rdf:about="#LI__meta_SIMMETSEXP_Km">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/SBO:0000322"/>
@@ -3452,10 +3452,10 @@ Simvastatin lactone 9.7 µM (Chen et al., 2005).</p>
           </rdf:RDF>
         </annotation>
       </parameter>
-      <parameter metaid="LI__meta_SIMMETSIMP_f" sboTerm="SBO:0000002" id="LI__SIMMETSIMP_f" name="scaling for simvastatin metabolites import" value="21.5719950233245" units="dimensionless" constant="true">
+      <parameter metaid="LI__meta_SIMMETSEXP_f" sboTerm="SBO:0000002" id="LI__SIMMETSEXP_f" name="scaling for simvastatin metabolites import" value="21.5719950233245" units="dimensionless" constant="true">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#LI__meta_SIMMETSIMP_f">
+            <rdf:Description rdf:about="#LI__meta_SIMMETSEXP_f">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/SBO:0000002"/>
@@ -8635,10 +8635,10 @@ Assumption is that the cholesterol stays constant in the VLDL to LDL conversion.
           </math>
         </kineticLaw>
       </reaction>
-      <reaction metaid="LI__meta_SIMACIDIMP" sboTerm="SBO:0000655" id="LI__SIMACIDIMP" name="SVA export (OATP1B1)" reversible="true" compartment="LI__Vbaso">
+      <reaction metaid="LI__meta_SIMACIDEXP" sboTerm="SBO:0000655" id="LI__SIMACIDEXP" name="SVA export (OATP1B1)" reversible="true" compartment="LI__Vbaso">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#LI__meta_SIMACIDIMP">
+            <rdf:Description rdf:about="#LI__meta_SIMACIDEXP">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/SBO:0000655"/>
@@ -8665,9 +8665,9 @@ Assumption is that the cholesterol stays constant in the VLDL to LDL conversion.
                     <times/>
                     <ci> Vli_tissue </ci>
                     <ci> SIMVA_CYP3A4LI_Vmax </ci>
-                    <ci> LI__SIMACIDIMP_f </ci>
+                    <ci> LI__SIMACIDEXP_f </ci>
                   </apply>
-                  <ci> LI__SIMACIDIMP_Km </ci>
+                  <ci> LI__SIMACIDEXP_Km </ci>
                 </apply>
                 <apply>
                   <minus/>
@@ -8681,22 +8681,22 @@ Assumption is that the cholesterol stays constant in the VLDL to LDL conversion.
                 <apply>
                   <divide/>
                   <ci> Cli_plasma_simacid </ci>
-                  <ci> LI__SIMACIDIMP_Km </ci>
+                  <ci> LI__SIMACIDEXP_Km </ci>
                 </apply>
                 <apply>
                   <divide/>
                   <ci> LI__simacid </ci>
-                  <ci> LI__SIMACIDIMP_Km </ci>
+                  <ci> LI__SIMACIDEXP_Km </ci>
                 </apply>
               </apply>
             </apply>
           </math>
         </kineticLaw>
       </reaction>
-      <reaction metaid="LI__meta_SIMMETSIMP" sboTerm="SBO:0000655" id="LI__SIMMETSIMP" name="SVM export (OATP1B1)" reversible="true" compartment="LI__Vbaso">
+      <reaction metaid="LI__meta_SIMMETSEXP" sboTerm="SBO:0000655" id="LI__SIMMETSEXP" name="SVM export (OATP1B1)" reversible="true" compartment="LI__Vbaso">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#LI__meta_SIMMETSIMP">
+            <rdf:Description rdf:about="#LI__meta_SIMMETSEXP">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/SBO:0000655"/>
@@ -8723,9 +8723,9 @@ Assumption is that the cholesterol stays constant in the VLDL to LDL conversion.
                     <times/>
                     <ci> Vli_tissue </ci>
                     <ci> SIMVA_CYP3A4LI_Vmax </ci>
-                    <ci> LI__SIMMETSIMP_f </ci>
+                    <ci> LI__SIMMETSEXP_f </ci>
                   </apply>
-                  <ci> LI__SIMMETSIMP_Km </ci>
+                  <ci> LI__SIMMETSEXP_Km </ci>
                 </apply>
                 <apply>
                   <minus/>
@@ -8739,12 +8739,12 @@ Assumption is that the cholesterol stays constant in the VLDL to LDL conversion.
                 <apply>
                   <divide/>
                   <ci> Cli_plasma_simmets </ci>
-                  <ci> LI__SIMMETSIMP_Km </ci>
+                  <ci> LI__SIMMETSEXP_Km </ci>
                 </apply>
                 <apply>
                   <divide/>
                   <ci> LI__simmets </ci>
-                  <ci> LI__SIMMETSIMP_Km </ci>
+                  <ci> LI__SIMMETSEXP_Km </ci>
                 </apply>
               </apply>
             </apply>

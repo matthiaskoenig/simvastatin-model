@@ -779,7 +779,7 @@ SYNTHESIS_LDLR_Vmax = 4 * DEGRADATION_LDLR_Vmax * LDLR_ss
           </rdf:RDF>
         </annotation>
       </parameter>
-      <parameter metaid="meta_SIMACIDIMP_Km" sboTerm="SBO:0000322" id="SIMACIDIMP_Km" name="Km for simvastatin acid import" value="0.0036" units="mM" constant="true">
+      <parameter metaid="meta_SIMACIDEXP_Km" sboTerm="SBO:0000322" id="SIMACIDEXP_Km" name="Km for simvastatin acid import" value="0.0036" units="mM" constant="true">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>Km for simvastatin acid 3.6 µM (Chen et al., 2005)</p>
@@ -787,7 +787,7 @@ SYNTHESIS_LDLR_Vmax = 4 * DEGRADATION_LDLR_Vmax * LDLR_ss
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_SIMACIDIMP_Km">
+            <rdf:Description rdf:about="#meta_SIMACIDEXP_Km">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/SBO:0000322"/>
@@ -797,10 +797,10 @@ SYNTHESIS_LDLR_Vmax = 4 * DEGRADATION_LDLR_Vmax * LDLR_ss
           </rdf:RDF>
         </annotation>
       </parameter>
-      <parameter metaid="meta_SIMACIDIMP_f" sboTerm="SBO:0000002" id="SIMACIDIMP_f" name="scaling for simvastatin acid import" value="0.00813573253447234" units="dimensionless" constant="true">
+      <parameter metaid="meta_SIMACIDEXP_f" sboTerm="SBO:0000002" id="SIMACIDEXP_f" name="scaling for simvastatin acid import" value="0.00813573253447234" units="dimensionless" constant="true">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_SIMACIDIMP_f">
+            <rdf:Description rdf:about="#meta_SIMACIDEXP_f">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/SBO:0000002"/>
@@ -810,7 +810,7 @@ SYNTHESIS_LDLR_Vmax = 4 * DEGRADATION_LDLR_Vmax * LDLR_ss
           </rdf:RDF>
         </annotation>
       </parameter>
-      <parameter metaid="meta_SIMMETSIMP_Km" sboTerm="SBO:0000322" id="SIMMETSIMP_Km" name="Km for simvastatin metabolites import" value="0.0067" units="mM" constant="true">
+      <parameter metaid="meta_SIMMETSEXP_Km" sboTerm="SBO:0000322" id="SIMMETSEXP_Km" name="Km for simvastatin metabolites import" value="0.0067" units="mM" constant="true">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>Assuming similar transport Km then simva and simacid via OATP1B1.
@@ -820,7 +820,7 @@ Simvastatin lactone 9.7 µM (Chen et al., 2005).</p>
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_SIMMETSIMP_Km">
+            <rdf:Description rdf:about="#meta_SIMMETSEXP_Km">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/SBO:0000322"/>
@@ -830,10 +830,10 @@ Simvastatin lactone 9.7 µM (Chen et al., 2005).</p>
           </rdf:RDF>
         </annotation>
       </parameter>
-      <parameter metaid="meta_SIMMETSIMP_f" sboTerm="SBO:0000002" id="SIMMETSIMP_f" name="scaling for simvastatin metabolites import" value="21.5719950233245" units="dimensionless" constant="true">
+      <parameter metaid="meta_SIMMETSEXP_f" sboTerm="SBO:0000002" id="SIMMETSEXP_f" name="scaling for simvastatin metabolites import" value="21.5719950233245" units="dimensionless" constant="true">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_SIMMETSIMP_f">
+            <rdf:Description rdf:about="#meta_SIMMETSEXP_f">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/SBO:0000002"/>
@@ -1394,10 +1394,10 @@ Keq = ldlr_membrane/ldlr_substrate</p>
           </math>
         </kineticLaw>
       </reaction>
-      <reaction metaid="meta_SIMACIDIMP" sboTerm="SBO:0000655" id="SIMACIDIMP" name="SVA export (OATP1B1)" reversible="true" compartment="Vbaso">
+      <reaction metaid="meta_SIMACIDEXP" sboTerm="SBO:0000655" id="SIMACIDEXP" name="SVA export (OATP1B1)" reversible="true" compartment="Vbaso">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_SIMACIDIMP">
+            <rdf:Description rdf:about="#meta_SIMACIDEXP">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/SBO:0000655"/>
@@ -1424,9 +1424,9 @@ Keq = ldlr_membrane/ldlr_substrate</p>
                     <times/>
                     <ci> Vli </ci>
                     <ci> SIMVA_CYP3A4LI_Vmax </ci>
-                    <ci> SIMACIDIMP_f </ci>
+                    <ci> SIMACIDEXP_f </ci>
                   </apply>
-                  <ci> SIMACIDIMP_Km </ci>
+                  <ci> SIMACIDEXP_Km </ci>
                 </apply>
                 <apply>
                   <minus/>
@@ -1440,22 +1440,22 @@ Keq = ldlr_membrane/ldlr_substrate</p>
                 <apply>
                   <divide/>
                   <ci> simacid_ext </ci>
-                  <ci> SIMACIDIMP_Km </ci>
+                  <ci> SIMACIDEXP_Km </ci>
                 </apply>
                 <apply>
                   <divide/>
                   <ci> simacid </ci>
-                  <ci> SIMACIDIMP_Km </ci>
+                  <ci> SIMACIDEXP_Km </ci>
                 </apply>
               </apply>
             </apply>
           </math>
         </kineticLaw>
       </reaction>
-      <reaction metaid="meta_SIMMETSIMP" sboTerm="SBO:0000655" id="SIMMETSIMP" name="SVM export (OATP1B1)" reversible="true" compartment="Vbaso">
+      <reaction metaid="meta_SIMMETSEXP" sboTerm="SBO:0000655" id="SIMMETSEXP" name="SVM export (OATP1B1)" reversible="true" compartment="Vbaso">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_SIMMETSIMP">
+            <rdf:Description rdf:about="#meta_SIMMETSEXP">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/SBO:0000655"/>
@@ -1482,9 +1482,9 @@ Keq = ldlr_membrane/ldlr_substrate</p>
                     <times/>
                     <ci> Vli </ci>
                     <ci> SIMVA_CYP3A4LI_Vmax </ci>
-                    <ci> SIMMETSIMP_f </ci>
+                    <ci> SIMMETSEXP_f </ci>
                   </apply>
-                  <ci> SIMMETSIMP_Km </ci>
+                  <ci> SIMMETSEXP_Km </ci>
                 </apply>
                 <apply>
                   <minus/>
@@ -1498,12 +1498,12 @@ Keq = ldlr_membrane/ldlr_substrate</p>
                 <apply>
                   <divide/>
                   <ci> simmets_ext </ci>
-                  <ci> SIMMETSIMP_Km </ci>
+                  <ci> SIMMETSEXP_Km </ci>
                 </apply>
                 <apply>
                   <divide/>
                   <ci> simmets </ci>
-                  <ci> SIMMETSIMP_Km </ci>
+                  <ci> SIMMETSEXP_Km </ci>
                 </apply>
               </apply>
             </apply>
