@@ -1,0 +1,5 @@
+study	name	time	time_unit	route	application	measurement_type	form	substance	value	unit	min	max
+Keech1994	SIM20	0	hr	oral	multiple dose	qualitative dosing	tablet	simvastatin	20	mg	NA	NA
+Keech1994	SIM40	0	hr	oral	multiple dose	qualitative dosing	tablet	simvastatin	40	mg	NA	NA
+Keech1994	placebo	0	hr	oral	multiple dose	qualitative dosing	tablet	placebo	0	mg	NA	NA
+Keech1994	SIM_mixed	0	hr	oral	multiple dose	qualitative dosing	tablet	simvastatin	30	mg	20.0	40.0

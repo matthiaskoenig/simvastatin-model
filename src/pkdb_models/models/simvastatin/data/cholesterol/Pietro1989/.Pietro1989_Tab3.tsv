@@ -1,0 +1,145 @@
+study	group	count	intervention	measurement_type	substance	time	time_unit	tissue	method	mean	mean_reduction	mean_raw	unit	min	max
+Pietro1989	<300_total_cho	243	SIM20	concentration change	ldl-c	12	weeks	plasma	NR	-0.34	-34	34	"dimensionless
+"	NA	NA
+Pietro1989	>300_total_cho	243	SIM20	concentration change	ldl-c	12	weeks	plasma	NR	-0.34	-34	34	"dimensionless
+"	NA	NA
+Pietro1989	<300_total_cho	243	SIM40	concentration change	ldl-c	12	weeks	plasma	NR	-0.38	-38	38	"dimensionless
+"	NA	NA
+Pietro1989	>300_total_cho	243	SIM40	concentration change	ldl-c	12	weeks	plasma	NR	-0.42	-42	42	"dimensionless
+"	NA	NA
+Pietro1989	<300_total_cho	243	probucol	concentration change	ldl-c	12	weeks	plasma	NR	-0.1	-10	10	"dimensionless
+"	NA	NA
+Pietro1989	>300_total_cho	243	probucol	concentration change	ldl-c	12	weeks	plasma	NR	-0.07	-7	7	"dimensionless
+"	NA	NA
+Pietro1989	<300_total_cho	243	SIM20	concentration change	cholesterol	12	weeks	plasma	NR	-0.24	-24	24	"dimensionless
+"	NA	NA
+Pietro1989	>300_total_cho	243	SIM20	concentration change	cholesterol	12	weeks	plasma	NR	-0.28	-28	28	"dimensionless
+"	NA	NA
+Pietro1989	<300_total_cho	243	SIM40	concentration change	cholesterol	12	weeks	plasma	NR	-0.27	-27	27	"dimensionless
+"	NA	NA
+Pietro1989	>300_total_cho	243	SIM40	concentration change	cholesterol	12	weeks	plasma	NR	-0.33	-33	33	"dimensionless
+"	NA	NA
+Pietro1989	<300_total_cho	243	probucol	concentration change	cholesterol	12	weeks	plasma	NR	-0.11	-11	11	"dimensionless
+"	NA	NA
+Pietro1989	>300_total_cho	243	probucol	concentration change	cholesterol	12	weeks	plasma	NR	-0.14	-14	14	"dimensionless
+"	NA	NA
+Pietro1989	<200_triglyceride	243	SIM20	concentration change	ldl-c	12	weeks	plasma	NR	-0.34	-34	34	"dimensionless
+"	NA	NA
+Pietro1989	>200_triglyceride	243	SIM20	concentration change	ldl-c	12	weeks	plasma	NR	-0.34	-34	34	"dimensionless
+"	NA	NA
+Pietro1989	<200_triglyceride	243	SIM40	concentration change	ldl-c	12	weeks	plasma	NR	-0.4	-40	40	"dimensionless
+"	NA	NA
+Pietro1989	>200_triglyceride	243	SIM40	concentration change	ldl-c	12	weeks	plasma	NR	-0.4	-40	40	"dimensionless
+"	NA	NA
+Pietro1989	<200_triglyceride	243	probucol	concentration change	ldl-c	12	weeks	plasma	NR	-0.1	-10	10	"dimensionless
+"	NA	NA
+Pietro1989	>200_triglyceride	243	probucol	concentration change	ldl-c	12	weeks	plasma	NR	-0.04	-4	4	"dimensionless
+"	NA	NA
+Pietro1989	<200_triglyceride	243	SIM20	concentration change	cholesterol	12	weeks	plasma	NR	-0.27	-27	27	"dimensionless
+"	NA	NA
+Pietro1989	>200_triglyceride	243	SIM20	concentration change	cholesterol	12	weeks	plasma	NR	-0.27	-27	27	"dimensionless
+"	NA	NA
+Pietro1989	<200_triglyceride	243	SIM40	concentration change	cholesterol	12	weeks	plasma	NR	-0.31	-31	31	"dimensionless
+"	NA	NA
+Pietro1989	>200_triglyceride	243	SIM40	concentration change	cholesterol	12	weeks	plasma	NR	-0.28	-28	28	"dimensionless
+"	NA	NA
+Pietro1989	<200_triglyceride	243	probucol	concentration change	cholesterol	12	weeks	plasma	NR	-0.12	-12	12	"dimensionless
+"	NA	NA
+Pietro1989	>200_triglyceride	243	probucol	concentration change	cholesterol	12	weeks	plasma	NR	-0.15	-15	15	"dimensionless
+"	NA	NA
+Pietro1989	FH	134	SIM20	concentration change	ldl-c	12	weeks	plasma	NR	-0.32	-32	32	"dimensionless
+"	NA	NA
+Pietro1989	non-FH	109	SIM20	concentration change	ldl-c	12	weeks	plasma	NR	-0.37	-37	37	"dimensionless
+"	NA	NA
+Pietro1989	FH	134	SIM40	concentration change	ldl-c	12	weeks	plasma	NR	-0.4	-40	40	"dimensionless
+"	NA	NA
+Pietro1989	non-FH	109	SIM40	concentration change	ldl-c	12	weeks	plasma	NR	-0.4	-40	40	"dimensionless
+"	NA	NA
+Pietro1989	FH	134	probucol	concentration change	ldl-c	12	weeks	plasma	NR	-0.11	-11	11	"dimensionless
+"	NA	NA
+Pietro1989	non-FH	109	probucol	concentration change	ldl-c	12	weeks	plasma	NR	-0.05	-5	5	"dimensionless
+"	NA	NA
+Pietro1989	FH	134	SIM20	concentration change	cholesterol	12	weeks	plasma	NR	-0.27	-27	27	"dimensionless
+"	NA	NA
+Pietro1989	non-FH	109	SIM20	concentration change	cholesterol	12	weeks	plasma	NR	-0.26	-26	26	"dimensionless
+"	NA	NA
+Pietro1989	FH	134	SIM40	concentration change	cholesterol	12	weeks	plasma	NR	-0.31	-31	31	"dimensionless
+"	NA	NA
+Pietro1989	non-FH	109	SIM40	concentration change	cholesterol	12	weeks	plasma	NR	-0.29	-29	29	"dimensionless
+"	NA	NA
+Pietro1989	FH	134	probucol	concentration change	cholesterol	12	weeks	plasma	NR	-0.12	-12	12	"dimensionless
+"	NA	NA
+Pietro1989	non-FH	109	probucol	concentration change	cholesterol	12	weeks	plasma	NR	-0.13	-13	13	"dimensionless
+"	NA	NA
+Pietro1989	<300_total_cho	243	SIM20	concentration change	ldl-c	0	weeks	plasma	NR	0.0	0	0	"dimensionless
+"	NA	300.0
+Pietro1989	>300_total_cho	243	SIM20	concentration change	ldl-c	0	weeks	plasma	NR	0.0	0	0	"dimensionless
+"	300.0	NA
+Pietro1989	<300_total_cho	243	SIM40	concentration change	ldl-c	0	weeks	plasma	NR	0.0	0	0	"dimensionless
+"	NA	300.0
+Pietro1989	>300_total_cho	243	SIM40	concentration change	ldl-c	0	weeks	plasma	NR	0.0	0	0	"dimensionless
+"	300.0	NA
+Pietro1989	<300_total_cho	243	probucol	concentration change	ldl-c	0	weeks	plasma	NR	0.0	0	0	"dimensionless
+"	NA	300.0
+Pietro1989	>300_total_cho	243	probucol	concentration change	ldl-c	0	weeks	plasma	NR	0.0	0	0	"dimensionless
+"	300.0	NA
+Pietro1989	<300_total_cho	243	SIM20	concentration change	cholesterol	0	weeks	plasma	NR	0.0	0	0	"dimensionless
+"	NA	300.0
+Pietro1989	>300_total_cho	243	SIM20	concentration change	cholesterol	0	weeks	plasma	NR	0.0	0	0	"dimensionless
+"	300.0	NA
+Pietro1989	<300_total_cho	243	SIM40	concentration change	cholesterol	0	weeks	plasma	NR	0.0	0	0	"dimensionless
+"	NA	300.0
+Pietro1989	>300_total_cho	243	SIM40	concentration change	cholesterol	0	weeks	plasma	NR	0.0	0	0	"dimensionless
+"	300.0	NA
+Pietro1989	<300_total_cho	243	probucol	concentration change	cholesterol	0	weeks	plasma	NR	0.0	0	0	"dimensionless
+"	NA	300.0
+Pietro1989	>300_total_cho	243	probucol	concentration change	cholesterol	0	weeks	plasma	NR	0.0	0	0	"dimensionless
+"	300.0	NA
+Pietro1989	<200_triglyceride	243	SIM20	concentration change	ldl-c	0	weeks	plasma	NR	0.0	0	0	"dimensionless
+"	NA	200.0
+Pietro1989	>200_triglyceride	243	SIM20	concentration change	ldl-c	0	weeks	plasma	NR	0.0	0	0	"dimensionless
+"	200.0	NA
+Pietro1989	<200_triglyceride	243	SIM40	concentration change	ldl-c	0	weeks	plasma	NR	0.0	0	0	"dimensionless
+"	NA	200.0
+Pietro1989	>200_triglyceride	243	SIM40	concentration change	ldl-c	0	weeks	plasma	NR	0.0	0	0	"dimensionless
+"	200.0	NA
+Pietro1989	<200_triglyceride	243	probucol	concentration change	ldl-c	0	weeks	plasma	NR	0.0	0	0	"dimensionless
+"	NA	200.0
+Pietro1989	>200_triglyceride	243	probucol	concentration change	ldl-c	0	weeks	plasma	NR	0.0	0	0	"dimensionless
+"	200.0	NA
+Pietro1989	<200_triglyceride	243	SIM20	concentration change	cholesterol	0	weeks	plasma	NR	0.0	0	0	"dimensionless
+"	NA	200.0
+Pietro1989	>200_triglyceride	243	SIM20	concentration change	cholesterol	0	weeks	plasma	NR	0.0	0	0	"dimensionless
+"	200.0	NA
+Pietro1989	<200_triglyceride	243	SIM40	concentration change	cholesterol	0	weeks	plasma	NR	0.0	0	0	"dimensionless
+"	NA	200.0
+Pietro1989	>200_triglyceride	243	SIM40	concentration change	cholesterol	0	weeks	plasma	NR	0.0	0	0	"dimensionless
+"	200.0	NA
+Pietro1989	<200_triglyceride	243	probucol	concentration change	cholesterol	0	weeks	plasma	NR	0.0	0	0	"dimensionless
+"	NA	200.0
+Pietro1989	>200_triglyceride	243	probucol	concentration change	cholesterol	0	weeks	plasma	NR	0.0	0	0	"dimensionless
+"	200.0	NA
+Pietro1989	FH	134	SIM20	concentration change	ldl-c	0	weeks	plasma	NR	0.0	0	0	"dimensionless
+"	NA	NA
+Pietro1989	non-FH	109	SIM20	concentration change	ldl-c	0	weeks	plasma	NR	0.0	0	0	"dimensionless
+"	NA	NA
+Pietro1989	FH	134	SIM40	concentration change	ldl-c	0	weeks	plasma	NR	0.0	0	0	"dimensionless
+"	NA	NA
+Pietro1989	non-FH	109	SIM40	concentration change	ldl-c	0	weeks	plasma	NR	0.0	0	0	"dimensionless
+"	NA	NA
+Pietro1989	FH	134	probucol	concentration change	ldl-c	0	weeks	plasma	NR	0.0	0	0	"dimensionless
+"	NA	NA
+Pietro1989	non-FH	109	probucol	concentration change	ldl-c	0	weeks	plasma	NR	0.0	0	0	"dimensionless
+"	NA	NA
+Pietro1989	FH	134	SIM20	concentration change	cholesterol	0	weeks	plasma	NR	0.0	0	0	"dimensionless
+"	NA	NA
+Pietro1989	non-FH	109	SIM20	concentration change	cholesterol	0	weeks	plasma	NR	0.0	0	0	"dimensionless
+"	NA	NA
+Pietro1989	FH	134	SIM40	concentration change	cholesterol	0	weeks	plasma	NR	0.0	0	0	"dimensionless
+"	NA	NA
+Pietro1989	non-FH	109	SIM40	concentration change	cholesterol	0	weeks	plasma	NR	0.0	0	0	"dimensionless
+"	NA	NA
+Pietro1989	FH	134	probucol	concentration change	cholesterol	0	weeks	plasma	NR	0.0	0	0	"dimensionless
+"	NA	NA
+Pietro1989	non-FH	109	probucol	concentration change	cholesterol	0	weeks	plasma	NR	0.0	0	0	"dimensionless
+"	NA	NA

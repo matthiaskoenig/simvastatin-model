@@ -1,0 +1,3 @@
+study	group	label	count	intervention	measurement_type	substance	tissue	time	time_unit	mean	mean_sd	mean_se	mean_unit	count_unit
+Kosoglou2002	SIM10+EZE1	SIM10+EZE1_cholesterol	12	SIM10,EZE1	concentration	cholesterol	serum	0	day	6.90457719162141	1.1466382382664415	0.3310059477631238	mole/meter^3	dimensionless
+Kosoglou2002	SIM10+EZE1	SIM10+EZE1_cholesterol	12	SIM10,EZE1	concentration	cholesterol	serum	13	day	4.657357124385828	0.7793556775717221	0.22498060512024817	mole/meter^3	dimensionless

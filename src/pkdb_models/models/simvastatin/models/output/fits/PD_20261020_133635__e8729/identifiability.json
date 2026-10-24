@@ -1,0 +1,171 @@
+{
+  "opid": "PD_20261020_133635__e8729",
+  "parameter_set": {
+    "sid": "PD_20261020_133635__e8729_0",
+    "values": {
+      "LI__HMGCOAREDUCTASE_Ki_simacid": 9.16748418506532e-07
+    },
+    "units": {
+      "LI__HMGCOAREDUCTASE_Ki_simacid": "(mmol)/l"
+    },
+    "cost": 30.266126095443557,
+    "provenance": "optimization 'PD_20261020_133635__e8729', run '1'"
+  },
+  "parameters": [
+    {
+      "pid": "LI__HMGCOAREDUCTASE_Ki_simacid",
+      "start_value": 1.2e-06,
+      "lower_bound": 1e-07,
+      "upper_bound": 1e-05,
+      "unit": "mmole/l",
+      "target": null,
+      "scale": null,
+      "prior": null,
+      "description": null
+    }
+  ],
+  "settings": {
+    "alpha": 0.95,
+    "degrees_of_freedom": 1,
+    "initial_step": 0.1,
+    "min_step": 0.01,
+    "max_step": 1.0,
+    "step_factor": 2.0,
+    "max_cost_fraction": 0.2,
+    "max_points": 50,
+    "flatness": 0.05,
+    "reoptimize": true,
+    "optimizer_kwargs": {
+      "diff_step": 0.05
+    }
+  },
+  "fit_settings": {
+    "residual": "NORMALIZED",
+    "parameter_scale": "LOG10",
+    "loss_function": "LINEAR",
+    "weighting_curves": [
+      "MAPPING",
+      "POINTS"
+    ],
+    "weighting_points": "ERROR_WEIGHTING",
+    "variable_step_size": true,
+    "relative_tolerance": 1e-06,
+    "absolute_tolerance": {
+      "amount": 1e-10,
+      "concentration": 1e-10,
+      "other": 1e-06,
+      "ids": {}
+    },
+    "initial_time_step": 0.0,
+    "data_at_change": "before"
+  },
+  "cost": 30.266126095443557,
+  "profiles": {
+    "LI__HMGCOAREDUCTASE_Ki_simacid": {
+      "pid": "LI__HMGCOAREDUCTASE_Ki_simacid",
+      "values": [
+        7.451610902072863e-07,
+        7.625181217294025e-07,
+        7.802794504527803e-07,
+        7.984544936690075e-07,
+        8.170528880265728e-07,
+        8.409112631026792e-07,
+        8.654663153090102e-07,
+        9.16748418506532e-07,
+        9.71069177353433e-07,
+        9.994249092744132e-07,
+        1.0286086435164702e-06,
+        1.0525680167098156e-06,
+        1.0770854753980057e-06,
+        1.1021740190621632e-06,
+        1.1278469499802255e-06
+      ],
+      "costs": [
+        32.67921057783271,
+        32.16680604627247,
+        31.716534605004174,
+        31.327892357242295,
+        31.00071691085557,
+        30.67700254292653,
+        30.44743994980041,
+        30.266126095443557,
+        30.448365411650474,
+        30.672939698159812,
+        30.984401179658327,
+        31.295660692282347,
+        31.661269202133614,
+        32.080402456856206,
+        32.55231585100388
+      ],
+      "paths": [
+        [
+          7.451610902072863e-07
+        ],
+        [
+          7.625181217294025e-07
+        ],
+        [
+          7.802794504527803e-07
+        ],
+        [
+          7.984544936690075e-07
+        ],
+        [
+          8.170528880265728e-07
+        ],
+        [
+          8.409112631026792e-07
+        ],
+        [
+          8.654663153090102e-07
+        ],
+        [
+          9.16748418506532e-07
+        ],
+        [
+          9.71069177353433e-07
+        ],
+        [
+          9.994249092744132e-07
+        ],
+        [
+          1.0286086435164702e-06
+        ],
+        [
+          1.0525680167098156e-06
+        ],
+        [
+          1.0770854753980057e-06
+        ],
+        [
+          1.1021740190621632e-06
+        ],
+        [
+          1.1278469499802255e-06
+        ]
+      ],
+      "converged": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "index_optimum": 7,
+      "ci_lower": 7.618314329679334e-07,
+      "ci_upper": 1.1079137301780625e-06,
+      "identifiability": "identifiable"
+    }
+  },
+  "duration": 64.42479920387268
+}

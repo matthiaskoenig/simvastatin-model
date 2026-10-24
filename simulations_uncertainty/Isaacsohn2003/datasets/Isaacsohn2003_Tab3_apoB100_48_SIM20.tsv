@@ -1,0 +1,3 @@
+study	group	count	intervention	measurement_type	substance	method	label	tissue	time	time_unit	mean	median	mean_sd	mean_se	change	change_sd	baseline	baseline_unit	mean_unit	median_unit	count_unit
+Isaacsohn2003	all	46	SIM20	concentration	apoB100+48	radioimmunoassay	SIM20_apoB100+48_concentration	plasma	0	week	160.0		44.0	6.48744607081547			160	mg/dl	mg/dl	mg/dl	dimensionless
+Isaacsohn2003	all	46	SIM20	concentration	apoB100+48	radioimmunoassay	SIM20_apoB100+48_concentration	plasma	6	week	122.0		28.0	4.12837477233712	-22.5	13.8	160	mg/dl	mg/dl	mg/dl	dimensionless

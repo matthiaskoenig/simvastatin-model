@@ -1,0 +1,9 @@
+study	group	count	intervention	measurement_type	substance	tissue	label	time	time_unit	mean	sd	se	unit
+Ntanios1999	all	18	SIM	concentration	cholesterol	plasma	tab5_cholesterol	0	weeks	10.04	1.9	0.4478342947514801	mmol/l
+Ntanios1999	all	18	SIM	concentration	cholesterol	plasma	tab5_cholesterol	24	weeks	6.11	1.24	0.29227080289043966	mmol/l
+Ntanios1999	all	18	SIM	concentration	ldl-c	plasma	tab5_ldl-c	0	weeks	7.91	1.96	0.4619764303752111	mmol/l
+Ntanios1999	all	18	SIM	concentration	ldl-c	plasma	tab5_ldl-c	24	weeks	4.22	1.21	0.2851997350785742	mmol/l
+Ntanios1999	all	18	SIM	concentration	hdl-c	plasma	tab5_hdl-c	0	weeks	1.77	0.32	0.07542472332656508	mmol/l
+Ntanios1999	all	18	SIM	concentration	hdl-c	plasma	tab5_hdl-c	24	weeks	1.25	0.35	0.08249579113843054	mmol/l
+Ntanios1999	all	18	SIM	concentration	triglyceride	plasma	tab5_triglyceride	0	weeks	2.07	1.02	0.2404163056034262	mmol/l
+Ntanios1999	all	18	SIM	concentration	triglyceride	plasma	tab5_triglyceride	24	weeks	1.41	0.6	0.1414213562373095	mmol/l

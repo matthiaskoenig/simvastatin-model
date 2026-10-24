@@ -1,0 +1,23 @@
+study	individual	intervention	measurement_type	substance	tissue	time	method	time_unit	value	unit
+Watanabe2004	Ind1	SIM	auc_end	active simva inhibitors	plasma	6	NR	hr	12.626481	ng*hr/ml
+Watanabe2004	Ind1	SIM, DIL	auc_end	active simva inhibitors	plasma	6	NR	hr	13.333988	ng*hr/ml
+Watanabe2004	Ind2	SIM	auc_end	active simva inhibitors	plasma	6	NR	hr	16.161835	ng*hr/ml
+Watanabe2004	Ind2	SIM, DIL	auc_end	active simva inhibitors	plasma	6	NR	hr	29.89899	ng*hr/ml
+Watanabe2004	Ind3	SIM	auc_end	active simva inhibitors	plasma	6	NR	hr	19.495167	ng*hr/ml
+Watanabe2004	Ind3	SIM, DIL	auc_end	active simva inhibitors	plasma	6	NR	hr	31.51646	ng*hr/ml
+Watanabe2004	Ind4	SIM	auc_end	active simva inhibitors	plasma	6	NR	hr	19.394812	ng*hr/ml
+Watanabe2004	Ind4	SIM, DIL	auc_end	active simva inhibitors	plasma	6	NR	hr	33.23363	ng*hr/ml
+Watanabe2004	Ind5	SIM	auc_end	active simva inhibitors	plasma	6	NR	hr	20.406221	ng*hr/ml
+Watanabe2004	Ind5	SIM, DIL	auc_end	active simva inhibitors	plasma	6	NR	hr	33.939392	ng*hr/ml
+Watanabe2004	Ind6	SIM	auc_end	active simva inhibitors	plasma	6	NR	hr	20.305866	ng*hr/ml
+Watanabe2004	Ind6	SIM, DIL	auc_end	active simva inhibitors	plasma	6	NR	hr	50.909744	ng*hr/ml
+Watanabe2004	Ind7	SIM	auc_end	active simva inhibitors	plasma	6	NR	hr	25.153042	ng*hr/ml
+Watanabe2004	Ind7	SIM, DIL	auc_end	active simva inhibitors	plasma	6	NR	hr	42.020203	ng*hr/ml
+Watanabe2004	Ind8	SIM	auc_end	active simva inhibitors	plasma	6	NR	hr	27.070925	ng*hr/ml
+Watanabe2004	Ind8	SIM, DIL	auc_end	active simva inhibitors	plasma	6	NR	hr	36.162926	ng*hr/ml
+Watanabe2004	Ind9	SIM	auc_end	active simva inhibitors	plasma	6	NR	hr	27.575321	ng*hr/ml
+Watanabe2004	Ind9	SIM, DIL	auc_end	active simva inhibitors	plasma	6	NR	hr	45.555557	ng*hr/ml
+Watanabe2004	Ind10	SIM	auc_end	active simva inhibitors	plasma	6	NR	hr	27.979362	ng*hr/ml
+Watanabe2004	Ind10	SIM, DIL	auc_end	active simva inhibitors	plasma	6	NR	hr	49.89899	ng*hr/ml
+Watanabe2004	Ind11	SIM	auc_end	active simva inhibitors	plasma	6	NR	hr	20.203547	ng*hr/ml
+Watanabe2004	Ind11	SIM, DIL	auc_end	active simva inhibitors	plasma	6	NR	hr	106.21333	ng*hr/ml

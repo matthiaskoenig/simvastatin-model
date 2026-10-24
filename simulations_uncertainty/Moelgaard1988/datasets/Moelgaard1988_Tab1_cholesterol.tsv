@@ -1,0 +1,8 @@
+study	group	count	intervention	measurement_type	substance	tissue	time	time_unit	mean	mean_se	mean_sd	change	change_unit	mean_unit	count_unit
+Moelgaard1988	FH	11.0	baseline	concentration	cholesterol	plasma	0.0	weeks	10.51	0.55	1.82414363469547		percent	mmol/l	dimensionless
+Moelgaard1988	FH	11.0	SIM20	concentration	cholesterol	plasma	4.0	weeks	7.28	0.42	1.39298241194927	-31.0	percent	mmol/l	dimensionless
+Moelgaard1988	FH	11.0	SIM20	concentration	cholesterol	plasma	8.0	weeks	7.22	0.47	1.55881365146704	-31.0	percent	mmol/l	dimensionless
+Moelgaard1988	FH	11.0	SIM40	concentration	cholesterol	plasma	12.0	weeks	6.75	0.45	1.49248115565993	-36.0	percent	mmol/l	dimensionless
+Moelgaard1988	FH	11.0	SIM40	concentration	cholesterol	plasma	16.0	weeks	6.65	0.45	1.49248115565993	-37.0	percent	mmol/l	dimensionless
+Moelgaard1988	FH	11.0	SIM40	concentration	cholesterol	plasma	20.0	weeks	6.52	0.42	1.39298241194927	-38.0	percent	mmol/l	dimensionless
+Moelgaard1988	FH	11.0	SIM40	concentration	cholesterol	plasma	24.0	weeks	6.71	0.36	1.19398492452794	-36.0	percent	mmol/l	dimensionless

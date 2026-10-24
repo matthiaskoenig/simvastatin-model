@@ -1,0 +1,17 @@
+study	group	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	se	min	max	unit
+Lilja1998	all	SIM	cmax	active simva inhibitors	serum	radioenzymatic assay	NA	NA	21.0	1.9	NA	NA	ng/ml
+Lilja1998	all	SIM	tmax	active simva inhibitors	serum	radioenzymatic assay	NA	NA	2.0	NA	1.0	4.0	hr
+Lilja1998	all	SIM	thalf	active simva inhibitors	serum	radioenzymatic assay	NA	NA	2.7	0.1	NA	NA	hr
+Lilja1998	all	SIM	auc_inf	active simva inhibitors	serum	radioenzymatic assay	NA	NA	88.0	6.9	NA	NA	ng*hr/ml
+Lilja1998	all	SIM,GRA	cmax	active simva inhibitors	serum	radioenzymatic assay	NA	NA	26.8	2.8	NA	NA	ng/ml
+Lilja1998	all	SIM,GRA	tmax	active simva inhibitors	serum	radioenzymatic assay	NA	NA	3.5	NA	2.0	8.0	hr
+Lilja1998	all	SIM,GRA	thalf	active simva inhibitors	serum	radioenzymatic assay	NA	NA	3.1	0.3	NA	NA	hr
+Lilja1998	all	SIM,GRA	auc_inf	active simva inhibitors	serum	radioenzymatic assay	NA	NA	213.0	30.1	NA	NA	ng*hr/ml
+Lilja1998	all	SIM	cmax	total simva inhibitors	serum	radioenzymatic assay	NA	NA	86.7	9.9	NA	NA	ng/ml
+Lilja1998	all	SIM	tmax	total simva inhibitors	serum	radioenzymatic assay	NA	NA	1.0	NA	0.5	4.0	hr
+Lilja1998	all	SIM	thalf	total simva inhibitors	serum	radioenzymatic assay	NA	NA	3.2	0.2	NA	NA	hr
+Lilja1998	all	SIM	auc_inf	total simva inhibitors	serum	radioenzymatic assay	NA	NA	243.0	15.4	NA	NA	ng*hr/ml
+Lilja1998	all	SIM,GRA	cmax	total simva inhibitors	serum	radioenzymatic assay	NA	NA	159.0	25.9	NA	NA	ng/ml
+Lilja1998	all	SIM,GRA	tmax	total simva inhibitors	serum	radioenzymatic assay	NA	NA	2.0	NA	1.0	6.0	hr
+Lilja1998	all	SIM,GRA	thalf	total simva inhibitors	serum	radioenzymatic assay	NA	NA	3.0	0.1	NA	NA	hr
+Lilja1998	all	SIM,GRA	auc_inf	total simva inhibitors	serum	radioenzymatic assay	NA	NA	862.0	168.0	NA	NA	ng*hr/ml

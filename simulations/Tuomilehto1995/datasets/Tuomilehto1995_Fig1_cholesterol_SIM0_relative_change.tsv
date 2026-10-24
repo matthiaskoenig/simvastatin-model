@@ -1,0 +1,6 @@
+study	group	count	intervention	measurement_type	substance	tissue	label	time	time_unit	mean	change	baseline	baseline_sd	baseline_unit	mean_unit	count_unit
+Tuomilehto1995	SIM0mg	28	SIM0	concentration change	cholesterol	serum	cholesterol_SIM0_concentration change	0	weeks	0.0	0.0	7.4	31.6	mM	percent	dimensionless
+Tuomilehto1995	SIM0mg	28	SIM0	concentration change	cholesterol	serum	cholesterol_SIM0_concentration change	2	weeks	-4.280867	-4.280867	7.4	31.6	mM	percent	dimensionless
+Tuomilehto1995	SIM0mg	28	SIM0	concentration change	cholesterol	serum	cholesterol_SIM0_concentration change	4	weeks	-2.680451	-2.680451	7.4	31.6	mM	percent	dimensionless
+Tuomilehto1995	SIM0mg	28	SIM0	concentration change	cholesterol	serum	cholesterol_SIM0_concentration change	6	weeks	-1.6673027	-1.6673027	7.4	31.6	mM	percent	dimensionless
+Tuomilehto1995	SIM0mg	28	SIM0	concentration change	cholesterol	serum	cholesterol_SIM0_concentration change	8	weeks	-3.2031918	-3.2031918	7.4	31.6	mM	percent	dimensionless

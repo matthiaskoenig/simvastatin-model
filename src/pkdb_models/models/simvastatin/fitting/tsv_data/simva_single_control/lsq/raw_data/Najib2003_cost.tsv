@@ -1,0 +1,9 @@
+id	experiment	mapping	cost	type
+Najib2003_fm_simva_zocor	Najib2003	fm_simva_zocor	4807.897326368544	initial
+Najib2003_fm_simva_zocor	Najib2003	fm_simva_zocor	0.5302187736082506	fit
+Najib2003_fm_simacid_zocor	Najib2003	fm_simacid_zocor	140.692666774556	initial
+Najib2003_fm_simacid_zocor	Najib2003	fm_simacid_zocor	0.04056646815086999	fit
+Najib2003_fm_simva_simvast	Najib2003	fm_simva_simvast	7087.063623002533	initial
+Najib2003_fm_simva_simvast	Najib2003	fm_simva_simvast	0.70549389539276	fit
+Najib2003_fm_simacid_simvast	Najib2003	fm_simacid_simvast	573.5242391955144	initial
+Najib2003_fm_simacid_simvast	Najib2003	fm_simacid_simvast	0.15723023885855317	fit

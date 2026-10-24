@@ -1,0 +1,11 @@
+study	name	parent	measurement_type	group_count	choice	substance	count	mean	unit	sd	min	max
+Davidson1997	all	NA	age	156	NA	NA	156	52.0	yr	NA	NA	NA
+Davidson1997	all	NA	species	156	homo sapiens	NA	156	NA	NA	NA	NA	NA
+Davidson1997	all	NA	disease	156	hypercholesterolemia	NA	156	NA	NA	NA	NA	NA
+Davidson1997	all	NA	oral contraceptives	156	N	NA	156	NA	NA	NA	NA	NA
+Davidson1997	all	NA	fasting (duration)	156	NA	NA	156	NA	hr	NA	12.0	NA
+Davidson1997	all	NA	concentration	156	NA	triglyceride	156	NA	mg/dl	NA	NA	350.0
+Davidson1997	all	NA	concentration	156	NA	ldl-c	156	NA	mg/dl	NA	160.0	250.0
+Davidson1997	all	NA	sex	156	M	NA	94	NA	NA	NA	NA	NA
+Davidson1997	all	NA	sex	156	F	NA	62	NA	NA	NA	NA	NA
+Davidson1997	all	NA	healthy	156	N	NA	156	NA	NA	NA	NA	NA

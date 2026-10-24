@@ -1,0 +1,6 @@
+study	group	count	intervention	measurement_type	substance	label	time	time_unit	tissue	method	mean	mean_sd	baseline	mean_unit	count_unit
+Saito1991	placebo	31	placebo_complete	concentration	ldl-c	ldl-c_placebo_complete	0	weeks	plasma	Friedewald-formula	5.177139901732608	1.4041892940263767	200.2	mole/meter^3	dimensionless
+Saito1991	placebo	28	placebo_complete	concentration	ldl-c	ldl-c_placebo_complete	4	weeks	plasma	Friedewald-formula	5.1176622704939225	1.316265839151797	200.2	mole/meter^3	dimensionless
+Saito1991	placebo	29	placebo_complete	concentration	ldl-c	ldl-c_placebo_complete	8	weeks	plasma	Friedewald-formula	5.182311869666408	1.3188518231186963	200.2	mole/meter^3	dimensionless
+Saito1991	placebo	29	placebo_complete	concentration	ldl-c	ldl-c_placebo_complete	12	weeks	plasma	Friedewald-formula	5.184897853633307	1.4403930695629685	200.2	mole/meter^3	dimensionless
+Saito1991	placebo	22	placebo_complete	concentration	ldl-c	ldl-c_placebo_complete	16	weeks	plasma	Friedewald-formula	5.616757176105507	1.4016033100594774	200.2	mole/meter^3	dimensionless

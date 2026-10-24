@@ -1,0 +1,8 @@
+study	group	count	intervention	measurement_type	substance	tissue	time	time_unit	mean	mean_se	mean_sd	change	change_unit	mean_unit	count_unit
+Moelgaard1988	P-HC	10.0	baseline	concentration	ldl-c	plasma	0.0	weeks	4.97	0.18	0.569209978830308		percent	mmol/l	dimensionless
+Moelgaard1988	P-HC	10.0	SIM20	concentration	ldl-c	plasma	4.0	weeks	2.95	0.16	0.505964425626941	-41.0	percent	mmol/l	dimensionless
+Moelgaard1988	P-HC	10.0	SIM20	concentration	ldl-c	plasma	8.0	weeks	2.8	0.15	0.474341649025257	-44.0	percent	mmol/l	dimensionless
+Moelgaard1988	P-HC	10.0	SIM20	concentration	ldl-c	plasma	12.0	weeks	3.09	0.17	0.537587202228625	-38.0	percent	mmol/l	dimensionless
+Moelgaard1988	P-HC	10.0	SIM20	concentration	ldl-c	plasma	16.0	weeks	3.11	0.17	0.537587202228625	-37.0	percent	mmol/l	dimensionless
+Moelgaard1988	P-HC	10.0	SIM20	concentration	ldl-c	plasma	20.0	weeks	3.04	0.13	0.411096095821889	-39.0	percent	mmol/l	dimensionless
+Moelgaard1988	P-HC	10.0	SIM20	concentration	ldl-c	plasma	24.0	weeks	3.12	0.14	0.442718872423573	-37.0	percent	mmol/l	dimensionless

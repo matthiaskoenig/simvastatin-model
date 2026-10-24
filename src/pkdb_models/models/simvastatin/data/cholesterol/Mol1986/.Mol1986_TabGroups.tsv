@@ -1,0 +1,9 @@
+study	name	parent	measurement_type	group_count	choice	substance	count	mean	unit	sd	min	max
+Mol1986	all	NA	healthy	43.0	N	NA	43.0	NA	NA	NA	NA	NA
+Mol1986	all	NA	species	43.0	homo sapiens	NA	43.0	NA	NA	NA	NA	NA
+Mol1986	all	NA	concentration	43.0	NA	ldl-c	43.0	NA	mmol/l	NA	6.7	NA
+Mol1986	all	NA	sex	43.0	F	NA	15.0	NA	NA	NA	NA	NA
+Mol1986	all	NA	sex	43.0	M	NA	28.0	NA	NA	NA	NA	NA
+Mol1986	all	NA	age	43.0	NA	NA	43.0	NA	yr	NA	22.0	69.0
+Mol1986	all	NA	medication	43.0	N	NA	43.0	NA	NA	NA	NA	NA
+Mol1986	all	NA	consumption	43.0	NA	cholesterol	43.0	NA	mg/day	NA	NA	300.0

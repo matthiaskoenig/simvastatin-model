@@ -1,0 +1,19 @@
+study	group	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	se	unit
+Pentikainen1992	all	SIM	auc_end	active simva inhibitors	plasma	enzymatic assay	24.0	hr	40.8	7.6	ng hr/ml
+Pentikainen1992	all	SIM	cmax	active simva inhibitors	plasma	enzymatic assay	NA	NA	10.3	2.0	ng/ml
+Pentikainen1992	all	SIM	tmax	active simva inhibitors	plasma	enzymatic assay	NA	NA	2.5	0.5	hr
+Pentikainen1992	all	SIM	auc_end	total simva inhibitors	plasma	enzymatic assay	24.0	hr	102.5	13.0	ng hr/ml
+Pentikainen1992	all	SIM	cmax	total simva inhibitors	plasma	enzymatic assay	NA	NA	34.5	5.0	ng/ml
+Pentikainen1992	all	SIM	tmax	total simva inhibitors	plasma	enzymatic assay	NA	NA	2.3	0.4	hr
+Pentikainen1992	all	LOVA	auc_end	active lova inhibitors	plasma	enzymatic assay	24.0	hr	61.1	20.8	ng hr/ml
+Pentikainen1992	all	LOVA	cmax	active lova inhibitors	plasma	enzymatic assay	NA	NA	9.5	1.5	ng/ml
+Pentikainen1992	all	LOVA	tmax	active lova inhibitors	plasma	enzymatic assay	NA	NA	2.9	0.5	hr
+Pentikainen1992	all	LOVA	auc_end	total lova inhibitors	plasma	enzymatic assay	24.0	hr	114.1	25.1	ng hr/ml
+Pentikainen1992	all	LOVA	cmax	total lova inhibitors	plasma	enzymatic assay	NA	NA	19.9	2.3	ng/ml
+Pentikainen1992	all	LOVA	tmax	total lova inhibitors	plasma	enzymatic assay	NA	NA	2.6	0.5	hr
+Pentikainen1992	all	PRA	auc_end	active pra inhibitors	plasma	enzymatic assay	24.0	hr	118.0	21.2	ng hr/ml
+Pentikainen1992	all	PRA	cmax	active pra inhibitors	plasma	enzymatic assay	NA	NA	49.7	8.2	ng/ml
+Pentikainen1992	all	PRA	tmax	active pra inhibitors	plasma	enzymatic assay	NA	NA	1.2	0.1	hr
+Pentikainen1992	all	PRA	auc_end	total pra inhibitors	plasma	enzymatic assay	24.0	hr	119.9	20.9	ng hr/ml
+Pentikainen1992	all	PRA	cmax	total pra inhibitors	plasma	enzymatic assay	NA	NA	51.7	8.5	ng/ml
+Pentikainen1992	all	PRA	tmax	total pra inhibitors	plasma	enzymatic assay	NA	NA	1.1	0.1	hr

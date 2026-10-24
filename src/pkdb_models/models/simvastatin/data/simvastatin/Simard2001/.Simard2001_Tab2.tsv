@@ -1,0 +1,13 @@
+study	group	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	sd	unit
+Simard2001	all	SIM	auc_end	simvastatin	plasma	LC MS/MS	12.0	hr	10.7	7.3	ng hr/ml
+Simard2001	all	SIM	cmax	simvastatin	plasma	LC MS/MS	NA	NA	5.0	3.8	ng/ml
+Simard2001	all	SIM	tmax	simvastatin	plasma	LC MS/MS	NA	NA	1.35	0.7	hr
+Simard2001	all	SIM	auc_end	simvastatin acid	plasma	LC MS/MS	12.0	hr	10.2	5.2	ng hr/ml
+Simard2001	all	SIM	cmax	simvastatin acid	plasma	LC MS/MS	NA	NA	1.8	0.8	ng/ml
+Simard2001	all	SIM	tmax	simvastatin acid	plasma	LC MS/MS	NA	NA	2.35	2.0	hr
+Simard2001	all	SIM,CIS	auc_end	simvastatin	plasma	LC MS/MS	12.0	hr	11.1	6.3	ng hr/ml
+Simard2001	all	SIM,CIS	cmax	simvastatin	plasma	LC MS/MS	NA	NA	5.0	3.8	ng/ml
+Simard2001	all	SIM,CIS	tmax	simvastatin	plasma	LC MS/MS	NA	NA	0.9	0.4	hr
+Simard2001	all	SIM,CIS	auc_end	simvastatin acid	plasma	LC MS/MS	12.0	hr	6.8	3.2	ng hr/ml
+Simard2001	all	SIM,CIS	cmax	simvastatin acid	plasma	LC MS/MS	NA	NA	1.3	0.8	ng/ml
+Simard2001	all	SIM,CIS	tmax	simvastatin acid	plasma	LC MS/MS	NA	NA	1.75	1.4	hr

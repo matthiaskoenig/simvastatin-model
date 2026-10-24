@@ -1,0 +1,12 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	mean_se	pm	mean_sd	mean_unit	count_unit
+Kyrklund2000	all	10	SIM+RIF_simvastatin	SIM,RIF	concentration	simvastatin	plasma	LC MS/MS	0.0	hr	0.0				mole/meter^3	dimensionless
+Kyrklund2000	all	10	SIM+RIF_simvastatin	SIM,RIF	concentration	simvastatin	plasma	LC MS/MS	0.5	hr	1.051248375537506e-06	4.2021206402293363e-07	0.2641518	1.328827222592967e-06	mole/meter^3	dimensionless
+Kyrklund2000	all	10	SIM+RIF_simvastatin	SIM,RIF	concentration	simvastatin	plasma	LC MS/MS	1.0	hr	1.0518895604395604e-06	2.851560678451983e-07	0.5596873	9.017426630083277e-07	mole/meter^3	dimensionless
+Kyrklund2000	all	10	SIM+RIF_simvastatin	SIM,RIF	concentration	simvastatin	plasma	LC MS/MS	1.5	hr	9.024067128523649e-07	2.7015917343526037e-07	0.49083608	8.543183188438794e-07	mole/meter^3	dimensionless
+Kyrklund2000	all	10	SIM+RIF_simvastatin	SIM,RIF	concentration	simvastatin	plasma	LC MS/MS	2.0	hr	7.379624940277113e-07	1.200588867654085e-07	0.35916775	3.796595355229359e-07	mole/meter^3	dimensionless
+Kyrklund2000	all	10	SIM+RIF_simvastatin	SIM,RIF	concentration	simvastatin	plasma	LC MS/MS	3.0	hr	4.390324175824176e-07				mole/meter^3	dimensionless
+Kyrklund2000	all	10	SIM+RIF_simvastatin	SIM,RIF	concentration	simvastatin	plasma	LC MS/MS	4.0	hr	3.6525871954132826e-07				mole/meter^3	dimensionless
+Kyrklund2000	all	10	SIM+RIF_simvastatin	SIM,RIF	concentration	simvastatin	plasma	LC MS/MS	6.0	hr	2.926724319159102e-07				mole/meter^3	dimensionless
+Kyrklund2000	all	10	SIM+RIF_simvastatin	SIM,RIF	concentration	simvastatin	plasma	LC MS/MS	8.0	hr	2.8016902771141897e-07				mole/meter^3	dimensionless
+Kyrklund2000	all	10	SIM+RIF_simvastatin	SIM,RIF	concentration	simvastatin	plasma	LC MS/MS	10.0	hr	2.0763024366937408e-07				mole/meter^3	dimensionless
+Kyrklund2000	all	10	SIM+RIF_simvastatin	SIM,RIF	concentration	simvastatin	plasma	LC MS/MS	12.0	hr	1.9515058767319636e-07				mole/meter^3	dimensionless

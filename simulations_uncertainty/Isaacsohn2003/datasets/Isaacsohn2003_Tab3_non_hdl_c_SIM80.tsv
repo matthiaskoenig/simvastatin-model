@@ -1,0 +1,3 @@
+study	group	count	intervention	measurement_type	substance	method	label	tissue	time	time_unit	mean	median	mean_sd	mean_se	change	change_sd	baseline	baseline_unit	mean_unit	median_unit	count_unit
+Isaacsohn2003	all	47	SIM80	concentration	non-hdl-c	enzymatic assay	SIM80_non-hdl-c_concentration	plasma	0	week	217.0		48.0	7.00151959189894			217	mg/dl	mg/dl	mg/dl	dimensionless
+Isaacsohn2003	all	47	SIM80	concentration	non-hdl-c	enzymatic assay	SIM80_non-hdl-c_concentration	plasma	6	week	130.0		36.0	5.2511396939242045	-40.0	10.2	217	mg/dl	mg/dl	mg/dl	dimensionless

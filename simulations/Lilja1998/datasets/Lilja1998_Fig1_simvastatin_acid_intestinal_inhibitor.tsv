@@ -1,0 +1,11 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	mean_se	pm	mean_sd	mean_unit	count_unit
+Lilja1998	all	10	SIM+GRA_simvastatin acid	SIM,GRA	concentration	simvastatin acid	serum	LC MS/MS	0.0	hr	0.0				mole/meter^3	dimensionless
+Lilja1998	all	10	SIM+GRA_simvastatin acid	SIM,GRA	concentration	simvastatin acid	serum	LC MS/MS	0.5	hr	8.116745762711865e-07				mole/meter^3	dimensionless
+Lilja1998	all	10	SIM+GRA_simvastatin acid	SIM,GRA	concentration	simvastatin acid	serum	LC MS/MS	1.0	hr	7.244608337150711e-06	2.036246907924874e-06	2.2739706	6.439178107517774e-06	mole/meter^3	dimensionless
+Lilja1998	all	10	SIM+GRA_simvastatin acid	SIM,GRA	concentration	simvastatin acid	serum	LC MS/MS	2.0	hr	2.4775964269354098e-05	5.259674759505268e-06	8.520812	1.6632551991734997e-05	mole/meter^3	dimensionless
+Lilja1998	all	10	SIM+GRA_simvastatin acid	SIM,GRA	concentration	simvastatin acid	serum	LC MS/MS	3.0	hr	3.4333179111314706e-05	7.040645900137425e-06	11.91592	2.2264477243160673e-05	mole/meter^3	dimensionless
+Lilja1998	all	10	SIM+GRA_simvastatin acid	SIM,GRA	concentration	simvastatin acid	serum	LC MS/MS	4.0	hr	3.930973431058177e-05	7.718866239120476e-06	13.792573	2.4409198269798674e-05	mole/meter^3	dimensionless
+Lilja1998	all	10	SIM+GRA_simvastatin acid	SIM,GRA	concentration	simvastatin acid	serum	LC MS/MS	6.0	hr	3.577534012826386e-05	8.313051992670636e-06	11.990035	2.6288178604240494e-05	mole/meter^3	dimensionless
+Lilja1998	all	10	SIM+GRA_simvastatin acid	SIM,GRA	concentration	simvastatin acid	serum	LC MS/MS	8.0	hr	2.8847860742098033e-05	6.870991754466331e-06	9.595101	2.1727983728350027e-05	mole/meter^3	dimensionless
+Lilja1998	all	10	SIM+GRA_simvastatin acid	SIM,GRA	concentration	simvastatin acid	serum	LC MS/MS	10.0	hr	1.700001901053596e-05	5.344105130554283e-06	5.088972	1.6899544267943037e-05	mole/meter^3	dimensionless
+Lilja1998	all	10	SIM+GRA_simvastatin acid	SIM,GRA	concentration	simvastatin acid	serum	LC MS/MS	12.0	hr	8.71451305542831e-06	3.1386010077874487e-06	2.4344432	9.9251278511082e-06	mole/meter^3	dimensionless

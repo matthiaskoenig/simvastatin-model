@@ -1,0 +1,15 @@
+study	group	count	intervention	measurement_type	substance	method	tissue	time	time_unit	mean	se	sd	unit	change	change_sd	change_se	change_min	change_max	change_unit
+Mol1988	all	38	SIM_10mg_twice	concentration	hdl-c	NR	serum	0	weeks	1.03	0.0308220700148449	0.19	mmol/l	na	na	na	na	na	percent
+Mol1988	all	38	SIM_10mg_twice	concentration	hdl-c	NR	serum	4	weeks	1.17	0.0405553552826906	0.25	mmol/l	14.3	15.4	2.49820988541374	-18.7	46.3	percent
+Mol1988	all	38	SIM_10mg_twice	concentration	hdl-c	NR	serum	8	weeks	1.16	0.0405553552826906	0.25	mmol/l	13.4	15.4	2.49820988541374	-13	47.1	percent
+Mol1988	all	38	SIM_40mg	concentration	hdl-c	NR	serum	12	weeks	1.13	0.0405553552826906	0.25	mmol/l	10.6	15.7	2.54687631175297	-24.1	47.5	percent
+Mol1988	all	38	SIM_40mg	concentration	hdl-c	NR	serum	16	weeks	1.15	0.0437997837053059	0.27	mmol/l	11.7	17.4	2.82265272767527	-13	52.5	percent
+Mol1988	all	38	SIM_40mg	concentration	hdl-c	NR	serum	20	weeks	1.12	0.0324442842261525	0.2	mmol/l	10.3	14.5	2.35221060639606	-19.6	40.6	percent
+Mol1988	all	38	SIM_40mg	concentration	hdl-c	NR	serum	24	weeks	1.16	0.038933141071383	0.24	mmol/l	13.2	17.2	2.79020844344912	-11.8	49.3	percent
+Mol1988	all	38	SIM_10mg_twice	concentration	triglyceride	enzymatic assay	serum	0	weeks	1.65	0.120043851636764	0.74	mmol/l	na	na	na	na	na	percent
+Mol1988	all	38	SIM_10mg_twice	concentration	triglyceride	enzymatic assay	serum	4	weeks	1.21	0.108688352157611	0.67	mmol/l	-25	21.8	3.53642698065062	-67.4	36.4	percent
+Mol1988	all	38	SIM_10mg_twice	concentration	triglyceride	enzymatic assay	serum	8	weeks	1.24	0.0940884242558423	0.58	mmol/l	-20.7	22.5	3.64998197544216	-56.9	27	percent
+Mol1988	all	38	SIM_40mg	concentration	triglyceride	enzymatic assay	serum	12	weeks	1.24	0.108688352157611	0.67	mmol/l	-24.2	18.5	3.00109629091911	-63.6	18.2	percent
+Mol1988	all	38	SIM_40mg	concentration	triglyceride	enzymatic assay	serum	16	weeks	1.26	0.090843995833227	0.56	mmol/l	-21.1	17.6	2.85509701190142	-55	22.7	percent
+Mol1988	all	38	SIM_40mg	concentration	triglyceride	enzymatic assay	serum	20	weeks	1.18	0.0875995674106118	0.54	mmol/l	-25.9	24.5	3.97442481770368	-56.2	60	percent
+Mol1988	all	38	SIM_40mg	concentration	triglyceride	enzymatic assay	serum	24	weeks	1.1	0.0875995674106118	0.54	mmol/l	-30.8	17	2.75776415922296	-68.1	2.2	percent

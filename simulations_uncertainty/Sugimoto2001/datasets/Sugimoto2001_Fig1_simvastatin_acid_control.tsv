@@ -1,0 +1,11 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	mean_se	pm	mean_sd	mean_unit	count_unit
+Sugimoto2001	sim_group	8	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	0.0	hr	0.0				mole/meter^3	dimensionless
+Sugimoto2001	sim_group	8	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	0.5	hr	6.608442510306917e-07	3.454412734768667e-07	0.43934426	9.770554679088363e-07	mole/meter^3	dimensionless
+Sugimoto2001	sim_group	8	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	1.0	hr	1.6370913879981675e-06	4.806139715987174e-07	0.50491804	1.3593815938018072e-06	mole/meter^3	dimensionless
+Sugimoto2001	sim_group	8	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	2.0	hr	3.950046266605589e-06	1.3967844709115897e-06	1.1147541	3.950703084950595e-06	mole/meter^3	dimensionless
+Sugimoto2001	sim_group	8	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	3.0	hr	4.971350664223546e-06	1.4868992212551534e-06	1.5213115	4.205586089162071e-06	mole/meter^3	dimensionless
+Sugimoto2001	sim_group	8	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	4.0	hr	4.0101229958772335e-06	7.509592304168576e-07	1.4229509	2.1240334568895647e-06	mole/meter^3	dimensionless
+Sugimoto2001	sim_group	8	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	6.0	hr	3.0789331195602384e-06	6.308057718735684e-07	1.0688524	1.7841881556136603e-06	mole/meter^3	dimensionless
+Sugimoto2001	sim_group	8	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	8.0	hr	2.087666972056803e-06	6.007674072377461e-07	0.64918035	1.6992268302946816e-06	mole/meter^3	dimensionless
+Sugimoto2001	sim_group	8	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	12.0	hr	5.557099404489235e-07	3.904988776912506e-07	0.07213115	1.1044976178448786e-06	mole/meter^3	dimensionless
+Sugimoto2001	sim_group	8	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	24.0	hr	4.505756069628951e-08				mole/meter^3	dimensionless

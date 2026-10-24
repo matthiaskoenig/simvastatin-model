@@ -1,0 +1,30 @@
+{
+  "opid": "PD_20261020_133635__e8729",
+  "sid": "PD_20261020_133635__e8729_0",
+  "pids": [
+    "LI__HMGCOAREDUCTASE_Ki_simacid"
+  ],
+  "values": [
+    9.16748418506532e-07
+  ],
+  "scale": "LOG10",
+  "scales": [
+    "LOG10"
+  ],
+  "matrix": [
+    [
+      725.7594120554209
+    ]
+  ],
+  "cost": 30.266126095443557,
+  "n": 99,
+  "alpha": 0.95,
+  "rank_tolerance": 1e-08,
+  "step": 1e-06,
+  "units": [
+    "(mmol)/l"
+  ],
+  "targets": [
+    "LI__HMGCOAREDUCTASE_Ki_simacid"
+  ]
+}

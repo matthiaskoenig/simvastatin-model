@@ -1,0 +1,14 @@
+study	group	intervention	substance	application	measurement_type	form	route	time	time_unit	unit	value
+Cilla1996	subgroup	ATO2.5	atorvastatin	single dose	dosing	capsule	oral	0	hr	mg	2.5
+Cilla1996	subgroup	ATO10	atorvastatin	single dose	dosing	capsule	oral	0	hr	mg	10.0
+Cilla1996	subgroup	ATO20	atorvastatin	single dose	dosing	capsule	oral	0	hr	mg	20.0
+Cilla1996	subgroup	ATO40	atorvastatin	single dose	dosing	capsule	oral	0	hr	mg	40.0
+Cilla1996	subgroup	ATO80	atorvastatin	single dose	dosing	capsule	oral	0	hr	mg	80.0
+Cilla1996	subgroup	ATO5_morn	atorvastatin	single dose	dosing	capsule	oral	0	hr	mg	5.0
+Cilla1996	subgroup	ATO10_morn	atorvastatin	single dose	dosing	capsule	oral	0	hr	mg	10.0
+Cilla1996	subgroup	ATO20_morn	atorvastatin	single dose	dosing	capsule	oral	0	hr	mg	20.0
+Cilla1996	subgroup	ATO40_morn	atorvastatin	single dose	dosing	capsule	oral	0	hr	mg	40.0
+Cilla1996	subgroup	ATO5_eve	atorvastatin	single dose	dosing	capsule	oral	12	hr	mg	5.0
+Cilla1996	subgroup	ATO10_eve	atorvastatin	single dose	dosing	capsule	oral	12	hr	mg	10.0
+Cilla1996	subgroup	ATO20_eve	atorvastatin	single dose	dosing	capsule	oral	12	hr	mg	20.0
+Cilla1996	subgroup	ATO40_eve	atorvastatin	single dose	dosing	capsule	oral	12	hr	mg	40.0

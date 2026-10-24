@@ -1,0 +1,6 @@
+study	group	count	intervention	measurement_type	substance	method	tissue	label	time	time_unit	mean	mean_sd	mean_se	mean_unit	count_unit
+Mol1988	group3	8	SIM_10mg_twice	concentration	ldl-c	NR	serum	SIM_10mg_twice_ldl-c	0	weeks	10.05	1.97	0.696500179468749	mmol/l	dimensionless
+Mol1988	group3	8	SIM_20mg_twice	concentration	ldl-c	NR	serum	SIM_20mg_twice_ldl-c	12	weeks	5.24	1.39	0.491439212924651	mmol/l	dimensionless
+Mol1988	group3	8	SIM_20mg_twice	concentration	ldl-c	NR	serum	SIM_20mg_twice_ldl-c	16	weeks	5.24	1.51	0.533865619795843	mmol/l	dimensionless
+Mol1988	group3	8	SIM_20mg_twice	concentration	ldl-c	NR	serum	SIM_20mg_twice_ldl-c	20	weeks	5.1	1.42	0.502045814642449	mmol/l	dimensionless
+Mol1988	group3	8	SIM_40mg_once	concentration	ldl-c	NR	serum	SIM_40mg_once_ldl-c	24	weeks	5.67	1.79	0.63286056916196	mmol/l	dimensionless

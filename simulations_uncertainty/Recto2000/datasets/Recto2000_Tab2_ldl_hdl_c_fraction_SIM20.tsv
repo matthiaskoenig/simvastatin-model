@@ -1,0 +1,3 @@
+study	group	count	intervention	label	measurement_type	substance	tissue	time	time_unit	mean	mean_sd	mean_se	change	change_sd	baseline	baseline_unit	mean_unit	count_unit
+Recto2000	all	125	SIM20	SIM20_ldl/hdl-c_metabolic ratio	metabolic ratio	ldl/hdl-c	plasma	0	weeks	4.5					4.5	dimensionless	dimensionless	dimensionless
+Recto2000	all	125	SIM20	SIM20_ldl/hdl-c_metabolic ratio	metabolic ratio	ldl/hdl-c	plasma	6	weeks	2.7315			-39.3	14.5	4.5	dimensionless	dimensionless	dimensionless

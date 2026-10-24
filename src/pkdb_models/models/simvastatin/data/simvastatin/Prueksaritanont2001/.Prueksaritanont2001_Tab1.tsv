@@ -1,0 +1,13 @@
+study	group	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	sd	unit
+Prueksaritanont2001	all	SIM_1	auc_end	active simva inhibitors	plasma	enzymatic assay	12.0	hr	95.2	40.0	ng/ml*hr
+Prueksaritanont2001	all	SIM_1	cmax	active simva inhibitors	plasma	enzymatic assay	NA	NA	27.6	11.9	ng/ml
+Prueksaritanont2001	all	SIM_1	tmax	active simva inhibitors	plasma	enzymatic assay	NA	NA	1.3	0.3	hr
+Prueksaritanont2001	all	SIM_1	auc_end	total simva inhibitors	plasma	enzymatic assay	8.0	hr	276.5	94.2	ng/ml*hr
+Prueksaritanont2001	all	SIM_1	cmax	total simva inhibitors	plasma	enzymatic assay	NA	NA	102.8	49.2	ng/ml
+Prueksaritanont2001	all	SIM_1	tmax	total simva inhibitors	plasma	enzymatic assay	NA	NA	1.1	0.5	hr
+Prueksaritanont2001	all	SIM_1,TRO	auc_end	active simva inhibitors	plasma	enzymatic assay	6.0	hr	59.3	17.0	ng/ml*hr
+Prueksaritanont2001	all	SIM_1,TRO	cmax	active simva inhibitors	plasma	enzymatic assay	NA	NA	19.4	10.1	ng/ml
+Prueksaritanont2001	all	SIM_1,TRO	tmax	active simva inhibitors	plasma	enzymatic assay	NA	NA	1.2	0.4	hr
+Prueksaritanont2001	all	SIM_1,TRO	auc_end	total simva inhibitors	plasma	enzymatic assay	8.0	hr	164.3	34.4	ng/ml*hr
+Prueksaritanont2001	all	SIM_1,TRO	cmax	total simva inhibitors	plasma	enzymatic assay	NA	NA	72.5	30.3	ng/ml
+Prueksaritanont2001	all	SIM_1,TRO	tmax	total simva inhibitors	plasma	enzymatic assay	NA	NA	1.1	0.4	hr

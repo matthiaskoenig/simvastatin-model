@@ -1,0 +1,6 @@
+study	group	count	intervention	measurement_type	substance	tissue	label	time	time_unit	mean	change	baseline	baseline_sd	baseline_unit	mean_unit	count_unit
+Tuomilehto1995	SIM10mg	27	SIM10	concentration	ldl-c	serum	ldl-c_SIM10_concentration	0	weeks	5.2	0.0	5.2	26.2	mM	mM	dimensionless
+Tuomilehto1995	SIM10mg	27	SIM10	concentration	ldl-c	serum	ldl-c_SIM10_concentration	2	weeks	4.049283004	-22.129173	5.2	26.2	mM	mM	dimensionless
+Tuomilehto1995	SIM10mg	27	SIM10	concentration	ldl-c	serum	ldl-c_SIM10_concentration	4	weeks	3.479128744	-33.093678	5.2	26.2	mM	mM	dimensionless
+Tuomilehto1995	SIM10mg	27	SIM10	concentration	ldl-c	serum	ldl-c_SIM10_concentration	6	weeks	3.510235456	-32.495472	5.2	26.2	mM	mM	dimensionless
+Tuomilehto1995	SIM10mg	27	SIM10	concentration	ldl-c	serum	ldl-c_SIM10_concentration	8	weeks	3.462528836	-33.412907	5.2	26.2	mM	mM	dimensionless

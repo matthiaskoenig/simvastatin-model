@@ -1,0 +1,5 @@
+study	name	time	time_unit	route	application	measurement_type	form	substance	value	unit
+Recto2000	SIM20	0	hr	oral	multiple dose	qualitative dosing	tablet	simvastatin	20	mg
+Recto2000	SIM40	0	hr	oral	multiple dose	qualitative dosing	tablet	simvastatin	40	mg
+Recto2000	ATO10	0	hr	oral	multiple dose	qualitative dosing	tablet	atorvastatin	10	mg
+Recto2000	ATO20	0	hr	oral	multiple dose	qualitative dosing	tablet	atorvastatin	20	mg

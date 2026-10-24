@@ -1,0 +1,2 @@
+study	group	count	intervention	measurement_type	substance	label	time	time_unit	tissue	method	mean	mean_sd	baseline	mean_unit	count_unit
+Saito1991	5_evening	18	SIM5_evening, placebo_at_the_end	concentration	ldl-c	ldl-c_SIM5_evening, placebo_at_the_end	16	weeks	plasma	Friedewald-formula	4.983191104215153	1.0266356348590637	204.3	mole/meter^3	dimensionless

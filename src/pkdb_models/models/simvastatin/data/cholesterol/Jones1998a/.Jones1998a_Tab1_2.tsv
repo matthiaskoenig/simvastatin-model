@@ -1,0 +1,209 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	time	time_unit	mean	sd	se	unit	mean_change	mean_change_sd	mean_change_unit	baseline	baseline_unit
+Jones1998a	ATO10	73.0	ATO10_cholesterol_concentration	ATO10	concentration	cholesterol	plasma	0.0	weeks	7.72	na	na	mmol/l	0.0	na	%	NA	NA
+Jones1998a	ATO10	73.0	ATO10_triglyceride_concentration	ATO10	concentration	triglyceride	plasma	0.0	weeks	1.91	na	na	mmol/l	0.0	na	%	NA	NA
+Jones1998a	ATO10	73.0	ATO10_hdl-c_concentration	ATO10	concentration	hdl-c	plasma	0.0	weeks	1.33	na	na	mmol/l	0.0	na	%	NA	NA
+Jones1998a	ATO10	73.0	ATO10_ldl-c_concentration	ATO10	concentration	ldl-c	plasma	0.0	weeks	5.52	na	na	mmol/l	0.0	na	%	NA	NA
+Jones1998a	ATO20	51.0	ATO20_cholesterol_concentration	ATO20	concentration	cholesterol	plasma	0.0	weeks	7.68	na	na	mmol/l	0.0	na	%	NA	NA
+Jones1998a	ATO20	51.0	ATO20_triglyceride_concentration	ATO20	concentration	triglyceride	plasma	0.0	weeks	1.94	na	na	mmol/l	0.0	na	%	NA	NA
+Jones1998a	ATO20	51.0	ATO20_hdl-c_concentration	ATO20	concentration	hdl-c	plasma	0.0	weeks	1.28	na	na	mmol/l	0.0	na	%	NA	NA
+Jones1998a	ATO20	51.0	ATO20_ldl-c_concentration	ATO20	concentration	ldl-c	plasma	0.0	weeks	5.51	na	na	mmol/l	0.0	na	%	NA	NA
+Jones1998a	ATO40	61.0	ATO40_cholesterol_concentration	ATO40	concentration	cholesterol	plasma	0.0	weeks	7.4	na	na	mmol/l	0.0	na	%	NA	NA
+Jones1998a	ATO40	61.0	ATO40_triglyceride_concentration	ATO40	concentration	triglyceride	plasma	0.0	weeks	1.73	na	na	mmol/l	0.0	na	%	NA	NA
+Jones1998a	ATO40	61.0	ATO40_hdl-c_concentration	ATO40	concentration	hdl-c	plasma	0.0	weeks	1.29	na	na	mmol/l	0.0	na	%	NA	NA
+Jones1998a	ATO40	61.0	ATO40_ldl-c_concentration	ATO40	concentration	ldl-c	plasma	0.0	weeks	5.32	na	na	mmol/l	0.0	na	%	NA	NA
+Jones1998a	ATO80	10.0	ATO80_cholesterol_concentration	ATO80	concentration	cholesterol	plasma	0.0	weeks	7.65	na	na	mmol/l	0.0	na	%	NA	NA
+Jones1998a	ATO80	10.0	ATO80_triglyceride_concentration	ATO80	concentration	triglyceride	plasma	0.0	weeks	1.69	na	na	mmol/l	0.0	na	%	NA	NA
+Jones1998a	ATO80	10.0	ATO80_hdl-c_concentration	ATO80	concentration	hdl-c	plasma	0.0	weeks	1.37	na	na	mmol/l	0.0	na	%	NA	NA
+Jones1998a	ATO80	10.0	ATO80_ldl-c_concentration	ATO80	concentration	ldl-c	plasma	0.0	weeks	5.51	na	na	mmol/l	0.0	na	%	NA	NA
+Jones1998a	SIM10	70.0	SIM10_cholesterol_concentration	SIM10	concentration	cholesterol	plasma	0.0	weeks	7.48	na	na	mmol/l	0.0	na	%	NA	NA
+Jones1998a	SIM10	70.0	SIM10_triglyceride_concentration	SIM10	concentration	triglyceride	plasma	0.0	weeks	1.78	na	na	mmol/l	0.0	na	%	NA	NA
+Jones1998a	SIM10	70.0	SIM10_hdl-c_concentration	SIM10	concentration	hdl-c	plasma	0.0	weeks	1.31	na	na	mmol/l	0.0	na	%	NA	NA
+Jones1998a	SIM10	70.0	SIM10_ldl-c_concentration	SIM10	concentration	ldl-c	plasma	0.0	weeks	5.36	na	na	mmol/l	0.0	na	%	NA	NA
+Jones1998a	SIM20	49.0	SIM20_cholesterol_concentration	SIM20	concentration	cholesterol	plasma	0.0	weeks	8.09	na	na	mmol/l	0.0	na	%	NA	NA
+Jones1998a	SIM20	49.0	SIM20_triglyceride_concentration	SIM20	concentration	triglyceride	plasma	0.0	weeks	1.79	na	na	mmol/l	0.0	na	%	NA	NA
+Jones1998a	SIM20	49.0	SIM20_hdl-c_concentration	SIM20	concentration	hdl-c	plasma	0.0	weeks	1.32	na	na	mmol/l	0.0	na	%	NA	NA
+Jones1998a	SIM20	49.0	SIM20_ldl-c_concentration	SIM20	concentration	ldl-c	plasma	0.0	weeks	5.95	na	na	mmol/l	0.0	na	%	NA	NA
+Jones1998a	SIM40	61.0	SIM40_cholesterol_concentration	SIM40	concentration	cholesterol	plasma	0.0	weeks	7.77	na	na	mmol/l	0.0	na	%	NA	NA
+Jones1998a	SIM40	61.0	SIM40_triglyceride_concentration	SIM40	concentration	triglyceride	plasma	0.0	weeks	1.95	na	na	mmol/l	0.0	na	%	NA	NA
+Jones1998a	SIM40	61.0	SIM40_hdl-c_concentration	SIM40	concentration	hdl-c	plasma	0.0	weeks	1.2	na	na	mmol/l	0.0	na	%	NA	NA
+Jones1998a	SIM40	61.0	SIM40_ldl-c_concentration	SIM40	concentration	ldl-c	plasma	0.0	weeks	5.66	na	na	mmol/l	0.0	na	%	NA	NA
+Jones1998a	PRA10	14.0	PRA10_cholesterol_concentration	PRA10	concentration	cholesterol	plasma	0.0	weeks	8.0	na	na	mmol/l	0.0	na	%	NA	NA
+Jones1998a	PRA10	14.0	PRA10_triglyceride_concentration	PRA10	concentration	triglyceride	plasma	0.0	weeks	1.98	na	na	mmol/l	0.0	na	%	NA	NA
+Jones1998a	PRA10	14.0	PRA10_hdl-c_concentration	PRA10	concentration	hdl-c	plasma	0.0	weeks	1.26	na	na	mmol/l	0.0	na	%	NA	NA
+Jones1998a	PRA10	14.0	PRA10_ldl-c_concentration	PRA10	concentration	ldl-c	plasma	0.0	weeks	5.83	na	na	mmol/l	0.0	na	%	NA	NA
+Jones1998a	PRA20	41.0	PRA20_cholesterol_concentration	PRA20	concentration	cholesterol	plasma	0.0	weeks	8.14	na	na	mmol/l	0.0	na	%	NA	NA
+Jones1998a	PRA20	41.0	PRA20_triglyceride_concentration	PRA20	concentration	triglyceride	plasma	0.0	weeks	1.66	na	na	mmol/l	0.0	na	%	NA	NA
+Jones1998a	PRA20	41.0	PRA20_hdl-c_concentration	PRA20	concentration	hdl-c	plasma	0.0	weeks	1.25	na	na	mmol/l	0.0	na	%	NA	NA
+Jones1998a	PRA20	41.0	PRA20_ldl-c_concentration	PRA20	concentration	ldl-c	plasma	0.0	weeks	6.14	na	na	mmol/l	0.0	na	%	NA	NA
+Jones1998a	PRA40	25.0	PRA40_cholesterol_concentration	PRA40	concentration	cholesterol	plasma	0.0	weeks	7.73	na	na	mmol/l	0.0	na	%	NA	NA
+Jones1998a	PRA40	25.0	PRA40_triglyceride_concentration	PRA40	concentration	triglyceride	plasma	0.0	weeks	1.94	na	na	mmol/l	0.0	na	%	NA	NA
+Jones1998a	PRA40	25.0	PRA40_hdl-c_concentration	PRA40	concentration	hdl-c	plasma	0.0	weeks	1.28	na	na	mmol/l	0.0	na	%	NA	NA
+Jones1998a	PRA40	25.0	PRA40_ldl-c_concentration	PRA40	concentration	ldl-c	plasma	0.0	weeks	5.57	na	na	mmol/l	0.0	na	%	NA	NA
+Jones1998a	LOVA20	16.0	LOVA20_cholesterol_concentration	LOVA20	concentration	cholesterol	plasma	0.0	weeks	8.63	na	na	mmol/l	0.0	na	%	NA	NA
+Jones1998a	LOVA20	16.0	LOVA20_triglyceride_concentration	LOVA20	concentration	triglyceride	plasma	0.0	weeks	2.17	na	na	mmol/l	0.0	na	%	NA	NA
+Jones1998a	LOVA20	16.0	LOVA20_hdl-c_concentration	LOVA20	concentration	hdl-c	plasma	0.0	weeks	1.32	na	na	mmol/l	0.0	na	%	NA	NA
+Jones1998a	LOVA20	16.0	LOVA20_ldl-c_concentration	LOVA20	concentration	ldl-c	plasma	0.0	weeks	6.32	na	na	mmol/l	0.0	na	%	NA	NA
+Jones1998a	LOVA40	16.0	LOVA40_cholesterol_concentration	LOVA40	concentration	cholesterol	plasma	0.0	weeks	7.79	na	na	mmol/l	0.0	na	%	NA	NA
+Jones1998a	LOVA40	16.0	LOVA40_triglyceride_concentration	LOVA40	concentration	triglyceride	plasma	0.0	weeks	1.94	na	na	mmol/l	0.0	na	%	NA	NA
+Jones1998a	LOVA40	16.0	LOVA40_hdl-c_concentration	LOVA40	concentration	hdl-c	plasma	0.0	weeks	1.26	na	na	mmol/l	0.0	na	%	NA	NA
+Jones1998a	LOVA40	16.0	LOVA40_ldl-c_concentration	LOVA40	concentration	ldl-c	plasma	0.0	weeks	5.65	na	na	mmol/l	0.0	na	%	NA	NA
+Jones1998a	LOVA80	11.0	LOVA80_cholesterol_concentration	LOVA80	concentration	cholesterol	plasma	0.0	weeks	7.9	na	na	mmol/l	0.0	na	%	NA	NA
+Jones1998a	LOVA80	11.0	LOVA80_triglyceride_concentration	LOVA80	concentration	triglyceride	plasma	0.0	weeks	2.26	na	na	mmol/l	0.0	na	%	NA	NA
+Jones1998a	LOVA80	11.0	LOVA80_hdl-c_concentration	LOVA80	concentration	hdl-c	plasma	0.0	weeks	1.21	na	na	mmol/l	0.0	na	%	NA	NA
+Jones1998a	LOVA80	11.0	LOVA80_ldl-c_concentration	LOVA80	concentration	ldl-c	plasma	0.0	weeks	5.66	na	na	mmol/l	0.0	na	%	NA	NA
+Jones1998a	ATO10	73.0	ATO10_cholesterol_concentration	ATO10	concentration	cholesterol	plasma	8.0	weeks	5.5584	NA	NA	mmol/l	-28.0	9	%	NA	NA
+Jones1998a	ATO10	73.0	ATO10_triglyceride_concentration	ATO10	concentration	triglyceride	plasma	8.0	weeks	1.6617	NA	NA	mmol/l	-13.0	25	%	NA	NA
+Jones1998a	ATO10	73.0	ATO10_hdl-c_concentration	ATO10	concentration	hdl-c	plasma	8.0	weeks	1.40315	NA	NA	mmol/l	5.5	12	%	NA	NA
+Jones1998a	ATO10	73.0	ATO10_ldl-c_concentration	ATO10	concentration	ldl-c	plasma	8.0	weeks	3.4224	NA	NA	mmol/l	-38.0	10	%	NA	NA
+Jones1998a	ATO20	51.0	ATO20_cholesterol_concentration	ATO20	concentration	cholesterol	plasma	8.0	weeks	4.992	NA	NA	mmol/l	-35.0	6	%	NA	NA
+Jones1998a	ATO20	51.0	ATO20_triglyceride_concentration	ATO20	concentration	triglyceride	plasma	8.0	weeks	1.552	NA	NA	mmol/l	-20.0	25	%	NA	NA
+Jones1998a	ATO20	51.0	ATO20_hdl-c_concentration	ATO20	concentration	hdl-c	plasma	8.0	weeks	1.34528	NA	NA	mmol/l	5.1	11	%	NA	NA
+Jones1998a	ATO20	51.0	ATO20_ldl-c_concentration	ATO20	concentration	ldl-c	plasma	8.0	weeks	2.9754	NA	NA	mmol/l	-46.0	8	%	NA	NA
+Jones1998a	ATO40	61.0	ATO40_cholesterol_concentration	ATO40	concentration	cholesterol	plasma	8.0	weeks	4.44	NA	NA	mmol/l	-40.0	8	%	NA	NA
+Jones1998a	ATO40	61.0	ATO40_triglyceride_concentration	ATO40	concentration	triglyceride	plasma	8.0	weeks	1.1764	NA	NA	mmol/l	-32.0	19	%	NA	NA
+Jones1998a	ATO40	61.0	ATO40_hdl-c_concentration	ATO40	concentration	hdl-c	plasma	8.0	weeks	1.35192	NA	NA	mmol/l	4.8	12	%	NA	NA
+Jones1998a	ATO40	61.0	ATO40_ldl-c_concentration	ATO40	concentration	ldl-c	plasma	8.0	weeks	2.6068	NA	NA	mmol/l	-51.0	10	%	NA	NA
+Jones1998a	ATO80	10.0	ATO80_cholesterol_concentration	ATO80	concentration	cholesterol	plasma	8.0	weeks	4.437	NA	NA	mmol/l	-42.0	7	%	NA	NA
+Jones1998a	ATO80	10.0	ATO80_triglyceride_concentration	ATO80	concentration	triglyceride	plasma	8.0	weeks	1.2675	NA	NA	mmol/l	-25.0	22	%	NA	NA
+Jones1998a	ATO80	10.0	ATO80_hdl-c_concentration	ATO80	concentration	hdl-c	plasma	8.0	weeks	1.36863	NA	NA	mmol/l	-0.1	9	%	NA	NA
+Jones1998a	ATO80	10.0	ATO80_ldl-c_concentration	ATO80	concentration	ldl-c	plasma	8.0	weeks	2.5346	NA	NA	mmol/l	-54.0	9	%	NA	NA
+Jones1998a	SIM10	70.0	SIM10_cholesterol_concentration	SIM10	concentration	cholesterol	plasma	8.0	weeks	5.9092	NA	NA	mmol/l	-21.0	9	%	NA	NA
+Jones1998a	SIM10	70.0	SIM10_triglyceride_concentration	SIM10	concentration	triglyceride	plasma	8.0	weeks	1.5664	NA	NA	mmol/l	-12.0	30	%	NA	NA
+Jones1998a	SIM10	70.0	SIM10_hdl-c_concentration	SIM10	concentration	hdl-c	plasma	8.0	weeks	1.39908	NA	NA	mmol/l	6.8	9	%	NA	NA
+Jones1998a	SIM10	70.0	SIM10_ldl-c_concentration	SIM10	concentration	ldl-c	plasma	8.0	weeks	3.8592	NA	NA	mmol/l	-28.0	12	%	NA	NA
+Jones1998a	SIM20	49.0	SIM20_cholesterol_concentration	SIM20	concentration	cholesterol	plasma	8.0	weeks	5.9866	NA	NA	mmol/l	-26.0	8	%	NA	NA
+Jones1998a	SIM20	49.0	SIM20_triglyceride_concentration	SIM20	concentration	triglyceride	plasma	8.0	weeks	1.4857	NA	NA	mmol/l	-17.0	22	%	NA	NA
+Jones1998a	SIM20	49.0	SIM20_hdl-c_concentration	SIM20	concentration	hdl-c	plasma	8.0	weeks	1.38864	NA	NA	mmol/l	5.2	10	%	NA	NA
+Jones1998a	SIM20	49.0	SIM20_ldl-c_concentration	SIM20	concentration	ldl-c	plasma	8.0	weeks	3.8675	NA	NA	mmol/l	-35.0	11	%	NA	NA
+Jones1998a	SIM40	61.0	SIM40_cholesterol_concentration	SIM40	concentration	cholesterol	plasma	8.0	weeks	5.439	NA	NA	mmol/l	-30.0	10	%	NA	NA
+Jones1998a	SIM40	61.0	SIM40_triglyceride_concentration	SIM40	concentration	triglyceride	plasma	8.0	weeks	1.6575	NA	NA	mmol/l	-15.0	29	%	NA	NA
+Jones1998a	SIM40	61.0	SIM40_hdl-c_concentration	SIM40	concentration	hdl-c	plasma	8.0	weeks	1.3152	NA	NA	mmol/l	9.6	13	%	NA	NA
+Jones1998a	SIM40	61.0	SIM40_ldl-c_concentration	SIM40	concentration	ldl-c	plasma	8.0	weeks	3.3394	NA	NA	mmol/l	-41.0	13	%	NA	NA
+Jones1998a	PRA10	14.0	PRA10_cholesterol_concentration	PRA10	concentration	cholesterol	plasma	8.0	weeks	6.96	NA	NA	mmol/l	-13.0	12	%	NA	NA
+Jones1998a	PRA10	14.0	PRA10_triglyceride_concentration	PRA10	concentration	triglyceride	plasma	8.0	weeks	2.0394	NA	NA	mmol/l	3.0	46	%	NA	NA
+Jones1998a	PRA10	14.0	PRA10_hdl-c_concentration	PRA10	concentration	hdl-c	plasma	8.0	weeks	1.38474	NA	NA	mmol/l	9.9	13	%	NA	NA
+Jones1998a	PRA10	14.0	PRA10_ldl-c_concentration	PRA10	concentration	ldl-c	plasma	8.0	weeks	4.7223	NA	NA	mmol/l	-19.0	14	%	NA	NA
+Jones1998a	PRA20	41.0	PRA20_cholesterol_concentration	PRA20	concentration	cholesterol	plasma	8.0	weeks	6.6748	NA	NA	mmol/l	-18.0	7	%	NA	NA
+Jones1998a	PRA20	41.0	PRA20_triglyceride_concentration	PRA20	concentration	triglyceride	plasma	8.0	weeks	1.411	NA	NA	mmol/l	-15.0	17	%	NA	NA
+Jones1998a	PRA20	41.0	PRA20_hdl-c_concentration	PRA20	concentration	hdl-c	plasma	8.0	weeks	1.2875	NA	NA	mmol/l	3.0	8	%	NA	NA
+Jones1998a	PRA20	41.0	PRA20_ldl-c_concentration	PRA20	concentration	ldl-c	plasma	8.0	weeks	4.6664	NA	NA	mmol/l	-24.0	9	%	NA	NA
+Jones1998a	PRA40	25.0	PRA40_cholesterol_concentration	PRA40	concentration	cholesterol	plasma	8.0	weeks	5.8748	NA	NA	mmol/l	-24.0	7	%	NA	NA
+Jones1998a	PRA40	25.0	PRA40_triglyceride_concentration	PRA40	concentration	triglyceride	plasma	8.0	weeks	1.746	NA	NA	mmol/l	-10.0	22	%	NA	NA
+Jones1998a	PRA40	25.0	PRA40_hdl-c_concentration	PRA40	concentration	hdl-c	plasma	8.0	weeks	1.35936	NA	NA	mmol/l	6.2	11	%	NA	NA
+Jones1998a	PRA40	25.0	PRA40_ldl-c_concentration	PRA40	concentration	ldl-c	plasma	8.0	weeks	3.6762	NA	NA	mmol/l	-34.0	9	%	NA	NA
+Jones1998a	LOVA20	16.0	LOVA20_cholesterol_concentration	LOVA20	concentration	cholesterol	plasma	8.0	weeks	6.8177	NA	NA	mmol/l	-21.0	9	%	NA	NA
+Jones1998a	LOVA20	16.0	LOVA20_triglyceride_concentration	LOVA20	concentration	triglyceride	plasma	8.0	weeks	1.9096	NA	NA	mmol/l	-12.0	23	%	NA	NA
+Jones1998a	LOVA20	16.0	LOVA20_hdl-c_concentration	LOVA20	concentration	hdl-c	plasma	8.0	weeks	1.41636	NA	NA	mmol/l	7.3	12	%	NA	NA
+Jones1998a	LOVA20	16.0	LOVA20_ldl-c_concentration	LOVA20	concentration	ldl-c	plasma	8.0	weeks	4.4872	NA	NA	mmol/l	-29.0	13	%	NA	NA
+Jones1998a	LOVA40	16.0	LOVA40_cholesterol_concentration	LOVA40	concentration	cholesterol	plasma	8.0	weeks	5.9983	NA	NA	mmol/l	-23.0	6	%	NA	NA
+Jones1998a	LOVA40	16.0	LOVA40_triglyceride_concentration	LOVA40	concentration	triglyceride	plasma	8.0	weeks	1.9012	NA	NA	mmol/l	-2.0	27	%	NA	NA
+Jones1998a	LOVA40	16.0	LOVA40_hdl-c_concentration	LOVA40	concentration	hdl-c	plasma	8.0	weeks	1.31796	NA	NA	mmol/l	4.6	13	%	NA	NA
+Jones1998a	LOVA40	16.0	LOVA40_ldl-c_concentration	LOVA40	concentration	ldl-c	plasma	8.0	weeks	3.8985	NA	NA	mmol/l	-31.0	7	%	NA	NA
+Jones1998a	LOVA80	11.0	LOVA80_cholesterol_concentration	LOVA80	concentration	cholesterol	plasma	8.0	weeks	5.056	NA	NA	mmol/l	-36.0	6	%	NA	NA
+Jones1998a	LOVA80	11.0	LOVA80_triglyceride_concentration	LOVA80	concentration	triglyceride	plasma	8.0	weeks	1.9662	NA	NA	mmol/l	-13.0	28	%	NA	NA
+Jones1998a	LOVA80	11.0	LOVA80_hdl-c_concentration	LOVA80	concentration	hdl-c	plasma	8.0	weeks	1.3068	NA	NA	mmol/l	8.0	13	%	NA	NA
+Jones1998a	LOVA80	11.0	LOVA80_ldl-c_concentration	LOVA80	concentration	ldl-c	plasma	8.0	weeks	2.9432	NA	NA	mmol/l	-48.0	8	%	NA	NA
+Jones1998a	ATO10	73.0	ATO10_cholesterol_concentration change	ATO10	concentration change	cholesterol	plasma	0.0	weeks	0.0	na	na	percent	0.0	na	%	7.72	mmol/l
+Jones1998a	ATO10	73.0	ATO10_triglyceride_concentration change	ATO10	concentration change	triglyceride	plasma	0.0	weeks	0.0	na	na	percent	0.0	na	%	1.91	mmol/l
+Jones1998a	ATO10	73.0	ATO10_hdl-c_concentration change	ATO10	concentration change	hdl-c	plasma	0.0	weeks	0.0	na	na	percent	0.0	na	%	1.33	mmol/l
+Jones1998a	ATO10	73.0	ATO10_ldl-c_concentration change	ATO10	concentration change	ldl-c	plasma	0.0	weeks	0.0	na	na	percent	0.0	na	%	5.52	mmol/l
+Jones1998a	ATO20	51.0	ATO20_cholesterol_concentration change	ATO20	concentration change	cholesterol	plasma	0.0	weeks	0.0	na	na	percent	0.0	na	%	7.68	mmol/l
+Jones1998a	ATO20	51.0	ATO20_triglyceride_concentration change	ATO20	concentration change	triglyceride	plasma	0.0	weeks	0.0	na	na	percent	0.0	na	%	1.94	mmol/l
+Jones1998a	ATO20	51.0	ATO20_hdl-c_concentration change	ATO20	concentration change	hdl-c	plasma	0.0	weeks	0.0	na	na	percent	0.0	na	%	1.28	mmol/l
+Jones1998a	ATO20	51.0	ATO20_ldl-c_concentration change	ATO20	concentration change	ldl-c	plasma	0.0	weeks	0.0	na	na	percent	0.0	na	%	5.51	mmol/l
+Jones1998a	ATO40	61.0	ATO40_cholesterol_concentration change	ATO40	concentration change	cholesterol	plasma	0.0	weeks	0.0	na	na	percent	0.0	na	%	7.4	mmol/l
+Jones1998a	ATO40	61.0	ATO40_triglyceride_concentration change	ATO40	concentration change	triglyceride	plasma	0.0	weeks	0.0	na	na	percent	0.0	na	%	1.73	mmol/l
+Jones1998a	ATO40	61.0	ATO40_hdl-c_concentration change	ATO40	concentration change	hdl-c	plasma	0.0	weeks	0.0	na	na	percent	0.0	na	%	1.29	mmol/l
+Jones1998a	ATO40	61.0	ATO40_ldl-c_concentration change	ATO40	concentration change	ldl-c	plasma	0.0	weeks	0.0	na	na	percent	0.0	na	%	5.32	mmol/l
+Jones1998a	ATO80	10.0	ATO80_cholesterol_concentration change	ATO80	concentration change	cholesterol	plasma	0.0	weeks	0.0	na	na	percent	0.0	na	%	7.65	mmol/l
+Jones1998a	ATO80	10.0	ATO80_triglyceride_concentration change	ATO80	concentration change	triglyceride	plasma	0.0	weeks	0.0	na	na	percent	0.0	na	%	1.69	mmol/l
+Jones1998a	ATO80	10.0	ATO80_hdl-c_concentration change	ATO80	concentration change	hdl-c	plasma	0.0	weeks	0.0	na	na	percent	0.0	na	%	1.37	mmol/l
+Jones1998a	ATO80	10.0	ATO80_ldl-c_concentration change	ATO80	concentration change	ldl-c	plasma	0.0	weeks	0.0	na	na	percent	0.0	na	%	5.51	mmol/l
+Jones1998a	SIM10	70.0	SIM10_cholesterol_concentration change	SIM10	concentration change	cholesterol	plasma	0.0	weeks	0.0	na	na	percent	0.0	na	%	7.48	mmol/l
+Jones1998a	SIM10	70.0	SIM10_triglyceride_concentration change	SIM10	concentration change	triglyceride	plasma	0.0	weeks	0.0	na	na	percent	0.0	na	%	1.78	mmol/l
+Jones1998a	SIM10	70.0	SIM10_hdl-c_concentration change	SIM10	concentration change	hdl-c	plasma	0.0	weeks	0.0	na	na	percent	0.0	na	%	1.31	mmol/l
+Jones1998a	SIM10	70.0	SIM10_ldl-c_concentration change	SIM10	concentration change	ldl-c	plasma	0.0	weeks	0.0	na	na	percent	0.0	na	%	5.36	mmol/l
+Jones1998a	SIM20	49.0	SIM20_cholesterol_concentration change	SIM20	concentration change	cholesterol	plasma	0.0	weeks	0.0	na	na	percent	0.0	na	%	8.09	mmol/l
+Jones1998a	SIM20	49.0	SIM20_triglyceride_concentration change	SIM20	concentration change	triglyceride	plasma	0.0	weeks	0.0	na	na	percent	0.0	na	%	1.79	mmol/l
+Jones1998a	SIM20	49.0	SIM20_hdl-c_concentration change	SIM20	concentration change	hdl-c	plasma	0.0	weeks	0.0	na	na	percent	0.0	na	%	1.32	mmol/l
+Jones1998a	SIM20	49.0	SIM20_ldl-c_concentration change	SIM20	concentration change	ldl-c	plasma	0.0	weeks	0.0	na	na	percent	0.0	na	%	5.95	mmol/l
+Jones1998a	SIM40	61.0	SIM40_cholesterol_concentration change	SIM40	concentration change	cholesterol	plasma	0.0	weeks	0.0	na	na	percent	0.0	na	%	7.77	mmol/l
+Jones1998a	SIM40	61.0	SIM40_triglyceride_concentration change	SIM40	concentration change	triglyceride	plasma	0.0	weeks	0.0	na	na	percent	0.0	na	%	1.95	mmol/l
+Jones1998a	SIM40	61.0	SIM40_hdl-c_concentration change	SIM40	concentration change	hdl-c	plasma	0.0	weeks	0.0	na	na	percent	0.0	na	%	1.2	mmol/l
+Jones1998a	SIM40	61.0	SIM40_ldl-c_concentration change	SIM40	concentration change	ldl-c	plasma	0.0	weeks	0.0	na	na	percent	0.0	na	%	5.66	mmol/l
+Jones1998a	PRA10	14.0	PRA10_cholesterol_concentration change	PRA10	concentration change	cholesterol	plasma	0.0	weeks	0.0	na	na	percent	0.0	na	%	8.0	mmol/l
+Jones1998a	PRA10	14.0	PRA10_triglyceride_concentration change	PRA10	concentration change	triglyceride	plasma	0.0	weeks	0.0	na	na	percent	0.0	na	%	1.98	mmol/l
+Jones1998a	PRA10	14.0	PRA10_hdl-c_concentration change	PRA10	concentration change	hdl-c	plasma	0.0	weeks	0.0	na	na	percent	0.0	na	%	1.26	mmol/l
+Jones1998a	PRA10	14.0	PRA10_ldl-c_concentration change	PRA10	concentration change	ldl-c	plasma	0.0	weeks	0.0	na	na	percent	0.0	na	%	5.83	mmol/l
+Jones1998a	PRA20	41.0	PRA20_cholesterol_concentration change	PRA20	concentration change	cholesterol	plasma	0.0	weeks	0.0	na	na	percent	0.0	na	%	8.14	mmol/l
+Jones1998a	PRA20	41.0	PRA20_triglyceride_concentration change	PRA20	concentration change	triglyceride	plasma	0.0	weeks	0.0	na	na	percent	0.0	na	%	1.66	mmol/l
+Jones1998a	PRA20	41.0	PRA20_hdl-c_concentration change	PRA20	concentration change	hdl-c	plasma	0.0	weeks	0.0	na	na	percent	0.0	na	%	1.25	mmol/l
+Jones1998a	PRA20	41.0	PRA20_ldl-c_concentration change	PRA20	concentration change	ldl-c	plasma	0.0	weeks	0.0	na	na	percent	0.0	na	%	6.14	mmol/l
+Jones1998a	PRA40	25.0	PRA40_cholesterol_concentration change	PRA40	concentration change	cholesterol	plasma	0.0	weeks	0.0	na	na	percent	0.0	na	%	7.73	mmol/l
+Jones1998a	PRA40	25.0	PRA40_triglyceride_concentration change	PRA40	concentration change	triglyceride	plasma	0.0	weeks	0.0	na	na	percent	0.0	na	%	1.94	mmol/l
+Jones1998a	PRA40	25.0	PRA40_hdl-c_concentration change	PRA40	concentration change	hdl-c	plasma	0.0	weeks	0.0	na	na	percent	0.0	na	%	1.28	mmol/l
+Jones1998a	PRA40	25.0	PRA40_ldl-c_concentration change	PRA40	concentration change	ldl-c	plasma	0.0	weeks	0.0	na	na	percent	0.0	na	%	5.57	mmol/l
+Jones1998a	LOVA20	16.0	LOVA20_cholesterol_concentration change	LOVA20	concentration change	cholesterol	plasma	0.0	weeks	0.0	na	na	percent	0.0	na	%	8.63	mmol/l
+Jones1998a	LOVA20	16.0	LOVA20_triglyceride_concentration change	LOVA20	concentration change	triglyceride	plasma	0.0	weeks	0.0	na	na	percent	0.0	na	%	2.17	mmol/l
+Jones1998a	LOVA20	16.0	LOVA20_hdl-c_concentration change	LOVA20	concentration change	hdl-c	plasma	0.0	weeks	0.0	na	na	percent	0.0	na	%	1.32	mmol/l
+Jones1998a	LOVA20	16.0	LOVA20_ldl-c_concentration change	LOVA20	concentration change	ldl-c	plasma	0.0	weeks	0.0	na	na	percent	0.0	na	%	6.32	mmol/l
+Jones1998a	LOVA40	16.0	LOVA40_cholesterol_concentration change	LOVA40	concentration change	cholesterol	plasma	0.0	weeks	0.0	na	na	percent	0.0	na	%	7.79	mmol/l
+Jones1998a	LOVA40	16.0	LOVA40_triglyceride_concentration change	LOVA40	concentration change	triglyceride	plasma	0.0	weeks	0.0	na	na	percent	0.0	na	%	1.94	mmol/l
+Jones1998a	LOVA40	16.0	LOVA40_hdl-c_concentration change	LOVA40	concentration change	hdl-c	plasma	0.0	weeks	0.0	na	na	percent	0.0	na	%	1.26	mmol/l
+Jones1998a	LOVA40	16.0	LOVA40_ldl-c_concentration change	LOVA40	concentration change	ldl-c	plasma	0.0	weeks	0.0	na	na	percent	0.0	na	%	5.65	mmol/l
+Jones1998a	LOVA80	11.0	LOVA80_cholesterol_concentration change	LOVA80	concentration change	cholesterol	plasma	0.0	weeks	0.0	na	na	percent	0.0	na	%	7.9	mmol/l
+Jones1998a	LOVA80	11.0	LOVA80_triglyceride_concentration change	LOVA80	concentration change	triglyceride	plasma	0.0	weeks	0.0	na	na	percent	0.0	na	%	2.26	mmol/l
+Jones1998a	LOVA80	11.0	LOVA80_hdl-c_concentration change	LOVA80	concentration change	hdl-c	plasma	0.0	weeks	0.0	na	na	percent	0.0	na	%	1.21	mmol/l
+Jones1998a	LOVA80	11.0	LOVA80_ldl-c_concentration change	LOVA80	concentration change	ldl-c	plasma	0.0	weeks	0.0	na	na	percent	0.0	na	%	5.66	mmol/l
+Jones1998a	ATO10	73.0	ATO10_cholesterol_concentration change	ATO10	concentration change	cholesterol	plasma	8.0	weeks	-28.0	9	NA	percent	-28.0	9	%	7.72	mmol/l
+Jones1998a	ATO10	73.0	ATO10_triglyceride_concentration change	ATO10	concentration change	triglyceride	plasma	8.0	weeks	-13.0	25	NA	percent	-13.0	25	%	1.91	mmol/l
+Jones1998a	ATO10	73.0	ATO10_hdl-c_concentration change	ATO10	concentration change	hdl-c	plasma	8.0	weeks	5.5	12	NA	percent	5.5	12	%	1.33	mmol/l
+Jones1998a	ATO10	73.0	ATO10_ldl-c_concentration change	ATO10	concentration change	ldl-c	plasma	8.0	weeks	-38.0	10	NA	percent	-38.0	10	%	5.52	mmol/l
+Jones1998a	ATO20	51.0	ATO20_cholesterol_concentration change	ATO20	concentration change	cholesterol	plasma	8.0	weeks	-35.0	6	NA	percent	-35.0	6	%	7.68	mmol/l
+Jones1998a	ATO20	51.0	ATO20_triglyceride_concentration change	ATO20	concentration change	triglyceride	plasma	8.0	weeks	-20.0	25	NA	percent	-20.0	25	%	1.94	mmol/l
+Jones1998a	ATO20	51.0	ATO20_hdl-c_concentration change	ATO20	concentration change	hdl-c	plasma	8.0	weeks	5.1	11	NA	percent	5.1	11	%	1.28	mmol/l
+Jones1998a	ATO20	51.0	ATO20_ldl-c_concentration change	ATO20	concentration change	ldl-c	plasma	8.0	weeks	-46.0	8	NA	percent	-46.0	8	%	5.51	mmol/l
+Jones1998a	ATO40	61.0	ATO40_cholesterol_concentration change	ATO40	concentration change	cholesterol	plasma	8.0	weeks	-40.0	8	NA	percent	-40.0	8	%	7.4	mmol/l
+Jones1998a	ATO40	61.0	ATO40_triglyceride_concentration change	ATO40	concentration change	triglyceride	plasma	8.0	weeks	-32.0	19	NA	percent	-32.0	19	%	1.73	mmol/l
+Jones1998a	ATO40	61.0	ATO40_hdl-c_concentration change	ATO40	concentration change	hdl-c	plasma	8.0	weeks	4.8	12	NA	percent	4.8	12	%	1.29	mmol/l
+Jones1998a	ATO40	61.0	ATO40_ldl-c_concentration change	ATO40	concentration change	ldl-c	plasma	8.0	weeks	-51.0	10	NA	percent	-51.0	10	%	5.32	mmol/l
+Jones1998a	ATO80	10.0	ATO80_cholesterol_concentration change	ATO80	concentration change	cholesterol	plasma	8.0	weeks	-42.0	7	NA	percent	-42.0	7	%	7.65	mmol/l
+Jones1998a	ATO80	10.0	ATO80_triglyceride_concentration change	ATO80	concentration change	triglyceride	plasma	8.0	weeks	-25.0	22	NA	percent	-25.0	22	%	1.69	mmol/l
+Jones1998a	ATO80	10.0	ATO80_hdl-c_concentration change	ATO80	concentration change	hdl-c	plasma	8.0	weeks	-0.1	9	NA	percent	-0.1	9	%	1.37	mmol/l
+Jones1998a	ATO80	10.0	ATO80_ldl-c_concentration change	ATO80	concentration change	ldl-c	plasma	8.0	weeks	-54.0	9	NA	percent	-54.0	9	%	5.51	mmol/l
+Jones1998a	SIM10	70.0	SIM10_cholesterol_concentration change	SIM10	concentration change	cholesterol	plasma	8.0	weeks	-21.0	9	NA	percent	-21.0	9	%	7.48	mmol/l
+Jones1998a	SIM10	70.0	SIM10_triglyceride_concentration change	SIM10	concentration change	triglyceride	plasma	8.0	weeks	-12.0	30	NA	percent	-12.0	30	%	1.78	mmol/l
+Jones1998a	SIM10	70.0	SIM10_hdl-c_concentration change	SIM10	concentration change	hdl-c	plasma	8.0	weeks	6.8	9	NA	percent	6.8	9	%	1.31	mmol/l
+Jones1998a	SIM10	70.0	SIM10_ldl-c_concentration change	SIM10	concentration change	ldl-c	plasma	8.0	weeks	-28.0	12	NA	percent	-28.0	12	%	5.36	mmol/l
+Jones1998a	SIM20	49.0	SIM20_cholesterol_concentration change	SIM20	concentration change	cholesterol	plasma	8.0	weeks	-26.0	8	NA	percent	-26.0	8	%	8.09	mmol/l
+Jones1998a	SIM20	49.0	SIM20_triglyceride_concentration change	SIM20	concentration change	triglyceride	plasma	8.0	weeks	-17.0	22	NA	percent	-17.0	22	%	1.79	mmol/l
+Jones1998a	SIM20	49.0	SIM20_hdl-c_concentration change	SIM20	concentration change	hdl-c	plasma	8.0	weeks	5.2	10	NA	percent	5.2	10	%	1.32	mmol/l
+Jones1998a	SIM20	49.0	SIM20_ldl-c_concentration change	SIM20	concentration change	ldl-c	plasma	8.0	weeks	-35.0	11	NA	percent	-35.0	11	%	5.95	mmol/l
+Jones1998a	SIM40	61.0	SIM40_cholesterol_concentration change	SIM40	concentration change	cholesterol	plasma	8.0	weeks	-30.0	10	NA	percent	-30.0	10	%	7.77	mmol/l
+Jones1998a	SIM40	61.0	SIM40_triglyceride_concentration change	SIM40	concentration change	triglyceride	plasma	8.0	weeks	-15.0	29	NA	percent	-15.0	29	%	1.95	mmol/l
+Jones1998a	SIM40	61.0	SIM40_hdl-c_concentration change	SIM40	concentration change	hdl-c	plasma	8.0	weeks	9.6	13	NA	percent	9.6	13	%	1.2	mmol/l
+Jones1998a	SIM40	61.0	SIM40_ldl-c_concentration change	SIM40	concentration change	ldl-c	plasma	8.0	weeks	-41.0	13	NA	percent	-41.0	13	%	5.66	mmol/l
+Jones1998a	PRA10	14.0	PRA10_cholesterol_concentration change	PRA10	concentration change	cholesterol	plasma	8.0	weeks	-13.0	12	NA	percent	-13.0	12	%	8.0	mmol/l
+Jones1998a	PRA10	14.0	PRA10_triglyceride_concentration change	PRA10	concentration change	triglyceride	plasma	8.0	weeks	3.0	46	NA	percent	3.0	46	%	1.98	mmol/l
+Jones1998a	PRA10	14.0	PRA10_hdl-c_concentration change	PRA10	concentration change	hdl-c	plasma	8.0	weeks	9.9	13	NA	percent	9.9	13	%	1.26	mmol/l
+Jones1998a	PRA10	14.0	PRA10_ldl-c_concentration change	PRA10	concentration change	ldl-c	plasma	8.0	weeks	-19.0	14	NA	percent	-19.0	14	%	5.83	mmol/l
+Jones1998a	PRA20	41.0	PRA20_cholesterol_concentration change	PRA20	concentration change	cholesterol	plasma	8.0	weeks	-18.0	7	NA	percent	-18.0	7	%	8.14	mmol/l
+Jones1998a	PRA20	41.0	PRA20_triglyceride_concentration change	PRA20	concentration change	triglyceride	plasma	8.0	weeks	-15.0	17	NA	percent	-15.0	17	%	1.66	mmol/l
+Jones1998a	PRA20	41.0	PRA20_hdl-c_concentration change	PRA20	concentration change	hdl-c	plasma	8.0	weeks	3.0	8	NA	percent	3.0	8	%	1.25	mmol/l
+Jones1998a	PRA20	41.0	PRA20_ldl-c_concentration change	PRA20	concentration change	ldl-c	plasma	8.0	weeks	-24.0	9	NA	percent	-24.0	9	%	6.14	mmol/l
+Jones1998a	PRA40	25.0	PRA40_cholesterol_concentration change	PRA40	concentration change	cholesterol	plasma	8.0	weeks	-24.0	7	NA	percent	-24.0	7	%	7.73	mmol/l
+Jones1998a	PRA40	25.0	PRA40_triglyceride_concentration change	PRA40	concentration change	triglyceride	plasma	8.0	weeks	-10.0	22	NA	percent	-10.0	22	%	1.94	mmol/l
+Jones1998a	PRA40	25.0	PRA40_hdl-c_concentration change	PRA40	concentration change	hdl-c	plasma	8.0	weeks	6.2	11	NA	percent	6.2	11	%	1.28	mmol/l
+Jones1998a	PRA40	25.0	PRA40_ldl-c_concentration change	PRA40	concentration change	ldl-c	plasma	8.0	weeks	-34.0	9	NA	percent	-34.0	9	%	5.57	mmol/l
+Jones1998a	LOVA20	16.0	LOVA20_cholesterol_concentration change	LOVA20	concentration change	cholesterol	plasma	8.0	weeks	-21.0	9	NA	percent	-21.0	9	%	8.63	mmol/l
+Jones1998a	LOVA20	16.0	LOVA20_triglyceride_concentration change	LOVA20	concentration change	triglyceride	plasma	8.0	weeks	-12.0	23	NA	percent	-12.0	23	%	2.17	mmol/l
+Jones1998a	LOVA20	16.0	LOVA20_hdl-c_concentration change	LOVA20	concentration change	hdl-c	plasma	8.0	weeks	7.3	12	NA	percent	7.3	12	%	1.32	mmol/l
+Jones1998a	LOVA20	16.0	LOVA20_ldl-c_concentration change	LOVA20	concentration change	ldl-c	plasma	8.0	weeks	-29.0	13	NA	percent	-29.0	13	%	6.32	mmol/l
+Jones1998a	LOVA40	16.0	LOVA40_cholesterol_concentration change	LOVA40	concentration change	cholesterol	plasma	8.0	weeks	-23.0	6	NA	percent	-23.0	6	%	7.79	mmol/l
+Jones1998a	LOVA40	16.0	LOVA40_triglyceride_concentration change	LOVA40	concentration change	triglyceride	plasma	8.0	weeks	-2.0	27	NA	percent	-2.0	27	%	1.94	mmol/l
+Jones1998a	LOVA40	16.0	LOVA40_hdl-c_concentration change	LOVA40	concentration change	hdl-c	plasma	8.0	weeks	4.6	13	NA	percent	4.6	13	%	1.26	mmol/l
+Jones1998a	LOVA40	16.0	LOVA40_ldl-c_concentration change	LOVA40	concentration change	ldl-c	plasma	8.0	weeks	-31.0	7	NA	percent	-31.0	7	%	5.65	mmol/l
+Jones1998a	LOVA80	11.0	LOVA80_cholesterol_concentration change	LOVA80	concentration change	cholesterol	plasma	8.0	weeks	-36.0	6	NA	percent	-36.0	6	%	7.9	mmol/l
+Jones1998a	LOVA80	11.0	LOVA80_triglyceride_concentration change	LOVA80	concentration change	triglyceride	plasma	8.0	weeks	-13.0	28	NA	percent	-13.0	28	%	2.26	mmol/l
+Jones1998a	LOVA80	11.0	LOVA80_hdl-c_concentration change	LOVA80	concentration change	hdl-c	plasma	8.0	weeks	8.0	13	NA	percent	8.0	13	%	1.21	mmol/l
+Jones1998a	LOVA80	11.0	LOVA80_ldl-c_concentration change	LOVA80	concentration change	ldl-c	plasma	8.0	weeks	-48.0	8	NA	percent	-48.0	8	%	5.66	mmol/l

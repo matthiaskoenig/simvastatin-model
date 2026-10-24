@@ -1,0 +1,85 @@
+study	group	count	intervention	measurement_type	substance	time	time_unit	tissue	mean	sd	median	min	max	unit	median_change	min_change	max_change	unitchange	baseline	baseline_unit
+Davidson1997	all	147	SIM40	concentration	cholesterol	0	weeks	plasma	282.0	36.0	NA	NA	NA	mg/dl	NA	NA	NA	NA	NA	NA
+Davidson1997	all	147	SIM40	concentration	ldl-c	0	weeks	plasma	199.0	36.0	NA	NA	NA	mg/dl	NA	NA	NA	NA	NA	NA
+Davidson1997	all	147	SIM40	concentration	apoB100+48	0	weeks	plasma	181.0	24.0	NA	NA	NA	mg/dl	NA	NA	NA	NA	NA	NA
+Davidson1997	all	147	SIM40	concentration	hdl-c	0	weeks	plasma	47.0	12.0	NA	NA	NA	mg/dl	NA	NA	NA	NA	NA	NA
+Davidson1997	all	147	SIM40	concentration	apoA-I	0	weeks	plasma	143.0	24.0	NA	NA	NA	mg/dl	NA	NA	NA	NA	NA	NA
+Davidson1997	all	147	SIM40	concentration	vldl-c	0	weeks	plasma	37.0	24.0	NA	NA	NA	mg/dl	NA	NA	NA	NA	NA	NA
+Davidson1997	all	147	SIM40	concentration	triglyceride	0	weeks	plasma	175.0	84.0	NA	NA	NA	mg/dl	NA	NA	NA	NA	NA	NA
+Davidson1997	all	147	SIM80	concentration	cholesterol	0	weeks	plasma	282.0	36.0	NA	NA	NA	mg/dl	NA	NA	NA	NA	NA	NA
+Davidson1997	all	147	SIM80	concentration	ldl-c	0	weeks	plasma	199.0	36.0	NA	NA	NA	mg/dl	NA	NA	NA	NA	NA	NA
+Davidson1997	all	147	SIM80	concentration	apoB100+48	0	weeks	plasma	181.0	24.0	NA	NA	NA	mg/dl	NA	NA	NA	NA	NA	NA
+Davidson1997	all	147	SIM80	concentration	hdl-c	0	weeks	plasma	47.0	12.0	NA	NA	NA	mg/dl	NA	NA	NA	NA	NA	NA
+Davidson1997	all	147	SIM80	concentration	apoA-I	0	weeks	plasma	143.0	24.0	NA	NA	NA	mg/dl	NA	NA	NA	NA	NA	NA
+Davidson1997	all	147	SIM80	concentration	vldl-c	0	weeks	plasma	37.0	24.0	NA	NA	NA	mg/dl	NA	NA	NA	NA	NA	NA
+Davidson1997	all	147	SIM80	concentration	triglyceride	0	weeks	plasma	175.0	84.0	NA	NA	NA	mg/dl	NA	NA	NA	NA	NA	NA
+Davidson1997	all	147	SIM160	concentration	cholesterol	0	weeks	plasma	282.0	36.0	NA	NA	NA	mg/dl	NA	NA	NA	NA	NA	NA
+Davidson1997	all	147	SIM160	concentration	ldl-c	0	weeks	plasma	199.0	36.0	NA	NA	NA	mg/dl	NA	NA	NA	NA	NA	NA
+Davidson1997	all	147	SIM160	concentration	apoB100+48	0	weeks	plasma	181.0	24.0	NA	NA	NA	mg/dl	NA	NA	NA	NA	NA	NA
+Davidson1997	all	147	SIM160	concentration	hdl-c	0	weeks	plasma	47.0	12.0	NA	NA	NA	mg/dl	NA	NA	NA	NA	NA	NA
+Davidson1997	all	147	SIM160	concentration	apoA-I	0	weeks	plasma	143.0	24.0	NA	NA	NA	mg/dl	NA	NA	NA	NA	NA	NA
+Davidson1997	all	147	SIM160	concentration	vldl-c	0	weeks	plasma	37.0	24.0	NA	NA	NA	mg/dl	NA	NA	NA	NA	NA	NA
+Davidson1997	all	147	SIM160	concentration	triglyceride	0	weeks	plasma	175.0	84.0	NA	NA	NA	mg/dl	NA	NA	NA	NA	NA	NA
+Davidson1997	all	141	SIM40	concentration	cholesterol	6	weeks	plasma	NA	NA	197.4	180.48	214.32	mg/dl	-30.0	-36.0	-24.0	percent	NA	NA
+Davidson1997	all	141	SIM40	concentration	ldl-c	6	weeks	plasma	NA	NA	117.41	103.48	135.32	mg/dl	-41.0	-48.0	-32.0	percent	NA	NA
+Davidson1997	all	141	SIM40	concentration	apoB100+48	6	weeks	plasma	NA	NA	119.46	106.79	133.94	mg/dl	-34.0	-41.0	-26.0	percent	NA	NA
+Davidson1997	all	141	SIM40	concentration	hdl-c	6	weeks	plasma	NA	NA	49.82	47.0	53.11	mg/dl	6.0	0.0	13.0	percent	NA	NA
+Davidson1997	all	141	SIM40	concentration	apoA-I	6	weeks	plasma	NA	NA	153.01	144.43	164.45	mg/dl	7.0	1.0	15.0	percent	NA	NA
+Davidson1997	all	141	SIM40	concentration	vldl-c	6	weeks	plasma	NA	NA	25.16	19.98	34.41	mg/dl	-32.0	-46.0	-7.0	percent	NA	NA
+Davidson1997	all	141	SIM40	concentration	triglyceride	6	weeks	plasma	NA	NA	138.25	113.75	176.75	mg/dl	-21.0	-35.0	1.0	percent	NA	NA
+Davidson1997	all	144	SIM80	concentration	cholesterol	6	weeks	plasma	NA	NA	183.3	166.38	203.04	mg/dl	-35.0	-41.0	-28.0	percent	NA	NA
+Davidson1997	all	144	SIM80	concentration	ldl-c	6	weeks	plasma	NA	NA	105.47	93.53	125.37	mg/dl	-47.0	-53.0	-37.0	percent	NA	NA
+Davidson1997	all	144	SIM80	concentration	apoB100+48	6	weeks	plasma	NA	NA	108.6	101.36	124.89	mg/dl	-40.0	-44.0	-31.0	percent	NA	NA
+Davidson1997	all	144	SIM80	concentration	hdl-c	6	weeks	plasma	NA	NA	50.29	47.0	53.58	mg/dl	7.0	0.0	14.0	percent	NA	NA
+Davidson1997	all	144	SIM80	concentration	apoA-I	6	weeks	plasma	NA	NA	154.44	145.86	165.88	mg/dl	8.0	2.0	16.0	percent	NA	NA
+Davidson1997	all	144	SIM80	concentration	vldl-c	6	weeks	plasma	NA	NA	24.79	18.87	31.82	mg/dl	-33.0	-49.0	-14.0	percent	NA	NA
+Davidson1997	all	144	SIM80	concentration	triglyceride	6	weeks	plasma	NA	NA	134.75	110.25	166.25	mg/dl	-23.0	-37.0	-5.0	percent	NA	NA
+Davidson1997	all	140	SIM160	concentration	cholesterol	6	weeks	plasma	NA	NA	169.2	157.92	183.3	mg/dl	-40.0	-44.0	-35.0	percent	NA	NA
+Davidson1997	all	140	SIM160	concentration	ldl-c	6	weeks	plasma	NA	NA	93.53	81.59	109.45	mg/dl	-53.0	-59.0	-45.0	percent	NA	NA
+Davidson1997	all	140	SIM160	concentration	apoB100+48	6	weeks	plasma	NA	NA	99.55	90.5	110.41	mg/dl	-45.0	-50.0	-39.0	percent	NA	NA
+Davidson1997	all	140	SIM160	concentration	hdl-c	6	weeks	plasma	NA	NA	50.76	47.0	55.46	mg/dl	8.0	0.0	18.0	percent	NA	NA
+Davidson1997	all	140	SIM160	concentration	apoA-I	6	weeks	plasma	NA	NA	153.01	143.0	160.16	mg/dl	7.0	0.0	12.0	percent	NA	NA
+Davidson1997	all	140	SIM160	concentration	vldl-c	6	weeks	plasma	NA	NA	21.46	15.17	28.12	mg/dl	-42.0	-59.0	-24.0	percent	NA	NA
+Davidson1997	all	140	SIM160	concentration	triglyceride	6	weeks	plasma	NA	NA	117.25	99.75	147.0	mg/dl	-33.0	-43.0	-16.0	percent	NA	NA
+Davidson1997	all	141	SIM40	concentration change	cholesterol	0	weeks	plasma	0.0	0.0	0.0	NA	NA	percent	NA	NA	NA	NA	282.0	mg/dl
+Davidson1997	all	141	SIM40	concentration change	ldl-c	0	weeks	plasma	0.0	0.0	0.0	NA	NA	percent	NA	NA	NA	NA	199.0	mg/dl
+Davidson1997	all	141	SIM40	concentration change	apoB100+48	0	weeks	plasma	0.0	0.0	0.0	NA	NA	percent	NA	NA	NA	NA	181.0	mg/dl
+Davidson1997	all	141	SIM40	concentration change	hdl-c	0	weeks	plasma	0.0	0.0	0.0	NA	NA	percent	NA	NA	NA	NA	47.0	mg/dl
+Davidson1997	all	141	SIM40	concentration change	apoA-I	0	weeks	plasma	0.0	0.0	0.0	NA	NA	percent	NA	NA	NA	NA	143.0	mg/dl
+Davidson1997	all	141	SIM40	concentration change	vldl-c	0	weeks	plasma	0.0	0.0	0.0	NA	NA	percent	NA	NA	NA	NA	37.0	mg/dl
+Davidson1997	all	141	SIM40	concentration change	triglyceride	0	weeks	plasma	0.0	0.0	0.0	NA	NA	percent	NA	NA	NA	NA	175.0	mg/dl
+Davidson1997	all	144	SIM80	concentration change	cholesterol	0	weeks	plasma	0.0	0.0	0.0	NA	NA	percent	NA	NA	NA	NA	282.0	mg/dl
+Davidson1997	all	144	SIM80	concentration change	ldl-c	0	weeks	plasma	0.0	0.0	0.0	NA	NA	percent	NA	NA	NA	NA	199.0	mg/dl
+Davidson1997	all	144	SIM80	concentration change	apoB100+48	0	weeks	plasma	0.0	0.0	0.0	NA	NA	percent	NA	NA	NA	NA	181.0	mg/dl
+Davidson1997	all	144	SIM80	concentration change	hdl-c	0	weeks	plasma	0.0	0.0	0.0	NA	NA	percent	NA	NA	NA	NA	47.0	mg/dl
+Davidson1997	all	144	SIM80	concentration change	apoA-I	0	weeks	plasma	0.0	0.0	0.0	NA	NA	percent	NA	NA	NA	NA	143.0	mg/dl
+Davidson1997	all	144	SIM80	concentration change	vldl-c	0	weeks	plasma	0.0	0.0	0.0	NA	NA	percent	NA	NA	NA	NA	37.0	mg/dl
+Davidson1997	all	144	SIM80	concentration change	triglyceride	0	weeks	plasma	0.0	0.0	0.0	NA	NA	percent	NA	NA	NA	NA	175.0	mg/dl
+Davidson1997	all	140	SIM160	concentration change	cholesterol	0	weeks	plasma	0.0	0.0	0.0	NA	NA	percent	NA	NA	NA	NA	282.0	mg/dl
+Davidson1997	all	140	SIM160	concentration change	ldl-c	0	weeks	plasma	0.0	0.0	0.0	NA	NA	percent	NA	NA	NA	NA	199.0	mg/dl
+Davidson1997	all	140	SIM160	concentration change	apoB100+48	0	weeks	plasma	0.0	0.0	0.0	NA	NA	percent	NA	NA	NA	NA	181.0	mg/dl
+Davidson1997	all	140	SIM160	concentration change	hdl-c	0	weeks	plasma	0.0	0.0	0.0	NA	NA	percent	NA	NA	NA	NA	47.0	mg/dl
+Davidson1997	all	140	SIM160	concentration change	apoA-I	0	weeks	plasma	0.0	0.0	0.0	NA	NA	percent	NA	NA	NA	NA	143.0	mg/dl
+Davidson1997	all	140	SIM160	concentration change	vldl-c	0	weeks	plasma	0.0	0.0	0.0	NA	NA	percent	NA	NA	NA	NA	37.0	mg/dl
+Davidson1997	all	140	SIM160	concentration change	triglyceride	0	weeks	plasma	0.0	0.0	0.0	NA	NA	percent	NA	NA	NA	NA	175.0	mg/dl
+Davidson1997	all	141	SIM40	concentration change	cholesterol	6	weeks	plasma	-30.0	NA	-30.0	-36.0	-24.0	percent	-30.0	-36.0	-24.0	percent	282.0	mg/dl
+Davidson1997	all	141	SIM40	concentration change	ldl-c	6	weeks	plasma	-41.0	NA	-41.0	-48.0	-32.0	percent	-41.0	-48.0	-32.0	percent	199.0	mg/dl
+Davidson1997	all	141	SIM40	concentration change	apoB100+48	6	weeks	plasma	-34.0	NA	-34.0	-41.0	-26.0	percent	-34.0	-41.0	-26.0	percent	181.0	mg/dl
+Davidson1997	all	141	SIM40	concentration change	hdl-c	6	weeks	plasma	6.0	NA	6.0	0.0	13.0	percent	6.0	0.0	13.0	percent	47.0	mg/dl
+Davidson1997	all	141	SIM40	concentration change	apoA-I	6	weeks	plasma	7.0	NA	7.0	1.0	15.0	percent	7.0	1.0	15.0	percent	143.0	mg/dl
+Davidson1997	all	141	SIM40	concentration change	vldl-c	6	weeks	plasma	-32.0	NA	-32.0	-46.0	-7.0	percent	-32.0	-46.0	-7.0	percent	37.0	mg/dl
+Davidson1997	all	141	SIM40	concentration change	triglyceride	6	weeks	plasma	-21.0	NA	-21.0	-35.0	1.0	percent	-21.0	-35.0	1.0	percent	175.0	mg/dl
+Davidson1997	all	144	SIM80	concentration change	cholesterol	6	weeks	plasma	-35.0	NA	-35.0	-41.0	-28.0	percent	-35.0	-41.0	-28.0	percent	282.0	mg/dl
+Davidson1997	all	144	SIM80	concentration change	ldl-c	6	weeks	plasma	-47.0	NA	-47.0	-53.0	-37.0	percent	-47.0	-53.0	-37.0	percent	199.0	mg/dl
+Davidson1997	all	144	SIM80	concentration change	apoB100+48	6	weeks	plasma	-40.0	NA	-40.0	-44.0	-31.0	percent	-40.0	-44.0	-31.0	percent	181.0	mg/dl
+Davidson1997	all	144	SIM80	concentration change	hdl-c	6	weeks	plasma	7.0	NA	7.0	0.0	14.0	percent	7.0	0.0	14.0	percent	47.0	mg/dl
+Davidson1997	all	144	SIM80	concentration change	apoA-I	6	weeks	plasma	8.0	NA	8.0	2.0	16.0	percent	8.0	2.0	16.0	percent	143.0	mg/dl
+Davidson1997	all	144	SIM80	concentration change	vldl-c	6	weeks	plasma	-33.0	NA	-33.0	-49.0	-14.0	percent	-33.0	-49.0	-14.0	percent	37.0	mg/dl
+Davidson1997	all	144	SIM80	concentration change	triglyceride	6	weeks	plasma	-23.0	NA	-23.0	-37.0	-5.0	percent	-23.0	-37.0	-5.0	percent	175.0	mg/dl
+Davidson1997	all	140	SIM160	concentration change	cholesterol	6	weeks	plasma	-40.0	NA	-40.0	-44.0	-35.0	percent	-40.0	-44.0	-35.0	percent	282.0	mg/dl
+Davidson1997	all	140	SIM160	concentration change	ldl-c	6	weeks	plasma	-53.0	NA	-53.0	-59.0	-45.0	percent	-53.0	-59.0	-45.0	percent	199.0	mg/dl
+Davidson1997	all	140	SIM160	concentration change	apoB100+48	6	weeks	plasma	-45.0	NA	-45.0	-50.0	-39.0	percent	-45.0	-50.0	-39.0	percent	181.0	mg/dl
+Davidson1997	all	140	SIM160	concentration change	hdl-c	6	weeks	plasma	8.0	NA	8.0	0.0	18.0	percent	8.0	0.0	18.0	percent	47.0	mg/dl
+Davidson1997	all	140	SIM160	concentration change	apoA-I	6	weeks	plasma	7.0	NA	7.0	0.0	12.0	percent	7.0	0.0	12.0	percent	143.0	mg/dl
+Davidson1997	all	140	SIM160	concentration change	vldl-c	6	weeks	plasma	-42.0	NA	-42.0	-59.0	-24.0	percent	-42.0	-59.0	-24.0	percent	37.0	mg/dl
+Davidson1997	all	140	SIM160	concentration change	triglyceride	6	weeks	plasma	-33.0	NA	-33.0	-43.0	-16.0	percent	-33.0	-43.0	-16.0	percent	175.0	mg/dl

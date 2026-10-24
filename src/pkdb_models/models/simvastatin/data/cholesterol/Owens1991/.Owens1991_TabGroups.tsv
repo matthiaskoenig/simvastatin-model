@@ -1,0 +1,10 @@
+study	name	parent	measurement_type	group_count	choice	substance	tissue	count	mean	median	unit	sd	min	max
+Owens1991	all	NA	species	27	homo sapiens	NA	NA	27	NA	NA	NA	NA	NA	NA
+Owens1991	all	NA	healthy	27	N	NA	NA	27	NA	NA	NA	NA	NA	NA
+Owens1991	all	NA	sex	27	M	NA	NA	13	NA	NA	NA	NA	NA	NA
+Owens1991	all	NA	sex	27	F	NA	NA	14	NA	NA	NA	NA	NA	NA
+Owens1991	all	NA	age	27	NA	NA	NA	27	NA	NA	yr	NA	25.0	70.0
+Owens1991	all	NA	concentration	27	NA	cholesterol	serum	27	NA	NA	mmol/l	NA	6.52	9.65
+Owens1991	all	NA	concentration	27	NA	triglyceride	serum	27	NA	NA	mmol/l	NA	0.79	1.98
+Owens1991	all	NA	bmi	27	NA	NA	NA	27	25.1	NA	kg/m^2	1.31	NA	NA
+Owens1991	all	NA	disease	27	hypercholesterolemia	NA	NA	27	NA	NA	NA	NA	NA	NA

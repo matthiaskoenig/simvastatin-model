@@ -1,0 +1,5 @@
+id	experiment	mapping	cost	type
+Lilja2004_fm_simva	Lilja2004	fm_simva	953.7472266241974	initial
+Lilja2004_fm_simva	Lilja2004	fm_simva	0.1550209890745766	fit
+Lilja2004_fm_simacid	Lilja2004	fm_simacid	71.33722684016008	initial
+Lilja2004_fm_simacid	Lilja2004	fm_simacid	0.06857791446591945	fit

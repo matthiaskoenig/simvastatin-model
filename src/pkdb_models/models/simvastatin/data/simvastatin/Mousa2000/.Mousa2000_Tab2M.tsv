@@ -1,0 +1,9 @@
+study	group	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	median	sd	unit
+Mousa2000	all	SIM	auc_inf	simvastatin	serum	LC MS/MS	NA	NA	11.5	NA	5.9	ng/ml*hr
+Mousa2000	all	SIM	thalf	simvastatin	serum	LC MS/MS	NA	NA	1.7	NA	0.9	hr
+Mousa2000	all	SIM	cmax	simvastatin	serum	LC MS/MS	NA	NA	4.4	NA	2.3	ng/ml
+Mousa2000	all	SIM	tmax	simvastatin	serum	LC MS/MS	NA	NA	NA	1.5	1.2	hr
+Mousa2000	all	SIM,DIL	auc_inf	simvastatin	serum	LC MS/MS	NA	NA	55.4	NA	29.3	ng/ml*hr
+Mousa2000	all	SIM,DIL	thalf	simvastatin	serum	LC MS/MS	NA	NA	3.9	NA	1.7	hr
+Mousa2000	all	SIM,DIL	cmax	simvastatin	serum	LC MS/MS	NA	NA	15.9	NA	9.2	ng/ml
+Mousa2000	all	SIM,DIL	tmax	simvastatin	serum	LC MS/MS	NA	NA	NA	1.5	1.0	hr

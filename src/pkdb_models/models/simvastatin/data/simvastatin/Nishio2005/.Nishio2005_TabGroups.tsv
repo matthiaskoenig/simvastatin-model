@@ -1,0 +1,17 @@
+study	name	parent	measurement_type	group_count	choice	substance	count	mean	median	unit	sd	min	max
+Nishio2005	all	NA	species	8	homo sapiens	NA	NA	NA	NA	NA	NA	NA	NA
+Nishio2005	all	NA	healthy	8	N	NA	NA	NA	NA	NA	NA	NA	NA
+Nishio2005	all	NA	sex	8	M	NA	5.0	NA	NA	NA	NA	NA	NA
+Nishio2005	all	NA	sex	8	F	NA	3.0	NA	NA	NA	NA	NA	NA
+Nishio2005	all	NA	age	8	NA	NA	NA	64.1	NA	yr	6.0	NA	NA
+Nishio2005	all	NA	weight	8	NA	NA	NA	61.5	NA	kg	5.9	NA	NA
+Nishio2005	all	NA	concentration	8	NA	cholesterol	NA	253.0	NA	mg/dl	31.0	NA	NA
+Nishio2005	all	NA	concentration	8	NA	ldl-c	NA	164.0	NA	mg/dl	26.0	NA	NA
+Nishio2005	all	NA	concentration	8	NA	hdl-c	NA	54.0	NA	mg/dl	9.0	NA	NA
+Nishio2005	all	NA	concentration	8	NA	triglyceride	NA	179.0	NA	mg/dl	95.0	NA	NA
+Nishio2005	all	NA	disease	8	hypertension	NA	NA	NA	NA	NA	NA	NA	NA
+Nishio2005	all	NA	disease	8	hypercholesterolemia	NA	NA	NA	NA	NA	NA	NA	NA
+Nishio2005	all	NA	blood pressure systolic	8	NA	NA	NA	151.0	NA	mmHg	29.0	NA	NA
+Nishio2005	all	NA	blood pressure diastolic	8	NA	NA	NA	88.0	NA	mmHg	11.0	NA	NA
+Nishio2005	all	NA	medication	8	N	NA	NA	NA	NA	NA	NA	NA	NA
+Nishio2005	all	NA	overnight fast	8	Y	NA	NA	NA	NA	NA	NA	NA	NA

@@ -1,0 +1,12 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	mean_sd	pm	mean_se	mean_unit	count_unit
+Lilja2004	all	10	SIM_simvastatin	SIM	concentration	simvastatin	plasma	HPLC MS/MS	0.0	hr	0.0				mole/meter^3	dimensionless
+Lilja2004	all	10	SIM_simvastatin	SIM	concentration	simvastatin	plasma	HPLC MS/MS	0.5	hr	5.972288580984232e-06	7.05685618729097e-06	3.434	2.2312470138557096e-06	mole/meter^3	dimensionless
+Lilja2004	all	10	SIM_simvastatin	SIM	concentration	simvastatin	plasma	HPLC MS/MS	1.0	hr	1.3585762064022932e-05	9.653607262302913e-06	4.409	3.0530339225991397e-06	mole/meter^3	dimensionless
+Lilja2004	all	10	SIM_simvastatin	SIM	concentration	simvastatin	plasma	HPLC MS/MS	2.0	hr	1.1813186813186812e-05	6.020066889632107e-06	5.742	1.9039655996177735e-06	mole/meter^3	dimensionless
+Lilja2004	all	10	SIM_simvastatin	SIM	concentration	simvastatin	plasma	HPLC MS/MS	3.0	hr	9.54849498327759e-06	4.569995222169135e-06	4.602	1.4452938365981842e-06	mole/meter^3	dimensionless
+Lilja2004	all	10	SIM_simvastatin	SIM	concentration	simvastatin	plasma	HPLC MS/MS	4.0	hr	7.580028666985188e-06	6.949354992833253e-06	4.093	2.197802197802198e-06	mole/meter^3	dimensionless
+Lilja2004	all	10	SIM_simvastatin	SIM	concentration	simvastatin	plasma	HPLC MS/MS	6.0	hr	3.6430960344003816e-06	2.1763019589106544e-06	1.813	6.880076445293835e-07	mole/meter^3	dimensionless
+Lilja2004	all	10	SIM_simvastatin	SIM	concentration	simvastatin	plasma	HPLC MS/MS	8.0	hr	2.197802197802198e-06	1.6626851409460103e-06	1.14	5.255613951266124e-07	mole/meter^3	dimensionless
+Lilja2004	all	10	SIM_simvastatin	SIM	concentration	simvastatin	plasma	HPLC MS/MS	10.0	hr	1.6411849020544673e-06	1.4500716674629716e-06	0.879	4.586717630195891e-07	mole/meter^3	dimensionless
+Lilja2004	all	10	SIM_simvastatin	SIM	concentration	simvastatin	plasma	HPLC MS/MS	12.0	hr	1.3784042044911607e-06	1.4500716674629716e-06	0.769	4.586717630195891e-07	mole/meter^3	dimensionless
+Lilja2004	all	10	SIM_simvastatin	SIM	concentration	simvastatin	plasma	HPLC MS/MS	24.0	hr	8.528428093645485e-07	1.034400382226469e-06	0.494	3.2728141423793595e-07	mole/meter^3	dimensionless

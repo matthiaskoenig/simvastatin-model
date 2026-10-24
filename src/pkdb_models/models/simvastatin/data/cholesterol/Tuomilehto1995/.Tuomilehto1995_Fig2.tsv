@@ -1,0 +1,121 @@
+study	group	count	intervention	measurement_type	substance	tissue	label	time	time_unit	mean	unit	change	baseline	baseline_sd	baseline_unit
+Tuomilehto1995	SIM0mg	28	SIM0	concentration	hdl-c	serum	hdl-c_SIM0_concentration	0	weeks	1.3	mM	0.0	1.3	13.5	mM
+Tuomilehto1995	SIM0mg	28	SIM0	concentration	hdl-c	serum	hdl-c_SIM0_concentration	2	weeks	1.351856714	mM	3.988978	1.3	13.5	mM
+Tuomilehto1995	SIM0mg	28	SIM0	concentration	hdl-c	serum	hdl-c_SIM0_concentration	4	weeks	1.400279517	mM	7.713809	1.3	13.5	mM
+Tuomilehto1995	SIM0mg	28	SIM0	concentration	hdl-c	serum	hdl-c_SIM0_concentration	6	weeks	1.3276863041	mM	2.1297157	1.3	13.5	mM
+Tuomilehto1995	SIM0mg	28	SIM0	concentration	hdl-c	serum	hdl-c_SIM0_concentration	8	weeks	1.3183905839	mM	1.4146603	1.3	13.5	mM
+Tuomilehto1995	SIM2_5mg	28	SIM2_5	concentration	hdl-c	serum	hdl-c_SIM2_5_concentration	0	weeks	1.3	mM	0.0	1.3	15.3	mM
+Tuomilehto1995	SIM2_5mg	28	SIM2_5	concentration	hdl-c	serum	hdl-c_SIM2_5_concentration	2	weeks	1.296678981	mM	-0.255463	1.3	15.3	mM
+Tuomilehto1995	SIM2_5mg	28	SIM2_5	concentration	hdl-c	serum	hdl-c_SIM2_5_concentration	4	weeks	1.3173115722	mM	1.3316594	1.3	15.3	mM
+Tuomilehto1995	SIM2_5mg	28	SIM2_5	concentration	hdl-c	serum	hdl-c_SIM2_5_concentration	6	weeks	1.344796024	mM	3.445848	1.3	15.3	mM
+Tuomilehto1995	SIM2_5mg	28	SIM2_5	concentration	hdl-c	serum	hdl-c_SIM2_5_concentration	8	weeks	1.3397715071	mM	3.0593467	1.3	15.3	mM
+Tuomilehto1995	SIM5mg	28	SIM5	concentration	hdl-c	serum	hdl-c_SIM5_concentration	0	weeks	1.2	mM	0.0	1.2	13.5	mM
+Tuomilehto1995	SIM5mg	28	SIM5	concentration	hdl-c	serum	hdl-c_SIM5_concentration	2	weeks	1.256152356	mM	4.679363	1.2	13.5	mM
+Tuomilehto1995	SIM5mg	28	SIM5	concentration	hdl-c	serum	hdl-c_SIM5_concentration	4	weeks	1.2858599916	mM	7.1549993	1.2	13.5	mM
+Tuomilehto1995	SIM5mg	28	SIM5	concentration	hdl-c	serum	hdl-c_SIM5_concentration	6	weeks	1.2366134808	mM	3.0511234	1.2	13.5	mM
+Tuomilehto1995	SIM5mg	28	SIM5	concentration	hdl-c	serum	hdl-c_SIM5_concentration	8	weeks	1.284473856	mM	7.039488	1.2	13.5	mM
+Tuomilehto1995	SIM10mg	27	SIM10	concentration	hdl-c	serum	hdl-c_SIM10_concentration	0	weeks	1.3	mM	0.0	1.3	12.1	mM
+Tuomilehto1995	SIM10mg	27	SIM10	concentration	hdl-c	serum	hdl-c_SIM10_concentration	2	weeks	1.296678981	mM	-0.255463	1.3	12.1	mM
+Tuomilehto1995	SIM10mg	27	SIM10	concentration	hdl-c	serum	hdl-c_SIM10_concentration	4	weeks	1.390449281	mM	6.957637	1.3	12.1	mM
+Tuomilehto1995	SIM10mg	27	SIM10	concentration	hdl-c	serum	hdl-c_SIM10_concentration	6	weeks	1.424760675	mM	9.596975	1.3	12.1	mM
+Tuomilehto1995	SIM10mg	27	SIM10	concentration	hdl-c	serum	hdl-c_SIM10_concentration	8	weeks	1.411616388	mM	8.585876	1.3	12.1	mM
+Tuomilehto1995	SIM20mg	26	SIM20	concentration	hdl-c	serum	hdl-c_SIM20_concentration	0	weeks	1.2	mM	0.0	1.2	12.0	mM
+Tuomilehto1995	SIM20mg	26	SIM20	concentration	hdl-c	serum	hdl-c_SIM20_concentration	2	weeks	1.2324734688	mM	2.7061224	1.2	12.0	mM
+Tuomilehto1995	SIM20mg	26	SIM20	concentration	hdl-c	serum	hdl-c_SIM20_concentration	4	weeks	1.283863368	mM	6.988614	1.2	12.0	mM
+Tuomilehto1995	SIM20mg	26	SIM20	concentration	hdl-c	serum	hdl-c_SIM20_concentration	6	weeks	1.304905464	mM	8.742122	1.2	12.0	mM
+Tuomilehto1995	SIM20mg	26	SIM20	concentration	hdl-c	serum	hdl-c_SIM20_concentration	8	weeks	1.325130504	mM	10.427542	1.2	12.0	mM
+Tuomilehto1995	SIM40mg	29	SIM40	concentration	hdl-c	serum	hdl-c_SIM40_concentration	0	weeks	1.3	mM	0.0	1.3	12.6	mM
+Tuomilehto1995	SIM40mg	29	SIM40	concentration	hdl-c	serum	hdl-c_SIM40_concentration	2	weeks	1.413428783	mM	8.725291	1.3	12.6	mM
+Tuomilehto1995	SIM40mg	29	SIM40	concentration	hdl-c	serum	hdl-c_SIM40_concentration	4	weeks	1.425509007	mM	9.654539	1.3	12.6	mM
+Tuomilehto1995	SIM40mg	29	SIM40	concentration	hdl-c	serum	hdl-c_SIM40_concentration	6	weeks	1.464111532	mM	12.623964	1.3	12.6	mM
+Tuomilehto1995	SIM40mg	29	SIM40	concentration	hdl-c	serum	hdl-c_SIM40_concentration	8	weeks	1.4560887185	mM	12.0068245	1.3	12.6	mM
+Tuomilehto1995	SIM0mg	28	SIM0	concentration	triglyceride	serum	triglyceride_SIM0_concentration	0	weeks	1.8	mM	0.0	1.8	51.9	mM
+Tuomilehto1995	SIM0mg	28	SIM0	concentration	triglyceride	serum	triglyceride_SIM0_concentration	2	weeks	1.855568826	mM	3.087157	1.8	51.9	mM
+Tuomilehto1995	SIM0mg	28	SIM0	concentration	triglyceride	serum	triglyceride_SIM0_concentration	4	weeks	1.7444432754	mM	-3.0864847	1.8	51.9	mM
+Tuomilehto1995	SIM0mg	28	SIM0	concentration	triglyceride	serum	triglyceride_SIM0_concentration	6	weeks	1.933462584	mM	7.414588	1.8	51.9	mM
+Tuomilehto1995	SIM0mg	28	SIM0	concentration	triglyceride	serum	triglyceride_SIM0_concentration	8	weeks	1.915395732	mM	6.410874	1.8	51.9	mM
+Tuomilehto1995	SIM2_5mg	28	SIM2_5	concentration	triglyceride	serum	triglyceride_SIM2_5_concentration	0	weeks	1.6	mM	0.0	1.6	52.6	mM
+Tuomilehto1995	SIM2_5mg	28	SIM2_5	concentration	triglyceride	serum	triglyceride_SIM2_5_concentration	2	weeks	1.445069328	mM	-9.683167	1.6	52.6	mM
+Tuomilehto1995	SIM2_5mg	28	SIM2_5	concentration	triglyceride	serum	triglyceride_SIM2_5_concentration	4	weeks	1.571701968	mM	-1.768627	1.6	52.6	mM
+Tuomilehto1995	SIM2_5mg	28	SIM2_5	concentration	triglyceride	serum	triglyceride_SIM2_5_concentration	6	weeks	1.6063357552	mM	0.3959847	1.6	52.6	mM
+Tuomilehto1995	SIM2_5mg	28	SIM2_5	concentration	triglyceride	serum	triglyceride_SIM2_5_concentration	8	weeks	1.667965296	mM	4.247831	1.6	52.6	mM
+Tuomilehto1995	SIM5mg	28	SIM5	concentration	triglyceride	serum	triglyceride_SIM5_concentration	0	weeks	1.9	mM	0.0	1.9	78.2	mM
+Tuomilehto1995	SIM5mg	28	SIM5	concentration	triglyceride	serum	triglyceride_SIM5_concentration	2	weeks	1.73907095	mM	-8.46995	1.9	78.2	mM
+Tuomilehto1995	SIM5mg	28	SIM5	concentration	triglyceride	serum	triglyceride_SIM5_concentration	4	weeks	1.667882567	mM	-12.216707	1.9	78.2	mM
+Tuomilehto1995	SIM5mg	28	SIM5	concentration	triglyceride	serum	triglyceride_SIM5_concentration	6	weeks	1.577670434	mM	-16.964714	1.9	78.2	mM
+Tuomilehto1995	SIM5mg	28	SIM5	concentration	triglyceride	serum	triglyceride_SIM5_concentration	8	weeks	1.710985568	mM	-9.948128	1.9	78.2	mM
+Tuomilehto1995	SIM10mg	27	SIM10	concentration	triglyceride	serum	triglyceride_SIM10_concentration	0	weeks	2.0	mM	0.0	2.0	82.2	mM
+Tuomilehto1995	SIM10mg	27	SIM10	concentration	triglyceride	serum	triglyceride_SIM10_concentration	2	weeks	1.74827383	mM	-12.5863085	2.0	82.2	mM
+Tuomilehto1995	SIM10mg	27	SIM10	concentration	triglyceride	serum	triglyceride_SIM10_concentration	4	weeks	1.87598604	mM	-6.200698	2.0	82.2	mM
+Tuomilehto1995	SIM10mg	27	SIM10	concentration	triglyceride	serum	triglyceride_SIM10_concentration	6	weeks	1.81898306	mM	-9.050847	2.0	82.2	mM
+Tuomilehto1995	SIM10mg	27	SIM10	concentration	triglyceride	serum	triglyceride_SIM10_concentration	8	weeks	1.80315712	mM	-9.842144	2.0	82.2	mM
+Tuomilehto1995	SIM20mg	26	SIM20	concentration	triglyceride	serum	triglyceride_SIM20_concentration	0	weeks	1.8	mM	0.0	1.8	76.1	mM
+Tuomilehto1995	SIM20mg	26	SIM20	concentration	triglyceride	serum	triglyceride_SIM20_concentration	2	weeks	1.533561858	mM	-14.802119	1.8	76.1	mM
+Tuomilehto1995	SIM20mg	26	SIM20	concentration	triglyceride	serum	triglyceride_SIM20_concentration	4	weeks	1.538298864	mM	-14.538952	1.8	76.1	mM
+Tuomilehto1995	SIM20mg	26	SIM20	concentration	triglyceride	serum	triglyceride_SIM20_concentration	6	weeks	1.618088238	mM	-10.106209	1.8	76.1	mM
+Tuomilehto1995	SIM20mg	26	SIM20	concentration	triglyceride	serum	triglyceride_SIM20_concentration	8	weeks	1.46707812	mM	-18.49566	1.8	76.1	mM
+Tuomilehto1995	SIM40mg	29	SIM40	concentration	triglyceride	serum	triglyceride_SIM40_concentration	0	weeks	1.8	mM	0.0	1.8	64.6	mM
+Tuomilehto1995	SIM40mg	29	SIM40	concentration	triglyceride	serum	triglyceride_SIM40_concentration	2	weeks	1.429072956	mM	-20.607058	1.8	64.6	mM
+Tuomilehto1995	SIM40mg	29	SIM40	concentration	triglyceride	serum	triglyceride_SIM40_concentration	4	weeks	1.413863658	mM	-21.452019	1.8	64.6	mM
+Tuomilehto1995	SIM40mg	29	SIM40	concentration	triglyceride	serum	triglyceride_SIM40_concentration	6	weeks	1.333156716	mM	-25.935738	1.8	64.6	mM
+Tuomilehto1995	SIM40mg	29	SIM40	concentration	triglyceride	serum	triglyceride_SIM40_concentration	8	weeks	1.463270724	mM	-18.707182	1.8	64.6	mM
+Tuomilehto1995	SIM0mg	28	SIM0	concentration change	hdl-c	serum	hdl-c_SIM0_concentration change	0	weeks	0.0	percent	0.0	1.3	13.5	mM
+Tuomilehto1995	SIM0mg	28	SIM0	concentration change	hdl-c	serum	hdl-c_SIM0_concentration change	2	weeks	3.988978	percent	3.988978	1.3	13.5	mM
+Tuomilehto1995	SIM0mg	28	SIM0	concentration change	hdl-c	serum	hdl-c_SIM0_concentration change	4	weeks	7.713809	percent	7.713809	1.3	13.5	mM
+Tuomilehto1995	SIM0mg	28	SIM0	concentration change	hdl-c	serum	hdl-c_SIM0_concentration change	6	weeks	2.1297157	percent	2.1297157	1.3	13.5	mM
+Tuomilehto1995	SIM0mg	28	SIM0	concentration change	hdl-c	serum	hdl-c_SIM0_concentration change	8	weeks	1.4146603	percent	1.4146603	1.3	13.5	mM
+Tuomilehto1995	SIM2_5mg	28	SIM2_5	concentration change	hdl-c	serum	hdl-c_SIM2_5_concentration change	0	weeks	0.0	percent	0.0	1.3	15.3	mM
+Tuomilehto1995	SIM2_5mg	28	SIM2_5	concentration change	hdl-c	serum	hdl-c_SIM2_5_concentration change	2	weeks	-0.255463	percent	-0.255463	1.3	15.3	mM
+Tuomilehto1995	SIM2_5mg	28	SIM2_5	concentration change	hdl-c	serum	hdl-c_SIM2_5_concentration change	4	weeks	1.3316594	percent	1.3316594	1.3	15.3	mM
+Tuomilehto1995	SIM2_5mg	28	SIM2_5	concentration change	hdl-c	serum	hdl-c_SIM2_5_concentration change	6	weeks	3.445848	percent	3.445848	1.3	15.3	mM
+Tuomilehto1995	SIM2_5mg	28	SIM2_5	concentration change	hdl-c	serum	hdl-c_SIM2_5_concentration change	8	weeks	3.0593467	percent	3.0593467	1.3	15.3	mM
+Tuomilehto1995	SIM5mg	28	SIM5	concentration change	hdl-c	serum	hdl-c_SIM5_concentration change	0	weeks	0.0	percent	0.0	1.2	13.5	mM
+Tuomilehto1995	SIM5mg	28	SIM5	concentration change	hdl-c	serum	hdl-c_SIM5_concentration change	2	weeks	4.679363	percent	4.679363	1.2	13.5	mM
+Tuomilehto1995	SIM5mg	28	SIM5	concentration change	hdl-c	serum	hdl-c_SIM5_concentration change	4	weeks	7.1549993	percent	7.1549993	1.2	13.5	mM
+Tuomilehto1995	SIM5mg	28	SIM5	concentration change	hdl-c	serum	hdl-c_SIM5_concentration change	6	weeks	3.0511234	percent	3.0511234	1.2	13.5	mM
+Tuomilehto1995	SIM5mg	28	SIM5	concentration change	hdl-c	serum	hdl-c_SIM5_concentration change	8	weeks	7.039488	percent	7.039488	1.2	13.5	mM
+Tuomilehto1995	SIM10mg	27	SIM10	concentration change	hdl-c	serum	hdl-c_SIM10_concentration change	0	weeks	0.0	percent	0.0	1.3	12.1	mM
+Tuomilehto1995	SIM10mg	27	SIM10	concentration change	hdl-c	serum	hdl-c_SIM10_concentration change	2	weeks	-0.255463	percent	-0.255463	1.3	12.1	mM
+Tuomilehto1995	SIM10mg	27	SIM10	concentration change	hdl-c	serum	hdl-c_SIM10_concentration change	4	weeks	6.957637	percent	6.957637	1.3	12.1	mM
+Tuomilehto1995	SIM10mg	27	SIM10	concentration change	hdl-c	serum	hdl-c_SIM10_concentration change	6	weeks	9.596975	percent	9.596975	1.3	12.1	mM
+Tuomilehto1995	SIM10mg	27	SIM10	concentration change	hdl-c	serum	hdl-c_SIM10_concentration change	8	weeks	8.585876	percent	8.585876	1.3	12.1	mM
+Tuomilehto1995	SIM20mg	26	SIM20	concentration change	hdl-c	serum	hdl-c_SIM20_concentration change	0	weeks	0.0	percent	0.0	1.2	12.0	mM
+Tuomilehto1995	SIM20mg	26	SIM20	concentration change	hdl-c	serum	hdl-c_SIM20_concentration change	2	weeks	2.7061224	percent	2.7061224	1.2	12.0	mM
+Tuomilehto1995	SIM20mg	26	SIM20	concentration change	hdl-c	serum	hdl-c_SIM20_concentration change	4	weeks	6.988614	percent	6.988614	1.2	12.0	mM
+Tuomilehto1995	SIM20mg	26	SIM20	concentration change	hdl-c	serum	hdl-c_SIM20_concentration change	6	weeks	8.742122	percent	8.742122	1.2	12.0	mM
+Tuomilehto1995	SIM20mg	26	SIM20	concentration change	hdl-c	serum	hdl-c_SIM20_concentration change	8	weeks	10.427542	percent	10.427542	1.2	12.0	mM
+Tuomilehto1995	SIM40mg	29	SIM40	concentration change	hdl-c	serum	hdl-c_SIM40_concentration change	0	weeks	0.0	percent	0.0	1.3	12.6	mM
+Tuomilehto1995	SIM40mg	29	SIM40	concentration change	hdl-c	serum	hdl-c_SIM40_concentration change	2	weeks	8.725291	percent	8.725291	1.3	12.6	mM
+Tuomilehto1995	SIM40mg	29	SIM40	concentration change	hdl-c	serum	hdl-c_SIM40_concentration change	4	weeks	9.654539	percent	9.654539	1.3	12.6	mM
+Tuomilehto1995	SIM40mg	29	SIM40	concentration change	hdl-c	serum	hdl-c_SIM40_concentration change	6	weeks	12.623964	percent	12.623964	1.3	12.6	mM
+Tuomilehto1995	SIM40mg	29	SIM40	concentration change	hdl-c	serum	hdl-c_SIM40_concentration change	8	weeks	12.0068245	percent	12.0068245	1.3	12.6	mM
+Tuomilehto1995	SIM0mg	28	SIM0	concentration change	triglyceride	serum	triglyceride_SIM0_concentration change	0	weeks	0.0	percent	0.0	1.8	51.9	mM
+Tuomilehto1995	SIM0mg	28	SIM0	concentration change	triglyceride	serum	triglyceride_SIM0_concentration change	2	weeks	3.087157	percent	3.087157	1.8	51.9	mM
+Tuomilehto1995	SIM0mg	28	SIM0	concentration change	triglyceride	serum	triglyceride_SIM0_concentration change	4	weeks	-3.0864847	percent	-3.0864847	1.8	51.9	mM
+Tuomilehto1995	SIM0mg	28	SIM0	concentration change	triglyceride	serum	triglyceride_SIM0_concentration change	6	weeks	7.414588	percent	7.414588	1.8	51.9	mM
+Tuomilehto1995	SIM0mg	28	SIM0	concentration change	triglyceride	serum	triglyceride_SIM0_concentration change	8	weeks	6.410874	percent	6.410874	1.8	51.9	mM
+Tuomilehto1995	SIM2_5mg	28	SIM2_5	concentration change	triglyceride	serum	triglyceride_SIM2_5_concentration change	0	weeks	0.0	percent	0.0	1.6	52.6	mM
+Tuomilehto1995	SIM2_5mg	28	SIM2_5	concentration change	triglyceride	serum	triglyceride_SIM2_5_concentration change	2	weeks	-9.683167	percent	-9.683167	1.6	52.6	mM
+Tuomilehto1995	SIM2_5mg	28	SIM2_5	concentration change	triglyceride	serum	triglyceride_SIM2_5_concentration change	4	weeks	-1.768627	percent	-1.768627	1.6	52.6	mM
+Tuomilehto1995	SIM2_5mg	28	SIM2_5	concentration change	triglyceride	serum	triglyceride_SIM2_5_concentration change	6	weeks	0.3959847	percent	0.3959847	1.6	52.6	mM
+Tuomilehto1995	SIM2_5mg	28	SIM2_5	concentration change	triglyceride	serum	triglyceride_SIM2_5_concentration change	8	weeks	4.247831	percent	4.247831	1.6	52.6	mM
+Tuomilehto1995	SIM5mg	28	SIM5	concentration change	triglyceride	serum	triglyceride_SIM5_concentration change	0	weeks	0.0	percent	0.0	1.9	78.2	mM
+Tuomilehto1995	SIM5mg	28	SIM5	concentration change	triglyceride	serum	triglyceride_SIM5_concentration change	2	weeks	-8.46995	percent	-8.46995	1.9	78.2	mM
+Tuomilehto1995	SIM5mg	28	SIM5	concentration change	triglyceride	serum	triglyceride_SIM5_concentration change	4	weeks	-12.216707	percent	-12.216707	1.9	78.2	mM
+Tuomilehto1995	SIM5mg	28	SIM5	concentration change	triglyceride	serum	triglyceride_SIM5_concentration change	6	weeks	-16.964714	percent	-16.964714	1.9	78.2	mM
+Tuomilehto1995	SIM5mg	28	SIM5	concentration change	triglyceride	serum	triglyceride_SIM5_concentration change	8	weeks	-9.948128	percent	-9.948128	1.9	78.2	mM
+Tuomilehto1995	SIM10mg	27	SIM10	concentration change	triglyceride	serum	triglyceride_SIM10_concentration change	0	weeks	0.0	percent	0.0	2.0	82.2	mM
+Tuomilehto1995	SIM10mg	27	SIM10	concentration change	triglyceride	serum	triglyceride_SIM10_concentration change	2	weeks	-12.5863085	percent	-12.5863085	2.0	82.2	mM
+Tuomilehto1995	SIM10mg	27	SIM10	concentration change	triglyceride	serum	triglyceride_SIM10_concentration change	4	weeks	-6.200698	percent	-6.200698	2.0	82.2	mM
+Tuomilehto1995	SIM10mg	27	SIM10	concentration change	triglyceride	serum	triglyceride_SIM10_concentration change	6	weeks	-9.050847	percent	-9.050847	2.0	82.2	mM
+Tuomilehto1995	SIM10mg	27	SIM10	concentration change	triglyceride	serum	triglyceride_SIM10_concentration change	8	weeks	-9.842144	percent	-9.842144	2.0	82.2	mM
+Tuomilehto1995	SIM20mg	26	SIM20	concentration change	triglyceride	serum	triglyceride_SIM20_concentration change	0	weeks	0.0	percent	0.0	1.8	76.1	mM
+Tuomilehto1995	SIM20mg	26	SIM20	concentration change	triglyceride	serum	triglyceride_SIM20_concentration change	2	weeks	-14.802119	percent	-14.802119	1.8	76.1	mM
+Tuomilehto1995	SIM20mg	26	SIM20	concentration change	triglyceride	serum	triglyceride_SIM20_concentration change	4	weeks	-14.538952	percent	-14.538952	1.8	76.1	mM
+Tuomilehto1995	SIM20mg	26	SIM20	concentration change	triglyceride	serum	triglyceride_SIM20_concentration change	6	weeks	-10.106209	percent	-10.106209	1.8	76.1	mM
+Tuomilehto1995	SIM20mg	26	SIM20	concentration change	triglyceride	serum	triglyceride_SIM20_concentration change	8	weeks	-18.49566	percent	-18.49566	1.8	76.1	mM
+Tuomilehto1995	SIM40mg	29	SIM40	concentration change	triglyceride	serum	triglyceride_SIM40_concentration change	0	weeks	0.0	percent	0.0	1.8	64.6	mM
+Tuomilehto1995	SIM40mg	29	SIM40	concentration change	triglyceride	serum	triglyceride_SIM40_concentration change	2	weeks	-20.607058	percent	-20.607058	1.8	64.6	mM
+Tuomilehto1995	SIM40mg	29	SIM40	concentration change	triglyceride	serum	triglyceride_SIM40_concentration change	4	weeks	-21.452019	percent	-21.452019	1.8	64.6	mM
+Tuomilehto1995	SIM40mg	29	SIM40	concentration change	triglyceride	serum	triglyceride_SIM40_concentration change	6	weeks	-25.935738	percent	-25.935738	1.8	64.6	mM
+Tuomilehto1995	SIM40mg	29	SIM40	concentration change	triglyceride	serum	triglyceride_SIM40_concentration change	8	weeks	-18.707182	percent	-18.707182	1.8	64.6	mM

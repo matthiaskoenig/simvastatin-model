@@ -1,0 +1,9 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	mean_se	pm	mean_sd	mean_unit	count_unit
+Neuvonen1998	simvastatin	10	SIM_total simva inhibitors	SIM	concentration	total simva inhibitors	serum	radioenzymatic assay	0.0	hr	0.0				mole/meter^3	dimensionless
+Neuvonen1998	simvastatin	10	SIM_total simva inhibitors	SIM	concentration	total simva inhibitors	serum	radioenzymatic assay	0.5	hr	2.7178733394411363e-05	1.6677858451672008e-05	4.584682	5.27400192011727e-05	mole/meter^3	dimensionless
+Neuvonen1998	simvastatin	10	SIM_total simva inhibitors	SIM	concentration	total simva inhibitors	serum	radioenzymatic assay	1.0	hr	0.0001680139945029776	3.7061910215300047e-05	57.17368	0.00011720005071700961	mole/meter^3	dimensionless
+Neuvonen1998	simvastatin	10	SIM_total simva inhibitors	SIM	concentration	total simva inhibitors	serum	radioenzymatic assay	2.0	hr	0.00013218748282180484	1.2971665139715988e-05	63.376484	4.1020006886508714e-05	mole/meter^3	dimensionless
+Neuvonen1998	simvastatin	10	SIM_total simva inhibitors	SIM	concentration	total simva inhibitors	serum	radioenzymatic assay	3.0	hr	7.53592143838754e-05	6.176985799358681e-06	35.598705	1.953334420048926e-05	mole/meter^3	dimensionless
+Neuvonen1998	simvastatin	10	SIM_total simva inhibitors	SIM	concentration	total simva inhibitors	serum	radioenzymatic assay	4.0	hr	5.2504372423270734e-05	9.883174530462667e-06	27.238403	3.1253342029227207e-05	mole/meter^3	dimensionless
+Neuvonen1998	simvastatin	10	SIM_total simva inhibitors	SIM	concentration	total simva inhibitors	serum	radioenzymatic assay	6.0	hr	1.791325606962895e-05	4.9415881814017414e-06	9.978425	1.562667391179881e-05	mole/meter^3	dimensionless
+Neuvonen1998	simvastatin	10	SIM_total simva inhibitors	SIM	concentration	total simva inhibitors	serum	radioenzymatic assay	8.0	hr	6.79468323408154e-06				mole/meter^3	dimensionless

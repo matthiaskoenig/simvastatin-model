@@ -1,0 +1,22 @@
+study	name	parent	measurement_type	group_count	choice	substance	tissue	count	mean	unit	sd	min	max
+Watanabe2004	all	NA	species	11	homo sapiens	NA	NA	NA	NA	NA	NA	NA	NA
+Watanabe2004	all	NA	healthy	11	N	NA	NA	NA	NA	NA	NA	NA	NA
+Watanabe2004	all	NA	sex	11	M	NA	NA	7.0	NA	NA	NA	NA	NA
+Watanabe2004	all	NA	sex	11	F	NA	NA	4.0	NA	NA	NA	NA	NA
+Watanabe2004	all	NA	age	11	NA	NA	NA	NA	62.0	yr	7.5	18.0	NA
+Watanabe2004	all	NA	weight	11	NA	NA	NA	NA	62.6	kg	5.4	NA	NA
+Watanabe2004	all	NA	concentration	11	NA	creatinine	serum	NA	0.72	mg/dl	0.19	NA	NA
+Watanabe2004	all	NA	concentration	11	NA	ast	NA	NA	21.4	IU/l	3.8	NA	NA
+Watanabe2004	all	NA	concentration	11	NA	alt	NA	NA	20.0	IU/l	9.3	NA	NA
+Watanabe2004	all	NA	concentration	11	NA	creatine kinase	NA	NA	109.0	IU/l	48.0	NA	NA
+Watanabe2004	all	NA	concentration	11	NA	cholesterol	NA	NA	249.0	mg/dl	28.0	NA	NA
+Watanabe2004	all	NA	concentration	11	NA	ldl-c	NA	NA	166.0	mg/dl	23.0	NA	NA
+Watanabe2004	all	NA	concentration	11	NA	hdl-c	NA	NA	50.0	mg/dl	10.0	NA	NA
+Watanabe2004	all	NA	concentration	11	NA	triglyceride	NA	NA	168.0	mg/dl	82.0	NA	NA
+Watanabe2004	all	NA	blood pressure systolic	11	NA	NA	NA	NA	151.0	mmHg	29.0	NA	NA
+Watanabe2004	all	NA	blood pressure diastolic	11	NA	NA	NA	NA	88.0	mmHg	11.0	NA	NA
+Watanabe2004	all	NA	heart rate	11	NA	NA	NA	NA	72.0	1/min	10.0	NA	NA
+Watanabe2004	all	NA	disease	11	hypercholesterolemia	NA	NA	NA	NA	NA	NA	NA	NA
+Watanabe2004	all	NA	disease	11	hypertension	NA	NA	NA	NA	NA	NA	NA	NA
+Watanabe2004	all	NA	medication	11	N	NA	NA	NA	NA	NA	NA	NA	NA
+Watanabe2004	all	NA	overnight fast	11	Y	NA	NA	NA	NA	NA	NA	NA	NA

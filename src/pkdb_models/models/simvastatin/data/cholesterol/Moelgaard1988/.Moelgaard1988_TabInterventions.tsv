@@ -1,0 +1,4 @@
+study	name	time	time_unit	route	application	measurement_type	form	substance	value	unit
+Moelgaard1988	SIM20	0	weeks	oral	multiple dose	qualitative dosing	capsule	simvastatin	20	mg
+Moelgaard1988	SIM40	8	weeks	oral	multiple dose	qualitative dosing	capsule	simvastatin	40	mg
+Moelgaard1988	baseline	-2	weeks	oral	single dose	dosing	NR	simvastatin	0	mg

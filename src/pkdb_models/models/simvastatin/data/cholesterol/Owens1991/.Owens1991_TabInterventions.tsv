@@ -1,0 +1,8 @@
+study	name	time	time_unit	route	application	measurement_type	form	substance	value	min	max	unit
+Owens1991	SIM20	0	hr	NR	multiple dose	qualitative dosing	NR	simvastatin	20.0	NA	NA	mg
+Owens1991	SIM40	0	hr	NR	multiple dose	qualitative dosing	NR	simvastatin	40.0	NA	NA	mg
+Owens1991	SIM	0	hr	NR	multiple dose	qualitative dosing	NR	simvastatin	NA	20.0	40.0	mg
+Owens1991	PRA20	0	hr	NR	multiple dose	qualitative dosing	NR	pravastatin	20.0	NA	NA	mg
+Owens1991	PRA40	0	hr	NR	multiple dose	qualitative dosing	NR	pravastatin	40.0	NA	NA	mg
+Owens1991	PRA	0	hr	NR	multiple dose	qualitative dosing	NR	pravastatin	NA	20.0	40.0	mg
+Owens1991	placebo	0	hr	NR	multiple dose	qualitative dosing	NR	placebo	0.0	NA	NA	mg

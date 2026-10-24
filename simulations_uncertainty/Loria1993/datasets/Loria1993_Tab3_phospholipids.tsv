@@ -1,0 +1,8 @@
+study	group	label	count	intervention	measurement_type	substance	tissue	time	time_unit	mean	mean_sd	mean_se	mean_unit	count_unit
+Loria1993	all	phospholipids_bile	5	SIM80	concentration	phospholipids	bile	0	hr	5.5	0.3	0.134164078649987	mmol/l	dimensionless
+Loria1993	all	phospholipids_bile	5	SIM80	concentration	phospholipids	bile	3	hr	4.4	1.6	0.715541752799933	mmol/l	dimensionless
+Loria1993	all	phospholipids_bile	5	SIM80	concentration	phospholipids	bile	6	hr	4.2	1.4	0.626099033699941	mmol/l	dimensionless
+Loria1993	all	phospholipids_bile	5	SIM80	concentration	phospholipids	bile	9	hr	3.4	0.6	0.268328157299975	mmol/l	dimensionless
+Loria1993	all	phospholipids_bile	5	SIM80	concentration	phospholipids	bile	12	hr	3.2	0.5	0.223606797749979	mmol/l	dimensionless
+Loria1993	all	phospholipids_bile	5	SIM80	concentration	phospholipids	bile	15	hr	3.7	0.5	0.223606797749979	mmol/l	dimensionless
+Loria1993	all	phospholipids_bile	5	SIM80	concentration	phospholipids	bile	30	hr	5.5	1.2	0.536656314599949	mmol/l	dimensionless

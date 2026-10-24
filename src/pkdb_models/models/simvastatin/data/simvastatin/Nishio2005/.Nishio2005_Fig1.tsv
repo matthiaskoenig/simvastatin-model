@@ -1,0 +1,11 @@
+study	group	count	intervention	label	measurement_type	substance	method	tissue	time	time_unit	mean	sd	se	sdpm	unit
+Nishio2005	all	8	SIM, AML	SIM, AML	concentration	active simva inhibitors	enzymatic assay	plasma	0	hr	0.0	na	na	na	ng/ml
+Nishio2005	all	8	SIM, AML	SIM, AML	concentration	active simva inhibitors	enzymatic assay	plasma	2	hr	13.713069	4.715224	1.66708343260678	18.428293	ng/ml
+Nishio2005	all	8	SIM, AML	SIM, AML	concentration	active simva inhibitors	enzymatic assay	plasma	3	hr	7.7056627	3.0696203	1.08527466489894	10.775283	ng/ml
+Nishio2005	all	8	SIM, AML	SIM, AML	concentration	active simva inhibitors	enzymatic assay	plasma	4	hr	4.229935	1.7089283	0.604197394745799	5.9388633	ng/ml
+Nishio2005	all	8	SIM, AML	SIM, AML	concentration	active simva inhibitors	enzymatic assay	plasma	6	hr	2.404996	1.0442363	0.369193284445575	3.4492323	ng/ml
+Nishio2005	all	8	SIM	SIM	concentration	active simva inhibitors	enzymatic assay	plasma	0	hr	0.0	na	na	na	ng/ml
+Nishio2005	all	8	SIM	SIM	concentration	active simva inhibitors	enzymatic assay	plasma	2	hr	9.15614	3.322818	1.17479357022436	5.833322	ng/ml
+Nishio2005	all	8	SIM	SIM	concentration	active simva inhibitors	enzymatic assay	plasma	3	hr	6.882844	4.01892	1.42090279252312	2.863924	ng/ml
+Nishio2005	all	8	SIM	SIM	concentration	active simva inhibitors	enzymatic assay	plasma	4	hr	3.6918933	2.0251817	0.71600985660245	1.6667116	ng/ml
+Nishio2005	all	8	SIM	SIM	concentration	active simva inhibitors	enzymatic assay	plasma	6	hr	2.1834433	1.1391395	0.402746632583727	1.0443038	ng/ml

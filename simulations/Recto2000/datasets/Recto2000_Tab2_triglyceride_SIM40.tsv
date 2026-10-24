@@ -1,0 +1,3 @@
+study	group	count	intervention	label	measurement_type	substance	tissue	time	time_unit	mean	mean_sd	mean_se	change	change_sd	baseline	baseline_unit	mean_unit	count_unit
+Recto2000	all	126	SIM40	SIM40_triglyceride_concentration	concentration	triglyceride	plasma	0	weeks	181.3					181.3	mg/dl	mg/dl	dimensionless
+Recto2000	all	126	SIM40	SIM40_triglyceride_concentration	concentration	triglyceride	plasma	6	weeks	142.5018			-21.4	23.3	181.3	mg/dl	mg/dl	dimensionless

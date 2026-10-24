@@ -1,0 +1,3 @@
+study	group	count	intervention	measurement_type	substance	tissue	label	time	time_unit	mean	mean_sd	mean_se	mean_unit	count_unit
+Geiss2002	hetero_FH	9	SIM_FH	concentration	intermediate-buoyant-ldl	plasma	SIM_FH_intermediate-buoyant-ldl	0	weeks	4.2	0.8	0.266666666666667	mmol/l	dimensionless
+Geiss2002	hetero_FH	9	SIM_FH	concentration	intermediate-buoyant-ldl	plasma	SIM_FH_intermediate-buoyant-ldl	4	weeks	2.5	0.3	0.1	mmol/l	dimensionless

@@ -1,0 +1,21 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	se	pm	sd	unit
+Lilja1998	all	10	SIM+GRA_active simva inhibitors	SIM,GRA	concentration	active simva inhibitors	serum	radioenzymatic assay	0.0	hr	0.0	na	na	na	ng/ml
+Lilja1998	all	10	SIM+GRA_active simva inhibitors	SIM,GRA	concentration	active simva inhibitors	serum	radioenzymatic assay	0.5	hr	0.54158896	na	na	na	ng/ml
+Lilja1998	all	10	SIM+GRA_active simva inhibitors	SIM,GRA	concentration	active simva inhibitors	serum	radioenzymatic assay	1.0	hr	5.1274304	2.0645206	3.0629098	6.52858737233742	ng/ml
+Lilja1998	all	10	SIM+GRA_active simva inhibitors	SIM,GRA	concentration	active simva inhibitors	serum	radioenzymatic assay	2.0	hr	17.64006	3.378306	14.261754	10.6831415930128	ng/ml
+Lilja1998	all	10	SIM+GRA_active simva inhibitors	SIM,GRA	concentration	active simva inhibitors	serum	radioenzymatic assay	3.0	hr	20.468035	2.852793	17.615242	9.02132357298474	ng/ml
+Lilja1998	all	10	SIM+GRA_active simva inhibitors	SIM,GRA	concentration	active simva inhibitors	serum	radioenzymatic assay	4.0	hr	19.804914	2.327454	17.47746	7.36005578926953	ng/ml
+Lilja1998	all	10	SIM+GRA_active simva inhibitors	SIM,GRA	concentration	active simva inhibitors	serum	radioenzymatic assay	6.0	hr	21.030998	3.190624	17.840374	10.0896389971971	ng/ml
+Lilja1998	all	10	SIM+GRA_active simva inhibitors	SIM,GRA	concentration	active simva inhibitors	serum	radioenzymatic assay	8.0	hr	17.339767	2.965403	14.374364	9.37742766029629	ng/ml
+Lilja1998	all	10	SIM+GRA_active simva inhibitors	SIM,GRA	concentration	active simva inhibitors	serum	radioenzymatic assay	10.0	hr	11.058324	2.289741	8.768583	7.24079681187161	ng/ml
+Lilja1998	all	10	SIM+GRA_active simva inhibitors	SIM,GRA	concentration	active simva inhibitors	serum	radioenzymatic assay	12.0	hr	6.8043957	1.3139627	5.490433	4.15511489250453	ng/ml
+Lilja1998	all	10	SIM_active simva inhibitors	SIM	concentration	active simva inhibitors	serum	radioenzymatic assay	0.0	hr	0.0	na	na	na	ng/ml
+Lilja1998	all	10	SIM_active simva inhibitors	SIM	concentration	active simva inhibitors	serum	radioenzymatic assay	0.5	hr	3.5448816	1.9517338	5.4966154	6.17192419433554	ng/ml
+Lilja1998	all	10	SIM_active simva inhibitors	SIM	concentration	active simva inhibitors	serum	radioenzymatic assay	1.0	hr	12.935426	2.702646	15.638072	8.54651706914343	ng/ml
+Lilja1998	all	10	SIM_active simva inhibitors	SIM	concentration	active simva inhibitors	serum	radioenzymatic assay	2.0	hr	18.766163	2.327455	21.093618	7.3600589515472	ng/ml
+Lilja1998	all	10	SIM_active simva inhibitors	SIM	concentration	active simva inhibitors	serum	radioenzymatic assay	3.0	hr	12.585319	1.313432	13.898751	4.15343667175028	ng/ml
+Lilja1998	all	10	SIM_active simva inhibitors	SIM	concentration	active simva inhibitors	serum	radioenzymatic assay	4.0	hr	9.369171	1.238712	10.607883	3.91715128498249	ng/ml
+Lilja1998	all	10	SIM_active simva inhibitors	SIM	concentration	active simva inhibitors	serum	radioenzymatic assay	6.0	hr	6.391315	0.6379475	7.0292625	2.01736712761027	ng/ml
+Lilja1998	all	10	SIM_active simva inhibitors	SIM	concentration	active simva inhibitors	serum	radioenzymatic assay	8.0	hr	3.6385026	0.4502644	4.088767	1.42386105328912	ng/ml
+Lilja1998	all	10	SIM_active simva inhibitors	SIM	concentration	active simva inhibitors	serum	radioenzymatic assay	10.0	hr	2.3498	na	na	na	ng/ml
+Lilja1998	all	10	SIM_active simva inhibitors	SIM	concentration	active simva inhibitors	serum	radioenzymatic assay	12.0	hr	1.2489578	na	na	na	ng/ml

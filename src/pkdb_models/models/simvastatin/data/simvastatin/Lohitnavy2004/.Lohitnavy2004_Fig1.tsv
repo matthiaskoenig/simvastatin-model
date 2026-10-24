@@ -1,0 +1,49 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	unit
+Lohitnavy2004	all	18	simvastatin_SIM_reference	SIM_reference	concentration	simvastatin	plasma	LC MS/MS	0.0	hr	0.0	ng/ml
+Lohitnavy2004	all	18	simvastatin_SIM_reference	SIM_reference	concentration	simvastatin	plasma	LC MS/MS	0.5	hr	2.109	ng/ml
+Lohitnavy2004	all	18	simvastatin_SIM_reference	SIM_reference	concentration	simvastatin	plasma	LC MS/MS	1.0	hr	4.058	ng/ml
+Lohitnavy2004	all	18	simvastatin_SIM_reference	SIM_reference	concentration	simvastatin	plasma	LC MS/MS	1.5	hr	4.996	ng/ml
+Lohitnavy2004	all	18	simvastatin_SIM_reference	SIM_reference	concentration	simvastatin	plasma	LC MS/MS	2.0	hr	5.651	ng/ml
+Lohitnavy2004	all	18	simvastatin_SIM_reference	SIM_reference	concentration	simvastatin	plasma	LC MS/MS	2.5	hr	6.008	ng/ml
+Lohitnavy2004	all	18	simvastatin_SIM_reference	SIM_reference	concentration	simvastatin	plasma	LC MS/MS	3.0	hr	4.341	ng/ml
+Lohitnavy2004	all	18	simvastatin_SIM_reference	SIM_reference	concentration	simvastatin	plasma	LC MS/MS	4.0	hr	3.865	ng/ml
+Lohitnavy2004	all	18	simvastatin_SIM_reference	SIM_reference	concentration	simvastatin	plasma	LC MS/MS	6.0	hr	2.287	ng/ml
+Lohitnavy2004	all	18	simvastatin_SIM_reference	SIM_reference	concentration	simvastatin	plasma	LC MS/MS	8.0	hr	1.454	ng/ml
+Lohitnavy2004	all	18	simvastatin_SIM_reference	SIM_reference	concentration	simvastatin	plasma	LC MS/MS	12.0	hr	0.71	ng/ml
+Lohitnavy2004	all	18	simvastatin_SIM_reference	SIM_reference	concentration	simvastatin	plasma	LC MS/MS	24.0	hr	0.249	ng/ml
+Lohitnavy2004	all	18	simvastatin_SIM_test	SIM_test	concentration	simvastatin	plasma	LC MS/MS	0.0	hr	0.0	ng/ml
+Lohitnavy2004	all	18	simvastatin_SIM_test	SIM_test	concentration	simvastatin	plasma	LC MS/MS	0.5	hr	2.898	ng/ml
+Lohitnavy2004	all	18	simvastatin_SIM_test	SIM_test	concentration	simvastatin	plasma	LC MS/MS	1.0	hr	4.669	ng/ml
+Lohitnavy2004	all	18	simvastatin_SIM_test	SIM_test	concentration	simvastatin	plasma	LC MS/MS	1.5	hr	6.157	ng/ml
+Lohitnavy2004	all	18	simvastatin_SIM_test	SIM_test	concentration	simvastatin	plasma	LC MS/MS	2.0	hr	6.707	ng/ml
+Lohitnavy2004	all	18	simvastatin_SIM_test	SIM_test	concentration	simvastatin	plasma	LC MS/MS	2.5	hr	5.874	ng/ml
+Lohitnavy2004	all	18	simvastatin_SIM_test	SIM_test	concentration	simvastatin	plasma	LC MS/MS	3.0	hr	4.386	ng/ml
+Lohitnavy2004	all	18	simvastatin_SIM_test	SIM_test	concentration	simvastatin	plasma	LC MS/MS	4.0	hr	3.18	ng/ml
+Lohitnavy2004	all	18	simvastatin_SIM_test	SIM_test	concentration	simvastatin	plasma	LC MS/MS	6.0	hr	2.808	ng/ml
+Lohitnavy2004	all	18	simvastatin_SIM_test	SIM_test	concentration	simvastatin	plasma	LC MS/MS	8.0	hr	1.231	ng/ml
+Lohitnavy2004	all	18	simvastatin_SIM_test	SIM_test	concentration	simvastatin	plasma	LC MS/MS	12.0	hr	0.755	ng/ml
+Lohitnavy2004	all	18	simvastatin_SIM_test	SIM_test	concentration	simvastatin	plasma	LC MS/MS	24.0	hr	0.487	ng/ml
+Lohitnavy2004	all	18	simvastatin acid_SIM_reference	SIM_reference	concentration	simvastatin acid	plasma	LC MS/MS	0.0	hr	0.0	ng/ml
+Lohitnavy2004	all	18	simvastatin acid_SIM_reference	SIM_reference	concentration	simvastatin acid	plasma	LC MS/MS	0.5	hr	1.186	ng/ml
+Lohitnavy2004	all	18	simvastatin acid_SIM_reference	SIM_reference	concentration	simvastatin acid	plasma	LC MS/MS	1.0	hr	4.609	ng/ml
+Lohitnavy2004	all	18	simvastatin acid_SIM_reference	SIM_reference	concentration	simvastatin acid	plasma	LC MS/MS	1.5	hr	8.062	ng/ml
+Lohitnavy2004	all	18	simvastatin acid_SIM_reference	SIM_reference	concentration	simvastatin acid	plasma	LC MS/MS	2.0	hr	13.836	ng/ml
+Lohitnavy2004	all	18	simvastatin acid_SIM_reference	SIM_reference	concentration	simvastatin acid	plasma	LC MS/MS	2.5	hr	17.184	ng/ml
+Lohitnavy2004	all	18	simvastatin acid_SIM_reference	SIM_reference	concentration	simvastatin acid	plasma	LC MS/MS	3.0	hr	14.193	ng/ml
+Lohitnavy2004	all	18	simvastatin acid_SIM_reference	SIM_reference	concentration	simvastatin acid	plasma	LC MS/MS	4.0	hr	13.359	ng/ml
+Lohitnavy2004	all	18	simvastatin acid_SIM_reference	SIM_reference	concentration	simvastatin acid	plasma	LC MS/MS	6.0	hr	8.984	ng/ml
+Lohitnavy2004	all	18	simvastatin acid_SIM_reference	SIM_reference	concentration	simvastatin acid	plasma	LC MS/MS	8.0	hr	6.752	ng/ml
+Lohitnavy2004	all	18	simvastatin acid_SIM_reference	SIM_reference	concentration	simvastatin acid	plasma	LC MS/MS	12.0	hr	3.418	ng/ml
+Lohitnavy2004	all	18	simvastatin acid_SIM_reference	SIM_reference	concentration	simvastatin acid	plasma	LC MS/MS	24.0	hr	0.888	ng/ml
+Lohitnavy2004	all	18	simvastatin acid_SIM_test	SIM_test	concentration	simvastatin acid	plasma	LC MS/MS	0.0	hr	0.0	ng/ml
+Lohitnavy2004	all	18	simvastatin acid_SIM_test	SIM_test	concentration	simvastatin acid	plasma	LC MS/MS	0.5	hr	1.127	ng/ml
+Lohitnavy2004	all	18	simvastatin acid_SIM_test	SIM_test	concentration	simvastatin acid	plasma	LC MS/MS	1.0	hr	4.297	ng/ml
+Lohitnavy2004	all	18	simvastatin acid_SIM_test	SIM_test	concentration	simvastatin acid	plasma	LC MS/MS	1.5	hr	8.3	ng/ml
+Lohitnavy2004	all	18	simvastatin acid_SIM_test	SIM_test	concentration	simvastatin acid	plasma	LC MS/MS	2.0	hr	12.481	ng/ml
+Lohitnavy2004	all	18	simvastatin acid_SIM_test	SIM_test	concentration	simvastatin acid	plasma	LC MS/MS	2.5	hr	15.83	ng/ml
+Lohitnavy2004	all	18	simvastatin acid_SIM_test	SIM_test	concentration	simvastatin acid	plasma	LC MS/MS	3.0	hr	10.904	ng/ml
+Lohitnavy2004	all	18	simvastatin acid_SIM_test	SIM_test	concentration	simvastatin acid	plasma	LC MS/MS	4.0	hr	10.338	ng/ml
+Lohitnavy2004	all	18	simvastatin acid_SIM_test	SIM_test	concentration	simvastatin acid	plasma	LC MS/MS	6.0	hr	9.416	ng/ml
+Lohitnavy2004	all	18	simvastatin acid_SIM_test	SIM_test	concentration	simvastatin acid	plasma	LC MS/MS	8.0	hr	6.529	ng/ml
+Lohitnavy2004	all	18	simvastatin acid_SIM_test	SIM_test	concentration	simvastatin acid	plasma	LC MS/MS	12.0	hr	3.463	ng/ml
+Lohitnavy2004	all	18	simvastatin acid_SIM_test	SIM_test	concentration	simvastatin acid	plasma	LC MS/MS	24.0	hr	0.844	ng/ml

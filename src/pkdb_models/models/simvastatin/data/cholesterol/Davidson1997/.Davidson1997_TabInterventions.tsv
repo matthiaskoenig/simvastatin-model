@@ -1,0 +1,5 @@
+study	name	time	time_unit	route	application	measurement_type	form	substance	value	unit
+Davidson1997	SIM40	0	hr	oral	multiple dose	qualitative dosing	tablet	simvastatin	40	mg
+Davidson1997	SIM80	0	hr	oral	multiple dose	qualitative dosing	tablet	simvastatin	80	mg
+Davidson1997	SIM160	0	hr	oral	multiple dose	qualitative dosing	tablet	simvastatin	160	mg
+Davidson1997	baseline	0	hr	oral	single dose	dosing	NR	placebo	0	mg

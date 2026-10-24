@@ -1,0 +1,14 @@
+study	name	substance	application	measurement_type	route	form	time	time_unit	value	unit
+Jones1998a	ATO10	atorvastatin	multiple dose	qualitative dosing	oral	tablet	0	hr	10	mg
+Jones1998a	ATO20	atorvastatin	multiple dose	qualitative dosing	oral	tablet	0	hr	20	mg
+Jones1998a	ATO40	atorvastatin	multiple dose	qualitative dosing	oral	tablet	0	hr	40	mg
+Jones1998a	ATO80	atorvastatin	multiple dose	qualitative dosing	oral	tablet	0	hr	80	mg
+Jones1998a	SIM10	simvastatin	multiple dose	qualitative dosing	oral	tablet	0	hr	10	mg
+Jones1998a	SIM20	simvastatin	multiple dose	qualitative dosing	oral	tablet	0	hr	20	mg
+Jones1998a	SIM40	simvastatin	multiple dose	qualitative dosing	oral	tablet	0	hr	40	mg
+Jones1998a	PRA10	pravastatin	multiple dose	qualitative dosing	oral	tablet	0	hr	10	mg
+Jones1998a	PRA20	pravastatin	multiple dose	qualitative dosing	oral	tablet	0	hr	20	mg
+Jones1998a	PRA40	pravastatin	multiple dose	qualitative dosing	oral	tablet	0	hr	40	mg
+Jones1998a	LOVA20	lovastatin	multiple dose	qualitative dosing	oral	tablet	0	hr	20	mg
+Jones1998a	LOVA40	lovastatin	multiple dose	qualitative dosing	oral	tablet	0	hr	40	mg
+Jones1998a	LOVA80	lovastatin	multiple dose	qualitative dosing	oral	tablet	0	hr	80	mg

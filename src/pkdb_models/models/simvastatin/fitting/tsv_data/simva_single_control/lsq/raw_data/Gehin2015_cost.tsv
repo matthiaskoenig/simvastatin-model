@@ -1,0 +1,5 @@
+id	experiment	mapping	cost	type
+Gehin2015_fm_simva	Gehin2015	fm_simva	404.42674562351857	initial
+Gehin2015_fm_simva	Gehin2015	fm_simva	0.05323511231280209	fit
+Gehin2015_fm_simacid	Gehin2015	fm_simacid	72.59611630832094	initial
+Gehin2015_fm_simacid	Gehin2015	fm_simacid	0.03133539391671489	fit

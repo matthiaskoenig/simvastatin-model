@@ -1,0 +1,10 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	mean_unit	count_unit
+Lilja2000	all	10	SIM_simvastatin	SIM	concentration	simvastatin	serum	LC MS/MS	0	hr	0.0	mole/meter^3	dimensionless
+Lilja2000	all	10	SIM_simvastatin	SIM	concentration	simvastatin	serum	LC MS/MS	1	hr	1.4401007405637838e-05	mole/meter^3	dimensionless
+Lilja2000	all	10	SIM_simvastatin	SIM	concentration	simvastatin	serum	LC MS/MS	2	hr	1.6181742236024846e-05	mole/meter^3	dimensionless
+Lilja2000	all	10	SIM_simvastatin	SIM	concentration	simvastatin	serum	LC MS/MS	3	hr	9.222723841376014e-06	mole/meter^3	dimensionless
+Lilja2000	all	10	SIM_simvastatin	SIM	concentration	simvastatin	serum	LC MS/MS	4	hr	6.8763528428093634e-06	mole/meter^3	dimensionless
+Lilja2000	all	10	SIM_simvastatin	SIM	concentration	simvastatin	serum	LC MS/MS	6	hr	2.425636168179646e-06	mole/meter^3	dimensionless
+Lilja2000	all	10	SIM_simvastatin	SIM	concentration	simvastatin	serum	LC MS/MS	8	hr	1.6142441471571906e-06	mole/meter^3	dimensionless
+Lilja2000	all	10	SIM_simvastatin	SIM	concentration	simvastatin	serum	LC MS/MS	10	hr	5.653046344959387e-07	mole/meter^3	dimensionless
+Lilja2000	all	10	SIM_simvastatin	SIM	concentration	simvastatin	serum	LC MS/MS	12	hr	0.0	mole/meter^3	dimensionless

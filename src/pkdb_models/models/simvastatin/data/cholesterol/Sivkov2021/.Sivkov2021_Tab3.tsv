@@ -1,0 +1,97 @@
+study	group	count	intervention	measurement_type	substance	method	tissue	time	time_unit	mean	sd	se	change	unit	baseline	baseline_unit	label	comment
+Sivkov2021	subgroup_rosu_521CC	6	ROSU10	concentration	cholesterol	NA	serum	0	weeks	7.15	0.3429	0.14	0.0	mM	7.15	mM	subgroup_rosu_521CC_cholesterol_concentration	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_rosu_521TT	15	ROSU10	concentration	cholesterol	NA	serum	0	weeks	7.1	0.5422	0.14	0.0	mM	7.1	mM	subgroup_rosu_521TT_cholesterol_concentration	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_rosu_521TC	9	ROSU10	concentration	cholesterol	NA	serum	0	weeks	7.17	0.45	0.15	0.0	mM	7.17	mM	subgroup_rosu_521TC_cholesterol_concentration	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_rosu_521	30	ROSU10	concentration	cholesterol	NA	serum	0	weeks	7.13	0.6025	0.11	0.0	mM	7.13	mM	subgroup_rosu_521_cholesterol_concentration	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_rosu_521CC	6	ROSU10	concentration	cholesterol	NA	serum	17	weeks	5.75	0.3919	0.16	-19.6	mM	7.15	mM	subgroup_rosu_521CC_cholesterol_concentration	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_rosu_521TT	15	ROSU10	concentration	cholesterol	NA	serum	17	weeks	4.61	0.5809	0.15	-35.1	mM	7.1	mM	subgroup_rosu_521TT_cholesterol_concentration	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_rosu_521TC	9	ROSU10	concentration	cholesterol	NA	serum	17	weeks	4.86	0.51	0.17	-32.2	mM	7.17	mM	subgroup_rosu_521TC_cholesterol_concentration	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_rosu_521	30	ROSU10	concentration	cholesterol	NA	serum	17	weeks	4.94	0.7668	0.14	-30.7	mM	7.13	mM	subgroup_rosu_521_cholesterol_concentration	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_rosu_521CC	6	ROSU10	concentration change	cholesterol	NA	serum	0	weeks	0.0	NA	NA	NA	percent	7.15	mM	subgroup_rosu_521CC_cholesterol_concentration change	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_rosu_521TT	15	ROSU10	concentration change	cholesterol	NA	serum	0	weeks	0.0	NA	NA	NA	percent	7.1	mM	subgroup_rosu_521TT_cholesterol_concentration change	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_rosu_521TC	9	ROSU10	concentration change	cholesterol	NA	serum	0	weeks	0.0	NA	NA	NA	percent	7.17	mM	subgroup_rosu_521TC_cholesterol_concentration change	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_rosu_521	30	ROSU10	concentration change	cholesterol	NA	serum	0	weeks	0.0	NA	NA	NA	percent	7.13	mM	subgroup_rosu_521_cholesterol_concentration change	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_rosu_521CC	6	ROSU10	concentration change	cholesterol	NA	serum	17	weeks	-19.6	NA	NA	NA	percent	7.15	mM	subgroup_rosu_521CC_cholesterol_concentration change	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_rosu_521TT	15	ROSU10	concentration change	cholesterol	NA	serum	17	weeks	-35.1	NA	NA	NA	percent	7.1	mM	subgroup_rosu_521TT_cholesterol_concentration change	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_rosu_521TC	9	ROSU10	concentration change	cholesterol	NA	serum	17	weeks	-32.2	NA	NA	NA	percent	7.17	mM	subgroup_rosu_521TC_cholesterol_concentration change	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_rosu_521	30	ROSU10	concentration change	cholesterol	NA	serum	17	weeks	-30.7	NA	NA	NA	percent	7.13	mM	subgroup_rosu_521_cholesterol_concentration change	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_rosu_521CC	6	ROSU10	concentration	ldl-c	NA	serum	0	weeks	4.95	0.3674	0.15	0.0	mM	4.95	mM	subgroup_rosu_521CC_ldl-c_concentration	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_rosu_521TT	15	ROSU10	concentration	ldl-c	NA	serum	0	weeks	4.96	0.6584	0.17	0.0	mM	4.96	mM	subgroup_rosu_521TT_ldl-c_concentration	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_rosu_521TC	9	ROSU10	concentration	ldl-c	NA	serum	0	weeks	4.99	0.54	0.18	0.0	mM	4.99	mM	subgroup_rosu_521TC_ldl-c_concentration	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_rosu_521	30	ROSU10	concentration	ldl-c	NA	serum	0	weeks	4.97	0.9311	0.17	0.0	mM	4.97	mM	subgroup_rosu_521_ldl-c_concentration	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_rosu_521CC	6	ROSU10	concentration	ldl-c	NA	serum	17	weeks	3.37	0.3429	0.14	-31.9	mM	4.95	mM	subgroup_rosu_521CC_ldl-c_concentration	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_rosu_521TT	15	ROSU10	concentration	ldl-c	NA	serum	17	weeks	2.93	0.5809	0.15	-41.0	mM	4.96	mM	subgroup_rosu_521TT_ldl-c_concentration	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_rosu_521TC	9	ROSU10	concentration	ldl-c	NA	serum	17	weeks	3.1	0.57	0.19	-37.9	mM	4.99	mM	subgroup_rosu_521TC_ldl-c_concentration	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_rosu_521	30	ROSU10	concentration	ldl-c	NA	serum	17	weeks	3.08	0.8764	0.16	-38.0	mM	4.97	mM	subgroup_rosu_521_ldl-c_concentration	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_rosu_521CC	6	ROSU10	concentration change	ldl-c	NA	serum	0	weeks	0.0	NA	NA	NA	percent	4.95	mM	subgroup_rosu_521CC_ldl-c_concentration change	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_rosu_521TT	15	ROSU10	concentration change	ldl-c	NA	serum	0	weeks	0.0	NA	NA	NA	percent	4.96	mM	subgroup_rosu_521TT_ldl-c_concentration change	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_rosu_521TC	9	ROSU10	concentration change	ldl-c	NA	serum	0	weeks	0.0	NA	NA	NA	percent	4.99	mM	subgroup_rosu_521TC_ldl-c_concentration change	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_rosu_521	30	ROSU10	concentration change	ldl-c	NA	serum	0	weeks	0.0	NA	NA	NA	percent	4.97	mM	subgroup_rosu_521_ldl-c_concentration change	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_rosu_521CC	6	ROSU10	concentration change	ldl-c	NA	serum	17	weeks	-31.9	NA	NA	NA	percent	4.95	mM	subgroup_rosu_521CC_ldl-c_concentration change	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_rosu_521TT	15	ROSU10	concentration change	ldl-c	NA	serum	17	weeks	-41.0	NA	NA	NA	percent	4.96	mM	subgroup_rosu_521TT_ldl-c_concentration change	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_rosu_521TC	9	ROSU10	concentration change	ldl-c	NA	serum	17	weeks	-37.9	NA	NA	NA	percent	4.99	mM	subgroup_rosu_521TC_ldl-c_concentration change	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_rosu_521	30	ROSU10	concentration change	ldl-c	NA	serum	17	weeks	-38.0	NA	NA	NA	percent	4.97	mM	subgroup_rosu_521_ldl-c_concentration change	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_ato_521CC	6	ATO10	concentration	cholesterol	NA	serum	0	weeks	7.17	0.4164	0.17	0.0	mM	7.17	mM	subgroup_ato_521CC_cholesterol_concentration	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_ato_521TT	16	ATO10	concentration	cholesterol	NA	serum	0	weeks	7.19	0.56	0.14	0.0	mM	7.19	mM	subgroup_ato_521TT_cholesterol_concentration	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_ato_521TC	8	ATO10	concentration	cholesterol	NA	serum	0	weeks	7.19	0.4243	0.15	0.0	mM	7.19	mM	subgroup_ato_521TC_cholesterol_concentration	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_ato_521	30	ATO10	concentration	cholesterol	NA	serum	0	weeks	7.15	0.9859	0.18	0.0	mM	7.15	mM	subgroup_ato_521_cholesterol_concentration	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_ato_521CC	6	ATO10	concentration	cholesterol	NA	serum	17	weeks	5.74	0.5144	0.21	-19.7	mM	7.17	mM	subgroup_ato_521CC_cholesterol_concentration	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_ato_521TT	16	ATO10	concentration	cholesterol	NA	serum	17	weeks	5.21	0.76	0.19	-27.3	mM	7.19	mM	subgroup_ato_521TT_cholesterol_concentration	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_ato_521TC	8	ATO10	concentration	cholesterol	NA	serum	17	weeks	5.24	0.5091	0.18	-27.1	mM	7.19	mM	subgroup_ato_521TC_cholesterol_concentration	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_ato_521	30	ATO10	concentration	cholesterol	NA	serum	17	weeks	5.29	1.369	0.25	-26.2	mM	7.15	mM	subgroup_ato_521_cholesterol_concentration	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_ato_521CC	6	ATO10	concentration change	cholesterol	NA	serum	0	weeks	0.0	NA	NA	NA	percent	7.17	mM	subgroup_ato_521CC_cholesterol_concentration change	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_ato_521TT	16	ATO10	concentration change	cholesterol	NA	serum	0	weeks	0.0	NA	NA	NA	percent	7.19	mM	subgroup_ato_521TT_cholesterol_concentration change	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_ato_521TC	8	ATO10	concentration change	cholesterol	NA	serum	0	weeks	0.0	NA	NA	NA	percent	7.19	mM	subgroup_ato_521TC_cholesterol_concentration change	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_ato_521	30	ATO10	concentration change	cholesterol	NA	serum	0	weeks	0.0	NA	NA	NA	percent	7.15	mM	subgroup_ato_521_cholesterol_concentration change	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_ato_521CC	6	ATO10	concentration change	cholesterol	NA	serum	17	weeks	-19.7	NA	NA	NA	percent	7.17	mM	subgroup_ato_521CC_cholesterol_concentration change	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_ato_521TT	16	ATO10	concentration change	cholesterol	NA	serum	17	weeks	-27.3	NA	NA	NA	percent	7.19	mM	subgroup_ato_521TT_cholesterol_concentration change	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_ato_521TC	8	ATO10	concentration change	cholesterol	NA	serum	17	weeks	-27.1	NA	NA	NA	percent	7.19	mM	subgroup_ato_521TC_cholesterol_concentration change	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_ato_521	30	ATO10	concentration change	cholesterol	NA	serum	17	weeks	-26.2	NA	NA	NA	percent	7.15	mM	subgroup_ato_521_cholesterol_concentration change	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_ato_521CC	6	ATO10	concentration	ldl-c	NA	serum	0	weeks	5.12	0.6614	0.27	0.0	mM	5.12	mM	subgroup_ato_521CC_ldl-c_concentration	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_ato_521TT	16	ATO10	concentration	ldl-c	NA	serum	0	weeks	5.09	0.76	0.19	0.0	mM	5.09	mM	subgroup_ato_521TT_ldl-c_concentration	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_ato_521TC	8	ATO10	concentration	ldl-c	NA	serum	0	weeks	4.99	0.5657	0.2	0.0	mM	4.99	mM	subgroup_ato_521TC_ldl-c_concentration	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_ato_521	30	ATO10	concentration	ldl-c	NA	serum	0	weeks	5.06	1.424	0.26	0.0	mM	5.06	mM	subgroup_ato_521_ldl-c_concentration	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_ato_521CC	6	ATO10	concentration	ldl-c	NA	serum	17	weeks	3.61	0.6859	0.28	-29.5	mM	5.12	mM	subgroup_ato_521CC_ldl-c_concentration	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_ato_521TT	16	ATO10	concentration	ldl-c	NA	serum	17	weeks	3.1	0.88	0.22	-39.1	mM	5.09	mM	subgroup_ato_521TT_ldl-c_concentration	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_ato_521TC	8	ATO10	concentration	ldl-c	NA	serum	17	weeks	3.18	0.7637	0.27	-36.3	mM	4.99	mM	subgroup_ato_521TC_ldl-c_concentration	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_ato_521	30	ATO10	concentration	ldl-c	NA	serum	17	weeks	3.19	1.369	0.25	-36.9	mM	5.06	mM	subgroup_ato_521_ldl-c_concentration	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_ato_521CC	6	ATO10	concentration change	ldl-c	NA	serum	0	weeks	0.0	NA	NA	NA	percent	5.12	mM	subgroup_ato_521CC_ldl-c_concentration change	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_ato_521TT	16	ATO10	concentration change	ldl-c	NA	serum	0	weeks	0.0	NA	NA	NA	percent	5.09	mM	subgroup_ato_521TT_ldl-c_concentration change	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_ato_521TC	8	ATO10	concentration change	ldl-c	NA	serum	0	weeks	0.0	NA	NA	NA	percent	4.99	mM	subgroup_ato_521TC_ldl-c_concentration change	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_ato_521	30	ATO10	concentration change	ldl-c	NA	serum	0	weeks	0.0	NA	NA	NA	percent	5.06	mM	subgroup_ato_521_ldl-c_concentration change	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_ato_521CC	6	ATO10	concentration change	ldl-c	NA	serum	17	weeks	-29.5	NA	NA	NA	percent	5.12	mM	subgroup_ato_521CC_ldl-c_concentration change	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_ato_521TT	16	ATO10	concentration change	ldl-c	NA	serum	17	weeks	-39.1	NA	NA	NA	percent	5.09	mM	subgroup_ato_521TT_ldl-c_concentration change	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_ato_521TC	8	ATO10	concentration change	ldl-c	NA	serum	17	weeks	-36.3	NA	NA	NA	percent	4.99	mM	subgroup_ato_521TC_ldl-c_concentration change	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_ato_521	30	ATO10	concentration change	ldl-c	NA	serum	17	weeks	-36.9	NA	NA	NA	percent	5.06	mM	subgroup_ato_521_ldl-c_concentration change	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_sim_521CC	8	SIM10	concentration	cholesterol	NA	serum	0	weeks	7.16	0.594	0.21	0.0	mM	7.16	mM	subgroup_sim_521CC_cholesterol_concentration	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_sim_521TT	12	SIM10	concentration	cholesterol	NA	serum	0	weeks	7.12	0.6582	0.19	0.0	mM	7.12	mM	subgroup_sim_521TT_cholesterol_concentration	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_sim_521TC	10	SIM10	concentration	cholesterol	NA	serum	0	weeks	7.11	0.6325	0.2	0.0	mM	7.11	mM	subgroup_sim_521TC_cholesterol_concentration	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_sim_521	30	SIM10	concentration	cholesterol	NA	serum	0	weeks	7.13	0.9859	0.18	0.0	mM	7.13	mM	subgroup_sim_521_cholesterol_concentration	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_sim_521CC	8	SIM10	concentration	cholesterol	NA	serum	17	weeks	5.78	0.6223	0.22	-19.3	mM	7.16	mM	subgroup_sim_521CC_cholesterol_concentration	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_sim_521TT	12	SIM10	concentration	cholesterol	NA	serum	17	weeks	4.83	0.6235	0.18	-32.2	mM	7.12	mM	subgroup_sim_521TT_cholesterol_concentration	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_sim_521TC	10	SIM10	concentration	cholesterol	NA	serum	17	weeks	4.79	0.6641	0.21	-32.6	mM	7.11	mM	subgroup_sim_521TC_cholesterol_concentration	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_sim_521	30	SIM10	concentration	cholesterol	NA	serum	17	weeks	5.07	1.26	0.23	-28.9	mM	7.13	mM	subgroup_sim_521_cholesterol_concentration	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_sim_521CC	8	SIM10	concentration change	cholesterol	NA	serum	0	weeks	0.0	NA	NA	NA	percent	7.16	mM	subgroup_sim_521CC_cholesterol_concentration change	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_sim_521TT	12	SIM10	concentration change	cholesterol	NA	serum	0	weeks	0.0	NA	NA	NA	percent	7.12	mM	subgroup_sim_521TT_cholesterol_concentration change	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_sim_521TC	10	SIM10	concentration change	cholesterol	NA	serum	0	weeks	0.0	NA	NA	NA	percent	7.11	mM	subgroup_sim_521TC_cholesterol_concentration change	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_sim_521	30	SIM10	concentration change	cholesterol	NA	serum	0	weeks	0.0	NA	NA	NA	percent	7.13	mM	subgroup_sim_521_cholesterol_concentration change	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_sim_521CC	8	SIM10	concentration change	cholesterol	NA	serum	17	weeks	-19.3	NA	NA	NA	percent	7.16	mM	subgroup_sim_521CC_cholesterol_concentration change	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_sim_521TT	12	SIM10	concentration change	cholesterol	NA	serum	17	weeks	-32.2	NA	NA	NA	percent	7.12	mM	subgroup_sim_521TT_cholesterol_concentration change	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_sim_521TC	10	SIM10	concentration change	cholesterol	NA	serum	17	weeks	-32.6	NA	NA	NA	percent	7.11	mM	subgroup_sim_521TC_cholesterol_concentration change	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_sim_521	30	SIM10	concentration change	cholesterol	NA	serum	17	weeks	-28.9	NA	NA	NA	percent	7.13	mM	subgroup_sim_521_cholesterol_concentration change	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_sim_521CC	8	SIM10	concentration	ldl-c	NA	serum	0	weeks	5.13	0.5374	0.19	0.0	mM	5.13	mM	subgroup_sim_521CC_ldl-c_concentration	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_sim_521TT	12	SIM10	concentration	ldl-c	NA	serum	0	weeks	5.14	0.5889	0.17	0.0	mM	5.14	mM	subgroup_sim_521TT_ldl-c_concentration	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_sim_521TC	10	SIM10	concentration	ldl-c	NA	serum	0	weeks	5.09	0.6641	0.21	0.0	mM	5.09	mM	subgroup_sim_521TC_ldl-c_concentration	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_sim_521	30	SIM10	concentration	ldl-c	NA	serum	0	weeks	5.12	0.9859	0.18	0.0	mM	5.12	mM	subgroup_sim_521_ldl-c_concentration	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_sim_521CC	8	SIM10	concentration	ldl-c	NA	serum	17	weeks	3.67	0.4808	0.17	-28.5	mM	5.13	mM	subgroup_sim_521CC_ldl-c_concentration	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_sim_521TT	12	SIM10	concentration	ldl-c	NA	serum	17	weeks	3.08	0.6235	0.18	-40.1	mM	5.14	mM	subgroup_sim_521TT_ldl-c_concentration	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_sim_521TC	10	SIM10	concentration	ldl-c	NA	serum	17	weeks	3.07	0.506	0.16	-39.7	mM	5.09	mM	subgroup_sim_521TC_ldl-c_concentration	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_sim_521	30	SIM10	concentration	ldl-c	NA	serum	17	weeks	3.23	1.26	0.23	-36.9	mM	5.12	mM	subgroup_sim_521_ldl-c_concentration	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_sim_521CC	8	SIM10	concentration change	ldl-c	NA	serum	0	weeks	0.0	NA	NA	NA	percent	5.13	mM	subgroup_sim_521CC_ldl-c_concentration change	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_sim_521TT	12	SIM10	concentration change	ldl-c	NA	serum	0	weeks	0.0	NA	NA	NA	percent	5.14	mM	subgroup_sim_521TT_ldl-c_concentration change	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_sim_521TC	10	SIM10	concentration change	ldl-c	NA	serum	0	weeks	0.0	NA	NA	NA	percent	5.09	mM	subgroup_sim_521TC_ldl-c_concentration change	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_sim_521	30	SIM10	concentration change	ldl-c	NA	serum	0	weeks	0.0	NA	NA	NA	percent	5.12	mM	subgroup_sim_521_ldl-c_concentration change	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_sim_521CC	8	SIM10	concentration change	ldl-c	NA	serum	17	weeks	-28.5	NA	NA	NA	percent	5.13	mM	subgroup_sim_521CC_ldl-c_concentration change	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_sim_521TT	12	SIM10	concentration change	ldl-c	NA	serum	17	weeks	-40.1	NA	NA	NA	percent	5.14	mM	subgroup_sim_521TT_ldl-c_concentration change	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_sim_521TC	10	SIM10	concentration change	ldl-c	NA	serum	17	weeks	-39.7	NA	NA	NA	percent	5.09	mM	subgroup_sim_521TC_ldl-c_concentration change	4 months assumed to be 17 weeks
+Sivkov2021	subgroup_sim_521	30	SIM10	concentration change	ldl-c	NA	serum	17	weeks	-36.9	NA	NA	NA	percent	5.12	mM	subgroup_sim_521_ldl-c_concentration change	4 months assumed to be 17 weeks

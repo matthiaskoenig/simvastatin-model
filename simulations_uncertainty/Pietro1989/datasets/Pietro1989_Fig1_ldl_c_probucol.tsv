@@ -1,0 +1,6 @@
+study	group	count	intervention	measurement_type	substance	method	tissue	label	time	time_unit	mean	change	change_unit	baseline	baseline_unit	comment	mean_unit	count_unit
+Pietro1989	probucol	81	probucol	concentration	ldl-c	NR	plasma	ldl-c_probucol_concentration	0	weeks	6.490819756917507	0.0	percent	251	mg/dl		mole/meter^3	dimensionless
+Pietro1989	probucol	81	probucol	concentration	ldl-c	NR	plasma	ldl-c_probucol_concentration	2	weeks	6.058324623222134	-6.663182	percent	251	mg/dl		mole/meter^3	dimensionless
+Pietro1989	probucol	81	probucol	concentration	ldl-c	NR	plasma	ldl-c_probucol_concentration	6	weeks	5.8792001965347795	-9.42284	percent	251	mg/dl		mole/meter^3	dimensionless
+Pietro1989	probucol	81	probucol	concentration	ldl-c	NR	plasma	ldl-c_probucol_concentration	10	weeks	5.997049921644685	-7.607203	percent	251	mg/dl		mole/meter^3	dimensionless
+Pietro1989	probucol	81	probucol	concentration	ldl-c	NR	plasma	ldl-c_probucol_concentration	12	weeks	5.960495896560641	-8.170368	percent	251	mg/dl		mole/meter^3	dimensionless

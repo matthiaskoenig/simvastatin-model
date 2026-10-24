@@ -1,0 +1,15 @@
+study	group	count	intervention	measurement_type	substance	tissue	time	time_unit	mean	unit	change	sd	se
+Geiss2002	hetero_FH	9	SIM_FH	concentration change	ldl1	plasma	4	weeks	-0.44	dimensionless	-44	NA	NA
+Geiss2002	hetero_FH	9	SIM_FH	concentration change	ldl2	plasma	4	weeks	-0.32	dimensionless	-32	NA	NA
+Geiss2002	hetero_FH	9	SIM_FH	concentration change	ldl3	plasma	4	weeks	-0.4	dimensionless	-40	NA	NA
+Geiss2002	hetero_FH	9	SIM_FH	concentration change	ldl4	plasma	4	weeks	-0.35	dimensionless	-35	NA	NA
+Geiss2002	hetero_FH	9	SIM_FH	concentration change	ldl5	plasma	4	weeks	-0.24	dimensionless	-24	NA	NA
+Geiss2002	hetero_FH	9	SIM_FH	concentration change	ldl6	plasma	4	weeks	-0.25	dimensionless	-25	NA	NA
+Geiss2002	hetero_FH	9	SIM_FH	concentration change	ldl7	plasma	4	weeks	-0.08	dimensionless	-8	NA	NA
+Geiss2002	dia_mellitus_hyperlipoproteiemia	8	SIM_diabetics	concentration change	ldl1	plasma	4	weeks	-0.33	dimensionless	-33	NA	NA
+Geiss2002	dia_mellitus_hyperlipoproteiemia	8	SIM_diabetics	concentration change	ldl2	plasma	4	weeks	-0.28	dimensionless	-28	NA	NA
+Geiss2002	dia_mellitus_hyperlipoproteiemia	8	SIM_diabetics	concentration change	ldl3	plasma	4	weeks	-0.27	dimensionless	-27	NA	NA
+Geiss2002	dia_mellitus_hyperlipoproteiemia	8	SIM_diabetics	concentration change	ldl4	plasma	4	weeks	-0.28	dimensionless	-28	NA	NA
+Geiss2002	dia_mellitus_hyperlipoproteiemia	8	SIM_diabetics	concentration change	ldl5	plasma	4	weeks	-0.34	dimensionless	-34	NA	NA
+Geiss2002	dia_mellitus_hyperlipoproteiemia	8	SIM_diabetics	concentration change	ldl6	plasma	4	weeks	-0.26	dimensionless	-26	NA	NA
+Geiss2002	dia_mellitus_hyperlipoproteiemia	8	SIM_diabetics	concentration change	ldl7	plasma	4	weeks	-0.21	dimensionless	-21	NA	NA

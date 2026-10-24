@@ -1,0 +1,13 @@
+study	group	count	intervention	measurement_type	substance	method	tissue	label	time	time_unit	mean	mean_sd	mean_se	se_pm	mean_unit	count_unit
+Kim2007	CYP3A5*1/*1	4	SIM_20mg	concentration	simvastatin	HPLC MS/MS	plasma	CYP3A5*1/*1	0.0	hr	0.0				mole/meter^3	dimensionless
+Kim2007	CYP3A5*1/*1	4	SIM_20mg	concentration	simvastatin	HPLC MS/MS	plasma	CYP3A5*1/*1	0.33	hr	1.0780194218824653e-06				mole/meter^3	dimensionless
+Kim2007	CYP3A5*1/*1	4	SIM_20mg	concentration	simvastatin	HPLC MS/MS	plasma	CYP3A5*1/*1	0.67	hr	2.511001672240802e-06	2.4572503583373147e-06	1.2286251791686573e-06	1.5654078	mole/meter^3	dimensionless
+Kim2007	CYP3A5*1/*1	4	SIM_20mg	concentration	simvastatin	HPLC MS/MS	plasma	CYP3A5*1/*1	1.0	hr	3.493464166268514e-06	2.5937596751075008e-06	1.2968798375537504e-06	2.005238	mole/meter^3	dimensionless
+Kim2007	CYP3A5*1/*1	4	SIM_20mg	concentration	simvastatin	HPLC MS/MS	plasma	CYP3A5*1/*1	1.5	hr	3.2881985188724317e-06	1.3103831820353558e-06	6.551915910176779e-07	1.6507031	mole/meter^3	dimensionless
+Kim2007	CYP3A5*1/*1	4	SIM_20mg	concentration	simvastatin	HPLC MS/MS	plasma	CYP3A5*1/*1	2.0	hr	2.18185707118968e-06	9.556422838031534e-07	4.778211419015767e-07	1.1133413	mole/meter^3	dimensionless
+Kim2007	CYP3A5*1/*1	4	SIM_20mg	concentration	simvastatin	HPLC MS/MS	plasma	CYP3A5*1/*1	3.0	hr	1.252440396559962e-06	4.6413334925943617e-07	2.3206667462971809e-07	0.62141466	mole/meter^3	dimensionless
+Kim2007	CYP3A5*1/*1	4	SIM_20mg	concentration	simvastatin	HPLC MS/MS	plasma	CYP3A5*1/*1	4.0	hr	9.37299331103679e-07	3.5499966555183995e-07	1.7749983277591997e-07	0.46665493	mole/meter^3	dimensionless
+Kim2007	CYP3A5*1/*1	4	SIM_20mg	concentration	simvastatin	HPLC MS/MS	plasma	CYP3A5*1/*1	6.0	hr	6.347335164835164e-07	4.0960367892976585e-07	2.0480183946488292e-07	0.3514295	mole/meter^3	dimensionless
+Kim2007	CYP3A5*1/*1	4	SIM_20mg	concentration	simvastatin	HPLC MS/MS	plasma	CYP3A5*1/*1	8.0	hr	4.004040372670807e-07				mole/meter^3	dimensionless
+Kim2007	CYP3A5*1/*1	4	SIM_20mg	concentration	simvastatin	HPLC MS/MS	plasma	CYP3A5*1/*1	10.0	hr	3.571883182035356e-07				mole/meter^3	dimensionless
+Kim2007	CYP3A5*1/*1	4	SIM_20mg	concentration	simvastatin	HPLC MS/MS	plasma	CYP3A5*1/*1	12.0	hr	2.0472761586239845e-07				mole/meter^3	dimensionless

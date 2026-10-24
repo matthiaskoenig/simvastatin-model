@@ -1,0 +1,21 @@
+study	subject	intervention	measurement_type	substance	tissue	method	time	time_unit	value	unit	change_percent	auc_ref
+Kyrklund2000	P1	SIM,RIF	auc_inf	simvastatin	plasma	LC MS/MS	NA	NA	0.92130804	ng/ml*hr	5.32548	17.3
+Kyrklund2000	P1	SIM,RIF	auc_inf	simvastatin acid	plasma	LC MS/MS	NA	NA	2.14626195	ng/ml*hr	12.264354	17.5
+Kyrklund2000	P2	SIM,RIF	auc_inf	simvastatin	plasma	LC MS/MS	NA	NA	1.106165114	ng/ml*hr	6.394018	17.3
+Kyrklund2000	P2	SIM,RIF	auc_inf	simvastatin acid	plasma	LC MS/MS	NA	NA	0.433685875	ng/ml*hr	2.478205	17.5
+Kyrklund2000	P3	SIM,RIF	auc_inf	simvastatin	plasma	LC MS/MS	NA	NA	1.281317234	ng/ml*hr	7.406458	17.3
+Kyrklund2000	P3	SIM,RIF	auc_inf	simvastatin acid	plasma	LC MS/MS	NA	NA	0.6305225325	ng/ml*hr	3.6029859	17.5
+Kyrklund2000	P4	SIM,RIF	auc_inf	simvastatin	plasma	LC MS/MS	NA	NA	1.3494395478	ng/ml*hr	7.8002286	17.3
+Kyrklund2000	P4	SIM,RIF	auc_inf	simvastatin acid	plasma	LC MS/MS	NA	NA	0.9651915	ng/ml*hr	5.51538	17.5
+Kyrklund2000	P5	SIM,RIF	auc_inf	simvastatin	plasma	LC MS/MS	NA	NA	1.514811701	ng/ml*hr	8.756137	17.3
+Kyrklund2000	P5	SIM,RIF	auc_inf	simvastatin acid	plasma	LC MS/MS	NA	NA	3.2387754	ng/ml*hr	18.507288	17.5
+Kyrklund2000	P6	SIM,RIF	auc_inf	simvastatin	plasma	LC MS/MS	NA	NA	1.816503287	ng/ml*hr	10.500019	17.3
+Kyrklund2000	P6	SIM,RIF	auc_inf	simvastatin acid	plasma	LC MS/MS	NA	NA	1.6639812	ng/ml*hr	9.508464	17.5
+Kyrklund2000	P7	SIM,RIF	auc_inf	simvastatin	plasma	LC MS/MS	NA	NA	2.886751006	ng/ml*hr	16.686422	17.3
+Kyrklund2000	P7	SIM,RIF	auc_inf	simvastatin acid	plasma	LC MS/MS	NA	NA	1.0045487725	ng/ml*hr	5.7402787	17.5
+Kyrklund2000	P8	SIM,RIF	auc_inf	simvastatin	plasma	LC MS/MS	NA	NA	3.519212018	ng/ml*hr	20.342266	17.3
+Kyrklund2000	P8	SIM,RIF	auc_inf	simvastatin acid	plasma	LC MS/MS	NA	NA	1.0242840475	ng/ml*hr	5.8530517	17.5
+Kyrklund2000	P9	SIM,RIF	auc_inf	simvastatin	plasma	LC MS/MS	NA	NA	5.65980745	ng/ml*hr	32.71565	17.3
+Kyrklund2000	P9	SIM,RIF	auc_inf	simvastatin acid	plasma	LC MS/MS	NA	NA	1.683678675	ng/ml*hr	9.621021	17.5
+Kyrklund2000	P10	SIM,RIF	auc_inf	simvastatin	plasma	LC MS/MS	NA	NA	7.625275328	ng/ml*hr	44.076736	17.3
+Kyrklund2000	P10	SIM,RIF	auc_inf	simvastatin acid	plasma	LC MS/MS	NA	NA	1.0636035375	ng/ml*hr	6.0777345	17.5

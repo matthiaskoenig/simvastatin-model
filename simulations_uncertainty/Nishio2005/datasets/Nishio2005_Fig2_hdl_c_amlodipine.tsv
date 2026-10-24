@@ -1,0 +1,2 @@
+study	group	count	intervention	measurement_type	label	substance	method	tissue	time	time_unit	mean	mean_sd	mean_se	sdpm	mean_unit	count_unit
+Nishio2005	all	8	SIM, AML	concentration	SIM, AML_hdl-c	hdl-c	enzymatic assay	serum	21	weeks	1.4187965865011634	0.30271740367209715	0.10702676445986269	66.570946	mole/meter^3	dimensionless

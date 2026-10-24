@@ -1,0 +1,155 @@
+study	subject	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	unit
+Gehin2015	1	SIM	cmax	simvastatin	plasma	LC MS/MS	NA	NA	1.3961813	ng/ml
+Gehin2015	1	SIM,SET	cmax	simvastatin	plasma	LC MS/MS	NA	NA	3.2577565	ng/ml
+Gehin2015	2	SIM	cmax	simvastatin	plasma	LC MS/MS	NA	NA	2.25537	ng/ml
+Gehin2015	2	SIM,SET	cmax	simvastatin	plasma	LC MS/MS	NA	NA	3.6157517	ng/ml
+Gehin2015	3	SIM	cmax	simvastatin	plasma	LC MS/MS	NA	NA	3.078759	ng/ml
+Gehin2015	3	SIM,SET	cmax	simvastatin	plasma	LC MS/MS	NA	NA	6.587112	ng/ml
+Gehin2015	4	SIM	cmax	simvastatin	plasma	LC MS/MS	NA	NA	4.081146	ng/ml
+Gehin2015	4	SIM,SET	cmax	simvastatin	plasma	LC MS/MS	NA	NA	6.694511	ng/ml
+Gehin2015	5	SIM	cmax	simvastatin	plasma	LC MS/MS	NA	NA	4.725537	ng/ml
+Gehin2015	5	SIM,SET	cmax	simvastatin	plasma	LC MS/MS	NA	NA	7.2315035	ng/ml
+Gehin2015	6	SIM	cmax	simvastatin	plasma	LC MS/MS	NA	NA	5.334129	ng/ml
+Gehin2015	6	SIM,SET	cmax	simvastatin	plasma	LC MS/MS	NA	NA	4.7613363	ng/ml
+Gehin2015	7	SIM	cmax	simvastatin	plasma	LC MS/MS	NA	NA	6.157518	ng/ml
+Gehin2015	7	SIM,SET	cmax	simvastatin	plasma	LC MS/MS	NA	NA	2.8639617	ng/ml
+Gehin2015	8	SIM	cmax	simvastatin	plasma	LC MS/MS	NA	NA	6.1933174	ng/ml
+Gehin2015	8	SIM,SET	cmax	simvastatin	plasma	LC MS/MS	NA	NA	6.837709	ng/ml
+Gehin2015	9	SIM	cmax	simvastatin	plasma	LC MS/MS	NA	NA	6.300716	ng/ml
+Gehin2015	9	SIM,SET	cmax	simvastatin	plasma	LC MS/MS	NA	NA	9.558473	ng/ml
+Gehin2015	10	SIM	cmax	simvastatin	plasma	LC MS/MS	NA	NA	7.1599045	ng/ml
+Gehin2015	10	SIM,SET	cmax	simvastatin	plasma	LC MS/MS	NA	NA	10.059666	ng/ml
+Gehin2015	11	SIM	cmax	simvastatin	plasma	LC MS/MS	NA	NA	7.732697	ng/ml
+Gehin2015	11	SIM,SET	cmax	simvastatin	plasma	LC MS/MS	NA	NA	6.8735085	ng/ml
+Gehin2015	12	SIM	cmax	simvastatin	plasma	LC MS/MS	NA	NA	8.377089	ng/ml
+Gehin2015	12	SIM,SET	cmax	simvastatin	plasma	LC MS/MS	NA	NA	11.706444	ng/ml
+Gehin2015	13	SIM	cmax	simvastatin	plasma	LC MS/MS	NA	NA	8.914082	ng/ml
+Gehin2015	13	SIM,SET	cmax	simvastatin	plasma	LC MS/MS	NA	NA	12.386635	ng/ml
+Gehin2015	14	SIM	cmax	simvastatin	plasma	LC MS/MS	NA	NA	12.100239	ng/ml
+Gehin2015	14	SIM,SET	cmax	simvastatin	plasma	LC MS/MS	NA	NA	6.9451075	ng/ml
+Gehin2015	15	SIM	cmax	simvastatin	plasma	LC MS/MS	NA	NA	12.816229	ng/ml
+Gehin2015	15	SIM,SET	cmax	simvastatin	plasma	LC MS/MS	NA	NA	4.5465393	ng/ml
+Gehin2015	16	SIM	cmax	simvastatin	plasma	LC MS/MS	NA	NA	13.424821	ng/ml
+Gehin2015	16	SIM,SET	cmax	simvastatin	plasma	LC MS/MS	NA	NA	6.01432	ng/ml
+Gehin2015	17	SIM	cmax	simvastatin	plasma	LC MS/MS	NA	NA	17.25537	ng/ml
+Gehin2015	17	SIM,SET	cmax	simvastatin	plasma	LC MS/MS	NA	NA	11.921241	ng/ml
+Gehin2015	18	SIM	cmax	simvastatin	plasma	LC MS/MS	NA	NA	20.22673	ng/ml
+Gehin2015	18	SIM,SET	cmax	simvastatin	plasma	LC MS/MS	NA	NA	9.200478	ng/ml
+Gehin2015	19	SIM	cmax	simvastatin	plasma	LC MS/MS	NA	NA	20.548925	ng/ml
+Gehin2015	19	SIM,SET	cmax	simvastatin	plasma	LC MS/MS	NA	NA	21.551313	ng/ml
+Gehin2015	20	SIM	cmax	simvastatin	plasma	LC MS/MS	NA	NA	26.27685	ng/ml
+Gehin2015	20	SIM,SET	cmax	simvastatin	plasma	LC MS/MS	NA	NA	9.02148	ng/ml
+Gehin2015	1	SIM	auc_inf	simvastatin	plasma	LC MS/MS	NA	NA	7.988773	ng/ml*hr
+Gehin2015	1	SIM,SET	auc_inf	simvastatin	plasma	LC MS/MS	NA	NA	11.36598	ng/ml*hr
+Gehin2015	2	SIM	auc_inf	simvastatin	plasma	LC MS/MS	NA	NA	9.492368	ng/ml*hr
+Gehin2015	2	SIM,SET	auc_inf	simvastatin	plasma	LC MS/MS	NA	NA	7.2844877	ng/ml*hr
+Gehin2015	3	SIM	auc_inf	simvastatin	plasma	LC MS/MS	NA	NA	10.458354	ng/ml*hr
+Gehin2015	3	SIM,SET	auc_inf	simvastatin	plasma	LC MS/MS	NA	NA	9.110587	ng/ml*hr
+Gehin2015	4	SIM	auc_inf	simvastatin	plasma	LC MS/MS	NA	NA	17.976635	ng/ml*hr
+Gehin2015	4	SIM,SET	auc_inf	simvastatin	plasma	LC MS/MS	NA	NA	19.95826	ng/ml*hr
+Gehin2015	5	SIM	auc_inf	simvastatin	plasma	LC MS/MS	NA	NA	20.55545	ng/ml*hr
+Gehin2015	5	SIM,SET	auc_inf	simvastatin	plasma	LC MS/MS	NA	NA	15.983555	ng/ml*hr
+Gehin2015	6	SIM	auc_inf	simvastatin	plasma	LC MS/MS	NA	NA	23.991322	ng/ml*hr
+Gehin2015	6	SIM,SET	auc_inf	simvastatin	plasma	LC MS/MS	NA	NA	24.03914	ng/ml*hr
+Gehin2015	7	SIM	auc_inf	simvastatin	plasma	LC MS/MS	NA	NA	24.528625	ng/ml*hr
+Gehin2015	7	SIM,SET	auc_inf	simvastatin	plasma	LC MS/MS	NA	NA	28.87243	ng/ml*hr
+Gehin2015	8	SIM	auc_inf	simvastatin	plasma	LC MS/MS	NA	NA	25.066236	ng/ml*hr
+Gehin2015	8	SIM,SET	auc_inf	simvastatin	plasma	LC MS/MS	NA	NA	30.697615	ng/ml*hr
+Gehin2015	9	SIM	auc_inf	simvastatin	plasma	LC MS/MS	NA	NA	27.213617	ng/ml*hr
+Gehin2015	9	SIM,SET	auc_inf	simvastatin	plasma	LC MS/MS	NA	NA	28.765642	ng/ml*hr
+Gehin2015	10	SIM	auc_inf	simvastatin	plasma	LC MS/MS	NA	NA	28.608591	ng/ml*hr
+Gehin2015	10	SIM,SET	auc_inf	simvastatin	plasma	LC MS/MS	NA	NA	45.304886	ng/ml*hr
+Gehin2015	11	SIM	auc_inf	simvastatin	plasma	LC MS/MS	NA	NA	32.04538	ng/ml*hr
+Gehin2015	11	SIM,SET	auc_inf	simvastatin	plasma	LC MS/MS	NA	NA	27.261436	ng/ml*hr
+Gehin2015	12	SIM	auc_inf	simvastatin	plasma	LC MS/MS	NA	NA	34.087196	ng/ml*hr
+Gehin2015	12	SIM,SET	auc_inf	simvastatin	plasma	LC MS/MS	NA	NA	18.239254	ng/ml*hr
+Gehin2015	13	SIM	auc_inf	simvastatin	plasma	LC MS/MS	NA	NA	36.12779	ng/ml*hr
+Gehin2015	13	SIM,SET	auc_inf	simvastatin	plasma	LC MS/MS	NA	NA	28.65763	ng/ml*hr
+Gehin2015	14	SIM	auc_inf	simvastatin	plasma	LC MS/MS	NA	NA	39.242992	ng/ml*hr
+Gehin2015	14	SIM,SET	auc_inf	simvastatin	plasma	LC MS/MS	NA	NA	28.872736	ng/ml*hr
+Gehin2015	15	SIM	auc_inf	simvastatin	plasma	LC MS/MS	NA	NA	41.175575	ng/ml*hr
+Gehin2015	15	SIM,SET	auc_inf	simvastatin	plasma	LC MS/MS	NA	NA	39.719185	ng/ml*hr
+Gehin2015	16	SIM	auc_inf	simvastatin	plasma	LC MS/MS	NA	NA	47.619247	ng/ml*hr
+Gehin2015	16	SIM,SET	auc_inf	simvastatin	plasma	LC MS/MS	NA	NA	54.11074	ng/ml*hr
+Gehin2015	17	SIM	auc_inf	simvastatin	plasma	LC MS/MS	NA	NA	51.593647	ng/ml*hr
+Gehin2015	17	SIM,SET	auc_inf	simvastatin	plasma	LC MS/MS	NA	NA	58.192234	ng/ml*hr
+Gehin2015	18	SIM	auc_inf	simvastatin	plasma	LC MS/MS	NA	NA	67.0595	ng/ml*hr
+Gehin2015	18	SIM,SET	auc_inf	simvastatin	plasma	LC MS/MS	NA	NA	30.697615	ng/ml*hr
+Gehin2015	19	SIM	auc_inf	simvastatin	plasma	LC MS/MS	NA	NA	88.43143	ng/ml*hr
+Gehin2015	19	SIM,SET	auc_inf	simvastatin	plasma	LC MS/MS	NA	NA	26.939238	ng/ml*hr
+Gehin2015	20	SIM	auc_inf	simvastatin	plasma	LC MS/MS	NA	NA	92.4046	ng/ml*hr
+Gehin2015	20	SIM,SET	auc_inf	simvastatin	plasma	LC MS/MS	NA	NA	48.312077	ng/ml*hr
+Gehin2015	21	SIM	auc_inf	simvastatin	plasma	LC MS/MS	NA	NA	118.072815	ng/ml*hr
+Gehin2015	21	SIM,SET	auc_inf	simvastatin	plasma	LC MS/MS	NA	NA	48.097885	ng/ml*hr
+Gehin2015	1	SIM	cmax	simvastatin acid	plasma	LC MS/MS	NA	NA	0.67685825	ng/ml
+Gehin2015	1	SIM,SET	cmax	simvastatin acid	plasma	LC MS/MS	NA	NA	0.6947862	ng/ml
+Gehin2015	2	SIM	cmax	simvastatin acid	plasma	LC MS/MS	NA	NA	0.4276664	ng/ml
+Gehin2015	2	SIM,SET	cmax	simvastatin acid	plasma	LC MS/MS	NA	NA	1.1218605	ng/ml
+Gehin2015	3	SIM	cmax	simvastatin acid	plasma	LC MS/MS	NA	NA	0.48088196	ng/ml
+Gehin2015	3	SIM,SET	cmax	simvastatin acid	plasma	LC MS/MS	NA	NA	5.378631	ng/ml
+Gehin2015	4	SIM	cmax	simvastatin acid	plasma	LC MS/MS	NA	NA	0.7837156	ng/ml
+Gehin2015	4	SIM,SET	cmax	simvastatin acid	plasma	LC MS/MS	NA	NA	5.895037	ng/ml
+Gehin2015	5	SIM	cmax	simvastatin acid	plasma	LC MS/MS	NA	NA	1.175455	ng/ml
+Gehin2015	5	SIM,SET	cmax	simvastatin acid	plasma	LC MS/MS	NA	NA	1.7808855	ng/ml
+Gehin2015	6	SIM	cmax	simvastatin acid	plasma	LC MS/MS	NA	NA	1.300051	ng/ml
+Gehin2015	6	SIM,SET	cmax	simvastatin acid	plasma	LC MS/MS	NA	NA	1.5316226	ng/ml
+Gehin2015	7	SIM	cmax	simvastatin acid	plasma	LC MS/MS	NA	NA	1.1399069	ng/ml
+Gehin2015	7	SIM,SET	cmax	simvastatin acid	plasma	LC MS/MS	NA	NA	3.2236733	ng/ml
+Gehin2015	8	SIM	cmax	simvastatin acid	plasma	LC MS/MS	NA	NA	0.9620244	ng/ml
+Gehin2015	8	SIM,SET	cmax	simvastatin acid	plasma	LC MS/MS	NA	NA	4.131606	ng/ml
+Gehin2015	9	SIM	cmax	simvastatin acid	plasma	LC MS/MS	NA	NA	1.6741228	ng/ml
+Gehin2015	9	SIM,SET	cmax	simvastatin acid	plasma	LC MS/MS	NA	NA	7.0882783	ng/ml
+Gehin2015	10	SIM	cmax	simvastatin acid	plasma	LC MS/MS	NA	NA	2.243958	ng/ml
+Gehin2015	10	SIM,SET	cmax	simvastatin acid	plasma	LC MS/MS	NA	NA	3.8469372	ng/ml
+Gehin2015	11	SIM	cmax	simvastatin acid	plasma	LC MS/MS	NA	NA	2.2260063	ng/ml
+Gehin2015	11	SIM,SET	cmax	simvastatin acid	plasma	LC MS/MS	NA	NA	5.3963695	ng/ml
+Gehin2015	12	SIM	cmax	simvastatin acid	plasma	LC MS/MS	NA	NA	2.4578857	ng/ml
+Gehin2015	12	SIM,SET	cmax	simvastatin acid	plasma	LC MS/MS	NA	NA	5.9308696	ng/ml
+Gehin2015	13	SIM	cmax	simvastatin acid	plasma	LC MS/MS	NA	NA	2.778387	ng/ml
+Gehin2015	13	SIM,SET	cmax	simvastatin acid	plasma	LC MS/MS	NA	NA	2.3331952	ng/ml
+Gehin2015	14	SIM	cmax	simvastatin acid	plasma	LC MS/MS	NA	NA	2.4400764	ng/ml
+Gehin2015	14	SIM,SET	cmax	simvastatin acid	plasma	LC MS/MS	NA	NA	7.213087	ng/ml
+Gehin2015	15	SIM	cmax	simvastatin acid	plasma	LC MS/MS	NA	NA	2.3512416	ng/ml
+Gehin2015	15	SIM,SET	cmax	simvastatin acid	plasma	LC MS/MS	NA	NA	7.658326	ng/ml
+Gehin2015	16	SIM	cmax	simvastatin acid	plasma	LC MS/MS	NA	NA	2.4758375	ng/ml
+Gehin2015	16	SIM,SET	cmax	simvastatin acid	plasma	LC MS/MS	NA	NA	8.424209	ng/ml
+Gehin2015	17	SIM	cmax	simvastatin acid	plasma	LC MS/MS	NA	NA	2.5472178	ng/ml
+Gehin2015	17	SIM,SET	cmax	simvastatin acid	plasma	LC MS/MS	NA	NA	16.099989	ng/ml
+Gehin2015	18	SIM	cmax	simvastatin acid	plasma	LC MS/MS	NA	NA	3.7222228	ng/ml
+Gehin2015	18	SIM,SET	cmax	simvastatin acid	plasma	LC MS/MS	NA	NA	10.026714	ng/ml
+Gehin2015	19	SIM	cmax	simvastatin acid	plasma	LC MS/MS	NA	NA	5.11144	ng/ml
+Gehin2015	19	SIM,SET	cmax	simvastatin acid	plasma	LC MS/MS	NA	NA	14.817558	ng/ml
+Gehin2015	1	SIM	auc_inf	simvastatin acid	plasma	LC MS/MS	NA	NA	4.8652954	ng/ml*hr
+Gehin2015	1	SIM,SET	auc_inf	simvastatin acid	plasma	LC MS/MS	NA	NA	3.4365494	ng/ml*hr
+Gehin2015	2	SIM	auc_inf	simvastatin acid	plasma	LC MS/MS	NA	NA	6.09447	ng/ml*hr
+Gehin2015	2	SIM,SET	auc_inf	simvastatin acid	plasma	LC MS/MS	NA	NA	13.367551	ng/ml*hr
+Gehin2015	3	SIM	auc_inf	simvastatin acid	plasma	LC MS/MS	NA	NA	7.891616	ng/ml*hr
+Gehin2015	3	SIM,SET	auc_inf	simvastatin acid	plasma	LC MS/MS	NA	NA	13.556371	ng/ml*hr
+Gehin2015	4	SIM	auc_inf	simvastatin acid	plasma	LC MS/MS	NA	NA	10.256564	ng/ml*hr
+Gehin2015	4	SIM,SET	auc_inf	simvastatin acid	plasma	LC MS/MS	NA	NA	11.191926	ng/ml*hr
+Gehin2015	5	SIM	auc_inf	simvastatin acid	plasma	LC MS/MS	NA	NA	10.6347065	ng/ml*hr
+Gehin2015	5	SIM,SET	auc_inf	simvastatin acid	plasma	LC MS/MS	NA	NA	13.461624	ng/ml*hr
+Gehin2015	6	SIM	auc_inf	simvastatin acid	plasma	LC MS/MS	NA	NA	14.701887	ng/ml*hr
+Gehin2015	6	SIM,SET	auc_inf	simvastatin acid	plasma	LC MS/MS	NA	NA	8.260351	ng/ml*hr
+Gehin2015	7	SIM	auc_inf	simvastatin acid	plasma	LC MS/MS	NA	NA	17.255655	ng/ml*hr
+Gehin2015	7	SIM,SET	auc_inf	simvastatin acid	plasma	LC MS/MS	NA	NA	20.649534	ng/ml*hr
+Gehin2015	8	SIM	auc_inf	simvastatin acid	plasma	LC MS/MS	NA	NA	19.241116	ng/ml*hr
+Gehin2015	8	SIM,SET	auc_inf	simvastatin acid	plasma	LC MS/MS	NA	NA	8.63883	ng/ml*hr
+Gehin2015	9	SIM	auc_inf	simvastatin acid	plasma	LC MS/MS	NA	NA	18.95755	ng/ml*hr
+Gehin2015	9	SIM,SET	auc_inf	simvastatin acid	plasma	LC MS/MS	NA	NA	15.731323	ng/ml*hr
+Gehin2015	10	SIM	auc_inf	simvastatin acid	plasma	LC MS/MS	NA	NA	20.848938	ng/ml*hr
+Gehin2015	10	SIM,SET	auc_inf	simvastatin acid	plasma	LC MS/MS	NA	NA	16.110306	ng/ml*hr
+Gehin2015	11	SIM	auc_inf	simvastatin acid	plasma	LC MS/MS	NA	NA	18.390587	ng/ml*hr
+Gehin2015	11	SIM,SET	auc_inf	simvastatin acid	plasma	LC MS/MS	NA	NA	28.594234	ng/ml*hr
+Gehin2015	12	SIM	auc_inf	simvastatin acid	plasma	LC MS/MS	NA	NA	24.443228	ng/ml*hr
+Gehin2015	12	SIM,SET	auc_inf	simvastatin acid	plasma	LC MS/MS	NA	NA	32.8499	ng/ml*hr
+Gehin2015	13	SIM	auc_inf	simvastatin acid	plasma	LC MS/MS	NA	NA	25.483248	ng/ml*hr
+Gehin2015	13	SIM,SET	auc_inf	simvastatin acid	plasma	LC MS/MS	NA	NA	44.199734	ng/ml*hr
+Gehin2015	14	SIM	auc_inf	simvastatin acid	plasma	LC MS/MS	NA	NA	28.131762	ng/ml*hr
+Gehin2015	14	SIM,SET	auc_inf	simvastatin acid	plasma	LC MS/MS	NA	NA	38.14642	ng/ml*hr
+Gehin2015	15	SIM	auc_inf	simvastatin acid	plasma	LC MS/MS	NA	NA	34.09033	ng/ml*hr
+Gehin2015	15	SIM,SET	auc_inf	simvastatin acid	plasma	LC MS/MS	NA	NA	14.785881	ng/ml*hr
+Gehin2015	16	SIM	auc_inf	simvastatin acid	plasma	LC MS/MS	NA	NA	48.465645	ng/ml*hr
+Gehin2015	16	SIM,SET	auc_inf	simvastatin acid	plasma	LC MS/MS	NA	NA	31.620556	ng/ml*hr
+Gehin2015	17	SIM	auc_inf	simvastatin acid	plasma	LC MS/MS	NA	NA	77.690346	ng/ml*hr
+Gehin2015	17	SIM,SET	auc_inf	simvastatin acid	plasma	LC MS/MS	NA	NA	46.563843	ng/ml*hr

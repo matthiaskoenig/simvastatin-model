@@ -1,0 +1,21 @@
+study	group	count	intervention	measurement_type	substance	method	label	tissue	time	time_unit	mean	sd	se	unit	sdpm
+Watanabe2004	all	11	DIL, SIM	blood pressure systolic	na	NR	DIL, SIM_blood pressure systolic	na	0	hr	137.86034	17.8373	5.37814830663695	mmHg	120.02304
+Watanabe2004	all	11	DIL, SIM	blood pressure systolic	na	NR	DIL, SIM_blood pressure systolic	na	2	hr	129.3329	3.60294000000002	1.08632728383301	mmHg	132.93584
+Watanabe2004	all	11	DIL, SIM	blood pressure systolic	na	NR	DIL, SIM_blood pressure systolic	na	3	hr	123.80686	7.38536999999999	2.22677283890428	mmHg	131.19223
+Watanabe2004	all	11	DIL, SIM	blood pressure systolic	na	NR	DIL, SIM_blood pressure systolic	na	4	hr	126.92955	12.97308	3.91153079411489	mmHg	139.90263
+Watanabe2004	all	11	DIL, SIM	blood pressure systolic	na	NR	DIL, SIM_blood pressure systolic	na	6	hr	124.52759	16.214976	4.88899921605617	mmHg	108.312614
+Watanabe2004	all	11	DIL	blood pressure systolic	na	NR	DIL_blood pressure systolic	na	0	hr	145.9706	25.58511	7.71420091726999	mmHg	171.55571
+Watanabe2004	all	11	DIL	blood pressure systolic	na	NR	DIL_blood pressure systolic	na	2	hr	123.927444	13.154654	3.96627741499525	mmHg	110.77279
+Watanabe2004	all	11	DIL	blood pressure systolic	na	NR	DIL_blood pressure systolic	na	3	hr	123.086136	13.874001	4.18316869618324	mmHg	109.212135
+Watanabe2004	all	11	DIL	blood pressure systolic	na	NR	DIL_blood pressure systolic	na	4	hr	124.94824	15.49632	4.67231627920729	mmHg	109.45192
+Watanabe2004	all	11	DIL	blood pressure systolic	na	NR	DIL_blood pressure systolic	na	6	hr	128.3114	15.31683	4.61819800796903	mmHg	143.62823
+Watanabe2004	all	11	DIL, SIM	blood pressure diastolic	na	NR	DIL, SIM_blood pressure diastolic	na	0	hr	83.00048	13.01247	3.92340732597781	mmHg	69.98801
+Watanabe2004	all	11	DIL, SIM	blood pressure diastolic	na	NR	DIL, SIM_blood pressure diastolic	na	2	hr	75.891426	4.88024400000001	1.47144893030757	mmHg	80.77167
+Watanabe2004	all	11	DIL, SIM	blood pressure diastolic	na	NR	DIL, SIM_blood pressure diastolic	na	3	hr	72.78923	7.95220000000001	2.39767851435129	mmHg	64.83703
+Watanabe2004	all	11	DIL, SIM	blood pressure diastolic	na	NR	DIL, SIM_blood pressure diastolic	na	4	hr	73.12183	11.025547	3.32432750067533	mmHg	62.096283
+Watanabe2004	all	11	DIL, SIM	blood pressure diastolic	na	NR	DIL, SIM_blood pressure diastolic	na	6	hr	72.87959	10.12019	3.05135209428244	mmHg	62.7594
+Watanabe2004	all	11	DIL	blood pressure diastolic	na	NR	DIL_blood pressure diastolic	na	0	hr	83.72337	11.565296	3.48706794739983	mmHg	95.288666
+Watanabe2004	all	11	DIL	blood pressure diastolic	na	NR	DIL_blood pressure diastolic	na	2	hr	74.98815	10.84378	3.26952268810546	mmHg	64.14437
+Watanabe2004	all	11	DIL	blood pressure diastolic	na	NR	DIL_blood pressure diastolic	na	3	hr	74.95757	5.24204	1.58053452873042	mmHg	80.19961
+Watanabe2004	all	11	DIL	blood pressure diastolic	na	NR	DIL_blood pressure diastolic	na	4	hr	78.000336	8.13327	2.45227317351399	mmHg	86.133606
+Watanabe2004	all	11	DIL	blood pressure diastolic	na	NR	DIL_blood pressure diastolic	na	6	hr	75.04863	7.048576	2.12522562711855	mmHg	82.097206

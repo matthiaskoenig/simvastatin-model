@@ -1,0 +1,5 @@
+id	experiment	mapping	cost	type
+Kyrklund2000_fm_simva	Kyrklund2000	fm_simva	590.7526365289367	initial
+Kyrklund2000_fm_simva	Kyrklund2000	fm_simva	0.06332675674270308	fit
+Kyrklund2000_fm_simacid	Kyrklund2000	fm_simacid	32.05866594713443	initial
+Kyrklund2000_fm_simacid	Kyrklund2000	fm_simacid	0.046784665609874564	fit

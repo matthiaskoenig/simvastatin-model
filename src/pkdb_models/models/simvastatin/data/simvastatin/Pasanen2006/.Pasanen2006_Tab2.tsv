@@ -1,0 +1,31 @@
+study	group	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	sd	unit
+Pasanen2006	c521TT	SIM	cmax	simvastatin	plasma	LC MS/MS	NA	NA	8.9	4.7	ng/ml
+Pasanen2006	c521TC	SIM	cmax	simvastatin	plasma	LC MS/MS	NA	NA	10.2	4.9	ng/ml
+Pasanen2006	c521CC	SIM	cmax	simvastatin	plasma	LC MS/MS	NA	NA	13.0	3.7	ng/ml
+Pasanen2006	c521TT	SIM	cmax	simvastatin acid	plasma	LC MS/MS	NA	NA	2.2	0.9	ng/ml
+Pasanen2006	c521TC	SIM	cmax	simvastatin acid	plasma	LC MS/MS	NA	NA	3.0	1.2	ng/ml
+Pasanen2006	c521CC	SIM	cmax	simvastatin acid	plasma	LC MS/MS	NA	NA	6.6	1.1	ng/ml
+Pasanen2006	c521TT	SIM	tmax	simvastatin	plasma	LC MS/MS	NA	NA	1.5	na	hr
+Pasanen2006	c521TC	SIM	tmax	simvastatin	plasma	LC MS/MS	NA	NA	1.0	na	hr
+Pasanen2006	c521CC	SIM	tmax	simvastatin	plasma	LC MS/MS	NA	NA	1.3	na	hr
+Pasanen2006	c521TT	SIM	tmax	simvastatin acid	plasma	LC MS/MS	NA	NA	5.0	na	hr
+Pasanen2006	c521TC	SIM	tmax	simvastatin acid	plasma	LC MS/MS	NA	NA	4.0	na	hr
+Pasanen2006	c521CC	SIM	tmax	simvastatin acid	plasma	LC MS/MS	NA	NA	3.0	na	hr
+Pasanen2006	c521TT	SIM	thalf	simvastatin	plasma	LC MS/MS	NA	NA	2.7	0.7	hr
+Pasanen2006	c521TC	SIM	thalf	simvastatin	plasma	LC MS/MS	NA	NA	3.2	0.9	hr
+Pasanen2006	c521CC	SIM	thalf	simvastatin	plasma	LC MS/MS	NA	NA	3.7	0.2	hr
+Pasanen2006	c521TT	SIM	thalf	simvastatin acid	plasma	LC MS/MS	NA	NA	3.3	1	hr
+Pasanen2006	c521TC	SIM	thalf	simvastatin acid	plasma	LC MS/MS	NA	NA	3.2	1.1	hr
+Pasanen2006	c521CC	SIM	thalf	simvastatin acid	plasma	LC MS/MS	NA	NA	3.4	0.4	hr
+Pasanen2006	c521TT	SIM	auc_end	simvastatin	plasma	LC MS/MS	12.0	hr	24.7	9.6	ng/ml*hr
+Pasanen2006	c521TC	SIM	auc_end	simvastatin	plasma	LC MS/MS	12.0	hr	28.8	14.4	ng/ml*hr
+Pasanen2006	c521CC	SIM	auc_end	simvastatin	plasma	LC MS/MS	12.0	hr	34.5	13.5	ng/ml*hr
+Pasanen2006	c521TT	SIM	auc_end	simvastatin acid	plasma	LC MS/MS	12.0	hr	13.9	5.3	ng/ml*hr
+Pasanen2006	c521TC	SIM	auc_end	simvastatin acid	plasma	LC MS/MS	12.0	hr	17.4	8	ng/ml*hr
+Pasanen2006	c521CC	SIM	auc_end	simvastatin acid	plasma	LC MS/MS	12.0	hr	44.5	7.4	ng/ml*hr
+Pasanen2006	c521TT	SIM	auc_inf	simvastatin	plasma	LC MS/MS	NA	NA	26.4	10.5	ng/ml*hr
+Pasanen2006	c521TC	SIM	auc_inf	simvastatin	plasma	LC MS/MS	NA	NA	31.9	17.6	ng/ml*hr
+Pasanen2006	c521CC	SIM	auc_inf	simvastatin	plasma	LC MS/MS	NA	NA	37.9	14.7	ng/ml*hr
+Pasanen2006	c521TT	SIM	auc_inf	simvastatin acid	plasma	LC MS/MS	NA	NA	16.4	6.4	ng/ml*hr
+Pasanen2006	c521TC	SIM	auc_inf	simvastatin acid	plasma	LC MS/MS	NA	NA	20.1	10.3	ng/ml*hr
+Pasanen2006	c521CC	SIM	auc_inf	simvastatin acid	plasma	LC MS/MS	NA	NA	52.7	12.5	ng/ml*hr

@@ -1,0 +1,13 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	mean_sd	pm	mean_se	mean_unit	count_unit
+Hsyu2001	group_sim	16	group_sim_SIM+NEL	SIM,NEL	concentration	active simva inhibitors	plasma	enzymatic assay	0	hr	5.532409299129638e-06				mole/meter^3	dimensionless
+Hsyu2001	group_sim	16	group_sim_SIM+NEL	SIM,NEL	concentration	active simva inhibitors	plasma	enzymatic assay	1	hr	2.281762253779203e-05	2.3543715071003208e-05	20.24136	5.885928767750802e-06	mole/meter^3	dimensionless
+Hsyu2001	group_sim	16	group_sim_SIM+NEL	SIM,NEL	concentration	active simva inhibitors	plasma	enzymatic assay	2	hr	6.411717132386624e-05	6.521571003206596e-05	56.466736	1.630392750801649e-05	mole/meter^3	dimensionless
+Hsyu2001	group_sim	16	group_sim_SIM+NEL	SIM,NEL	concentration	active simva inhibitors	plasma	enzymatic assay	3	hr	7.445762711864408e-05	5.391446633073751e-05	56.047256	1.3478616582684378e-05	mole/meter^3	dimensionless
+Hsyu2001	group_sim	16	group_sim_SIM+NEL	SIM,NEL	concentration	active simva inhibitors	plasma	enzymatic assay	4	hr	8.868296610169492e-05	4.7321866697205686e-05	59.37971	1.1830466674301421e-05	mole/meter^3	dimensionless
+Hsyu2001	group_sim	16	group_sim_SIM+NEL	SIM,NEL	concentration	active simva inhibitors	plasma	enzymatic assay	5	hr	0.00010161268437929456	5.132446633073752e-05	66.77236	1.283111658268438e-05	mole/meter^3	dimensionless
+Hsyu2001	group_sim	16	group_sim_SIM+NEL	SIM,NEL	concentration	active simva inhibitors	plasma	enzymatic assay	6	hr	7.275293861658269e-05	4.661632386623913e-05	52.11662	1.1654080966559782e-05	mole/meter^3	dimensionless
+Hsyu2001	group_sim	16	group_sim_SIM+NEL	SIM,NEL	concentration	active simva inhibitors	plasma	enzymatic assay	8	hr	2.810117727897389e-05	1.624506642235456e-05	19.36157	4.06126660558864e-06	mole/meter^3	dimensionless
+Hsyu2001	group_sim	16	group_sim_SIM+NEL	SIM,NEL	concentration	active simva inhibitors	plasma	enzymatic assay	10	hr	1.817516811726981e-05	1.1418462207970683e-05	12.920579	2.854615551992671e-06	mole/meter^3	dimensionless
+Hsyu2001	group_sim	16	group_sim_SIM+NEL	SIM,NEL	concentration	active simva inhibitors	plasma	enzymatic assay	12	hr	1.2604900824553369e-05	7.651549015116813e-06	8.843966	1.912887253779203e-06	mole/meter^3	dimensionless
+Hsyu2001	group_sim	16	group_sim_SIM+NEL	SIM,NEL	concentration	active simva inhibitors	plasma	enzymatic assay	18	hr	7.547006413192854e-06	6.827780577187356e-06	6.276032	1.706945144296839e-06	mole/meter^3	dimensionless
+Hsyu2001	group_sim	16	group_sim_SIM+NEL	SIM,NEL	concentration	active simva inhibitors	plasma	enzymatic assay	24	hr	3.314360971140632e-06	2.4720377920293176e-06	2.5263417	6.180094480073294e-07	mole/meter^3	dimensionless

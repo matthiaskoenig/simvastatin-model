@@ -1,0 +1,12 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	mean_se	pm	mean_sd	mean_unit	count_unit
+Ucar2004	all	12	SIM_simvastatin	SIM	concentration	simvastatin	serum	LC MS/MS	0.0	hr	5.997277353081701e-08				mole/meter^3	dimensionless
+Ucar2004	all	12	SIM_simvastatin	SIM	concentration	simvastatin	serum	LC MS/MS	0.5	hr	1.7572022216913517e-05	4.31803989488772e-06	9.16318	1.4958128974109819e-05	mole/meter^3	dimensionless
+Ucar2004	all	12	SIM_simvastatin	SIM	concentration	simvastatin	serum	LC MS/MS	1.0	hr	2.5668346870520783e-05	4.378012422360248e-06	12.577406	1.516587990339128e-05	mole/meter^3	dimensionless
+Ucar2004	all	12	SIM_simvastatin	SIM	concentration	simvastatin	serum	LC MS/MS	1.5	hr	2.4169027711419014e-05	4.437984949832776e-06	11.9748955	1.5373630832672764e-05	mole/meter^3	dimensionless
+Ucar2004	all	12	SIM_simvastatin	SIM	concentration	simvastatin	serum	LC MS/MS	2.0	hr	2.123036311514572e-05	3.058609651218347e-06	10.167364	1.0595334632861393e-05	mole/meter^3	dimensionless
+Ucar2004	all	12	SIM_simvastatin	SIM	concentration	simvastatin	serum	LC MS/MS	3.0	hr	2.9506602962255132e-05	1.211450071667463e-05	17.422594	4.196586149922002e-05	mole/meter^3	dimensionless
+Ucar2004	all	12	SIM_simvastatin	SIM	concentration	simvastatin	serum	LC MS/MS	4.0	hr	1.8591559961777354e-05	5.817357859531772e-06	10.217573	2.0151918757038314e-05	mole/meter^3	dimensionless
+Ucar2004	all	12	SIM_simvastatin	SIM	concentration	simvastatin	serum	LC MS/MS	6.0	hr	1.0135398232202579e-05	2.0390745341614905e-06	5.0962343	7.063561387175084e-06	mole/meter^3	dimensionless
+Ucar2004	all	12	SIM_simvastatin	SIM	concentration	simvastatin	serum	LC MS/MS	9.0	hr	5.997276875298614e-06	1.2594288103201146e-06	3.037657	4.362789375980936e-06	mole/meter^3	dimensionless
+Ucar2004	all	12	SIM_simvastatin	SIM	concentration	simvastatin	serum	LC MS/MS	12.0	hr	4.49795795508839e-06	1.0795097945532726e-06	2.334728	3.7395316228690157e-06	mole/meter^3	dimensionless
+Ucar2004	all	12	SIM_simvastatin	SIM	concentration	simvastatin	serum	LC MS/MS	24.0	hr	1.5592921643573816e-06				mole/meter^3	dimensionless

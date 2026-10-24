@@ -1,0 +1,11 @@
+study	group	count	intervention	measurement_type	substance	label	method	tissue	time	time_unit	mean	sd	se	unit	sdpm
+Watanabe2004	all	11	SIM, DIL	concentration	diltiazem	diltiazem_SIM, DIL	HPLC	plasma	0	hr	29.222471	na	na	ng/ml	24.199825
+Watanabe2004	all	11	SIM, DIL	concentration	diltiazem	diltiazem_SIM, DIL	HPLC	plasma	2	hr	49.6747	7.60106	2.29180582081626	ng/ml	42.07364
+Watanabe2004	all	11	SIM, DIL	concentration	diltiazem	diltiazem_SIM, DIL	HPLC	plasma	3	hr	57.118652	5.701645	1.71911065025508	ng/ml	51.417007
+Watanabe2004	all	11	SIM, DIL	concentration	diltiazem	diltiazem_SIM, DIL	HPLC	plasma	4	hr	54.923767	5.428844	1.63685805394292	ng/ml	49.494923
+Watanabe2004	all	11	SIM, DIL	concentration	diltiazem	diltiazem_SIM, DIL	HPLC	plasma	6	hr	47.68435	5.973397	1.80104696116678	ng/ml	41.710953
+Watanabe2004	all	11	SIM	concentration	diltiazem	diltiazem_SIM	HPLC	plasma	0	hr	33.973625	5.701641	1.71910944420971	ng/ml	39.675266
+Watanabe2004	all	11	SIM	concentration	diltiazem	diltiazem_SIM	HPLC	plasma	2	hr	59.44876	7.73785	2.33304955764105	ng/ml	67.18661
+Watanabe2004	all	11	SIM	concentration	diltiazem	diltiazem_SIM	HPLC	plasma	3	hr	69.47112	10.86056	3.27458204846748	ng/ml	80.33168
+Watanabe2004	all	11	SIM	concentration	diltiazem	diltiazem_SIM	HPLC	plasma	4	hr	66.19105	9.50256	2.86512964253087	ng/ml	75.69361
+Watanabe2004	all	11	SIM	concentration	diltiazem	diltiazem_SIM	HPLC	plasma	6	hr	60.037346	7.73706799999999	2.33281377576959	ng/ml	67.774414

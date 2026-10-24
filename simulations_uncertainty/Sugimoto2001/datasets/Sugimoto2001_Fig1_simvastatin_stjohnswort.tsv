@@ -1,0 +1,11 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	mean_se	pm	mean_sd	mean_unit	count_unit
+Sugimoto2001	sim_group	8	SIM+STJ_simvastatin	SIM,STJ	concentration	simvastatin	plasma	LC MS/MS	0.0	hr	0.0				mole/meter^3	dimensionless
+Sugimoto2001	sim_group	8	SIM+STJ_simvastatin	SIM,STJ	concentration	simvastatin	plasma	LC MS/MS	0.5	hr	1.433368967988533e-06				mole/meter^3	dimensionless
+Sugimoto2001	sim_group	8	SIM+STJ_simvastatin	SIM,STJ	concentration	simvastatin	plasma	LC MS/MS	1.0	hr	4.6973530817009076e-06	1.6114254658385093e-06	1.2917693	4.5577994970844e-06	mole/meter^3	dimensionless
+Sugimoto2001	sim_group	8	SIM+STJ_simvastatin	SIM,STJ	concentration	simvastatin	plasma	LC MS/MS	2.0	hr	2.6847976588628757e-06	7.654479216435737e-07	0.8034398	2.1650136641572814e-06	mole/meter^3	dimensionless
+Sugimoto2001	sim_group	8	SIM+STJ_simvastatin	SIM,STJ	concentration	simvastatin	plasma	LC MS/MS	3.0	hr	1.6390482560917341e-06	5.84164166268514e-07	0.44157448	1.6522657731786095e-06	mole/meter^3	dimensionless
+Sugimoto2001	sim_group	8	SIM+STJ_simvastatin	SIM,STJ	concentration	simvastatin	plasma	LC MS/MS	4.0	hr	9.35778547539417e-07	6.043205207835643e-07	0.13874833	1.7092765530249759e-06	mole/meter^3	dimensionless
+Sugimoto2001	sim_group	8	SIM+STJ_simvastatin	SIM,STJ	concentration	simvastatin	plasma	LC MS/MS	6.0	hr	4.7582052078356425e-07	5.035799068322981e-07	-0.011620079	1.4243390679616314e-06	mole/meter^3	dimensionless
+Sugimoto2001	sim_group	8	SIM+STJ_simvastatin	SIM,STJ	concentration	simvastatin	plasma	LC MS/MS	8.0	hr	2.1730267558528426e-07				mole/meter^3	dimensionless
+Sugimoto2001	sim_group	8	SIM+STJ_simvastatin	SIM,STJ	concentration	simvastatin	plasma	LC MS/MS	12.0	hr	5.953910176779742e-08				mole/meter^3	dimensionless
+Sugimoto2001	sim_group	8	SIM+STJ_simvastatin	SIM,STJ	concentration	simvastatin	plasma	LC MS/MS	24.0	hr	0.0				mole/meter^3	dimensionless

@@ -1,0 +1,12 @@
+study	group	count	intervention	measurement_type	substance	method	tissue	label	time	time_unit	mean	mean_sd	sem	sem_pm	mean_unit	count_unit
+Keskitalo2009	c.421C/C	23	SIM_40mg	concentration	simvastatin	LC MS/MS	plasma	simvastatin_c.421C/C	0.0	hr	0.0				mole/meter^3	dimensionless
+Keskitalo2009	c.421C/C	23	SIM_40mg	concentration	simvastatin	LC MS/MS	plasma	simvastatin_c.421C/C	0.5	hr	7.073623506927854e-06	7.20484437625786e-06	0.6288686	2.3321502	mole/meter^3	dimensionless
+Keskitalo2009	c.421C/C	23	SIM_40mg	concentration	simvastatin	LC MS/MS	plasma	simvastatin_c.421C/C	1.0	hr	1.4742281414237935e-05	9.006230187070353e-06	0.786101	5.385018	mole/meter^3	dimensionless
+Keskitalo2009	c.421C/C	23	SIM_40mg	concentration	simvastatin	LC MS/MS	plasma	simvastatin_c.421C/C	1.5	hr	1.6701730769230767e-05	8.285681132889894e-06	0.7232085	6.268136	mole/meter^3	dimensionless
+Keskitalo2009	c.421C/C	23	SIM_40mg	concentration	simvastatin	LC MS/MS	plasma	simvastatin_c.421C/C	2.0	hr	1.4304335881509794e-05	8.647384900263306e-06	0.754779500000001	5.2330155	mole/meter^3	dimensionless
+Keskitalo2009	c.421C/C	23	SIM_40mg	concentration	simvastatin	LC MS/MS	plasma	simvastatin_c.421C/C	3.0	hr	8.381807453416148e-06	5.0424651219000475e-06	0.4401272	3.0684974	mole/meter^3	dimensionless
+Keskitalo2009	c.421C/C	23	SIM_40mg	concentration	simvastatin	LC MS/MS	plasma	simvastatin_c.421C/C	4.0	hr	5.4647981366459615e-06	2.1630930152366913e-06	0.1888037	2.0987608	mole/meter^3	dimensionless
+Keskitalo2009	c.421C/C	23	SIM_40mg	concentration	simvastatin	LC MS/MS	plasma	simvastatin_c.421C/C	5.0	hr	3.7493136645962733e-06				mole/meter^3	dimensionless
+Keskitalo2009	c.421C/C	23	SIM_40mg	concentration	simvastatin	LC MS/MS	plasma	simvastatin_c.421C/C	7.0	hr	2.3471142857142855e-06				mole/meter^3	dimensionless
+Keskitalo2009	c.421C/C	23	SIM_40mg	concentration	simvastatin	LC MS/MS	plasma	simvastatin_c.421C/C	9.0	hr	1.3205306497849973e-06				mole/meter^3	dimensionless
+Keskitalo2009	c.421C/C	23	SIM_40mg	concentration	simvastatin	LC MS/MS	plasma	simvastatin_c.421C/C	12.0	hr	1.0578228858098422e-06				mole/meter^3	dimensionless

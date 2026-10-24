@@ -1,0 +1,37 @@
+study	group	count	intervention	measurement_type	substance	method	tissue	label	time	time_unit	mean	change	unit
+Stern2000	all	24	ATO5	concentration	cholesterol	cholesterol oxidase/PAP method	plasma	cholesterol_ATO5	0	weeks	271.0	0.0	mg/dl
+Stern2000	all	24	ATO5	concentration	ldl-c	friedewald	plasma	ldl-c_ATO5	0	weeks	191.0	0.0	mg/dl
+Stern2000	all	24	ATO5	concentration	ldl-c	beta quant	plasma	ldl-c_ATO5	0	weeks	185.0	0.0	mg/dl
+Stern2000	all	24	ATO5	concentration	ldl-apoB100+48	immunoturbidimetry	plasma	ldl-apoB100+48_ATO5	0	weeks	105.0	0.0	mg/dl
+Stern2000	all	24	ATO5	concentration	hdl-c	precipitation	plasma	hdl-c_ATO5	0	weeks	47.0	0.0	mg/dl
+Stern2000	all	24	ATO5	concentration	triglyceride	enzymatic methods	plasma	triglyceride_ATO5	0	weeks	161.0	0.0	mg/dl
+Stern2000	all	24	ATO20	concentration	cholesterol	cholesterol oxidase/PAP method	plasma	cholesterol_ATO20	0	weeks	271.0	0.0	mg/dl
+Stern2000	all	24	ATO20	concentration	ldl-c	friedewald	plasma	ldl-c_ATO20	0	weeks	191.0	0.0	mg/dl
+Stern2000	all	24	ATO20	concentration	ldl-c	beta quant	plasma	ldl-c_ATO20	0	weeks	185.0	0.0	mg/dl
+Stern2000	all	24	ATO20	concentration	ldl-apoB100+48	immunoturbidimetry	plasma	ldl-apoB100+48_ATO20	0	weeks	105.0	0.0	mg/dl
+Stern2000	all	24	ATO20	concentration	hdl-c	precipitation	plasma	hdl-c_ATO20	0	weeks	47.0	0.0	mg/dl
+Stern2000	all	24	ATO20	concentration	triglyceride	enzymatic methods	plasma	triglyceride_ATO20	0	weeks	161.0	0.0	mg/dl
+Stern2000	all	24	ATO80	concentration	cholesterol	cholesterol oxidase/PAP method	plasma	cholesterol_ATO80	0	weeks	271.0	0.0	mg/dl
+Stern2000	all	24	ATO80	concentration	ldl-c	friedewald	plasma	ldl-c_ATO80	0	weeks	191.0	0.0	mg/dl
+Stern2000	all	24	ATO80	concentration	ldl-c	beta quant	plasma	ldl-c_ATO80	0	weeks	185.0	0.0	mg/dl
+Stern2000	all	24	ATO80	concentration	ldl-apoB100+48	immunoturbidimetry	plasma	ldl-apoB100+48_ATO80	0	weeks	105.0	0.0	mg/dl
+Stern2000	all	24	ATO80	concentration	hdl-c	precipitation	plasma	hdl-c_ATO80	0	weeks	47.0	0.0	mg/dl
+Stern2000	all	24	ATO80	concentration	triglyceride	enzymatic methods	plasma	triglyceride_ATO80	0	weeks	161.0	0.0	mg/dl
+Stern2000	all	24	ATO5	concentration	cholesterol	cholesterol oxidase/PAP method	plasma	cholesterol_ATO5	6	weeks	199.998	-26.2	mg/dl
+Stern2000	all	24	ATO5	concentration	ldl-c	friedewald	plasma	ldl-c_ATO5	6	weeks	126.06	-34.0	mg/dl
+Stern2000	all	24	ATO5	concentration	ldl-c	beta quant	plasma	ldl-c_ATO5	6	weeks	122.285	-33.9	mg/dl
+Stern2000	all	24	ATO5	concentration	ldl-apoB100+48	immunoturbidimetry	plasma	ldl-apoB100+48_ATO5	6	weeks	72.03	-31.4	mg/dl
+Stern2000	all	24	ATO5	concentration	hdl-c	precipitation	plasma	hdl-c_ATO5	6	weeks	48.551	3.3	mg/dl
+Stern2000	all	24	ATO5	concentration	triglyceride	enzymatic methods	plasma	triglyceride_ATO5	6	weeks	190.141	18.1	mg/dl
+Stern2000	all	24	ATO20	concentration	cholesterol	cholesterol oxidase/PAP method	plasma	cholesterol_ATO20	6	weeks	180.486	-33.4	mg/dl
+Stern2000	all	24	ATO20	concentration	ldl-c	friedewald	plasma	ldl-c_ATO20	6	weeks	108.297	-43.3	mg/dl
+Stern2000	all	24	ATO20	concentration	ldl-c	beta quant	plasma	ldl-c_ATO20	6	weeks	104.895	-43.3	mg/dl
+Stern2000	all	24	ATO20	concentration	ldl-apoB100+48	immunoturbidimetry	plasma	ldl-apoB100+48_ATO20	6	weeks	63.21	-39.8	mg/dl
+Stern2000	all	24	ATO20	concentration	hdl-c	precipitation	plasma	hdl-c_ATO20	6	weeks	47.987	2.1	mg/dl
+Stern2000	all	24	ATO20	concentration	triglyceride	enzymatic methods	plasma	triglyceride_ATO20	6	weeks	124.453	-22.7	mg/dl
+Stern2000	all	24	ATO80	concentration	cholesterol	cholesterol oxidase/PAP method	plasma	cholesterol_ATO80	6	weeks	150.405	-44.5	mg/dl
+Stern2000	all	24	ATO80	concentration	ldl-c	friedewald	plasma	ldl-c_ATO80	6	weeks	82.894	-56.6	mg/dl
+Stern2000	all	24	ATO80	concentration	ldl-c	beta quant	plasma	ldl-c_ATO80	6	weeks	84.545	-54.3	mg/dl
+Stern2000	all	24	ATO80	concentration	ldl-apoB100+48	immunoturbidimetry	plasma	ldl-apoB100+48_ATO80	6	weeks	52.605	-49.9	mg/dl
+Stern2000	all	24	ATO80	concentration	hdl-c	precipitation	plasma	hdl-c_ATO80	6	weeks	46.859	-0.3	mg/dl
+Stern2000	all	24	ATO80	concentration	triglyceride	enzymatic methods	plasma	triglyceride_ATO80	6	weeks	108.353	-32.7	mg/dl

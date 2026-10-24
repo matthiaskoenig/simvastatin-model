@@ -1,0 +1,11 @@
+study	name	parent	measurement_type	group_count	choice	substance	count	mean	median	unit	sd	min	max
+Stern2000	all	NA	species	24	homo sapiens	NA	24	NA	NA	NA	NA	NA	NA
+Stern2000	all	NA	healthy	24	Y	NA	24	NA	NA	NA	NA	NA	NA
+Stern2000	all	NA	sex	24	NR	NA	24	NA	NA	NA	NA	NA	NA
+Stern2000	all	NA	concentration	24	NA	ldl-c	24	NA	NA	mg/dl	NA	160.0	NA
+Stern2000	all	NA	concentration	24	NA	triglyceride	24	NA	NA	mg/dl	NA	NA	300.0
+Stern2000	all	NA	age	24	NA	NA	24	NA	NA	yr	NA	34.0	65.0
+Stern2000	all	NA	bmi	24	NA	NA	24	NA	NA	kg/m^2	NA	NA	30.0
+Stern2000	all	NA	overnight fast	24	Y	NA	24	NA	NA	NA	NA	NA	NA
+Stern2000	all	NA	fasting (duration)	24	NA	NA	24	12.0	NA	hr	NA	NA	NA
+Stern2000	all	NA	weight	24	NA	NA	24	NA	NA	kg	NA	58.0	93.0

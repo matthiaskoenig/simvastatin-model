@@ -1,0 +1,5 @@
+study	group	count	intervention	measurement_type	substance	method	tissue	label	time	time_unit	mean	se	sd	unit
+Owens1991	all	10.0	SIM	metabolic ratio	ldl-esterified/free-cholesterol	enzymatic coiorimetric methods	plasma	SIM_ldl-esterified/free-cholesterol	0.0	weeks	2.51	0.13	0.411096095821889	dimensionless
+Owens1991	all	10.0	SIM	metabolic ratio	ldl-esterified/free-cholesterol	enzymatic coiorimetric methods	plasma	SIM_ldl-esterified/free-cholesterol	12.0	weeks	2.06	0.14	0.442718872423573	dimensionless
+Owens1991	all	10.0	PRA	metabolic ratio	ldl-esterified/free-cholesterol	enzymatic coiorimetric methods	plasma	PRA_ldl-esterified/free-cholesterol	0.0	weeks	2.94	0.17	0.537587202228625	dimensionless
+Owens1991	all	10.0	PRA	metabolic ratio	ldl-esterified/free-cholesterol	enzymatic coiorimetric methods	plasma	PRA_ldl-esterified/free-cholesterol	12.0	weeks	2.97	0.11	0.347850542618522	dimensionless

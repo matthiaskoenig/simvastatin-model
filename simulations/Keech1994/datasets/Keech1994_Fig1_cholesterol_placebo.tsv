@@ -1,0 +1,11 @@
+study	group	count	intervention	measurement_type	substance	label	tissue	time	time_unit	mean	mean_se	mean_sd	sepm	mean_unit	count_unit
+Keech1994	placebo	207	placebo	concentration	cholesterol	placebo_cholesterol	plasma	-8	weeks	6.990028	0.0549990000000005	0.791297813852035	7.045027	mmol/l	dimensionless
+Keech1994	placebo	204	placebo	concentration	cholesterol	placebo_cholesterol	plasma	8	weeks	6.7669506	0.0849434000000002	1.2132344231541763	6.851894	mmol/l	dimensionless
+Keech1994	placebo	207	placebo	concentration	cholesterol	placebo_cholesterol	plasma	20	weeks	6.7584825	0.0950350000000002	1.36731554645408	6.8535175	mmol/l	dimensionless
+Keech1994	placebo	207	placebo	concentration	cholesterol	placebo_cholesterol	plasma	32	weeks	6.8850484	0.0799246	1.14991474850448	6.964973	mmol/l	dimensionless
+Keech1994	placebo	207	placebo	concentration	cholesterol	placebo_cholesterol	plasma	44	weeks	6.886543	0.0699613000000001	1.00656782385582	6.9565043	mmol/l	dimensionless
+Keech1994	placebo	207	placebo	concentration	cholesterol	placebo_cholesterol	plasma	56	weeks	6.823038	0.0799804999999996	1.15071900945093	6.9030185	mmol/l	dimensionless
+Keech1994	placebo	207	placebo	concentration	cholesterol	placebo_cholesterol	plasma	68	weeks	6.8295326	0.144997399999999	2.08614930515514	6.97453	mmol/l	dimensionless
+Keech1994	placebo	207	placebo	concentration	cholesterol	placebo_cholesterol	plasma	80	weeks	6.8460083	0.0949796999999997	1.36651991800435	6.940988	mmol/l	dimensionless
+Keech1994	placebo	124	placebo	concentration	cholesterol	placebo_cholesterol	plasma	104	weeks	6.758999	0.0849985000000002	0.9465032383880174	6.8439975	mmol/l	dimensionless
+Keech1994	placebo	109	placebo	concentration	cholesterol	placebo_cholesterol	plasma	152	weeks	6.7900133	0.159997	1.6704177205061614	6.9500103	mmol/l	dimensionless

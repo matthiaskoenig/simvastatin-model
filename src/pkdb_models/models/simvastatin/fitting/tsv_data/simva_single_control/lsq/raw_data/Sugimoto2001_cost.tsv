@@ -1,0 +1,5 @@
+id	experiment	mapping	cost	type
+Sugimoto2001_fm_simva	Sugimoto2001	fm_simva	70.70066101066053	initial
+Sugimoto2001_fm_simva	Sugimoto2001	fm_simva	0.5941042505537665	fit
+Sugimoto2001_fm_simacid	Sugimoto2001	fm_simacid	2.688029058797653	initial
+Sugimoto2001_fm_simacid	Sugimoto2001	fm_simacid	0.3939595819977725	fit

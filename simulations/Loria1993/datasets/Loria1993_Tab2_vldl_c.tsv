@@ -1,0 +1,4 @@
+study	group	label	count	intervention	measurement_type	substance	tissue	time	time_unit	mean	mean_sd	mean_se	mean_unit	count_unit
+Loria1993	all	vldl-c_plasma	5	SIM80	concentration	vldl-c	plasma	0	hr	0.5171967933798809	0.18101887768295835	0.080954103141963	mole/meter^3	dimensionless
+Loria1993	all	vldl-c_plasma	5	SIM80	concentration	vldl-c	plasma	8	hr	0.41375743470390475	0.2844582363589345	0.12721359065165602	mole/meter^3	dimensionless
+Loria1993	all	vldl-c_plasma	5	SIM80	concentration	vldl-c	plasma	18	hr	0.41375743470390475	0.25859839668994045	0.1156487187742327	mole/meter^3	dimensionless

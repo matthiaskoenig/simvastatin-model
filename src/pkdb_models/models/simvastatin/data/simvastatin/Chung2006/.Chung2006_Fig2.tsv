@@ -1,0 +1,27 @@
+study	subject	label	n	intervention	substance	tissue	measurement	mean	mean_pm	mean_sd	mean_se	unit	time	time_unit
+Chung2006	all	all_MID	19	MID	midazolam	plasma	concentration	0.0	na	na	na	ng/ml	0.0	hr
+Chung2006	all	all_MID	19	MID	midazolam	plasma	concentration	22.425524	34.971344	12.54582	2.87820850230797	ng/ml	0.5	hr
+Chung2006	all	all_MID	19	MID	midazolam	plasma	concentration	18.42103	23.528885	5.107855	1.17182230332942	ng/ml	1.0	hr
+Chung2006	all	all_MID	19	MID	midazolam	plasma	concentration	14.466795	19.078587	4.611792	1.05801764613839	ng/ml	1.5	hr
+Chung2006	all	all_MID	19	MID	midazolam	plasma	concentration	11.008143	15.818378	4.810235	1.10354359261486	ng/ml	2.0	hr
+Chung2006	all	all_MID	19	MID	midazolam	plasma	concentration	6.0245447	9.198502	3.1739573	0.728155743253327	ng/ml	3.0	hr
+Chung2006	all	all_MID	19	MID	midazolam	plasma	concentration	3.8177276	5.70242	1.8846924	0.43237809006627	ng/ml	4.0	hr
+Chung2006	all	all_MID	19	MID	midazolam	plasma	concentration	1.8841181	2.9751298	1.0910117	0.250295249816869	ng/ml	6.0	hr
+Chung2006	all	all_MID+KET	19	MID, KET	midazolam	plasma	concentration	0.0	na	na	na	ng/ml	0.0	hr
+Chung2006	all	all_MID+KET	19	MID, KET	midazolam	plasma	concentration	52.881226	80.70644	27.825214	6.38354188991543	ng/ml	0.5	hr
+Chung2006	all	all_MID+KET	19	MID, KET	midazolam	plasma	concentration	48.11988	64.742195	16.622315	3.81342059435264	ng/ml	1.0	hr
+Chung2006	all	all_MID+KET	19	MID, KET	midazolam	plasma	concentration	39.81191	51.91408	12.10217	2.7764282119763	ng/ml	2.0	hr
+Chung2006	all	all_MID+KET	19	MID, KET	midazolam	plasma	concentration	28.882717	40.037136	11.154419	2.55899922078474	ng/ml	4.0	hr
+Chung2006	all	all_MID+KET	19	MID, KET	midazolam	plasma	concentration	21.890572	29.472734	7.582162	1.73946725955549	ng/ml	6.0	hr
+Chung2006	all	all_MID+KET	19	MID, KET	midazolam	plasma	concentration	16.939518	23.428118	6.4886	1.48858693079253	ng/ml	8.0	hr
+Chung2006	all	all_MID+KET	19	MID, KET	midazolam	plasma	concentration	12.432268	17.025362	4.593094	1.05372803074647	ng/ml	12.0	hr
+Chung2006	all	all_MID+KET	19	MID, KET	midazolam	plasma	concentration	4.9621005	8.0971575	3.135057	0.719231402381042	ng/ml	24.0	hr
+Chung2006	all	all_MID+KET	19	MID, KET	midazolam	plasma	concentration	4.9087873	7.3876176	2.4788303	0.568682672415085	ng/ml	30.0	hr
+Chung2006	all_n18	all_n18_MID+RIF 	18	MID, RIF	midazolam	plasma	concentration	0.0	na	na	na	ng/ml	0.0	hr
+Chung2006	all_n18	all_n18_MID+RIF 	19	MID, RIF	midazolam	plasma	concentration	3.4279232	5.411407	1.9834838	0.45504239159737	ng/ml	0.25	hr
+Chung2006	all_n18	all_n18_MID+RIF 	19	MID, RIF	midazolam	plasma	concentration	3.384367	4.7729015	1.3885345	0.318551661322093	ng/ml	0.5	hr
+Chung2006	all_n18	all_n18_MID+RIF 	19	MID, RIF	midazolam	plasma	concentration	2.2560213	3.3469374	1.0909161	0.250273317672711	ng/ml	1.0	hr
+Chung2006	all_n18	all_n18_MID+RIF 	19	MID, RIF	midazolam	plasma	concentration	1.5247552	2.2686574	0.7439022	0.170662869140925	ng/ml	1.5	hr
+Chung2006	all_n18	all_n18_MID+RIF 	19	MID, RIF	midazolam	plasma	concentration	1.0910118	1.4382172	0.3472054	0.0796543816448219	ng/ml	2.0	hr
+Chung2006	all_n18	all_n18_MID+RIF 	19	MID, RIF	midazolam	plasma	concentration	0.27282473	0.66913855	0.39631382	0.0909206258583457	ng/ml	3.0	hr
+Chung2006	all_n18	all_n18_MID+RIF 	19	MID, RIF	midazolam	plasma	concentration	0.14876129	0.545458	0.39669671	0.0910084668486874	ng/ml	4.0	hr

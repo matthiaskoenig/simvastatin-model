@@ -1,0 +1,172 @@
+study	group	count	intervention	measurement_type	substance	method	tissue	label	time	time_unit	mean	unit
+Stern2000	all	24	placebo_pre	concentration	hdl-c	precipitation	plasma	placebo_pre_hdl-c	-7.010002	day	46.67323	mg/dl
+Stern2000	all	24	placebo_pre	concentration	hdl-c	precipitation	plasma	placebo_pre_hdl-c	-2.848276	day	47.99474	mg/dl
+Stern2000	all	24	placebo_pre	concentration	hdl-c	precipitation	plasma	placebo_pre_hdl-c	-0.83049154	day	46.91037	mg/dl
+Stern2000	all	24	ATO5	concentration	hdl-c	precipitation	plasma	ATO5_hdl-c	0.9481806	day	45.13183	mg/dl
+Stern2000	all	24	ATO5	concentration	hdl-c	precipitation	plasma	ATO5_hdl-c	2.015384	day	44.0647	mg/dl
+Stern2000	all	24	ATO5	concentration	hdl-c	precipitation	plasma	ATO5_hdl-c	2.8493428	day	45.097336	mg/dl
+Stern2000	all	24	ATO5	concentration	hdl-c	precipitation	plasma	ATO5_hdl-c	3.9202135	day	45.776413	mg/dl
+Stern2000	all	24	ATO5	concentration	hdl-c	precipitation	plasma	ATO5_hdl-c	7.1269574	day	45.019726	mg/dl
+Stern2000	all	24	ATO5	concentration	hdl-c	precipitation	plasma	ATO5_hdl-c	14.378072	day	46.285183	mg/dl
+Stern2000	all	24	ATO5	concentration	hdl-c	precipitation	plasma	ATO5_hdl-c	21.153162	day	47.210026	mg/dl
+Stern2000	all	24	ATO5	concentration	hdl-c	precipitation	plasma	ATO5_hdl-c	28.285454	day	48.477642	mg/dl
+Stern2000	all	24	ATO5	concentration	hdl-c	precipitation	plasma	ATO5_hdl-c	35.415546	day	48.697533	mg/dl
+Stern2000	all	24	ATO5	concentration	hdl-c	precipitation	plasma	ATO5_hdl-c	37.31304	day	46.916836	mg/dl
+Stern2000	all	24	ATO5	concentration	hdl-c	precipitation	plasma	ATO5_hdl-c	40.167717	day	48.26206	mg/dl
+Stern2000	all	24	ATO5	concentration	hdl-c	precipitation	plasma	ATO5_hdl-c	42.304325	day	47.175533	mg/dl
+Stern2000	all	24	ATO20	concentration	hdl-c	precipitation	plasma	ATO20_hdl-c	49.195305	day	46.701256	mg/dl
+Stern2000	all	24	ATO20	concentration	hdl-c	precipitation	plasma	ATO20_hdl-c	56.44862	day	49.01444	mg/dl
+Stern2000	all	24	ATO20	concentration	hdl-c	precipitation	plasma	ATO20_hdl-c	63.21711	day	46.796112	mg/dl
+Stern2000	all	24	ATO20	concentration	hdl-c	precipitation	plasma	ATO20_hdl-c	70.23131	day	48.415123	mg/dl
+Stern2000	all	24	ATO20	concentration	hdl-c	precipitation	plasma	ATO20_hdl-c	77.00273	day	47.59376	mg/dl
+Stern2000	all	24	ATO20	concentration	hdl-c	precipitation	plasma	ATO20_hdl-c	79.26036	day	47.5528	mg/dl
+Stern2000	all	24	ATO20	concentration	hdl-c	precipitation	plasma	ATO20_hdl-c	82.35122	day	48.19523	mg/dl
+Stern2000	all	24	ATO20	concentration	hdl-c	precipitation	plasma	ATO20_hdl-c	84.250916	day	47.462254	mg/dl
+Stern2000	all	24	ATO80	concentration	hdl-c	precipitation	plasma	ATO80_hdl-c	91.139694	day	45.940254	mg/dl
+Stern2000	all	24	ATO80	concentration	hdl-c	precipitation	plasma	ATO80_hdl-c	98.1495	day	45.46382	mg/dl
+Stern2000	all	24	ATO80	concentration	hdl-c	precipitation	plasma	ATO80_hdl-c	104.917984	day	43.245495	mg/dl
+Stern2000	all	24	ATO80	concentration	hdl-c	precipitation	plasma	ATO80_hdl-c	112.172035	day	45.907917	mg/dl
+Stern2000	all	24	ATO80	concentration	hdl-c	precipitation	plasma	ATO80_hdl-c	118.94639	day	46.48352	mg/dl
+Stern2000	all	24	ATO80	concentration	hdl-c	precipitation	plasma	ATO80_hdl-c	121.0852	day	46.444714	mg/dl
+Stern2000	all	24	ATO80	concentration	hdl-c	precipitation	plasma	ATO80_hdl-c	123.223274	day	46.056667	mg/dl
+Stern2000	all	24	placebo_post	concentration	hdl-c	precipitation	plasma	placebo_post_hdl-c	125.001945	day	44.27813	mg/dl
+Stern2000	all	24	placebo_post	concentration	hdl-c	precipitation	plasma	placebo_post_hdl-c	126.19457	day	46.352016	mg/dl
+Stern2000	all	24	placebo_post	concentration	hdl-c	precipitation	plasma	placebo_post_hdl-c	127.38133	day	45.631973	mg/dl
+Stern2000	all	24	placebo_post	concentration	hdl-c	precipitation	plasma	placebo_post_hdl-c	128.33264	day	45.96397	mg/dl
+Stern2000	all	24	placebo_post	concentration	hdl-c	precipitation	plasma	placebo_post_hdl-c	129.04265	day	44.55407	mg/dl
+Stern2000	all	24	placebo_post	concentration	hdl-c	precipitation	plasma	placebo_post_hdl-c	132.02348	day	49.389545	mg/dl
+Stern2000	all	24	placebo_pre	concentration	ldl-apoB100+48	immunoturbidimetry	plasma	placebo_pre_ldl-apoB100+48	-7.027972	day	108.84079	mg/dl
+Stern2000	all	24	placebo_pre	concentration	ldl-apoB100+48	immunoturbidimetry	plasma	placebo_pre_ldl-apoB100+48	-2.937943	day	104.31359	mg/dl
+Stern2000	all	24	placebo_pre	concentration	ldl-apoB100+48	immunoturbidimetry	plasma	placebo_pre_ldl-apoB100+48	-1.3305367	day	105.85607	mg/dl
+Stern2000	all	24	ATO5	concentration	ldl-apoB100+48	immunoturbidimetry	plasma	ATO5_ldl-apoB100+48	0.70595115	day	99.53255	mg/dl
+Stern2000	all	24	ATO5	concentration	ldl-apoB100+48	immunoturbidimetry	plasma	ATO5_ldl-apoB100+48	2.1318228	day	99.506676	mg/dl
+Stern2000	all	24	ATO5	concentration	ldl-apoB100+48	immunoturbidimetry	plasma	ATO5_ldl-apoB100+48	3.282642	day	95.818634	mg/dl
+Stern2000	all	24	ATO5	concentration	ldl-apoB100+48	immunoturbidimetry	plasma	ATO5_ldl-apoB100+48	3.9878762	day	92.13867	mg/dl
+Stern2000	all	24	ATO5	concentration	ldl-apoB100+48	immunoturbidimetry	plasma	ATO5_ldl-apoB100+48	7.166382	day	77.93621	mg/dl
+Stern2000	all	24	ATO5	concentration	ldl-apoB100+48	immunoturbidimetry	plasma	ATO5_ldl-apoB100+48	14.102653	day	70.73797	mg/dl
+Stern2000	all	24	ATO5	concentration	ldl-apoB100+48	immunoturbidimetry	plasma	ATO5_ldl-apoB100+48	21.140142	day	69.30058	mg/dl
+Stern2000	all	24	ATO5	concentration	ldl-apoB100+48	immunoturbidimetry	plasma	ATO5_ldl-apoB100+48	28.094017	day	70.48412	mg/dl
+Stern2000	all	24	ATO5	concentration	ldl-apoB100+48	immunoturbidimetry	plasma	ATO5_ldl-apoB100+48	34.96483	day	74.550514	mg/dl
+Stern2000	all	24	ATO5	concentration	ldl-apoB100+48	immunoturbidimetry	plasma	ATO5_ldl-apoB100+48	37.007366	day	71.10823	mg/dl
+Stern2000	all	24	ATO5	concentration	ldl-apoB100+48	immunoturbidimetry	plasma	ATO5_ldl-apoB100+48	39.948776	day	71.3168	mg/dl
+Stern2000	all	24	ATO5	concentration	ldl-apoB100+48	immunoturbidimetry	plasma	ATO5_ldl-apoB100+48	42.18055	day	73.10989	mg/dl
+Stern2000	all	24	ATO20	concentration	ldl-apoB100+48	immunoturbidimetry	plasma	ATO20_ldl-apoB100+48	79.05682	day	63.796806	mg/dl
+Stern2000	all	24	ATO20	concentration	ldl-apoB100+48	immunoturbidimetry	plasma	ATO20_ldl-apoB100+48	81.99603	day	62.95766	mg/dl
+Stern2000	all	24	ATO20	concentration	ldl-apoB100+48	immunoturbidimetry	plasma	ATO20_ldl-apoB100+48	83.333336	day	63.19534	mg/dl
+Stern2000	all	24	ATO20	concentration	ldl-apoB100+48	immunoturbidimetry	plasma	ATO20_ldl-apoB100+48	84.22451	day	63.17917	mg/dl
+Stern2000	all	24	ATO80	concentration	ldl-apoB100+48	immunoturbidimetry	plasma	ATO80_ldl-apoB100+48	120.74212	day	52.824825	mg/dl
+Stern2000	all	24	ATO80	concentration	ldl-apoB100+48	immunoturbidimetry	plasma	ATO80_ldl-apoB100+48	122.70159	day	52.265396	mg/dl
+Stern2000	all	24	ATO80	concentration	ldl-apoB100+48	immunoturbidimetry	plasma	ATO80_ldl-apoB100+48	124.305695	day	52.23629	mg/dl
+Stern2000	all	24	placebo_post	concentration	ldl-apoB100+48	immunoturbidimetry	plasma	placebo_post_ldl-apoB100+48	125.55333	day	52.213654	mg/dl
+Stern2000	all	24	placebo_post	concentration	ldl-apoB100+48	immunoturbidimetry	plasma	placebo_post_ldl-apoB100+48	126.89174	day	52.975193	mg/dl
+Stern2000	all	24	placebo_post	concentration	ldl-apoB100+48	immunoturbidimetry	plasma	placebo_post_ldl-apoB100+48	127.70809	day	59.770836	mg/dl
+Stern2000	all	24	placebo_post	concentration	ldl-apoB100+48	immunoturbidimetry	plasma	placebo_post_ldl-apoB100+48	128.86937	day	61.05947	mg/dl
+Stern2000	all	24	placebo_post	concentration	ldl-apoB100+48	immunoturbidimetry	plasma	placebo_post_ldl-apoB100+48	132.1865	day	70.429146	mg/dl
+Stern2000	all	24	placebo_pre	concentration	triglyceride	enzymatic methods	plasma	placebo_pre_triglyceride	-6.934454	day	153.36899	mg/dl
+Stern2000	all	24	placebo_pre	concentration	triglyceride	enzymatic methods	plasma	placebo_pre_triglyceride	-2.8114188	day	164.55763	mg/dl
+Stern2000	all	24	placebo_pre	concentration	triglyceride	enzymatic methods	plasma	placebo_pre_triglyceride	-0.854146	day	162.95047	mg/dl
+Stern2000	all	24	ATO5	concentration	triglyceride	enzymatic methods	plasma	ATO5_triglyceride	1.2643075	day	153.22023	mg/dl
+Stern2000	all	24	ATO5	concentration	triglyceride	enzymatic methods	plasma	ATO5_triglyceride	2.2946537	day	134.60376	mg/dl
+Stern2000	all	24	ATO5	concentration	triglyceride	enzymatic methods	plasma	ATO5_triglyceride	3.2633882	day	129.08543	mg/dl
+Stern2000	all	24	ATO5	concentration	triglyceride	enzymatic methods	plasma	ATO5_triglyceride	4.2475257	day	130.90117	mg/dl
+Stern2000	all	24	ATO5	concentration	triglyceride	enzymatic methods	plasma	ATO5_triglyceride	7.1696825	day	121.94217	mg/dl
+Stern2000	all	24	ATO5	concentration	triglyceride	enzymatic methods	plasma	ATO5_triglyceride	14.331496	day	137.26672	mg/dl
+Stern2000	all	24	ATO5	concentration	triglyceride	enzymatic methods	plasma	ATO5_triglyceride	21.38879	day	145.25883	mg/dl
+Stern2000	all	24	ATO5	concentration	triglyceride	enzymatic methods	plasma	ATO5_triglyceride	28.05056	day	134.66035	mg/dl
+Stern2000	all	24	ATO5	concentration	triglyceride	enzymatic methods	plasma	ATO5_triglyceride	35.282238	day	140.81572	mg/dl
+Stern2000	all	24	ATO5	concentration	triglyceride	enzymatic methods	plasma	ATO5_triglyceride	37.30332	day	127.15814	mg/dl
+Stern2000	all	24	ATO5	concentration	triglyceride	enzymatic methods	plasma	ATO5_triglyceride	40.27334	day	140.9871	mg/dl
+Stern2000	all	24	ATO5	concentration	triglyceride	enzymatic methods	plasma	ATO5_triglyceride	42.195404	day	122.616394	mg/dl
+Stern2000	all	24	ATO20	concentration	triglyceride	enzymatic methods	plasma	ATO20_triglyceride	49.30166	day	111.48596	mg/dl
+Stern2000	all	24	ATO20	concentration	triglyceride	enzymatic methods	plasma	ATO20_triglyceride	56.156513	day	107.95637	mg/dl
+Stern2000	all	24	ATO20	concentration	triglyceride	enzymatic methods	plasma	ATO20_triglyceride	63.058678	day	126.952805	mg/dl
+Stern2000	all	24	ATO20	concentration	triglyceride	enzymatic methods	plasma	ATO20_triglyceride	70.199036	day	132.06207	mg/dl
+Stern2000	all	24	ATO20	concentration	triglyceride	enzymatic methods	plasma	ATO20_triglyceride	76.93397	day	113.865974	mg/dl
+Stern2000	all	24	ATO20	concentration	triglyceride	enzymatic methods	plasma	ATO20_triglyceride	79.26752	day	121.681854	mg/dl
+Stern2000	all	24	ATO20	concentration	triglyceride	enzymatic methods	plasma	ATO20_triglyceride	82.03839	day	125.56069	mg/dl
+Stern2000	all	24	ATO20	concentration	triglyceride	enzymatic methods	plasma	ATO20_triglyceride	84.08643	day	124.73771	mg/dl
+Stern2000	all	24	ATO80	concentration	triglyceride	enzymatic methods	plasma	ATO80_triglyceride	90.9985	day	106.01453	mg/dl
+Stern2000	all	24	ATO80	concentration	triglyceride	enzymatic methods	plasma	ATO80_triglyceride	98.19552	day	95.66827	mg/dl
+Stern2000	all	24	ATO80	concentration	triglyceride	enzymatic methods	plasma	ATO80_triglyceride	105.080635	day	106.54485	mg/dl
+Stern2000	all	24	ATO80	concentration	triglyceride	enzymatic methods	plasma	ATO80_triglyceride	112.20614	day	104.581985	mg/dl
+Stern2000	all	24	ATO80	concentration	triglyceride	enzymatic methods	plasma	ATO80_triglyceride	118.89981	day	109.175476	mg/dl
+Stern2000	all	24	ATO80	concentration	triglyceride	enzymatic methods	plasma	ATO80_triglyceride	120.85049	day	104.425156	mg/dl
+Stern2000	all	24	ATO80	concentration	triglyceride	enzymatic methods	plasma	ATO80_triglyceride	122.89797	day	103.34024	mg/dl
+Stern2000	all	24	placebo_post	concentration	triglyceride	enzymatic methods	plasma	placebo_post_triglyceride	125.03788	day	103.8253	mg/dl
+Stern2000	all	24	placebo_post	concentration	triglyceride	enzymatic methods	plasma	placebo_post_triglyceride	125.93841	day	108.261955	mg/dl
+Stern2000	all	24	placebo_post	concentration	triglyceride	enzymatic methods	plasma	placebo_post_triglyceride	126.977554	day	136.27074	mg/dl
+Stern2000	all	24	placebo_post	concentration	triglyceride	enzymatic methods	plasma	placebo_post_triglyceride	127.90668	day	111.89341	mg/dl
+Stern2000	all	24	placebo_post	concentration	triglyceride	enzymatic methods	plasma	placebo_post_triglyceride	129.23848	day	109.51178	mg/dl
+Stern2000	all	24	placebo_post	concentration	triglyceride	enzymatic methods	plasma	placebo_post_triglyceride	132.16284	day	144.03488	mg/dl
+Stern2000	all	24	placebo_pre	concentration	ldl-c	friedewald	plasma	placebo_pre_ldl-c	-7.0362234	day	189.78058	mg/dl
+Stern2000	all	24	placebo_pre	concentration	ldl-c	friedewald	plasma	placebo_pre_ldl-c	-2.6667414	day	191.011	mg/dl
+Stern2000	all	24	placebo_pre	concentration	ldl-c	friedewald	plasma	placebo_pre_ldl-c	-0.79968566	day	188.8816	mg/dl
+Stern2000	all	24	ATO5	concentration	ldl-c	friedewald	plasma	ATO5_ldl-c	1.3539746	day	195.91493	mg/dl
+Stern2000	all	24	ATO5	concentration	ldl-c	friedewald	plasma	ATO5_ldl-c	2.3144574	day	186.46764	mg/dl
+Stern2000	all	24	ATO5	concentration	ldl-c	friedewald	plasma	ATO5_ldl-c	3.2958446	day	186.97371	mg/dl
+Stern2000	all	24	ATO5	concentration	ldl-c	friedewald	plasma	ATO5_ldl-c	4.1683106	day	178.05191	mg/dl
+Stern2000	all	24	ATO5	concentration	ldl-c	friedewald	plasma	ATO5_ldl-c	7.393575	day	143.67917	mg/dl
+Stern2000	all	24	ATO5	concentration	ldl-c	friedewald	plasma	ATO5_ldl-c	14.311692	day	127.83722	mg/dl
+Stern2000	all	24	ATO5	concentration	ldl-c	friedewald	plasma	ATO5_ldl-c	21.346983	day	125.35211	mg/dl
+Stern2000	all	24	ATO5	concentration	ldl-c	friedewald	plasma	ATO5_ldl-c	28.211191	day	126.27534	mg/dl
+Stern2000	all	24	ATO5	concentration	ldl-c	friedewald	plasma	ATO5_ldl-c	35.07155	day	125.36505	mg/dl
+Stern2000	all	24	ATO5	concentration	ldl-c	friedewald	plasma	ATO5_ldl-c	37.216957	day	128.4694	mg/dl
+Stern2000	all	24	ATO5	concentration	ldl-c	friedewald	plasma	ATO5_ldl-c	40.23978	day	125.00934	mg/dl
+Stern2000	all	24	ATO5	concentration	ldl-c	friedewald	plasma	ATO5_ldl-c	42.37529	day	123.39896	mg/dl
+Stern2000	all	24	ATO20	concentration	ldl-c	friedewald	plasma	ATO20_ldl-c	49.037605	day	113.06239	mg/dl
+Stern2000	all	24	ATO20	concentration	ldl-c	friedewald	plasma	ATO20_ldl-c	56.173565	day	116.07622	mg/dl
+Stern2000	all	24	ATO20	concentration	ldl-c	friedewald	plasma	ATO20_ldl-c	63.206657	day	112.54339	mg/dl
+Stern2000	all	24	ATO20	concentration	ldl-c	friedewald	plasma	ATO20_ldl-c	70.06096	day	108.75186	mg/dl
+Stern2000	all	24	ATO20	concentration	ldl-c	friedewald	plasma	ATO20_ldl-c	77.08415	day	100.50428	mg/dl
+Stern2000	all	24	ATO20	concentration	ldl-c	friedewald	plasma	ATO20_ldl-c	79.150894	day	108.58694	mg/dl
+Stern2000	all	24	ATO20	concentration	ldl-c	friedewald	plasma	ATO20_ldl-c	82.00484	day	109.582924	mg/dl
+Stern2000	all	24	ATO80	concentration	ldl-c	friedewald	plasma	ATO80_ldl-c	84.22836	day	107.44706	mg/dl
+Stern2000	all	24	ATO80	concentration	ldl-c	friedewald	plasma	ATO80_ldl-c	91.05626	day	91.08286	mg/dl
+Stern2000	all	24	ATO80	concentration	ldl-c	friedewald	plasma	ATO80_ldl-c	97.99363	day	84.408485	mg/dl
+Stern2000	all	24	ATO80	concentration	ldl-c	friedewald	plasma	ATO80_ldl-c	105.21046	day	83.49172	mg/dl
+Stern2000	all	24	ATO80	concentration	ldl-c	friedewald	plasma	ATO80_ldl-c	112.171486	day	88.08036	mg/dl
+Stern2000	all	24	ATO80	concentration	ldl-c	friedewald	plasma	ATO80_ldl-c	119.01919	day	81.14567	mg/dl
+Stern2000	all	24	ATO80	concentration	ldl-c	friedewald	plasma	ATO80_ldl-c	120.98471	day	83.467476	mg/dl
+Stern2000	all	24	ATO80	concentration	ldl-c	friedewald	plasma	ATO80_ldl-c	123.21264	day	83.42705	mg/dl
+Stern2000	all	24	ATO80	concentration	ldl-c	friedewald	plasma	ATO80_ldl-c	124.72707	day	83.137634	mg/dl
+Stern2000	all	24	placebo_post	concentration	ldl-c	friedewald	plasma	placebo_post_ldl-c	126.248116	day	85.99139	mg/dl
+Stern2000	all	24	placebo_post	concentration	ldl-c	friedewald	plasma	placebo_post_ldl-c	127.2405	day	91.73607	mg/dl
+Stern2000	all	24	placebo_post	concentration	ldl-c	friedewald	plasma	placebo_post_ldl-c	128.05795	day	99.05558	mg/dl
+Stern2000	all	24	placebo_post	concentration	ldl-c	friedewald	plasma	placebo_post_ldl-c	129.14056	day	105.32251	mg/dl
+Stern2000	all	24	placebo_post	concentration	ldl-c	friedewald	plasma	placebo_post_ldl-c	132.22115	day	129.36516	mg/dl
+Stern2000	all	24	placebo_pre	concentration	cholesterol	cholesterol oxidase/PAP method	plasma	placebo_pre_cholesterol	-6.5994406	day	270.45035	mg/dl
+Stern2000	all	24	placebo_pre	concentration	cholesterol	cholesterol oxidase/PAP method	plasma	placebo_pre_cholesterol	-2.585876	day	271.9492	mg/dl
+Stern2000	all	24	placebo_pre	concentration	cholesterol	cholesterol oxidase/PAP method	plasma	placebo_pre_cholesterol	-0.5405863	day	269.81653	mg/dl
+Stern2000	all	24	ATO5	concentration	cholesterol	cholesterol oxidase/PAP method	plasma	ATO5_cholesterol	1.6009716	day	271.0874	mg/dl
+Stern2000	all	24	ATO5	concentration	cholesterol	cholesterol oxidase/PAP method	plasma	ATO5_cholesterol	2.5559535	day	259.02078	mg/dl
+Stern2000	all	24	ATO5	concentration	cholesterol	cholesterol oxidase/PAP method	plasma	ATO5_cholesterol	3.4465733	day	258.7427	mg/dl
+Stern2000	all	24	ATO5	concentration	cholesterol	cholesterol oxidase/PAP method	plasma	ATO5_cholesterol	4.407606	day	249.55734	mg/dl
+Stern2000	all	24	ATO5	concentration	cholesterol	cholesterol oxidase/PAP method	plasma	ATO5_cholesterol	7.183435	day	213.35918	mg/dl
+Stern2000	all	24	ATO5	concentration	cholesterol	cholesterol oxidase/PAP method	plasma	ATO5_cholesterol	14.469573	day	203.0113	mg/dl
+Stern2000	all	24	ATO5	concentration	cholesterol	cholesterol oxidase/PAP method	plasma	ATO5_cholesterol	21.510365	day	203.14551	mg/dl
+Stern2000	all	24	ATO5	concentration	cholesterol	cholesterol oxidase/PAP method	plasma	ATO5_cholesterol	28.548954	day	202.23198	mg/dl
+Stern2000	all	24	ATO5	concentration	cholesterol	cholesterol oxidase/PAP method	plasma	ATO5_cholesterol	35.681065	day	203.41228	mg/dl
+Stern2000	all	24	ATO5	concentration	cholesterol	cholesterol oxidase/PAP method	plasma	ATO5_cholesterol	37.28132	day	201.54967	mg/dl
+Stern2000	all	24	ATO5	concentration	cholesterol	cholesterol oxidase/PAP method	plasma	ATO5_cholesterol	40.311295	day	201.49469	mg/dl
+Stern2000	all	24	ATO20	concentration	cholesterol	cholesterol oxidase/PAP method	plasma	ATO20_cholesterol	42.346684	day	194.64731	mg/dl
+Stern2000	all	24	ATO20	concentration	cholesterol	cholesterol oxidase/PAP method	plasma	ATO20_cholesterol	49.36052	day	181.94691	mg/dl
+Stern2000	all	24	ATO20	concentration	cholesterol	cholesterol oxidase/PAP method	plasma	ATO20_cholesterol	56.41011	day	186.272	mg/dl
+Stern2000	all	24	ATO20	concentration	cholesterol	cholesterol oxidase/PAP method	plasma	ATO20_cholesterol	63.356834	day	184.05045	mg/dl
+Stern2000	all	24	ATO20	concentration	cholesterol	cholesterol oxidase/PAP method	plasma	ATO20_cholesterol	70.22049	day	184.71173	mg/dl
+Stern2000	all	24	ATO20	concentration	cholesterol	cholesterol oxidase/PAP method	plasma	ATO20_cholesterol	77.23378	day	171.7494	mg/dl
+Stern2000	all	24	ATO20	concentration	cholesterol	cholesterol oxidase/PAP method	plasma	ATO20_cholesterol	79.12284	day	180.09723	mg/dl
+Stern2000	all	24	ATO20	concentration	cholesterol	cholesterol oxidase/PAP method	plasma	ATO20_cholesterol	82.42236	day	181.08513	mg/dl
+Stern2000	all	24	ATO20	concentration	cholesterol	cholesterol oxidase/PAP method	plasma	ATO20_cholesterol	84.29052	day	179.47958	mg/dl
+Stern2000	all	24	ATO80	concentration	cholesterol	cholesterol oxidase/PAP method	plasma	ATO80_cholesterol	91.02161	day	159.44998	mg/dl
+Stern2000	all	24	ATO80	concentration	cholesterol	cholesterol oxidase/PAP method	plasma	ATO80_cholesterol	98.309944	day	150.14983	mg/dl
+Stern2000	all	24	ATO80	concentration	cholesterol	cholesterol oxidase/PAP method	plasma	ATO80_cholesterol	105.07898	day	148.19344	mg/dl
+Stern2000	all	24	ATO80	concentration	cholesterol	cholesterol oxidase/PAP method	plasma	ATO80_cholesterol	112.131325	day	153.82817	mg/dl
+Stern2000	all	24	ATO80	concentration	cholesterol	cholesterol oxidase/PAP method	plasma	ATO80_cholesterol	119.0731	day	149.24924	mg/dl
+Stern2000	all	24	ATO80	concentration	cholesterol	cholesterol oxidase/PAP method	plasma	ATO80_cholesterol	121.12554	day	150.5217	mg/dl
+Stern2000	all	24	ATO80	concentration	cholesterol	cholesterol oxidase/PAP method	plasma	ATO80_cholesterol	123.26434	day	150.4829	mg/dl
+Stern2000	all	24	ATO80	concentration	cholesterol	cholesterol oxidase/PAP method	plasma	ATO80_cholesterol	125.04504	day	149.66476	mg/dl
+Stern2000	all	24	placebo_post	concentration	cholesterol	cholesterol oxidase/PAP method	plasma	placebo_post_cholesterol	126.21236	day	153.83464	mg/dl
+Stern2000	all	24	placebo_post	concentration	cholesterol	cholesterol oxidase/PAP method	plasma	placebo_post_cholesterol	127.124985	day	164.03377	mg/dl
+Stern2000	all	24	placebo_post	concentration	cholesterol	cholesterol oxidase/PAP method	plasma	placebo_post_cholesterol	128.38087	day	167.9401	mg/dl
+Stern2000	all	24	placebo_post	concentration	cholesterol	cholesterol oxidase/PAP method	plasma	placebo_post_cholesterol	129.2858	day	174.47218	mg/dl
+Stern2000	all	24	placebo_post	concentration	cholesterol	cholesterol oxidase/PAP method	plasma	placebo_post_cholesterol	132.47585	day	208.20465	mg/dl

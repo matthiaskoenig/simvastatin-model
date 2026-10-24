@@ -1,0 +1,21 @@
+study	group	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	sd	median	min	max	unit
+Kyrklund2000	all	SIM	cmax	simvastatin	plasma	LC MS/MS	NA	NA	5.6	2.2	NA	NA	NA	ng/ml
+Kyrklund2000	all	SIM	tmax	simvastatin	plasma	LC MS/MS	NA	NA	NA	NA	1.0	0.5	1.5	hr
+Kyrklund2000	all	SIM	thalf	simvastatin	plasma	LC MS/MS	NA	NA	3.2	1.1	NA	NA	NA	hr
+Kyrklund2000	all	SIM	auc_end	simvastatin	plasma	LC MS/MS	12.0	hr	16.2	9.1	NA	NA	NA	ng hr/ml
+Kyrklund2000	all	SIM	auc_inf	simvastatin	plasma	LC MS/MS	NA	NA	17.3	9.9	NA	NA	NA	ng hr/ml
+Kyrklund2000	all	SIM	cmax	simvastatin acid	plasma	LC MS/MS	NA	NA	2.7	1.6	NA	NA	NA	ng/ml
+Kyrklund2000	all	SIM	tmax	simvastatin acid	plasma	LC MS/MS	NA	NA	NA	NA	3.5	2.0	4.0	hr
+Kyrklund2000	all	SIM	thalf	simvastatin acid	plasma	LC MS/MS	NA	NA	2.5	0.6	NA	NA	NA	hr
+Kyrklund2000	all	SIM	auc_end	simvastatin acid	plasma	LC MS/MS	12.0	hr	16.2	8.8	NA	NA	NA	ng hr/ml
+Kyrklund2000	all	SIM	auc_inf	simvastatin acid	plasma	LC MS/MS	NA	NA	17.5	9.3	NA	NA	NA	ng hr/ml
+Kyrklund2000	all	SIM,RIF	cmax	simvastatin	plasma	LC MS/MS	NA	NA	0.6	0.5	NA	NA	NA	ng/ml
+Kyrklund2000	all	SIM,RIF	tmax	simvastatin	plasma	LC MS/MS	NA	NA	NA	NA	1.0	0.5	6.0	hr
+Kyrklund2000	all	SIM,RIF	thalf	simvastatin	plasma	LC MS/MS	NA	NA	3.2	2.2	NA	NA	NA	hr
+Kyrklund2000	all	SIM,RIF	auc_end	simvastatin	plasma	LC MS/MS	12.0	hr	1.84	1.07	NA	NA	NA	ng hr/ml
+Kyrklund2000	all	SIM,RIF	auc_inf	simvastatin	plasma	LC MS/MS	NA	NA	2.4	1.81	NA	NA	NA	ng hr/ml
+Kyrklund2000	all	SIM,RIF	cmax	simvastatin acid	plasma	LC MS/MS	NA	NA	0.3	0.2	NA	NA	NA	ng/ml
+Kyrklund2000	all	SIM,RIF	tmax	simvastatin acid	plasma	LC MS/MS	NA	NA	NA	NA	1.75	0.5	4.0	hr
+Kyrklund2000	all	SIM,RIF	thalf	simvastatin acid	plasma	LC MS/MS	NA	NA	3.0	1.7	NA	NA	NA	hr
+Kyrklund2000	all	SIM,RIF	auc_end	simvastatin acid	plasma	LC MS/MS	12.0	hr	1.05	0.82	NA	NA	NA	ng hr/ml
+Kyrklund2000	all	SIM,RIF	auc_inf	simvastatin acid	plasma	LC MS/MS	NA	NA	1.29	0.93	NA	NA	NA	ng hr/ml

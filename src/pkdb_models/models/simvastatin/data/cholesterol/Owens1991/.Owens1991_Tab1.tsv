@@ -1,0 +1,25 @@
+study	group	count	intervention	measurement_type	substance	method	tissue	label	time	time_unit	mean	se	sd	unit
+Owens1991	all	5	placebo	concentration	cholesterol	 enzymatic coiorimetric methods	plasma	placebo_cholesterol	0	weeks	7.16	0.28	0.626099033699941	mmol/l
+Owens1991	all	5	placebo	concentration	cholesterol	 enzymatic coiorimetric methods	plasma	placebo_cholesterol	12	weeks	7.28	0.27	0.603738353924943	mmol/l
+Owens1991	all	12	SIM	concentration	cholesterol	 enzymatic coiorimetric methods	plasma	SIM_cholesterol	0	weeks	7.54	0.25	0.866025403784439	mmol/l
+Owens1991	all	12	SIM	concentration	cholesterol	 enzymatic coiorimetric methods	plasma	SIM_cholesterol	12	weeks	5.27	0.16	0.554256258422041	mmol/l
+Owens1991	all	10	PRA	concentration	cholesterol	 enzymatic coiorimetric methods	plasma	PRA_cholesterol	0	weeks	7.5	0.27	0.853814968245463	mmol/l
+Owens1991	all	10	PRA	concentration	cholesterol	 enzymatic coiorimetric methods	plasma	PRA_cholesterol	12	weeks	5.81	0.25	0.790569415042095	mmol/l
+Owens1991	all	5	placebo	concentration	ldl-c	 enzymatic coiorimetric methods	plasma	placebo_ldl-c	0	weeks	5.03	0.19	0.42485291572496	mmol/l
+Owens1991	all	5	placebo	concentration	ldl-c	 enzymatic coiorimetric methods	plasma	placebo_ldl-c	12	weeks	4.87	0.2	0.447213595499958	mmol/l
+Owens1991	all	12	SIM	concentration	ldl-c	 enzymatic coiorimetric methods	plasma	SIM_ldl-c	0	weeks	5.81	0.21	0.727461339178928	mmol/l
+Owens1991	all	12	SIM	concentration	ldl-c	 enzymatic coiorimetric methods	plasma	SIM_ldl-c	12	weeks	3.52	0.13	0.450333209967908	mmol/l
+Owens1991	all	10	PRA	concentration	ldl-c	 enzymatic coiorimetric methods	plasma	PRA_ldl-c	0	weeks	5.41	0.27	0.853814968245463	mmol/l
+Owens1991	all	10	PRA	concentration	ldl-c	 enzymatic coiorimetric methods	plasma	PRA_ldl-c	12	weeks	3.59	0.24	0.758946638440411	mmol/l
+Owens1991	all	5	placebo	concentration	hdl-c	 enzymatic coiorimetric methods	plasma	placebo_hdl-c	0	weeks	1.33	0.08	0.178885438199983	mmol/l
+Owens1991	all	5	placebo	concentration	hdl-c	 enzymatic coiorimetric methods	plasma	placebo_hdl-c	12	weeks	1.15	0.06	0.134164078649987	mmol/l
+Owens1991	all	12	SIM	concentration	hdl-c	 enzymatic coiorimetric methods	plasma	SIM_hdl-c	0	weeks	1.19	0.09	0.311769145362398	mmol/l
+Owens1991	all	12	SIM	concentration	hdl-c	 enzymatic coiorimetric methods	plasma	SIM_hdl-c	12	weeks	1.36	0.13	0.450333209967908	mmol/l
+Owens1991	all	10	PRA	concentration	hdl-c	 enzymatic coiorimetric methods	plasma	PRA_hdl-c	0	weeks	1.48	0.1	0.316227766016838	mmol/l
+Owens1991	all	10	PRA	concentration	hdl-c	 enzymatic coiorimetric methods	plasma	PRA_hdl-c	12	weeks	1.61	0.18	0.569209978830308	mmol/l
+Owens1991	all	5	placebo	concentration	triglyceride	 enzymatic coiorimetric methods	plasma	placebo_triglyceride	0	weeks	1.77	0.03	0.0670820393249937	mmol/l
+Owens1991	all	5	placebo	concentration	triglyceride	 enzymatic coiorimetric methods	plasma	placebo_triglyceride	12	weeks	2.28	0.04	0.0894427190999916	mmol/l
+Owens1991	all	12	SIM	concentration	triglyceride	 enzymatic coiorimetric methods	plasma	SIM_triglyceride	0	weeks	1.51	0.15	0.519615242270663	mmol/l
+Owens1991	all	12	SIM	concentration	triglyceride	 enzymatic coiorimetric methods	plasma	SIM_triglyceride	12	weeks	1.36	0.1	0.346410161513775	mmol/l
+Owens1991	all	10	PRA	concentration	triglyceride	 enzymatic coiorimetric methods	plasma	PRA_triglyceride	0	weeks	1.39	0.2	0.632455532033676	mmol/l
+Owens1991	all	10	PRA	concentration	triglyceride	 enzymatic coiorimetric methods	plasma	PRA_triglyceride	12	weeks	1.32	0.09	0.284604989415154	mmol/l

@@ -1,0 +1,15 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	mean_unit	count_unit
+Bergman2004	all	12	simvastatin acid_SIM	SIM	concentration	simvastatin acid	plasma	LC MS/MS	0.0	hr	1.7792004122766834e-06	mole/meter^3	dimensionless
+Bergman2004	all	12	simvastatin acid_SIM	SIM	concentration	simvastatin acid	plasma	LC MS/MS	0.5	hr	1.5209539624370133e-06	mole/meter^3	dimensionless
+Bergman2004	all	12	simvastatin acid_SIM	SIM	concentration	simvastatin acid	plasma	LC MS/MS	1.0	hr	1.8983668346312414e-06	mole/meter^3	dimensionless
+Bergman2004	all	12	simvastatin acid_SIM	SIM	concentration	simvastatin acid	plasma	LC MS/MS	1.5	hr	2.4667063673843335e-06	mole/meter^3	dimensionless
+Bergman2004	all	12	simvastatin acid_SIM	SIM	concentration	simvastatin acid	plasma	LC MS/MS	2.0	hr	3.860959001374255e-06	mole/meter^3	dimensionless
+Bergman2004	all	12	simvastatin acid_SIM	SIM	concentration	simvastatin acid	plasma	LC MS/MS	2.5	hr	5.8267803481447555e-06	mole/meter^3	dimensionless
+Bergman2004	all	12	simvastatin acid_SIM	SIM	concentration	simvastatin acid	plasma	LC MS/MS	3.0	hr	7.4753774622079705e-06	mole/meter^3	dimensionless
+Bergman2004	all	12	simvastatin acid_SIM	SIM	concentration	simvastatin acid	plasma	LC MS/MS	4.0	hr	9.882298213467707e-06	mole/meter^3	dimensionless
+Bergman2004	all	12	simvastatin acid_SIM	SIM	concentration	simvastatin acid	plasma	LC MS/MS	6.0	hr	1.0311289509848834e-05	mole/meter^3	dimensionless
+Bergman2004	all	12	simvastatin acid_SIM	SIM	concentration	simvastatin acid	plasma	LC MS/MS	8.0	hr	8.134762253779202e-06	mole/meter^3	dimensionless
+Bergman2004	all	12	simvastatin acid_SIM	SIM	concentration	simvastatin acid	plasma	LC MS/MS	10.0	hr	6.530207970682547e-06	mole/meter^3	dimensionless
+Bergman2004	all	12	simvastatin acid_SIM	SIM	concentration	simvastatin acid	plasma	LC MS/MS	12.0	hr	3.8449924415941365e-06	mole/meter^3	dimensionless
+Bergman2004	all	12	simvastatin acid_SIM	SIM	concentration	simvastatin acid	plasma	LC MS/MS	16.0	hr	1.716006642235456e-06	mole/meter^3	dimensionless
+Bergman2004	all	12	simvastatin acid_SIM	SIM	concentration	simvastatin acid	plasma	LC MS/MS	24.0	hr	5.719723316536876e-07	mole/meter^3	dimensionless

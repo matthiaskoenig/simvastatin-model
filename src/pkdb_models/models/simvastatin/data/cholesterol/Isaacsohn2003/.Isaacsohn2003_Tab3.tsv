@@ -1,0 +1,97 @@
+study	group	count	intervention	measurement_type	substance	method	label	tissue	time	time_unit	mean	median	sd	se	change	change_sd	unit	baseline	baseline_unit
+Isaacsohn2003	all	49	placebo	concentration	cholesterol	enzymatic assay	placebo_cholesterol_concentration	plasma	0	week	252.0	na	40	5.71428571428571	na	na	mg/dl	252	mg/dl
+Isaacsohn2003	all	47	SIM20	concentration	cholesterol	enzymatic assay	SIM20_cholesterol_concentration	plasma	0	week	254.0	na	57	8.31430451537999	na	na	mg/dl	254	mg/dl
+Isaacsohn2003	all	46	SIM40	concentration	cholesterol	enzymatic assay	SIM40_cholesterol_concentration	plasma	0	week	244.0	na	52	7.66698172005465	na	na	mg/dl	244	mg/dl
+Isaacsohn2003	all	47	SIM80	concentration	cholesterol	enzymatic assay	SIM80_cholesterol_concentration	plasma	0	week	252.0	na	47	6.85565460040104	na	na	mg/dl	252	mg/dl
+Isaacsohn2003	all	49	placebo	concentration	ldl-c	ultracentrifugation	placebo_ldl-c_concentration	plasma	0	week	130.0	na	35	5	na	na	mg/dl	130	mg/dl
+Isaacsohn2003	all	47	SIM20	concentration	ldl-c	ultracentrifugation	SIM20_ldl-c_concentration	plasma	0	week	127.0	na	35	5.10527470242631	na	na	mg/dl	127	mg/dl
+Isaacsohn2003	all	46	SIM40	concentration	ldl-c	ultracentrifugation	SIM40_ldl-c_concentration	plasma	0	week	116.0	na	40	5.89767824619589	na	na	mg/dl	116	mg/dl
+Isaacsohn2003	all	47	SIM80	concentration	ldl-c	ultracentrifugation	SIM80_ldl-c_concentration	plasma	0	week	119.0	na	36	5.2511396939242	na	na	mg/dl	119	mg/dl
+Isaacsohn2003	all	48	placebo	concentration	ldl triglyceride	enzymatic assay	placebo_ldl triglyceride_concentration	plasma	0	week	38.0	na	27	3.89711431702997	na	na	mg/dl	38	mg/dl
+Isaacsohn2003	all	45	SIM20	concentration	ldl triglyceride	enzymatic assay	SIM20_ldl triglyceride_concentration	plasma	0	week	38.0	na	18	2.68328157299975	na	na	mg/dl	38	mg/dl
+Isaacsohn2003	all	45	SIM40	concentration	ldl triglyceride	enzymatic assay	SIM40_ldl triglyceride_concentration	plasma	0	week	46.0	na	26	3.87585116099964	na	na	mg/dl	46	mg/dl
+Isaacsohn2003	all	43	SIM80	concentration	ldl triglyceride	enzymatic assay	SIM80_ldl triglyceride_concentration	plasma	0	week	40.0	na	23	3.50746711764991	na	na	mg/dl	40	mg/dl
+Isaacsohn2003	all	48	placebo	concentration	ldl-apoB100+48	immunochromatography	placebo_ldl-apoB100+48_concentration	plasma	0	week	130.0	na	28	4.04145188432738	na	na	mg/dl	130	mg/dl
+Isaacsohn2003	all	45	SIM20	concentration	ldl-apoB100+48	immunochromatography	SIM20_ldl-apoB100+48_concentration	plasma	0	week	124.0	na	37	5.51563434449948	na	na	mg/dl	124	mg/dl
+Isaacsohn2003	all	45	SIM40	concentration	ldl-apoB100+48	immunochromatography	SIM40_ldl-apoB100+48_concentration	plasma	0	week	115.0	na	41	6.11191913849943	na	na	mg/dl	115	mg/dl
+Isaacsohn2003	all	47	SIM80	concentration	ldl-apoB100+48	immunochromatography	SIM80_ldl-apoB100+48_concentration	plasma	0	week	123.0	na	36	5.2511396939242	na	na	mg/dl	123	mg/dl
+Isaacsohn2003	all	48	placebo	concentration	apoB100+48	radioimmunoassay	placebo_apoB100+48_concentration	plasma	0	week	160.0	na	27	3.89711431702997	na	na	mg/dl	160	mg/dl
+Isaacsohn2003	all	46	SIM20	concentration	apoB100+48	radioimmunoassay	SIM20_apoB100+48_concentration	plasma	0	week	160.0	na	44	6.48744607081547	na	na	mg/dl	160	mg/dl
+Isaacsohn2003	all	46	SIM40	concentration	apoB100+48	radioimmunoassay	SIM40_apoB100+48_concentration	plasma	0	week	145.0	na	33	4.86558455311161	na	na	mg/dl	145	mg/dl
+Isaacsohn2003	all	46	SIM80	concentration	apoB100+48	radioimmunoassay	SIM80_apoB100+48_concentration	plasma	0	week	153.0	na	33	4.86558455311161	na	na	mg/dl	153	mg/dl
+Isaacsohn2003	all	49	placebo	concentration	non-hdl-c	enzymatic assay	placebo_non-hdl-c_concentration	plasma	0	week	213.0	na	39	5.57142857142857	na	na	mg/dl	213	mg/dl
+Isaacsohn2003	all	47	SIM20	concentration	non-hdl-c	enzymatic assay	SIM20_non-hdl-c_concentration	plasma	0	week	216.0	na	54	7.87670954088631	na	na	mg/dl	216	mg/dl
+Isaacsohn2003	all	46	SIM40	concentration	non-hdl-c	enzymatic assay	SIM40_non-hdl-c_concentration	plasma	0	week	207.0	na	50	7.37209780774486	na	na	mg/dl	207	mg/dl
+Isaacsohn2003	all	47	SIM80	concentration	non-hdl-c	enzymatic assay	SIM80_non-hdl-c_concentration	plasma	0	week	217.0	na	48	7.00151959189894	na	na	mg/dl	217	mg/dl
+Isaacsohn2003	all	49	placebo	concentration	cholesterol	enzymatic assay	placebo_cholesterol_concentration	plasma	6	week	250.0	na	72	10.2857142857143	-1.2	13.9	mg/dl	252	mg/dl
+Isaacsohn2003	all	47	SIM20	concentration	cholesterol	enzymatic assay	SIM20_cholesterol_concentration	plasma	6	week	198.0	na	47	6.85565460040104	-21.5	12.4	mg/dl	254	mg/dl
+Isaacsohn2003	all	46	SIM40	concentration	cholesterol	enzymatic assay	SIM40_cholesterol_concentration	plasma	6	week	180.0	na	41	6.04512020235078	-25.8	10.1	mg/dl	244	mg/dl
+Isaacsohn2003	all	47	SIM80	concentration	cholesterol	enzymatic assay	SIM80_cholesterol_concentration	plasma	6	week	170.0	na	35	5.10527470242631	-32.5	8.5	mg/dl	252	mg/dl
+Isaacsohn2003	all	49	placebo	concentration	ldl-c	ultracentrifugation	placebo_ldl-c_concentration	plasma	6	week	127.0	na	37	5.28571428571429	-0.8	16.5	mg/dl	130	mg/dl
+Isaacsohn2003	all	47	SIM20	concentration	ldl-c	ultracentrifugation	SIM20_ldl-c_concentration	plasma	6	week	93.0	na	28	4.08421976194105	-25	14.8	mg/dl	127	mg/dl
+Isaacsohn2003	all	46	SIM40	concentration	ldl-c	ultracentrifugation	SIM40_ldl-c_concentration	plasma	6	week	82.0	na	30	4.42325868464691	-27	17.1	mg/dl	116	mg/dl
+Isaacsohn2003	all	47	SIM80	concentration	ldl-c	ultracentrifugation	SIM80_ldl-c_concentration	plasma	6	week	75.0	na	25	3.64662478744736	-35.4	13.3	mg/dl	119	mg/dl
+Isaacsohn2003	all	48	placebo	concentration	ldl triglyceride	enzymatic assay	placebo_ldl triglyceride_concentration	plasma	6	week	35.0	na	27	3.89711431702997	3.6	73.9	mg/dl	38	mg/dl
+Isaacsohn2003	all	45	SIM20	concentration	ldl triglyceride	enzymatic assay	SIM20_ldl triglyceride_concentration	plasma	6	week	27.0	na	16	2.38513917599978	-36.4	46.3	mg/dl	38	mg/dl
+Isaacsohn2003	all	45	SIM40	concentration	ldl triglyceride	enzymatic assay	SIM40_ldl triglyceride_concentration	plasma	6	week	23.0	na	20	2.98142396999972	-35.3	54.9	mg/dl	46	mg/dl
+Isaacsohn2003	all	43	SIM80	concentration	ldl triglyceride	enzymatic assay	SIM80_ldl triglyceride_concentration	plasma	6	week	17.0	na	16	2.43997712532167	-59.7	46.9	mg/dl	40	mg/dl
+Isaacsohn2003	all	48	placebo	concentration	ldl-apoB100+48	immunochromatography	placebo_ldl-apoB100+48_concentration	plasma	6	week	128.0	na	32	4.61880215351701	-1	15.2	mg/dl	130	mg/dl
+Isaacsohn2003	all	45	SIM20	concentration	ldl-apoB100+48	immunochromatography	SIM20_ldl-apoB100+48_concentration	plasma	6	week	99.0	na	28	4.17399355799961	-12.9	45.1	mg/dl	124	mg/dl
+Isaacsohn2003	all	45	SIM40	concentration	ldl-apoB100+48	immunochromatography	SIM40_ldl-apoB100+48_concentration	plasma	6	week	86.0	na	32	4.77027835199955	-13.5	66.7	mg/dl	115	mg/dl
+Isaacsohn2003	all	47	SIM80	concentration	ldl-apoB100+48	immunochromatography	SIM80_ldl-apoB100+48_concentration	plasma	6	week	79.0	na	27	3.93835477044315	-32.9	23	mg/dl	123	mg/dl
+Isaacsohn2003	all	48	placebo	concentration	apoB100+48	radioimmunoassay	placebo_apoB100+48_concentration	plasma	6	week	157.0	na	29	4.18578945162479	-1.7	9.3	mg/dl	160	mg/dl
+Isaacsohn2003	all	46	SIM20	concentration	apoB100+48	radioimmunoassay	SIM20_apoB100+48_concentration	plasma	6	week	122.0	na	28	4.12837477233712	-22.5	13.8	mg/dl	160	mg/dl
+Isaacsohn2003	all	46	SIM40	concentration	apoB100+48	radioimmunoassay	SIM40_apoB100+48_concentration	plasma	6	week	108.0	na	28	4.12837477233712	-24.9	10.4	mg/dl	145	mg/dl
+Isaacsohn2003	all	46	SIM80	concentration	apoB100+48	radioimmunoassay	SIM80_apoB100+48_concentration	plasma	6	week	102.0	na	25	3.68604890387243	-32.4	11.2	mg/dl	153	mg/dl
+Isaacsohn2003	all	49	placebo	concentration	non-hdl-c	enzymatic assay	placebo_non-hdl-c_concentration	plasma	6	week	212.0	na	73	10.4285714285714	-1.9	15.4	mg/dl	213	mg/dl
+Isaacsohn2003	all	47	SIM20	concentration	non-hdl-c	enzymatic assay	SIM20_non-hdl-c_concentration	plasma	6	week	158.0	na	44	6.41805962590736	-26.4	14	mg/dl	216	mg/dl
+Isaacsohn2003	all	46	SIM40	concentration	non-hdl-c	enzymatic assay	SIM40_non-hdl-c_concentration	plasma	6	week	140.0	na	41	6.04512020235078	-32.3	12.2	mg/dl	207	mg/dl
+Isaacsohn2003	all	47	SIM80	concentration	non-hdl-c	enzymatic assay	SIM80_non-hdl-c_concentration	plasma	6	week	130.0	na	36	5.2511396939242045	-40	10.2	mg/dl	217	mg/dl
+Isaacsohn2003	all	49	placebo	concentration change	cholesterol	enzymatic assay	placebo_cholesterol_concentration change	plasma	0	week	0.0	na	na	na	na	na	percent	252	mg/dl
+Isaacsohn2003	all	47	SIM20	concentration change	cholesterol	enzymatic assay	SIM20_cholesterol_concentration change	plasma	0	week	0.0	na	na	na	na	na	percent	254	mg/dl
+Isaacsohn2003	all	46	SIM40	concentration change	cholesterol	enzymatic assay	SIM40_cholesterol_concentration change	plasma	0	week	0.0	na	na	na	na	na	percent	244	mg/dl
+Isaacsohn2003	all	47	SIM80	concentration change	cholesterol	enzymatic assay	SIM80_cholesterol_concentration change	plasma	0	week	0.0	na	na	na	na	na	percent	252	mg/dl
+Isaacsohn2003	all	49	placebo	concentration change	ldl-c	ultracentrifugation	placebo_ldl-c_concentration change	plasma	0	week	0.0	na	na	na	na	na	percent	130	mg/dl
+Isaacsohn2003	all	47	SIM20	concentration change	ldl-c	ultracentrifugation	SIM20_ldl-c_concentration change	plasma	0	week	0.0	na	na	na	na	na	percent	127	mg/dl
+Isaacsohn2003	all	46	SIM40	concentration change	ldl-c	ultracentrifugation	SIM40_ldl-c_concentration change	plasma	0	week	0.0	na	na	na	na	na	percent	116	mg/dl
+Isaacsohn2003	all	47	SIM80	concentration change	ldl-c	ultracentrifugation	SIM80_ldl-c_concentration change	plasma	0	week	0.0	na	na	na	na	na	percent	119	mg/dl
+Isaacsohn2003	all	48	placebo	concentration change	ldl triglyceride	enzymatic assay	placebo_ldl triglyceride_concentration change	plasma	0	week	0.0	na	na	na	na	na	percent	38	mg/dl
+Isaacsohn2003	all	45	SIM20	concentration change	ldl triglyceride	enzymatic assay	SIM20_ldl triglyceride_concentration change	plasma	0	week	0.0	na	na	na	na	na	percent	38	mg/dl
+Isaacsohn2003	all	45	SIM40	concentration change	ldl triglyceride	enzymatic assay	SIM40_ldl triglyceride_concentration change	plasma	0	week	0.0	na	na	na	na	na	percent	46	mg/dl
+Isaacsohn2003	all	43	SIM80	concentration change	ldl triglyceride	enzymatic assay	SIM80_ldl triglyceride_concentration change	plasma	0	week	0.0	na	na	na	na	na	percent	40	mg/dl
+Isaacsohn2003	all	48	placebo	concentration change	ldl-apoB100+48	immunochromatography	placebo_ldl-apoB100+48_concentration change	plasma	0	week	0.0	na	na	na	na	na	percent	130	mg/dl
+Isaacsohn2003	all	45	SIM20	concentration change	ldl-apoB100+48	immunochromatography	SIM20_ldl-apoB100+48_concentration change	plasma	0	week	0.0	na	na	na	na	na	percent	124	mg/dl
+Isaacsohn2003	all	45	SIM40	concentration change	ldl-apoB100+48	immunochromatography	SIM40_ldl-apoB100+48_concentration change	plasma	0	week	0.0	na	na	na	na	na	percent	115	mg/dl
+Isaacsohn2003	all	47	SIM80	concentration change	ldl-apoB100+48	immunochromatography	SIM80_ldl-apoB100+48_concentration change	plasma	0	week	0.0	na	na	na	na	na	percent	123	mg/dl
+Isaacsohn2003	all	48	placebo	concentration change	apoB100+48	radioimmunoassay	placebo_apoB100+48_concentration change	plasma	0	week	0.0	na	na	na	na	na	percent	160	mg/dl
+Isaacsohn2003	all	46	SIM20	concentration change	apoB100+48	radioimmunoassay	SIM20_apoB100+48_concentration change	plasma	0	week	0.0	na	na	na	na	na	percent	160	mg/dl
+Isaacsohn2003	all	46	SIM40	concentration change	apoB100+48	radioimmunoassay	SIM40_apoB100+48_concentration change	plasma	0	week	0.0	na	na	na	na	na	percent	145	mg/dl
+Isaacsohn2003	all	46	SIM80	concentration change	apoB100+48	radioimmunoassay	SIM80_apoB100+48_concentration change	plasma	0	week	0.0	na	na	na	na	na	percent	153	mg/dl
+Isaacsohn2003	all	49	placebo	concentration change	non-hdl-c	enzymatic assay	placebo_non-hdl-c_concentration change	plasma	0	week	0.0	na	na	na	na	na	percent	213	mg/dl
+Isaacsohn2003	all	47	SIM20	concentration change	non-hdl-c	enzymatic assay	SIM20_non-hdl-c_concentration change	plasma	0	week	0.0	na	na	na	na	na	percent	216	mg/dl
+Isaacsohn2003	all	46	SIM40	concentration change	non-hdl-c	enzymatic assay	SIM40_non-hdl-c_concentration change	plasma	0	week	0.0	na	na	na	na	na	percent	207	mg/dl
+Isaacsohn2003	all	47	SIM80	concentration change	non-hdl-c	enzymatic assay	SIM80_non-hdl-c_concentration change	plasma	0	week	0.0	na	na	na	na	na	percent	217	mg/dl
+Isaacsohn2003	all	49	placebo	concentration change	cholesterol	enzymatic assay	placebo_cholesterol_concentration change	plasma	6	week	-1.2	na	13.9	1.98571428571429	-1.2	13.9	percent	252	mg/dl
+Isaacsohn2003	all	47	SIM20	concentration change	cholesterol	enzymatic assay	SIM20_cholesterol_concentration change	plasma	6	week	-21.5	na	12.4	1.80872589457389	-21.5	12.4	percent	254	mg/dl
+Isaacsohn2003	all	46	SIM40	concentration change	cholesterol	enzymatic assay	SIM40_cholesterol_concentration change	plasma	6	week	-25.8	na	10.1	1.48916375716446	-25.8	10.1	percent	244	mg/dl
+Isaacsohn2003	all	47	SIM80	concentration change	cholesterol	enzymatic assay	SIM80_cholesterol_concentration change	plasma	6	week	-32.5	na	8.5	1.2398524277321	-32.5	8.5	percent	252	mg/dl
+Isaacsohn2003	all	49	placebo	concentration change	ldl-c	ultracentrifugation	placebo_ldl-c_concentration change	plasma	6	week	-0.8	na	16.5	2.35714285714286	-0.8	16.5	percent	130	mg/dl
+Isaacsohn2003	all	47	SIM20	concentration change	ldl-c	ultracentrifugation	SIM20_ldl-c_concentration change	plasma	6	week	-25.0	na	14.8	2.15880187416884	-25	14.8	percent	127	mg/dl
+Isaacsohn2003	all	46	SIM40	concentration change	ldl-c	ultracentrifugation	SIM40_ldl-c_concentration change	plasma	6	week	-27.0	na	17.1	2.52125745024874	-27	17.1	percent	116	mg/dl
+Isaacsohn2003	all	47	SIM80	concentration change	ldl-c	ultracentrifugation	SIM80_ldl-c_concentration change	plasma	6	week	-35.4	na	13.3	1.940004386922	-35.4	13.3	percent	119	mg/dl
+Isaacsohn2003	all	48	placebo	concentration change	ldl triglyceride	enzymatic assay	placebo_ldl triglyceride_concentration change	plasma	6	week	3.6	na	73.9	10.6665462232783	3.6	73.9	percent	38	mg/dl
+Isaacsohn2003	all	45	SIM20	concentration change	ldl triglyceride	enzymatic assay	SIM20_ldl triglyceride_concentration change	plasma	6	week	-36.4	na	46.3	6.90199649054935	-36.4	46.3	percent	38	mg/dl
+Isaacsohn2003	all	45	SIM40	concentration change	ldl triglyceride	enzymatic assay	SIM40_ldl triglyceride_concentration change	plasma	6	week	-35.3	na	54.9	8.18400879764923	-35.3	54.9	percent	46	mg/dl
+Isaacsohn2003	all	43	SIM80	concentration change	ldl triglyceride	enzymatic assay	SIM80_ldl triglyceride_concentration change	plasma	6	week	-59.7	na	46.9	7.15218294859916	-59.7	46.9	percent	40	mg/dl
+Isaacsohn2003	all	48	placebo	concentration change	ldl-apoB100+48	immunochromatography	placebo_ldl-apoB100+48_concentration change	plasma	6	week	-1.0	na	15.2	2.19393102292058	-1	15.2	percent	130	mg/dl
+Isaacsohn2003	all	45	SIM20	concentration change	ldl-apoB100+48	immunochromatography	SIM20_ldl-apoB100+48_concentration change	plasma	6	week	-12.9	na	45.1	6.72311105234937	-12.9	45.1	percent	124	mg/dl
+Isaacsohn2003	all	45	SIM40	concentration change	ldl-apoB100+48	immunochromatography	SIM40_ldl-apoB100+48_concentration change	plasma	6	week	-13.5	na	66.7	9.94304893994907	-13.5	66.7	percent	115	mg/dl
+Isaacsohn2003	all	47	SIM80	concentration change	ldl-apoB100+48	immunochromatography	SIM80_ldl-apoB100+48_concentration change	plasma	6	week	-32.9	na	23	3.35489480445157	-32.9	23	percent	123	mg/dl
+Isaacsohn2003	all	48	placebo	concentration change	apoB100+48	radioimmunoassay	placebo_apoB100+48_concentration change	plasma	6	week	-1.7	na	9.3	1.34233937586588	-1.7	9.3	percent	160	mg/dl
+Isaacsohn2003	all	46	SIM20	concentration change	apoB100+48	radioimmunoassay	SIM20_apoB100+48_concentration change	plasma	6	week	-22.5	na	13.8	2.03469899493758	-22.5	13.8	percent	160	mg/dl
+Isaacsohn2003	all	46	SIM40	concentration change	apoB100+48	radioimmunoassay	SIM40_apoB100+48_concentration change	plasma	6	week	-24.9	na	10.4	1.53339634401093	-24.9	10.4	percent	145	mg/dl
+Isaacsohn2003	all	46	SIM80	concentration change	apoB100+48	radioimmunoassay	SIM80_apoB100+48_concentration change	plasma	6	week	-32.4	na	11.2	1.65134990893485	-32.4	11.2	percent	153	mg/dl
+Isaacsohn2003	all	49	placebo	concentration change	non-hdl-c	enzymatic assay	placebo_non-hdl-c_concentration change	plasma	6	week	-1.9	na	15.4	2.2	-1.9	15.4	percent	213	mg/dl
+Isaacsohn2003	all	47	SIM20	concentration change	non-hdl-c	enzymatic assay	SIM20_non-hdl-c_concentration change	plasma	6	week	-26.4	na	14	2.04210988097052	-26.4	14	percent	216	mg/dl
+Isaacsohn2003	all	46	SIM40	concentration change	non-hdl-c	enzymatic assay	SIM40_non-hdl-c_concentration change	plasma	6	week	-32.3	na	12.2	1.79879186508975	-32.3	12.2	percent	207	mg/dl
+Isaacsohn2003	all	47	SIM80	concentration change	non-hdl-c	enzymatic assay	SIM80_non-hdl-c_concentration change	plasma	6	week	-40.0	na	10.2	1.48782291327852	-40	10.2	percent	217	mg/dl

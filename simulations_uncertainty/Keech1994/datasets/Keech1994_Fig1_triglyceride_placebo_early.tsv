@@ -1,0 +1,3 @@
+study	group	count	intervention	measurement_type	substance	label	tissue	time	time_unit	mean	mean_se	mean_sd	sepm	mean_unit	count_unit
+Keech1994	placebo	207	placebo	concentration	triglyceride	placebo_triglyceride	plasma	-8	weeks	2.6208024	0.1258431	1.81056691791418	2.7466455	mmol/l	dimensionless
+Keech1994	placebo	204	placebo	concentration	triglyceride	placebo_triglyceride	plasma	8	weeks	2.4702961	0.1207954	1.72530340719441	2.3495007	mmol/l	dimensionless

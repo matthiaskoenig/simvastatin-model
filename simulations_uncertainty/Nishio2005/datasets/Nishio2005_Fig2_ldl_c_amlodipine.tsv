@@ -1,0 +1,2 @@
+study	group	count	intervention	measurement_type	label	substance	method	tissue	time	time_unit	mean	mean_sd	mean_se	sdpm	mean_unit	count_unit
+Nishio2005	all	8	SIM, AML	concentration	SIM, AML_ldl-c	ldl-c	enzymatic assay	serum	21	weeks	3.2770284458236354	0.712775536591673	0.252004207693926	154.28572	mole/meter^3	dimensionless

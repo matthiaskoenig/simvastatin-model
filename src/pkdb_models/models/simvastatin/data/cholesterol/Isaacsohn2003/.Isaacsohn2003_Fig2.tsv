@@ -1,0 +1,97 @@
+study	group	count	intervention	measurement_type	substance	method	tissue	time	time_unit	mean	median	se	sd	unit	mean_change	mean_change_se	mean_change_se_curated	median_change	median_change_se	median_change_curated	median_change_unit	mean_change_unit
+Isaacsohn2003	typeIV hyperlipidemia	116	placebo	concentration	triglyceride	enzymatic assay	plasma	6	weeks	NA	397.56972123	NA	NA	mg/dl	NA	NA	NA	-13.383503	6.635879	-20.019382	percent	NA
+Isaacsohn2003	typeIV hyperlipidemia	116	SIM20	concentration	triglyceride	enzymatic assay	plasma	6	weeks	NA	363.62791053	NA	NA	mg/dl	NA	NA	NA	-20.778233	7.327182	-28.105415	percent	NA
+Isaacsohn2003	typeIV hyperlipidemia	116	SIM40	concentration	triglyceride	enzymatic assay	plasma	6	weeks	NA	364.58591697	NA	NA	mg/dl	NA	NA	NA	-20.569517	4.631273	-25.20079	percent	NA
+Isaacsohn2003	typeIV hyperlipidemia	116	SIM80	concentration	triglyceride	enzymatic assay	plasma	6	weeks	NA	307.4834115	NA	NA	mg/dl	NA	NA	NA	-33.01015	3.594468	-36.604618	percent	NA
+Isaacsohn2003	typeIV hyperlipidemia	116	placebo	concentration	ldl-c	ultracentrifugation	plasma	6	weeks	103.4239326	NA	NA	NA	mg/dl	3.4239326	3.1105374	6.53447	NA	NA	NA	NA	percent
+Isaacsohn2003	typeIV hyperlipidemia	116	SIM20	concentration	ldl-c	ultracentrifugation	plasma	6	weeks	77.5037	NA	NA	NA	mg/dl	-22.4963	3.04153	-25.53783	NA	NA	NA	NA	percent
+Isaacsohn2003	typeIV hyperlipidemia	116	SIM40	concentration	ldl-c	ultracentrifugation	plasma	6	weeks	74.740244	NA	NA	NA	mg/dl	-25.259756	3.110422	-28.370178	NA	NA	NA	NA	percent
+Isaacsohn2003	typeIV hyperlipidemia	116	SIM80	concentration	ldl-c	ultracentrifugation	plasma	6	weeks	65.409916	NA	NA	NA	mg/dl	-34.590084	2.41935400000001	-37.009438	NA	NA	NA	NA	percent
+Isaacsohn2003	typeIV hyperlipidemia	116	placebo	concentration	hdl-c	enzymatic assay	plasma	6	weeks	36.032474975	NA	NA	NA	mg/dl	2.9499285	1.5897435	4.539672	NA	NA	NA	NA	percent
+Isaacsohn2003	typeIV hyperlipidemia	116	SIM20	concentration	hdl-c	enzymatic assay	plasma	6	weeks	38.18631145	NA	NA	NA	mg/dl	9.103747	3.387153	12.4909	NA	NA	NA	NA	percent
+Isaacsohn2003	typeIV hyperlipidemia	116	SIM40	concentration	hdl-c	enzymatic assay	plasma	6	weeks	38.3319223	NA	NA	NA	mg/dl	9.519778	1.728226	11.248004	NA	NA	NA	NA	percent
+Isaacsohn2003	typeIV hyperlipidemia	116	SIM80	concentration	hdl-c	enzymatic assay	plasma	6	weeks	38.7679782	NA	NA	NA	mg/dl	10.765652	1.866416	12.632068	NA	NA	NA	NA	percent
+Isaacsohn2003	all	195	placebo	concentration	triglyceride	enzymatic assay	plasma	6	weeks	NA	364.6656288	NA	NA	mg/dl	NA	NA	NA	-9.959104	5.529948	-15.489052	percent	NA
+Isaacsohn2003	all	195	SIM20	concentration	triglyceride	enzymatic assay	plasma	6	weeks	NA	326.59784415	NA	NA	mg/dl	NA	NA	NA	-19.358557	3.180011	-22.538568	percent	NA
+Isaacsohn2003	all	195	SIM40	concentration	triglyceride	enzymatic assay	plasma	6	weeks	NA	309.80724885	NA	NA	mg/dl	NA	NA	NA	-23.504383	3.456219	-26.960602	percent	NA
+Isaacsohn2003	all	195	SIM80	concentration	triglyceride	enzymatic assay	plasma	6	weeks	NA	280.41755715	NA	NA	mg/dl	NA	NA	NA	-30.761097	3.66365	-34.424747	percent	NA
+Isaacsohn2003	all	195	placebo	concentration	ldl-c	ultracentrifugation	plasma	6	weeks	122.155874247	NA	NA	NA	mg/dl	-0.6862811	2.3501698	-3.0364509	NA	NA	NA	NA	percent
+Isaacsohn2003	all	195	SIM20	concentration	ldl-c	ultracentrifugation	plasma	6	weeks	92.31446676	NA	NA	NA	mg/dl	-24.947588	2.142796	-27.090384	NA	NA	NA	NA	percent
+Isaacsohn2003	all	195	SIM40	concentration	ldl-c	ultracentrifugation	plasma	6	weeks	89.93576361	NA	NA	NA	mg/dl	-26.881493	2.557602	-29.439095	NA	NA	NA	NA	percent
+Isaacsohn2003	all	195	SIM80	concentration	ldl-c	ultracentrifugation	plasma	6	weeks	79.81975284	NA	NA	NA	mg/dl	-35.105892	2.073731	-37.179623	NA	NA	NA	NA	percent
+Isaacsohn2003	all	195	placebo	concentration	hdl-c	enzymatic assay	plasma	6	weeks	37.542669417	NA	NA	NA	mg/dl	1.4666741	1.1059897	2.5726638	NA	NA	NA	NA	percent
+Isaacsohn2003	all	195	SIM20	concentration	hdl-c	enzymatic assay	plasma	6	weeks	39.81940962	NA	NA	NA	mg/dl	7.620026	2.212155	9.832181	NA	NA	NA	NA	percent
+Isaacsohn2003	all	195	SIM40	concentration	hdl-c	enzymatic assay	plasma	6	weeks	40.51058849	NA	NA	NA	mg/dl	9.488077	1.451494	10.939571	NA	NA	NA	NA	percent
+Isaacsohn2003	all	195	SIM80	concentration	hdl-c	enzymatic assay	plasma	6	weeks	41.22725666	NA	NA	NA	mg/dl	11.425018	1.520853	12.945871	NA	NA	NA	NA	percent
+Isaacsohn2003	typeIV hyperlipidemia	117	placebo	concentration	triglyceride	enzymatic assay	plasma	0	weeks	459.0	na	NA	NA	mg/dl	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	typeIV hyperlipidemia	117	SIM20	concentration	triglyceride	enzymatic assay	plasma	0	weeks	459.0	na	NA	NA	mg/dl	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	typeIV hyperlipidemia	117	SIM40	concentration	triglyceride	enzymatic assay	plasma	0	weeks	459.0	na	NA	NA	mg/dl	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	typeIV hyperlipidemia	117	SIM80	concentration	triglyceride	enzymatic assay	plasma	0	weeks	459.0	na	NA	NA	mg/dl	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	typeIV hyperlipidemia	117	placebo	concentration	ldl-c	ultracentrifugation	plasma	0	weeks	100.0	na	NA	NA	mg/dl	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	typeIV hyperlipidemia	117	SIM20	concentration	ldl-c	ultracentrifugation	plasma	0	weeks	100.0	na	NA	NA	mg/dl	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	typeIV hyperlipidemia	117	SIM40	concentration	ldl-c	ultracentrifugation	plasma	0	weeks	100.0	na	NA	NA	mg/dl	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	typeIV hyperlipidemia	117	SIM80	concentration	ldl-c	ultracentrifugation	plasma	0	weeks	100.0	na	NA	NA	mg/dl	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	typeIV hyperlipidemia	117	placebo	concentration	hdl-c	enzymatic assay	plasma	0	weeks	35.0	na	NA	NA	mg/dl	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	typeIV hyperlipidemia	117	SIM20	concentration	hdl-c	enzymatic assay	plasma	0	weeks	35.0	na	NA	NA	mg/dl	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	typeIV hyperlipidemia	117	SIM40	concentration	hdl-c	enzymatic assay	plasma	0	weeks	35.0	na	NA	NA	mg/dl	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	typeIV hyperlipidemia	117	SIM80	concentration	hdl-c	enzymatic assay	plasma	0	weeks	35.0	na	NA	NA	mg/dl	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	all	195	placebo	concentration	triglyceride	enzymatic assay	plasma	0	weeks	405.0	na	NA	NA	mg/dl	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	all	195	SIM20	concentration	triglyceride	enzymatic assay	plasma	0	weeks	405.0	na	NA	NA	mg/dl	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	all	195	SIM40	concentration	triglyceride	enzymatic assay	plasma	0	weeks	405.0	na	NA	NA	mg/dl	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	all	195	SIM80	concentration	triglyceride	enzymatic assay	plasma	0	weeks	405.0	na	NA	NA	mg/dl	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	all	195	placebo	concentration	ldl-c	ultracentrifugation	plasma	0	weeks	123.0	na	NA	NA	mg/dl	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	all	195	SIM20	concentration	ldl-c	ultracentrifugation	plasma	0	weeks	123.0	na	NA	NA	mg/dl	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	all	195	SIM40	concentration	ldl-c	ultracentrifugation	plasma	0	weeks	123.0	na	NA	NA	mg/dl	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	all	195	SIM80	concentration	ldl-c	ultracentrifugation	plasma	0	weeks	123.0	na	NA	NA	mg/dl	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	all	195	placebo	concentration	hdl-c	enzymatic assay	plasma	0	weeks	37.0	na	NA	NA	mg/dl	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	all	195	SIM20	concentration	hdl-c	enzymatic assay	plasma	0	weeks	37.0	na	NA	NA	mg/dl	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	all	195	SIM40	concentration	hdl-c	enzymatic assay	plasma	0	weeks	37.0	na	NA	NA	mg/dl	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	all	195	SIM80	concentration	hdl-c	enzymatic assay	plasma	0	weeks	37.0	na	NA	NA	mg/dl	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	typeIV hyperlipidemia	116	placebo	concentration change	triglyceride	enzymatic assay	plasma	6	weeks	-13.383503	NA	NA	6.635879	percent	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	typeIV hyperlipidemia	116	SIM20	concentration change	triglyceride	enzymatic assay	plasma	6	weeks	-20.778233	NA	NA	7.327182	percent	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	typeIV hyperlipidemia	116	SIM40	concentration change	triglyceride	enzymatic assay	plasma	6	weeks	-20.569517	NA	NA	4.631273	percent	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	typeIV hyperlipidemia	116	SIM80	concentration change	triglyceride	enzymatic assay	plasma	6	weeks	-33.01015	NA	NA	3.594468	percent	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	typeIV hyperlipidemia	116	placebo	concentration change	ldl-c	ultracentrifugation	plasma	6	weeks	3.4239326	NA	3.1105374	NA	percent	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	typeIV hyperlipidemia	116	SIM20	concentration change	ldl-c	ultracentrifugation	plasma	6	weeks	-22.4963	NA	3.04153	NA	percent	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	typeIV hyperlipidemia	116	SIM40	concentration change	ldl-c	ultracentrifugation	plasma	6	weeks	-25.259756	NA	3.110422	NA	percent	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	typeIV hyperlipidemia	116	SIM80	concentration change	ldl-c	ultracentrifugation	plasma	6	weeks	-34.590084	NA	2.41935400000001	NA	percent	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	typeIV hyperlipidemia	116	placebo	concentration change	hdl-c	enzymatic assay	plasma	6	weeks	2.9499285	NA	1.5897435	NA	percent	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	typeIV hyperlipidemia	116	SIM20	concentration change	hdl-c	enzymatic assay	plasma	6	weeks	9.103747	NA	3.387153	NA	percent	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	typeIV hyperlipidemia	116	SIM40	concentration change	hdl-c	enzymatic assay	plasma	6	weeks	9.519778	NA	1.728226	NA	percent	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	typeIV hyperlipidemia	116	SIM80	concentration change	hdl-c	enzymatic assay	plasma	6	weeks	10.765652	NA	1.866416	NA	percent	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	all	195	placebo	concentration change	triglyceride	enzymatic assay	plasma	6	weeks	NA	-9.959104	NA	5.529948	percent	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	all	195	SIM20	concentration change	triglyceride	enzymatic assay	plasma	6	weeks	NA	-19.358557	NA	3.180011	percent	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	all	195	SIM40	concentration change	triglyceride	enzymatic assay	plasma	6	weeks	NA	-23.504383	NA	3.456219	percent	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	all	195	SIM80	concentration change	triglyceride	enzymatic assay	plasma	6	weeks	NA	-30.761097	NA	3.66365	percent	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	all	195	placebo	concentration change	ldl-c	ultracentrifugation	plasma	6	weeks	-0.6862811	-9.959104	2.3501698	NA	percent	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	all	195	SIM20	concentration change	ldl-c	ultracentrifugation	plasma	6	weeks	-24.947588	NA	2.142796	NA	percent	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	all	195	SIM40	concentration change	ldl-c	ultracentrifugation	plasma	6	weeks	-26.881493	NA	2.557602	NA	percent	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	all	195	SIM80	concentration change	ldl-c	ultracentrifugation	plasma	6	weeks	-35.105892	NA	2.073731	NA	percent	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	all	195	placebo	concentration change	hdl-c	enzymatic assay	plasma	6	weeks	1.4666741	NA	1.1059897	NA	percent	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	all	195	SIM20	concentration change	hdl-c	enzymatic assay	plasma	6	weeks	7.620026	NA	2.212155	NA	percent	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	all	195	SIM40	concentration change	hdl-c	enzymatic assay	plasma	6	weeks	9.488077	NA	1.451494	NA	percent	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	all	195	SIM80	concentration change	hdl-c	enzymatic assay	plasma	6	weeks	11.425018	NA	1.520853	NA	percent	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	typeIV hyperlipidemia	117	placebo	concentration change	triglyceride	enzymatic assay	plasma	0	weeks	0.0	NA	18.8598066716578	204.0	percent	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	typeIV hyperlipidemia	117	SIM20	concentration change	triglyceride	enzymatic assay	plasma	0	weeks	0.0	NA	18.8598066716578	204.0	percent	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	typeIV hyperlipidemia	117	SIM40	concentration change	triglyceride	enzymatic assay	plasma	0	weeks	0.0	NA	18.8598066716578	204.0	percent	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	typeIV hyperlipidemia	117	SIM80	concentration change	triglyceride	enzymatic assay	plasma	0	weeks	0.0	NA	18.8598066716578	204.0	percent	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	typeIV hyperlipidemia	117	placebo	concentration change	ldl-c	ultracentrifugation	plasma	0	weeks	0.0	NA	2.12635075219671	23.0	percent	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	typeIV hyperlipidemia	117	SIM20	concentration change	ldl-c	ultracentrifugation	plasma	0	weeks	0.0	NA	2.12635075219671	23.0	percent	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	typeIV hyperlipidemia	117	SIM40	concentration change	ldl-c	ultracentrifugation	plasma	0	weeks	0.0	NA	2.12635075219671	23.0	percent	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	typeIV hyperlipidemia	117	SIM80	concentration change	ldl-c	ultracentrifugation	plasma	0	weeks	0.0	NA	2.12635075219671	23.0	percent	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	typeIV hyperlipidemia	117	placebo	concentration change	hdl-c	enzymatic assay	plasma	0	weeks	0.0	NA	0.647150228929434	7.0	percent	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	typeIV hyperlipidemia	117	SIM20	concentration change	hdl-c	enzymatic assay	plasma	0	weeks	0.0	NA	0.647150228929434	7.0	percent	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	typeIV hyperlipidemia	117	SIM40	concentration change	hdl-c	enzymatic assay	plasma	0	weeks	0.0	NA	0.647150228929434	7.0	percent	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	typeIV hyperlipidemia	117	SIM80	concentration change	hdl-c	enzymatic assay	plasma	0	weeks	0.0	NA	0.647150228929434	7.0	percent	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	all	195	placebo	concentration change	triglyceride	enzymatic assay	plasma	0	weeks	0.0	NA	14.3939089681926	201.0	percent	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	all	195	SIM20	concentration change	triglyceride	enzymatic assay	plasma	0	weeks	0.0	NA	14.3939089681926	201.0	percent	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	all	195	SIM40	concentration change	triglyceride	enzymatic assay	plasma	0	weeks	0.0	NA	14.3939089681926	201.0	percent	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	all	195	SIM80	concentration change	triglyceride	enzymatic assay	plasma	0	weeks	0.0	NA	14.3939089681926	201.0	percent	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	all	195	placebo	concentration change	ldl-c	ultracentrifugation	plasma	0	weeks	0.0	NA	2.6496250339459	37.0	percent	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	all	195	SIM20	concentration change	ldl-c	ultracentrifugation	plasma	0	weeks	0.0	NA	2.6496250339459	37.0	percent	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	all	195	SIM40	concentration change	ldl-c	ultracentrifugation	plasma	0	weeks	0.0	NA	2.6496250339459	37.0	percent	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	all	195	SIM80	concentration change	ldl-c	ultracentrifugation	plasma	0	weeks	0.0	NA	2.6496250339459	37.0	percent	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	all	195	placebo	concentration change	hdl-c	enzymatic assay	plasma	0	weeks	0.0	NA	0.64450338663549	9.0	percent	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	all	195	SIM20	concentration change	hdl-c	enzymatic assay	plasma	0	weeks	0.0	NA	0.64450338663549	9.0	percent	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	all	195	SIM40	concentration change	hdl-c	enzymatic assay	plasma	0	weeks	0.0	NA	0.64450338663549	9.0	percent	NA	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	all	195	SIM80	concentration change	hdl-c	enzymatic assay	plasma	0	weeks	0.0	NA	0.64450338663549	9.0	percent	NA	NA	NA	NA	NA	NA	NA	NA

@@ -1,0 +1,603 @@
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{hyperref}
+\title{Simvastatin PBPK/PD model: fit PK}
+\date{}
+\begin{document}
+\maketitle
+
+\section{Methods: Simvastatin PBPK/PD model: fit PK}
+
+\subsection{Parameters and data}
+
+7 parameters were optimized: Ka\_dis [1/hr] dissolution simva (\texttt{Ka\_dis\_simva}), Vmax CYP3A4 simvastatin (liver) (\texttt{LI\_\_SIMVA\_CYP3A4\_Vmax}), Vmax esterase (\texttt{LI\_\_ESTERASE\_Vmax}), Vmax for simvastatin acid import (\texttt{LI\_\_SIMACIDIMP\_Vmax}), tissue distribution simva (\texttt{ftissue\_simva}), tissue to plasma partition coefficient simva (\texttt{Kp\_simva}) and rate of biliary excretion of the simvastatin metabolites (\texttt{LI\_\_EHC\_simmets\_k}).
+
+A fit mapping is a curve of a study, the data and the observable of the model it is compared with. The fit has 50 fit mappings of training data with 550 data points, whose residuals enter the objective; 91 fit mappings of validation data with 990 data points, which were simulated and evaluated with the fitted parameters but not fitted; and 6 fit mappings of outliers with 92 data points, data the fit dropped as not usable, which were evaluated like the validation data so that the decision to drop them can be checked. The fit was set up and run with sbmlsim \cite{Koenig2026_sbmlsim}.
+
+\subsection{Objective function}
+
+The parameters were estimated by minimizing the objective function
+
+\begin{equation}
+F(\vec{p}) = \frac{1}{2} \sum_{k} \sum_{i} \rho\left(w_{i,k}\, r_{i,k}(\vec{p})^2\right)
+\end{equation}
+
+where $k$ runs over the fit mappings of the training data and $i$ over their data points, $r_{i,k}$ is the residual, $w_{i,k} = w_k\, w^{p}_{i,k}$ the weight of the data point and $\rho$ the loss function, applied to the squared weighted residual $z = w_{i,k}\, r_{i,k}^2$. The loss function is linear, $\rho(z) = z$, i.e. a standard least squares problem.
+
+The residuals are normalized by the mean $\overline{y}_k$ of the data of their curve, which makes curves of different quantities and magnitudes comparable:
+
+\begin{equation}
+r_{i,k} = \frac{y_{i,k} - f_k(x_{i,k}, \vec{p})}{\overline{y}_k}
+\end{equation}
+
+The weight of curve $k$ is $w_k = n_k / N_k$, the weight $n_k$ of its fit mapping (the weight its fit mapping collection assigns, 1 by default, or, for a collection which uses the weights of its mappings, the weight of the mapping, by default the number of subjects of its data) divided by the number $N_k$ of its data points.
+
+A data point is weighted with the inverse of its coefficient of variation, $w^{p}_{i,k} = |y_{i,k}| / \sigma_{i,k}$, with $\sigma_{i,k}$ the standard deviation of the data point, or its standard error for data without a standard deviation. An error of zero is missing, a missing error of a curve with errors is replaced by the largest error of the curve, and the data points of a curve without errors have the weight $w^{p}_{i,k} = 2$, the weight of a coefficient of variation of 0.5.
+
+\subsection{Optimization}
+
+The optimizer searched the parameters in log10 space within their bounds; bounds, values and intervals are given in the units of the fit parameters, the units of the table of the parameters.
+
+The objective was minimized in 3 runs with differential evolution \cite{Storn1997} of SciPy \cite{Virtanen2020} within the bounds of the parameters, with the strategy \texttt{best1bin}, a population of 15 times the number of parameters, at most 1000 generations, the relative tolerance 0.01 of convergence, the recombination constant 0.7 and a mutation dithered between 0.5 and 1. The initial population of a run was drawn by latin hypercube sampling \cite{McKay1979}, with a seed of every run derived from the seed 1234 of the fit. The best member of the final population was polished with the L-BFGS-B method of SciPy.
+
+The convergence of the runs was assessed from the traces of their cost and the waterfall plot of their final costs, and the parameter set with the lowest cost was used.
+
+The models were simulated with libRoadRunner \cite{Welsh2023} and its integrator CVODE \cite{Hindmarsh2005} with the relative tolerance $10^{-6}$ and the absolute tolerances $10^{-10}$ of an amount, $10^{-10}$ of a concentration and $10^{-6}$ of the other states, which for a species in a concentration is multiplied by the initial volume of its compartment. It ran with the variable step size of libRoadRunner, i.e. with an output at every step of the integrator. A data point at the time of a change after the start of a simulation, e.g. a dose or the reset of a collection, was compared with the state before the change, except the first data point of a curve with data at later times, which starts a collection and was compared with the state after the change.
+
+\subsection{Goodness of fit}
+
+The goodness of fit is given per kind of data (training data, validation data and outliers) by metrics over its $n$ data points with the residuals $e_i = y_i - f(x_i, \hat{\vec{p}})$ at the fitted parameters $\hat{\vec{p}}$, the mean squared error, its root and the root mean squared error normalized by the mean $\overline{y}_{k(i)}$ of the data of the curve of a point:
+
+\begin{equation}
+\mathrm{MSE} = \frac{1}{n} \sum_{i=1}^{n} e_i^2, \quad \mathrm{RMSE} = \sqrt{\mathrm{MSE}}, \quad \mathrm{NRMSE} = \sqrt{\frac{1}{n} \sum_{i=1}^{n} \left(\frac{e_i}{\overline{y}_{k(i)}}\right)^2}
+\end{equation}
+
+The root mean square of the residuals of the objective, i.e. what the fit minimizes, and the coefficient of determination:
+
+\begin{equation}
+\mathrm{RMSE}_w = \sqrt{\frac{1}{n} \sum_{i=1}^{n} \rho\left(w_i\, r_i^2\right)}, \quad R^2 = 1 - \frac{\sum_{i} e_i^2}{\sum_{i} \left(y_i - \overline{y}\right)^2}
+\end{equation}
+
+The predictions of a non-linear model are no linear regression of the data, so $R^2$ can be negative: the prediction is worse than the mean of the data. The information criteria of Akaike \cite{Akaike1974} and Schwarz \cite{Schwarz1978} with the number $n_p$ of fitted parameters are those of a least squares fit with normally distributed residuals, up to an additive constant, so only differences between models fitted to the same data are meaningful:
+
+\begin{equation}
+\mathrm{AIC} = n \ln(\mathrm{MSE}) + 2 n_p, \quad \mathrm{BIC} = n \ln(\mathrm{MSE}) + n_p \ln(n)
+\end{equation}
+
+The percentage of the data points whose prediction $f_i = f(x_i, \hat{\vec{p}})$ lies within twofold of the data is taken over the $n_+$ data points with positive data $y_i > 0$ and a positive prediction $f_i > 0$; the others have no ratio and are not counted, and a kind of data without such a point has no percentage:
+
+\begin{equation}
+P_2 = \frac{100}{n_+} \left|\left\{ i : \frac{1}{2} \le \frac{f_i}{y_i} \le 2 \right\}\right|
+\end{equation}
+
+The goodness of fit plot shows the predictions against the data on logarithmic axes, with the lines of twofold $f = 2y$ and $f = y/2$. The Bland-Altman plot \cite{Bland1986} shows the ratio of prediction and data as $d_i = \log_{10}(f_i / y_i)$ against the geometric mean $\sqrt{f_i\, y_i}$ for the data points with positive values, with the bias $\overline{d}$ and the limits of agreement $\overline{d} \pm 1.96\, s_d$, with the sample standard deviation $s_d$ of $d_i$, of the training data; they are read as the fold factors $10^{\overline{d}}$ and $10^{\overline{d} \pm 1.96\, s_d}$.
+
+\subsection{Identifiability}
+
+The identifiability of the parameters was analysed with the profile likelihood \cite{Raue2009,Kreutz2013}. The profile of a parameter is the lowest objective with the parameter fixed:
+
+\begin{equation}
+\mathrm{PL}(p_j) = \min_{p_{l \neq j}} F(\vec{p})
+\end{equation}
+
+At every point of a scan the other parameters were re-optimized from the previous point with the least squares optimizer of SciPy with the relative step 0.05. A scan ran from the optimum in both directions in the space of the optimizer, with steps in decades of the parameter, starting at 0.1. A step which raised the objective by more than 0.2 of the distance between the objective at the optimum and the threshold was reduced by the factor 2 and repeated, down to 0.01, and the step after one which raised it by less than that divided by the factor was enlarged by the factor, up to 1. A scan stopped at the threshold, at the bound of the parameter, at a point which failed or after 50 points.
+
+The confidence intervals are the values at which the profile crosses the threshold of the likelihood ratio test
+
+\begin{equation}
+F_{\mathrm{thr}} = F_{\min} + \frac{\chi^2_{\alpha}(\mathrm{df})}{2}
+\end{equation}
+
+with $F_{\min}$ the lowest objective of the fit and of all profiles and $\chi^2_{\alpha}(\mathrm{df})$ the quantile of the $\chi^2$ distribution at the confidence level $\alpha = 0.95$ with df = 1 degrees of freedom, i.e. 1.92 above the lowest objective. The threshold has this confidence level if $F$ is the negative log-likelihood of the data up to a constant, i.e. if the weighted residuals are independent and normally distributed with unit variance; otherwise the level is approximate. A crossing is interpolated between two points of the profile, on the logarithm of a parameter on a logarithmic scale. A parameter is identifiable if its profile reaches the threshold within the scan on both sides of the optimum, i.e. its confidence interval is finite; practically non-identifiable towards the lower bound if its profile reaches the threshold above the optimum but not below it within the scan, which ends at the lower bound or after 50 points; practically non-identifiable towards the upper bound if its profile reaches the threshold below the optimum but not above it within the scan, which ends at the upper bound or after 50 points; practically non-identifiable if its profile reaches the threshold on neither side within the scans, which end at the bounds or after 50 points, and is not flat; and structurally non-identifiable if its profile is flat on both sides. A side of a profile is flat if it rises by less than 0.05 of the distance between the lowest objective and the threshold, and a profile with a point which failed or did not converge is not classified. The profile likelihood is preferred over the intervals of the Fisher information, its intervals are invariant under a transformation of the parameters and can be asymmetric \cite{Wieland2021}.
+
+The Fisher information is the local alternative to the profiles: it is the Gauss-Newton approximation of the curvature of the objective at the optimum, from the Jacobian $J$ of the weighted residuals of the training data with respect to the parameters $\vec{p}$ in the space of the optimizer, computed by central finite differences with the step $h_j = \epsilon \max(|p_j|, 1),\ \epsilon = 10^{-6}$ of the parameter $p_j$:
+
+\begin{equation}
+I = J^\top J, \quad \mathrm{cov} = \sigma^2 I^{-1}, \quad \sigma^2 = \frac{2 F}{n - n_p}
+\end{equation}
+
+with the number $n$ of data points of the training data and the number $n_p$ of parameters. The information has rank 7 of 7, the number of its eigenvalues above $10^{-8}$ of the largest one, and the condition number 260; the covariance of an information of a lower rank is computed with the pseudo-inverse. The Wald intervals are $\hat{p}_j \pm t_{(1+\alpha)/2,\, n-n_p}\, \mathrm{SE}_j$ with the standard errors $\mathrm{SE}_j = \sqrt{\mathrm{cov}_{jj}}$ at the confidence level $\alpha = 0.95$, transformed back into the units of the fit parameters.
+
+\subsection{Provenance}
+
+The fit PK\_20261020\_132206\_\_ce0a9 was run on 2026-10-20 11:22:11 UTC with sbmlsim 0.10.0 \cite{Koenig2026_sbmlsim}, libRoadRunner 2.10.0 \cite{Welsh2023}, SciPy 1.18.1 \cite{Virtanen2020}, NumPy 2.5.3 \cite{Harris2020} and Python 3.14.4 (seed 1234). The models and data were those of commit \texttt{0f92cebb34af4ddca6019057f33cec83e494446b} of \texttt{/home/mkoenig/git/pkdb\_models-simvastatin}; their SHA-256 checksums are listed in Table~\ref{tab:checksums:PK_20261020_132206__ce0a9}.
+
+\begin{longtable}{ll}
+\caption{SHA-256 checksums of the models and data of the fit PK\_20261020\_132206\_\_ce0a9, their first 12 characters; the full checksums are in the provenance of the result (optimization\_result.json).}\label{tab:checksums:PK_20261020_132206__ce0a9} \\
+\toprule
+File & SHA-256 \\
+\midrule
+\endfirsthead
+\multicolumn{2}{l}{\small\tablename~\thetable{} (continued)} \\
+\toprule
+File & SHA-256 \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Crouse1999/.Crouse1999\_Fig1.tsv} & \texttt{374c2de5f28b...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Crouse1999/.Crouse1999\_Tab1.tsv} & \texttt{83b6e4aa1fe8...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Crouse1999/.Crouse1999\_TabGroups.tsv} & \texttt{fe2a95d8bcfc...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Crouse1999/.Crouse1999\_TabInterventions.tsv} & \texttt{ea3b7e7ef1ed...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Davidson1997/.Davidson1997\_Fig1.tsv} & \texttt{fcd6e3d45b9d...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Davidson1997/.Davidson1997\_Fig2.tsv} & \texttt{4e6aada9f299...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Davidson1997/.Davidson1997\_Tab1.tsv} & \texttt{08a1ae284edd...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Davidson1997/.Davidson1997\_TabGroups.tsv} & \texttt{1069ebddabb4...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Davidson1997/.Davidson1997\_TabIndividuals.tsv} & \texttt{8bdadf218ef0...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Davidson1997/.Davidson1997\_TabInterventions.tsv} & \texttt{8a3c8f31e9c4...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Geiss2002/.Geiss2002\_Fig1.tsv} & \texttt{0f20ad78e5f4...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Geiss2002/.Geiss2002\_Tab1.tsv} & \texttt{7c557fd74775...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Geiss2002/.Geiss2002\_Tab2.tsv} & \texttt{0320e9edc7a1...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Geiss2002/.Geiss2002\_TabGroups.tsv} & \texttt{9c21efd4e374...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Geiss2002/.Geiss2002\_TabInterventions.tsv} & \texttt{d4e0d1c48c48...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Isaacsohn2003/.Isaacsohn2003\_Fig1.tsv} & \texttt{a2a077d6e108...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Isaacsohn2003/.Isaacsohn2003\_Fig2.tsv} & \texttt{e8542d45b97f...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Isaacsohn2003/.Isaacsohn2003\_Tab2.tsv} & \texttt{3bb0207ae7c8...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Isaacsohn2003/.Isaacsohn2003\_Tab3.tsv} & \texttt{7735e21972fd...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Isaacsohn2003/.Isaacsohn2003\_Tab4.tsv} & \texttt{105e9cfd07ac...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Isaacsohn2003/.Isaacsohn2003\_TabGroups.tsv} & \texttt{83d5770c6c47...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Isaacsohn2003/.Isaacsohn2003\_TabInterventions.tsv} & \texttt{d12769c0c90c...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Jones1998a/.Jones1998a\_Tab1\_2.tsv} & \texttt{d654cb84d535...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Jones1998a/.Jones1998a\_TabGroups.tsv} & \texttt{570f8ad50870...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Jones1998a/.Jones1998a\_TabInterventions.tsv} & \texttt{2d454845cd93...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Keech1994/.Keech1994\_Fig1.tsv} & \texttt{074d42ae5fe8...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Keech1994/.Keech1994\_Tab3.tsv} & \texttt{f93929734bc7...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Keech1994/.Keech1994\_Tab4.tsv} & \texttt{e6643920d771...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Keech1994/.Keech1994\_TabGroups.tsv} & \texttt{0720b158dd85...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Keech1994/.Keech1994\_TabInterventions.tsv} & \texttt{9b14157d73be...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Kosoglou2002/.Kosoglou2002\_Tab3.tsv} & \texttt{e8bff09f16b2...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Kosoglou2002/.Kosoglou2002\_Tab4.tsv} & \texttt{d9db6b5bdfd8...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Kosoglou2002/.Kosoglou2002\_TabGroups.tsv} & \texttt{76dd98ce59e9...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Kosoglou2002/.Kosoglou2002\_TabInterventions.tsv} & \texttt{3161eb8a4efa...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Li2003/.Li2003\_Tab2.tsv} & \texttt{6c81a2e33618...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Li2003/.Li2003\_Tab3.tsv} & \texttt{30f88a57ba3c...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Li2003/.Li2003\_TabGroups.tsv} & \texttt{9995be29f5c4...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Li2003/.Li2003\_TabInterventions.tsv} & \texttt{91687efc896d...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Loria1993/.Loria1993\_Tab2.tsv} & \texttt{7597329041d0...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Loria1993/.Loria1993\_Tab3.tsv} & \texttt{79ae0175e42c...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Loria1993/.Loria1993\_Tab3B.tsv} & \texttt{853019871071...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Loria1993/.Loria1993\_TabGroups.tsv} & \texttt{6eccb7ba788b...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Loria1993/.Loria1993\_TabIndividuals.tsv} & \texttt{a0b2d60bd16e...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Loria1993/.Loria1993\_TabInterventions.tsv} & \texttt{9d611b2ce7e9...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Moelgaard1988/.Moelgaard1988\_Fig1.tsv} & \texttt{ff7b648f051c...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Moelgaard1988/.Moelgaard1988\_Fig2.tsv} & \texttt{763c9d988e52...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Moelgaard1988/.Moelgaard1988\_Fig3.tsv} & \texttt{441d04524d2e...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Moelgaard1988/.Moelgaard1988\_Fig4.tsv} & \texttt{f256158f5d99...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Moelgaard1988/.Moelgaard1988\_Fig5.tsv} & \texttt{bd9dec6c96f1...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Moelgaard1988/.Moelgaard1988\_Fig6.tsv} & \texttt{6db82021d6a7...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Moelgaard1988/.Moelgaard1988\_Fig7.tsv} & \texttt{394f953f80eb...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Moelgaard1988/.Moelgaard1988\_Tab1.tsv} & \texttt{0fb145fe84f1...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Moelgaard1988/.Moelgaard1988\_Tab2.tsv} & \texttt{df2c20b2954a...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Moelgaard1988/.Moelgaard1988\_Tab3.tsv} & \texttt{c8eb46a88ca4...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Moelgaard1988/.Moelgaard1988\_Tab4.tsv} & \texttt{555c774ddc30...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Moelgaard1988/.Moelgaard1988\_Tab5.tsv} & \texttt{7623c484c878...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Moelgaard1988/.Moelgaard1988\_Tab6.tsv} & \texttt{b8071d83a7ea...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Moelgaard1988/.Moelgaard1988\_TabGroups.tsv} & \texttt{dbb502ce213b...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Moelgaard1988/.Moelgaard1988\_TabIndividuals.tsv} & \texttt{556433bf3f21...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Moelgaard1988/.Moelgaard1988\_TabInterventions.tsv} & \texttt{6fe507b4782c...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Mol1986/.Mol1986\_Fig1.tsv} & \texttt{70819f519441...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Mol1986/.Mol1986\_Tab1.tsv} & \texttt{3c67661d1383...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Mol1986/.Mol1986\_Tab2.tsv} & \texttt{5732a675e1b7...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Mol1986/.Mol1986\_Tab3.tsv} & \texttt{ae203caf61e2...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Mol1986/.Mol1986\_TabGroups.tsv} & \texttt{5254543cf6b0...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Mol1986/.Mol1986\_TabInterventions.tsv} & \texttt{2ac905fc5dee...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Mol1988/.Mol1988\_Fig1.tsv} & \texttt{89acb7b043cc...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Mol1988/.Mol1988\_Tab1.tsv} & \texttt{2a0f7e222162...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Mol1988/.Mol1988\_Tab2.tsv} & \texttt{76462c79defe...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Mol1988/.Mol1988\_Tab3.tsv} & \texttt{bf986056b841...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Mol1988/.Mol1988\_Tab4.tsv} & \texttt{42ba710c35e2...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Mol1988/.Mol1988\_TabGroups.tsv} & \texttt{af92d3a82e6e...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Mol1988/.Mol1988\_TabInterventions.tsv} & \texttt{cb3d22264c1c...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Ntanios1999/.Ntanios1999\_Fig1.tsv} & \texttt{b483f0426bd4...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Ntanios1999/.Ntanios1999\_Tab2.tsv} & \texttt{dcf31c56541a...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Ntanios1999/.Ntanios1999\_Tab3.tsv} & \texttt{01be814af81c...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Ntanios1999/.Ntanios1999\_Tab4.tsv} & \texttt{695607eee8ce...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Ntanios1999/.Ntanios1999\_Tab5.tsv} & \texttt{95c0734cb643...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Ntanios1999/.Ntanios1999\_Tab6.tsv} & \texttt{f171d26d5162...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Ntanios1999/.Ntanios1999\_TabGroups.tsv} & \texttt{50963f325554...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Ntanios1999/.Ntanios1999\_TabInterventions.tsv} & \texttt{e90904709032...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Owens1991/.Owens1991\_Fig1.tsv} & \texttt{e7cdc00a7f84...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Owens1991/.Owens1991\_Fig2.tsv} & \texttt{7e52c9a4937e...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Owens1991/.Owens1991\_Tab1.tsv} & \texttt{bac6f5641aba...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Owens1991/.Owens1991\_Tab2.tsv} & \texttt{f429770a7632...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Owens1991/.Owens1991\_TabGroups.tsv} & \texttt{0adb333f9454...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Owens1991/.Owens1991\_TabIndividuals.tsv} & \texttt{2d367a3f9ece...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Owens1991/.Owens1991\_TabInterventions.tsv} & \texttt{210a70b8b1f1...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Pietro1989/.Pietro1989\_Fig1.tsv} & \texttt{b7282befdeae...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Pietro1989/.Pietro1989\_Tab2.tsv} & \texttt{e3bc0d8e1f9c...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Pietro1989/.Pietro1989\_Tab3.tsv} & \texttt{5a2306e4fe41...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Pietro1989/.Pietro1989\_TabGroups.tsv} & \texttt{00ddff5f045e...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Pietro1989/.Pietro1989\_TabInterventions.tsv} & \texttt{e922eedb9153...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Recto2000/.Recto2000\_Fig2.tsv} & \texttt{a2aae05e14e2...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Recto2000/.Recto2000\_Tab2.tsv} & \texttt{55550db8c322...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Recto2000/.Recto2000\_TabGroups.tsv} & \texttt{822555f14333...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Recto2000/.Recto2000\_TabInterventions.tsv} & \texttt{8917eb76d7fc...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Saito1991/.Saito1991\_Tab10.tsv} & \texttt{27bd2412b87f...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Saito1991/.Saito1991\_Tab12.tsv} & \texttt{d26c2144b1eb...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Saito1991/.Saito1991\_Tab13.tsv} & \texttt{a6d2989eb841...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Saito1991/.Saito1991\_Tab14.tsv} & \texttt{4559cbf9f4bf...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Saito1991/.Saito1991\_Tab16.tsv} & \texttt{b5bc487a865b...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Saito1991/.Saito1991\_Tab6.tsv} & \texttt{bcc82ca003b5...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Saito1991/.Saito1991\_Tab8.tsv} & \texttt{aeb80e8476ed...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Saito1991/.Saito1991\_Tab9.tsv} & \texttt{65fd92f2bfcd...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Saito1991/.Saito1991\_TabGroups.tsv} & \texttt{65e164b5c011...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Saito1991/.Saito1991\_TabInterventions.tsv} & \texttt{7325e8a9f6e0...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Sivkov2021/.Sivkov2021\_Fig2.tsv} & \texttt{a3d833fca278...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Sivkov2021/.Sivkov2021\_Fig3.tsv} & \texttt{ecc9dafb844b...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Sivkov2021/.Sivkov2021\_Tab3.tsv} & \texttt{b1b30e22c354...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Sivkov2021/.Sivkov2021\_Tab4.tsv} & \texttt{b39b03207234...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Sivkov2021/.Sivkov2021\_TabGroups.tsv} & \texttt{f6309313dc17...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Sivkov2021/.Sivkov2021\_TabInterventions.tsv} & \texttt{0ad24ad581f7...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Stern2000/.Stern2000\_Fig1.tsv} & \texttt{c80ea79114f6...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Stern2000/.Stern2000\_Fig2.tsv} & \texttt{d91d66f480ef...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Stern2000/.Stern2000\_Fig3.tsv} & \texttt{007240caf63d...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Stern2000/.Stern2000\_Fig3a.tsv} & \texttt{8f184444b780...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Stern2000/.Stern2000\_Fig3b.tsv} & \texttt{81cab85dd460...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Stern2000/.Stern2000\_Fig3c.tsv} & \texttt{f32fb0894c57...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Stern2000/.Stern2000\_Fig4.tsv} & \texttt{b06798dbf5af...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Stern2000/.Stern2000\_Fig4a.tsv} & \texttt{434c482ed1a2...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Stern2000/.Stern2000\_Fig4b.tsv} & \texttt{e06b1d1853b6...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Stern2000/.Stern2000\_Fig5.tsv} & \texttt{ff63693c52e9...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Stern2000/.Stern2000\_Fig5a.tsv} & \texttt{e1be6dd0a72e...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Stern2000/.Stern2000\_Fig5b.tsv} & \texttt{b3872a2ee178...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Stern2000/.Stern2000\_Fig5c.tsv} & \texttt{2d680913c9e3...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Stern2000/.Stern2000\_Tab1.tsv} & \texttt{45b049a7900e...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Stern2000/.Stern2000\_Tab12.tsv} & \texttt{ba4b7a370e23...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Stern2000/.Stern2000\_Tab2.tsv} & \texttt{5e99bc370845...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Stern2000/.Stern2000\_TabData.tsv} & \texttt{ddca8bec6280...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Stern2000/.Stern2000\_TabGroups.tsv} & \texttt{64ced4dbc070...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Stern2000/.Stern2000\_TabI.tsv} & \texttt{2014a6d23b0e...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Stern2000/.Stern2000\_TabIndividuals.tsv} & \texttt{52f51e2e4034...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Stern2000/.Stern2000\_TabInterventions.tsv} & \texttt{bd56a20461d0...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Tuomilehto1995/.Tuomilehto1995\_Fig1.tsv} & \texttt{5865c621ea45...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Tuomilehto1995/.Tuomilehto1995\_Fig2.tsv} & \texttt{65fc4743173f...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Tuomilehto1995/.Tuomilehto1995\_TabGroups.tsv} & \texttt{1c793709e76d...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Tuomilehto1995/.Tuomilehto1995\_TabInterventions.tsv} & \texttt{fe571fc99b75...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Walker1990/.Walker1990\_Tab2.tsv} & \texttt{a67ff7a62c46...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Walker1990/.Walker1990\_Tab3.tsv} & \texttt{f4c3d0508da9...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Walker1990/.Walker1990\_TabGroups.tsv} & \texttt{9b55c278ff8e...} \\
+\texttt{pkdb\_models/models/simvastatin/data/cholesterol/Walker1990/.Walker1990\_TabInterventions.tsv} & \texttt{0b4d02f022d9...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Backman2000/.Backman2000\_Fig1.tsv} & \texttt{ecbd2467cf3c...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Backman2000/.Backman2000\_Tab1.tsv} & \texttt{4a3998b7a17e...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Backman2000/.Backman2000\_Tab2.tsv} & \texttt{9a2400df8e24...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Backman2000/.Backman2000\_TabI.tsv} & \texttt{69732bcdd92c...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Backman2000/.Backman2000\_TabIndividuals.tsv} & \texttt{69732bcdd92c...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Bergman2004/.Bergman2004\_Fig1.tsv} & \texttt{eba5e1f2e634...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Bergman2004/.Bergman2004\_Fig2.tsv} & \texttt{79fda60b1905...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Bergman2004/.Bergman2004\_Tab1.tsv} & \texttt{092c4df34e70...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Bergman2004/.Bergman2004\_Tab2.tsv} & \texttt{58b0c9827bbd...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Cheng1992/.Cheng1992\_Fig1.tsv} & \texttt{500cd81d4819...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Cheng1992/.Cheng1992\_Fig2.tsv} & \texttt{60b06be164a7...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Cheng1992/.Cheng1992\_Tab1.tsv} & \texttt{616744764720...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Cheng1992/.Cheng1992\_Tab2.tsv} & \texttt{35380d28b8f9...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Cheng1994/.Cheng1994\_Fig2.tsv} & \texttt{bbc27204e409...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Cheng1994/.Cheng1994\_Tab1.tsv} & \texttt{186118c7c660...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Cheng1994/.Cheng1994\_Tab2.tsv} & \texttt{c5ef1b8ecafc...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Cheng1994/.Cheng1994\_TabIndividuals.tsv} & \texttt{5d671372b3d8...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Chung2006/.Chung2006\_Fig2.tsv} & \texttt{5a906b99d646...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Chung2006/.Chung2006\_Fig3.tsv} & \texttt{def7288079d9...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Chung2006/.Chung2006\_Tab1.tsv} & \texttt{9c56536451c5...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Chung2006/.Chung2006\_Tab2.tsv} & \texttt{b9e4177f2b3d...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Chung2006/.Chung2006\_Tab3.tsv} & \texttt{36bdc6d525e7...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Gehin2015/.Gehin2015\_Fig3.tsv} & \texttt{b94b2105f099...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Gehin2015/.Gehin2015\_Fig4.tsv} & \texttt{d27a6b45efa4...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Gehin2015/.Gehin2015\_Tab1.tsv} & \texttt{4fc022c058d4...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Gehin2015/.Gehin2015\_TabI.tsv} & \texttt{7917f5285d26...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Harvey2018/.Harvey2018\_Fig1.tsv} & \texttt{4bbcfe47b02a...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Harvey2018/.Harvey2018\_Tab2.tsv} & \texttt{97100437b334...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Hsyu2001/.Hsyu2001\_Fig1.tsv} & \texttt{2a61f0714adf...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Hsyu2001/.Hsyu2001\_Fig2.tsv} & \texttt{15055dee606f...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Hsyu2001/.Hsyu2001\_Fig3.tsv} & \texttt{a97b20842ccd...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Hsyu2001/.Hsyu2001\_Tab1.tsv} & \texttt{2c4d1fb239bc...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Hsyu2001/.Hsyu2001\_TabI.tsv} & \texttt{3f66700cfc2e...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Jacobson2004/.Jacobson2004\_Fig1.tsv} & \texttt{7188c4452040...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Jacobson2004/.Jacobson2004\_Fig2.tsv} & \texttt{80a256833a0b...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Jacobson2004/.Jacobson2004\_Fig3.tsv} & \texttt{7044e8ac9a22...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Jacobson2004/.Jacobson2004\_Fig4.tsv} & \texttt{6c556b15e3d4...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Jacobson2004/.Jacobson2004\_Tab1.tsv} & \texttt{646d4374acaf...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Jacobson2004/.Jacobson2004\_Tab2.tsv} & \texttt{2070882a8dc1...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Jacobson2004/.Jacobson2004\_Tab3.tsv} & \texttt{bcf5e60c105a...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Jacobson2004/.Jacobson2004\_Tab4.tsv} & \texttt{12144430f87a...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Jiang2017/.Jiang2017\_Fig2.tsv} & \texttt{f4d8829e61e9...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Jiang2017/.Jiang2017\_TabS2.tsv} & \texttt{8b333442dba1...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Kantola1998/.Kantola1998\_Fig1.tsv} & \texttt{fd392a69818b...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Kantola1998/.Kantola1998\_Tab1.tsv} & \texttt{1ad1d8609b7a...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Kantola1998/.Kantola1998\_Tab2.tsv} & \texttt{733cf5dfce5c...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Kantola1998/.Kantola1998\_TabI.tsv} & \texttt{5f032c3df015...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Keskitalo2008/.Keskitalo2008\_Fig1.tsv} & \texttt{31e4ff124429...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Keskitalo2008/.Keskitalo2008\_Tab1.tsv} & \texttt{7e5ac796a253...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Keskitalo2008/.Keskitalo2008\_Tab2.tsv} & \texttt{8d4fcddcbb42...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Keskitalo2008/.Keskitalo2008\_TabGroups.tsv} & \texttt{a4e1dac2cf11...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Keskitalo2008/.Keskitalo2008\_TabInterventions.tsv} & \texttt{9b342c239d43...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Keskitalo2009/.Keskitalo2009\_Fig1.tsv} & \texttt{823c762f1b9e...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Keskitalo2009/.Keskitalo2009\_Tab1.tsv} & \texttt{e06f8a7d70c3...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Keskitalo2009/.Keskitalo2009\_TabGroups.tsv} & \texttt{7807b045fa02...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Keskitalo2009/.Keskitalo2009\_TabInterventions.tsv} & \texttt{f6467616be2c...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Kim2007/.Kim2007\_Fig1.tsv} & \texttt{b20199aa2fc9...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Kim2007/.Kim2007\_Fig2.tsv} & \texttt{2d635a6718f0...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Kim2007/.Kim2007\_Tab2.tsv} & \texttt{96e80a979791...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Kim2007/.Kim2007\_TabGroups.tsv} & \texttt{5c37036fbb17...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Kim2007/.Kim2007\_TabIndividuals.tsv} & \texttt{dead8e0f95b2...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Kim2007/.Kim2007\_TabInterventions.tsv} & \texttt{5d0d9d1486eb...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Kim2019/.Kim2019\_Fig2.tsv} & \texttt{065d8f048cb2...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Kim2019/.Kim2019\_Tab1.tsv} & \texttt{226bb7d4598e...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Kim2019/.Kim2019\_Tab2.tsv} & \texttt{808fd5fa233e...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Kyrklund2000/.Kyrklund2000\_Fig1.tsv} & \texttt{41aedacfc654...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Kyrklund2000/.Kyrklund2000\_Fig2.tsv} & \texttt{56989dcda9fd...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Kyrklund2000/.Kyrklund2000\_Tab1.tsv} & \texttt{1486d23a504e...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Kyrklund2000/.Kyrklund2000\_TabIndividuals.tsv} & \texttt{89f81ad09aea...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Lilja1998/.Lilja1998\_Fig1.tsv} & \texttt{6b34fa549a04...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Lilja1998/.Lilja1998\_Fig2a.tsv} & \texttt{68c0ea2f1dfe...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Lilja1998/.Lilja1998\_Fig2b.tsv} & \texttt{e377e639d0ba...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Lilja1998/.Lilja1998\_Tab2.tsv} & \texttt{2842701f5b6e...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Lilja1998/.Lilja1998\_Tab3.tsv} & \texttt{b37a88a2b167...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Lilja1998/.Lilja1998\_TabI.tsv} & \texttt{4bdfb0a3553b...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Lilja1998/.Lilja1998\_TabIndividuals.tsv} & \texttt{4bdfb0a3553b...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Lilja2000/.Lilja2000\_Fig1.tsv} & \texttt{8492c7051692...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Lilja2000/.Lilja2000\_Tab1.tsv} & \texttt{51714e30e758...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Lilja2000/.Lilja2000\_Tab2.tsv} & \texttt{7342d0414bdf...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Lilja2004/.Lilja2004\_Fig1.tsv} & \texttt{b2f21aa212a8...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Lilja2004/.Lilja2004\_Tab1.tsv} & \texttt{df2d1b1b57be...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Lohitnavy2004/.Lohitnavy2004\_Fig1.tsv} & \texttt{97eb6de936c0...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Lohitnavy2004/.Lohitnavy2004\_Tab1.tsv} & \texttt{01c9753d2c0e...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Marino2000/.Marino2000\_Fig1.tsv} & \texttt{0fdd35adaea3...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Marino2000/.Marino2000\_Tab2.tsv} & \texttt{ce44651157b9...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Mousa2000/.Mousa2000\_Fig1.tsv} & \texttt{76ff9c2f48b9...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Mousa2000/.Mousa2000\_Tab1.tsv} & \texttt{b484a724939c...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Mousa2000/.Mousa2000\_Tab1M.tsv} & \texttt{1604a512c248...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Mousa2000/.Mousa2000\_Tab2.tsv} & \texttt{aebb5b3d9642...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Mousa2000/.Mousa2000\_Tab2M.tsv} & \texttt{1e3673d0de87...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Mousa2000/.Mousa2000\_Tab3.tsv} & \texttt{9ca00d809d4d...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Mousa2000/.Mousa2000\_Tab3M.tsv} & \texttt{29f77a149654...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Mousa2000/.Mousa2000\_TabIndividuals.tsv} & \texttt{ca061e8344a2...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Najib2003/.Najib2003\_Fig1.tsv} & \texttt{bae8419bc544...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Najib2003/.Najib2003\_Fig2.tsv} & \texttt{1252ff169847...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Najib2003/.Najib2003\_Tab1.tsv} & \texttt{98a9f1f79912...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Najib2003/.Najib2003\_Tab2.tsv} & \texttt{1a02d5fd89db...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Neuvonen1998/.Neuvonen1998\_Fig1.tsv} & \texttt{868ddb1955bd...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Neuvonen1998/.Neuvonen1998\_Fig3.tsv} & \texttt{924b4ab33795...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Neuvonen1998/.Neuvonen1998\_Tab2.tsv} & \texttt{4ebcc9758800...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Neuvonen1998/.Neuvonen1998\_Tab3.tsv} & \texttt{23a30440fb61...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Neuvonen1998/.Neuvonen1998\_Tab4.tsv} & \texttt{738072fbfde9...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Neuvonen1998/.Neuvonen1998\_TabIndividuals.tsv} & \texttt{8bbc67a11551...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Nishio2005/.Nishio2005\_Fig1.tsv} & \texttt{5bba34e06277...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Nishio2005/.Nishio2005\_Fig2.tsv} & \texttt{d77cefe1ead9...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Nishio2005/.Nishio2005\_Tab2.tsv} & \texttt{c8eeaf29ed98...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Nishio2005/.Nishio2005\_Tab3.tsv} & \texttt{044577458592...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Nishio2005/.Nishio2005\_TabGroups.tsv} & \texttt{0d4d2a9c3c7a...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Nishio2005/.Nishio2005\_TabInterventions.tsv} & \texttt{14f6423cc45c...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/OBrien2003/.OBrien2003\_Fig1.tsv} & \texttt{df1a3164c060...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/OBrien2003/.OBrien2003\_Fig3.tsv} & \texttt{2c33234eb9c4...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/OBrien2003/.OBrien2003\_Tab2.tsv} & \texttt{ae623f0e281b...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/OBrien2003/.OBrien2003\_Tab3.tsv} & \texttt{935d727aafc9...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/OBrien2003/.OBrien2003\_TabIndividuals.tsv} & \texttt{bd0cad6e90ae...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Pasanen2006/.Pasanen2006\_Fig1.tsv} & \texttt{4bc00ddb6fed...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Pasanen2006/.Pasanen2006\_Fig2.tsv} & \texttt{fae90b975547...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Pasanen2006/.Pasanen2006\_Tab2.tsv} & \texttt{8352d5fd312b...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Pasanen2006/.Pasanen2006\_TabIndividuals.tsv} & \texttt{febccbeda8ba...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Pentikainen1992/.Pentikainen1992\_Fig1.tsv} & \texttt{b18508dd7ce5...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Pentikainen1992/.Pentikainen1992\_Tab1.tsv} & \texttt{f1ff8ad9d1bb...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Prueksaritanont2001/.Prueksaritanont2001\_Fig1.tsv} & \texttt{cd7ec6a49726...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Prueksaritanont2001/.Prueksaritanont2001\_Fig2.tsv} & \texttt{c733b6352fcd...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Prueksaritanont2001/.Prueksaritanont2001\_Fig3.tsv} & \texttt{6468eb0cc3a5...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Prueksaritanont2001/.Prueksaritanont2001\_Fig4.tsv} & \texttt{1b20d4f1830c...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Prueksaritanont2001/.Prueksaritanont2001\_Tab1.tsv} & \texttt{269acad5af0d...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Prueksaritanont2001/.Prueksaritanont2001\_Tab2.tsv} & \texttt{1899d8f45fe7...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Prueksaritanont2001/.Prueksaritanont2001\_TabIndividuals.tsv} & \texttt{a7b77ceaafc5...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Simard2001/.Simard2001\_Fig1.tsv} & \texttt{99eb0a25d718...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Simard2001/.Simard2001\_Fig2.tsv} & \texttt{b540991a073a...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Simard2001/.Simard2001\_Fig3.tsv} & \texttt{60405f18fd80...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Simard2001/.Simard2001\_Tab1.tsv} & \texttt{7c16287c0efc...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Simard2001/.Simard2001\_Tab2.tsv} & \texttt{2ae63a3f5519...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Simard2001/.Simard2001\_TabI.tsv} & \texttt{8908dd3a7e73...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Sugimoto2001/.Sugimoto2001\_Fig1.tsv} & \texttt{72fe70e8215e...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Sugimoto2001/.Sugimoto2001\_Fig2.tsv} & \texttt{5e321203b681...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Sugimoto2001/.Sugimoto2001\_Tab1.tsv} & \texttt{9cc1c9a3e215...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Sugimoto2001/.Sugimoto2001\_Tab1M.tsv} & \texttt{c641bf819afb...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Sugimoto2001/.Sugimoto2001\_Tab2.tsv} & \texttt{debce0c823b1...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Sugimoto2001/.Sugimoto2001\_Tab2M.tsv} & \texttt{f8839682a98e...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Sugimoto2001/.Sugimoto2001\_TabIndividuals.tsv} & \texttt{eea3aa7d8039...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/TubicGrozdanis2008/.TubicGrozdanis2008\_Fig4.tsv} & \texttt{774a13f61f98...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/TubicGrozdanis2008/.TubicGrozdanis2008\_Fig5.tsv} & \texttt{e36a5393833c...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/TubicGrozdanis2008/.TubicGrozdanis2008\_Tab1.tsv} & \texttt{c5f6a020a445...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/TubicGrozdanis2008/.TubicGrozdanis2008\_Tab3.tsv} & \texttt{8683f203ad1b...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Ucar2004/.Ucar2004\_Fig1.tsv} & \texttt{ed0abf1321ac...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Ucar2004/.Ucar2004\_Tab1.tsv} & \texttt{41e77f053886...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Ucar2004/.Ucar2004\_Tab2.tsv} & \texttt{78a73f59a838...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Watanabe2004/.Watanabe2004\_Fig1a.tsv} & \texttt{8c2648465709...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Watanabe2004/.Watanabe2004\_Fig1b.tsv} & \texttt{e92e3418bf33...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Watanabe2004/.Watanabe2004\_Fig2a.tsv} & \texttt{4188e430fe3d...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Watanabe2004/.Watanabe2004\_Fig2b.tsv} & \texttt{a51b040a11ae...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Watanabe2004/.Watanabe2004\_Fig3a.tsv} & \texttt{54886c34fd85...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Watanabe2004/.Watanabe2004\_Fig3b.tsv} & \texttt{7b7dd6ec402a...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Watanabe2004/.Watanabe2004\_Fig4.tsv} & \texttt{9d85a3ba6ab2...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Watanabe2004/.Watanabe2004\_Fig5a.tsv} & \texttt{430e35475116...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Watanabe2004/.Watanabe2004\_Fig5b.tsv} & \texttt{deb85129161e...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Watanabe2004/.Watanabe2004\_TabData.tsv} & \texttt{55edb1f88124...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Watanabe2004/.Watanabe2004\_TabGroups.tsv} & \texttt{4b0f575ed4ed...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Watanabe2004/.Watanabe2004\_TabIndividuals.tsv} & \texttt{283648480dbc...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Watanabe2004/.Watanabe2004\_TabInterventions.tsv} & \texttt{705aba06ceb4...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Watanabe2004/.Watanabe2004\_Tabx.tsv} & \texttt{1bc585e283d2...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Zhi2003/.Zhi2003\_Fig1.tsv} & \texttt{e693aa37bb14...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Zhi2003/.Zhi2003\_Tab3.tsv} & \texttt{4cede8c6ab6a...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Zhou2013/.Zhou2013\_Fig1.tsv} & \texttt{5ebf6be2f586...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Zhou2013/.Zhou2013\_Tab1.tsv} & \texttt{1312b23ac6ee...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Zhou2013/.Zhou2013\_TabA.tsv} & \texttt{23e2ed443fc1...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Ziviani2001/.Ziviani2001\_Fig2.tsv} & \texttt{cec65dd8f894...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Ziviani2001/.Ziviani2001\_Fig3.tsv} & \texttt{e82f63b62b96...} \\
+\texttt{pkdb\_models/models/simvastatin/data/simvastatin/Ziviani2001/.Ziviani2001\_Tab1.tsv} & \texttt{396391b2e500...} \\
+\texttt{pkdb\_models/models/simvastatin/models/output/models/simvastatin\_body\_flat.xml} & \texttt{4ce7282d5a02...} \\
+\end{longtable}
+
+\section{Results: Simvastatin PBPK/PD model: fit PK}
+
+\subsection{Parameters}
+
+\begin{longtable}{llrlrl}
+\caption{Parameters of the fit PK\_20261020\_132206\_\_ce0a9, the parameter set PK\_20261020\_132206\_\_ce0a9\_0, cost 91.5, with their bounds in the optimization. The 95\% confidence intervals are those of the profile likelihood, LB and UB an interval which is open towards the lower or the upper bound, and the Wald intervals of the Fisher information for a parameter without a profile. Identifiable is the classification of the profile: yes, no (LB) or no (UB) if the profile does not reach the threshold towards the lower or the upper bound, no if it reaches it on neither side, structural if it is flat.}\label{tab:parameters:PK_20261020_132206__ce0a9} \\
+\toprule
+Parameter & Description & Value [95\% CI] & Unit & Bounds & Identifiable \\
+\midrule
+\endfirsthead
+\multicolumn{6}{l}{\small\tablename~\thetable{} (continued)} \\
+\toprule
+Parameter & Description & Value [95\% CI] & Unit & Bounds & Identifiable \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+\texttt{Ka\_dis\_simva} & Ka\_dis [1/hr] dissolution simva & 0.604 [0.461, 0.86] & 1/hr & [0.1, 10] & yes \\
+\texttt{LI\_\_SIMVA\_CYP3A4\_Vmax} & Vmax CYP3A4 simvastatin (liver) & 0.0714 [0.0463, 0.102] & mmol/min/l & [0.001, 1] & yes \\
+\texttt{LI\_\_ESTERASE\_Vmax} & Vmax esterase & 0.000355 [0.000253, 0.000512] & mmol/min/l & [1e-05, 0.01] & yes \\
+\texttt{LI\_\_SIMACIDIMP\_Vmax} & Vmax for simvastatin acid import & 0.000156 [0.000112, 0.000233] & mmol/min/l & [1e-05, 0.01] & yes \\
+\texttt{ftissue\_simva} & tissue distribution simva & 1.37 [0.394, 4.07] & l/min & [0.05, 20] & yes \\
+\texttt{Kp\_simva} & tissue to plasma partition coefficient simva & 5.87 [1.33, UB] & dimensionless & [0.5, 20] & no (UB) \\
+\texttt{LI\_\_EHC\_simmets\_k} & rate of biliary excretion of the simvastatin metabolites & 3.03 [2.33, 3.96] & 1/min & [0.1, 100] & yes \\
+\end{longtable}
+
+\subsection{Data}
+
+\begin{longtable}{lrrrr}
+\caption{Data of the fit PK\_20261020\_132206\_\_ce0a9: the number of fit mappings and, in parentheses, of data points per study and kind. The training data enters the cost, the validation data and the outliers are evaluated only.}\label{tab:data:PK_20261020_132206__ce0a9} \\
+\toprule
+Study & Training & Validation & Outlier & Total \\
+\midrule
+\endfirsthead
+\multicolumn{5}{l}{\small\tablename~\thetable{} (continued)} \\
+\toprule
+Study & Training & Validation & Outlier & Total \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+Backman2000 & 2 (22) & 2 (22) & - & 4 (44) \\
+Bergman2004 & - & 8 (104) & - & 8 (104) \\
+Chung2006 & 1 (9) & 2 (17) & - & 3 (26) \\
+Gehin2015 & 2 (25) & 2 (25) & - & 4 (50) \\
+Harvey2018 & - & 4 (52) & - & 4 (52) \\
+Hsyu2001 & - & 2 (24) & - & 2 (24) \\
+Jacobson2004 & 2 (18) & 4 (36) & - & 6 (54) \\
+Jiang2017 & 2 (24) & 2 (24) & - & 4 (48) \\
+Kantola1998 & 2 (16) & 4 (36) & - & 6 (52) \\
+Keskitalo2008 & 4 (44) & - & - & 4 (44) \\
+Keskitalo2009 & 2 (22) & 4 (44) & - & 6 (66) \\
+Kim2007 & 1 (12) & 2 (24) & - & 3 (36) \\
+Kim2019 & 2 (26) & 2 (26) & - & 4 (52) \\
+Kyrklund2000 & 2 (22) & 2 (22) & - & 4 (44) \\
+Lilja1998 & 4 (40) & 4 (40) & - & 8 (80) \\
+Lilja2000 & 2 (18) & 8 (71) & - & 10 (89) \\
+Lilja2004 & 2 (22) & 2 (22) & - & 4 (44) \\
+Lohitnavy2004 & 1 (12) & - & 2 (24) & 3 (36) \\
+Marino2000 & 1 (10) & 1 (10) & - & 2 (20) \\
+Mousa2000 & 1 (10) & 1 (12) & - & 2 (22) \\
+Najib2003 & - & - & 4 (68) & 4 (68) \\
+Neuvonen1998 & 2 (16) & 3 (28) & - & 5 (44) \\
+Nishio2005 & - & 2 (8) & - & 2 (8) \\
+OBrien2003 & - & 4 (42) & - & 4 (42) \\
+Pasanen2006 & 2 (22) & 4 (44) & - & 6 (66) \\
+Pentikainen1992 & 2 (18) & - & - & 2 (18) \\
+Prueksaritanont2001 & - & 8 (72) & - & 8 (72) \\
+Simard2001 & 2 (28) & 2 (29) & - & 4 (57) \\
+Sugimoto2001 & 1 (10) & 3 (30) & - & 4 (40) \\
+TubicGrozdanis2008 & 2 (34) & 4 (69) & - & 6 (103) \\
+Ucar2004 & 2 (22) & 2 (22) & - & 4 (44) \\
+Zhi2003 & 2 (24) & 2 (24) & - & 4 (48) \\
+Zhou2013 & 1 (13) & - & - & 1 (13) \\
+Ziviani2001 & 1 (11) & 1 (11) & - & 2 (22) \\
+Total & 50 (550) & 91 (990) & 6 (92) & 147 (1632) \\
+\end{longtable}
+
+\subsection{Goodness of fit}
+
+\begin{longtable}{lrrrrrrrrrr}
+\caption{Goodness of fit of the fit PK\_20261020\_132206\_\_ce0a9 per kind of data, the parameter set PK\_20261020\_132206\_\_ce0a9\_0. The cost is defined on the training data only, 2-fold is the percentage of the data points with a positive value and prediction whose prediction is within twofold of the data.}\label{tab:metrics:PK_20261020_132206__ce0a9} \\
+\toprule
+Kind & n & cost & MSE & RMSE & NRMSE & RMSE\_w & R\ensuremath{^{2}} & 2-fold [\%] & AIC & BIC \\
+\midrule
+\endfirsthead
+\multicolumn{11}{l}{\small\tablename~\thetable{} (continued)} \\
+\toprule
+Kind & n & cost & MSE & RMSE & NRMSE & RMSE\_w & R\ensuremath{^{2}} & 2-fold [\%] & AIC & BIC \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+training & 550 & 91.5 & 6.68e-11 & 8.17e-06 & 0.412 & 0.577 & 0.71 & 91.1 & -12872.3 & -12842.1 \\
+validation & 990 & - & 1.53e-09 & 3.92e-05 & 0.684 & 0.947 & 0.611 & 71.8 & -20078.4 & -20044.1 \\
+outlier & 92 & - & 9.65e-11 & 9.83e-06 & 1.7 & 2.42 & -0.169 & 12.8 & -2107.6 & -2090.0 \\
+\end{longtable}
+
+\subsection{Figures}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\linewidth]{plots/traces.png}
+\caption{Cost of the optimizers over their steps, fit PK\_20261020\_132206\_\_ce0a9. The cost of every optimization run over its steps. Runs which end at the same cost found the same optimum; a run which stops much higher is stuck in a local minimum.}
+\label{fig:traces:PK_20261020_132206__ce0a9}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\linewidth]{plots/waterfall.png}
+\caption{Cost of the optimization runs, ordered, fit PK\_20261020\_132206\_\_ce0a9. The final cost of the runs, ordered. A flat plateau at the left is the global optimum found repeatedly, which is the evidence that the multistart converged; steps to the right are local minima.}
+\label{fig:waterfall:PK_20261020_132206__ce0a9}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\linewidth]{plots/goodness_of_fit.png}
+\caption{Prediction against the measured data points, per kind of fit mapping, with the agreement of the training data, the lines of twofold and the metrics of the panel, fit PK\_20261020\_132206\_\_ce0a9. Within twofold of the data are 461 of the 506 training data points (91.1\%), 667 of the 929 validation data points (71.8\%) and 11 of the 86 outlier data points (12.8\%); only the data points with a positive value and prediction are counted. Prediction against measurement, one point per data point, with a panel per kind of fit mapping. The points scatter around the diagonal when the model describes the data; a systematic deviation from it is a systematic error of the model. The band is the agreement of the training data, i.e. the same band the Bland-Altman plot draws, here as lines parallel to the diagonal. The dark red dotted lines are twofold, prediction = 2 x measurement and prediction = measurement / 2; the caption states the points between them of every kind. A point which is zero or negative is not drawn on the logarithmic axes and not counted, the title of a panel then states the points drawn of all. The validation panel shows how the fit describes data it was not fitted on, the outlier panel the data the fit dropped. The box of a panel carries its R\ensuremath{^{2}}, its normalized RMSE, the RMSE of the residuals of the cost, its fold errors GMFE and AFE and the percentages of its points within twofold and within two standard deviations of the data.}
+\label{fig:goodness_of_fit:PK_20261020_132206__ce0a9}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\linewidth]{plots/bland_altman.png}
+\caption{Agreement of prediction and measurement as a ratio, per kind of fit mapping, with the agreement of the training data and the agreement of the panel, fit PK\_20261020\_132206\_\_ce0a9. The ratio of prediction and measurement over the geometric mean of the two, i.e. the goodness of fit with the diagonal turned into the horizontal. The band is the same, the bias and the limits of agreement \texttt{bias \ensuremath{\pm} 1.96 SD} of the training data as fold factors. A bias away from 1 is a systematic over- or underprediction, wide limits are a large scatter, and a trend over the mean is a model which describes the large or the small values better. The box of a panel carries the bias and the SD of its own points as fold factors and the share of them inside the limits of agreement of the training data.}
+\label{fig:bland_altman:PK_20261020_132206__ce0a9}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\linewidth]{plots/profiles.png}
+\caption{Profile likelihood of every parameter: the cost with the parameter fixed and the other parameters optimized, the threshold of the confidence level and the confidence interval, fit PK\_20261020\_132206\_\_ce0a9. One profile per parameter. A profile which crosses the dashed threshold on both sides gives a finite confidence interval; one which stays below it up to a bound is practically non-identifiable; a flat profile is structurally non-identifiable, the parameter is compensated by the others.}
+\label{fig:profiles:PK_20261020_132206__ce0a9}
+\end{figure}
+
+\subsection{Provenance}
+
+\begin{longtable}{ll}
+\caption{Provenance of the fit PK\_20261020\_132206\_\_ce0a9: the versions it ran with and the revision of its models and data; the SHA-256 checksums of the models and data are listed in Table~\ref{tab:checksums:PK_20261020_132206__ce0a9}.}\label{tab:provenance:PK_20261020_132206__ce0a9} \\
+\toprule
+Item & Value \\
+\midrule
+\endfirsthead
+\multicolumn{2}{l}{\small\tablename~\thetable{} (continued)} \\
+\toprule
+Item & Value \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+Fit & \texttt{PK\_20261020\_132206\_\_ce0a9} \\
+Created & 2026-10-20 11:22:11 UTC \\
+Seed & 1234 \\
+Python & 3.14.4 \\
+sbmlsim & 0.10.0 \\
+libRoadRunner & 2.10.0 \\
+SciPy & 1.18.1 \\
+NumPy & 2.5.3 \\
+Repository & \texttt{/home/mkoenig/git/pkdb\_models-simvastatin} \\
+Commit & \texttt{0f92cebb34af4ddca6019057f33cec83e494446b} \\
+Uncommitted changes & no \\
+\end{longtable}
+
+\bibliographystyle{unsrt}
+\bibliography{references}
+
+\end{document}

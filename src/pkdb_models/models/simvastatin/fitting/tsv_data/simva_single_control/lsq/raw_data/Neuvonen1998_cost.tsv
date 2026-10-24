@@ -1,0 +1,5 @@
+id	experiment	mapping	cost	type
+Neuvonen1998_fm_totalInhibitors	Neuvonen1998	fm_totalInhibitors	58.39885934059188	initial
+Neuvonen1998_fm_totalInhibitors	Neuvonen1998	fm_totalInhibitors	0.3356577583455443	fit
+Neuvonen1998_fm_activeInhibitors	Neuvonen1998	fm_activeInhibitors	16.3499606406035	initial
+Neuvonen1998_fm_activeInhibitors	Neuvonen1998	fm_activeInhibitors	0.28637149602266315	fit

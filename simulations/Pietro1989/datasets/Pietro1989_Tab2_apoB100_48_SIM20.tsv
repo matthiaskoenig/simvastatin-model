@@ -1,0 +1,3 @@
+study	group	count	intervention	measurement_type	substance	time	time_unit	tissue	method	mean	baseline	min	max	mean_unit	count_unit
+Pietro1989	SIM_20mg	82	SIM20	concentration	apoB100+48	12	weeks	plasma	enzymatic assay	137	203			mg/dl	dimensionless
+Pietro1989	SIM_20mg	82	SIM20	concentration	apoB100+48	0	weeks	plasma	enzymatic assay	203	203			mg/dl	dimensionless

@@ -1,0 +1,33 @@
+study	group	count	intervention	measurement_type	substance	method	label	tissue	time	time_unit	mean	median	sd	se	median_change	median_change_sd	unit	changeunit
+Isaacsohn2003	all	49	placebo	concentration	triglyceride	enzymatic assay	placebo_triglyceride	plasma	0	week	NA	401	188	26.8571428571429	0.0	na	mg/dl	percent
+Isaacsohn2003	all	47	SIM20	concentration	triglyceride	enzymatic assay	SIM20_triglyceride	plasma	0	week	NA	424	212	30.9233781975536	0.0	na	mg/dl	percent
+Isaacsohn2003	all	46	SIM40	concentration	triglyceride	enzymatic assay	SIM40_triglyceride	plasma	0	week	NA	387	206	30.3730429679088	0.0	na	mg/dl	percent
+Isaacsohn2003	all	47	SIM80	concentration	triglyceride	enzymatic assay	SIM80_triglyceride	plasma	0	week	NA	423	201	29.3188632910768	0.0	na	mg/dl	percent
+Isaacsohn2003	all	49	placebo	concentration	vldl-c	ultracentrifugation	placebo_vldl-c	plasma	0	week	NA	77	38	5.42857142857143	0.0	na	mg/dl	percent
+Isaacsohn2003	all	47	SIM20	concentration	vldl-c	ultracentrifugation	SIM20_vldl-c	plasma	0	week	NA	77	48	7.00151959189894	0.0	na	mg/dl	percent
+Isaacsohn2003	all	46	SIM40	concentration	vldl-c	ultracentrifugation	SIM40_vldl-c	plasma	0	week	NA	75	41	6.04512020235078	0.0	na	mg/dl	percent
+Isaacsohn2003	all	47	SIM80	concentration	vldl-c	ultracentrifugation	SIM80_vldl-c	plasma	0	week	NA	88	45	6.56392461740526	0.0	na	mg/dl	percent
+Isaacsohn2003	all	46	placebo	concentration	vldl triglyceride	enzymatic assay	placebo_vldl triglyceride	plasma	0	week	NA	287	140	20.6418738616856	0.0	na	mg/dl	percent
+Isaacsohn2003	all	42	SIM20	concentration	vldl triglyceride	enzymatic assay	SIM20_vldl triglyceride	plasma	0	week	NA	312	161	24.8428393438968	0.0	na	mg/dl	percent
+Isaacsohn2003	all	44	SIM40	concentration	vldl triglyceride	enzymatic assay	SIM40_vldl triglyceride	plasma	0	week	NA	307	195	29.397356096332	0.0	na	mg/dl	percent
+Isaacsohn2003	all	45	SIM80	concentration	vldl triglyceride	enzymatic assay	SIM80_vldl triglyceride	plasma	0	week	NA	310	221	32.9447348684969	0.0	na	mg/dl	percent
+Isaacsohn2003	all	47	placebo	concentration	vldl-apoB100+48	immunochromatography	placebo_vldl-apoB100+48	plasma	0	week	NA	22	15	2.18797487246842	0.0	na	mg/dl	percent
+Isaacsohn2003	all	39	SIM20	concentration	vldl-apoB100+48	immunochromatography	SIM20_vldl-apoB100+48	plasma	0	week	NA	23	14	2.24179415327122	0.0	na	mg/dl	percent
+Isaacsohn2003	all	39	SIM40	concentration	vldl-apoB100+48	immunochromatography	SIM40_vldl-apoB100+48	plasma	0	week	NA	24	11	1.76140969185596	0.0	na	mg/dl	percent
+Isaacsohn2003	all	40	SIM80	concentration	vldl-apoB100+48	immunochromatography	SIM80_vldl-apoB100+48	plasma	0	week	NA	27	15	2.37170824512628	0.0	na	mg/dl	percent
+Isaacsohn2003	all	49	placebo	concentration	triglyceride	enzymatic assay	placebo_triglyceride	plasma	6	week	NA	373	193	27.5714285714286	-10.1	38.9	mg/dl	percent
+Isaacsohn2003	all	47	SIM20	concentration	triglyceride	enzymatic assay	SIM20_triglyceride	plasma	6	week	NA	299	180	26.255698469621	-19.6	21	mg/dl	percent
+Isaacsohn2003	all	46	SIM40	concentration	triglyceride	enzymatic assay	SIM40_triglyceride	plasma	6	week	NA	297	143	21.0841997301503	-23.7	23.9	mg/dl	percent
+Isaacsohn2003	all	47	SIM80	concentration	triglyceride	enzymatic assay	SIM80_triglyceride	plasma	6	week	NA	291	181	26.4015634611189	-30.8	25.4	mg/dl	percent
+Isaacsohn2003	all	49	placebo	concentration	vldl-c	ultracentrifugation	placebo_vldl-c	plasma	6	week	NA	71	32	4.57142857142857	-5.2	48.1	mg/dl	percent
+Isaacsohn2003	all	47	SIM20	concentration	vldl-c	ultracentrifugation	SIM20_vldl-c	plasma	6	week	NA	59	30	4.37594974493684	-29.1	27.1	mg/dl	percent
+Isaacsohn2003	all	46	SIM40	concentration	vldl-c	ultracentrifugation	SIM40_vldl-c	plasma	6	week	NA	54	27	3.98093281618222	-34.9	24.9	mg/dl	percent
+Isaacsohn2003	all	47	SIM80	concentration	vldl-c	ultracentrifugation	SIM80_vldl-c	plasma	6	week	NA	45	34	4.95940971092842	-41.9	21	mg/dl	percent
+Isaacsohn2003	all	46	placebo	concentration	vldl triglyceride	enzymatic assay	placebo_vldl triglyceride	plasma	6	week	NA	279	173	25.5074584147972	0.5	41.6	mg/dl	percent
+Isaacsohn2003	all	42	SIM20	concentration	vldl triglyceride	enzymatic assay	SIM20_vldl triglyceride	plasma	6	week	NA	227	157	24.2256259440484	-19.6	34.5	mg/dl	percent
+Isaacsohn2003	all	44	SIM40	concentration	vldl triglyceride	enzymatic assay	SIM40_vldl triglyceride	plasma	6	week	NA	218	124	18.6937033638213	-25.7	42.1	mg/dl	percent
+Isaacsohn2003	all	45	SIM80	concentration	vldl triglyceride	enzymatic assay	SIM80_vldl triglyceride	plasma	6	week	NA	213	158	23.5532493629978	-31.0	34.9	mg/dl	percent
+Isaacsohn2003	all	47	placebo	concentration	vldl-apoB100+48	radioimmunoassay	placebo_vldl-apoB100+48	plasma	6	week	NA	23	10	1.45864991497895	13.0	85.6	mg/dl	percent
+Isaacsohn2003	all	39	SIM20	concentration	vldl-apoB100+48	radioimmunoassay	SIM20_vldl-apoB100+48	plasma	6	week	NA	20	8	1.2810252304407	-12.5	52.8	mg/dl	percent
+Isaacsohn2003	all	39	SIM40	concentration	vldl-apoB100+48	radioimmunoassay	SIM40_vldl-apoB100+48	plasma	6	week	NA	19	11	1.76140969185596	-28.2	49	mg/dl	percent
+Isaacsohn2003	all	40	SIM80	concentration	vldl-apoB100+48	radioimmunoassay	SIM80_vldl-apoB100+48	plasma	6	week	NA	18	9	1.42302494707577	-24.4	39.9	mg/dl	percent

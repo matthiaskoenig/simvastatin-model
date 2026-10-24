@@ -1,0 +1,3 @@
+study	group	label	count	intervention	measurement_type	substance	tissue	time	time_unit	mean	mean_sd	mean_se	mean_unit	count_unit
+Kosoglou2002	SIM20+EZE10	SIM20+EZE10_hdl-c	8	SIM20,EZE10	concentration	hdl-c	serum	0	day	1.2050685285751226	0.18285667990342588	0.06464959917248511	mole/meter^3	dimensionless
+Kosoglou2002	SIM20+EZE10	SIM20+EZE10_hdl-c	8	SIM20,EZE10	concentration	hdl-c	serum	13	day	1.0292216188259629	0.1316568095304665	0.046547711404189285	mole/meter^3	dimensionless

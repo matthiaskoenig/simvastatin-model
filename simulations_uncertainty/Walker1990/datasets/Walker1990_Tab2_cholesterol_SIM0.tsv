@@ -1,0 +1,3 @@
+study	group	count	intervention	measurement_type	substance	tissue	label	time	time_unit	mean	change	mean_unit	count_unit
+Walker1990	SIM0mg	31	SIM0	concentration	cholesterol	serum	cholesterol_SIM0	0	weeks	8.47168347556245	0.0	mole/meter^3	dimensionless
+Walker1990	SIM0mg	31	SIM0	concentration	cholesterol	serum	cholesterol_SIM0	4	weeks	8.192397207137315	-3.4	mole/meter^3	dimensionless

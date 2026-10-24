@@ -1,0 +1,21 @@
+study	individual	intervention	measurement	substance	tissue	method	time	time_unit	value	unit
+Backman2000	1	GEM	cmax	gemfibrozil	plasma	LC MS/MS	NA	NA	35.6	mg/l
+Backman2000	2	GEM	cmax	gemfibrozil	plasma	LC MS/MS	NA	NA	34.1	mg/l
+Backman2000	3	GEM	cmax	gemfibrozil	plasma	LC MS/MS	NA	NA	38.1	mg/l
+Backman2000	4	GEM	cmax	gemfibrozil	plasma	LC MS/MS	NA	NA	31.2	mg/l
+Backman2000	5	GEM	cmax	gemfibrozil	plasma	LC MS/MS	NA	NA	42.1	mg/l
+Backman2000	6	GEM	cmax	gemfibrozil	plasma	LC MS/MS	NA	NA	29.1	mg/l
+Backman2000	7	GEM	cmax	gemfibrozil	plasma	LC MS/MS	NA	NA	35.0	mg/l
+Backman2000	8	GEM	cmax	gemfibrozil	plasma	LC MS/MS	NA	NA	30.4	mg/l
+Backman2000	9	GEM	cmax	gemfibrozil	plasma	LC MS/MS	NA	NA	63.3	mg/l
+Backman2000	10	GEM	cmax	gemfibrozil	plasma	LC MS/MS	NA	NA	40.4	mg/l
+Backman2000	1	GEM	auc_end	gemfibrozil	plasma	LC MS/MS	12.0	hr	88.0	mg/l*hr
+Backman2000	2	GEM	auc_end	gemfibrozil	plasma	LC MS/MS	12.0	hr	55.3	mg/l*hr
+Backman2000	3	GEM	auc_end	gemfibrozil	plasma	LC MS/MS	12.0	hr	75.8	mg/l*hr
+Backman2000	4	GEM	auc_end	gemfibrozil	plasma	LC MS/MS	12.0	hr	75.7	mg/l*hr
+Backman2000	5	GEM	auc_end	gemfibrozil	plasma	LC MS/MS	12.0	hr	173.1	mg/l*hr
+Backman2000	6	GEM	auc_end	gemfibrozil	plasma	LC MS/MS	12.0	hr	74.8	mg/l*hr
+Backman2000	7	GEM	auc_end	gemfibrozil	plasma	LC MS/MS	12.0	hr	136.2	mg/l*hr
+Backman2000	8	GEM	auc_end	gemfibrozil	plasma	LC MS/MS	12.0	hr	77.8	mg/l*hr
+Backman2000	9	GEM	auc_end	gemfibrozil	plasma	LC MS/MS	12.0	hr	281.5	mg/l*hr
+Backman2000	10	GEM	auc_end	gemfibrozil	plasma	LC MS/MS	12.0	hr	127.8	mg/l*hr

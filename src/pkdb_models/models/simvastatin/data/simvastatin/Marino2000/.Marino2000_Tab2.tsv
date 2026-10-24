@@ -1,0 +1,9 @@
+study	group	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	sd	unit
+Marino2000	all_sub	SIM	cmax	simva+simacid	serum	GC/MS	NA	NA	11.09	7.55	ng/ml
+Marino2000	all_sub	SIM	auc_inf	simva+simacid	serum	GC/MS	NA	NA	74.55	48.9	ng hr/ml
+Marino2000	all_sub	SIM	tmax	simva+simacid	serum	GC/MS	NA	NA	3.17	1.75	hr
+Marino2000	all_sub	SIM	thalf	simva+simacid	serum	GC/MS	NA	NA	6.31	3.67	hr
+Marino2000	all_sub	SIM,IRB	cmax	simva+simacid	serum	GC/MS	NA	NA	8.98	6.2	ng/ml
+Marino2000	all_sub	SIM,IRB	auc_inf	simva+simacid	serum	GC/MS	NA	NA	67.55	37.02	ng hr/ml
+Marino2000	all_sub	SIM,IRB	tmax	simva+simacid	serum	GC/MS	NA	NA	3.33	1.83	hr
+Marino2000	all_sub	SIM,IRB	thalf	simva+simacid	serum	GC/MS	NA	NA	5.97	3.01	hr

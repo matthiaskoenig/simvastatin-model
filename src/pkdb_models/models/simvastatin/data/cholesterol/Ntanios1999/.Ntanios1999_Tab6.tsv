@@ -1,0 +1,7 @@
+study	group	count	intervention	measurement_type	substance	tissue	label	time	time_unit	mean	sd	se	unit
+Ntanios1999	all	18	SIM	concentration	campesterol	plasma	tab6_campesterol	0	weeks	0.026	0.01	0.00235702260395516	mmol/l
+Ntanios1999	all	18	SIM	concentration	campesterol	plasma	tab6_campesterol	24	weeks	0.02	0.009	0.00212132034355964	mmol/l
+Ntanios1999	all	18	SIM	concentration	stigmasterol	plasma	tab6_stigmasterol	0	weeks	0.012	0.01	0.00235702260395516	mmol/l
+Ntanios1999	all	18	SIM	concentration	stigmasterol	plasma	tab6_stigmasterol	24	weeks	0.01	0.004	0.000942809041582063	mmol/l
+Ntanios1999	all	18	SIM	concentration	sitosterol	plasma	tab6_sitosterol	0	weeks	0.041	0.02	0.00471404520791032	mmol/l
+Ntanios1999	all	18	SIM	concentration	sitosterol	plasma	tab6_sitosterol	24	weeks	0.034	0.011	0.00259272486435067	mmol/l

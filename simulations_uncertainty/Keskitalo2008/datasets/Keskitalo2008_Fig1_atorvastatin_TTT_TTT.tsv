@@ -1,0 +1,14 @@
+study	group	count	intervention	measurement_type	substance	method	tissue	label	time	time_unit	mean	mean_sd	mean_se	pm	mean_unit	count_unit
+Keskitalo2008	TTT/TTT	12	ATO_20mg	concentration	atorvastatin	LC MS/MS	plasma	ATO_20mg_atorvastatin_TTT/TTT	0.0	hr	0.0				ng/ml	dimensionless
+Keskitalo2008	TTT/TTT	12	ATO_20mg	concentration	atorvastatin	LC MS/MS	plasma	ATO_20mg_atorvastatin_TTT/TTT	0.5	hr	4.5888247	4.06901204583731	1.1746226	5.7634473	ng/ml	dimensionless
+Keskitalo2008	TTT/TTT	12	ATO_20mg	concentration	atorvastatin	LC MS/MS	plasma	ATO_20mg_atorvastatin_TTT/TTT	1.0	hr	4.549602	2.19923791112491	0.6348653	5.1844673	ng/ml	dimensionless
+Keskitalo2008	TTT/TTT	12	ATO_20mg	concentration	atorvastatin	LC MS/MS	plasma	ATO_20mg_atorvastatin_TTT/TTT	2.0	hr	2.1532636	1.04463171177965	0.3015592	2.4548228	ng/ml	dimensionless
+Keskitalo2008	TTT/TTT	12	ATO_20mg	concentration	atorvastatin	LC MS/MS	plasma	ATO_20mg_atorvastatin_TTT/TTT	3.0	hr	1.6697536	0.852520950047985	0.2461016	1.9158552	ng/ml	dimensionless
+Keskitalo2008	TTT/TTT	12	ATO_20mg	concentration	atorvastatin	LC MS/MS	plasma	ATO_20mg_atorvastatin_TTT/TTT	4.0	hr	1.4085354	1.09984672024365	0.3174984	1.7260338	ng/ml	dimensionless
+Keskitalo2008	TTT/TTT	12	ATO_20mg	concentration	atorvastatin	LC MS/MS	plasma	ATO_20mg_atorvastatin_TTT/TTT	5.0	hr	1.9012978	1.09984706665381	0.3174985	2.2187963	ng/ml	dimensionless
+Keskitalo2008	TTT/TTT	12	ATO_20mg	concentration	atorvastatin	LC MS/MS	plasma	ATO_20mg_atorvastatin_TTT/TTT	7.0	hr	1.3628894	0.852293012161709	0.2460358	1.6089252	ng/ml	dimensionless
+Keskitalo2008	TTT/TTT	12	ATO_20mg	concentration	atorvastatin	LC MS/MS	plasma	ATO_20mg_atorvastatin_TTT/TTT	9.0	hr	1.2293483	1.01725283825425	0.2936556	1.5230039	ng/ml	dimensionless
+Keskitalo2008	TTT/TTT	12	ATO_20mg	concentration	atorvastatin	LC MS/MS	plasma	ATO_20mg_atorvastatin_TTT/TTT	12.0	hr	0.83449024	0.41239994628252	0.11904961	0.95353985	ng/ml	dimensionless
+Keskitalo2008	TTT/TTT	12	ATO_20mg	concentration	atorvastatin	LC MS/MS	plasma	ATO_20mg_atorvastatin_TTT/TTT	24.0	hr	0.2947577	0.165187937183894	0.04768565	0.34244335	ng/ml	dimensionless
+Keskitalo2008	TTT/TTT	12	ATO_20mg	concentration	atorvastatin	LC MS/MS	plasma	ATO_20mg_atorvastatin_TTT/TTT	34.0	hr	0.26962364	0.192567261042506	0.05558938	0.32521302	ng/ml	dimensionless
+Keskitalo2008	TTT/TTT	12	ATO_20mg	concentration	atorvastatin	LC MS/MS	plasma	ATO_20mg_atorvastatin_TTT/TTT	48.0	hr	0.10429483				ng/ml	dimensionless

@@ -1,0 +1,17 @@
+study	group	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	unit
+Zhi2003	all	SIM	cmax	simvastatin	plasma	LC MS/MS	NA	NA	21.1	ng/ml
+Zhi2003	all	SIM,ORL	cmax	simvastatin	plasma	LC MS/MS	NA	NA	21.4	ng/ml
+Zhi2003	all	SIM	auc_inf	simvastatin	plasma	LC MS/MS	NA	NA	56.4	ng hr/ml
+Zhi2003	all	SIM,ORL	auc_inf	simvastatin	plasma	LC MS/MS	NA	NA	51.9	ng hr/ml
+Zhi2003	all	SIM	tmax	simvastatin	plasma	LC MS/MS	NA	NA	1.03	hr
+Zhi2003	all	SIM,ORL	tmax	simvastatin	plasma	LC MS/MS	NA	NA	1.02	hr
+Zhi2003	all	SIM	thalf	simvastatin	plasma	LC MS/MS	NA	NA	3.01	hr
+Zhi2003	all	SIM,ORL	thalf	simvastatin	plasma	LC MS/MS	NA	NA	2.47	hr
+Zhi2003	all	SIM	cmax	simvastatin acid	plasma	LC MS/MS	NA	NA	4.46	ng/ml
+Zhi2003	all	SIM,ORL	cmax	simvastatin acid	plasma	LC MS/MS	NA	NA	4.27	ng/ml
+Zhi2003	all	SIM	auc_inf	simvastatin acid	plasma	LC MS/MS	NA	NA	35.9	ng hr/ml
+Zhi2003	all	SIM,ORL	auc_inf	simvastatin acid	plasma	LC MS/MS	NA	NA	33.7	ng hr/ml
+Zhi2003	all	SIM	tmax	simvastatin acid	plasma	LC MS/MS	NA	NA	4.42	hr
+Zhi2003	all	SIM,ORL	tmax	simvastatin acid	plasma	LC MS/MS	NA	NA	4.2	hr
+Zhi2003	all	SIM	thalf	simvastatin acid	plasma	LC MS/MS	NA	NA	3.34	hr
+Zhi2003	all	SIM,ORL	thalf	simvastatin acid	plasma	LC MS/MS	NA	NA	3.48	hr

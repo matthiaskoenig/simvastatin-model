@@ -1,0 +1,97 @@
+study	group	count	intervention	measurement_type	substance	method	tissue	label	time	time_unit	mean	unit	sd	se	pm
+Keskitalo2008	CGC/CGC	12	SIM_20mg	concentration	simvastatin	LC MS/MS	plasma	SIM_20mg_simvastatin_CGC/CGC	0.0	hr	0.0	ng/ml	na	na	na
+Keskitalo2008	CGC/CGC	12	SIM_20mg	concentration	simvastatin	LC MS/MS	plasma	SIM_20mg_simvastatin_CGC/CGC	0.5	hr	1.0	ng/ml	1.87013994384295	0.5398629	0.4601371
+Keskitalo2008	CGC/CGC	12	SIM_20mg	concentration	simvastatin	LC MS/MS	plasma	SIM_20mg_simvastatin_CGC/CGC	1.0	hr	2.5211196	ng/ml	2.01346403047782	0.581237	1.9398826
+Keskitalo2008	CGC/CGC	12	SIM_20mg	concentration	simvastatin	LC MS/MS	plasma	SIM_20mg_simvastatin_CGC/CGC	1.5	hr	2.6481662	ng/ml	1.64743389023623	0.4755732	2.172593
+Keskitalo2008	CGC/CGC	12	SIM_20mg	concentration	simvastatin	LC MS/MS	plasma	SIM_20mg_simvastatin_CGC/CGC	2.0	hr	2.4317293	ng/ml	1.1532143233163	0.3329043	2.098825
+Keskitalo2008	CGC/CGC	12	SIM_20mg	concentration	simvastatin	LC MS/MS	plasma	SIM_20mg_simvastatin_CGC/CGC	3.0	hr	1.4810487	ng/ml	0.604064150674976	0.1743783	1.3066704
+Keskitalo2008	CGC/CGC	12	SIM_20mg	concentration	simvastatin	LC MS/MS	plasma	SIM_20mg_simvastatin_CGC/CGC	4.0	hr	0.9847831	ng/ml	0.366068834256634	0.10567497	0.87910813
+Keskitalo2008	CGC/CGC	12	SIM_20mg	concentration	simvastatin	LC MS/MS	plasma	SIM_20mg_simvastatin_CGC/CGC	5.0	hr	0.7897233	ng/ml	0.420981876982846	0.121527	0.9112503
+Keskitalo2008	CGC/CGC	12	SIM_20mg	concentration	simvastatin	LC MS/MS	plasma	SIM_20mg_simvastatin_CGC/CGC	7.0	hr	0.56339186	ng/ml	0.329459965900745	0.0951069	0.65849876
+Keskitalo2008	CGC/CGC	12	SIM_20mg	concentration	simvastatin	LC MS/MS	plasma	SIM_20mg_simvastatin_CGC/CGC	9.0	hr	0.41103128	ng/ml	0.366106974015416	0.10568598	0.51671726
+Keskitalo2008	CGC/CGC	12	SIM_20mg	concentration	simvastatin	LC MS/MS	plasma	SIM_20mg_simvastatin_CGC/CGC	12.0	hr	0.2961079	ng/ml	0.329460035182777	0.09510692	0.39121482
+Keskitalo2008	TTT/TTT	12	SIM_20mg	concentration	simvastatin	LC MS/MS	plasma	SIM_20mg_simvastatin_TTT/TTT	0.0	hr	0.0	ng/ml	na	na	na
+Keskitalo2008	TTT/TTT	12	SIM_20mg	concentration	simvastatin	LC MS/MS	plasma	SIM_20mg_simvastatin_TTT/TTT	0.5	hr	1.6767752	ng/ml	1.51006944402004	0.4359195	2.1126947
+Keskitalo2008	TTT/TTT	12	SIM_20mg	concentration	simvastatin	LC MS/MS	plasma	SIM_20mg_simvastatin_TTT/TTT	1.0	hr	3.3969464	ng/ml	1.7983925104207	0.5191512	3.9160976
+Keskitalo2008	TTT/TTT	12	SIM_20mg	concentration	simvastatin	LC MS/MS	plasma	SIM_20mg_simvastatin_TTT/TTT	1.5	hr	3.2980845	ng/ml	2.42993737920857	0.7014625	3.999547
+Keskitalo2008	TTT/TTT	12	SIM_20mg	concentration	simvastatin	LC MS/MS	plasma	SIM_20mg_simvastatin_TTT/TTT	2.0	hr	2.8544526	ng/ml	2.48479246751476	0.7172978	3.5717504
+Keskitalo2008	TTT/TTT	12	SIM_20mg	concentration	simvastatin	LC MS/MS	plasma	SIM_20mg_simvastatin_TTT/TTT	3.0	hr	2.0107694	ng/ml	2.22398337460249	0.6420087	2.6527781
+Keskitalo2008	TTT/TTT	12	SIM_20mg	concentration	simvastatin	LC MS/MS	plasma	SIM_20mg_simvastatin_TTT/TTT	4.0	hr	1.2265353	ng/ml	1.20810439904881	0.3487497	1.575285
+Keskitalo2008	TTT/TTT	12	SIM_20mg	concentration	simvastatin	LC MS/MS	plasma	SIM_20mg_simvastatin_TTT/TTT	5.0	hr	0.75537163	ng/ml	0.741342098273834	0.21400703	0.5413646
+Keskitalo2008	TTT/TTT	12	SIM_20mg	concentration	simvastatin	LC MS/MS	plasma	SIM_20mg_simvastatin_TTT/TTT	7.0	hr	0.45506528	ng/ml	0.453047957121659	0.13078368	0.3242816
+Keskitalo2008	TTT/TTT	12	SIM_20mg	concentration	simvastatin	LC MS/MS	plasma	SIM_20mg_simvastatin_TTT/TTT	9.0	hr	0.28554258	ng/ml	0.288308447891845	0.08322748	0.2023151
+Keskitalo2008	TTT/TTT	12	SIM_20mg	concentration	simvastatin	LC MS/MS	plasma	SIM_20mg_simvastatin_TTT/TTT	12.0	hr	0.21552244	ng/ml	0.233409504059207	0.06737952	0.14814292
+Keskitalo2008	CGC/CGC	12	SIM_20mg	concentration	simvastatin acid	LC MS/MS	plasma	SIM_20mg_simvastatin acid_CGC/CGC	0.0	hr	0.0	ng/ml	na	na	na
+Keskitalo2008	CGC/CGC	12	SIM_20mg	concentration	simvastatin acid	LC MS/MS	plasma	SIM_20mg_simvastatin acid_CGC/CGC	0.5	hr	0.04013875	ng/ml	0.066947446052554	0.019326063	0.020812687
+Keskitalo2008	CGC/CGC	12	SIM_20mg	concentration	simvastatin acid	LC MS/MS	plasma	SIM_20mg_simvastatin acid_CGC/CGC	1.0	hr	0.18582755	ng/ml	0.128745068577402	0.0371655	0.14866205
+Keskitalo2008	CGC/CGC	12	SIM_20mg	concentration	simvastatin acid	LC MS/MS	plasma	SIM_20mg_simvastatin acid_CGC/CGC	1.5	hr	0.3359762	ng/ml	0.175093293265267	0.05054508	0.28543112
+Keskitalo2008	CGC/CGC	12	SIM_20mg	concentration	simvastatin acid	LC MS/MS	plasma	SIM_20mg_simvastatin acid_CGC/CGC	2.0	hr	0.46531218	ng/ml	0.252340334411708	0.07284438	0.3924678
+Keskitalo2008	CGC/CGC	12	SIM_20mg	concentration	simvastatin acid	LC MS/MS	plasma	SIM_20mg_simvastatin acid_CGC/CGC	3.0	hr	0.5916749	ng/ml	0.308988164585765	0.0891972	0.5024777
+Keskitalo2008	CGC/CGC	12	SIM_20mg	concentration	simvastatin acid	LC MS/MS	plasma	SIM_20mg_simvastatin acid_CGC/CGC	4.0	hr	0.7046581	ng/ml	0.391385285603432	0.1129832	0.5916749
+Keskitalo2008	CGC/CGC	12	SIM_20mg	concentration	simvastatin acid	LC MS/MS	plasma	SIM_20mg_simvastatin acid_CGC/CGC	5.0	hr	0.71952426	ng/ml	0.406834555268656	0.11744302	0.60208124
+Keskitalo2008	CGC/CGC	12	SIM_20mg	concentration	simvastatin acid	LC MS/MS	plasma	SIM_20mg_simvastatin acid_CGC/CGC	7.0	hr	0.5604559	ng/ml	0.334737247583278	0.09663032	0.46382558
+Keskitalo2008	CGC/CGC	12	SIM_20mg	concentration	simvastatin acid	LC MS/MS	plasma	SIM_20mg_simvastatin acid_CGC/CGC	9.0	hr	0.4013875	ng/ml	0.247190566309628	0.07135777	0.33002973
+Keskitalo2008	CGC/CGC	12	SIM_20mg	concentration	simvastatin acid	LC MS/MS	plasma	SIM_20mg_simvastatin acid_CGC/CGC	12.0	hr	0.22150645	ng/ml	0.169943594445219	0.04905849	0.17244796
+Keskitalo2008	TTT/TTT	12	SIM_20mg	concentration	simvastatin acid	LC MS/MS	plasma	SIM_20mg_simvastatin acid_TTT/TTT	0.0	hr	0.0	ng/ml	na	na	na
+Keskitalo2008	TTT/TTT	12	SIM_20mg	concentration	simvastatin acid	LC MS/MS	plasma	SIM_20mg_simvastatin acid_TTT/TTT	0.5	hr	0.16352825	ng/ml	0.20084237626278	0.0579782	0.22150645
+Keskitalo2008	TTT/TTT	12	SIM_20mg	concentration	simvastatin acid	LC MS/MS	plasma	SIM_20mg_simvastatin acid_TTT/TTT	1.0	hr	0.46085232	ng/ml	0.319287908636022	0.09217048	0.5530228
+Keskitalo2008	TTT/TTT	12	SIM_20mg	concentration	simvastatin acid	LC MS/MS	plasma	SIM_20mg_simvastatin acid_TTT/TTT	1.5	hr	0.7150644	ng/ml	0.571628277688747	0.16501487	0.88007927
+Keskitalo2008	TTT/TTT	12	SIM_20mg	concentration	simvastatin acid	LC MS/MS	plasma	SIM_20mg_simvastatin acid_TTT/TTT	2.0	hr	0.9083251	ng/ml	0.731272197365741	0.2111001	1.1194252
+Keskitalo2008	TTT/TTT	12	SIM_20mg	concentration	simvastatin acid	LC MS/MS	plasma	SIM_20mg_simvastatin acid_TTT/TTT	3.0	hr	1.0956392	ng/ml	0.947564466832036	0.2735383	1.3691775
+Keskitalo2008	TTT/TTT	12	SIM_20mg	concentration	simvastatin acid	LC MS/MS	plasma	SIM_20mg_simvastatin acid_TTT/TTT	4.0	hr	1.1982161	ng/ml	1.04541009541257	0.3017839	1.5
+Keskitalo2008	TTT/TTT	12	SIM_20mg	concentration	simvastatin acid	LC MS/MS	plasma	SIM_20mg_simvastatin acid_TTT/TTT	5.0	hr	1.1595639	ng/ml	0.746721744159094	0.21556	1.3751239
+Keskitalo2008	TTT/TTT	12	SIM_20mg	concentration	simvastatin acid	LC MS/MS	plasma	SIM_20mg_simvastatin acid_TTT/TTT	7.0	hr	0.814668	ng/ml	0.520130111693721	0.15014863	0.96481663
+Keskitalo2008	TTT/TTT	12	SIM_20mg	concentration	simvastatin acid	LC MS/MS	plasma	SIM_20mg_simvastatin acid_TTT/TTT	9.0	hr	0.50545096	ng/ml	0.278089452050238	0.0802775100000001	0.58572847
+Keskitalo2008	TTT/TTT	12	SIM_20mg	concentration	simvastatin acid	LC MS/MS	plasma	SIM_20mg_simvastatin acid_TTT/TTT	12.0	hr	0.26759169	ng/ml	0.164793653138059	0.04757183	0.31516352
+Keskitalo2008	CGC/CGC	12	ATO_20mg	concentration	atorvastatin	LC MS/MS	plasma	ATO_20mg_atorvastatin_CGC/CGC	0.0	hr	0.0	ng/ml	na	na	na
+Keskitalo2008	CGC/CGC	12	ATO_20mg	concentration	atorvastatin	LC MS/MS	plasma	ATO_20mg_atorvastatin_CGC/CGC	0.5	hr	4.4379954	ng/ml	3.57390324403278	1.031697	3.4062984
+Keskitalo2008	CGC/CGC	12	ATO_20mg	concentration	atorvastatin	LC MS/MS	plasma	ATO_20mg_atorvastatin_CGC/CGC	1.0	hr	2.6288037	ng/ml	1.31979292409359	0.3809914	2.2478123
+Keskitalo2008	CGC/CGC	12	ATO_20mg	concentration	atorvastatin	LC MS/MS	plasma	ATO_20mg_atorvastatin_CGC/CGC	2.0	hr	1.6770322	ng/ml	0.494993447220749	0.1428923	1.5341399
+Keskitalo2008	CGC/CGC	12	ATO_20mg	concentration	atorvastatin	LC MS/MS	plasma	ATO_20mg_atorvastatin_CGC/CGC	3.0	hr	1.1142218	ng/ml	0.467500431547127	0.13495575	0.97926605
+Keskitalo2008	CGC/CGC	12	ATO_20mg	concentration	atorvastatin	LC MS/MS	plasma	ATO_20mg_atorvastatin_CGC/CGC	4.0	hr	0.9164638	ng/ml	0.247553846646008	0.0714626399999999	0.84500116
+Keskitalo2008	CGC/CGC	12	ATO_20mg	concentration	atorvastatin	LC MS/MS	plasma	ATO_20mg_atorvastatin_CGC/CGC	5.0	hr	1.3695431	ng/ml	2.08516213509307	0.60193446	0.76760864
+Keskitalo2008	CGC/CGC	12	ATO_20mg	concentration	atorvastatin	LC MS/MS	plasma	ATO_20mg_atorvastatin_CGC/CGC	7.0	hr	0.87085074	ng/ml	0.600294653861448	0.17329014	0.6975606
+Keskitalo2008	CGC/CGC	12	ATO_20mg	concentration	atorvastatin	LC MS/MS	plasma	ATO_20mg_atorvastatin_CGC/CGC	9.0	hr	0.76905614	ng/ml	0.845911063115125	0.24419349	0.52486265
+Keskitalo2008	CGC/CGC	12	ATO_20mg	concentration	atorvastatin	LC MS/MS	plasma	ATO_20mg_atorvastatin_CGC/CGC	12.0	hr	0.580452	ng/ml	na	na	na
+Keskitalo2008	CGC/CGC	12	ATO_20mg	concentration	atorvastatin	LC MS/MS	plasma	ATO_20mg_atorvastatin_CGC/CGC	24.0	hr	0.18367766	ng/ml	na	na	na
+Keskitalo2008	CGC/CGC	12	ATO_20mg	concentration	atorvastatin	LC MS/MS	plasma	ATO_20mg_atorvastatin_CGC/CGC	34.0	hr	0.118860416	ng/ml	na	na	na
+Keskitalo2008	CGC/CGC	12	ATO_20mg	concentration	atorvastatin	LC MS/MS	plasma	ATO_20mg_atorvastatin_CGC/CGC	48.0	hr	0.048771262	ng/ml	na	na	na
+Keskitalo2008	TTT/TTT	12	ATO_20mg	concentration	atorvastatin	LC MS/MS	plasma	ATO_20mg_atorvastatin_TTT/TTT	0.0	hr	0.0	ng/ml	na	na	na
+Keskitalo2008	TTT/TTT	12	ATO_20mg	concentration	atorvastatin	LC MS/MS	plasma	ATO_20mg_atorvastatin_TTT/TTT	0.5	hr	4.5888247	ng/ml	4.06901204583731	1.1746226	5.7634473
+Keskitalo2008	TTT/TTT	12	ATO_20mg	concentration	atorvastatin	LC MS/MS	plasma	ATO_20mg_atorvastatin_TTT/TTT	1.0	hr	4.549602	ng/ml	2.19923791112491	0.6348653	5.1844673
+Keskitalo2008	TTT/TTT	12	ATO_20mg	concentration	atorvastatin	LC MS/MS	plasma	ATO_20mg_atorvastatin_TTT/TTT	2.0	hr	2.1532636	ng/ml	1.04463171177965	0.3015592	2.4548228
+Keskitalo2008	TTT/TTT	12	ATO_20mg	concentration	atorvastatin	LC MS/MS	plasma	ATO_20mg_atorvastatin_TTT/TTT	3.0	hr	1.6697536	ng/ml	0.852520950047985	0.2461016	1.9158552
+Keskitalo2008	TTT/TTT	12	ATO_20mg	concentration	atorvastatin	LC MS/MS	plasma	ATO_20mg_atorvastatin_TTT/TTT	4.0	hr	1.4085354	ng/ml	1.09984672024365	0.3174984	1.7260338
+Keskitalo2008	TTT/TTT	12	ATO_20mg	concentration	atorvastatin	LC MS/MS	plasma	ATO_20mg_atorvastatin_TTT/TTT	5.0	hr	1.9012978	ng/ml	1.09984706665381	0.3174985	2.2187963
+Keskitalo2008	TTT/TTT	12	ATO_20mg	concentration	atorvastatin	LC MS/MS	plasma	ATO_20mg_atorvastatin_TTT/TTT	7.0	hr	1.3628894	ng/ml	0.852293012161709	0.2460358	1.6089252
+Keskitalo2008	TTT/TTT	12	ATO_20mg	concentration	atorvastatin	LC MS/MS	plasma	ATO_20mg_atorvastatin_TTT/TTT	9.0	hr	1.2293483	ng/ml	1.01725283825425	0.2936556	1.5230039
+Keskitalo2008	TTT/TTT	12	ATO_20mg	concentration	atorvastatin	LC MS/MS	plasma	ATO_20mg_atorvastatin_TTT/TTT	12.0	hr	0.83449024	ng/ml	0.41239994628252	0.11904961	0.95353985
+Keskitalo2008	TTT/TTT	12	ATO_20mg	concentration	atorvastatin	LC MS/MS	plasma	ATO_20mg_atorvastatin_TTT/TTT	24.0	hr	0.2947577	ng/ml	0.165187937183894	0.04768565	0.34244335
+Keskitalo2008	TTT/TTT	12	ATO_20mg	concentration	atorvastatin	LC MS/MS	plasma	ATO_20mg_atorvastatin_TTT/TTT	34.0	hr	0.26962364	ng/ml	0.192567261042506	0.05558938	0.32521302
+Keskitalo2008	TTT/TTT	12	ATO_20mg	concentration	atorvastatin	LC MS/MS	plasma	ATO_20mg_atorvastatin_TTT/TTT	48.0	hr	0.10429483	ng/ml	na	na	na
+Keskitalo2008	CGC/CGC	12	ATO_20mg	concentration	atorvastatin lactone	LC MS/MS	plasma	ATO_20mg_atorvastatin lactone_CGC/CGC	0.0	hr	0.0	ng/ml	na	na	na
+Keskitalo2008	CGC/CGC	12	ATO_20mg	concentration	atorvastatin lactone	LC MS/MS	plasma	ATO_20mg_atorvastatin lactone_CGC/CGC	0.5	hr	0.9423014	ng/ml	0.927918853752266	0.2678671	1.2101685
+Keskitalo2008	CGC/CGC	12	ATO_20mg	concentration	atorvastatin lactone	LC MS/MS	plasma	ATO_20mg_atorvastatin lactone_CGC/CGC	1.0	hr	1.2597202	ng/ml	0.756041216734299	0.2182503	1.0414699
+Keskitalo2008	CGC/CGC	12	ATO_20mg	concentration	atorvastatin lactone	LC MS/MS	plasma	ATO_20mg_atorvastatin lactone_CGC/CGC	2.0	hr	1.2365104	ng/ml	0.458201916786693	0.1322715	1.1042389
+Keskitalo2008	CGC/CGC	12	ATO_20mg	concentration	atorvastatin lactone	LC MS/MS	plasma	ATO_20mg_atorvastatin lactone_CGC/CGC	3.0	hr	1.4050889	ng/ml	0.458213694732185	0.1322749	1.272814
+Keskitalo2008	CGC/CGC	12	ATO_20mg	concentration	atorvastatin lactone	LC MS/MS	plasma	ATO_20mg_atorvastatin lactone_CGC/CGC	4.0	hr	1.3620311	ng/ml	0.378062350791612	0.1091372	1.2528939
+Keskitalo2008	CGC/CGC	12	ATO_20mg	concentration	atorvastatin lactone	LC MS/MS	plasma	ATO_20mg_atorvastatin lactone_CGC/CGC	5.0	hr	1.6628915	ng/ml	0.389529566368203	0.1124475	1.550444
+Keskitalo2008	CGC/CGC	12	ATO_20mg	concentration	atorvastatin lactone	LC MS/MS	plasma	ATO_20mg_atorvastatin lactone_CGC/CGC	7.0	hr	1.3320636	ng/ml	0.343672482007331	0.0992096999999998	1.2328539
+Keskitalo2008	CGC/CGC	12	ATO_20mg	concentration	atorvastatin lactone	LC MS/MS	plasma	ATO_20mg_atorvastatin lactone_CGC/CGC	9.0	hr	1.3153921	ng/ml	0.378026324134815	0.1091268	1.2062653
+Keskitalo2008	CGC/CGC	12	ATO_20mg	concentration	atorvastatin lactone	LC MS/MS	plasma	ATO_20mg_atorvastatin lactone_CGC/CGC	12.0	hr	0.9415064	ng/ml	0.332205127866677	0.09589936	0.84560704
+Keskitalo2008	CGC/CGC	12	ATO_20mg	concentration	atorvastatin lactone	LC MS/MS	plasma	ATO_20mg_atorvastatin lactone_CGC/CGC	24.0	hr	0.3685879	ng/ml	0.194740984806005	0.05621688	0.42480478
+Keskitalo2008	CGC/CGC	12	ATO_20mg	concentration	atorvastatin lactone	LC MS/MS	plasma	ATO_20mg_atorvastatin lactone_CGC/CGC	34.0	hr	0.1893348	ng/ml	0.103109954523028	0.02976528	0.15956952
+Keskitalo2008	CGC/CGC	12	ATO_20mg	concentration	atorvastatin lactone	LC MS/MS	plasma	ATO_20mg_atorvastatin lactone_CGC/CGC	48.0	hr	0.05277976	ng/ml	na	na	na
+Keskitalo2008	TTT/TTT	12	ATO_20mg	concentration	atorvastatin lactone	LC MS/MS	plasma	ATO_20mg_atorvastatin lactone_TTT/TTT	0.0	hr	0.0	ng/ml	na	na	na
+Keskitalo2008	TTT/TTT	12	ATO_20mg	concentration	atorvastatin lactone	LC MS/MS	plasma	ATO_20mg_atorvastatin lactone_TTT/TTT	0.5	hr	0.64137244	ng/ml	0.813341475806551	0.23479146	0.40658098
+Keskitalo2008	TTT/TTT	12	ATO_20mg	concentration	atorvastatin lactone	LC MS/MS	plasma	ATO_20mg_atorvastatin lactone_TTT/TTT	1.0	hr	1.5308975	ng/ml	1.09968945003033	0.317453	1.8483505
+Keskitalo2008	TTT/TTT	12	ATO_20mg	concentration	atorvastatin lactone	LC MS/MS	plasma	ATO_20mg_atorvastatin lactone_TTT/TTT	2.0	hr	1.4250022	ng/ml	1.14553441003554	0.3306873	1.7556895
+Keskitalo2008	TTT/TTT	12	ATO_20mg	concentration	atorvastatin lactone	LC MS/MS	plasma	ATO_20mg_atorvastatin lactone_TTT/TTT	3.0	hr	1.7655382	ng/ml	1.42047461266644	0.4100557	2.1755939
+Keskitalo2008	TTT/TTT	12	ATO_20mg	concentration	atorvastatin lactone	LC MS/MS	plasma	ATO_20mg_atorvastatin lactone_TTT/TTT	4.0	hr	1.7621696	ng/ml	1.62661186824796	0.4695624	2.231732
+Keskitalo2008	TTT/TTT	12	ATO_20mg	concentration	atorvastatin lactone	LC MS/MS	plasma	ATO_20mg_atorvastatin lactone_TTT/TTT	5.0	hr	1.9472723	ng/ml	1.07683781090575	0.3108563	2.2581286
+Keskitalo2008	TTT/TTT	12	ATO_20mg	concentration	atorvastatin lactone	LC MS/MS	plasma	ATO_20mg_atorvastatin lactone_TTT/TTT	7.0	hr	1.6329925	ng/ml	0.870594900224967	0.2513191	1.8843116
+Keskitalo2008	TTT/TTT	12	ATO_20mg	concentration	atorvastatin lactone	LC MS/MS	plasma	ATO_20mg_atorvastatin lactone_TTT/TTT	9.0	hr	1.5600973	ng/ml	0.84769580290826	0.2447087	1.804806
+Keskitalo2008	TTT/TTT	12	ATO_20mg	concentration	atorvastatin lactone	LC MS/MS	plasma	ATO_20mg_atorvastatin lactone_TTT/TTT	12.0	hr	1.0142576	ng/ml	0.435303165880148	0.1256612	1.1399188
+Keskitalo2008	TTT/TTT	12	ATO_20mg	concentration	atorvastatin lactone	LC MS/MS	plasma	ATO_20mg_atorvastatin lactone_TTT/TTT	24.0	hr	0.3222917	ng/ml	0.13745236511518	0.03967908	0.28261262
+Keskitalo2008	TTT/TTT	12	ATO_20mg	concentration	atorvastatin lactone	LC MS/MS	plasma	ATO_20mg_atorvastatin lactone_TTT/TTT	34.0	hr	0.26538604	ng/ml	0.18332115813951	0.05292026	0.3183063
+Keskitalo2008	TTT/TTT	12	ATO_20mg	concentration	atorvastatin lactone	LC MS/MS	plasma	ATO_20mg_atorvastatin lactone_TTT/TTT	48.0	hr	0.0891588	ng/ml	0.0573004669183489	0.01654122	0.10570002

@@ -1,0 +1,15 @@
+{
+  "sets": [
+    {
+      "sid": "PD_20261020_133635__e8729_0",
+      "values": {
+        "LI__HMGCOAREDUCTASE_Ki_simacid": 9.16748418506532e-07
+      },
+      "units": {
+        "LI__HMGCOAREDUCTASE_Ki_simacid": "(mmol)/l"
+      },
+      "cost": 30.266126095443557,
+      "provenance": "optimization 'PD_20261020_133635__e8729', run '1'"
+    }
+  ]
+}

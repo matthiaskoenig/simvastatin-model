@@ -1,0 +1,31 @@
+study	group	count	intervention	measurement_type	substance	method	tissue	label	time	time_unit	mean	unit	change	change_unit	baseline	baseline_unit	comment
+Pietro1989	probucol	81	probucol	concentration	ldl-c	NR	plasma	ldl-c_probucol_concentration	0	weeks	251.0	mg/dl	0.0	percent	251	mg/dl	NA
+Pietro1989	probucol	81	probucol	concentration	ldl-c	NR	plasma	ldl-c_probucol_concentration	2	weeks	234.27541318	mg/dl	-6.663182	percent	251	mg/dl	NA
+Pietro1989	probucol	81	probucol	concentration	ldl-c	NR	plasma	ldl-c_probucol_concentration	6	weeks	227.3486716	mg/dl	-9.42284	percent	251	mg/dl	NA
+Pietro1989	probucol	81	probucol	concentration	ldl-c	NR	plasma	ldl-c_probucol_concentration	10	weeks	231.90592047	mg/dl	-7.607203	percent	251	mg/dl	NA
+Pietro1989	probucol	81	probucol	concentration	ldl-c	NR	plasma	ldl-c_probucol_concentration	12	weeks	230.49237632	mg/dl	-8.170368	percent	251	mg/dl	NA
+Pietro1989	SIM_20mg	82	SIM20	concentration	ldl-c	NR	plasma	ldl-c_SIM20_concentration	0	weeks	251.0	mg/dl	0.0	percent	251	mg/dl	NA
+Pietro1989	SIM_20mg	82	SIM20	concentration	ldl-c	NR	plasma	ldl-c_SIM20_concentration	2	weeks	174.12329832	mg/dl	-30.628168	percent	251	mg/dl	NA
+Pietro1989	SIM_20mg	82	SIM20	concentration	ldl-c	NR	plasma	ldl-c_SIM20_concentration	6	weeks	163.64129736	mg/dl	-34.804264	percent	251	mg/dl	NA
+Pietro1989	SIM_20mg	82	SIM20	concentration	ldl-c	NR	plasma	ldl-c_SIM20_concentration	10	weeks	164.91752443	mg/dl	-34.295807	percent	251	mg/dl	NA
+Pietro1989	SIM_20mg	82	SIM20	concentration	ldl-c	NR	plasma	ldl-c_SIM20_concentration	12	weeks	165.1452994	mg/dl	-34.20506	percent	251	mg/dl	NA
+Pietro1989	SIM_40mg	80	SIM40	concentration	ldl-c	NR	plasma	ldl-c_SIM40_concentration	0	weeks	251.0	mg/dl	0.0	percent	251	mg/dl	NA
+Pietro1989	SIM_40mg	80	SIM40	concentration	ldl-c	NR	plasma	ldl-c_SIM40_concentration	2	weeks	157.44435083	mg/dl	-37.273167	percent	251	mg/dl	NA
+Pietro1989	SIM_40mg	80	SIM40	concentration	ldl-c	NR	plasma	ldl-c_SIM40_concentration	6	weeks	145.596064	mg/dl	-41.9936	percent	251	mg/dl	NA
+Pietro1989	SIM_40mg	80	SIM40	concentration	ldl-c	NR	plasma	ldl-c_SIM40_concentration	10	weeks	150.70056566	mg/dl	-39.959934	percent	251	mg/dl	NA
+Pietro1989	SIM_40mg	80	SIM40	concentration	ldl-c	NR	plasma	ldl-c_SIM40_concentration	12	weeks	150.10727696	mg/dl	-40.196304	percent	251	mg/dl	NA
+Pietro1989	probucol	81	probucol	concentration change	ldl-c	NR	plasma	ldl-c_probucol_concentration change	0	weeks	0.0	percent	0.0	percent	251	mg/dl	NA
+Pietro1989	probucol	81	probucol	concentration change	ldl-c	NR	plasma	ldl-c_probucol_concentration change	2	weeks	-6.663182	percent	-6.663182	percent	251	mg/dl	NA
+Pietro1989	probucol	81	probucol	concentration change	ldl-c	NR	plasma	ldl-c_probucol_concentration change	6	weeks	-9.42284	percent	-9.42284	percent	251	mg/dl	NA
+Pietro1989	probucol	81	probucol	concentration change	ldl-c	NR	plasma	ldl-c_probucol_concentration change	10	weeks	-7.607203	percent	-7.607203	percent	251	mg/dl	NA
+Pietro1989	probucol	81	probucol	concentration change	ldl-c	NR	plasma	ldl-c_probucol_concentration change	12	weeks	-8.170368	percent	-8.170368	percent	251	mg/dl	NA
+Pietro1989	SIM_20mg	82	SIM20	concentration change	ldl-c	NR	plasma	ldl-c_SIM20_concentration change	0	weeks	0.0	percent	0.0	percent	251	mg/dl	NA
+Pietro1989	SIM_20mg	82	SIM20	concentration change	ldl-c	NR	plasma	ldl-c_SIM20_concentration change	2	weeks	-30.628168	percent	-30.628168	percent	251	mg/dl	NA
+Pietro1989	SIM_20mg	82	SIM20	concentration change	ldl-c	NR	plasma	ldl-c_SIM20_concentration change	6	weeks	-34.804264	percent	-34.804264	percent	251	mg/dl	NA
+Pietro1989	SIM_20mg	82	SIM20	concentration change	ldl-c	NR	plasma	ldl-c_SIM20_concentration change	10	weeks	-34.295807	percent	-34.295807	percent	251	mg/dl	NA
+Pietro1989	SIM_20mg	82	SIM20	concentration change	ldl-c	NR	plasma	ldl-c_SIM20_concentration change	12	weeks	-34.20506	percent	-34.20506	percent	251	mg/dl	NA
+Pietro1989	SIM_40mg	80	SIM40	concentration change	ldl-c	NR	plasma	ldl-c_SIM40_concentration change	0	weeks	0.0	percent	0.0	percent	251	mg/dl	NA
+Pietro1989	SIM_40mg	80	SIM40	concentration change	ldl-c	NR	plasma	ldl-c_SIM40_concentration change	2	weeks	-37.273167	percent	-37.273167	percent	251	mg/dl	NA
+Pietro1989	SIM_40mg	80	SIM40	concentration change	ldl-c	NR	plasma	ldl-c_SIM40_concentration change	6	weeks	-41.9936	percent	-41.9936	percent	251	mg/dl	NA
+Pietro1989	SIM_40mg	80	SIM40	concentration change	ldl-c	NR	plasma	ldl-c_SIM40_concentration change	10	weeks	-39.959934	percent	-39.959934	percent	251	mg/dl	NA
+Pietro1989	SIM_40mg	80	SIM40	concentration change	ldl-c	NR	plasma	ldl-c_SIM40_concentration change	12	weeks	-40.196304	percent	-40.196304	percent	251	mg/dl	NA

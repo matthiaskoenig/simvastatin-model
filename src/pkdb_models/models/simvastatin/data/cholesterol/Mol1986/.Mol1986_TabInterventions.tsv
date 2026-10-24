@@ -1,0 +1,10 @@
+study	name	time	time_unit	route	application	measurement_type	form	substance	value	unit
+Mol1986	placebo	0	weeks	oral	multiple dose	qualitative dosing	NR	simvastatin	0.0	mg
+Mol1986	SIM2_5_once	0	weeks	oral	multiple dose	qualitative dosing	NR	simvastatin	2.5	mg
+Mol1986	SIM2_5_twice	0	weeks	oral	multiple dose	qualitative dosing	NR	simvastatin	5.0	mg
+Mol1986	SIM10_once	0	weeks	oral	multiple dose	qualitative dosing	NR	simvastatin	10.0	mg
+Mol1986	SIM10_twice	0	weeks	oral	multiple dose	qualitative dosing	NR	simvastatin	20.0	mg
+Mol1986	SIM40_once	0	weeks	oral	multiple dose	qualitative dosing	NR	simvastatin	40.0	mg
+Mol1986	SIM40_twice	0	weeks	oral	multiple dose	qualitative dosing	NR	simvastatin	80.0	mg
+Mol1986	SIM10	0	weeks	oral	multiple dose	qualitative dosing	NR	simvastatin	10.0	mg
+Mol1986	SIM40	0	weeks	oral	multiple dose	qualitative dosing	NR	simvastatin	40.0	mg

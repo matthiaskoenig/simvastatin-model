@@ -1,0 +1,5 @@
+study	name	time	time_unit	route	application	measurement_type	form	substance	value	unit
+Mol1988	SIM_10mg_twice	0	weeks	oral	multiple dose	qualitative dosing	NR	simvastatin	20	mg
+Mol1988	SIM_40mg	8	weeks	oral	multiple dose	qualitative dosing	NR	simvastatin	40	mg
+Mol1988	SIM_20mg_twice	16	weeks	oral	multiple dose	qualitative dosing	NR	simvastatin	40	mg
+Mol1988	SIM_40mg_once	20	weeks	oral	multiple dose	qualitative dosing	NR	simvastatin	40	mg

@@ -1,0 +1,11 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	mean_sd	pm	mean_se	mean_unit	count_unit
+OBrien2003	all	20	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	0.0	hr	0.0				mole/meter^3	dimensionless
+OBrien2003	all	20	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	0.5	hr	1.9345975721484198e-05	2.914665597801191e-05	21.171883	6.517390408363536e-06	mole/meter^3	dimensionless
+OBrien2003	all	20	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	1.0	hr	2.249199496106276e-05	2.6008037104901514e-05	21.175114	5.815573892789671e-06	mole/meter^3	dimensionless
+OBrien2003	all	20	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	2.0	hr	1.7323206596426937e-05	1.886664910673385e-05	15.800491	4.218710991029249e-06	mole/meter^3	dimensionless
+OBrien2003	all	20	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	3.0	hr	1.3663492899679339e-05	1.0698279890059551e-05	10.63635	2.3922081076492216e-06	mole/meter^3	dimensionless
+OBrien2003	all	20	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	4.0	hr	9.645393953275309e-06	1.0345680256527716e-05	8.728103	2.313364432707353e-06	mole/meter^3	dimensionless
+OBrien2003	all	20	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	6.0	hr	4.883431745304626e-06	5.9858451672011e-06	4.7455263	1.3384756696650252e-06	mole/meter^3	dimensionless
+OBrien2003	all	20	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	8.0	hr	3.976954649564819e-06	5.453857764544205e-06	4.1174927	1.2195196701135892e-06	mole/meter^3	dimensionless
+OBrien2003	all	20	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	10.0	hr	2.128327462207971e-06	3.2064652542372883e-06	2.3291705	7.169874275965712e-07	mole/meter^3	dimensionless
+OBrien2003	all	20	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	12.0	hr	1.2039509848831884e-06	2.1946136051305543e-06	1.4838133	4.907305205417797e-07	mole/meter^3	dimensionless

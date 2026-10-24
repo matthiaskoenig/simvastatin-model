@@ -1,0 +1,11 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	mean_se	pm	mean_sd	mean_unit	count_unit
+Lilja1998	all	10	SIM_total simva inhibitors	SIM	concentration	total simva inhibitors	serum	radioenzymatic assay	0.0	hr	0.0				mole/meter^3	dimensionless
+Lilja1998	all	10	SIM_total simva inhibitors	SIM	concentration	total simva inhibitors	serum	radioenzymatic assay	0.5	hr	6.036177049931287e-05	3.3952826385707744e-05	11.530145	0.00010736826437909917	mole/meter^3	dimensionless
+Lilja1998	all	10	SIM_total simva inhibitors	SIM	concentration	total simva inhibitors	serum	radioenzymatic assay	1.0	hr	0.0001435727714154833	2.5478000458085202e-05	51.560177	8.056851167436258e-05	mole/meter^3	dimensionless
+Lilja1998	all	10	SIM_total simva inhibitors	SIM	concentration	total simva inhibitors	serum	radioenzymatic assay	2.0	hr	0.00014867336234539627	1.8194491525423728e-05	56.967075	5.7536034088970456e-05	mole/meter^3	dimensionless
+Lilja1998	all	10	SIM_total simva inhibitors	SIM	concentration	total simva inhibitors	serum	radioenzymatic assay	3.0	hr	7.615933806688045e-05	7.886300961978928e-06	29.808008	2.4938673353430374e-05	mole/meter^3	dimensionless
+Lilja1998	all	10	SIM_total simva inhibitors	SIM	concentration	total simva inhibitors	serum	radioenzymatic assay	4.0	hr	5.215802107191938e-05	7.886300961978928e-06	19.329033	2.4938673353430374e-05	mole/meter^3	dimensionless
+Lilja1998	all	10	SIM_total simva inhibitors	SIM	concentration	total simva inhibitors	serum	radioenzymatic assay	6.0	hr	2.65872858451672e-05				mole/meter^3	dimensionless
+Lilja1998	all	10	SIM_total simva inhibitors	SIM	concentration	total simva inhibitors	serum	radioenzymatic assay	8.0	hr	1.496292716445259e-05				mole/meter^3	dimensionless
+Lilja1998	all	10	SIM_total simva inhibitors	SIM	concentration	total simva inhibitors	serum	radioenzymatic assay	10.0	hr	1.0611373110398535e-05				mole/meter^3	dimensionless
+Lilja1998	all	10	SIM_total simva inhibitors	SIM	concentration	total simva inhibitors	serum	radioenzymatic assay	12.0	hr	6.869749656436097e-06				mole/meter^3	dimensionless

@@ -1,0 +1,12 @@
+study	name	parent	measurement_type	group_count	choice	substance	count	mean	unit	sd	min	max
+Mol1988	all	NA	healthy	38.0	N	NA	38.0	NA	NA	NA	NA	NA
+Mol1988	all	NA	species	38.0	homo sapiens	NA	38.0	NA	NA	NA	NA	NA
+Mol1988	all	NA	sex	38.0	M	NA	23.0	NA	NA	NA	NA	NA
+Mol1988	all	NA	sex	38.0	F	NA	15.0	NA	NA	NA	NA	NA
+Mol1988	all	NA	age	38.0	NA	NA	38.0	45.0	yr	12.0	22.0	69.0
+Mol1988	all	NA	consumption	38.0	NA	cholesterol	38.0	NA	mg/day	NA	NA	300.0
+Mol1988	all	NA	medication	38.0	N	NA	38.0	NA	NA	NA	NA	NA
+Mol1988	all	NA	weight	38.0	NA	NA	38.0	72.9	kg	10.0	87.4	138.1
+Mol1988	group1	all	concentration	10.0	NA	ldl-c	10.0	10.03	mmol/l	1.99	NA	NA
+Mol1988	group2	all	concentration	20.0	NA	ldl-c	20.0	9.39	mmol/l	1.93	NA	NA
+Mol1988	group3	all	concentration	8.0	NA	ldl-c	8.0	10.05	mmol/l	1.97	NA	NA

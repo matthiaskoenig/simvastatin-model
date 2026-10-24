@@ -1,0 +1,13 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	mean_unit	count_unit
+Jiang2017	all	26	SIM+AML_simvastatin acid	SIM,AML	concentration	simvastatin acid	plasma	LC MS/MS	0.0	hr	0.0	mole/meter^3	dimensionless
+Jiang2017	all	26	SIM+AML_simvastatin acid	SIM,AML	concentration	simvastatin acid	plasma	LC MS/MS	0.33	hr	5.77428928080623e-07	mole/meter^3	dimensionless
+Jiang2017	all	26	SIM+AML_simvastatin acid	SIM,AML	concentration	simvastatin acid	plasma	LC MS/MS	0.67	hr	1.2689816765918461e-06	mole/meter^3	dimensionless
+Jiang2017	all	26	SIM+AML_simvastatin acid	SIM,AML	concentration	simvastatin acid	plasma	LC MS/MS	1.0	hr	2.2490384791571233e-06	mole/meter^3	dimensionless
+Jiang2017	all	26	SIM+AML_simvastatin acid	SIM,AML	concentration	simvastatin acid	plasma	LC MS/MS	1.5	hr	3.718913192853871e-06	mole/meter^3	dimensionless
+Jiang2017	all	26	SIM+AML_simvastatin acid	SIM,AML	concentration	simvastatin acid	plasma	LC MS/MS	2.0	hr	5.3330975721484196e-06	mole/meter^3	dimensionless
+Jiang2017	all	26	SIM+AML_simvastatin acid	SIM,AML	concentration	simvastatin acid	plasma	LC MS/MS	3.0	hr	7.263407924874027e-06	mole/meter^3	dimensionless
+Jiang2017	all	26	SIM+AML_simvastatin acid	SIM,AML	concentration	simvastatin acid	plasma	LC MS/MS	4.0	hr	8.38601420064132e-06	mole/meter^3	dimensionless
+Jiang2017	all	26	SIM+AML_simvastatin acid	SIM,AML	concentration	simvastatin acid	plasma	LC MS/MS	5.0	hr	7.143277599633532e-06	mole/meter^3	dimensionless
+Jiang2017	all	26	SIM+AML_simvastatin acid	SIM,AML	concentration	simvastatin acid	plasma	LC MS/MS	7.0	hr	5.869131012368301e-06	mole/meter^3	dimensionless
+Jiang2017	all	26	SIM+AML_simvastatin acid	SIM,AML	concentration	simvastatin acid	plasma	LC MS/MS	9.0	hr	5.316263628034814e-06	mole/meter^3	dimensionless
+Jiang2017	all	26	SIM+AML_simvastatin acid	SIM,AML	concentration	simvastatin acid	plasma	LC MS/MS	12.0	hr	3.0301532295006874e-06	mole/meter^3	dimensionless

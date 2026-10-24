@@ -1,0 +1,4 @@
+study	name	time	time_unit	route	application	measurement_type	form	substance	mean	unit	comment
+Ntanios1999	SIM	0	hr	oral	multiple dose	qualitative dosing	tablet	simvastatin	60	mg	40 or 80 mg daily, not exactly reported; just means from both groups as one group
+Ntanios1999	SIM40	0	hr	oral	multiple dose	qualitative dosing	tablet	simvastatin	40	mg	40 mg daily
+Ntanios1999	SIM80	0	hr	oral	multiple dose	qualitative dosing	tablet	simvastatin	80	mg	80 mg daily

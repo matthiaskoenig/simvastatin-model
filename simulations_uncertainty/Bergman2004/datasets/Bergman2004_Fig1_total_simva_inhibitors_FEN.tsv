@@ -1,0 +1,14 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	mean_unit	count_unit
+Bergman2004	all	12	total simva inhibitors_SIMwithFEN	SIM,FEN	concentration	total simva inhibitors	plasma	enzymatic assay	0.5	hr	2.309985799358681e-05	mole/meter^3	dimensionless
+Bergman2004	all	12	total simva inhibitors_SIMwithFEN	SIM,FEN	concentration	total simva inhibitors	plasma	enzymatic assay	1.0	hr	9.757375171781952e-05	mole/meter^3	dimensionless
+Bergman2004	all	12	total simva inhibitors_SIMwithFEN	SIM,FEN	concentration	total simva inhibitors	plasma	enzymatic assay	1.5	hr	0.00023112970682546955	mole/meter^3	dimensionless
+Bergman2004	all	12	total simva inhibitors_SIMwithFEN	SIM,FEN	concentration	total simva inhibitors	plasma	enzymatic assay	2.0	hr	0.0003248688731103985	mole/meter^3	dimensionless
+Bergman2004	all	12	total simva inhibitors_SIMwithFEN	SIM,FEN	concentration	total simva inhibitors	plasma	enzymatic assay	2.5	hr	0.00027176326156665143	mole/meter^3	dimensionless
+Bergman2004	all	12	total simva inhibitors_SIMwithFEN	SIM,FEN	concentration	total simva inhibitors	plasma	enzymatic assay	3.0	hr	0.0002490558634906093	mole/meter^3	dimensionless
+Bergman2004	all	12	total simva inhibitors_SIMwithFEN	SIM,FEN	concentration	total simva inhibitors	plasma	enzymatic assay	4.0	hr	0.0001676786303252405	mole/meter^3	dimensionless
+Bergman2004	all	12	total simva inhibitors_SIMwithFEN	SIM,FEN	concentration	total simva inhibitors	plasma	enzymatic assay	6.0	hr	5.715250801649106e-05	mole/meter^3	dimensionless
+Bergman2004	all	12	total simva inhibitors_SIMwithFEN	SIM,FEN	concentration	total simva inhibitors	plasma	enzymatic assay	8.0	hr	3.139482363719652e-05	mole/meter^3	dimensionless
+Bergman2004	all	12	total simva inhibitors_SIMwithFEN	SIM,FEN	concentration	total simva inhibitors	plasma	enzymatic assay	10.0	hr	1.719566193311956e-05	mole/meter^3	dimensionless
+Bergman2004	all	12	total simva inhibitors_SIMwithFEN	SIM,FEN	concentration	total simva inhibitors	plasma	enzymatic assay	12.0	hr	1.1131360513055427e-05	mole/meter^3	dimensionless
+Bergman2004	all	12	total simva inhibitors_SIMwithFEN	SIM,FEN	concentration	total simva inhibitors	plasma	enzymatic assay	16.0	hr	4.1388889143380675e-06	mole/meter^3	dimensionless
+Bergman2004	all	12	total simva inhibitors_SIMwithFEN	SIM,FEN	concentration	total simva inhibitors	plasma	enzymatic assay	24.0	hr	3.426209344938159e-06	mole/meter^3	dimensionless

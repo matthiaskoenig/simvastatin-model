@@ -1,0 +1,6 @@
+study	group	count	intervention	measurement_type	substance	tissue	label	time	time_unit	mean	mean_sd	pm	mean_se	mean_unit	count_unit
+Ntanios1999	all	18	SIM	concentration	ldl-c	plasma	fig1_ldl-c	0	weeks	7.996347	1.803586	9.799933	0.425109297017707	mmol/l	dimensionless
+Ntanios1999	all	18	SIM	concentration	ldl-c	plasma	fig1_ldl-c	6	weeks	4.171395	1.249984	5.421379	0.294624054258228	mmol/l	dimensionless
+Ntanios1999	all	18	SIM	concentration	ldl-c	plasma	fig1_ldl-c	12	weeks	4.1142526	1.1964514	5.310704	0.282006299433379	mmol/l	dimensionless
+Ntanios1999	all	18	SIM	concentration	ldl-c	plasma	fig1_ldl-c	18	weeks	3.9678261	1.0892532	5.0570793	0.256739441383049	mmol/l	dimensionless
+Ntanios1999	all	18	SIM	concentration	ldl-c	plasma	fig1_ldl-c	24	weeks	4.142843	1.214289	5.357132	0.286210662073411	mmol/l	dimensionless

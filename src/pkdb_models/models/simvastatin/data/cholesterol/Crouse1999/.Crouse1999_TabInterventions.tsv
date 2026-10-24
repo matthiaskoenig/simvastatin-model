@@ -1,0 +1,5 @@
+study	name	time	time_unit	route	application	measurement_type	form	substance	value	unit
+Crouse1999	ATO20	0	hr	oral	multiple dose	qualitative dosing	NR	atorvastatin	20	mg
+Crouse1999	SIM40	0	hr	oral	multiple dose	qualitative dosing	NR	simvastatin	40	mg
+Crouse1999	ATO40	0	hr	oral	multiple dose	qualitative dosing	NR	atorvastatin	40	mg
+Crouse1999	SIM80	0	hr	oral	multiple dose	qualitative dosing	NR	simvastatin	80	mg

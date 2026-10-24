@@ -1,0 +1,5 @@
+study	group	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	sd	unit
+Zhou2013	all	SIM	cmax	simvastatin	plasma	HPLC-ESI-MS/MS	NA	NA	9.83	2.41	ug/l
+Zhou2013	all	SIM	auc_inf	simvastatin	plasma	HPLC-ESI-MS/MS	NA	NA	40.32	6.82	ug hr/l
+Zhou2013	all	SIM	thalf	simvastatin	plasma	HPLC-ESI-MS/MS	NA	NA	4.85	1.23	hr
+Zhou2013	all	SIM	tmax	simvastatin	plasma	HPLC-ESI-MS/MS	NA	NA	1.44	0.39	hr

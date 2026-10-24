@@ -1,0 +1,9 @@
+study	group	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	sd	median	min	max	unit
+Ziviani2001	all	SIM	auc_end	simva+simacid	plasma	GC	24.0	hr	66.5	26.34	67.4	14.44	109.06	ng hr/ml
+Ziviani2001	all	SIM	cmax	simva+simacid	plasma	GC	NA	NA	10.03	5.53	8.14	3.65	22.15	ng/ml
+Ziviani2001	all	SIM	thalf	simva+simacid	plasma	GC	NA	NA	9.7	5.9	9.0	3.8	25.6	hr
+Ziviani2001	all	SIM	tmax	simva+simacid	plasma	GC	NA	NA	1.3	1.1	1.0	0.5	4.0	hr
+Ziviani2001	all	SIM,LAC	auc_end	simva+simacid	plasma	GC	24.0	hr	88.2	37.7	80.07	28.01	177.07	ng hr/ml
+Ziviani2001	all	SIM,LAC	cmax	simva+simacid	plasma	GC	NA	NA	18.35	14.83	15.35	5.14	68.14	ng/ml
+Ziviani2001	all	SIM,LAC	thalf	simva+simacid	plasma	GC	NA	NA	10.0	6.5	8.1	3.5	28.6	hr
+Ziviani2001	all	SIM,LAC	tmax	simva+simacid	plasma	GC	NA	NA	2.2	1.9	1.5	0.5	6.0	hr

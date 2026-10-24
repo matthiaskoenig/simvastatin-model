@@ -1,0 +1,9 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	mean_unit	count_unit
+Jacobson2004	VER_SIM	12	SIM1_simvastatin acid	SIM1	concentration	simvastatin acid	serum	LC MS/MS	1.0	hr	7.604226294090702e-07	mole/meter^3	dimensionless
+Jacobson2004	VER_SIM	12	SIM1_simvastatin acid	SIM1	concentration	simvastatin acid	serum	LC MS/MS	2.0	hr	1.8396431516262024e-06	mole/meter^3	dimensionless
+Jacobson2004	VER_SIM	12	SIM1_simvastatin acid	SIM1	concentration	simvastatin acid	serum	LC MS/MS	3.0	hr	3.1656678882272102e-06	mole/meter^3	dimensionless
+Jacobson2004	VER_SIM	12	SIM1_simvastatin acid	SIM1	concentration	simvastatin acid	serum	LC MS/MS	4.0	hr	2.721510077874485e-06	mole/meter^3	dimensionless
+Jacobson2004	VER_SIM	12	SIM1_simvastatin acid	SIM1	concentration	simvastatin acid	serum	LC MS/MS	6.0	hr	2.2820359596885023e-06	mole/meter^3	dimensionless
+Jacobson2004	VER_SIM	12	SIM1_simvastatin acid	SIM1	concentration	simvastatin acid	serum	LC MS/MS	8.0	hr	1.9014490609253323e-06	mole/meter^3	dimensionless
+Jacobson2004	VER_SIM	12	SIM1_simvastatin acid	SIM1	concentration	simvastatin acid	serum	LC MS/MS	12.0	hr	1.1063945716903344e-06	mole/meter^3	dimensionless
+Jacobson2004	VER_SIM	12	SIM1_simvastatin acid	SIM1	concentration	simvastatin acid	serum	LC MS/MS	14.0	hr	4.6936953733394416e-07	mole/meter^3	dimensionless

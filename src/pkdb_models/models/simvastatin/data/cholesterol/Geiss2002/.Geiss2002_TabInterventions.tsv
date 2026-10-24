@@ -1,0 +1,4 @@
+study	name	time	time_unit	route	application	measurement_type	form	substance	mean	sd	unit
+Geiss2002	SIM_FH	0	hr	oral	multiple dose	qualitative dosing	NR	simvastatin	13.3	5	mg
+Geiss2002	SIM_diabetics	0	hr	oral	multiple dose	qualitative dosing	NR	simvastatin	13.8	5	mg
+Geiss2002	placebo	0	hr	oral	single dose	dosing	NR	placebo	0.0	0	mg

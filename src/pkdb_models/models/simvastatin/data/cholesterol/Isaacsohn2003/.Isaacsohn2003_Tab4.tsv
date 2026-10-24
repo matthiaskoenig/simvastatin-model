@@ -1,0 +1,25 @@
+study	group	count	intervention	measurement_type	substance	method	tissue	label	time	time_unit	mean	median	sd	se	change	change_sd	unit
+Isaacsohn2003	all	49.0	placebo	concentration	hdl-c	enzymatic assay	plasma	placebo_hdl-c	0.0	week	38.0	na	8.0	1.14285714285714	na	na	mg/dl
+Isaacsohn2003	all	47.0	SIM20	concentration	hdl-c	enzymatic assay	plasma	SIM20_hdl-c	0.0	week	38.0	na	10.0	1.45864991497895	na	na	mg/dl
+Isaacsohn2003	all	46.0	SIM40	concentration	hdl-c	enzymatic assay	plasma	SIM40_hdl-c	0.0	week	37.0	na	10.0	1.47441956154897	na	na	mg/dl
+Isaacsohn2003	all	47.0	SIM80	concentration	hdl-c	enzymatic assay	plasma	SIM80_hdl-c	0.0	week	35.0	na	7.0	1.02105494048526	na	na	mg/dl
+Isaacsohn2003	all	48.0	placebo	concentration	apoA-I	radioimmunoassay	plasma	placebo_apoA-I	0.0	week	142.0	na	28.0	4.04145188432738	na	na	mg/dl
+Isaacsohn2003	all	46.0	SIM20	concentration	apoA-I	radioimmunoassay	plasma	SIM20_apoA-I	0.0	week	143.0	na	31.0	4.57070064080181	na	na	mg/dl
+Isaacsohn2003	all	46.0	SIM40	concentration	apoA-I	radioimmunoassay	plasma	SIM40_apoA-I	0.0	week	139.0	na	32.0	4.71814259695671	na	na	mg/dl
+Isaacsohn2003	all	46.0	SIM80	concentration	apoA-I	radioimmunoassay	plasma	SIM80_apoA-I	0.0	week	137.0	na	22.0	3.24372303540774	na	na	mg/dl
+Isaacsohn2003	all	49.0	placebo	concentration	hdl triglyceride	enzymatic assay	plasma	placebo_hdl triglyceride	0.0	week	51.0	na	16.0	2.28571428571429	na	na	mg/dl
+Isaacsohn2003	all	47.0	SIM20	concentration	hdl triglyceride	enzymatic assay	plasma	SIM20_hdl triglyceride	0.0	week	48.0	na	15.0	2.18797487246842	na	na	mg/dl
+Isaacsohn2003	all	46.0	SIM40	concentration	hdl triglyceride	enzymatic assay	plasma	SIM40_hdl triglyceride	0.0	week	49.0	na	16.0	2.35907129847835	na	na	mg/dl
+Isaacsohn2003	all	47.0	SIM80	concentration	hdl triglyceride	enzymatic assay	plasma	SIM80_hdl triglyceride	0.0	week	51.0	na	13.0	1.89624488947263	na	na	mg/dl
+Isaacsohn2003	all	49.0	placebo	concentration	hdl-c	enzymatic assay	plasma	placebo_hdl-c	6.0	week	39.0	na	9.0	1.28571428571429	1.1	8.5	mg/dl
+Isaacsohn2003	all	47.0	SIM20	concentration	hdl-c	enzymatic assay	plasma	SIM20_hdl-c	6.0	week	41.0	na	10.0	1.45864991497895	7.3	15	mg/dl
+Isaacsohn2003	all	46.0	SIM40	concentration	hdl-c	enzymatic assay	plasma	SIM40_hdl-c	6.0	week	40.0	na	11.0	1.62186151770387	9.3	10.1	mg/dl
+Isaacsohn2003	all	47.0	SIM80	concentration	hdl-c	enzymatic assay	plasma	SIM80_hdl-c	6.0	week	39.0	na	8.0	1.16691993198316	11.4	9.8	mg/dl
+Isaacsohn2003	all	48.0	placebo	concentration	apoA-I	radioimmunoassay	plasma	placebo_apoA-I	6.0	week	143.0	na	27.0	3.89711431702997	0.6	8.8	mg/dl
+Isaacsohn2003	all	46.0	SIM20	concentration	apoA-I	radioimmunoassay	plasma	SIM20_apoA-I	6.0	week	147.0	na	31.0	4.57070064080181	3.2	10.2	mg/dl
+Isaacsohn2003	all	46.0	SIM40	concentration	apoA-I	radioimmunoassay	plasma	SIM40_apoA-I	6.0	week	144.0	na	29.0	4.27581672849202	4.2	10	mg/dl
+Isaacsohn2003	all	46.0	SIM80	concentration	apoA-I	radioimmunoassay	plasma	SIM80_apoA-I	6.0	week	143.0	na	21.0	3.09628107925284	4.4	9.2	mg/dl
+Isaacsohn2003	all	49.0	placebo	concentration	hdl triglyceride	enzymatic assay	plasma	placebo_hdl triglyceride	6.0	week	54.0	na	18.0	2.57142857142857	11.6	44.3	mg/dl
+Isaacsohn2003	all	47.0	SIM20	concentration	hdl triglyceride	enzymatic assay	plasma	SIM20_hdl triglyceride	6.0	week	52.0	na	20.0	2.91729982995789	12.2	36.1	mg/dl
+Isaacsohn2003	all	46.0	SIM40	concentration	hdl triglyceride	enzymatic assay	plasma	SIM40_hdl triglyceride	6.0	week	48.0	na	16.0	2.35907129847835	4.3	39	mg/dl
+Isaacsohn2003	all	47.0	SIM80	concentration	hdl triglyceride	enzymatic assay	plasma	SIM80_hdl triglyceride	6.0	week	47.0	na	14.0	2.04210988097052	-2.5	34	mg/dl

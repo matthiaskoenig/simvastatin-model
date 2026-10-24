@@ -1,0 +1,3 @@
+study	group	count	intervention	measurement_type	substance	tissue	label	time	time_unit	mean	mean_sd	mean_se	mean_unit	count_unit
+Geiss2002	dia_mellitus_hyperlipoproteiemia	8	SIM_diabetics	concentration	cholesterol	plasma	SIM_diabetics_cholesterol	0	weeks	7.3	1.1	0.388908729652601	mmol/l	dimensionless
+Geiss2002	dia_mellitus_hyperlipoproteiemia	8	SIM_diabetics	concentration	cholesterol	plasma	SIM_diabetics_cholesterol	4	weeks	5.4	0.5	0.176776695296637	mmol/l	dimensionless

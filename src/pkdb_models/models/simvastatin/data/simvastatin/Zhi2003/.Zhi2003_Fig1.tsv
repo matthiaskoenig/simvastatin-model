@@ -1,0 +1,49 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	unit
+Zhi2003	all	29	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	0.5	hr	1.3966646	ng/ml
+Zhi2003	all	29	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	1.0	hr	1.9412473	ng/ml
+Zhi2003	all	29	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	1.5	hr	2.176329	ng/ml
+Zhi2003	all	29	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	2.0	hr	2.897618	ng/ml
+Zhi2003	all	29	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	2.5	hr	3.2485142	ng/ml
+Zhi2003	all	29	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	3.0	hr	3.2942173	ng/ml
+Zhi2003	all	29	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	4.0	hr	4.0232387	ng/ml
+Zhi2003	all	29	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	6.0	hr	4.254242	ng/ml
+Zhi2003	all	29	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	8.0	hr	2.7243693	ng/ml
+Zhi2003	all	29	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	10.0	hr	2.013421	ng/ml
+Zhi2003	all	29	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	12.0	hr	1.3459684	ng/ml
+Zhi2003	all	29	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	16.0	hr	0.6941986	ng/ml
+Zhi2003	all	29	SIM+ORL_simvastatin acid	SIM,ORL	concentration	simvastatin acid	plasma	LC MS/MS	0.5	hr	1.3966143	ng/ml
+Zhi2003	all	29	SIM+ORL_simvastatin acid	SIM,ORL	concentration	simvastatin acid	plasma	LC MS/MS	1.0	hr	1.781298	ng/ml
+Zhi2003	all	29	SIM+ORL_simvastatin acid	SIM,ORL	concentration	simvastatin acid	plasma	LC MS/MS	1.5	hr	2.1148348	ng/ml
+Zhi2003	all	29	SIM+ORL_simvastatin acid	SIM,ORL	concentration	simvastatin acid	plasma	LC MS/MS	2.0	hr	3.0249157	ng/ml
+Zhi2003	all	29	SIM+ORL_simvastatin acid	SIM,ORL	concentration	simvastatin acid	plasma	LC MS/MS	2.5	hr	3.2953458	ng/ml
+Zhi2003	all	29	SIM+ORL_simvastatin acid	SIM,ORL	concentration	simvastatin acid	plasma	LC MS/MS	3.0	hr	3.201136	ng/ml
+Zhi2003	all	29	SIM+ORL_simvastatin acid	SIM,ORL	concentration	simvastatin acid	plasma	LC MS/MS	4.0	hr	4.0811653	ng/ml
+Zhi2003	all	29	SIM+ORL_simvastatin acid	SIM,ORL	concentration	simvastatin acid	plasma	LC MS/MS	6.0	hr	4.0173683	ng/ml
+Zhi2003	all	29	SIM+ORL_simvastatin acid	SIM,ORL	concentration	simvastatin acid	plasma	LC MS/MS	8.0	hr	2.6472943	ng/ml
+Zhi2003	all	29	SIM+ORL_simvastatin acid	SIM,ORL	concentration	simvastatin acid	plasma	LC MS/MS	10.0	hr	2.013421	ng/ml
+Zhi2003	all	29	SIM+ORL_simvastatin acid	SIM,ORL	concentration	simvastatin acid	plasma	LC MS/MS	12.0	hr	1.2350004	ng/ml
+Zhi2003	all	29	SIM+ORL_simvastatin acid	SIM,ORL	concentration	simvastatin acid	plasma	LC MS/MS	16.0	hr	0.7674674	ng/ml
+Zhi2003	all	29	SIM+ORL_simvastatin	SIM,ORL	concentration	simvastatin	plasma	LC MS/MS	0.5	hr	18.961008	ng/ml
+Zhi2003	all	29	SIM+ORL_simvastatin	SIM,ORL	concentration	simvastatin	plasma	LC MS/MS	1.0	hr	16.660515	ng/ml
+Zhi2003	all	29	SIM+ORL_simvastatin	SIM,ORL	concentration	simvastatin	plasma	LC MS/MS	1.5	hr	12.684087	ng/ml
+Zhi2003	all	29	SIM+ORL_simvastatin	SIM,ORL	concentration	simvastatin	plasma	LC MS/MS	2.0	hr	9.93806	ng/ml
+Zhi2003	all	29	SIM+ORL_simvastatin	SIM,ORL	concentration	simvastatin	plasma	LC MS/MS	2.5	hr	7.566515	ng/ml
+Zhi2003	all	29	SIM+ORL_simvastatin	SIM,ORL	concentration	simvastatin	plasma	LC MS/MS	3.0	hr	6.460396	ng/ml
+Zhi2003	all	29	SIM+ORL_simvastatin	SIM,ORL	concentration	simvastatin	plasma	LC MS/MS	4.0	hr	4.7780285	ng/ml
+Zhi2003	all	29	SIM+ORL_simvastatin	SIM,ORL	concentration	simvastatin	plasma	LC MS/MS	6.0	hr	1.852828	ng/ml
+Zhi2003	all	29	SIM+ORL_simvastatin	SIM,ORL	concentration	simvastatin	plasma	LC MS/MS	8.0	hr	1.1365566	ng/ml
+Zhi2003	all	29	SIM+ORL_simvastatin	SIM,ORL	concentration	simvastatin	plasma	LC MS/MS	10.0	hr	0.839947	ng/ml
+Zhi2003	all	29	SIM+ORL_simvastatin	SIM,ORL	concentration	simvastatin	plasma	LC MS/MS	12.0	hr	0.75870484	ng/ml
+Zhi2003	all	29	SIM+ORL_simvastatin	SIM,ORL	concentration	simvastatin	plasma	LC MS/MS	16.0	hr	0.64617157	ng/ml
+Zhi2003	all	29	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	0.5	hr	19.794357	ng/ml
+Zhi2003	all	29	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	1.0	hr	18.156197	ng/ml
+Zhi2003	all	29	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	1.5	hr	12.867177	ng/ml
+Zhi2003	all	29	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	2.0	hr	10.524032	ng/ml
+Zhi2003	all	29	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	2.5	hr	8.858505	ng/ml
+Zhi2003	all	29	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	3.0	hr	7.0408792	ng/ml
+Zhi2003	all	29	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	4.0	hr	4.384342	ng/ml
+Zhi2003	all	29	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	6.0	hr	2.1382573	ng/ml
+Zhi2003	all	29	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	8.0	hr	1.4501066	ng/ml
+Zhi2003	all	29	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	10.0	hr	1.1028506	ng/ml
+Zhi2003	all	29	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	12.0	hr	1.0105954	ng/ml
+Zhi2003	all	29	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	16.0	hr	0.8607166	ng/ml

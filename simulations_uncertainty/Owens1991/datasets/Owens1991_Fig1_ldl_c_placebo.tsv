@@ -1,0 +1,5 @@
+study	group	count	intervention	measurement_type	substance	method	tissue	label	time	time_unit	mean	mean_se	mean_sd	mean_unit	count_unit
+Owens1991	all	5	placebo	concentration	ldl-c	 enzymatic coiorimetric methods	serum	ldl-c_placebo	0	weeks	5.0182643			mmol/l	dimensionless
+Owens1991	all	5	placebo	concentration	ldl-c	 enzymatic coiorimetric methods	serum	ldl-c_placebo	4	weeks	5.1530833			mmol/l	dimensionless
+Owens1991	all	5	placebo	concentration	ldl-c	 enzymatic coiorimetric methods	serum	ldl-c_placebo	8	weeks	4.7341375			mmol/l	dimensionless
+Owens1991	all	5	placebo	concentration	ldl-c	 enzymatic coiorimetric methods	serum	ldl-c_placebo	12	weeks	4.748258			mmol/l	dimensionless

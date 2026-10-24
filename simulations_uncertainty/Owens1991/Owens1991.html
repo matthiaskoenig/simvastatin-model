@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Owens1991 | sbmlsim experiment</title>
+<style>
+:root {
+  --bg: #ffffff; --bg-soft: #f6f7f9; --bg-card: #ffffff;
+  --fg: #1b1f24; --fg-soft: #5b6472; --line: #e3e6ea;
+  --accent: #3b5bdb; --training: #2f9e44; --validation: #1c7ed6; --outlier: #e8590c;
+  --excluded: #868e96;
+  --radius: 10px; --shadow: 0 1px 2px rgba(16,24,40,.06), 0 1px 3px rgba(16,24,40,.1);
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #14171c; --bg-soft: #1a1e24; --bg-card: #1a1e24;
+    --fg: #e6e9ee; --fg-soft: #9aa4b2; --line: #2a3038;
+    --accent: #748ffc; --training: #51cf66; --validation: #4dabf7; --outlier: #ff922b;
+    --excluded: #adb5bd;
+    --shadow: none;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--bg); color: var(--fg);
+  font: 15px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+code, .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: .92em; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+header.top {
+  position: sticky; top: 0; z-index: 20; background: var(--bg);
+  border-bottom: 1px solid var(--line); padding: 14px 24px 0;
+}
+.top .row { display: flex; flex-wrap: wrap; gap: 12px; align-items: baseline; }
+.top h1 { margin: 0; font-size: 20px; font-weight: 650; letter-spacing: -.01em; }
+.top .sub { color: var(--fg-soft); font-size: 13px; }
+.badges { display: flex; flex-wrap: wrap; gap: 8px; margin-left: auto; }
+.badge {
+  background: var(--bg-soft); border: 1px solid var(--line); border-radius: 999px;
+  padding: 2px 10px; font-size: 12px; color: var(--fg-soft); white-space: nowrap;
+}
+.badge b { color: var(--fg); font-weight: 600; }
+.badge.failed, .badge.failed b { color: var(--outlier); border-color: var(--outlier); }
+nav.sections { display: flex; gap: 4px; margin-top: 12px; }
+nav.sections a {
+  padding: 8px 14px; border-bottom: 2px solid transparent; color: var(--fg-soft);
+  font-size: 14px; font-weight: 550;
+}
+nav.sections a.active { color: var(--fg); border-bottom-color: var(--accent); }
+.search { display: flex; gap: 8px; align-items: center; padding: 10px 0 12px; }
+.search input {
+  flex: 1; max-width: 460px; padding: 8px 12px; font-size: 14px; color: var(--fg);
+  background: var(--bg-soft); border: 1px solid var(--line); border-radius: 8px;
+}
+.search input:focus { outline: 2px solid var(--accent); outline-offset: -1px; }
+.chip {
+  border: 1px solid var(--line); background: var(--bg-soft); color: var(--fg-soft);
+  border-radius: 999px; padding: 5px 12px; font-size: 12.5px; cursor: pointer;
+}
+.chip[aria-pressed="true"] { color: #fff; border-color: transparent; }
+.chip[data-kind="training"][aria-pressed="true"] { background: var(--training); }
+.chip[data-kind="validation"][aria-pressed="true"] { background: var(--validation); }
+.chip[data-kind="outlier"][aria-pressed="true"] { background: var(--outlier); }
+.chip[data-kind="excluded"][aria-pressed="true"] { background: var(--excluded); }
+#hits { color: var(--fg-soft); font-size: 12.5px; margin-left: auto; }
+
+main { padding: 24px; max-width: 1400px; margin: 0 auto; }
+section { margin-bottom: 44px; scroll-margin-top: 150px; }
+section > h2 {
+  font-size: 17px; font-weight: 650; margin: 0 0 4px; padding-bottom: 8px;
+  border-bottom: 1px solid var(--line);
+}
+h3 { font-size: 14px; font-weight: 600; color: var(--fg-soft); margin: 26px 0 10px;
+     text-transform: uppercase; letter-spacing: .04em; }
+.card {
+  background: var(--bg-card); border: 1px solid var(--line); border-radius: var(--radius);
+  box-shadow: var(--shadow); padding: 16px; margin-bottom: 16px;
+}
+/* a heading which opens a card sits at the padding of the card */
+.card > h3:first-child { margin-top: 0; }
+.grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+        margin-bottom: 16px; }
+/* the gap of the grid is the space between its cards */
+.grid > .card { margin-bottom: 0; }
+.card.wide { grid-column: 1 / -1; }
+
+table { border-collapse: collapse; width: 100%; font-size: 13.5px; }
+/* two tables in one card, e.g. the networks and their arrays */
+table + table { margin-top: 24px; }
+th, td { text-align: left; padding: 7px 12px 7px 0; border-bottom: 1px solid var(--line); }
+th { color: var(--fg-soft); font-weight: 600; white-space: nowrap; }
+th[data-sort] { cursor: pointer; user-select: none; }
+th[data-sort]:hover { color: var(--fg); }
+th[data-sort]::after { content: " ⇅"; opacity: .35; }
+th[data-sort].asc::after { content: " ↑"; opacity: 1; }
+th[data-sort].desc::after { content: " ↓"; opacity: 1; }
+td.num, th.num { text-align: right; padding-right: 18px; font-variant-numeric: tabular-nums; }
+tbody tr:hover { background: var(--bg-soft); }
+tr.total td { font-weight: 650; border-top: 2px solid var(--line); }
+
+.kv { display: grid; grid-template-columns: max-content 1fr; gap: 4px 20px; font-size: 13.5px;
+      margin: 0; }
+.kv dt { color: var(--fg-soft); }
+.kv dd { margin: 0; word-break: break-word; white-space: pre-line; }
+
+.tag { border-radius: 999px; padding: 1px 9px; font-size: 11.5px; font-weight: 600; color: #fff; }
+.tag.training { background: var(--training); }
+.tag.validation { background: var(--validation); }
+.tag.outlier { background: var(--outlier); }
+.tag.excluded { background: var(--excluded); }
+.warn { color: var(--outlier); }
+
+/* what a value means, on the header of a column or next to a figure */
+.hint {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 14px; height: 14px; margin-left: 4px; border-radius: 50%;
+  border: 1px solid var(--line); color: var(--fg-soft);
+  font-size: 10px; font-weight: 700; line-height: 1; cursor: help;
+  position: relative; vertical-align: middle; user-select: none;
+}
+.hint:hover, .hint:focus { border-color: var(--accent); color: var(--accent); }
+.hint::after {
+  content: attr(data-tip);
+  position: absolute; bottom: calc(100% + 8px); left: 50%;
+  transform: translateX(-50%);
+  width: max-content; max-width: 320px; padding: 8px 10px;
+  border-radius: 6px; border: 1px solid var(--line);
+  background: var(--bg); color: var(--fg); box-shadow: 0 4px 16px rgb(0 0 0 / 18%);
+  font-size: 12px; font-weight: 400; line-height: 1.45; text-align: left;
+  white-space: normal; opacity: 0; visibility: hidden; transition: opacity .12s;
+  z-index: 20; pointer-events: none;
+}
+.hint:hover::after, .hint:focus::after { opacity: 1; visibility: visible; }
+/* a tooltip of the last columns would leave the page */
+td:last-child .hint::after, th:last-child .hint::after { left: auto; right: 0; transform: none; }
+/* on a phone a wide table scrolls inside its card and not the page; the
+   tooltips of its header open downwards, into the table, not above the card */
+@media (max-width: 700px) {
+  .card { overflow-x: auto; }
+  th .hint::after { bottom: auto; top: calc(100% + 8px); }
+  /* the header of a phone is not sticky, it would cover half of the screen,
+     and its rows wrap; the gutter is 16px */
+  header.top { position: static; padding: 12px 16px 0; }
+  main { padding: 16px; }
+  footer { padding: 8px 16px 24px; }
+  section { scroll-margin-top: 16px; }
+  nav.sections { overflow-x: auto; }
+  nav.sections a { padding: 8px 10px; white-space: nowrap; }
+  .search { flex-wrap: wrap; }
+  .search input { flex-basis: 100%; max-width: none; }
+}
+
+figure { margin: 0; }
+figure img {
+  width: 100%; height: auto; background: #fff; border: 1px solid var(--line);
+  border-radius: 8px; cursor: zoom-in;
+}
+figcaption { color: var(--fg-soft); font-size: 12.5px; margin-top: 6px; }
+
+.mapping { }
+.mapping header { display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; margin-bottom: 10px; }
+.mapping header .name { font-weight: 650; }
+.mapping header .exp { color: var(--fg-soft); font-size: 13px; }
+.mapping .metrics { margin-left: auto; display: flex; gap: 14px; font-size: 12.5px; color: var(--fg-soft); }
+.mapping .metrics b { color: var(--fg); font-weight: 600; }
+.hidden { display: none !important; }
+.failed { color: var(--outlier); }
+.empty { color: var(--fg-soft); font-style: italic; padding: 16px 0; }
+
+pre.code {
+  margin: 0; padding: 14px 16px; overflow-x: auto; max-height: 70vh;
+  background: var(--bg-soft); border: 1px solid var(--line); border-radius: 8px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 12.5px; line-height: 1.5; tab-size: 4;
+}
+#lightbox {
+  position: fixed; inset: 0; background: rgba(8,10,14,.86); z-index: 50;
+  display: none; align-items: center; justify-content: center; padding: 24px; cursor: zoom-out;
+}
+#lightbox.open { display: flex; }
+#lightbox img { max-width: 100%; max-height: 100%; background: #fff; border-radius: 8px; }
+footer { color: var(--fg-soft); font-size: 12.5px; padding: 8px 24px 32px; max-width: 1400px; margin: 0 auto; }
+</style>
+<style>
+  /* an interactive figure is a page of its own, shown in place of the image */
+  figure iframe { width: 100%; height: 520px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg-card); }
+  /* a figure of one panel is not stretched to the width of the page, a figure
+     of many panels still uses it */
+  #figures figure img { width: auto; max-width: 100%; max-height: 70vh; display: block; margin: 0 auto; }
+  .mapping header .exp a + a::before { content: "·"; color: var(--fg-soft); margin: 0 6px; }
+</style>
+</head>
+<body data-items="figures">
+
+<header class="top">
+  <div class="row">
+    <h1>Owens1991</h1>
+    <span class="sub">simulation experiment</span>
+    <div class="badges">
+<span class="badge">models <b>1</b></span>
+<span class="badge">datasets <b>6</b></span>
+<span class="badge">figures <b>1</b></span>
+    </div>
+  </div>
+  <nav class="sections">
+<a href="#overview">Overview</a>
+<a href="#figures">Figures</a>
+<a href="#code">Code</a>
+  </nav>
+  <div class="search">
+    <input id="search" type="search" placeholder="Search figures, models, datasets …" autocomplete="off">
+    <span id="hits"></span>
+  </div>
+</header>
+
+<main>
+
+<section id="overview">
+  <h2>Overview</h2>
+
+  <h3>Models</h3>
+  <div class="card">
+    <table data-filter="row">
+      <thead><tr><th data-sort="text">model</th><th data-sort="text">source</th></tr></thead>
+      <tbody>
+      <tr><td class="mono">model</td><td><a href="../../../../src/pkdb_models/models/simvastatin/models/output/models/simvastatin_body_flat.xml" title="../../../../src/pkdb_models/models/simvastatin/models/output/models/simvastatin_body_flat.xml">simvastatin_body_flat.xml</a></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>Datasets</h3>
+  <div class="card">
+    <table data-filter="row">
+      <thead><tr><th data-sort="text">dataset</th><th data-sort="text">file</th></tr></thead>
+      <tbody>
+      <tr><td class="mono">Fig1_ldl_c_SIM20</td><td><a href="datasets/Owens1991_Fig1_ldl_c_SIM20.tsv">datasets/Owens1991_Fig1_ldl_c_SIM20.tsv</a></td></tr>
+      <tr><td class="mono">Fig1_ldl_c_SIM40</td><td><a href="datasets/Owens1991_Fig1_ldl_c_SIM40.tsv">datasets/Owens1991_Fig1_ldl_c_SIM40.tsv</a></td></tr>
+      <tr><td class="mono">Fig1_ldl_c_placebo</td><td><a href="datasets/Owens1991_Fig1_ldl_c_placebo.tsv">datasets/Owens1991_Fig1_ldl_c_placebo.tsv</a></td></tr>
+      <tr><td class="mono">Fig1_cholesterol_SIM20</td><td><a href="datasets/Owens1991_Fig1_cholesterol_SIM20.tsv">datasets/Owens1991_Fig1_cholesterol_SIM20.tsv</a></td></tr>
+      <tr><td class="mono">Fig1_cholesterol_SIM40</td><td><a href="datasets/Owens1991_Fig1_cholesterol_SIM40.tsv">datasets/Owens1991_Fig1_cholesterol_SIM40.tsv</a></td></tr>
+      <tr><td class="mono">Fig1_cholesterol_placebo</td><td><a href="datasets/Owens1991_Fig1_cholesterol_placebo.tsv">datasets/Owens1991_Fig1_cholesterol_placebo.tsv</a></td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section id="figures">
+  <h2>Figures (1)</h2>
+  <div class="card mapping" data-filter="card">
+    <header>
+      <span class="name mono">fig_cho</span>
+      <span class="exp">
+<a href="Owens1991_fig_cho.svg">svg</a>      </span>
+    </header>
+    <figure>
+      <img loading="lazy" src="Owens1991_fig_cho.svg" alt="fig_cho">
+    </figure>
+  </div>
+  <p class="empty hidden" data-empty>No figure matches the search.</p>
+</section>
+
+<section id="code">
+  <h2>Code</h2>
+  <div class="card">
+    <p><a href="../../../../src/pkdb_models/models/simvastatin/experiments/cholesterol/Owens1991.py" title="../../../../src/pkdb_models/models/simvastatin/experiments/cholesterol/Owens1991.py">Owens1991.py</a></p>
+    <pre class="code"><code>&#34;&#34;&#34;Simulation experiment of the study Owens1991.&#34;&#34;&#34;
+
+from typing import ClassVar, override
+
+import matplotlib.pyplot as plt
+from matplotlib.axes import Axes
+from matplotlib.figure import Figure as FigureMPL
+from pkpdsim.metadata import (
+    DataType,
+    Dosing,
+    Health,
+    PKPDData,
+    PKPDMappingMetaData,
+    Route,
+    Tissue,
+)
+from sbmlsim import Q
+from sbmlsim.data import DataSet
+from sbmlsim.fit import FitData, FitMapping
+from sbmlsim.simulation import Change, Scan, Simulation
+
+from pkdb_models.models.simvastatin.experiments.base_experiment import (
+    DAY,
+    WEEK,
+    FontKwargs,
+    SimvastatinSimulationExperiment,
+)
+
+
+class Owens1991(SimvastatinSimulationExperiment):
+    &#34;&#34;&#34;Simulation experiment of Owens1991.
+
+    27 patients with primary hypercholesterolemia (total cholesterol &gt; 6.5 mM,
+    triglycerides &lt; 2.0 mM, no familial hypercholesterolemia) after a 4-week
+    placebo run-in, randomized to simvastatin (n = 12), pravastatin (n = 10) or
+    placebo (n = 5) for 12 weeks. Simvastatin 10 mg/day, raised to 20 mg/day
+    after 4 weeks and to 40 mg/day after 8 weeks if the total cholesterol stayed
+    above 5.2 mM. Fig 1 shows the LDL-C of the patients by their final dose
+    (20 mg/day n = 6, 40 mg/day n = 4; the text: 7 x 20 and 4 x 40 mg) and of
+    placebo, every 4 weeks, without error bars. The groups are defined by the
+    response (the 40 mg/day patients are the ones whose cholesterol fell less),
+    the difference between the groups is not a dose response. The simulations
+    titrate as the groups: 10 mg/day in weeks 0 - 4 and 20 mg/day in weeks
+    4 - 12, or 10, 20 and 40 mg/day in weeks 0 - 4, 4 - 8 and 8 - 12. The
+    patients are not familial hypercholesterolemia, the presimulation with a FH
+    type gives their baseline LDL-C.
+    &#34;&#34;&#34;
+
+    #: the FH type of the fit mappings: the populations of the cholesterol
+    #: studies are mostly not familial; the reduced internalization of LDL by
+    #: the LDL receptor (FH_type4) stands for a reduced hepatic LDL clearance,
+    #: its presimulation meets the baseline LDL cholesterol (FH_type1 is 1.5 %
+    #: above it) and its response lies in the middle of the FH types
+    fit_fh_type: ClassVar[str] = &#34;FH_type4&#34;
+
+    interventions: ClassVar[list[str]] = [&#34;SIM20&#34;, &#34;SIM40&#34;, &#34;placebo&#34;]
+
+    #: the groups: intervention of the data, task key of the simulations, dose [mg]
+    #: and label of the data
+    group_info: ClassVar[list[tuple[str, str, int, str]]] = [
+        (&#34;placebo&#34;, &#34;placebo&#34;, 0, &#34;placebo&#34;),
+        (&#34;SIM20&#34;, &#34;20mg&#34;, 20, &#34;SV 10mg, from week 4 20mg&#34;),
+        (&#34;SIM40&#34;, &#34;40mg&#34;, 40, &#34;SV 10mg, from week 4 20mg,\nfrom week 8 40mg&#34;),
+    ]
+
+    @override
+    def datasets(self) -&gt; dict[str, DataSet]:
+        dsets = {}
+        for fig_id in [&#34;Fig1&#34;]:
+            dframes = self.load_dataframes_by_substance(fig_id)
+            for substance, df in dframes.items():
+                dset = DataSet.from_df(df, self.ureg)
+                for intervention in self.interventions:
+                    dsets[self.to_sid(f&#34;{fig_id}_{substance}_{intervention}&#34;)] = dset[
+                        dset.intervention == intervention
+                    ]
+        return dsets
+
+    @override
+    def simulations(self) -&gt; dict[str, Simulation | Scan]:
+        &#34;&#34;&#34;Daily doses for 12 weeks, the dose raised every 4 weeks.&#34;&#34;&#34;
+        n_4weeks = 4 * 7
+
+        def phases(*doses_mg: float) -&gt; list[Change]:
+            &#34;&#34;&#34;Daily doses [mg] of the 4-week phases from week 0.&#34;&#34;&#34;
+            return [
+                self.doses(Q(dose, &#34;mg&#34;), n_4weeks, start=WEEK + k * 4 * WEEK)
+                for k, dose in enumerate(doses_mg)
+            ]
+
+        # regimen and baseline LDL cholesterol [mM] (Fig 1)
+        regimens: dict[str, tuple[list[Change], float]] = {
+            &#34;placebo&#34;: ([], 5.0182643),
+            &#34;20mg&#34;: (phases(10, 20, 20), 5.900709),
+            &#34;40mg&#34;: (phases(10, 20, 40), 6.440729),
+        }
+        tcsims: dict[str, Simulation | Scan] = {}
+        for key, (changes, ldlc_init) in regimens.items():
+            for fh_type_key in self.fh_types:
+                tcsims[self.to_sid(f&#34;simva_po_{key}_{fh_type_key}&#34;)] = self.presim(
+                    end=WEEK + 12 * WEEK,
+                    dt=DAY / 100,
+                    changes=changes,
+                    ldlc=ldlc_init,
+                    FH_type=fh_type_key,
+                    time_shift=-WEEK,
+                )
+        return tcsims
+
+    @override
+    def fit_mappings(self) -&gt; dict[str, FitMapping]:
+        &#34;&#34;&#34;The LDL cholesterol of the groups (Fig 1, no error bars).&#34;&#34;&#34;
+        metadata = PKPDMappingMetaData(
+            tissue=Tissue.SERUM,
+            route=Route.PO,
+            dosing=Dosing.MULTIPLE,
+            health=Health.PRIMARY_HYPERCHOLESTEROLEMIA,
+            data=PKPDData.PD,
+            data_type=DataType.MEAN,
+        )
+        return {
+            f&#34;fm_ldlc_{intervention}&#34;: FitMapping(
+                self,
+                reference=FitData(
+                    self,
+                    dataset=self.to_sid(f&#34;Fig1_ldl-c_{intervention}&#34;),
+                    xid=&#34;time&#34;,
+                    yid=&#34;mean&#34;,
+                    count=&#34;count&#34;,
+                ),
+                observable=FitData(
+                    self,
+                    task=self.to_sid(f&#34;task_simva_po_{task_key}_{self.fit_fh_type}&#34;),
+                    xid=&#34;time&#34;,
+                    yid=&#34;[Cve_ldlc]&#34;,
+                ),
+                metadata=metadata,
+            )
+            for intervention, task_key, _, _ in self.group_info
+        }
+
+    @override
+    def figures_mpl(self) -&gt; dict[str, FigureMPL]:
+        figures = {&#34;fig_cho&#34;: self._figure_cho()}
+        if self.show_all_cho_data:
+            figures[&#34;fig_all&#34;] = self._figure_all()
+        return figures
+
+    def _plot_simulations(self, ax: Axes) -&gt; None:
+        &#34;&#34;&#34;Plot the LDL cholesterol of the simulations, the range of the FH types.&#34;&#34;&#34;
+        for _, task_key, dose, label in self.group_info:
+            self.plot_FH_results(
+                ax=ax,
+                label=f&#34;sim: {label}&#34;,
+                color=dose,
+                linestyle=&#34;solid&#34;,
+                df=self.create_FH_results(task_key=task_key),
+            )
+
+    def _plot_data(self, ax: Axes, substance: str) -&gt; None:
+        &#34;&#34;&#34;Plot the data of a substance of the groups.
+
+        The number of subjects is the one of the last time point.
+        &#34;&#34;&#34;
+        for intervention, _, dose, label in self.group_info:
+            dataset = self._datasets[self.to_sid(f&#34;Fig1_{substance}_{intervention}&#34;)]
+            count = int(dataset[&#34;count&#34;][dataset[&#34;time&#34;].idxmax()])
+            color = self.colormap_SV_dose(dose)
+            ax.errorbar(
+                dataset[&#34;time&#34;],
+                dataset[&#34;mean&#34;],
+                color=color,
+                label=f&#34;{self.sid}: {label} (n={count})&#34;,
+                markerfacecolor=color,
+                markeredgecolor=&#34;black&#34;,
+                markersize=8,
+                marker=&#34;s&#34;,
+                linestyle=&#34;None&#34;,
+            )
+
+    def _figure_cho(self) -&gt; FigureMPL:
+        &#34;&#34;&#34;LDL cholesterol of the simulations and the data.&#34;&#34;&#34;
+        fig, ax = self.create_cholesterol_plot()
+        fig.set_size_inches(14, 6)
+        self._plot_simulations(ax)
+        self._plot_data(ax, &#34;ldl-c&#34;)
+        ax.set_xlim((-1, 13))
+        ax.set_ylim((0.0, 8))
+        ax.legend(
+            ncol=1, loc=&#34;upper left&#34;, bbox_to_anchor=(1.01, 1.0), prop={&#34;size&#34;: 11}
+        )
+        ax.tick_params(axis=&#34;both&#34;, labelsize=18)
+        fig.tight_layout()
+        return fig
+
+    def _figure_all(self) -&gt; FigureMPL:
+        &#34;&#34;&#34;The total and LDL cholesterol of the data and the simulations.&#34;&#34;&#34;
+        kwargs: FontKwargs = {&#34;weight&#34;: &#34;bold&#34;, &#34;size&#34;: 16}
+        fig, [ax1, ax2] = plt.subplots(nrows=1, ncols=2, sharex=&#34;col&#34;, figsize=(15, 6))
+        fig.subplots_adjust(bottom=0.12, top=0.925, left=0.07, right=0.95, hspace=0.05)
+        ax1.set_xlabel(&#34;Time [weeks]&#34;, **kwargs)
+        ax2.set_xlabel(&#34;Time [weeks]&#34;, **kwargs)
+        ax1.set_ylabel(&#34;LDL-C [mM]&#34;, **kwargs)
+        ax2.set_ylabel(&#34;Total cholesterol [mM]&#34;, **kwargs)
+
+        self._plot_simulations(ax1)
+        self._plot_data(ax1, &#34;ldl-c&#34;)
+        self._plot_data(ax2, &#34;cholesterol&#34;)
+
+        for ax in [ax1, ax2]:
+            ax.set_xlim((-1, 15))
+            ax.legend(ncol=1, loc=&#34;best&#34;, prop={&#34;size&#34;: 12})
+            ax.tick_params(axis=&#34;both&#34;, labelsize=18)
+        ax1.set_ylim((0.0, 9))
+        ax2.set_ylim((0.0, 11))
+        return fig
+</code></pre>
+  </div>
+</section>
+
+</main>
+
+<footer>
+<a href="../index.html">all experiments</a> · <a href="../../../../src/pkdb_models/models/simvastatin/experiments/cholesterol/Owens1991.py" title="../../../../src/pkdb_models/models/simvastatin/experiments/cholesterol/Owens1991.py">Owens1991.py</a>
+</footer>
+
+<div id="lightbox"><img alt=""></div>
+
+<script>
+(function () {
+  "use strict";
+
+  // ---- search and the filter chips ------------------------------------
+  const search = document.getElementById("search");
+  const hits = document.getElementById("hits");
+  const chips = Array.from(document.querySelectorAll(".chip"));
+  const cards = Array.from(document.querySelectorAll('[data-filter="card"]'));
+  const rows = Array.from(document.querySelectorAll('table[data-filter="row"] tbody tr'));
+  const empty = document.querySelector("[data-empty]");
+  const itemLabel = document.body.dataset.items || "items";
+
+  const haystack = new Map();
+  for (const node of [...cards, ...rows]) {
+    haystack.set(node, node.textContent.toLowerCase());
+  }
+
+  function activeKinds() {
+    return new Set(chips.filter((c) => c.getAttribute("aria-pressed") === "true")
+                        .map((c) => c.dataset.kind));
+  }
+
+  function matches(node, query, kinds) {
+    const kind = node.dataset.kind;
+    if (kind && !kinds.has(kind)) return false;
+    return !query || haystack.get(node).includes(query);
+  }
+
+  function apply() {
+    const query = search.value.trim().toLowerCase();
+    const kinds = activeKinds();
+    let shownCards = 0;
+    for (const node of cards) {
+      const show = matches(node, query, kinds);
+      node.classList.toggle("hidden", !show);
+      if (show) shownCards += 1;
+    }
+    for (const node of rows) {
+      node.classList.toggle("hidden", !matches(node, query, kinds));
+    }
+    if (empty) empty.classList.toggle("hidden", shownCards > 0 || cards.length === 0);
+    const filtering = Boolean(query) || (chips.length > 0 && kinds.size < chips.length);
+    hits.textContent = filtering
+      ? shownCards + " / " + cards.length + " " + itemLabel
+      : "";
+  }
+
+  search.addEventListener("input", apply);
+  for (const chip of chips) {
+    chip.addEventListener("click", () => {
+      chip.setAttribute("aria-pressed", chip.getAttribute("aria-pressed") === "true" ? "false" : "true");
+      apply();
+    });
+  }
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "/" && document.activeElement !== search) {
+      event.preventDefault();
+      search.focus();
+    } else if (event.key === "Escape") {
+      if (document.activeElement === search && search.value) { search.value = ""; apply(); }
+      closeLightbox();
+    }
+  });
+
+  // ---- sortable tables -------------------------------------------------
+  function cellValue(row, index, kind) {
+    const text = row.cells[index] ? row.cells[index].textContent.trim() : "";
+    if (kind !== "num") return text.toLowerCase();
+    // the AIC of a perfect fit is -inf, a cell without a value sorts last
+    if (text === "-inf") return Number.NEGATIVE_INFINITY;
+    const value = parseFloat(text);
+    return Number.isNaN(value) ? Number.POSITIVE_INFINITY : value;
+  }
+
+  for (const table of document.querySelectorAll("table")) {
+    const headers = Array.from(table.querySelectorAll("th[data-sort]"));
+    headers.forEach((th, index) => {
+      th.addEventListener("click", () => {
+        const body = table.tBodies[0];
+        if (!body) return;
+        const kind = th.dataset.sort;
+        const descending = th.classList.contains("asc");
+        for (const other of headers) other.classList.remove("asc", "desc");
+        th.classList.add(descending ? "desc" : "asc");
+        const sorted = Array.from(body.rows).sort((a, b) => {
+          const left = cellValue(a, index, kind);
+          const right = cellValue(b, index, kind);
+          if (left < right) return descending ? 1 : -1;
+          if (left > right) return descending ? -1 : 1;
+          return 0;
+        });
+        for (const row of sorted) body.appendChild(row);
+      });
+    });
+  }
+
+  // ---- the section the page is scrolled to -----------------------------
+  // a tab (data-tab) is not a section, its page marks the tab which is shown
+  const links = Array.from(document.querySelectorAll("nav.sections a:not([data-tab])"));
+  const sections = links.map((link) => document.querySelector(link.getAttribute("href")));
+  function scrollspy() {
+    let current = 0;
+    sections.forEach((section, index) => {
+      if (section && section.getBoundingClientRect().top < 200) current = index;
+    });
+    links.forEach((link, index) => link.classList.toggle("active", index === current));
+  }
+  window.addEventListener("scroll", scrollspy, { passive: true });
+  scrollspy();
+
+  // ---- click a figure to enlarge it ------------------------------------
+  const lightbox = document.getElementById("lightbox");
+  const lightboxImage = lightbox.querySelector("img");
+  function closeLightbox() { lightbox.classList.remove("open"); lightboxImage.src = ""; }
+  for (const image of document.querySelectorAll("figure img")) {
+    image.addEventListener("click", () => {
+      lightboxImage.src = image.getAttribute("src");
+      lightbox.classList.add("open");
+    });
+  }
+  lightbox.addEventListener("click", closeLightbox);
+
+  apply();
+})();
+</script>
+</body>
+</html>

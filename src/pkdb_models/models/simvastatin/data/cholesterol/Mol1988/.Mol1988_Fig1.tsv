@@ -1,0 +1,8 @@
+study	group	count	intervention	measurement_type	substance	method	tissue	label	time	time_unit	mean	unit	se	sd	sepm
+Mol1988	all	38	SIM_10mg_twice	concentration	cholesterol	enzymatic assay	serum	SIM_10mg_twice	0	weeks	11.454572	mmol/l	0.346195999999999	2.13409547017184	11.800768
+Mol1988	all	38	SIM_10mg_twice	concentration	cholesterol	enzymatic assay	serum	SIM_10mg_twice	4	weeks	8.002711	mmol/l	0.21022	1.29588311170414	8.212931
+Mol1988	all	38	SIM_10mg_twice	concentration	cholesterol	enzymatic assay	serum	SIM_10mg_twice	8	weeks	7.7162724	mmol/l	0.2349133	1.44810283600365	7.9511857
+Mol1988	all	38	SIM_40mg	concentration	cholesterol	enzymatic assay	serum	SIM_40mg	12	weeks	7.120713	mmol/l	0.2101843	1.29566304212423	7.3308973
+Mol1988	all	38	SIM_40mg	concentration	cholesterol	enzymatic assay	serum	SIM_40mg	16	weeks	7.1433587	mmol/l	0.247295899999999	1.52443430883681	7.3906546
+Mol1988	all	38	SIM_40mg	concentration	cholesterol	enzymatic assay	serum	SIM_40mg	20	weeks	6.95582	mmol/l	0.2349664	1.44843016638721	7.1907864
+Mol1988	all	38	SIM_40mg	concentration	cholesterol	enzymatic assay	serum	SIM_40mg	24	weeks	7.2629437	mmol/l	0.272008	1.67676992411958	7.5349517

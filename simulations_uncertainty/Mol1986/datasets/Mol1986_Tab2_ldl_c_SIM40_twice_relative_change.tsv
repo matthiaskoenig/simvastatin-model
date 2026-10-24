@@ -1,0 +1,2 @@
+study	group	count	intervention	measurement_type	substance	label	tissue	time	time_unit	mean	mean_sd	mean_se	mean_unit	change	change_sd	change_unit	count_unit
+Mol1986	all	4	SIM40_twice	concentration change	ldl-c	SIM40_twice_ldl-c_concentration change	serum	4	weeks	-42.2	6.9		percent			percent	dimensionless

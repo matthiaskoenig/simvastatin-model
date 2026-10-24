@@ -1,0 +1,6 @@
+study	group	count	intervention	measurement_type	substance	method	tissue	label	time	time_unit	mean	change	change_unit	baseline	baseline_unit	comment	mean_unit	count_unit
+Pietro1989	SIM_40mg	80	SIM40	concentration	ldl-c	NR	plasma	ldl-c_SIM40_concentration	0	weeks	6.490819756917507	0.0	percent	251	mg/dl		mole/meter^3	dimensionless
+Pietro1989	SIM_40mg	80	SIM40	concentration	ldl-c	NR	plasma	ldl-c_SIM40_concentration	2	weeks	4.07148566925265	-37.273167	percent	251	mg/dl		mole/meter^3	dimensionless
+Pietro1989	SIM_40mg	80	SIM40	concentration	ldl-c	NR	plasma	ldl-c_SIM40_concentration	6	weeks	3.7650908714765965	-41.9936	percent	251	mg/dl		mole/meter^3	dimensionless
+Pietro1989	SIM_40mg	80	SIM40	concentration	ldl-c	NR	plasma	ldl-c_SIM40_concentration	10	weeks	3.89709246599431	-39.959934	percent	251	mg/dl		mole/meter^3	dimensionless
+Pietro1989	SIM_40mg	80	SIM40	concentration	ldl-c	NR	plasma	ldl-c_SIM40_concentration	12	weeks	3.881750115334884	-40.196304	percent	251	mg/dl		mole/meter^3	dimensionless

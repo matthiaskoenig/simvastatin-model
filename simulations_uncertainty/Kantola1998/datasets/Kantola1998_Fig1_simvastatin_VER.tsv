@@ -1,0 +1,10 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	mean_se	pm	mean_sd	mean_unit	count_unit
+Kantola1998	all	12	SIM+VER_simvastatin	SIM,VER	concentration	simvastatin	serum	HPLC	0.0	hr	0.0				mole/meter^3	dimensionless
+Kantola1998	all	12	SIM+VER_simvastatin	SIM,VER	concentration	simvastatin	serum	HPLC	0.5	hr	1.2394346392737695e-05	7.847308170090777e-06	1.9033902	2.7183872906495222e-05	mole/meter^3	dimensionless
+Kantola1998	all	12	SIM+VER_simvastatin	SIM,VER	concentration	simvastatin	serum	HPLC	1.0	hr	4.6276428571428565e-05	9.155076445293837e-06	15.538998	3.1714115100851886e-05	mole/meter^3	dimensionless
+Kantola1998	all	12	SIM+VER_simvastatin	SIM,VER	concentration	simvastatin	serum	HPLC	2.0	hr	5.373579311992355e-05	8.573162924032488e-06	18.905077	2.9698307531980173e-05	mole/meter^3	dimensionless
+Kantola1998	all	12	SIM+VER_simvastatin	SIM,VER	concentration	simvastatin	serum	HPLC	3.0	hr	3.300406593406594e-05	3.196084567606307e-06	12.477621	1.1071561712761873e-05	mole/meter^3	dimensionless
+Kantola1998	all	12	SIM+VER_simvastatin	SIM,VER	concentration	simvastatin	serum	HPLC	4.0	hr	2.1427422360248443e-05	2.0343119923554727e-06	8.117956	7.047063458412685e-06	mole/meter^3	dimensionless
+Kantola1998	all	12	SIM+VER_simvastatin	SIM,VER	concentration	simvastatin	serum	HPLC	6.0	hr	6.41205016722408e-06	1.8890014333492593e-06	1.8933482	6.54369291626271e-06	mole/meter^3	dimensionless
+Kantola1998	all	12	SIM+VER_simvastatin	SIM,VER	concentration	simvastatin	serum	HPLC	8.0	hr	2.8766837075967506e-06				mole/meter^3	dimensionless
+Kantola1998	all	12	SIM+VER_simvastatin	SIM,VER	concentration	simvastatin	serum	HPLC	12.0	hr	1.0349754897276637e-06				mole/meter^3	dimensionless

@@ -1,0 +1,9 @@
+study	group	count	intervention	measurement_type	substance	label	tissue	time	time_unit	mean	mean_se	mean_sd	sepm	mean_unit	count_unit
+Keech1994	placebo	207	placebo	concentration	ldl-c	placebo_ldl-c	plasma	20	weeks	4.5083413	0.0895427	1.2882951100276	4.597884	mmol/l	dimensionless
+Keech1994	placebo	207	placebo	concentration	ldl-c	placebo_ldl-c	plasma	32	weeks	4.6032343	0.0796112999999998	1.14540714645572	4.6828456	mmol/l	dimensionless
+Keech1994	placebo	207	placebo	concentration	ldl-c	placebo_ldl-c	plasma	44	weeks	4.528978	0.1094617	1.5748796143662	4.6384397	mmol/l	dimensionless
+Keech1994	placebo	207	placebo	concentration	ldl-c	placebo_ldl-c	plasma	56	weeks	4.529344	0.0945273000000002	1.36001101546092	4.6238713	mmol/l	dimensionless
+Keech1994	placebo	207	placebo	concentration	ldl-c	placebo_ldl-c	plasma	68	weeks	4.5247436	0.1343144	1.9324477006645	4.659058	mmol/l	dimensionless
+Keech1994	placebo	207	placebo	concentration	ldl-c	placebo_ldl-c	plasma	80	weeks	4.5947843	0.0994747	1.43119170609623	4.694259	mmol/l	dimensionless
+Keech1994	placebo	124	placebo	concentration	ldl-c	placebo_ldl-c	plasma	104	weeks	4.530853	0.0945089999999995	1.0524076843333994	4.625362	mmol/l	dimensionless
+Keech1994	placebo	109	placebo	concentration	ldl-c	placebo_ldl-c	plasma	152	weeks	4.512425	0.134309699999999	1.402234435119813	4.6467347	mmol/l	dimensionless

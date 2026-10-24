@@ -1,0 +1,54 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	unit
+Bergman2004	all	12	simvastatin acid_SIMwithFEN	SIM,FEN	concentration	simvastatin acid	plasma	LC MS/MS	0.5	hr	0.16460225	ng/ml
+Bergman2004	all	12	simvastatin acid_SIMwithFEN	SIM,FEN	concentration	simvastatin acid	plasma	LC MS/MS	1.0	hr	0.35724524	ng/ml
+Bergman2004	all	12	simvastatin acid_SIMwithFEN	SIM,FEN	concentration	simvastatin acid	plasma	LC MS/MS	1.5	hr	0.88255864	ng/ml
+Bergman2004	all	12	simvastatin acid_SIMwithFEN	SIM,FEN	concentration	simvastatin acid	plasma	LC MS/MS	2.0	hr	1.5467833	ng/ml
+Bergman2004	all	12	simvastatin acid_SIMwithFEN	SIM,FEN	concentration	simvastatin acid	plasma	LC MS/MS	2.5	hr	1.961285	ng/ml
+Bergman2004	all	12	simvastatin acid_SIMwithFEN	SIM,FEN	concentration	simvastatin acid	plasma	LC MS/MS	3.0	hr	2.6810038	ng/ml
+Bergman2004	all	12	simvastatin acid_SIMwithFEN	SIM,FEN	concentration	simvastatin acid	plasma	LC MS/MS	4.0	hr	3.204731	ng/ml
+Bergman2004	all	12	simvastatin acid_SIMwithFEN	SIM,FEN	concentration	simvastatin acid	plasma	LC MS/MS	6.0	hr	3.8081748	ng/ml
+Bergman2004	all	12	simvastatin acid_SIMwithFEN	SIM,FEN	concentration	simvastatin acid	plasma	LC MS/MS	8.0	hr	2.386145	ng/ml
+Bergman2004	all	12	simvastatin acid_SIMwithFEN	SIM,FEN	concentration	simvastatin acid	plasma	LC MS/MS	10.0	hr	1.4358149	ng/ml
+Bergman2004	all	12	simvastatin acid_SIMwithFEN	SIM,FEN	concentration	simvastatin acid	plasma	LC MS/MS	12.0	hr	0.73520774	ng/ml
+Bergman2004	all	12	simvastatin acid_SIMwithFEN	SIM,FEN	concentration	simvastatin acid	plasma	LC MS/MS	16.0	hr	0.24976228	ng/ml
+Bergman2004	all	12	simvastatin acid_SIMwithFEN	SIM,FEN	concentration	simvastatin acid	plasma	LC MS/MS	24.0	hr	0.0831823	ng/ml
+Bergman2004	all	12	simvastatin acid_SIM	SIM	concentration	simvastatin acid	plasma	LC MS/MS	0.0	hr	0.7767989	ng/ml
+Bergman2004	all	12	simvastatin acid_SIM	SIM	concentration	simvastatin acid	plasma	LC MS/MS	0.5	hr	0.6640485	ng/ml
+Bergman2004	all	12	simvastatin acid_SIM	SIM	concentration	simvastatin acid	plasma	LC MS/MS	1.0	hr	0.82882696	ng/ml
+Bergman2004	all	12	simvastatin acid_SIM	SIM	concentration	simvastatin acid	plasma	LC MS/MS	1.5	hr	1.076964	ng/ml
+Bergman2004	all	12	simvastatin acid_SIM	SIM	concentration	simvastatin acid	plasma	LC MS/MS	2.0	hr	1.6856947	ng/ml
+Bergman2004	all	12	simvastatin acid_SIM	SIM	concentration	simvastatin acid	plasma	LC MS/MS	2.5	hr	2.5439723	ng/ml
+Bergman2004	all	12	simvastatin acid_SIM	SIM	concentration	simvastatin acid	plasma	LC MS/MS	3.0	hr	3.2637498	ng/ml
+Bergman2004	all	12	simvastatin acid_SIM	SIM	concentration	simvastatin acid	plasma	LC MS/MS	4.0	hr	4.3146114	ng/ml
+Bergman2004	all	12	simvastatin acid_SIM	SIM	concentration	simvastatin acid	plasma	LC MS/MS	6.0	hr	4.501909	ng/ml
+Bergman2004	all	12	simvastatin acid_SIM	SIM	concentration	simvastatin acid	plasma	LC MS/MS	8.0	hr	3.5516372	ng/ml
+Bergman2004	all	12	simvastatin acid_SIM	SIM	concentration	simvastatin acid	plasma	LC MS/MS	10.0	hr	2.8510888	ng/ml
+Bergman2004	all	12	simvastatin acid_SIM	SIM	concentration	simvastatin acid	plasma	LC MS/MS	12.0	hr	1.6787237	ng/ml
+Bergman2004	all	12	simvastatin acid_SIM	SIM	concentration	simvastatin acid	plasma	LC MS/MS	16.0	hr	0.7492085	ng/ml
+Bergman2004	all	12	simvastatin acid_SIM	SIM	concentration	simvastatin acid	plasma	LC MS/MS	24.0	hr	0.24972312	ng/ml
+Bergman2004	all	12	simvastatin_SIMwithFEN	SIM,FEN	concentration	simvastatin	plasma	LC MS/MS	0.0	hr	0.16642334	ng/ml
+Bergman2004	all	12	simvastatin_SIMwithFEN	SIM,FEN	concentration	simvastatin	plasma	LC MS/MS	0.5	hr	1.7462407	ng/ml
+Bergman2004	all	12	simvastatin_SIMwithFEN	SIM,FEN	concentration	simvastatin	plasma	LC MS/MS	1.0	hr	6.6833878	ng/ml
+Bergman2004	all	12	simvastatin_SIMwithFEN	SIM,FEN	concentration	simvastatin	plasma	LC MS/MS	1.5	hr	13.618438	ng/ml
+Bergman2004	all	12	simvastatin_SIMwithFEN	SIM,FEN	concentration	simvastatin	plasma	LC MS/MS	2.0	hr	20.192776	ng/ml
+Bergman2004	all	12	simvastatin_SIMwithFEN	SIM,FEN	concentration	simvastatin	plasma	LC MS/MS	2.5	hr	14.780464	ng/ml
+Bergman2004	all	12	simvastatin_SIMwithFEN	SIM,FEN	concentration	simvastatin	plasma	LC MS/MS	3.0	hr	12.836293	ng/ml
+Bergman2004	all	12	simvastatin_SIMwithFEN	SIM,FEN	concentration	simvastatin	plasma	LC MS/MS	4.0	hr	8.393305	ng/ml
+Bergman2004	all	12	simvastatin_SIMwithFEN	SIM,FEN	concentration	simvastatin	plasma	LC MS/MS	6.0	hr	3.0034525	ng/ml
+Bergman2004	all	12	simvastatin_SIMwithFEN	SIM,FEN	concentration	simvastatin	plasma	LC MS/MS	8.0	hr	1.5815406	ng/ml
+Bergman2004	all	12	simvastatin_SIMwithFEN	SIM,FEN	concentration	simvastatin	plasma	LC MS/MS	10.0	hr	0.99180394	ng/ml
+Bergman2004	all	12	simvastatin_SIMwithFEN	SIM,FEN	concentration	simvastatin	plasma	LC MS/MS	12.0	hr	0.7630135	ng/ml
+Bergman2004	all	12	simvastatin_SIMwithFEN	SIM,FEN	concentration	simvastatin	plasma	LC MS/MS	16.0	hr	0.4717384	ng/ml
+Bergman2004	all	12	simvastatin_SIMwithFEN	SIM,FEN	concentration	simvastatin	plasma	LC MS/MS	24.0	hr	0.27764636	ng/ml
+Bergman2004	all	12	simvastatin_SIM	SIM	concentration	simvastatin	plasma	LC MS/MS	0.5	hr	4.7706065	ng/ml
+Bergman2004	all	12	simvastatin_SIM	SIM	concentration	simvastatin	plasma	LC MS/MS	1.5	hr	11.259941	ng/ml
+Bergman2004	all	12	simvastatin_SIM	SIM	concentration	simvastatin	plasma	LC MS/MS	2.0	hr	15.392484	ng/ml
+Bergman2004	all	12	simvastatin_SIM	SIM	concentration	simvastatin	plasma	LC MS/MS	2.5	hr	16.001215	ng/ml
+Bergman2004	all	12	simvastatin_SIM	SIM	concentration	simvastatin	plasma	LC MS/MS	3.0	hr	15.749788	ng/ml
+Bergman2004	all	12	simvastatin_SIM	SIM	concentration	simvastatin	plasma	LC MS/MS	4.0	hr	10.446584	ng/ml
+Bergman2004	all	12	simvastatin_SIM	SIM	concentration	simvastatin	plasma	LC MS/MS	6.0	hr	3.0590641	ng/ml
+Bergman2004	all	12	simvastatin_SIM	SIM	concentration	simvastatin	plasma	LC MS/MS	8.0	hr	1.9145635	ng/ml
+Bergman2004	all	12	simvastatin_SIM	SIM	concentration	simvastatin	plasma	LC MS/MS	10.0	hr	1.1306565	ng/ml
+Bergman2004	all	12	simvastatin_SIM	SIM	concentration	simvastatin	plasma	LC MS/MS	12.0	hr	0.8740603	ng/ml
+Bergman2004	all	12	simvastatin_SIM	SIM	concentration	simvastatin	plasma	LC MS/MS	16.0	hr	0.47197336	ng/ml
+Bergman2004	all	12	simvastatin_SIM	SIM	concentration	simvastatin	plasma	LC MS/MS	24.0	hr	0.22191736	ng/ml

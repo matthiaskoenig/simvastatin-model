@@ -1,0 +1,6 @@
+study	name	time	time_unit	route	application	measurement_type	form	substance	value	unit
+Walker1990	SIM0	0	hr	oral	multiple dose	qualitative dosing	tablet	simvastatin	0.0	mg
+Walker1990	SIM2_5	0	hr	oral	multiple dose	qualitative dosing	tablet	simvastatin	2.5	mg
+Walker1990	SIM5	0	hr	oral	multiple dose	qualitative dosing	tablet	simvastatin	5.0	mg
+Walker1990	SIM10	0	hr	oral	multiple dose	qualitative dosing	tablet	simvastatin	10.0	mg
+Walker1990	SIM20	0	hr	oral	multiple dose	qualitative dosing	tablet	simvastatin	20.0	mg

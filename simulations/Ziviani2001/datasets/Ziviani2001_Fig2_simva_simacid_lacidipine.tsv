@@ -1,0 +1,12 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	mean_sd	pm	mean_se	mean_unit	count_unit
+Ziviani2001	all	18	SIM+LAC_simva+simacid	SIM,LAC	concentration	simva+simacid	plasma	GC	0.0	hr	9.903172240036648e-07				mole/meter^3	dimensionless
+Ziviani2001	all	18	SIM+LAC_simva+simacid	SIM,LAC	concentration	simva+simacid	plasma	GC	0.5	hr	2.4377040769583145e-05	3.7555874942739355e-05	27.039911	8.852004615134974e-06	mole/meter^3	dimensionless
+Ziviani2001	all	18	SIM+LAC_simva+simacid	SIM,LAC	concentration	simva+simacid	plasma	GC	1.0	hr	2.932862574438846e-05	3.595613376087953e-05	28.503326	8.474942002522836e-06	mole/meter^3	dimensionless
+Ziviani2001	all	18	SIM+LAC_simva+simacid	SIM,LAC	concentration	simva+simacid	plasma	GC	1.5	hr	2.590060467246908e-05	2.430086120018324e-05	21.91796	5.727767914440885e-06	mole/meter^3	dimensionless
+Ziviani2001	all	18	SIM+LAC_simva+simacid	SIM,LAC	concentration	simva+simacid	plasma	GC	2.0	hr	2.0796662849289964e-05	1.752099633531837e-05	16.72949	4.129738440616079e-06	mole/meter^3	dimensionless
+Ziviani2001	all	18	SIM+LAC_simva+simacid	SIM,LAC	concentration	simva+simacid	plasma	GC	3.0	hr	1.675921507100321e-05	8.912854328905177e-06	11.2084255	2.10077991189891e-06	mole/meter^3	dimensionless
+Ziviani2001	all	18	SIM+LAC_simva+simacid	SIM,LAC	concentration	simva+simacid	plasma	GC	4.0	hr	1.554036326156665e-05	8.684320659642694e-06	10.576497	2.046914009477261e-06	mole/meter^3	dimensionless
+Ziviani2001	all	18	SIM+LAC_simva+simacid	SIM,LAC	concentration	simva+simacid	plasma	GC	6.0	hr	1.096966788822721e-05	5.637191021530005e-06	7.2505546	1.32869866605593e-06	mole/meter^3	dimensionless
+Ziviani2001	all	18	SIM+LAC_simva+simacid	SIM,LAC	concentration	simva+simacid	plasma	GC	8.0	hr	7.922537792029318e-06	3.5803779202931746e-06	5.022173	8.439031688832982e-07	mole/meter^3	dimensionless
+Ziviani2001	all	18	SIM+LAC_simva+simacid	SIM,LAC	concentration	simva+simacid	plasma	GC	12.0	hr	5.103942739349519e-06	3.2756649106733855e-06	3.6585367	7.720816237439923e-07	mole/meter^3	dimensionless
+Ziviani2001	all	18	SIM+LAC_simva+simacid	SIM,LAC	concentration	simva+simacid	plasma	GC	24.0	hr	1.295030233623454e-06	2.1329910673385252e-06	1.4966741	5.027508159751352e-07	mole/meter^3	dimensionless

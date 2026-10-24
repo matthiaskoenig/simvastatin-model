@@ -1,0 +1,12 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	mean_se	pm	mean_sd	mean_unit	count_unit
+Pasanen2006	c521TT	16	simvastatin_c521TT	SIM	concentration	simvastatin	plasma	LC MS/MS	0.0	hr	0.0				mole/meter^3	dimensionless
+Pasanen2006	c521TT	16	simvastatin_c521TT	SIM	concentration	simvastatin	plasma	LC MS/MS	0.5	hr	5.820022455805063e-06	1.427569039655996e-06	1.838681	5.710276158623984e-06	mole/meter^3	dimensionless
+Pasanen2006	c521TT	16	simvastatin_c521TT	SIM	concentration	simvastatin	plasma	LC MS/MS	1.0	hr	1.4960855231724797e-05	2.0062422360248446e-06	5.422801	8.024968944099378e-06	mole/meter^3	dimensionless
+Pasanen2006	c521TT	16	simvastatin_c521TT	SIM	concentration	simvastatin	plasma	LC MS/MS	1.5	hr	1.8931715241280457e-05				mole/meter^3	dimensionless
+Pasanen2006	c521TT	16	simvastatin_c521TT	SIM	concentration	simvastatin	plasma	LC MS/MS	2.0	hr	1.6034812470138557e-05				mole/meter^3	dimensionless
+Pasanen2006	c521TT	16	simvastatin_c521TT	SIM	concentration	simvastatin	plasma	LC MS/MS	3.0	hr	8.697544194935498e-06				mole/meter^3	dimensionless
+Pasanen2006	c521TT	16	simvastatin_c521TT	SIM	concentration	simvastatin	plasma	LC MS/MS	4.0	hr	5.625895843287148e-06				mole/meter^3	dimensionless
+Pasanen2006	c521TT	16	simvastatin_c521TT	SIM	concentration	simvastatin	plasma	LC MS/MS	5.0	hr	3.3601516961299566e-06				mole/meter^3	dimensionless
+Pasanen2006	c521TT	16	simvastatin_c521TT	SIM	concentration	simvastatin	plasma	LC MS/MS	7.0	hr	2.0742582417582417e-06				mole/meter^3	dimensionless
+Pasanen2006	c521TT	16	simvastatin_c521TT	SIM	concentration	simvastatin	plasma	LC MS/MS	9.0	hr	1.2898709985666506e-06				mole/meter^3	dimensionless
+Pasanen2006	c521TT	16	simvastatin_c521TT	SIM	concentration	simvastatin	plasma	LC MS/MS	12.0	hr	7.30400143334926e-07				mole/meter^3	dimensionless

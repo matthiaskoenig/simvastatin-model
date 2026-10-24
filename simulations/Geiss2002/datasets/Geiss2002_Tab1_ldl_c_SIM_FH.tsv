@@ -1,0 +1,3 @@
+study	group	count	intervention	measurement_type	substance	tissue	label	time	time_unit	mean	mean_sd	mean_se	mean_unit	count_unit
+Geiss2002	hetero_FH	9	SIM_FH	concentration	ldl-c	plasma	SIM_FH_ldl-c	0	weeks	7.1	1.1	0.366666666666667	mmol/l	dimensionless
+Geiss2002	hetero_FH	9	SIM_FH	concentration	ldl-c	plasma	SIM_FH_ldl-c	4	weeks	4.7	0.5	0.166666666666667	mmol/l	dimensionless

@@ -1,0 +1,12 @@
+study	count	group	label	intervention	measurement	substance	tissue	method	time	time_unit	mean	mean_se	mean_sd	pm	mean_unit	count_unit
+Backman2000	10	all	simvastatin_SIMwithGEM	SIM,GEM	concentration	simvastatin	plasma	LC MS/MS	0.0	hr	0.0				mole/meter^3	dimensionless
+Backman2000	10	all	simvastatin_SIMwithGEM	SIM,GEM	concentration	simvastatin	plasma	LC MS/MS	0.5	hr	3.732619206880076e-06	1.046888198757764e-06	3.310551163625585e-06	1.124247	mole/meter^3	dimensionless
+Backman2000	10	all	simvastatin_SIMwithGEM	SIM,GEM	concentration	simvastatin	plasma	LC MS/MS	1.0	hr	1.0409065934065934e-05	2.5183256091734352e-06	7.963644814919085e-06	3.3030639	mole/meter^3	dimensionless
+Backman2000	10	all	simvastatin_SIMwithGEM	SIM,GEM	concentration	simvastatin	plasma	LC MS/MS	1.5	hr	7.719863831820353e-06	1.641146679407549e-06	5.189761481349999e-06	2.544551	mole/meter^3	dimensionless
+Backman2000	10	all	simvastatin_SIMwithGEM	SIM,GEM	concentration	simvastatin	plasma	LC MS/MS	2.0	hr	6.7566316292403245e-06	9.054433827042521e-07	2.863263381672933e-06	2.4493074	mole/meter^3	dimensionless
+Backman2000	10	all	simvastatin_SIMwithGEM	SIM,GEM	concentration	simvastatin	plasma	LC MS/MS	3.0	hr	6.2449235547061636e-06	1.103478260869565e-06	3.4895046528292878e-06	2.152209	mole/meter^3	dimensionless
+Backman2000	10	all	simvastatin_SIMwithGEM	SIM,GEM	concentration	simvastatin	plasma	LC MS/MS	4.0	hr	7.317802675585283e-06	2.093868609651218e-06	6.621393927627878e-06	3.9397256	mole/meter^3	dimensionless
+Backman2000	10	all	simvastatin_SIMwithGEM	SIM,GEM	concentration	simvastatin	plasma	LC MS/MS	6.0	hr	4.7665427615862396e-06	1.3864601051122789e-06	4.3843718171112515e-06	2.575647	mole/meter^3	dimensionless
+Backman2000	10	all	simvastatin_SIMwithGEM	SIM,GEM	concentration	simvastatin	plasma	LC MS/MS	8.0	hr	3.941253225035834e-06	1.1884558050645005e-06	3.75822724245289e-06	2.1472962	mole/meter^3	dimensionless
+Backman2000	10	all	simvastatin_SIMwithGEM	SIM,GEM	concentration	simvastatin	plasma	LC MS/MS	10.0	hr	2.974519350215002e-06	7.923241758241757e-07	2.5055490408201142e-06	1.5768007	mole/meter^3	dimensionless
+Backman2000	10	all	simvastatin_SIMwithGEM	SIM,GEM	concentration	simvastatin	plasma	LC MS/MS	12.0	hr	2.5736872909698996e-06	7.074390826564739e-07	2.237118807014579e-06	1.3734795	mole/meter^3	dimensionless

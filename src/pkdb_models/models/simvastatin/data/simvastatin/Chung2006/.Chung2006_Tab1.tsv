@@ -1,0 +1,16 @@
+study	subject	measurement	value	mean	mean_sd	mean_se	unit
+Chung2006	all	count	19	na	na	na	dimensionless
+Chung2006	all	age	na	38.7	8.8	2.01885845806094	yr
+Chung2006	all	weight	na	73.4	11.3	2.59239779273735	kg
+Chung2006	all	bmi	na	25.5	2.8	0.642364054837573	kg/m^2
+Chung2006	all	dose	na	5.5	0.8	0.183532587096449	mg
+Chung2006	men	count	9	na	na	na	dimensionless
+Chung2006	men	age	na	38.7	11.6	3.86666666666667	yr
+Chung2006	men	weight	na	81.3	8.1	2.7	kg
+Chung2006	men	bmi	na	26.4	2.1	0.7	kg/m^2
+Chung2006	men	dose	na	6.1	0.6	0.2	mg
+Chung2006	women	count	10	na	na	na	dimensionless
+Chung2006	women	age	na	38.7	5.8	1.83412104289766	yr
+Chung2006	women	weight	na	66.3	8.9	2.81442711754986	kg
+Chung2006	women	bmi	na	24.6	3.2	1.01192885125388	kg/m^2
+Chung2006	women	dose	na	5	0.7	0.221359436211787	mg

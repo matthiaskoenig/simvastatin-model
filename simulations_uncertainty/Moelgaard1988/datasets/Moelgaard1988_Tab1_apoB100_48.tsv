@@ -1,0 +1,8 @@
+study	group	count	intervention	measurement_type	substance	tissue	time	time_unit	mean	mean_se	mean_sd	change	change_unit	mean_unit	count_unit
+Moelgaard1988	FH	11.0	baseline	concentration	apoB100+48	plasma	0.0	weeks	2.34	0.13	0.431161222746202		percent	g/l	dimensionless
+Moelgaard1988	FH	11.0	SIM20	concentration	apoB100+48	plasma	4.0	weeks	1.76	0.1	0.33166247903554	-25.0	percent	g/l	dimensionless
+Moelgaard1988	FH	11.0	SIM20	concentration	apoB100+48	plasma	8.0	weeks	1.7	0.1	0.33166247903554	-27.0	percent	g/l	dimensionless
+Moelgaard1988	FH	11.0	SIM40	concentration	apoB100+48	plasma	12.0	weeks	1.58	0.1	0.33166247903554	-32.0	percent	g/l	dimensionless
+Moelgaard1988	FH	11.0	SIM40	concentration	apoB100+48	plasma	16.0	weeks	1.57	0.1	0.33166247903554	-33.0	percent	g/l	dimensionless
+Moelgaard1988	FH	11.0	SIM40	concentration	apoB100+48	plasma	20.0	weeks	1.57	0.1	0.33166247903554	-33.0	percent	g/l	dimensionless
+Moelgaard1988	FH	11.0	SIM40	concentration	apoB100+48	plasma	24.0	weeks	1.57	0.07	0.232163735324878	-33.0	percent	g/l	dimensionless

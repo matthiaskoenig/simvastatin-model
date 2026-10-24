@@ -1,0 +1,12 @@
+study	group	count	intervention	measurement_type	substance	method	tissue	label	time	time_unit	mean	mean_sd	sem	sem_pm	mean_unit	count_unit
+Keskitalo2009	c.421C/A	4	FLU_40mg	concentration	fluvastatin	LC MS/MS	plasma	fluvastatin_c.421C/A	0.0	hr	0.0				ng/ml	dimensionless
+Keskitalo2009	c.421C/A	4	FLU_40mg	concentration	fluvastatin	LC MS/MS	plasma	fluvastatin_c.421C/A	0.5	hr	170.7697	187.8886	93.9443	76.8254	ng/ml	dimensionless
+Keskitalo2009	c.421C/A	4	FLU_40mg	concentration	fluvastatin	LC MS/MS	plasma	fluvastatin_c.421C/A	1.0	hr	126.58113	69.3542	34.6771	91.90403	ng/ml	dimensionless
+Keskitalo2009	c.421C/A	4	FLU_40mg	concentration	fluvastatin	LC MS/MS	plasma	fluvastatin_c.421C/A	1.5	hr	89.32698	31.51828	15.75914	73.56784	ng/ml	dimensionless
+Keskitalo2009	c.421C/A	4	FLU_40mg	concentration	fluvastatin	LC MS/MS	plasma	fluvastatin_c.421C/A	2.0	hr	70.360275	37.830924	18.915462	51.444813	ng/ml	dimensionless
+Keskitalo2009	c.421C/A	4	FLU_40mg	concentration	fluvastatin	LC MS/MS	plasma	fluvastatin_c.421C/A	3.0	hr	21.705605	6.30265799999999	3.151329	18.554276	ng/ml	dimensionless
+Keskitalo2009	c.421C/A	4	FLU_40mg	concentration	fluvastatin	LC MS/MS	plasma	fluvastatin_c.421C/A	4.0	hr	36.101227	55.485358	27.742679	63.843906	ng/ml	dimensionless
+Keskitalo2009	c.421C/A	4	FLU_40mg	concentration	fluvastatin	LC MS/MS	plasma	fluvastatin_c.421C/A	5.0	hr	17.079533	17.65943	8.829715	25.909248	ng/ml	dimensionless
+Keskitalo2009	c.421C/A	4	FLU_40mg	concentration	fluvastatin	LC MS/MS	plasma	fluvastatin_c.421C/A	7.0	hr	8.043602	12.61281	6.306405	14.350007	ng/ml	dimensionless
+Keskitalo2009	c.421C/A	4	FLU_40mg	concentration	fluvastatin	LC MS/MS	plasma	fluvastatin_c.421C/A	9.0	hr	6.572608				ng/ml	dimensionless
+Keskitalo2009	c.421C/A	4	FLU_40mg	concentration	fluvastatin	LC MS/MS	plasma	fluvastatin_c.421C/A	12.0	hr	1.8390554				ng/ml	dimensionless

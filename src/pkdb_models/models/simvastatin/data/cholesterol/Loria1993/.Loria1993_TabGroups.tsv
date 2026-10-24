@@ -1,0 +1,11 @@
+study	name	parent	group_count	measurement_type	substance	choice	count	mean	min	max	sd	unit
+Loria1993	all	NA	5	species	NA	homo sapiens	5	NA	NA	NA	NA	NA
+Loria1993	all	NA	5	healthy	NA	N	5	NA	NA	NA	NA	NA
+Loria1993	all	NA	5	medication	NA	N	5	NA	NA	NA	NA	NA
+Loria1993	all	NA	5	sex	NA	M 	3	NA	NA	NA	NA	NA
+Loria1993	all	NA	5	sex	NA	F	2	NA	NA	NA	NA	NA
+Loria1993	all	NA	5	age	NA	NA	5	62.2	46.0	76.0	11.4	yr
+Loria1993	all	NA	5	weight 	NA	NA	5	72.2	67.0	76.0	3.6	kg
+Loria1993	all	NA	5	height	NA	NA	5	168.6	164.0	172.0	3.1	cm
+Loria1993	all	NA	5	overnight fast	NA	Y	5	NA	NA	NA	NA	NA
+Loria1993	all	NA	5	medical procedure	NA	cholecystectomy	5	NA	NA	NA	NA	NA

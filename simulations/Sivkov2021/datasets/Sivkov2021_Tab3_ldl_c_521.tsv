@@ -1,0 +1,3 @@
+study	group	count	intervention	measurement_type	substance	method	tissue	time	time_unit	mean	mean_sd	mean_se	change	baseline	baseline_unit	label	comment	mean_unit	count_unit
+Sivkov2021	subgroup_sim_521	30	SIM10	concentration	ldl-c		serum	0	weeks	5.12	0.9859	0.18	0.0	5.12	mM	subgroup_sim_521_ldl-c_concentration	4 months assumed to be 17 weeks	mM	dimensionless
+Sivkov2021	subgroup_sim_521	30	SIM10	concentration	ldl-c		serum	17	weeks	3.23	1.26	0.23	-36.9	5.12	mM	subgroup_sim_521_ldl-c_concentration	4 months assumed to be 17 weeks	mM	dimensionless

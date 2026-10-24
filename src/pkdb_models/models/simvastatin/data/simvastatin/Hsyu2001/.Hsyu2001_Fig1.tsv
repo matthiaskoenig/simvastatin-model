@@ -1,0 +1,25 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	sd	pm	se	unit
+Hsyu2001	group_ato	15	group_ato_ATO	ATO	concentration	active atorva inhibitors	plasma	enzymatic assay	0	hr	2.0077803	1.4858023	0.521978	0.383632504243778	ng/ml
+Hsyu2001	group_ato	15	group_ato_ATO	ATO	concentration	active atorva inhibitors	plasma	enzymatic assay	1	hr	3.6622605	3.85037175	-0.18811125	0.994161710963834	ng/ml
+Hsyu2001	group_ato	15	group_ato_ATO	ATO	concentration	active atorva inhibitors	plasma	enzymatic assay	2	hr	4.1340404	4.3455916	8.479632	1.12202692641459	ng/ml
+Hsyu2001	group_ato	15	group_ato_ATO	ATO	concentration	active atorva inhibitors	plasma	enzymatic assay	3	hr	5.2113104	2.9702869	2.2410235	0.766924779810537	ng/ml
+Hsyu2001	group_ato	15	group_ato_ATO	ATO	concentration	active atorva inhibitors	plasma	enzymatic assay	4	hr	6.123219	2.2002127	3.9230063	0.568092476347604	ng/ml
+Hsyu2001	group_ato	15	group_ato_ATO	ATO	concentration	active atorva inhibitors	plasma	enzymatic assay	5	hr	7.2826514	4.7303704	2.552281	1.22137638537283	ng/ml
+Hsyu2001	group_ato	15	group_ato_ATO	ATO	concentration	active atorva inhibitors	plasma	enzymatic assay	6	hr	6.3519683	2.5574877	3.7944806	0.660340484682021	ng/ml
+Hsyu2001	group_ato	15	group_ato_ATO	ATO	concentration	active atorva inhibitors	plasma	enzymatic assay	8	hr	4.2156625	1.6502459	2.5654166	0.426091659189805	ng/ml
+Hsyu2001	group_ato	15	group_ato_ATO	ATO	concentration	active atorva inhibitors	plasma	enzymatic assay	10	hr	3.9492776	1.7326674	2.2166102	0.4473727989811	ng/ml
+Hsyu2001	group_ato	15	group_ato_ATO	ATO	concentration	active atorva inhibitors	plasma	enzymatic assay	12	hr	3.4356282	1.8150888	1.6205394	0.468653912952507	ng/ml
+Hsyu2001	group_ato	15	group_ato_ATO	ATO	concentration	active atorva inhibitors	plasma	enzymatic assay	18	hr	2.2244527	1.2651221	0.9593306	0.326653121614597	ng/ml
+Hsyu2001	group_ato	15	group_ato_ATO	ATO	concentration	active atorva inhibitors	plasma	enzymatic assay	24	hr	1.7557626	0.5501394	2.305902	0.142045382286169	ng/ml
+Hsyu2001	group_ato	15	group_ato_ATO+NEL	ATO,NEL	concentration	active atorva inhibitors	plasma	enzymatic assay	0	hr	3.272816	3.2656457	6.5384617	0.843186094047591	ng/ml
+Hsyu2001	group_ato	15	group_ato_ATO+NEL	ATO,NEL	concentration	active atorva inhibitors	plasma	enzymatic assay	1	hr	4.1298056	4.0153874	8.145193	1.03676856858474	ng/ml
+Hsyu2001	group_ato	15	group_ato_ATO+NEL	ATO,NEL	concentration	active atorva inhibitors	plasma	enzymatic assay	2	hr	3.3914685	2.3101367	1.0813318	0.596474731104171	ng/ml
+Hsyu2001	group_ato	15	group_ato_ATO+NEL	ATO,NEL	concentration	active atorva inhibitors	plasma	enzymatic assay	3	hr	6.4213405	7.2057825	13.627123	1.86052504125952	ng/ml
+Hsyu2001	group_ato	15	group_ato_ATO+NEL	ATO,NEL	concentration	active atorva inhibitors	plasma	enzymatic assay	4	hr	10.660984	8.553499	19.214483	2.20850394525345	ng/ml
+Hsyu2001	group_ato	15	group_ato_ATO+NEL	ATO,NEL	concentration	active atorva inhibitors	plasma	enzymatic assay	5	hr	13.443333	9.570923	23.014256	2.47120169245557	ng/ml
+Hsyu2001	group_ato	15	group_ato_ATO+NEL	ATO,NEL	concentration	active atorva inhibitors	plasma	enzymatic assay	6	hr	15.207824	9.73594	24.943764	2.51380889864498	ng/ml
+Hsyu2001	group_ato	15	group_ato_ATO+NEL	ATO,NEL	concentration	active atorva inhibitors	plasma	enzymatic assay	8	hr	7.1033545	4.8954725	11.998827	1.26400556428776	ng/ml
+Hsyu2001	group_ato	15	group_ato_ATO+NEL	ATO,NEL	concentration	active atorva inhibitors	plasma	enzymatic assay	10	hr	4.6369305	3.300405	7.9373355	0.852160906715979	ng/ml
+Hsyu2001	group_ato	15	group_ato_ATO+NEL	ATO,NEL	concentration	active atorva inhibitors	plasma	enzymatic assay	12	hr	3.6832385	2.5851631	6.2684016	0.667486242235329	ng/ml
+Hsyu2001	group_ato	15	group_ato_ATO+NEL	ATO,NEL	concentration	active atorva inhibitors	plasma	enzymatic assay	18	hr	3.5719965	2.8328595	6.404856	0.731441177709698	ng/ml
+Hsyu2001	group_ato	15	group_ato_ATO+NEL	ATO,NEL	concentration	active atorva inhibitors	plasma	enzymatic assay	24	hr	1.2882174	0.5776421	0.7105753	0.149146548891219	ng/ml

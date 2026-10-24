@@ -1,0 +1,22 @@
+study	group	label	count	intervention	measurement_type	substance	tissue	time	time_unit	mean	sd	se	unit
+Loria1993	all	bile acids_bile	5	SIM80	concentration	bile acids	bile	0	hr	15.9	5.1	2.28078933704979	mmol/l
+Loria1993	all	phospholipids_bile	5	SIM80	concentration	phospholipids	bile	0	hr	5.5	0.3	0.134164078649987	mmol/l
+Loria1993	all	cholesterol_bile	5	SIM80	concentration	cholesterol	bile	0	hr	2.3	0.3	0.134164078649987	mmol/l
+Loria1993	all	bile acids_bile	5	SIM80	concentration	bile acids	bile	3	hr	12.9	6.7	2.99633108984972	mmol/l
+Loria1993	all	phospholipids_bile	5	SIM80	concentration	phospholipids	bile	3	hr	4.4	1.6	0.715541752799933	mmol/l
+Loria1993	all	cholesterol_bile	5	SIM80	concentration	cholesterol	bile	3	hr	2.2	0.5	0.223606797749979	mmol/l
+Loria1993	all	bile acids_bile	5	SIM80	concentration	bile acids	bile	6	hr	9.5	2.3	1.0285912696499	mmol/l
+Loria1993	all	phospholipids_bile	5	SIM80	concentration	phospholipids	bile	6	hr	4.2	1.4	0.626099033699941	mmol/l
+Loria1993	all	cholesterol_bile	5	SIM80	concentration	cholesterol	bile	6	hr	2.0	0.7	0.313049516849971	mmol/l
+Loria1993	all	bile acids_bile	5	SIM80	concentration	bile acids	bile	9	hr	6.5	2.9	1.29691942694988	mmol/l
+Loria1993	all	phospholipids_bile	5	SIM80	concentration	phospholipids	bile	9	hr	3.4	0.6	0.268328157299975	mmol/l
+Loria1993	all	cholesterol_bile	5	SIM80	concentration	cholesterol	bile	9	hr	1.6	0.4	0.178885438199983	mmol/l
+Loria1993	all	bile acids_bile	5	SIM80	concentration	bile acids	bile	12	hr	7.5	3.0	1.34164078649987	mmol/l
+Loria1993	all	phospholipids_bile	5	SIM80	concentration	phospholipids	bile	12	hr	3.2	0.5	0.223606797749979	mmol/l
+Loria1993	all	cholesterol_bile	5	SIM80	concentration	cholesterol	bile	12	hr	1.7	0.4	0.178885438199983	mmol/l
+Loria1993	all	bile acids_bile	5	SIM80	concentration	bile acids	bile	15	hr	8.6	3.8	1.69941166289984	mmol/l
+Loria1993	all	phospholipids_bile	5	SIM80	concentration	phospholipids	bile	15	hr	3.7	0.5	0.223606797749979	mmol/l
+Loria1993	all	cholesterol_bile	5	SIM80	concentration	cholesterol	bile	15	hr	1.8	0.4	0.178885438199983	mmol/l
+Loria1993	all	bile acids_bile	5	SIM80	concentration	bile acids	bile	30	hr	14.9	4.9	2.19134661794979	mmol/l
+Loria1993	all	phospholipids_bile	5	SIM80	concentration	phospholipids	bile	30	hr	5.5	1.2	0.536656314599949	mmol/l
+Loria1993	all	cholesterol_bile	5	SIM80	concentration	cholesterol	bile	30	hr	2.2	0.6	0.268328157299975	mmol/l

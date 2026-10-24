@@ -1,0 +1,13 @@
+study	name	parent	measurement_type	group_count	choice	substance	count	mean	unit	sd	min	max
+Walker1990	all	NA	age	160	NA	NA	160	69.0	yr	NA	62.0	85.0
+Walker1990	all	NA	healthy	160	N	NA	160	NA	NA	NA	NA	NA
+Walker1990	all	NA	disease	160	hypercholesterolemia	NA	160	NA	NA	NA	NA	NA
+Walker1990	all	NA	species	160	homo sapiens	NA	160	NA	NA	NA	NA	NA
+Walker1990	all	NA	sex	160	M	NA	45	NA	NA	NA	NA	NA
+Walker1990	all	NA	sex	160	F	NA	115	NA	NA	NA	NA	NA
+Walker1990	SIM0mg	all	species	31	homo sapiens	NA	31	NA	NA	NA	NA	NA
+Walker1990	SIM2_5mg	all	species	32	homo sapiens	NA	32	NA	NA	NA	NA	NA
+Walker1990	SIM5mg	all	species	32	homo sapiens	NA	32	NA	NA	NA	NA	NA
+Walker1990	SIM10mg	all	species	32	homo sapiens	NA	32	NA	NA	NA	NA	NA
+Walker1990	SIM20mg	all	species	32	homo sapiens	NA	32	NA	NA	NA	NA	NA
+Walker1990	all	NA	consumption	160	NA	cholesterol	160	NA	mg/day	NA	NA	300.0

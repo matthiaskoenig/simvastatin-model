@@ -1,0 +1,32 @@
+study	name	parent	measurement_type	group_count	choice	substance	count	mean	median	unit	sd	min	max
+Geiss2002	all	NA	species	61.0	homo sapiens	NA	61.0	NA	NA	NA	NA	NA	NA
+Geiss2002	all	NA	healthy	61.0	NR	NA	61.0	NA	NA	NA	NA	NA	NA
+Geiss2002	all	NA	sex	61.0	M	NA	20.0	NA	NA	NA	NA	NA	NA
+Geiss2002	all	NA	sex	61.0	F	NA	41.0	NA	NA	NA	NA	NA	NA
+Geiss2002	hetero_FH	all	disease	9.0	heterozygous FH	NA	9.0	NA	NA	NA	NA	NA	NA
+Geiss2002	hetero_FH	all	concentration	9.0	NA	ldl-c	9.0	7.1	NA	mmol/l	1.1	5.4	NA
+Geiss2002	hetero_FH	all	concentration	9.0	NA	triglyceride	9.0	1.3	NA	mmol/l	0.4	NA	NA
+Geiss2002	dia_mellitus_hyperlipoproteiemia	all	disease	8.0	t2dm	NA	8.0	NA	NA	NA	NA	NA	NA
+Geiss2002	dia_mellitus_hyperlipoproteiemia	all	disease	8.0	mixed hypercholesterolemia	NA	8.0	NA	NA	NA	NA	NA	NA
+Geiss2002	dia_mellitus_hyperlipoproteiemia	all	concentration	8.0	NA	ldl-c	8.0	4.8	NA	mmol/l	0.7	4.1	NA
+Geiss2002	dia_mellitus_hyperlipoproteiemia	all	concentration	8.0	NA	triglyceride	8.0	2.5	NA	mmol/l	1.1	1.7	NA
+Geiss2002	controls	all	healthy	44.0	Y	NA	44.0	NA	NA	NA	NA	NA	NA
+Geiss2002	hetero_FH	all	healthy	9.0	N	NA	9.0	NA	NA	NA	NA	NA	NA
+Geiss2002	dia_mellitus_hyperlipoproteiemia	all	healthy	8.0	N	NA	8.0	NA	NA	NA	NA	NA	NA
+Geiss2002	hetero_FH	all	age	9.0	NA	NA	9.0	29.0	NA	yr	13.0	NA	NA
+Geiss2002	hetero_FH	all	bmi	9.0	NA	NA	9.0	23.4	NA	kg/m^2	3.8	NA	NA
+Geiss2002	hetero_FH	all	concentration	9.0	NA	glucose	9.0	NA	NA	mmol/l	NA	NA	6.1
+Geiss2002	dia_mellitus_hyperlipoproteiemia	all	concentration	8.0	NA	glucose	8.0	NA	NA	mmol/l	NA	7.0	NA
+Geiss2002	dia_mellitus_hyperlipoproteiemia	all	sex	8.0	M	NA	3.0	NA	NA	NA	NA	NA	NA
+Geiss2002	dia_mellitus_hyperlipoproteiemia	all	sex	8.0	F	NA	5.0	NA	NA	NA	NA	NA	NA
+Geiss2002	hetero_FH	all	sex	9.0	M	NA	1.0	NA	NA	NA	NA	NA	NA
+Geiss2002	hetero_FH	all	sex	9.0	F	NA	8.0	NA	NA	NA	NA	NA	NA
+Geiss2002	dia_mellitus_hyperlipoproteiemia	all	age	8.0	NA	NA	8.0	64.0	NA	yr	9.0	NA	NA
+Geiss2002	dia_mellitus_hyperlipoproteiemia	all	bmi	8.0	NA	NA	8.0	29.6	NA	kg/m^2	6.8	NA	NA
+Geiss2002	controls	all	healthy	44.0	Y	NA	44.0	NA	NA	NA	NA	NA	NA
+Geiss2002	controls	all	sex	44.0	M	NA	16.0	NA	NA	NA	NA	NA	NA
+Geiss2002	controls	all	sex	44.0	F	NA	28.0	NA	NA	NA	NA	NA	NA
+Geiss2002	controls	all	age	44.0	NA	NA	44.0	41.0	NA	yr	10.0	NA	NA
+Geiss2002	controls	all	bmi	44.0	NA	NA	44.0	24.6	NA	kg/m^2	4.5	NA	NA
+Geiss2002	controls	all	concentration	44.0	NA	ldl-c	44.0	3.2	NA	mmol/l	NA	NA	4.1
+Geiss2002	controls	all	concentration	44.0	NA	triglyceride	44.0	0.9	NA	mmol/l	NA	NA	1.7

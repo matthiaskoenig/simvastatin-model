@@ -1,0 +1,41 @@
+study	individual	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	unit
+Simard2001	A1	SIM	auc_end	simvastatin	plasma	LC MS/MS	12	hr	3.2610185	ng hr/ml
+Simard2001	A1	SIM,CIS	auc_end	simvastatin	plasma	LC MS/MS	12	hr	3.0226607	ng hr/ml
+Simard2001	A2	SIM	auc_end	simvastatin	plasma	LC MS/MS	12	hr	3.4319642	ng hr/ml
+Simard2001	A2	SIM,CIS	auc_end	simvastatin	plasma	LC MS/MS	12	hr	3.467119	ng hr/ml
+Simard2001	A3	SIM	auc_end	simvastatin	plasma	LC MS/MS	12	hr	3.7702816	ng hr/ml
+Simard2001	A3	SIM,CIS	auc_end	simvastatin	plasma	LC MS/MS	12	hr	3.7028692	ng hr/ml
+Simard2001	A4	SIM	auc_end	simvastatin	plasma	LC MS/MS	12	hr	7.4338756	ng hr/ml
+Simard2001	A4	SIM,CIS	auc_end	simvastatin	plasma	LC MS/MS	12	hr	10.718781	ng hr/ml
+Simard2001	A5	SIM	auc_end	simvastatin	plasma	LC MS/MS	12	hr	9.173945	ng hr/ml
+Simard2001	A5	SIM,CIS	auc_end	simvastatin	plasma	LC MS/MS	12	hr	9.288199	ng hr/ml
+Simard2001	A6	SIM	auc_end	simvastatin	plasma	LC MS/MS	12	hr	9.377294	ng hr/ml
+Simard2001	A6	SIM,CIS	auc_end	simvastatin	plasma	LC MS/MS	12	hr	11.298209	ng hr/ml
+Simard2001	A7	SIM	auc_end	simvastatin	plasma	LC MS/MS	12	hr	9.992698	ng hr/ml
+Simard2001	A7	SIM,CIS	auc_end	simvastatin	plasma	LC MS/MS	12	hr	15.05901	ng hr/ml
+Simard2001	A8	SIM	auc_end	simvastatin	plasma	LC MS/MS	12	hr	12.288727	ng hr/ml
+Simard2001	A8	SIM,CIS	auc_end	simvastatin	plasma	LC MS/MS	12	hr	11.335972	ng hr/ml
+Simard2001	A9	SIM	auc_end	simvastatin	plasma	LC MS/MS	12	hr	19.808542	ng hr/ml
+Simard2001	A9	SIM,CIS	auc_end	simvastatin	plasma	LC MS/MS	12	hr	18.267426	ng hr/ml
+Simard2001	A10	SIM	auc_end	simvastatin	plasma	LC MS/MS	12	hr	25.55231	ng hr/ml
+Simard2001	A10	SIM,CIS	auc_end	simvastatin	plasma	LC MS/MS	12	hr	21.48656	ng hr/ml
+Simard2001	B1	SIM	auc_end	simvastatin acid	plasma	LC MS/MS	12	hr	1.0740753	ng hr/ml
+Simard2001	B1	SIM,CIS	auc_end	simvastatin acid	plasma	LC MS/MS	12	hr	2.3112087	ng hr/ml
+Simard2001	B2	SIM	auc_end	simvastatin acid	plasma	LC MS/MS	12	hr	3.2981534	ng hr/ml
+Simard2001	B2	SIM,CIS	auc_end	simvastatin acid	plasma	LC MS/MS	12	hr	1.9369154	ng hr/ml
+Simard2001	B3	SIM	auc_end	simvastatin acid	plasma	LC MS/MS	12	hr	5.561781	ng hr/ml
+Simard2001	B3	SIM,CIS	auc_end	simvastatin acid	plasma	LC MS/MS	12	hr	2.9949908	ng hr/ml
+Simard2001	B4	SIM	auc_end	simvastatin acid	plasma	LC MS/MS	12	hr	5.9054585	ng hr/ml
+Simard2001	B4	SIM,CIS	auc_end	simvastatin acid	plasma	LC MS/MS	12	hr	3.6751993	ng hr/ml
+Simard2001	B5	SIM	auc_end	simvastatin acid	plasma	LC MS/MS	12	hr	7.4692235	ng hr/ml
+Simard2001	B5	SIM,CIS	auc_end	simvastatin acid	plasma	LC MS/MS	12	hr	3.1353207	ng hr/ml
+Simard2001	B6	SIM	auc_end	simvastatin acid	plasma	LC MS/MS	12	hr	10.515627	ng hr/ml
+Simard2001	B6	SIM,CIS	auc_end	simvastatin acid	plasma	LC MS/MS	12	hr	7.1696343	ng hr/ml
+Simard2001	B7	SIM	auc_end	simvastatin acid	plasma	LC MS/MS	12	hr	11.269573	ng hr/ml
+Simard2001	B7	SIM,CIS	auc_end	simvastatin acid	plasma	LC MS/MS	12	hr	6.3526692	ng hr/ml
+Simard2001	B8	SIM	auc_end	simvastatin acid	plasma	LC MS/MS	12	hr	13.04562	ng hr/ml
+Simard2001	B8	SIM,CIS	auc_end	simvastatin acid	plasma	LC MS/MS	12	hr	7.826374	ng hr/ml
+Simard2001	B9	SIM	auc_end	simvastatin acid	plasma	LC MS/MS	12	hr	16.262968	ng hr/ml
+Simard2001	B9	SIM,CIS	auc_end	simvastatin acid	plasma	LC MS/MS	12	hr	9.357737	ng hr/ml
+Simard2001	B10	SIM	auc_end	simvastatin acid	plasma	LC MS/MS	12	hr	16.32956	ng hr/ml
+Simard2001	B10	SIM,CIS	auc_end	simvastatin acid	plasma	LC MS/MS	12	hr	20.091036	ng hr/ml

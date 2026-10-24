@@ -1,0 +1,17 @@
+study	group	count	intervention	measurement_type	substance	method	tissue	time	time_unit	mean	median	se	sd	unit	median_change	median_change_se
+Isaacsohn2003	all	195	placebo	concentration change	triglyceride	enzymatic assay	plasma	6	weeks	na	-0.09718175	-0.15572644	-2.17460138932158	dimensionless	-9.718175	-15.572644
+Isaacsohn2003	all	195	SIM20	concentration change	triglyceride	enzymatic assay	plasma	6	weeks	na	-0.19437809	-0.22656511	-3.16380958158291	dimensionless	-19.437809	-22.656511
+Isaacsohn2003	all	195	SIM40	concentration change	triglyceride	enzymatic assay	plasma	6	weeks	na	-0.23886719	-0.2691273	-3.75815821953142	dimensionless	-23.886719	-26.91273
+Isaacsohn2003	all	195	SIM80	concentration change	triglyceride	enzymatic assay	plasma	6	weeks	na	-0.30780325	-0.3429171	-4.78857669951312	dimensionless	-30.780325	-34.29171
+Isaacsohn2003	all	195	placebo	concentration change	vldl-c	ultracentrifugation	plasma	6	weeks	na	-0.047953973	-0.1201572	-1.67790398378715	dimensionless	-4.7953973	-12.01572
+Isaacsohn2003	all	195	SIM20	concentration change	vldl-c	ultracentrifugation	plasma	6	weeks	na	-0.28856495	-0.32759743	-4.57464915024179	dimensionless	-28.856495	-32.759743
+Isaacsohn2003	all	195	SIM40	concentration change	vldl-c	ultracentrifugation	plasma	6	weeks	na	-0.34381817	-0.38285877	-5.34633176714212	dimensionless	-34.381817	-38.285877
+Isaacsohn2003	all	195	SIM80	concentration change	vldl-c	ultracentrifugation	plasma	6	weeks	na	-0.41275425	-0.4468844	-6.24040103341566	dimensionless	-41.275425	-44.68844
+Isaacsohn2003	all	195	placebo	concentration change	vldl triglyceride	ultracentrifugation	plasma	6	weeks	na	0.016883559	0.073493233	1.02627714720464	dimensionless	1.6883559	7.3493233
+Isaacsohn2003	all	195	SIM20	concentration change	vldl triglyceride	ultracentrifugation	plasma	6	weeks	na	-0.18860546	-0.242264	-3.38303264996364	dimensionless	-18.860546	-24.2264
+Isaacsohn2003	all	195	SIM40	concentration change	vldl triglyceride	ultracentrifugation	plasma	6	weeks	na	-0.25167976	-0.31313507	-4.37269328360239	dimensionless	-25.167976	-31.313507
+Isaacsohn2003	all	195	SIM80	concentration change	vldl triglyceride	ultracentrifugation	plasma	6	weeks	na	-0.30398994	-0.35277042	-4.92617082522119	dimensionless	-30.398994	-35.277042
+Isaacsohn2003	all	195	placebo	concentration change	vldl-apoB100+48	immunochromatography	plasma	6	weeks	na	0.13733085	0.262217	3.66166113155696	dimensionless	13.733085	26.2217
+Isaacsohn2003	all	195	SIM20	concentration change	vldl-apoB100+48	immunochromatography	plasma	6	weeks	na	-0.11890609	-0.20281662	-2.83217996654587	dimensionless	-11.890609	-20.281662
+Isaacsohn2003	all	195	SIM40	concentration change	vldl-apoB100+48	immunochromatography	plasma	6	weeks	na	-0.2736796	-0.3546633	-4.95260345591524	dimensionless	-27.36796	-35.46633
+Isaacsohn2003	all	195	SIM80	concentration change	vldl-apoB100+48	immunochromatography	plasma	6	weeks	na	-0.23523376	-0.29964022	-4.18424795884774	dimensionless	-23.523376	-29.964022

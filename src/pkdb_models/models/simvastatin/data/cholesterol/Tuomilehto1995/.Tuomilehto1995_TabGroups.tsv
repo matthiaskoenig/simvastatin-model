@@ -1,0 +1,26 @@
+study	name	parent	measurement_type	group_count	choice	count	median	sd	min	max	unit
+Tuomilehto1995	all	NA	age	166	NA	166	60.0	NA	NA	70.0	yr
+Tuomilehto1995	all	NA	healthy	166	N	166	NA	NA	NA	NA	NA
+Tuomilehto1995	all	NA	disease	166	hypercholesterolemia	166	NA	NA	NA	NA	NA
+Tuomilehto1995	all	NA	species	166	homo sapiens	166	NA	NA	NA	NA	NA
+Tuomilehto1995	all	all	sex	166	M	91	NA	NA	NA	NA	NA
+Tuomilehto1995	all	all	sex	166	F	75	NA	NA	NA	NA	NA
+Tuomilehto1995	SIM0mg	all	sex	28	M	16	NA	NA	NA	NA	NA
+Tuomilehto1995	SIM0mg	all	sex	28	F	12	NA	NA	NA	NA	NA
+Tuomilehto1995	SIM0mg	all	age	28	NA	28	59.0	NA	NA	NA	yr
+Tuomilehto1995	SIM2_5mg	all	sex	28	M	16	NA	NA	NA	NA	NA
+Tuomilehto1995	SIM2_5mg	all	sex	28	F	12	NA	NA	NA	NA	NA
+Tuomilehto1995	SIM2_5mg	all	age	28	NA	28	61.0	NA	NA	NA	yr
+Tuomilehto1995	SIM5mg	all	sex	28	M	14	NA	NA	NA	NA	NA
+Tuomilehto1995	SIM5mg	all	sex	28	F	14	NA	NA	NA	NA	NA
+Tuomilehto1995	SIM5mg	all	age	28	NA	28	60.0	NA	NA	NA	yr
+Tuomilehto1995	SIM5mg	all	ethnicity	28	caucasian	28	NA	NA	NA	NA	NA
+Tuomilehto1995	SIM10mg	all	sex	27	M	15	NA	NA	NA	NA	NA
+Tuomilehto1995	SIM10mg	all	sex	27	F	12	NA	NA	NA	NA	NA
+Tuomilehto1995	SIM10mg	all	age	27	NA	27	63.0	NA	NA	NA	yr
+Tuomilehto1995	SIM20mg	all	sex	26	M	17	NA	NA	NA	NA	NA
+Tuomilehto1995	SIM20mg	all	sex	26	F	9	NA	NA	NA	NA	NA
+Tuomilehto1995	SIM20mg	all	age	26	NA	26	60.0	NA	NA	NA	yr
+Tuomilehto1995	SIM40mg	all	sex	29	M	13	NA	NA	NA	NA	NA
+Tuomilehto1995	SIM40mg	all	sex	29	F	16	NA	NA	NA	NA	NA
+Tuomilehto1995	SIM40mg	all	age	29	NA	29	61.0	NA	NA	NA	yr

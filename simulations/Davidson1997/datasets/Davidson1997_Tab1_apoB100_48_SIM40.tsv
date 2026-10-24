@@ -1,0 +1,3 @@
+study	group	count	intervention	measurement_type	substance	time	time_unit	tissue	mean	mean_sd	median	min	max	median_change	min_change	max_change	unitchange	baseline	baseline_unit	mean_unit	median_unit	count_unit
+Davidson1997	all	147	SIM40	concentration	apoB100+48	0	weeks	plasma	181.0	24.0										mg/dl	mg/dl	dimensionless
+Davidson1997	all	141	SIM40	concentration	apoB100+48	6	weeks	plasma			119.46	106.79	133.94	-34.0	-41.0	-26.0	percent			mg/dl	mg/dl	dimensionless

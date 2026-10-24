@@ -1,0 +1,14 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	mean_sd	pm	mean_se	mean_unit	count_unit
+Simard2001	all	11	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	0.0	hr	2.2955576923076923e-06	2.769365575728619e-06	-0.19833598	8.349951383653083e-07	mole/meter^3	dimensionless
+Simard2001	all	11	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	0.5	hr	4.1661084567606305e-06	8.727538939321547e-06	-1.9094148	2.631452000449617e-06	mole/meter^3	dimensionless
+Simard2001	all	11	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	1.0	hr	1.045663210702341e-05	5.79033635929288e-06	6.800981	1.7458521012479097e-06	mole/meter^3	dimensionless
+Simard2001	all	11	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	1.5	hr	7.459942666029622e-06	6.154055661729574e-06	0.5466443	1.8555175971744814e-06	mole/meter^3	dimensionless
+Simard2001	all	11	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	2.0	hr	7.260738891543239e-06	2.4896385570950784e-06	4.081508	7.506542688623817e-07	mole/meter^3	dimensionless
+Simard2001	all	11	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	3.0	hr	4.512260391782131e-06	1.0070893454371713e-06	2.3103998	3.0364886265270183e-07	mole/meter^3	dimensionless
+Simard2001	all	11	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	4.0	hr	2.910808170090778e-06	8.669304825609172e-07	0.8555672	2.613893754523913e-07	mole/meter^3	dimensionless
+Simard2001	all	11	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	5.0	hr	1.9528005255613947e-06	7.551875298614428e-07	1.1335638	2.2769760753688364e-07	mole/meter^3	dimensionless
+Simard2001	all	11	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	6.0	hr	1.8058518872431912e-06				mole/meter^3	dimensionless
+Simard2001	all	11	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	7.0	hr	1.6031055183946486e-06				mole/meter^3	dimensionless
+Simard2001	all	11	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	8.0	hr	1.2604222408026753e-06				mole/meter^3	dimensionless
+Simard2001	all	11	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	10.0	hr	1.3023442427138078e-06				mole/meter^3	dimensionless
+Simard2001	all	11	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	11.0	hr	1.2952589584328714e-06				mole/meter^3	dimensionless

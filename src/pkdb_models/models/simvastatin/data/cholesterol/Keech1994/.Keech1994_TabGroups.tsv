@@ -1,0 +1,71 @@
+study	name	parent	measurement_type	group_count	choice	substance	count	mean	sd	unit	min	max
+Keech1994	all	NA	species	621	homo sapiens	NA	621	NA	NA	NA	NA	NA
+Keech1994	all	NA	sex	621	M	NA	526	NA	NA	NA	NA	NA
+Keech1994	all	NA	sex	621	F	NA	95	NA	NA	NA	NA	NA
+Keech1994	all	NA	healthy	621	N	NA	621	NA	NA	NA	NA	NA
+Keech1994	SIM40	all	age	206	NA	NA	206	63.4	7.6	yr	NA	NA
+Keech1994	SIM40	all	sex	206	M	NA	175	NA	NA	NA	NA	NA
+Keech1994	SIM40	all	sex	206	F	NA	31	NA	NA	NA	NA	NA
+Keech1994	SIM40	all	smoking	206	Y	NA	30	NA	NA	NA	NA	NA
+Keech1994	SIM40	all	weight	206	NA	NA	206	78.0	12.0	kg	NA	NA
+Keech1994	SIM40	all	bmi	206	NA	NA	206	26.4	3.3	kg/m^2	NA	NA
+Keech1994	SIM40	all	blood pressure systolic	206	NA	NA	206	134.0	21.0	mmHg	NA	NA
+Keech1994	SIM40	all	blood pressure diastolic	206	NA	NA	206	77.0	11.0	mmHg	NA	NA
+Keech1994	SIM40	all	medication	206	Y	NA	206	NA	NA	NA	NA	NA
+Keech1994	SIM40	all	concentration	206	NA	bilirubin	206	7.1	2.7	mmol/l	NA	NA
+Keech1994	SIM40	all	concentration	206	NA	ggt	206	28.0	35.0	IU/l	NA	NA
+Keech1994	SIM40	all	concentration	206	NA	alt	206	23.0	11.0	IU/l	NA	NA
+Keech1994	SIM40	all	concentration	206	NA	ast	206	21.0	7.0	IU/l	NA	NA
+Keech1994	SIM40	all	concentration	206	NA	creatine kinase	206	121.0	73.0	IU/l	NA	NA
+Keech1994	SIM40	all	concentration	206	NA	uric acid	206	0.38	0.08	mmol/l	NA	NA
+Keech1994	SIM40	all	concentration	206	NA	creatinine	206	106.0	25.0	µmol/l	NA	NA
+Keech1994	SIM40	all	concentration	206	NA	haemoglobin	206	14.7	1.2	g/dl	NA	NA
+Keech1994	SIM20	all	age	208	NA	NA	208	63.4	7.4	yr	NA	NA
+Keech1994	SIM20	all	sex	208	M	NA	177	NA	NA	NA	NA	NA
+Keech1994	SIM20	all	sex	208	F	NA	31	NA	NA	NA	NA	NA
+Keech1994	SIM20	all	smoking	208	Y	NA	28	NA	NA	NA	NA	NA
+Keech1994	SIM20	all	weight	208	NA	NA	208	78.0	12.0	kg	NA	NA
+Keech1994	SIM20	all	bmi	208	NA	NA	208	26.6	3.4	kg/m^2	NA	NA
+Keech1994	SIM20	all	blood pressure systolic	208	NA	NA	208	134.0	22.0	mmHg	NA	NA
+Keech1994	SIM20	all	blood pressure diastolic	208	NA	NA	208	77.0	12.0	mmHg	NA	NA
+Keech1994	SIM20	all	medication	208	Y	NA	208	NA	NA	NA	NA	NA
+Keech1994	SIM20	all	concentration	208	NA	bilirubin	208	7.5	3.3	mmol/l	NA	NA
+Keech1994	SIM20	all	concentration	208	NA	ggt	208	30.0	33.0	IU/l	NA	NA
+Keech1994	SIM20	all	concentration	208	NA	alt	208	24.0	12.0	IU/l	NA	NA
+Keech1994	SIM20	all	concentration	208	NA	ast	208	22.0	7.0	IU/l	NA	NA
+Keech1994	SIM20	all	concentration	208	NA	creatine kinase	208	115.0	79.0	IU/l	NA	NA
+Keech1994	SIM20	all	concentration	208	NA	uric acid	208	0.38	0.08	mmol/l	NA	NA
+Keech1994	SIM20	all	concentration	208	NA	creatinine	208	105.0	24.0	µmol/l	NA	NA
+Keech1994	SIM20	all	concentration	208	NA	haemoglobin	208	14.8	1.1	g/dl	NA	NA
+Keech1994	placebo	all	age	207	NA	NA	207	63.7	7.3	yr	NA	NA
+Keech1994	placebo	all	sex	207	M	NA	174	NA	NA	NA	NA	NA
+Keech1994	placebo	all	sex	207	F	NA	33	NA	NA	NA	NA	NA
+Keech1994	placebo	all	smoking	207	Y	NA	30	NA	NA	NA	NA	NA
+Keech1994	placebo	all	weight	207	NA	NA	207	78.0	12.0	kg	NA	NA
+Keech1994	placebo	all	bmi	207	NA	NA	207	26.4	3.5	kg/m^2	NA	NA
+Keech1994	placebo	all	blood pressure systolic	207	NA	NA	207	136.0	22.0	mmHg	NA	NA
+Keech1994	placebo	all	blood pressure diastolic	207	NA	NA	207	79.0	11.0	mmHg	NA	NA
+Keech1994	placebo	all	medication	207	Y	NA	207	NA	NA	NA	NA	NA
+Keech1994	placebo	all	concentration	207	NA	bilirubin	207	7.5	3.8	mmol/l	NA	NA
+Keech1994	placebo	all	concentration	207	NA	ggt	207	28.0	26.0	IU/l	NA	NA
+Keech1994	placebo	all	concentration	207	NA	alt	207	24.0	11.0	IU/l	NA	NA
+Keech1994	placebo	all	concentration	207	NA	ast	207	22.0	7.0	IU/l	NA	NA
+Keech1994	placebo	all	concentration	207	NA	creatine kinase	207	114.0	62.0	IU/l	NA	NA
+Keech1994	placebo	all	concentration	207	NA	uric acid	207	0.38	0.08	mmol/l	NA	NA
+Keech1994	placebo	all	concentration	207	NA	creatinine	207	104.0	23.0	µmol/l	NA	NA
+Keech1994	placebo	all	concentration	207	NA	haemoglobin	207	15.0	1.3	g/dl	NA	NA
+Keech1994	age_below_65	all	age	621	NA	NA	621	NA	NA	yr	NA	65.0
+Keech1994	age_above_65	all	age	621	NA	NA	621	NA	NA	yr	65.0	NA
+Keech1994	male	all	sex	526	M	NA	526	NA	NA	NA	NA	NA
+Keech1994	female	all	sex	95	F	NA	95	NA	NA	NA	NA	NA
+Keech1994	bmi_below_average	all	bmi	621	NA	NA	621	NA	NA	kg/m^2	NA	26.5
+Keech1994	bmi_above_average	all	bmi	621	NA	NA	621	NA	NA	kg/m^2	26.5	NA
+Keech1994	lipid_level_below_average	all	concentration	621	NA	cholesterol	621	NA	NA	mmol/l	NA	7.0
+Keech1994	lipid_level_below_average	all	concentration	621	NA	ldl-c	621	NA	NA	mmol/l	NA	4.8
+Keech1994	lipid_level_below_average	all	concentration	621	NA	hdl-c	621	NA	NA	mmol/l	NA	1.16
+Keech1994	lipid_level_below_average	all	concentration	621	NA	triglyceride	621	NA	NA	mmol/l	NA	2.6
+Keech1994	lipid_level_above_average	all	concentration	621	NA	cholesterol	621	NA	NA	mmol/l	7.0	NA
+Keech1994	lipid_level_above_average	all	concentration	621	NA	ldl-c	621	NA	NA	mmol/l	4.8	NA
+Keech1994	lipid_level_above_average	all	concentration	621	NA	hdl-c	621	NA	NA	mmol/l	1.16	NA
+Keech1994	lipid_level_above_average	all	concentration	621	NA	triglyceride	621	NA	NA	mmol/l	2.6	NA
+Keech1994	all	NA	fasting	621	N	NA	621	NA	NA	NA	NA	NA

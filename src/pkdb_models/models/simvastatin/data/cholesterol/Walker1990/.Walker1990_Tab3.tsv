@@ -1,0 +1,11 @@
+study	group	count	intervention	measurement_type	substance	tissue	label	time	time_unit	mean	change	unit
+Walker1990	SIM0mg	31	SIM0	concentration	ldl-c	serum	ldl-c_SIM0	0	weeks	232.1	0.0	mg/dl
+Walker1990	SIM2_5mg	32	SIM2_5	concentration	ldl-c	serum	ldl-c_SIM2_5	0	weeks	226.9	0.0	mg/dl
+Walker1990	SIM5mg	32	SIM5	concentration	ldl-c	serum	ldl-c_SIM5	0	weeks	227.4	0.0	mg/dl
+Walker1990	SIM10mg	32	SIM10	concentration	ldl-c	serum	ldl-c_SIM10	0	weeks	224.8	0.0	mg/dl
+Walker1990	SIM20mg	32	SIM20	concentration	ldl-c	serum	ldl-c_SIM20	0	weeks	230.9	0.0	mg/dl
+Walker1990	SIM0mg	31	SIM0	concentration	ldl-c	serum	ldl-c_SIM0	4	weeks	223.8	-3.1	mg/dl
+Walker1990	SIM2_5mg	32	SIM2_5	concentration	ldl-c	serum	ldl-c_SIM2_5	4	weeks	174.6	-22.5	mg/dl
+Walker1990	SIM5mg	32	SIM5	concentration	ldl-c	serum	ldl-c_SIM5	4	weeks	167.9	-26.8	mg/dl
+Walker1990	SIM10mg	32	SIM10	concentration	ldl-c	serum	ldl-c_SIM10	4	weeks	153.7	-30.9	mg/dl
+Walker1990	SIM20mg	32	SIM20	concentration	ldl-c	serum	ldl-c_SIM20	4	weeks	144.1	-37.4	mg/dl

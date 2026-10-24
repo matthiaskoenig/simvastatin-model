@@ -1,0 +1,43 @@
+study	group	count	intervention	measurement_type	substance	label	tissue	time	time_unit	mean	mean_sd	mean_se	mean_unit	change	change_sd	change_unit
+Mol1986	all	8	placebo	concentration	cholesterol	placebo_cholesterol_concentration	serum	0	weeks	11.95	1.22	NA	mmol/l	NA	NA	percent
+Mol1986	all	8	SIM2_5_once	concentration	cholesterol	SIM2_5_once_cholesterol_concentration	serum	0	weeks	11.97	2.18	NA	mmol/l	NA	NA	percent
+Mol1986	all	4	SIM2_5_twice	concentration	cholesterol	SIM2_5_twice_cholesterol_concentration	serum	0	weeks	10.27	2.05	NA	mmol/l	NA	NA	percent
+Mol1986	all	8	SIM10_once	concentration	cholesterol	SIM10_once_cholesterol_concentration	serum	0	weeks	12.23	2.53	NA	mmol/l	NA	NA	percent
+Mol1986	all	4	SIM10_twice	concentration	cholesterol	SIM10_twice_cholesterol_concentration	serum	0	weeks	11.89	2.63	NA	mmol/l	NA	NA	percent
+Mol1986	all	7	SIM40_once	concentration	cholesterol	SIM40_once_cholesterol_concentration	serum	0	weeks	10.47	1.53	NA	mmol/l	NA	NA	percent
+Mol1986	all	4	SIM40_twice	concentration	cholesterol	SIM40_twice_cholesterol_concentration	serum	0	weeks	10.17	0.95	NA	mmol/l	NA	NA	percent
+Mol1986	all	8	placebo	concentration	cholesterol	placebo_cholesterol_concentration	serum	4	weeks	11.32	1.12	NA	mmol/l	-4.7	6.6	percent
+Mol1986	all	8	SIM2_5_once	concentration	cholesterol	SIM2_5_once_cholesterol_concentration	serum	4	weeks	10.06	2.2	NA	mmol/l	-16.2	6.6	percent
+Mol1986	all	4	SIM2_5_twice	concentration	cholesterol	SIM2_5_twice_cholesterol_concentration	serum	4	weeks	7.93	1.36	NA	mmol/l	-22.5	3.0	percent
+Mol1986	all	8	SIM10_once	concentration	cholesterol	SIM10_once_cholesterol_concentration	serum	4	weeks	9.19	1.92	NA	mmol/l	-24.8	5.4	percent
+Mol1986	all	4	SIM10_twice	concentration	cholesterol	SIM10_twice_cholesterol_concentration	serum	4	weeks	9.02	2.67	NA	mmol/l	-25.0	8.4	percent
+Mol1986	all	7	SIM40_once	concentration	cholesterol	SIM40_once_cholesterol_concentration	serum	4	weeks	7.09	1.19	NA	mmol/l	-32.3	5.3	percent
+Mol1986	all	4	SIM40_twice	concentration	cholesterol	SIM40_twice_cholesterol_concentration	serum	4	weeks	6.54	0.48	NA	mmol/l	-35.5	5.9	percent
+Mol1986	all	8	placebo	concentration	ldl-c	placebo_ldl-c_concentration	serum	0	weeks	10.13	1.04	NA	mmol/l	NA	NA	percent
+Mol1986	all	8	SIM2_5_once	concentration	ldl-c	SIM2_5_once_ldl-c_concentration	serum	0	weeks	9.89	2.13	NA	mmol/l	NA	NA	percent
+Mol1986	all	4	SIM2_5_twice	concentration	ldl-c	SIM2_5_twice_ldl-c_concentration	serum	0	weeks	8.8	2.0	NA	mmol/l	NA	NA	percent
+Mol1986	all	8	SIM10_once	concentration	ldl-c	SIM10_once_ldl-c_concentration	serum	0	weeks	10.47	2.42	NA	mmol/l	NA	NA	percent
+Mol1986	all	4	SIM10_twice	concentration	ldl-c	SIM10_twice_ldl-c_concentration	serum	0	weeks	9.97	2.9	NA	mmol/l	NA	NA	percent
+Mol1986	all	7	SIM40_once	concentration	ldl-c	SIM40_once_ldl-c_concentration	serum	0	weeks	8.78	1.6	NA	mmol/l	NA	NA	percent
+Mol1986	all	4	SIM40_twice	concentration	ldl-c	SIM40_twice_ldl-c_concentration	serum	0	weeks	8.72	1.01	NA	mmol/l	NA	NA	percent
+Mol1986	all	8	placebo	concentration	ldl-c	placebo_ldl-c_concentration	serum	4	weeks	9.55	1.12	NA	mmol/l	-5.5	7.4	percent
+Mol1986	all	8	SIM2_5_once	concentration	ldl-c	SIM2_5_once_ldl-c_concentration	serum	4	weeks	8.17	2.15	NA	mmol/l	-17.7	8.0	percent
+Mol1986	all	4	SIM2_5_twice	concentration	ldl-c	SIM2_5_twice_ldl-c_concentration	serum	4	weeks	6.46	1.42	NA	mmol/l	-26.5	1.6	percent
+Mol1986	all	8	SIM10_once	concentration	ldl-c	SIM10_once_ldl-c_concentration	serum	4	weeks	7.58	1.89	NA	mmol/l	-27.7	6.5	percent
+Mol1986	all	4	SIM10_twice	concentration	ldl-c	SIM10_twice_ldl-c_concentration	serum	4	weeks	7.11	2.99	NA	mmol/l	-30.4	13.6	percent
+Mol1986	all	7	SIM40_once	concentration	ldl-c	SIM40_once_ldl-c_concentration	serum	4	weeks	5.51	1.04	NA	mmol/l	-37.0	6.5	percent
+Mol1986	all	4	SIM40_twice	concentration	ldl-c	SIM40_twice_ldl-c_concentration	serum	4	weeks	5.02	0.69	NA	mmol/l	-42.2	6.9	percent
+Mol1986	all	8	placebo	concentration change	cholesterol	placebo_cholesterol_concentration change	serum	4	weeks	-4.7	6.6	NA	percent	NA	NA	percent
+Mol1986	all	8	SIM2_5_once	concentration change	cholesterol	SIM2_5_once_cholesterol_concentration change	serum	4	weeks	-16.2	6.6	NA	percent	NA	NA	percent
+Mol1986	all	4	SIM2_5_twice	concentration change	cholesterol	SIM2_5_twice_cholesterol_concentration change	serum	4	weeks	-22.5	3.0	NA	percent	NA	NA	percent
+Mol1986	all	8	SIM10_once	concentration change	cholesterol	SIM10_once_cholesterol_concentration change	serum	4	weeks	-24.8	5.4	NA	percent	NA	NA	percent
+Mol1986	all	4	SIM10_twice	concentration change	cholesterol	SIM10_twice_cholesterol_concentration change	serum	4	weeks	-25.0	8.4	NA	percent	NA	NA	percent
+Mol1986	all	7	SIM40_once	concentration change	cholesterol	SIM40_once_cholesterol_concentration change	serum	4	weeks	-32.3	5.3	NA	percent	NA	NA	percent
+Mol1986	all	4	SIM40_twice	concentration change	cholesterol	SIM40_twice_cholesterol_concentration change	serum	4	weeks	-35.5	5.9	NA	percent	NA	NA	percent
+Mol1986	all	8	placebo	concentration change	ldl-c	placebo_ldl-c_concentration change	serum	4	weeks	-5.5	7.4	NA	percent	NA	NA	percent
+Mol1986	all	8	SIM2_5_once	concentration change	ldl-c	SIM2_5_once_ldl-c_concentration change	serum	4	weeks	-17.7	8.0	NA	percent	NA	NA	percent
+Mol1986	all	4	SIM2_5_twice	concentration change	ldl-c	SIM2_5_twice_ldl-c_concentration change	serum	4	weeks	-26.5	1.6	NA	percent	NA	NA	percent
+Mol1986	all	8	SIM10_once	concentration change	ldl-c	SIM10_once_ldl-c_concentration change	serum	4	weeks	-27.7	6.5	NA	percent	NA	NA	percent
+Mol1986	all	4	SIM10_twice	concentration change	ldl-c	SIM10_twice_ldl-c_concentration change	serum	4	weeks	-30.4	13.6	NA	percent	NA	NA	percent
+Mol1986	all	7	SIM40_once	concentration change	ldl-c	SIM40_once_ldl-c_concentration change	serum	4	weeks	-37.0	6.5	NA	percent	NA	NA	percent
+Mol1986	all	4	SIM40_twice	concentration change	ldl-c	SIM40_twice_ldl-c_concentration change	serum	4	weeks	-42.2	6.9	NA	percent	NA	NA	percent

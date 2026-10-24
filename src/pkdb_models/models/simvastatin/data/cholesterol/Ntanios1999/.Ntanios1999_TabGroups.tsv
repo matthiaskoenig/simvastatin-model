@@ -1,0 +1,22 @@
+study	name	parent	measurement_type	group_count	count	choice	mean	unit	mean_sd	min	max
+Ntanios1999	all	NA	age	18	18	NA	49.0	yr	11.0	21.0	70.0
+Ntanios1999	all	NA	bmi	18	18	NA	NA	kg/m^2	NA	NA	31.0
+Ntanios1999	all	NA	healthy	18	18	N	NA	NA	NA	NA	NA
+Ntanios1999	all	NA	disease	18	18	hypercholesterolemia	NA	NA	NA	NA	NA
+Ntanios1999	all	NA	sex	18	18	M	10.0	NA	NA	NA	NA
+Ntanios1999	all	NA	sex	18	18	F	8.0	NA	NA	NA	NA
+Ntanios1999	all	NA	species	18	18	homo sapiens	NA	NA	NA	NA	NA
+Ntanios1999	women	all	sex	8	8	F	NA	NA	NA	NA	NA
+Ntanios1999	women	all	height	8	8	NA	161.6	cm	5.6	NA	NA
+Ntanios1999	women	all	weight	8	8	NA	66.7	kg	9.5	NA	NA
+Ntanios1999	women	all	age	8	8	NA	55.0	yr	8.8	NA	NA
+Ntanios1999	women	all	bmi	8	8	NA	25.5	kg/m^2	2.9	NA	NA
+Ntanios1999	men	all	sex	10	10	M	NA	NA	NA	70.0	NA
+Ntanios1999	men	all	height	10	10	NA	174.5	cm	7.7	31.0	NA
+Ntanios1999	men	all	weight	10	10	NA	82.0	kg	11.7	NA	NA
+Ntanios1999	men	all	age	10	10	NA	42.7	yr	11.2	NA	NA
+Ntanios1999	men	all	bmi	10	10	NA	26.9	kg/m^2	2.6	NA	NA
+Ntanios1999	SIM40	all	sex	7	7	M	5.0	NA	NA	NA	NA
+Ntanios1999	SIM40	all	sex	7	7	F	2.0	NA	NA	NA	NA
+Ntanios1999	SIM80	all	sex	11	11	M	5.0	NA	NA	NA	NA
+Ntanios1999	SIM80	all	sex	11	11	F	6.0	NA	NA	NA	NA

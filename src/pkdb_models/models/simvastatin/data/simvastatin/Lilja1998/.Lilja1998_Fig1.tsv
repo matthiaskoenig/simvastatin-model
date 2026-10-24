@@ -1,0 +1,41 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	se	pm	sd	unit
+Lilja1998	all	10	SIM+GRA_simvastatin	SIM,GRA	concentration	simvastatin	serum	LC MS/MS	0.0	hr	0.0	na	na	na	ng/ml
+Lilja1998	all	10	SIM+GRA_simvastatin	SIM,GRA	concentration	simvastatin	serum	LC MS/MS	0.5	hr	4.786665	na	na	na	ng/ml
+Lilja1998	all	10	SIM+GRA_simvastatin	SIM,GRA	concentration	simvastatin	serum	LC MS/MS	1.0	hr	65.43539	22.6565	42.77889	71.6461438076049	ng/ml
+Lilja1998	all	10	SIM+GRA_simvastatin	SIM,GRA	concentration	simvastatin	serum	LC MS/MS	2.0	hr	123.44909	41.14563	82.30346	130.113906562554	ng/ml
+Lilja1998	all	10	SIM+GRA_simvastatin	SIM,GRA	concentration	simvastatin	serum	LC MS/MS	3.0	hr	97.869484	33.332514	64.53697	105.40666437945	ng/ml
+Lilja1998	all	10	SIM+GRA_simvastatin	SIM,GRA	concentration	simvastatin	serum	LC MS/MS	4.0	hr	86.614876	28.3839	58.230976	89.7577728784533	ng/ml
+Lilja1998	all	10	SIM+GRA_simvastatin	SIM,GRA	concentration	simvastatin	serum	LC MS/MS	6.0	hr	65.925285	17.447483	48.477802	55.1737857170676	ng/ml
+Lilja1998	all	10	SIM+GRA_simvastatin	SIM,GRA	concentration	simvastatin	serum	LC MS/MS	8.0	hr	37.164604	13.542143	23.622461	42.8240162797056	ng/ml
+Lilja1998	all	10	SIM+GRA_simvastatin	SIM,GRA	concentration	simvastatin	serum	LC MS/MS	10.0	hr	29.757563	10.676819	19.080744	33.7630662053613	ng/ml
+Lilja1998	all	10	SIM+GRA_simvastatin	SIM,GRA	concentration	simvastatin	serum	LC MS/MS	12.0	hr	15.31863	7.8123057	7.5063243	24.7046797895161	ng/ml
+Lilja1998	all	10	SIM_simvastatin	SIM	concentration	simvastatin	serum	LC MS/MS	0.0	hr	0.0	na	na	na	ng/ml
+Lilja1998	all	10	SIM_simvastatin	SIM	concentration	simvastatin	serum	LC MS/MS	0.5	hr	4.7858515	3.6199578	1.1658937	11.4473116816923	ng/ml
+Lilja1998	all	10	SIM_simvastatin	SIM	concentration	simvastatin	serum	LC MS/MS	1.0	hr	12.568861	3.367196	9.201665	10.6480086882083	ng/ml
+Lilja1998	all	10	SIM_simvastatin	SIM	concentration	simvastatin	serum	LC MS/MS	2.0	hr	9.386974	2.0093347	7.3776393	6.35407423361113	ng/ml
+Lilja1998	all	10	SIM_simvastatin	SIM	concentration	simvastatin	serum	LC MS/MS	3.0	hr	5.1618185	1.3051567	3.8566618	4.12726787542908	ng/ml
+Lilja1998	all	10	SIM_simvastatin	SIM	concentration	simvastatin	serum	LC MS/MS	4.0	hr	3.2819824	2.60849617	0.67348623	8.24878916502578	ng/ml
+Lilja1998	all	10	SIM_simvastatin	SIM	concentration	simvastatin	serum	LC MS/MS	6.0	hr	2.1247845	1.3941155	0.730669	4.40858030134447	ng/ml
+Lilja1998	all	10	SIM_simvastatin	SIM	concentration	simvastatin	serum	LC MS/MS	8.0	hr	1.227997	na	na	na	ng/ml
+Lilja1998	all	10	SIM_simvastatin	SIM	concentration	simvastatin	serum	LC MS/MS	10.0	hr	1.3728501	na	na	na	ng/ml
+Lilja1998	all	10	SIM_simvastatin	SIM	concentration	simvastatin	serum	LC MS/MS	12.0	hr	0.73484504	na	na	na	ng/ml
+Lilja1998	all	10	SIM+GRA_simvastatin acid	SIM,GRA	concentration	simvastatin acid	serum	LC MS/MS	0.0	hr	0.0	na	na	na	ng/ml
+Lilja1998	all	10	SIM+GRA_simvastatin acid	SIM,GRA	concentration	simvastatin acid	serum	LC MS/MS	0.5	hr	0.35437712	na	na	na	ng/ml
+Lilja1998	all	10	SIM+GRA_simvastatin acid	SIM,GRA	concentration	simvastatin acid	serum	LC MS/MS	1.0	hr	3.162996	0.8890254	2.2739706	2.81134516174226	ng/ml
+Lilja1998	all	10	SIM+GRA_simvastatin acid	SIM,GRA	concentration	simvastatin acid	serum	LC MS/MS	2.0	hr	10.817186	2.296374	8.520812	7.2617721995915	ng/ml
+Lilja1998	all	10	SIM+GRA_simvastatin acid	SIM,GRA	concentration	simvastatin acid	serum	LC MS/MS	3.0	hr	14.989866	3.073946	11.91592	9.72067076436395	ng/ml
+Lilja1998	all	10	SIM+GRA_simvastatin acid	SIM,GRA	concentration	simvastatin acid	serum	LC MS/MS	4.0	hr	17.16263	3.370057	13.792573	10.6570559645941	ng/ml
+Lilja1998	all	10	SIM+GRA_simvastatin acid	SIM,GRA	concentration	simvastatin acid	serum	LC MS/MS	6.0	hr	15.6195135	3.6294785	11.990035	11.4774187786114	ng/ml
+Lilja1998	all	10	SIM+GRA_simvastatin acid	SIM,GRA	concentration	simvastatin acid	serum	LC MS/MS	8.0	hr	12.594976	2.999875	9.595101	9.48643769579762	ng/ml
+Lilja1998	all	10	SIM+GRA_simvastatin acid	SIM,GRA	concentration	simvastatin acid	serum	LC MS/MS	10.0	hr	7.4222083	2.3332363	5.088972	7.37834102738393	ng/ml
+Lilja1998	all	10	SIM+GRA_simvastatin acid	SIM,GRA	concentration	simvastatin acid	serum	LC MS/MS	12.0	hr	3.8047564	1.3703132	2.4344432	4.33331081979384	ng/ml
+Lilja1998	all	10	SIM_simvastatin acid	SIM	concentration	simvastatin acid	serum	LC MS/MS	0.0	hr	0.0	na	na	na	ng/ml
+Lilja1998	all	10	SIM_simvastatin acid	SIM	concentration	simvastatin acid	serum	LC MS/MS	0.5	hr	0.3915863	na	na	na	ng/ml
+Lilja1998	all	10	SIM_simvastatin acid	SIM	concentration	simvastatin acid	serum	LC MS/MS	1.0	hr	1.1258703	na	na	na	ng/ml
+Lilja1998	all	10	SIM_simvastatin acid	SIM	concentration	simvastatin acid	serum	LC MS/MS	2.0	hr	2.4840264	0.7780926	1.7059338	2.46054484652233	ng/ml
+Lilja1998	all	10	SIM_simvastatin acid	SIM	concentration	simvastatin acid	serum	LC MS/MS	3.0	hr	2.8418772	0.6666391	2.1752381	2.10809793332475	ng/ml
+Lilja1998	all	10	SIM_simvastatin acid	SIM	concentration	simvastatin acid	serum	LC MS/MS	4.0	hr	2.90327	0.6662915	2.2369785	2.10699872561008	ng/ml
+Lilja1998	all	10	SIM_simvastatin acid	SIM	concentration	simvastatin acid	serum	LC MS/MS	6.0	hr	2.3971472	0.5181495	1.8789977	1.63853258847742	ng/ml
+Lilja1998	all	10	SIM_simvastatin acid	SIM	concentration	simvastatin acid	serum	LC MS/MS	8.0	hr	1.5208433	na	na	na	ng/ml
+Lilja1998	all	10	SIM_simvastatin acid	SIM	concentration	simvastatin acid	serum	LC MS/MS	10.0	hr	0.86657846	na	na	na	ng/ml
+Lilja1998	all	10	SIM_simvastatin acid	SIM	concentration	simvastatin acid	serum	LC MS/MS	12.0	hr	0.5826686	na	na	na	ng/ml

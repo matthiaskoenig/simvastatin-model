@@ -1,0 +1,43 @@
+study	group	count	intervention	measurement_type	substance	tissue	time	time_unit	mean	se	sd	unit
+Moelgaard1988	FH	11.0	baseline	concentration	triglyceride	plasma	0.0	weeks	1.3	0.24	0.795989949685296	mmol/l
+Moelgaard1988	FH	11.0	SIM20	concentration	triglyceride	plasma	4.0	weeks	0.97	0.15	0.49749371855331	mmol/l
+Moelgaard1988	FH	11.0	SIM20	concentration	triglyceride	plasma	8.0	weeks	1.2	0.28	0.928654941299512	mmol/l
+Moelgaard1988	FH	11.0	SIM40	concentration	triglyceride	plasma	12.0	weeks	1.07	0.14	0.464327470649756	mmol/l
+Moelgaard1988	FH	11.0	SIM40	concentration	triglyceride	plasma	16.0	weeks	1.0	0.18	0.596992462263972	mmol/l
+Moelgaard1988	FH	11.0	SIM40	concentration	triglyceride	plasma	20.0	weeks	1.1	0.2	0.66332495807108	mmol/l
+Moelgaard1988	FH	11.0	SIM40	concentration	triglyceride	plasma	24.0	weeks	1.15	0.18	0.596992462263972	mmol/l
+Moelgaard1988	FH	11.0	baseline	concentration	vldl triglyceride	plasma	0.0	weeks	0.78	0.2	0.66332495807108	mmol/l
+Moelgaard1988	FH	11.0	SIM20	concentration	vldl triglyceride	plasma	4.0	weeks	0.59	0.13	0.431161222746202	mmol/l
+Moelgaard1988	FH	11.0	SIM20	concentration	vldl triglyceride	plasma	8.0	weeks	0.72	0.2	0.66332495807108	mmol/l
+Moelgaard1988	FH	11.0	SIM40	concentration	vldl triglyceride	plasma	12.0	weeks	0.66	0.12	0.397994974842648	mmol/l
+Moelgaard1988	FH	11.0	SIM40	concentration	vldl triglyceride	plasma	16.0	weeks	0.61	0.16	0.530659966456864	mmol/l
+Moelgaard1988	FH	11.0	SIM40	concentration	vldl triglyceride	plasma	20.0	weeks	0.7	0.16	0.530659966456864	mmol/l
+Moelgaard1988	FH	11.0	SIM40	concentration	vldl triglyceride	plasma	24.0	weeks	0.74	0.16	0.530659966456864	mmol/l
+Moelgaard1988	FH	11.0	baseline	concentration	ldl triglyceride	plasma	0.0	weeks	0.4	0.04	0.132664991614216	mmol/l
+Moelgaard1988	FH	11.0	SIM20	concentration	ldl triglyceride	plasma	4.0	weeks	0.28	0.03	0.099498743710662	mmol/l
+Moelgaard1988	FH	11.0	SIM20	concentration	ldl triglyceride	plasma	8.0	weeks	0.33	0.03	0.099498743710662	mmol/l
+Moelgaard1988	FH	11.0	SIM40	concentration	ldl triglyceride	plasma	12.0	weeks	0.29	0.02	0.066332495807108	mmol/l
+Moelgaard1988	FH	11.0	SIM40	concentration	ldl triglyceride	plasma	16.0	weeks	0.29	0.03	0.099498743710662	mmol/l
+Moelgaard1988	FH	11.0	SIM40	concentration	ldl triglyceride	plasma	20.0	weeks	0.29	0.03	0.099498743710662	mmol/l
+Moelgaard1988	FH	11.0	SIM40	concentration	ldl triglyceride	plasma	24.0	weeks	0.3	0.02	0.066332495807108	mmol/l
+Moelgaard1988	P-HC	10.0	baseline	concentration	triglyceride	plasma	0.0	weeks	1.78	0.28	0.885437744847146	mmol/l
+Moelgaard1988	P-HC	10.0	SIM20	concentration	triglyceride	plasma	4.0	weeks	1.44	0.19	0.600832755431992	mmol/l
+Moelgaard1988	P-HC	10.0	SIM20	concentration	triglyceride	plasma	8.0	weeks	1.44	0.18	0.569209978830308	mmol/l
+Moelgaard1988	P-HC	10.0	SIM40	concentration	triglyceride	plasma	12.0	weeks	1.55	0.25	0.790569415042095	mmol/l
+Moelgaard1988	P-HC	10.0	SIM40	concentration	triglyceride	plasma	16.0	weeks	1.26	0.18	0.569209978830308	mmol/l
+Moelgaard1988	P-HC	10.0	SIM40	concentration	triglyceride	plasma	20.0	weeks	1.41	0.22	0.695701085237044	mmol/l
+Moelgaard1988	P-HC	10.0	SIM40	concentration	triglyceride	plasma	24.0	weeks	1.4	0.2	0.632455532033676	mmol/l
+Moelgaard1988	P-HC	10.0	baseline	concentration	vldl triglyceride	plasma	0.0	weeks	1.27	0.23	0.727323861838727	mmol/l
+Moelgaard1988	P-HC	10.0	SIM20	concentration	vldl triglyceride	plasma	4.0	weeks	1.03	0.16	0.505964425626941	mmol/l
+Moelgaard1988	P-HC	10.0	SIM20	concentration	vldl triglyceride	plasma	8.0	weeks	1.06	0.15	0.474341649025257	mmol/l
+Moelgaard1988	P-HC	10.0	SIM40	concentration	vldl triglyceride	plasma	12.0	weeks	1.13	0.23	0.727323861838727	mmol/l
+Moelgaard1988	P-HC	10.0	SIM40	concentration	vldl triglyceride	plasma	16.0	weeks	0.87	0.16	0.505964425626941	mmol/l
+Moelgaard1988	P-HC	10.0	SIM40	concentration	vldl triglyceride	plasma	20.0	weeks	1.01	0.2	0.632455532033676	mmol/l
+Moelgaard1988	P-HC	10.0	SIM40	concentration	vldl triglyceride	plasma	24.0	weeks	0.98	0.18	0.569209978830308	mmol/l
+Moelgaard1988	P-HC	10.0	baseline	concentration	ldl triglyceride	plasma	0.0	weeks	0.38	0.04	0.126491106406735	mmol/l
+Moelgaard1988	P-HC	10.0	SIM20	concentration	ldl triglyceride	plasma	4.0	weeks	0.29	0.03	0.0948683298050514	mmol/l
+Moelgaard1988	P-HC	10.0	SIM20	concentration	ldl triglyceride	plasma	8.0	weeks	0.25	0.02	0.0632455532033676	mmol/l
+Moelgaard1988	P-HC	10.0	SIM40	concentration	ldl triglyceride	plasma	12.0	weeks	0.3	0.03	0.0948683298050514	mmol/l
+Moelgaard1988	P-HC	10.0	SIM40	concentration	ldl triglyceride	plasma	16.0	weeks	0.29	0.03	0.0948683298050514	mmol/l
+Moelgaard1988	P-HC	10.0	SIM40	concentration	ldl triglyceride	plasma	20.0	weeks	0.29	0.02	0.0632455532033676	mmol/l
+Moelgaard1988	P-HC	10.0	SIM40	concentration	ldl triglyceride	plasma	24.0	weeks	0.3	0.02	0.0632455532033676	mmol/l

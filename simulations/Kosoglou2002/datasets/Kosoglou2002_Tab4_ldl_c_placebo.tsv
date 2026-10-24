@@ -1,0 +1,3 @@
+study	group	label	count	intervention	measurement_type	substance	tissue	time	time_unit	mean	mean_sd	mean_se	mean_unit	count_unit
+Kosoglou2002	placebo	placebo_ldl-c	11	placebo	concentration	ldl-c	serum	0	day	4.241013705715024	0.5660647431172897	0.1706749418153607	mole/meter^3	dimensionless
+Kosoglou2002	placebo	placebo_ldl-c	11	placebo	concentration	ldl-c	serum	13	day	4.093612619601758	0.8062134220155364	0.24308249288854406	mole/meter^3	dimensionless

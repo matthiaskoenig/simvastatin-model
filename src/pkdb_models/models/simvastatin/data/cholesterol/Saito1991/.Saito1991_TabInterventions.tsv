@@ -1,0 +1,7 @@
+study	name	time	time_unit	route	application	measurement_type	form	substance	value	unit
+Saito1991	SIM2_5_morning	S0T12R84	hr	oral	multiple dose	qualitative dosing	tablet	simvastatin	2.5	mg
+Saito1991	SIM2_5_evening	S0T12R84	hr	oral	multiple dose	qualitative dosing	tablet	simvastatin	2.5	mg
+Saito1991	SIM5_morning	S0T12R84	hr	oral	multiple dose	qualitative dosing	tablet	simvastatin	5.0	mg
+Saito1991	SIM5_evening	S0T12R84	hr	oral	multiple dose	qualitative dosing	tablet	simvastatin	5.0	mg
+Saito1991	placebo_at_the_end	S12T16R112	hr	oral	multiple dose	qualitative dosing	tablet	simvastatin	0.0	mg
+Saito1991	placebo_complete	S0T16R28	hr	oral	multiple dose	qualitative dosing	tablet	simvastatin	0.0	mg

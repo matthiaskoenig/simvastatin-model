@@ -1,0 +1,25 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	sd	pm	se	unit
+Hsyu2001	group_sim	16	group_sim_SIM	SIM	concentration	active simva inhibitors	plasma	enzymatic assay	0	hr	0.20536333	na	na	na	ng/ml
+Hsyu2001	group_sim	16	group_sim_SIM	SIM	concentration	active simva inhibitors	plasma	enzymatic assay	1	hr	2.4070237	2.9295065	-0.5224828	0.732376625	ng/ml
+Hsyu2001	group_sim	16	group_sim_SIM	SIM	concentration	active simva inhibitors	plasma	enzymatic assay	2	hr	5.3800387	3.1865887	2.19345	0.796647175	ng/ml
+Hsyu2001	group_sim	16	group_sim_SIM	SIM	concentration	active simva inhibitors	plasma	enzymatic assay	3	hr	5.166141	3.3405571	1.8255839	0.835139275	ng/ml
+Hsyu2001	group_sim	16	group_sim_SIM	SIM	concentration	active simva inhibitors	plasma	enzymatic assay	4	hr	4.48969	1.5419537	2.9477363	0.385488425	ng/ml
+Hsyu2001	group_sim	16	group_sim_SIM	SIM	concentration	active simva inhibitors	plasma	enzymatic assay	5	hr	4.2759004	2.0040754	2.271825	0.50101885	ng/ml
+Hsyu2001	group_sim	16	group_sim_SIM	SIM	concentration	active simva inhibitors	plasma	enzymatic assay	6	hr	4.1135054	2.5698505	1.5436549	0.642462625	ng/ml
+Hsyu2001	group_sim	16	group_sim_SIM	SIM	concentration	active simva inhibitors	plasma	enzymatic assay	8	hr	1.9900042	1.02789696	0.96210724	0.25697424	ng/ml
+Hsyu2001	group_sim	16	group_sim_SIM	SIM	concentration	active simva inhibitors	plasma	enzymatic assay	10	hr	1.6134958	0.92499927	0.68849653	0.2312498175	ng/ml
+Hsyu2001	group_sim	16	group_sim_SIM	SIM	concentration	active simva inhibitors	plasma	enzymatic assay	12	hr	1.1347377	0.6168462	0.5178915	0.15421155	ng/ml
+Hsyu2001	group_sim	16	group_sim_SIM	SIM	concentration	active simva inhibitors	plasma	enzymatic assay	18	hr	0.46830618	0.77081468	-0.3025085	0.19270367	ng/ml
+Hsyu2001	group_sim	16	group_sim_SIM	SIM	concentration	active simva inhibitors	plasma	enzymatic assay	24	hr	0.21357355	na	na	na	ng/ml
+Hsyu2001	group_sim	16	group_sim_SIM+NEL	SIM,NEL	concentration	active simva inhibitors	plasma	enzymatic assay	0	hr	2.4154499	na	na	na	ng/ml
+Hsyu2001	group_sim	16	group_sim_SIM+NEL	SIM,NEL	concentration	active simva inhibitors	plasma	enzymatic assay	1	hr	9.962174	10.279186	20.24136	2.5697965	ng/ml
+Hsyu2001	group_sim	16	group_sim_SIM+NEL	SIM,NEL	concentration	active simva inhibitors	plasma	enzymatic assay	2	hr	27.993557	28.473179	56.466736	7.11829475	ng/ml
+Hsyu2001	group_sim	16	group_sim_SIM+NEL	SIM,NEL	concentration	active simva inhibitors	plasma	enzymatic assay	3	hr	32.5082	23.539056	56.047256	5.884764	ng/ml
+Hsyu2001	group_sim	16	group_sim_SIM+NEL	SIM,NEL	concentration	active simva inhibitors	plasma	enzymatic assay	4	hr	38.718983	20.660727	59.37971	5.16518175	ng/ml
+Hsyu2001	group_sim	16	group_sim_SIM+NEL	SIM,NEL	concentration	active simva inhibitors	plasma	enzymatic assay	5	hr	44.364098	22.408262	66.77236	5.6020655	ng/ml
+Hsyu2001	group_sim	16	group_sim_SIM+NEL	SIM,NEL	concentration	active simva inhibitors	plasma	enzymatic assay	6	hr	31.763933	20.352687	52.11662	5.08817175	ng/ml
+Hsyu2001	group_sim	16	group_sim_SIM+NEL	SIM,NEL	concentration	active simva inhibitors	plasma	enzymatic assay	8	hr	12.268974	7.092596	19.36157	1.773149	ng/ml
+Hsyu2001	group_sim	16	group_sim_SIM+NEL	SIM,NEL	concentration	active simva inhibitors	plasma	enzymatic assay	10	hr	7.9352784	4.9853006	12.920579	1.24632515	ng/ml
+Hsyu2001	group_sim	16	group_sim_SIM+NEL	SIM,NEL	concentration	active simva inhibitors	plasma	enzymatic assay	12	hr	5.5032997	3.3406663	8.843966	0.835166575	ng/ml
+Hsyu2001	group_sim	16	group_sim_SIM+NEL	SIM,NEL	concentration	active simva inhibitors	plasma	enzymatic assay	18	hr	3.295023	2.981009	6.276032	0.74525225	ng/ml
+Hsyu2001	group_sim	16	group_sim_SIM+NEL	SIM,NEL	concentration	active simva inhibitors	plasma	enzymatic assay	24	hr	1.44705	1.0792917	2.5263417	0.269822925	ng/ml

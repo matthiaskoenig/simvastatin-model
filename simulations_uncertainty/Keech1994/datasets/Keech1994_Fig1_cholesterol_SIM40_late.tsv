@@ -1,0 +1,9 @@
+study	group	count	intervention	measurement_type	substance	label	tissue	time	time_unit	mean	mean_se	mean_sd	sepm	mean_unit	count_unit
+Keech1994	SIM40	206	SIM40	concentration	cholesterol	SIM40_cholesterol	plasma	20	weeks	4.843536	0.0849984999999993	1.21995797897447	4.9285345	mmol/l	dimensionless
+Keech1994	SIM40	206	SIM40	concentration	cholesterol	SIM40_cholesterol	plasma	32	weeks	4.924992	0.0900170000000005	1.29198700439827	5.015009	mmol/l	dimensionless
+Keech1994	SIM40	206	SIM40	concentration	cholesterol	SIM40_cholesterol	plasma	44	weeks	4.9115605	0.0899614999999994	1.29119042954302	5.001522	mmol/l	dimensionless
+Keech1994	SIM40	206	SIM40	concentration	cholesterol	SIM40_cholesterol	plasma	56	weeks	5.0030537	0.0399802999999999	0.573825255584431	5.043034	mmol/l	dimensionless
+Keech1994	SIM40	206	SIM40	concentration	cholesterol	SIM40_cholesterol	plasma	68	weeks	5.004511	0.0799617000000001	1.14766629913897	5.0844727	mmol/l	dimensionless
+Keech1994	SIM40	206	SIM40	concentration	cholesterol	SIM40_cholesterol	plasma	80	weeks	4.9810243	0.0949983000000003	1.36348210937854	5.0760226	mmol/l	dimensionless
+Keech1994	SIM40	127	SIM40	concentration	cholesterol	SIM40_cholesterol	plasma	104	weeks	4.914033	0.0899980000000005	1.0142259514072844	5.004031	mmol/l	dimensionless
+Keech1994	SIM40	106	SIM40	concentration	cholesterol	SIM40_cholesterol	plasma	152	weeks	5.060008	0.0949983999999997	0.9780683903855364	5.1550064	mmol/l	dimensionless

@@ -1,0 +1,7 @@
+study	name	measurement_type	substance	value	unit	time	time_unit	route	form	application
+Kosoglou2002	SIM10	qualitative dosing	simvastatin	10.0	mg	0	hr	oral	NR	multiple dose
+Kosoglou2002	SIM20	qualitative dosing	simvastatin	20.0	mg	0	hr	oral	NR	multiple dose
+Kosoglou2002	EZE0.25	qualitative dosing	ezetimibe	0.25	mg	0	hr	oral	NR	multiple dose
+Kosoglou2002	EZE1	qualitative dosing	ezetimibe	1.0	mg	0	hr	oral	NR	multiple dose
+Kosoglou2002	EZE10	qualitative dosing	ezetimibe	10.0	mg	0	hr	oral	NR	multiple dose
+Kosoglou2002	placebo	qualitative dosing	placebo	0.0	mg	0	hr	oral	NR	multiple dose

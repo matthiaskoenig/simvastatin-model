@@ -1,0 +1,3 @@
+study	group	label	count	intervention	measurement_type	substance	tissue	time	time_unit	mean	mean_sd	mean_se	mean_unit	count_unit
+Kosoglou2002	SIM20	SIM20_cholesterol	8	SIM20	concentration	cholesterol	serum	0	day	6.260667183863458	0.6582840476523325	0.23273855702094642	mole/meter^3	dimensionless
+Kosoglou2002	SIM20	SIM20_cholesterol	8	SIM20	concentration	cholesterol	serum	13	day	4.553917765709851	0.526627238121867	0.18619084561675714	mole/meter^3	dimensionless

@@ -1,0 +1,31 @@
+study	group	count	intervention	measurement_type	substance	label	time	time_unit	tissue	method	mean	sd	unit
+Saito1991	2_5_morning	34	SIM2_5_morning, placebo_at_the_end	concentration	got	got_SIM2_5_morning, placebo_at_the_end	0	weeks	plasma	NA	23.8	12.1	IU/l
+Saito1991	2_5_morning	35	SIM2_5_morning, placebo_at_the_end	concentration	got	got_SIM2_5_morning, placebo_at_the_end	16	weeks	plasma	NA	32.1	50.6	IU/l
+Saito1991	2_5_evening	33	SIM2_5_morning, placebo_at_the_end	concentration	got	got_SIM2_5_morning, placebo_at_the_end	0	weeks	plasma	NA	18.5	5.3	IU/l
+Saito1991	2_5_evening	32	SIM2_5_morning, placebo_at_the_end	concentration	got	got_SIM2_5_morning, placebo_at_the_end	16	weeks	plasma	NA	17.9	4.7	IU/l
+Saito1991	5_morning	32	SIM5_morning, placebo_at_the_end	concentration	got	got_SIM5_morning, placebo_at_the_end	0	weeks	plasma	NA	21.7	7.5	IU/l
+Saito1991	5_morning	33	SIM5_morning, placebo_at_the_end	concentration	got	got_SIM5_morning, placebo_at_the_end	16	weeks	plasma	NA	20.8	5.2	IU/l
+Saito1991	5_evening	30	SIM5_evening, placebo_at_the_end	concentration	got	got_SIM5_evening, placebo_at_the_end	0	weeks	plasma	NA	23.0	8.0	IU/l
+Saito1991	5_evening	32	SIM5_evening, placebo_at_the_end	concentration	got	got_SIM5_evening, placebo_at_the_end	16	weeks	plasma	NA	21.2	7.4	IU/l
+Saito1991	placebo	32	placebo_complete	concentration	got	got_placebo_complete	0	weeks	plasma	NA	23.5	9.1	IU/l
+Saito1991	placebo	34	placebo_complete	concentration	got	got_placebo_complete	16	weeks	plasma	NA	22.1	7.5	IU/l
+Saito1991	2_5_morning	34	SIM2_5_morning, placebo_at_the_end	concentration	alt	alt_SIM2_5_morning, placebo_at_the_end	0	weeks	plasma	NA	20.7	11.5	IU/l
+Saito1991	2_5_morning	35	SIM2_5_morning, placebo_at_the_end	concentration	alt	alt_SIM2_5_morning, placebo_at_the_end	16	weeks	plasma	NA	26.1	29.4	IU/l
+Saito1991	2_5_evening	33	SIM2_5_morning, placebo_at_the_end	concentration	alt	alt_SIM2_5_morning, placebo_at_the_end	0	weeks	plasma	NA	16.2	5.9	IU/l
+Saito1991	2_5_evening	32	SIM2_5_morning, placebo_at_the_end	concentration	alt	alt_SIM2_5_morning, placebo_at_the_end	16	weeks	plasma	NA	15.2	5.7	IU/l
+Saito1991	5_morning	32	SIM5_morning, placebo_at_the_end	concentration	alt	alt_SIM5_morning, placebo_at_the_end	0	weeks	plasma	NA	19.3	9.6	IU/l
+Saito1991	5_morning	33	SIM5_morning, placebo_at_the_end	concentration	alt	alt_SIM5_morning, placebo_at_the_end	16	weeks	plasma	NA	19.3	9.8	IU/l
+Saito1991	5_evening	30	SIM5_evening, placebo_at_the_end	concentration	alt	alt_SIM5_evening, placebo_at_the_end	0	weeks	plasma	NA	24.1	17.5	IU/l
+Saito1991	5_evening	32	SIM5_evening, placebo_at_the_end	concentration	alt	alt_SIM5_evening, placebo_at_the_end	16	weeks	plasma	NA	21.2	12.2	IU/l
+Saito1991	placebo	32	placebo_complete	concentration	alt	alt_placebo_complete	0	weeks	plasma	NA	22.0	13.8	IU/l
+Saito1991	placebo	34	placebo_complete	concentration	alt	alt_placebo_complete	16	weeks	plasma	NA	21.3	14.5	IU/l
+Saito1991	2_5_morning	29	SIM2_5_morning, placebo_at_the_end	concentration	creatine kinase	creatine kinase_SIM2_5_morning, placebo_at_the_end	0	weeks	plasma	NA	115.0	85.7	IU/l
+Saito1991	2_5_morning	32	SIM2_5_morning, placebo_at_the_end	concentration	creatine kinase	creatine kinase_SIM2_5_morning, placebo_at_the_end	16	weeks	plasma	NA	146.1	114.8	IU/l
+Saito1991	2_5_evening	28	SIM2_5_morning, placebo_at_the_end	concentration	creatine kinase	creatine kinase_SIM2_5_morning, placebo_at_the_end	0	weeks	plasma	NA	79.5	27.4	IU/l
+Saito1991	2_5_evening	32	SIM2_5_morning, placebo_at_the_end	concentration	creatine kinase	creatine kinase_SIM2_5_morning, placebo_at_the_end	16	weeks	plasma	NA	107.1	61.1	IU/l
+Saito1991	5_morning	28	SIM5_morning, placebo_at_the_end	concentration	creatine kinase	creatine kinase_SIM5_morning, placebo_at_the_end	0	weeks	plasma	NA	102.6	67.2	IU/l
+Saito1991	5_morning	33	SIM5_morning, placebo_at_the_end	concentration	creatine kinase	creatine kinase_SIM5_morning, placebo_at_the_end	16	weeks	plasma	NA	107.8	75.0	IU/l
+Saito1991	5_evening	24	SIM5_evening, placebo_at_the_end	concentration	creatine kinase	creatine kinase_SIM5_evening, placebo_at_the_end	0	weeks	plasma	NA	129.6	73.3	IU/l
+Saito1991	5_evening	32	SIM5_evening, placebo_at_the_end	concentration	creatine kinase	creatine kinase_SIM5_evening, placebo_at_the_end	16	weeks	plasma	NA	120.1	70.9	IU/l
+Saito1991	placebo	28	placebo_complete	concentration	creatine kinase	creatine kinase_placebo_complete	0	weeks	plasma	NA	99.6	48.0	IU/l
+Saito1991	placebo	34	placebo_complete	concentration	creatine kinase	creatine kinase_placebo_complete	16	weeks	plasma	NA	109.9	52.5	IU/l

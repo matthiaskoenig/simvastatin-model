@@ -1,0 +1,9 @@
+id	experiment	mapping	cost	type
+Lilja1998_fm_simva	Lilja1998	fm_simva	1829.2878079361733	initial
+Lilja1998_fm_simva	Lilja1998	fm_simva	0.5199013252243699	fit
+Lilja1998_fm_simacid	Lilja1998	fm_simacid	74.61078969772457	initial
+Lilja1998_fm_simacid	Lilja1998	fm_simacid	0.029098989082226485	fit
+Lilja1998_fm_activeInhibitors	Lilja1998	fm_activeInhibitors	9.021399730753638	initial
+Lilja1998_fm_activeInhibitors	Lilja1998	fm_activeInhibitors	0.4683426612786167	fit
+Lilja1998_fm_totalInhibitors	Lilja1998	fm_totalInhibitors	149.78783275474015	initial
+Lilja1998_fm_totalInhibitors	Lilja1998	fm_totalInhibitors	0.5995777265097718	fit

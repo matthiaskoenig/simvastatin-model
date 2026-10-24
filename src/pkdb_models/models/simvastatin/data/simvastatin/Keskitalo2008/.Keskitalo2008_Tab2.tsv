@@ -1,0 +1,47 @@
+study	group	count	intervention	measurement_type	substance	tissue	time	time_unit	unit	mean	sd	median	min	max
+Keskitalo2008	CGC/CGC	12	SIM_20mg	cmax	atorvastatin	plasma	na	na	ng/ml	4.91	3.19	NA	NA	NA
+Keskitalo2008	CGC/CGC	12	SIM_20mg	tmax	atorvastatin	plasma	na	na	hr	NA	NA	0.5	0.5	5.0
+Keskitalo2008	CGC/CGC	12	SIM_20mg	thalf	atorvastatin	plasma	na	na	hr	8.2	1.7	NA	NA	NA
+Keskitalo2008	CGC/CGC	12	SIM_20mg	auc_end	atorvastatin	plasma	48	hr	ng/ml*hr	20.3	4.7	NA	NA	NA
+Keskitalo2008	CGC/CGC	12	SIM_20mg	auc_inf	atorvastatin	plasma	na	na	ng/ml*hr	20.6	4.8	NA	NA	NA
+Keskitalo2008	TTT/TTT	12	SIM_20mg	cmax	atorvastatin	plasma	na	na	ng/ml	5.96	3.12	NA	NA	NA
+Keskitalo2008	TTT/TTT	12	SIM_20mg	tmax	atorvastatin	plasma	na	na	hr	NA	NA	1.0	0.5	2.0
+Keskitalo2008	TTT/TTT	12	SIM_20mg	thalf	atorvastatin	plasma	na	na	hr	10.1	2.2	NA	NA	NA
+Keskitalo2008	TTT/TTT	12	SIM_20mg	auc_end	atorvastatin	plasma	48	hr	ng/ml*hr	30.6	17.5	NA	NA	NA
+Keskitalo2008	TTT/TTT	12	SIM_20mg	auc_inf	atorvastatin	plasma	na	na	ng/ml*hr	31.8	18.6	NA	NA	NA
+Keskitalo2008	CGC/CGC	12	SIM_20mg	cmax	atorvastatin lactone	plasma	na	na	ng/ml	1.79	0.54	NA	NA	NA
+Keskitalo2008	CGC/CGC	12	SIM_20mg	tmax	atorvastatin lactone	plasma	na	na	hr	NA	NA	5.0	0.5	9.0
+Keskitalo2008	CGC/CGC	12	SIM_20mg	thalf	atorvastatin lactone	plasma	na	na	hr	9.9	2.6	NA	NA	NA
+Keskitalo2008	CGC/CGC	12	SIM_20mg	auc_end	atorvastatin lactone	plasma	48	hr	ng/ml*hr	26.9	8.7	NA	NA	NA
+Keskitalo2008	CGC/CGC	12	SIM_20mg	auc_inf	atorvastatin lactone	plasma	na	na	ng/ml*hr	28.1	9.5	NA	NA	NA
+Keskitalo2008	TTT/TTT	12	SIM_20mg	cmax	atorvastatin lactone	plasma	na	na	ng/ml	2.18	1.5	NA	NA	NA
+Keskitalo2008	TTT/TTT	12	SIM_20mg	tmax	atorvastatin lactone	plasma	na	na	hr	NA	NA	5.0	1.0	7.0
+Keskitalo2008	TTT/TTT	12	SIM_20mg	thalf	atorvastatin lactone	plasma	na	na	hr	10.7	3.7	NA	NA	NA
+Keskitalo2008	TTT/TTT	12	SIM_20mg	auc_end	atorvastatin lactone	plasma	48	hr	ng/ml*hr	30.4	17.2	NA	NA	NA
+Keskitalo2008	TTT/TTT	12	SIM_20mg	auc_inf	atorvastatin lactone	plasma	na	na	ng/ml*hr	31.9	18.4	NA	NA	NA
+Keskitalo2008	CGC/CGC	12	SIM_20mg	cmax	2-hydroxyatorvastatin acid	plasma	na	na	ng/ml	2.42	1.17	NA	NA	NA
+Keskitalo2008	CGC/CGC	12	SIM_20mg	tmax	2-hydroxyatorvastatin acid	plasma	na	na	hr	NA	NA	2.0	0.5	5.0
+Keskitalo2008	CGC/CGC	12	SIM_20mg	thalf	2-hydroxyatorvastatin acid	plasma	na	na	hr	11.1	1.9	NA	NA	NA
+Keskitalo2008	CGC/CGC	12	SIM_20mg	auc_end	2-hydroxyatorvastatin acid	plasma	48	hr	ng/ml*hr	24.3	6.2	NA	NA	NA
+Keskitalo2008	CGC/CGC	12	SIM_20mg	auc_inf	2-hydroxyatorvastatin acid	plasma	na	na	ng/ml*hr	25.5	6.5	NA	NA	NA
+Keskitalo2008	TTT/TTT	12	SIM_20mg	cmax	2-hydroxyatorvastatin acid	plasma	na	na	ng/ml	3.68	2.07	NA	NA	NA
+Keskitalo2008	TTT/TTT	12	SIM_20mg	tmax	2-hydroxyatorvastatin acid	plasma	na	na	hr	NA	NA	1.0	0.5	5.0
+Keskitalo2008	TTT/TTT	12	SIM_20mg	thalf	2-hydroxyatorvastatin acid	plasma	na	na	hr	13.8	3.9	NA	NA	NA
+Keskitalo2008	TTT/TTT	12	SIM_20mg	auc_end	2-hydroxyatorvastatin acid	plasma	48	hr	ng/ml*hr	34.8	17.3	NA	NA	NA
+Keskitalo2008	TTT/TTT	12	SIM_20mg	auc_inf	2-hydroxyatorvastatin acid	plasma	na	na	ng/ml*hr	37.9	19.9	NA	NA	NA
+Keskitalo2008	CGC/CGC	12	SIM_20mg	cmax	2-hydroxyatorvastatin lactone	plasma	na	na	ng/ml	2.11	0.63	NA	NA	NA
+Keskitalo2008	CGC/CGC	12	SIM_20mg	tmax	2-hydroxyatorvastatin lactone	plasma	na	na	hr	NA	NA	4.5	3.0	9.0
+Keskitalo2008	CGC/CGC	12	SIM_20mg	thalf	2-hydroxyatorvastatin lactone	plasma	na	na	hr	10.3	2.3	NA	NA	NA
+Keskitalo2008	CGC/CGC	12	SIM_20mg	auc_end	2-hydroxyatorvastatin lactone	plasma	48	hr	ng/ml*hr	30.0	8.2	NA	NA	NA
+Keskitalo2008	CGC/CGC	12	SIM_20mg	auc_inf	2-hydroxyatorvastatin lactone	plasma	na	na	ng/ml*hr	31.4	9.1	NA	NA	NA
+Keskitalo2008	TTT/TTT	12	SIM_20mg	cmax	2-hydroxyatorvastatin lactone	plasma	na	na	ng/ml	2.43	1.26	NA	NA	NA
+Keskitalo2008	TTT/TTT	12	SIM_20mg	tmax	2-hydroxyatorvastatin lactone	plasma	na	na	hr	NA	NA	5.0	3.0	7.0
+Keskitalo2008	TTT/TTT	12	SIM_20mg	thalf	2-hydroxyatorvastatin lactone	plasma	na	na	hr	10.9	2.4	NA	NA	NA
+Keskitalo2008	TTT/TTT	12	SIM_20mg	auc_end	2-hydroxyatorvastatin lactone	plasma	48	hr	ng/ml*hr	34.6	15.9	NA	NA	NA
+Keskitalo2008	TTT/TTT	12	SIM_20mg	auc_inf	2-hydroxyatorvastatin lactone	plasma	na	na	ng/ml*hr	36.6	17.5	NA	NA	NA
+Keskitalo2008	CGC/CGC	12	SIM_20mg	cmax	4-hydroxyatorvastatin lactone	plasma	na	na	ng/ml	0.19	0.15	NA	NA	NA
+Keskitalo2008	CGC/CGC	12	SIM_20mg	tmax	4-hydroxyatorvastatin lactone	plasma	na	na	hr	NA	NA	3.5	1.0	12.0
+Keskitalo2008	CGC/CGC	12	SIM_20mg	auc_end	4-hydroxyatorvastatin lactone	plasma	48	hr	ng/ml*hr	3.5	1.1	NA	NA	NA
+Keskitalo2008	TTT/TTT	12	SIM_20mg	cmax	4-hydroxyatorvastatin lactone	plasma	na	na	ng/ml	0.21	0.11	NA	NA	NA
+Keskitalo2008	TTT/TTT	12	SIM_20mg	tmax	4-hydroxyatorvastatin lactone	plasma	na	na	hr	NA	NA	2.5	1.0	34.0
+Keskitalo2008	TTT/TTT	12	SIM_20mg	auc_end	4-hydroxyatorvastatin lactone	plasma	48	hr	ng/ml*hr	5.0	2.4	NA	NA	NA

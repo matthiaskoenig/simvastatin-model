@@ -1,0 +1,10 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	mean_unit	count_unit
+Pentikainen1992	all	12	SIM_total simva inhibitors	SIM	concentration	total simva inhibitors	plasma	enzymatic assay	0.0	hr	0.0	mole/meter^3	dimensionless
+Pentikainen1992	all	12	SIM_total simva inhibitors	SIM	concentration	total simva inhibitors	plasma	enzymatic assay	0.5	hr	1.1048605130554282e-05	mole/meter^3	dimensionless
+Pentikainen1992	all	12	SIM_total simva inhibitors	SIM	concentration	total simva inhibitors	plasma	enzymatic assay	1.0	hr	4.348920064131929e-05	mole/meter^3	dimensionless
+Pentikainen1992	all	12	SIM_total simva inhibitors	SIM	concentration	total simva inhibitors	plasma	enzymatic assay	1.5	hr	4.860652771415483e-05	mole/meter^3	dimensionless
+Pentikainen1992	all	12	SIM_total simva inhibitors	SIM	concentration	total simva inhibitors	plasma	enzymatic assay	2.0	hr	5.1255123683005044e-05	mole/meter^3	dimensionless
+Pentikainen1992	all	12	SIM_total simva inhibitors	SIM	concentration	total simva inhibitors	plasma	enzymatic assay	3.0	hr	4.190713238662391e-05	mole/meter^3	dimensionless
+Pentikainen1992	all	12	SIM_total simva inhibitors	SIM	concentration	total simva inhibitors	plasma	enzymatic assay	4.0	hr	2.893728355474118e-05	mole/meter^3	dimensionless
+Pentikainen1992	all	12	SIM_total simva inhibitors	SIM	concentration	total simva inhibitors	plasma	enzymatic assay	6.0	hr	1.5179825927622538e-05	mole/meter^3	dimensionless
+Pentikainen1992	all	12	SIM_total simva inhibitors	SIM	concentration	total simva inhibitors	plasma	enzymatic assay	8.0	hr	6.849889143380669e-06	mole/meter^3	dimensionless

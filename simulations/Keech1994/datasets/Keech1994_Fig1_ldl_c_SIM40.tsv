@@ -1,0 +1,11 @@
+study	group	count	intervention	measurement_type	substance	label	tissue	time	time_unit	mean	mean_se	mean_sd	sepm	mean_unit	count_unit
+Keech1994	SIM40	206	SIM40	concentration	ldl-c	SIM40_ldl-c	plasma	-8	weeks	4.7761245	0.1492539	2.14219646462066	4.6268706	mmol/l	dimensionless
+Keech1994	SIM40	206	SIM40	concentration	ldl-c	SIM40_ldl-c	plasma	8	weeks	2.7218766	0.0796156000000003	1.1426988296363	2.8014922	mmol/l	dimensionless
+Keech1994	SIM40	206	SIM40	concentration	ldl-c	SIM40_ldl-c	plasma	20	weeks	2.7172902	0.0597059	0.856940876566674	2.7769961	mmol/l	dimensionless
+Keech1994	SIM40	206	SIM40	concentration	ldl-c	SIM40_ldl-c	plasma	32	weeks	2.7475066	0.0795973999999999	1.14243761049458	2.827104	mmol/l	dimensionless
+Keech1994	SIM40	206	SIM40	concentration	ldl-c	SIM40_ldl-c	plasma	44	weeks	2.7777324	0.0597013999999998	0.856876289416246	2.8374338	mmol/l	dimensionless
+Keech1994	SIM40	206	SIM40	concentration	ldl-c	SIM40_ldl-c	plasma	56	weeks	2.8974874	0.0994842	1.42786688673204	2.7980032	mmol/l	dimensionless
+Keech1994	SIM40	206	SIM40	concentration	ldl-c	SIM40_ldl-c	plasma	68	weeks	2.8033397	0.129353	1.85656481531187	2.6739867	mmol/l	dimensionless
+Keech1994	SIM40	206	SIM40	concentration	ldl-c	SIM40_ldl-c	plasma	80	weeks	2.7937734	0.0945271999999999	1.35672055236406	2.6992462	mmol/l	dimensionless
+Keech1994	SIM40	127	SIM40	concentration	ldl-c	SIM40_ldl-c	plasma	104	weeks	2.834329	0.109448	1.2334163195807002	2.724881	mmol/l	dimensionless
+Keech1994	SIM40	106	SIM40	concentration	ldl-c	SIM40_ldl-c	plasma	152	weeks	2.9154031	0.1393031	1.4342131950929264	2.7761	mmol/l	dimensionless

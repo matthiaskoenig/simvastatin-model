@@ -1,0 +1,11 @@
+study	group	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	sd	unit
+Simard2001	all	CIS	clearance	cisapride	plasma	LC MS/MS	NA	NA	358.0	106.0	ml/min
+Simard2001	all	CIS	clearance_renal	cisapride	plasma	LC MS/MS	NA	NA	0.35	0.17	ml/min
+Simard2001	all	CIS	auc_end	cisapride	plasma	LC MS/MS	8.0	hr	501.0	136.0	ng/ml*hr
+Simard2001	all	CIS	cmax	cisapride	plasma	LC MS/MS	NA	NA	83.0	20.0	ng/ml
+Simard2001	all	CIS	tmax	cisapride	plasma	LC MS/MS	NA	NA	1.5	0.4	hr
+Simard2001	all	SIM,CIS	clearance	cisapride	plasma	LC MS/MS	NA	NA	322.0	122.0	ml/min
+Simard2001	all	SIM,CIS	clearance_renal	cisapride	plasma	LC MS/MS	NA	NA	0.25	0.14	ml/min
+Simard2001	all	SIM,CIS	auc_end	cisapride	plasma	LC MS/MS	8.0	hr	571.0	167.0	ng/ml*hr
+Simard2001	all	SIM,CIS	cmax	cisapride	plasma	LC MS/MS	NA	NA	94.0	25.0	ng/ml
+Simard2001	all	SIM,CIS	tmax	cisapride	plasma	LC MS/MS	NA	NA	2.0	0.8	hr

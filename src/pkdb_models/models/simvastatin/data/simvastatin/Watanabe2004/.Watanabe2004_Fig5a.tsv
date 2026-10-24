@@ -1,0 +1,12 @@
+study	individual	intervention	x_measurement_type	y_measurement_type	x_substance	y_substance	method	x_label	y_label	tissue	time	time_unit	x	y	unit	x_percentage	y_percentage
+Watanabe2004	Ind34	SIM, DIL	auc_end_change	concentration change	active simva inhibitors	cholesterol	NR	auc	change	plasma	12	weeks	0.5591748	0.009183673	dimensionless	55.91748	0.9183673
+Watanabe2004	Ind35	SIM, DIL	auc_end_change	concentration change	active simva inhibitors	cholesterol	NR	auc	change	plasma	12	weeks	0.06514658	-0.04591837	dimensionless	6.514658	-4.591837
+Watanabe2004	Ind36	SIM, DIL	auc_end_change	concentration change	active simva inhibitors	cholesterol	NR	auc	change	plasma	12	weeks	0.33116177	-0.069897957	dimensionless	33.116177	-6.9897957
+Watanabe2004	Ind37	SIM, DIL	auc_end_change	concentration change	active simva inhibitors	cholesterol	NR	auc	change	plasma	12	weeks	0.6786102	-0.0872449	dimensionless	67.86102	-8.72449
+Watanabe2004	Ind38	SIM, DIL	auc_end_change	concentration change	active simva inhibitors	cholesterol	NR	auc	change	plasma	12	weeks	0.8034745	-0.16530613	dimensionless	80.34745	-16.530613
+Watanabe2004	Ind39	SIM, DIL	auc_end_change	concentration change	active simva inhibitors	cholesterol	NR	auc	change	plasma	12	weeks	0.66775246	-0.065816326	dimensionless	66.775246	-6.5816326
+Watanabe2004	Ind40	SIM, DIL	auc_end_change	concentration change	active simva inhibitors	cholesterol	NR	auc	change	plasma	12	weeks	0.8577633	-0.061734695	dimensionless	85.77633	-6.1734695
+Watanabe2004	Ind41	SIM, DIL	auc_end_change	concentration change	active simva inhibitors	cholesterol	NR	auc	change	plasma	12	weeks	0.7709012	-0.03622449	dimensionless	77.09012	-3.622449
+Watanabe2004	Ind42	SIM, DIL	auc_end_change	concentration change	active simva inhibitors	cholesterol	NR	auc	change	plasma	12	weeks	0.6514658	-0.022959185	dimensionless	65.14658	-2.2959185
+Watanabe2004	Ind43	SIM, DIL	auc_end_change	concentration change	active simva inhibitors	cholesterol	NR	auc	change	plasma	12	weeks	1.514658	0.06734694	dimensionless	151.4658	6.734694
+Watanabe2004	Ind44	SIM, DIL	auc_end_change	concentration change	active simva inhibitors	cholesterol	NR	auc	change	plasma	12	weeks	4.2019543	-0.051530614	dimensionless	420.19543	-5.1530614

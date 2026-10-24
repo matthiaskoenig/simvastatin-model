@@ -1,0 +1,5 @@
+study	group	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	median	sd	unit
+Mousa2000	all	SIM	cmax	simvastatin acid	serum	LC MS/MS	NA	NA	1.4	NA	0.8	ng/ml
+Mousa2000	all	SIM	tmax	simvastatin acid	serum	LC MS/MS	NA	NA	NA	3.0	1.8	hr
+Mousa2000	all	SIM,DIL	cmax	simvastatin acid	serum	LC MS/MS	NA	NA	4.2	NA	3.2	ng/ml
+Mousa2000	all	SIM,DIL	tmax	simvastatin acid	serum	LC MS/MS	NA	NA	NA	3.0	1.7	hr

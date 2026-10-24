@@ -1,0 +1,6 @@
+study	group	count	intervention	measurement_type	substance	tissue	label	time	time_unit	mean	mean_sd	pm	mean_se	mean_unit	count_unit
+Ntanios1999	all	18	SIM	concentration	cholesterol	plasma	fig1_cholesterol	0	weeks	10.049949	1.821462	11.871411	0.429322710624537	mmol/l	dimensionless
+Ntanios1999	all	18	SIM	concentration	cholesterol	plasma	fig1_cholesterol	6	weeks	6.242835	1.125024	7.367859	0.265170699799205	mmol/l	dimensionless
+Ntanios1999	all	18	SIM	concentration	cholesterol	plasma	fig1_cholesterol	12	weeks	6.060657	1.1428805	7.2035375	0.269379517211957	mmol/l	dimensionless
+Ntanios1999	all	18	SIM	concentration	cholesterol	plasma	fig1_cholesterol	18	weeks	5.932106	1.1071477	7.0392537	0.260957215481696	mmol/l	dimensionless
+Ntanios1999	all	18	SIM	concentration	cholesterol	plasma	fig1_cholesterol	24	weeks	6.178588	1.1964516	7.3750396	0.282006346573831	mmol/l	dimensionless

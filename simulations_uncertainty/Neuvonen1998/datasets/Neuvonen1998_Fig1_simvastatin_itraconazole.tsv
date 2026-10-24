@@ -1,0 +1,9 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	mean_se	pm	mean_sd	mean_unit	count_unit
+Neuvonen1998	simvastatin	10	SIM+ITR_simvastatin	SIM,ITR	concentration	simvastatin	serum	HPLC	0.0	hr	0.0				mole/meter^3	dimensionless
+Neuvonen1998	simvastatin	10	SIM+ITR_simvastatin	SIM,ITR	concentration	simvastatin	serum	HPLC	0.5	hr	3.0297004300047773e-05				mole/meter^3	dimensionless
+Neuvonen1998	simvastatin	10	SIM+ITR_simvastatin	SIM,ITR	concentration	simvastatin	serum	HPLC	1.0	hr	0.00019700817009077876	7.529618967988533e-05	50.948635	0.0002381074585205021	mole/meter^3	dimensionless
+Neuvonen1998	simvastatin	10	SIM+ITR_simvastatin	SIM,ITR	concentration	simvastatin	serum	HPLC	2.0	hr	0.00032770623506927853	3.604082656473961e-05	122.09114	0.00011397110069967916	mole/meter^3	dimensionless
+Neuvonen1998	simvastatin	10	SIM+ITR_simvastatin	SIM,ITR	concentration	simvastatin	serum	HPLC	3.0	hr	0.00024795797897754414	1.7378834209268966e-05	96.52043	5.495669917974128e-05	mole/meter^3	dimensionless
+Neuvonen1998	simvastatin	10	SIM+ITR_simvastatin	SIM,ITR	concentration	simvastatin	serum	HPLC	4.0	hr	0.0001579113951266125	1.544616817964644e-05	59.635944	4.8845072569699474e-05	mole/meter^3	dimensionless
+Neuvonen1998	simvastatin	10	SIM+ITR_simvastatin	SIM,ITR	concentration	simvastatin	serum	HPLC	6.0	hr	7.950246058289536e-05	1.2227030578117534e-05	28.161495	3.866526564737673e-05	mole/meter^3	dimensionless
+Neuvonen1998	simvastatin	10	SIM+ITR_simvastatin	SIM,ITR	concentration	simvastatin	serum	HPLC	8.0	hr	2.9411610129001433e-05	1.0941884854276157e-05	16.891973	3.460127803481223e-05	mole/meter^3	dimensionless

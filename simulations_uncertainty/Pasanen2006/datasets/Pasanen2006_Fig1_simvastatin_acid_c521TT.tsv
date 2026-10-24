@@ -1,0 +1,12 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	mean_se	pm	mean_sd	mean_unit	count_unit
+Pasanen2006	c521TT	16	simvastatin acid_c521TT	SIM	concentration	simvastatin acid	plasma	LC MS/MS	0.0	hr	0.0				mole/meter^3	dimensionless
+Pasanen2006	c521TT	16	simvastatin acid_c521TT	SIM	concentration	simvastatin acid	plasma	LC MS/MS	0.5	hr	1.9811184150251947e-07				mole/meter^3	dimensionless
+Pasanen2006	c521TT	16	simvastatin acid_c521TT	SIM	concentration	simvastatin acid	plasma	LC MS/MS	1.0	hr	1.1556743014200642e-06				mole/meter^3	dimensionless
+Pasanen2006	c521TT	16	simvastatin acid_c521TT	SIM	concentration	simvastatin acid	plasma	LC MS/MS	1.5	hr	2.2130123683005038e-06				mole/meter^3	dimensionless
+Pasanen2006	c521TT	16	simvastatin acid_c521TT	SIM	concentration	simvastatin acid	plasma	LC MS/MS	2.0	hr	2.950982363719652e-06	3.194619789280806e-07	1.1489218	1.2778479157123224e-06	mole/meter^3	dimensionless
+Pasanen2006	c521TT	16	simvastatin acid_c521TT	SIM	concentration	simvastatin acid	plasma	LC MS/MS	3.0	hr	3.608170636738434e-06	4.392224003664682e-07	1.3835628	1.7568896014658727e-06	mole/meter^3	dimensionless
+Pasanen2006	c521TT	16	simvastatin acid_c521TT	SIM	concentration	simvastatin acid	plasma	LC MS/MS	4.0	hr	4.025818827301879e-06	4.59226065048099e-07	1.5571744	1.836904260192396e-06	mole/meter^3	dimensionless
+Pasanen2006	c521TT	16	simvastatin acid_c521TT	SIM	concentration	simvastatin acid	plasma	LC MS/MS	5.0	hr	4.782895098488319e-06	4.59226065048099e-07	1.8877139	1.836904260192396e-06	mole/meter^3	dimensionless
+Pasanen2006	c521TT	16	simvastatin acid_c521TT	SIM	concentration	simvastatin acid	plasma	LC MS/MS	7.0	hr	3.242177049931287e-06	3.194990838295923e-07	1.2760412	1.2779963353183692e-06	mole/meter^3	dimensionless
+Pasanen2006	c521TT	16	simvastatin acid_c521TT	SIM	concentration	simvastatin acid	plasma	LC MS/MS	9.0	hr	2.6642576729271646e-06				mole/meter^3	dimensionless
+Pasanen2006	c521TT	16	simvastatin acid_c521TT	SIM	concentration	simvastatin acid	plasma	LC MS/MS	12.0	hr	1.1773231791113146e-06				mole/meter^3	dimensionless

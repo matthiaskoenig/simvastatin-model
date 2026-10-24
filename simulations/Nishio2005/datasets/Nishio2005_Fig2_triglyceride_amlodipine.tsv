@@ -1,0 +1,2 @@
+study	group	count	intervention	measurement_type	label	substance	method	tissue	time	time_unit	mean	mean_sd	mean_se	sdpm	mean_unit	count_unit
+Nishio2005	all	8	SIM, AML	concentration	SIM, AML_triglyceride	triglyceride	enzymatic assay	serum	21	weeks	150.69084	85.92401	30.3787250688704	236.61485	mg/dl	dimensionless

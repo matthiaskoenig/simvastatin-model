@@ -1,0 +1,21 @@
+study	group	intervention	measurement	substance	tissue	method	time	time_unit	mean	sd	unit
+Backman2000	all	SIM	cmax	simvastatin	plasma	LC MS/MS	NA	NA	6.87	3.3	ng/ml
+Backman2000	all	SIM	tmax	simvastatin	plasma	LC MS/MS	NA	NA	1.0	na	hr
+Backman2000	all	SIM	thalf	simvastatin	plasma	LC MS/MS	NA	NA	3.45	0.94	hr
+Backman2000	all	SIM	auc_end	simvastatin	plasma	LC MS/MS	12.0	hr	22.2	14.4	ng*hr/ml
+Backman2000	all	SIM	auc_inf	simvastatin	plasma	LC MS/MS	NA	NA	25.2	16.6	ng*hr/ml
+Backman2000	all	SIM,GEM	cmax	simvastatin	plasma	LC MS/MS	NA	NA	6.15	2.44	ng/ml
+Backman2000	all	SIM,GEM	tmax	simvastatin	plasma	LC MS/MS	NA	NA	1.0	na	hr
+Backman2000	all	SIM,GEM	thalf	simvastatin	plasma	LC MS/MS	NA	NA	5.99	3.41	hr
+Backman2000	all	SIM,GEM	auc_end	simvastatin	plasma	LC MS/MS	12.0	hr	24.8	13.6	ng*hr/ml
+Backman2000	all	SIM,GEM	auc_inf	simvastatin	plasma	LC MS/MS	NA	NA	36.2	23.8	ng*hr/ml
+Backman2000	all	SIM	cmax	simvastatin acid	plasma	LC MS/MS	NA	NA	3.2	2.73	ng/ml
+Backman2000	all	SIM	tmax	simvastatin acid	plasma	LC MS/MS	NA	NA	4.0	na	hr
+Backman2000	all	SIM	thalf	simvastatin acid	plasma	LC MS/MS	NA	NA	3.02	0.46	hr
+Backman2000	all	SIM	auc_end	simvastatin acid	plasma	LC MS/MS	12.0	hr	17.7	10.8	ng*hr/ml
+Backman2000	all	SIM	auc_inf	simvastatin acid	plasma	LC MS/MS	NA	NA	20.0	11.9	ng*hr/ml
+Backman2000	all	SIM,GEM	cmax	simvastatin acid	plasma	LC MS/MS	NA	NA	6.78	4.67	ng/ml
+Backman2000	all	SIM,GEM	tmax	simvastatin acid	plasma	LC MS/MS	NA	NA	4.0	na	hr
+Backman2000	all	SIM,GEM	thalf	simvastatin acid	plasma	LC MS/MS	NA	NA	4.56	1.3	hr
+Backman2000	all	SIM,GEM	auc_end	simvastatin acid	plasma	LC MS/MS	12.0	hr	43.9	23.2	ng*hr/ml
+Backman2000	all	SIM,GEM	auc_inf	simvastatin acid	plasma	LC MS/MS	NA	NA	58.2	31.3	ng*hr/ml

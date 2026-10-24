@@ -1,0 +1,10 @@
+study	name	parent	measurement_type	group_count	choice	substance	count	mean	unit	min	max
+Moelgaard1988	all	NA	healthy	21.0	N	NA	21.0	NA	NA	NA	NA
+Moelgaard1988	all	NA	species	21.0	homo sapiens	NA	21.0	NA	NA	NA	NA
+Moelgaard1988	all	NA	disease	21.0	hypercholesterolemia	NA	21.0	NA	NA	NA	NA
+Moelgaard1988	all	NA	sex	21.0	M	NA	16.0	NA	NA	NA	NA
+Moelgaard1988	all	NA	sex	21.0	F	NA	5.0	NA	NA	NA	NA
+Moelgaard1988	all	NA	age	21.0	NA	NA	21.0	47.0	yr	29.0	68.0
+Moelgaard1988	FH	all	disease	11.0	FH	NA	11.0	NA	NA	NA	NA
+Moelgaard1988	P-HC	all	concentration	10.0	NA	ldl-c	10.0	NA	mmol/l	4.3	NA
+Moelgaard1988	P-HC	all	disease	10.0	hypercholesterolemia	NA	10.0	NA	NA	NA	NA

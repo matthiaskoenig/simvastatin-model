@@ -1,0 +1,13 @@
+study	group	count	intervention	measurement_type	substance	method	tissue	time	time_unit	mean	sd	se	sdpm	unit
+Watanabe2004	all	11	SIM	auc_end	active simva inhibitors	NR	plasma	6	hr	21.765167	5.354845	1.61454651595552	27.120012	ng*hr/ml
+Watanabe2004	all	11	SIM, DIL	auc_end	active simva inhibitors	NR	plasma	6	hr	44.19661	22.72923	6.85312069851724	66.92584	ng*hr/ml
+Watanabe2004	all	11	DIL	auc_end	diltiazem	HPLC	plasma	6	hr	366.46756	139.03794	41.9215162367224	505.5055	ng*hr/ml
+Watanabe2004	all	11	SIM, DIL	auc_end	diltiazem	HPLC	plasma	6	hr	291.53897	110.5101	33.3200488404231	402.04907	ng*hr/ml
+Watanabe2004	all	11	SIM, DIL	concentration	ast	NR	serum	6	hr	23.4	4.3	1.29649878168438	NA	IU/l
+Watanabe2004	all	11	SIM	concentration	ast	NR	serum	6	hr	21.3	5.1	1.53770785734659	NA	IU/l
+Watanabe2004	all	11	SIM, DIL	concentration	alt	NR	serum	6	hr	22.1	5.6	1.68846352963548	NA	IU/l
+Watanabe2004	all	11	SIM	concentration	alt	NR	serum	6	hr	18.9	5.6	1.68846352963548	NA	IU/l
+Watanabe2004	all	11	SIM, DIL	concentration	ldh	NR	serum	6	hr	196.0	42.0	12.6634764722661	NA	IU/l
+Watanabe2004	all	11	SIM	concentration	ldh	NR	serum	6	hr	187.0	32.0	9.64836302648844	NA	IU/l
+Watanabe2004	all	11	SIM, DIL	concentration	creatine kinase	NR	serum	6	hr	142.0	111.0	33.4677592481318	NA	IU/l
+Watanabe2004	all	11	SIM	concentration	creatine kinase	NR	serum	6	hr	107.0	45.0	13.5680105059994	NA	IU/l

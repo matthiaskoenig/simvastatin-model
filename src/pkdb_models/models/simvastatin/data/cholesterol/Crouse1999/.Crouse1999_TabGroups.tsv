@@ -1,0 +1,10 @@
+study	name	parent	measurement_type	group_count	choice	substance	count	mean	median	unit	sd	min	max
+Crouse1999	all	NA	species	842	homo sapiens	NA	842	NA	NA	NA	NA	NA	NA
+Crouse1999	all	NA	healthy	842	N	NA	842	NA	NA	NA	NA	NA	NA
+Crouse1999	all	NA	sex	842	M	NA	490	NA	NA	NA	NA	NA	NA
+Crouse1999	all	NA	sex	842	F	NA	352	NA	NA	NA	NA	NA	NA
+Crouse1999	all	NA	disease	842	hypercholesterolemia	NA	842	NA	NA	NA	NA	NA	NA
+Crouse1999	men	all	sex	490	M	NA	490	NA	NA	NA	NA	NA	NA
+Crouse1999	women	all	sex	352	F	NA	352	NA	NA	NA	NA	NA	NA
+Crouse1999	hdl-c>35	all	concentration	729	NA	hdl-c	729	NA	NA	mg/dl	NA	35.0	NA
+Crouse1999	hdl-c<35	all	concentration	113	NA	hdl-c	113	NA	NA	mg/dl	NA	NA	35.0

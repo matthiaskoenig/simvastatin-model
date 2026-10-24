@@ -1,0 +1,12 @@
+study	group	count	intervention	measurement_type	substance	method	tissue	label	time	time_unit	mean	mean_sd	sem	sem_pm	mean_unit	count_unit
+Keskitalo2009	c.421C/C	23	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421C/C	0.0	hr	0.0				ng/ml	dimensionless
+Keskitalo2009	c.421C/C	23	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421C/C	0.5	hr	45.037785				ng/ml	dimensionless
+Keskitalo2009	c.421C/C	23	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421C/C	1.0	hr	66.49874	39.8645917961563	8.312342	58.186398	ng/ml	dimensionless
+Keskitalo2009	c.421C/C	23	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421C/C	1.5	hr	45.64232	28.2676381230251	5.89421	39.74811	ng/ml	dimensionless
+Keskitalo2009	c.421C/C	23	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421C/C	2.0	hr	32.191437				ng/ml	dimensionless
+Keskitalo2009	c.421C/C	23	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421C/C	3.0	hr	15.415617				ng/ml	dimensionless
+Keskitalo2009	c.421C/C	23	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421C/C	4.0	hr	10.125944				ng/ml	dimensionless
+Keskitalo2009	c.421C/C	23	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421C/C	5.0	hr	11.183879	7.24810803528583	1.511335	12.695214	ng/ml	dimensionless
+Keskitalo2009	c.421C/C	23	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421C/C	7.0	hr	5.743073				ng/ml	dimensionless
+Keskitalo2009	c.421C/C	23	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421C/C	9.0	hr	3.1738036				ng/ml	dimensionless
+Keskitalo2009	c.421C/C	23	PRA_40mg	concentration	pravastatin	LC MS/MS	plasma	pravastatin_c.421C/C	12.0	hr	1.3602015				ng/ml	dimensionless

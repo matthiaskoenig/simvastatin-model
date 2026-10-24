@@ -1,0 +1,2 @@
+study	group	count	intervention	measurement_type	substance	label	tissue	time	time_unit	mean	mean_sd	mean_se	mean_unit	change	change_sd	change_unit	count_unit
+Mol1986	all	7	SIM40_once	concentration change	cholesterol	SIM40_once_cholesterol_concentration change	serum	4	weeks	-32.3	5.3		percent			percent	dimensionless

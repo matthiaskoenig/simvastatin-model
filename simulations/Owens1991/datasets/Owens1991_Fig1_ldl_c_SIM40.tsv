@@ -1,0 +1,5 @@
+study	group	count	intervention	measurement_type	substance	method	tissue	label	time	time_unit	mean	mean_se	mean_sd	mean_unit	count_unit
+Owens1991	all	4	SIM40	concentration	ldl-c	 enzymatic coiorimetric methods	serum	ldl-c_SIM40	0	weeks	6.440729			mmol/l	dimensionless
+Owens1991	all	4	SIM40	concentration	ldl-c	 enzymatic coiorimetric methods	serum	ldl-c_SIM40	4	weeks	4.949617			mmol/l	dimensionless
+Owens1991	all	4	SIM40	concentration	ldl-c	 enzymatic coiorimetric methods	serum	ldl-c_SIM40	8	weeks	4.347209			mmol/l	dimensionless
+Owens1991	all	4	SIM40	concentration	ldl-c	 enzymatic coiorimetric methods	serum	ldl-c_SIM40	12	weeks	3.9197383			mmol/l	dimensionless

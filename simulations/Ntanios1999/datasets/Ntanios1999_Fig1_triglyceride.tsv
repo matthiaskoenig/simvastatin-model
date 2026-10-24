@@ -1,0 +1,6 @@
+study	group	count	intervention	measurement_type	substance	tissue	label	time	time_unit	mean	mean_sd	pm	mean_se	mean_unit	count_unit
+Ntanios1999	all	18	SIM	concentration	triglyceride	plasma	fig1_triglyceride	0	weeks	1.9785277	1.0357011	3.0142288	0.244117090364122	mmol/l	dimensionless
+Ntanios1999	all	18	SIM	concentration	triglyceride	plasma	fig1_triglyceride	6	weeks	1.3142314	0.8392563	2.1534877	0.197814606961177	mmol/l	dimensionless
+Ntanios1999	all	18	SIM	concentration	triglyceride	plasma	fig1_triglyceride	12	weeks	1.3106788	0.4642799	1.7749587	0.109431821886204	mmol/l	dimensionless
+Ntanios1999	all	18	SIM	concentration	triglyceride	plasma	fig1_triglyceride	18	weeks	1.3071452	0.5357265	1.8428717	0.126271947003778	mmol/l	dimensionless
+Ntanios1999	all	18	SIM	concentration	triglyceride	plasma	fig1_triglyceride	24	weeks	1.4464293	0.5714025	2.0178318	0.134680860845649	mmol/l	dimensionless

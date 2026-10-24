@@ -1,0 +1,17 @@
+study	group	count	intervention	measurement_type	substance	method	label	tissue	time	time_unit	mean	se	sd	unit	median
+Li2003	SIM_20mg	21	SIM_20mg	concentration	cholesterol	enzymatic assay	SIM_20mg_cholesterol	serum	0	day	260	3.16415940842189	14.5	mg/dl	NA
+Li2003	SIM_20mg	21	SIM_20mg	concentration	cholesterol	enzymatic assay	SIM_20mg_cholesterol	serum	14	day	208	2.05124816821833	9.4	mg/dl	NA
+Li2003	SIM_40mg	21	SIM_40mg	concentration	cholesterol	enzymatic assay	SIM_40mg_cholesterol	serum	0	day	264	3.05505046330389	14.0	mg/dl	NA
+Li2003	SIM_40mg	21	SIM_40mg	concentration	cholesterol	enzymatic assay	SIM_40mg_cholesterol	serum	14	day	192	1.94213922310033	8.9	mg/dl	NA
+Li2003	SIM_20mg	21	SIM_20mg	concentration	hdl-c	anionic detergent method	SIM_20mg_hdl-c	serum	0	day	41	0.654653670707977	3.0	mg/dl	NA
+Li2003	SIM_20mg	21	SIM_20mg	concentration	hdl-c	anionic detergent method	SIM_20mg_hdl-c	serum	14	day	41	0.654653670707977	3.0	mg/dl	NA
+Li2003	SIM_40mg	21	SIM_40mg	concentration	hdl-c	anionic detergent method	SIM_40mg_hdl-c	serum	0	day	42	0.676475459731576	3.1	mg/dl	NA
+Li2003	SIM_40mg	21	SIM_40mg	concentration	hdl-c	anionic detergent method	SIM_40mg_hdl-c	serum	14	day	44	0.698297248755176	3.2	mg/dl	NA
+Li2003	SIM_20mg	21	SIM_20mg	concentration	ldl-c	friedewald formula	SIM_20mg_ldl-c	serum	0	day	165	2.20400069138352	10.1	mg/dl	NA
+Li2003	SIM_20mg	21	SIM_20mg	concentration	ldl-c	friedewald formula	SIM_20mg_ldl-c	serum	14	day	126	1.81120848895874	8.3	mg/dl	NA
+Li2003	SIM_40mg	21	SIM_40mg	concentration	ldl-c	friedewald formula	SIM_40mg_ldl-c	serum	0	day	163	2.35675321454872	10.8	mg/dl	NA
+Li2003	SIM_40mg	21	SIM_40mg	concentration	ldl-c	friedewald formula	SIM_40mg_ldl-c	serum	14	day	112	1.20019839629796	5.5	mg/dl	NA
+Li2003	SIM_20mg	21	SIM_20mg	concentration	triglyceride	enzymatic assay	SIM_20mg_triglyceride	serum	0	day	142	2.05124816821833	9.4	mg/dl	NA
+Li2003	SIM_20mg	21	SIM_20mg	concentration	triglyceride	enzymatic assay	SIM_20mg_triglyceride	serum	14	day	122	1.41841628653395	6.5	mg/dl	NA
+Li2003	SIM_40mg	21	SIM_40mg	concentration	triglyceride	enzymatic assay	SIM_40mg_triglyceride	serum	0	day	147	2.13853532431273	9.8	mg/dl	NA
+Li2003	SIM_40mg	21	SIM_40mg	concentration	triglyceride	enzymatic assay	SIM_40mg_triglyceride	serum	14	day	118	1.26566376336876	5.8	mg/dl	NA

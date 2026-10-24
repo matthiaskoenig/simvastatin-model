@@ -1,0 +1,8 @@
+study	group	label	count	intervention	measurement_type	substance	tissue	time	time_unit	mean	sd	se	unit
+Loria1993	all	bile_flow	5	SIM80	bile_flow	NA	bile	0	hr	19.9	2.8	1.25219806739988	ml/hr
+Loria1993	all	bile_flow	5	SIM80	bile_flow	NA	bile	3	hr	20.4	1.9	0.84970583144992	ml/hr
+Loria1993	all	bile_flow	5	SIM80	bile_flow	NA	bile	6	hr	21.2	2.9	1.29691942694988	ml/hr
+Loria1993	all	bile_flow	5	SIM80	bile_flow	NA	bile	9	hr	23.1	6.0	2.68328157299975	ml/hr
+Loria1993	all	bile_flow	5	SIM80	bile_flow	NA	bile	12	hr	23.1	6.1	2.72800293254974	ml/hr
+Loria1993	all	bile_flow	5	SIM80	bile_flow	NA	bile	15	hr	22.4	7.3	3.26465924714969	ml/hr
+Loria1993	all	bile_flow	5	SIM80	bile_flow	NA	bile	30	hr	19.8	2.7	1.20747670784989	ml/hr

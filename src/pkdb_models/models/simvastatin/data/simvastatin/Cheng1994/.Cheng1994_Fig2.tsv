@@ -1,0 +1,23 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	sd	se	pm	unit
+Cheng1994	all	4	all_total simva inhibitors_plasma	SIM	concentration	total simva inhibitors	plasma	enzymatic assay	0	hr	0.0	na	na	na	ng/ml
+Cheng1994	all	4	all_total simva inhibitors_plasma	SIM	concentration	total simva inhibitors	plasma	enzymatic assay	1	hr	49.329365	50.797125	25.3985625	100.12649	ng/ml
+Cheng1994	all	4	all_total simva inhibitors_plasma	SIM	concentration	total simva inhibitors	plasma	enzymatic assay	2	hr	73.26847	55.55572	27.77786	128.82419	ng/ml
+Cheng1994	all	4	all_total simva inhibitors_plasma	SIM	concentration	total simva inhibitors	plasma	enzymatic assay	3	hr	125.77909	87.30184	43.65092	213.08093	ng/ml
+Cheng1994	all	4	all_total simva inhibitors_plasma	SIM	concentration	total simva inhibitors	plasma	enzymatic assay	4	hr	76.69878	38.09203	19.046015	114.79081	ng/ml
+Cheng1994	all	4	all_total simva inhibitors_plasma	SIM	concentration	total simva inhibitors	plasma	enzymatic assay	5	hr	108.57109	65.08289	32.541445	173.65398	ng/ml
+Cheng1994	all	4	all_total simva inhibitors_plasma	SIM	concentration	total simva inhibitors	plasma	enzymatic assay	6	hr	94.4082	76.1907	38.09535	170.5989	ng/ml
+Cheng1994	all	4	all_total simva inhibitors_plasma	SIM	concentration	total simva inhibitors	plasma	enzymatic assay	8	hr	77.20353	61.90494	30.95247	139.10847	ng/ml
+Cheng1994	all	4	all_total simva inhibitors_plasma	SIM	concentration	total simva inhibitors	plasma	enzymatic assay	10	hr	47.293762	30.158818	15.079409	77.45258	ng/ml
+Cheng1994	all	4	all_total simva inhibitors_plasma	SIM	concentration	total simva inhibitors	plasma	enzymatic assay	12	hr	28.5051	23.806275	11.9031375	52.311375	ng/ml
+Cheng1994	all	4	all_total simva inhibitors_plasma	SIM	concentration	total simva inhibitors	plasma	enzymatic assay	24	hr	10.981636	na	na	na	ng/ml
+Cheng1994	all	4	all_total simva_plasma	SIM	concentration	total simva	plasma	enzymatic assay	0	hr	0.0	na	na	na	ng/ml
+Cheng1994	all	4	all_total simva_plasma	SIM	concentration	total simva	plasma	enzymatic assay	1	hr	160.44414	171.42909	85.714545	331.87323	ng/ml
+Cheng1994	all	4	all_total simva_plasma	SIM	concentration	total simva	plasma	enzymatic assay	2	hr	281.21225	182.53027	91.265135	463.74252	ng/ml
+Cheng1994	all	4	all_total simva_plasma	SIM	concentration	total simva	plasma	enzymatic assay	3	hr	581.3327	285.71845	142.859225	867.05115	ng/ml
+Cheng1994	all	4	all_total simva_plasma	SIM	concentration	total simva	plasma	enzymatic assay	4	hr	625.9101	325.4011	162.70055	951.3112	ng/ml
+Cheng1994	all	4	all_total simva_plasma	SIM	concentration	total simva	plasma	enzymatic assay	5	hr	557.7788	338.1062	169.0531	895.885	ng/ml
+Cheng1994	all	4	all_total simva_plasma	SIM	concentration	total simva	plasma	enzymatic assay	6	hr	567.4321	328.5725	164.28625	896.0046	ng/ml
+Cheng1994	all	4	all_total simva_plasma	SIM	concentration	total simva	plasma	enzymatic assay	8	hr	594.6687	447.6238	223.8119	1042.2925	ng/ml
+Cheng1994	all	4	all_total simva_plasma	SIM	concentration	total simva	plasma	enzymatic assay	10	hr	575.88007	422.22013	211.110065	998.1002	ng/ml
+Cheng1994	all	4	all_total simva_plasma	SIM	concentration	total simva	plasma	enzymatic assay	12	hr	317.3982	231.7467	115.87335	549.1449	ng/ml
+Cheng1994	all	4	all_total simva_plasma	SIM	concentration	total simva	plasma	enzymatic assay	24	hr	112.57589	55.55241	27.776205	168.1283	ng/ml

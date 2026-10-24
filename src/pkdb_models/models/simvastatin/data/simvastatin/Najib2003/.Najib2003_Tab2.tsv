@@ -1,0 +1,13 @@
+study	group	intervention	measurement_type	substance	tissue	method	time	time_unit	unit	mean	sd
+Najib2003	all	simvast	auc_end	simvastatin acid	plasma	HPLC	12.0	hr	ng hr /ml	4.38	2.69
+Najib2003	all	simvast	auc_inf	simvastatin acid	plasma	HPLC	NA	NA	ng hr /ml	6.04	2.57
+Najib2003	all	simvast	cmax	simvastatin acid	plasma	HPLC	NA	NA	ng/ml	0.64	0.43
+Najib2003	all	simvast	tmax	simvastatin acid	plasma	HPLC	NA	NA	hr	4.85	2.62
+Najib2003	all	simvast	thalf	simvastatin acid	plasma	HPLC	NA	NA	hr	4.88	1.27
+Najib2003	all	simvast	kel	simvastatin acid	plasma	HPLC	NA	NA	1/hr	0.1511	0.0379
+Najib2003	all	zocor	auc_end	simvastatin acid	plasma	HPLC	12.0	hr	ng hr /ml	4.95	3.74
+Najib2003	all	zocor	auc_inf	simvastatin acid	plasma	HPLC	NA	NA	ng hr /ml	7.18	4.77
+Najib2003	all	zocor	cmax	simvastatin acid	plasma	HPLC	NA	NA	ng/ml	0.73	0.63
+Najib2003	all	zocor	tmax	simvastatin acid	plasma	HPLC	NA	NA	hr	4.24	1.33
+Najib2003	all	zocor	thalf	simvastatin acid	plasma	HPLC	NA	NA	hr	4.42	1.45
+Najib2003	all	zocor	kel	simvastatin acid	plasma	HPLC	NA	NA	1/hr	0.1766	0.01719

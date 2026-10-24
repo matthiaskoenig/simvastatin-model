@@ -1,0 +1,14 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	mean_sd	pm	mean_se	mean_unit	count_unit
+Zhou2013	all	17	SIM_simvastatin	SIM	concentration	simvastatin	plasma	HPLC-ESI-MS/MS	0.0	hr	0.0				mole/meter^3	dimensionless
+Zhou2013	all	17	SIM_simvastatin	SIM	concentration	simvastatin	plasma	HPLC-ESI-MS/MS	0.5	hr	8.276398471094122e-06	4.674468944099378e-06	1.5077677	1.133725247070069e-06	mole/meter^3	dimensionless
+Zhou2013	all	17	SIM_simvastatin	SIM	concentration	simvastatin	plasma	HPLC-ESI-MS/MS	1.0	hr	1.7089590778786424e-05	9.266043956043953e-06	3.2749367	2.247345762493255e-06	mole/meter^3	dimensionless
+Zhou2013	all	17	SIM_simvastatin	SIM	concentration	simvastatin	plasma	HPLC-ESI-MS/MS	1.5	hr	1.9491655518394642e-05	7.073710941232678e-06	5.1981516	1.715626904458215e-06	mole/meter^3	dimensionless
+Zhou2013	all	17	SIM_simvastatin	SIM	concentration	simvastatin	plasma	HPLC-ESI-MS/MS	2.0	hr	1.601922838031533e-05	4.343539178213089e-06	4.8874435	1.053462989457711e-06	mole/meter^3	dimensionless
+Zhou2013	all	17	SIM_simvastatin	SIM	concentration	simvastatin	plasma	HPLC-ESI-MS/MS	2.5	hr	1.1968156951743904e-05	4.053975155279502e-06	3.3128765	9.832333981674794e-07	mole/meter^3	dimensionless
+Zhou2013	all	17	SIM_simvastatin	SIM	concentration	simvastatin	plasma	HPLC-ESI-MS/MS	3.0	hr	1.0026684185379833e-05	3.764250597228857e-06	2.6214547	9.129648713922907e-07	mole/meter^3	dimensionless
+Zhou2013	all	17	SIM_simvastatin	SIM	concentration	simvastatin	plasma	HPLC-ESI-MS/MS	4.0	hr	7.673886526516959e-06	2.8542725752508358e-06	2.0174904	6.922627830625248e-07	mole/meter^3	dimensionless
+Zhou2013	all	17	SIM_simvastatin	SIM	concentration	simvastatin	plasma	HPLC-ESI-MS/MS	5.0	hr	6.23114691829909e-06	2.151126612517916e-06	1.7078965	5.217248374993214e-07	mole/meter^3	dimensionless
+Zhou2013	all	17	SIM_simvastatin	SIM	concentration	simvastatin	plasma	HPLC-ESI-MS/MS	6.0	hr	4.7882465360726225e-06	1.158175107501194e-06	1.5195479	2.808987235993239e-07	mole/meter^3	dimensionless
+Zhou2013	all	17	SIM_simvastatin	SIM	concentration	simvastatin	plasma	HPLC-ESI-MS/MS	8.0	hr	3.5575797897754408e-06	1.365006211180124e-06	0.9178113	3.310626346070472e-07	mole/meter^3	dimensionless
+Zhou2013	all	17	SIM_simvastatin	SIM	concentration	simvastatin	plasma	HPLC-ESI-MS/MS	12.0	hr	2.213135690396559e-06	7.445122790253223e-07	0.61476576	1.8057075094063133e-07	mole/meter^3	dimensionless
+Zhou2013	all	17	SIM_simvastatin	SIM	concentration	simvastatin	plasma	HPLC-ESI-MS/MS	24.0	hr	5.788858337314857e-07				mole/meter^3	dimensionless

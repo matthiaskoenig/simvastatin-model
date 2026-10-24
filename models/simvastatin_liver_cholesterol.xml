@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" xmlns:comp="http://www.sbml.org/sbml/level3/version1/comp/version1" level="3" version="2" comp:required="true">
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" xmlns:comp="http://www.sbml.org/sbml/level3/version1/comp/version1" xmlns:distrib="http://www.sbml.org/sbml/level3/version1/distrib/version1" level="3" version="2" comp:required="true" distrib:required="true">
   <notes>
     <body xmlns="http://www.w3.org/1999/xhtml">
       <p>Created with <a href="https://github.com/matthiaskoenig/sbmlutils">https://github.com/matthiaskoenig/sbmlutils</a>.
@@ -13,11 +13,11 @@
         <h1>Model for cholesterol metabolism in the liver</h1>
         <p>The content of this model has been carefully created in a manual research effort.</p>
         <h2>Terms of use</h2>
-        <p>Copyright © 2023 <a href="https://livermetabolism.com" title="Matthias König" target="_blank">Matthias König</a>.</p>
-        <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
-          <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png"/>
+        <p>Copyright © 2026 <a href="https://livermetabolism.com" title="Matthias König" target="_blank">Matthias König</a>.</p>
+        <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">
+          <img alt="Creative Commons License" style="border-width:0" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png"/>
         </a>
-        <br/>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+        <br/>This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 <p>Redistribution and use of any part of this model, with or without modification, are permitted provided
 that the following conditions are met:</p>
         <ul>
@@ -53,10 +53,10 @@ implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</p></bo
             </rdf:Bag>
           </dcterms:creator>
           <dcterms:created rdf:parseType="Resource">
-            <dcterms:W3CDTF>1900-01-01T00:00:00Z</dcterms:W3CDTF>
+            <dcterms:W3CDTF>2026-10-24T15:10:44Z</dcterms:W3CDTF>
           </dcterms:created>
           <dcterms:modified rdf:parseType="Resource">
-            <dcterms:W3CDTF>1900-01-01T00:00:00Z</dcterms:W3CDTF>
+            <dcterms:W3CDTF>2026-10-24T15:10:44Z</dcterms:W3CDTF>
           </dcterms:modified>
         </rdf:Description>
       </rdf:RDF>
@@ -93,12 +93,6 @@ implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</p></bo
           <unit kind="mole" exponent="-1" scale="0" multiplier="0.001"/>
         </listOfUnits>
       </unitDefinition>
-      <unitDefinition id="l_per_mmole" name="l/mmole">
-        <listOfUnits>
-          <unit kind="litre" exponent="1" scale="0" multiplier="1"/>
-          <unit kind="mole" exponent="-1" scale="0" multiplier="0.001"/>
-        </listOfUnits>
-      </unitDefinition>
       <unitDefinition id="m2" name="meter^2">
         <listOfUnits>
           <unit kind="metre" exponent="2" scale="0" multiplier="1"/>
@@ -115,21 +109,9 @@ implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</p></bo
           <unit kind="gram" exponent="1" scale="0" multiplier="0.001"/>
         </listOfUnits>
       </unitDefinition>
-      <unitDefinition id="mg_per_day" name="mg/day">
-        <listOfUnits>
-          <unit kind="gram" exponent="1" scale="0" multiplier="0.001"/>
-          <unit kind="second" exponent="-1" scale="0" multiplier="86400"/>
-        </listOfUnits>
-      </unitDefinition>
       <unitDefinition id="min" name="min">
         <listOfUnits>
           <unit kind="second" exponent="1" scale="0" multiplier="60"/>
-        </listOfUnits>
-      </unitDefinition>
-      <unitDefinition id="min_per_day" name="min/day">
-        <listOfUnits>
-          <unit kind="second" exponent="1" scale="0" multiplier="60"/>
-          <unit kind="second" exponent="-1" scale="0" multiplier="86400"/>
         </listOfUnits>
       </unitDefinition>
       <unitDefinition id="min_per_hr" name="min/hr">
@@ -161,11 +143,6 @@ implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</p></bo
           <unit kind="second" exponent="-1" scale="0" multiplier="3600"/>
         </listOfUnits>
       </unitDefinition>
-      <unitDefinition id="per_l" name="1/l">
-        <listOfUnits>
-          <unit kind="litre" exponent="-1" scale="0" multiplier="1"/>
-        </listOfUnits>
-      </unitDefinition>
       <unitDefinition id="per_min" name="1/min">
         <listOfUnits>
           <unit kind="second" exponent="-1" scale="0" multiplier="60"/>
@@ -177,6 +154,29 @@ implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</p></bo
           <unit kind="litre" exponent="-1" scale="0" multiplier="1"/>
         </listOfUnits>
       </unitDefinition>
+      <unitDefinition id="l_per_mmole" name="l/mmole">
+        <listOfUnits>
+          <unit kind="litre" exponent="1" scale="0" multiplier="1"/>
+          <unit kind="mole" exponent="-1" scale="0" multiplier="0.001"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="mg_per_day" name="mg/day">
+        <listOfUnits>
+          <unit kind="gram" exponent="1" scale="0" multiplier="0.001"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="86400"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="min_per_day" name="min/day">
+        <listOfUnits>
+          <unit kind="second" exponent="1" scale="0" multiplier="60"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="86400"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="per_l" name="1/l">
+        <listOfUnits>
+          <unit kind="litre" exponent="-1" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
       <unitDefinition id="per_mmole" name="1/mmole">
         <listOfUnits>
           <unit kind="mole" exponent="-1" scale="0" multiplier="0.001"/>
@@ -184,15 +184,14 @@ implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</p></bo
       </unitDefinition>
     </listOfUnitDefinitions>
     <listOfCompartments>
-      <compartment metaid="meta_Vext" sboTerm="SBO:0000290" id="Vext" name="plasma" spatialDimensions="3" size="1" units="litre" constant="true">
+      <compartment metaid="meta_Vext" sboTerm="SBO:0000290" id="Vext" name="plasma" size="1" units="litre" constant="true">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_Vext">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000290"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ncit/C13356"/>
-                  <rdf:li rdf:resource="http://identifiers.org/BTO:0000131"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C13356"/>
+                  <rdf:li rdf:resource="https://identifiers.org/BTO:0000131"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -205,9 +204,8 @@ implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</p></bo
             <rdf:Description rdf:about="#meta_Vbaso">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000290"/>
-                  <rdf:li rdf:resource="http://identifiers.org/FMA:84669"/>
-                  <rdf:li rdf:resource="http://identifiers.org/GO:0016323"/>
+                  <rdf:li rdf:resource="https://identifiers.org/FMA:84669"/>
+                  <rdf:li rdf:resource="https://identifiers.org/GO:0016323"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -220,40 +218,37 @@ implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</p></bo
             <rdf:Description rdf:about="#meta_Vapical">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000290"/>
-                  <rdf:li rdf:resource="http://identifiers.org/FMA:84666"/>
-                  <rdf:li rdf:resource="http://identifiers.org/GO:0016324"/>
+                  <rdf:li rdf:resource="https://identifiers.org/FMA:84666"/>
+                  <rdf:li rdf:resource="https://identifiers.org/GO:0016324"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
       </compartment>
-      <compartment metaid="meta_Vli" sboTerm="SBO:0000290" id="Vli" name="liver" spatialDimensions="3" size="1.5" units="litre" constant="true">
+      <compartment metaid="meta_Vli" sboTerm="SBO:0000290" id="Vli" name="liver" size="1.5" units="litre" constant="true">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_Vli">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000290"/>
-                  <rdf:li rdf:resource="http://identifiers.org/FMA:7197"/>
-                  <rdf:li rdf:resource="http://identifiers.org/BTO:0000759"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ncit/C12392"/>
+                  <rdf:li rdf:resource="https://identifiers.org/FMA:7197"/>
+                  <rdf:li rdf:resource="https://identifiers.org/BTO:0000759"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C12392"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
       </compartment>
-      <compartment metaid="meta_Vlumen" sboTerm="SBO:0000290" id="Vlumen" name="intestinal lumen (inner part of intestine)" spatialDimensions="3" size="1.15425" units="litre" constant="false">
+      <compartment metaid="meta_Vlumen" sboTerm="SBO:0000290" id="Vlumen" name="intestinal lumen (inner part of intestine)" size="1.15425" units="litre" constant="false">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_Vlumen">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000290"/>
-                  <rdf:li rdf:resource="http://identifiers.org/FMA:14586"/>
-                  <rdf:li rdf:resource="http://identifiers.org/UBERON:0018543"/>
+                  <rdf:li rdf:resource="https://identifiers.org/FMA:14586"/>
+                  <rdf:li rdf:resource="https://identifiers.org/UBERON:0018543"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -268,29 +263,16 @@ implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</p></bo
             <rdf:Description rdf:about="#meta_simacid">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000247"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ncit/C96309"/>
-                  <rdf:li rdf:resource="http://identifiers.org/pubchem.substance/64718"/>
-                  <rdf:li rdf:resource="http://identifiers.org/inchikey/XWLXKKNPFMNSFA-HGQWONQESA-N"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C96309"/>
+                  <rdf:li rdf:resource="https://identifiers.org/pubchem.substance:64718"/>
+                  <rdf:li rdf:resource="https://identifiers.org/inchikey:XWLXKKNPFMNSFA-HGQWONQESA-N"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_simmets" sboTerm="SBO:0000247" id="simmets" name="simvastatin metabolites (liver)" compartment="Vli" initialConcentration="0" substanceUnits="mmole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_simmets">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000247"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
+      <species sboTerm="SBO:0000247" id="simmets" name="simvastatin metabolites (liver)" compartment="Vli" initialConcentration="0" substanceUnits="mmole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
       <species metaid="meta_ldlc_ext" sboTerm="SBO:0000296" id="ldlc_ext" name="ldl-cholesterol (plasma)" compartment="Vext" initialConcentration="3" substanceUnits="mmole" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
@@ -302,9 +284,8 @@ implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</p></bo
             <rdf:Description rdf:about="#meta_ldlc_ext">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000296"/>
-                  <rdf:li rdf:resource="http://identifiers.org/efo/0004195"/>
-                  <rdf:li rdf:resource="http://identifiers.org/CHEBI:47774"/>
+                  <rdf:li rdf:resource="https://identifiers.org/efo:0004195"/>
+                  <rdf:li rdf:resource="https://identifiers.org/CHEBI:47774"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -317,8 +298,7 @@ implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</p></bo
             <rdf:Description rdf:about="#meta_vldlc_ext">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000296"/>
-                  <rdf:li rdf:resource="http://identifiers.org/CHEBI:47773"/>
+                  <rdf:li rdf:resource="https://identifiers.org/CHEBI:47773"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -336,8 +316,7 @@ implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</p></bo
             <rdf:Description rdf:about="#meta_acoa">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000247"/>
-                  <rdf:li rdf:resource="http://identifiers.org/CHEBI:15351"/>
+                  <rdf:li rdf:resource="https://identifiers.org/CHEBI:15351"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -355,9 +334,8 @@ implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</p></bo
             <rdf:Description rdf:about="#meta_hmgcoa">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000247"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ncit/C129007"/>
-                  <rdf:li rdf:resource="http://identifiers.org/CHEBI:15467"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C129007"/>
+                  <rdf:li rdf:resource="https://identifiers.org/CHEBI:15467"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -377,9 +355,8 @@ reference point 0.020 with variation [0.01 - 0.100]</p>
             <rdf:Description rdf:about="#meta_cho">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000247"/>
-                  <rdf:li rdf:resource="http://identifiers.org/CHEBI:16113"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ncit/C369"/>
+                  <rdf:li rdf:resource="https://identifiers.org/CHEBI:16113"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C369"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -392,205 +369,48 @@ reference point 0.020 with variation [0.01 - 0.100]</p>
             <rdf:Description rdf:about="#meta_hmgcoareductase">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000245"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ncit/C54701"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C54701"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_hmgcoasynthase" sboTerm="SBO:0000245" id="hmgcoasynthase" name="HMG-CoA synthase (liver)" compartment="Vli" initialConcentration="1" substanceUnits="dimensionless" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false" conversionFactor="cf_units_per_mmole">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_hmgcoasynthase">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000245"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
+      <species sboTerm="SBO:0000245" id="hmgcoasynthase" name="HMG-CoA synthase (liver)" compartment="Vli" initialConcentration="1" substanceUnits="dimensionless" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false" conversionFactor="cf_units_per_mmole"/>
       <species metaid="meta_ldlr" sboTerm="SBO:0000245" id="ldlr" name="LDLR" compartment="Vli" initialConcentration="0.1" substanceUnits="dimensionless" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false" conversionFactor="cf_units_per_mmole">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_ldlr">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000245"/>
-                  <rdf:li rdf:resource="http://identifiers.org/ncit/C17074"/>
+                  <rdf:li rdf:resource="https://identifiers.org/ncit:C17074"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_ldlr_membrane" sboTerm="SBO:0000245" id="ldlr_membrane" name="LDLR membrane" compartment="Vbaso" initialConcentration="0.8" substanceUnits="dimensionless" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false" conversionFactor="cf_units_per_mmole">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_ldlr_membrane">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000245"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="meta_ldlr_ldlc" sboTerm="SBO:0000296" id="ldlr_ldlc" name="LDLR-LDLC complex" compartment="Vli" initialConcentration="0.1" substanceUnits="dimensionless" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false" conversionFactor="cf_units_per_mmole">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_ldlr_ldlc">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000296"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="meta_ldlr_degraded" sboTerm="SBO:0000245" id="ldlr_degraded" name="LDLR degraded" compartment="Vli" initialConcentration="0" substanceUnits="dimensionless" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false" conversionFactor="cf_units_per_mmole">
+      <species sboTerm="SBO:0000245" id="ldlr_membrane" name="LDLR membrane" compartment="Vbaso" initialConcentration="0.8" substanceUnits="dimensionless" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false" conversionFactor="cf_units_per_mmole"/>
+      <species sboTerm="SBO:0000296" id="ldlr_ldlc" name="LDLR-LDLC complex" compartment="Vli" initialConcentration="0.1" substanceUnits="dimensionless" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false" conversionFactor="cf_units_per_mmole"/>
+      <species sboTerm="SBO:0000245" id="ldlr_degraded" name="LDLR degraded" compartment="Vli" initialConcentration="0" substanceUnits="dimensionless" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false" conversionFactor="cf_units_per_mmole">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>Species added for tracking degradation of LDLR.</p>
           </body>
         </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_ldlr_degraded">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000245"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
       </species>
     </listOfSpecies>
     <listOfParameters>
-      <parameter metaid="meta_cf_units_per_mmole" sboTerm="SBO:0000002" id="cf_units_per_mmole" name="conversion factor for dimensionless species" value="1" units="per_mmole" constant="true">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_cf_units_per_mmole">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000002"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </parameter>
-      <parameter metaid="meta_conversion_min_per_day" sboTerm="SBO:0000002" id="conversion_min_per_day" name="conversion factor min to hours" value="1440" units="min_per_day" constant="true">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_conversion_min_per_day">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000002"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </parameter>
-      <parameter metaid="meta_simmets_inhibitor_activity" sboTerm="SBO:0000261" id="simmets_inhibitor_activity" name="HMG-CoA Reductase inhibitor activity of simmets" value="0.5" units="dimensionless" constant="true">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_simmets_inhibitor_activity">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000261"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </parameter>
-      <parameter metaid="meta_Mr_ldlc" sboTerm="SBO:0000647" id="Mr_ldlc" name="Molecular weight cho [g/mole]" value="386.654" units="g_per_mole" constant="true">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_Mr_ldlc">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000647"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </parameter>
-      <parameter metaid="meta_v_cho_ref" sboTerm="SBO:0000485" id="v_cho_ref" name="reference cholesterol turnover [mg/day]" value="1000" units="mg_per_day" constant="true">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_v_cho_ref">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000485"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </parameter>
-      <parameter metaid="meta_SYNTHESIS_HMG_Vmax" sboTerm="SBO:0000186" id="SYNTHESIS_HMG_Vmax" name="Protein synthesis Vmax for HMGR and HMGS" value="0.001" units="mmole_per_min_l" constant="true">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_SYNTHESIS_HMG_Vmax">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000186"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </parameter>
-      <parameter metaid="meta_DEGRADATION_HMG_Vmax" sboTerm="SBO:0000186" id="DEGRADATION_HMG_Vmax" name="Protein degradation Vmax for HMGR and HMGS" value="0.0003" units="mmole_per_min_l" constant="true">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_DEGRADATION_HMG_Vmax">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000186"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </parameter>
-      <parameter metaid="meta_HMG_kr_cho" sboTerm="SBO:0000261" id="HMG_kr_cho" name="Protein regulation kr for HMGR and HMGS" value="0.02" units="mM" constant="true">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_HMG_kr_cho">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000261"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </parameter>
-      <parameter metaid="meta_DEGRADATION_LDLR_Vmax" sboTerm="SBO:0000186" id="DEGRADATION_LDLR_Vmax" name="Protein degradation Vmax for LDLR" value="0.0006" units="mmole_per_min_l" constant="true">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_DEGRADATION_LDLR_Vmax">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000186"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </parameter>
-      <parameter metaid="meta_SYNTHESIS_LDLR_Vmax" sboTerm="SBO:0000186" id="SYNTHESIS_LDLR_Vmax" name="Protein synthesis Vmax for LDLR" value="NaN" units="mmole_per_min_l" constant="false">
+      <parameter sboTerm="SBO:0000002" id="cf_units_per_mmole" name="conversion factor for dimensionless species" value="1" units="per_mmole" constant="true"/>
+      <parameter sboTerm="SBO:0000002" id="conversion_min_per_day" name="conversion factor min to hours" value="1440" units="min_per_day" constant="true"/>
+      <parameter sboTerm="SBO:0000261" id="simmets_inhibitor_activity" name="HMG-CoA Reductase inhibitor activity of simmets" value="0.4" units="dimensionless" constant="true"/>
+      <parameter sboTerm="SBO:0000647" id="Mr_ldlc" name="Molecular weight cho [g/mole]" value="386.654" units="g_per_mole" constant="true"/>
+      <parameter sboTerm="SBO:0000485" id="v_cho_ref" name="reference cholesterol turnover [mg/day]" value="1000" units="mg_per_day" constant="true"/>
+      <parameter sboTerm="SBO:0000186" id="SYNTHESIS_HMG_Vmax" name="Protein synthesis Vmax for HMGR and HMGS" value="0.001" units="mmole_per_min_l" constant="true"/>
+      <parameter sboTerm="SBO:0000186" id="DEGRADATION_HMG_Vmax" name="Protein degradation Vmax for HMGR and HMGS" value="0.0003" units="mmole_per_min_l" constant="true"/>
+      <parameter sboTerm="SBO:0000261" id="HMG_kr_cho" name="Protein regulation kr for HMGR and HMGS" value="0.02" units="mM" constant="true"/>
+      <parameter sboTerm="SBO:0000186" id="DEGRADATION_LDLR_Vmax" name="Protein degradation Vmax for LDLR" value="0.0006" units="mmole_per_min_l" constant="true"/>
+      <parameter sboTerm="SBO:0000186" id="SYNTHESIS_LDLR_Vmax" name="Protein synthesis Vmax for LDLR" value="NaN" units="mmole_per_min_l" constant="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>Synthesis parameter was determined based on steady state condition
@@ -602,344 +422,130 @@ SYNTHESIS_LDLR_Vmax = 4 * DEGRADATION_LDLR_Vmax * LDLR_ss
             </pre>
           </body>
         </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_SYNTHESIS_LDLR_Vmax">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000186"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
       </parameter>
-      <parameter metaid="meta_LDLR_kr_cho" sboTerm="SBO:0000261" id="LDLR_kr_cho" name="Protein regulation kr for LDLR" value="0.02" units="mM" constant="true">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_LDLR_kr_cho">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000261"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </parameter>
-      <parameter metaid="meta_SYNTHESIS_LDLR_Vmax_f" sboTerm="SBO:0000002" id="SYNTHESIS_LDLR_Vmax_f" name="scaling factor for synthesis Vmax for LDL-R" value="1" units="dimensionless" constant="true">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_SYNTHESIS_LDLR_Vmax_f">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000002"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </parameter>
-      <parameter metaid="meta_DEGRADATION_LDLR_Vmax_f" sboTerm="SBO:0000002" id="DEGRADATION_LDLR_Vmax_f" name="scaling factor for degradation Vmax for LDL-R" value="1" units="dimensionless" constant="true">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_DEGRADATION_LDLR_Vmax_f">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000002"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </parameter>
-      <parameter metaid="meta_VLDLCEXP_Vmax" sboTerm="SBO:0000186" id="VLDLCEXP_Vmax" name="Vmax VLDL-cholesterol export" value="2.5" units="dimensionless" constant="true">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_VLDLCEXP_Vmax">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000186"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </parameter>
-      <parameter metaid="meta_VLDLCEXP_Km_cho" sboTerm="SBO:0000322" id="VLDLCEXP_Km_cho" name="Km VLDL-cholesterol export" value="0.0005" units="mM" constant="true">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_VLDLCEXP_Km_cho">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000322"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </parameter>
-      <parameter metaid="meta_LDLRLDLCIMP_Kcat" sboTerm="SBO:0000025" id="LDLRLDLCIMP_Kcat" value="6" units="dimensionless" constant="true">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_LDLRLDLCIMP_Kcat">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000025"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </parameter>
-      <parameter metaid="meta_LDLRLDLCIMP_Km" sboTerm="SBO:0000322" id="LDLRLDLCIMP_Km" name="Km LDLR-LDLC binding" value="3" units="mM" constant="true">
+      <parameter sboTerm="SBO:0000261" id="LDLR_kr_cho" name="Protein regulation kr for LDLR" value="0.02" units="mM" constant="true"/>
+      <parameter sboTerm="SBO:0000002" id="SYNTHESIS_LDLR_Vmax_f" name="scaling factor for synthesis Vmax for LDL-R" value="1" units="dimensionless" constant="true"/>
+      <parameter sboTerm="SBO:0000002" id="DEGRADATION_LDLR_Vmax_f" name="scaling factor for degradation Vmax for LDL-R" value="1" units="dimensionless" constant="true"/>
+      <parameter sboTerm="SBO:0000186" id="VLDLCEXP_Vmax" name="Vmax VLDL-cholesterol export" value="2.5" units="dimensionless" constant="true"/>
+      <parameter sboTerm="SBO:0000322" id="VLDLCEXP_Km_cho" name="Km VLDL-cholesterol export" value="0.0005" units="mM" constant="true"/>
+      <parameter sboTerm="SBO:0000025" id="LDLRLDLCIMP_Kcat" value="6" units="dimensionless" constant="true"/>
+      <parameter sboTerm="SBO:0000322" id="LDLRLDLCIMP_Km" name="Km LDLR-LDLC binding" value="3" units="mM" constant="true">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>Set to 3mM for reference state of 3mM in healthy patient as 3mM plasma
 LDL-C.</p>
           </body>
         </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_LDLRLDLCIMP_Km">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000322"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
       </parameter>
-      <parameter metaid="meta_LDLRLDLCIMP_Ki_ldlr_ldlc" sboTerm="SBO:0000261" id="LDLRLDLCIMP_Ki_ldlr_ldlc" name="Ki LDLR-LDLC complex on uptake" value="0.1" units="dimensionless" constant="true">
+      <parameter sboTerm="SBO:0000261" id="LDLRLDLCIMP_Ki_ldlr_ldlc" name="Ki LDLR-LDLC complex on uptake" value="0.1" units="dimensionless" constant="true">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>Feedback of complex to uptake. Mechanism?</p>
           </body>
         </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_LDLRLDLCIMP_Ki_ldlr_ldlc">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000261"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
       </parameter>
-      <parameter metaid="meta_LDLRLDLCIMP_Km_f" sboTerm="SBO:0000002" id="LDLRLDLCIMP_Km_f" value="1" units="dimensionless" constant="true">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_LDLRLDLCIMP_Km_f">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000002"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </parameter>
-      <parameter metaid="meta_LDLRLDLCIMP_Kcat_f" sboTerm="SBO:0000002" id="LDLRLDLCIMP_Kcat_f" value="1" units="dimensionless" constant="true">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_LDLRLDLCIMP_Kcat_f">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000002"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </parameter>
-      <parameter metaid="meta_LDLRMEMBRANE_Kcat" sboTerm="SBO:0000025" id="LDLRMEMBRANE_Kcat" value="0.025" units="mmole_per_min_l" constant="true">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_LDLRMEMBRANE_Kcat">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000025"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </parameter>
-      <parameter metaid="meta_LDLRMEMBRANE_Kcat_f" sboTerm="SBO:0000002" id="LDLRMEMBRANE_Kcat_f" value="1" units="dimensionless" constant="true">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_LDLRMEMBRANE_Kcat_f">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000002"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </parameter>
-      <parameter metaid="meta_LDLRMEMBRANE_Keq" sboTerm="SBO:0000002" id="LDLRMEMBRANE_Keq" value="10" units="dimensionless" constant="true">
+      <parameter sboTerm="SBO:0000002" id="LDLRLDLCIMP_Km_f" value="1" units="dimensionless" constant="true"/>
+      <parameter sboTerm="SBO:0000002" id="LDLRLDLCIMP_Kcat_f" value="1" units="dimensionless" constant="true"/>
+      <parameter sboTerm="SBO:0000025" id="LDLRMEMBRANE_Kcat" value="0.025" units="mmole_per_min_l" constant="true"/>
+      <parameter sboTerm="SBO:0000002" id="LDLRMEMBRANE_Kcat_f" value="1" units="dimensionless" constant="true"/>
+      <parameter sboTerm="SBO:0000002" id="LDLRMEMBRANE_Keq" value="10" units="dimensionless" constant="true">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>Feedback of LDLR membrane on LDLR pool via equilibration constant.
 Keq = ldlr_membrane/ldlr_substrate</p>
           </body>
         </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_LDLRMEMBRANE_Keq">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000002"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
       </parameter>
-      <parameter metaid="meta_LDLRRECYCLING_Kcat" sboTerm="SBO:0000025" id="LDLRRECYCLING_Kcat" value="0.0125" units="mmole_per_min_l" constant="true">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_LDLRRECYCLING_Kcat">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000025"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </parameter>
-      <parameter metaid="meta_LDLRRECYCLING_Kcat_f" sboTerm="SBO:0000002" id="LDLRRECYCLING_Kcat_f" value="1" units="dimensionless" constant="true">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_LDLRRECYCLING_Kcat_f">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000002"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </parameter>
-      <parameter metaid="meta_HMGCOASYNTHASE_Kcat" sboTerm="SBO:0000025" id="HMGCOASYNTHASE_Kcat" value="245" units="l_per_mmole" constant="true">
+      <parameter sboTerm="SBO:0000025" id="LDLRRECYCLING_Kcat" value="0.0125" units="mmole_per_min_l" constant="true"/>
+      <parameter sboTerm="SBO:0000002" id="LDLRRECYCLING_Kcat_f" value="1" units="dimensionless" constant="true"/>
+      <parameter sboTerm="SBO:0000025" id="HMGCOASYNTHASE_Kcat" name="kcat HMG-CoA synthase" value="245" units="l_per_mmole" constant="true">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>higher then HMG-CoA Reductase:
 3E-3 [mmole/min/l] /1.4 [l]/ 0.03 [mole/l] = 71.4E-3 [1/min]</p>
           </body>
         </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_HMGCOASYNTHASE_Kcat">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000025"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
       </parameter>
-      <parameter metaid="meta_HMGCOASYNTHASE_Ki_hmgcoa" sboTerm="SBO:0000261" id="HMGCOASYNTHASE_Ki_hmgcoa" value="0.022" units="mM" constant="true">
+      <parameter sboTerm="SBO:0000261" id="HMGCOASYNTHASE_Ki_hmgcoa" name="Ki HMG-CoA synthase (product inhibition by HMG-CoA)" value="0.022" units="mM" constant="true">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>product inhibition ~ reference concentration</p>
           </body>
         </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_HMGCOASYNTHASE_Ki_hmgcoa">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000261"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
       </parameter>
-      <parameter metaid="meta_HMGCOAREDUCTASE_Kcat" sboTerm="SBO:0000025" id="HMGCOAREDUCTASE_Kcat" value="0.7" units="dimensionless" constant="true">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_HMGCOAREDUCTASE_Kcat">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000025"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </parameter>
-      <parameter metaid="meta_HMGCOAREDUCTASE_Km" sboTerm="SBO:0000322" id="HMGCOAREDUCTASE_Km" name="Km HMG-CoA" value="0.004" units="mM" constant="true">
+      <parameter sboTerm="SBO:0000025" id="HMGCOAREDUCTASE_Kcat" name="kcat HMG-CoA reductase" value="0.7" units="dimensionless" constant="true"/>
+      <parameter sboTerm="SBO:0000322" id="HMGCOAREDUCTASE_Km" name="Km HMG-CoA" value="0.004" units="mM" constant="true">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>4 [µM] Istvan2001</p>
           </body>
         </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_HMGCOAREDUCTASE_Km">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000322"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
       </parameter>
-      <parameter metaid="meta_HMGCOAREDUCTASE_Ki_simacid" sboTerm="SBO:0000261" id="HMGCOAREDUCTASE_Ki_simacid" name="Ki HMG-CoA for simvastatin acid and simvastatin metabolites" value="1.5e-06" units="mM" constant="true">
+      <parameter sboTerm="SBO:0000261" id="HMGCOAREDUCTASE_Ki_simacid" name="Ki HMG-CoA reductase for simvastatin acid and the active metabolites" value="9.16748418506532e-07" units="mM" constant="true">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>0.1 - 2.3 [nM] Istvan2001, 0.12 nM [Corsini1995]</p>
+            <p>0.1 - 2.3 [nM] Istvan2001, 0.12 nM [Corsini1995]; fitted to the
+LDL cholesterol of the studies (PD fit, <code>fits.FITS</code>).</p>
           </body>
         </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_HMGCOAREDUCTASE_Ki_simacid">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000261"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
+        <distrib:listOfUncertainties>
+          <distrib:uncertainty distrib:name="fit PD_20261020_133635__e8729">
+            <notes>
+              <body xmlns="http://www.w3.org/1999/xhtml">
+                <p>The value of <code>LI__HMGCOAREDUCTASE_Ki_simacid</code> is the result of the fit <code>PD_20261020_133635__e8729</code>, its uncertainty is the profile likelihood of the fit.</p>
+                <p>| | |
+|---|---|
+| fit | <code>PD_20261020_133635__e8729</code> |
+| record | <code>PD_20261020_133635__e8729/</code> |
+| cost | 30.2661 |
+| data points | 99 |
+| value | 9.16748e-07 (mmol)/l |
+| bounds | [1e-07, 1e-05] |
+| scale | LOG10 |
+| method | profile likelihood |
+| identifiability | identifiable |
+| 95 % confidence interval | [7.61831e-07, 1.10791e-06] |
+| Fisher confidence interval | [8.02337e-07, 1.04747e-06] |
+| distribution of the draws | <code>lognormal(-13.902432755105238, 0.09553968637759001, 1e-07, 1e-05)</code> |</p>
+              </body>
+            </notes>
+            <distrib:uncertSpan distrib:name="95 % confidence interval (profile likelihood)" distrib:units="mM" distrib:type="confidenceInterval" distrib:valueLower="7.61831432967933e-07" distrib:valueUpper="1.10791373017806e-06"/>
+            <distrib:uncertParameter distrib:name="standard error (Fisher information)" distrib:value="6.15814482561393e-08" distrib:units="mM" distrib:type="standardError"/>
+            <distrib:uncertParameter distrib:name="distribution of the draws" distrib:type="distribution">
+              <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <apply>
+                  <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/distrib/lognormal"> lognormal </csymbol>
+                  <apply>
+                    <minus/>
+                    <cn> 13.9024327551052 </cn>
+                  </apply>
+                  <cn> 0.09553968637759 </cn>
+                  <cn type="e-notation"> 1 <sep/> -7 </cn>
+                  <cn type="e-notation"> 1 <sep/> -5 </cn>
+                </apply>
+              </math>
+            </distrib:uncertParameter>
+          </distrib:uncertainty>
+        </distrib:listOfUncertainties>
       </parameter>
-      <parameter id="ldlr_total" name="Total LDLR" value="NaN" units="dimensionless" constant="false"/>
-      <parameter id="ldlr_fraction" name="LDLR fraction" value="NaN" units="dimensionless" constant="false"/>
-      <parameter id="ldlr_membrane_fraction" name="LDLR membrane fraction" value="NaN" units="dimensionless" constant="false"/>
-      <parameter id="ldlr_ldlc_fraction" name="LDLR-LDLC fraction" value="NaN" units="dimensionless" constant="false"/>
-      <parameter id="v_cho_reference" name="reference cholesterol turnover [mmole/min]" value="NaN" units="mmole_per_min" constant="false"/>
-      <parameter id="v_synthesis" name="total synthesized cholesterol" value="NaN" units="mg_per_day" constant="false"/>
-      <parameter id="v_uptake" name="cholesterol uptake (LDL receptor)" value="NaN" units="mg_per_day" constant="false"/>
-      <parameter id="v_export" name="cholesterol export (VLDL)" value="NaN" units="mg_per_day" constant="false"/>
-      <parameter id="v_reference" name="cholesterol reference flux" value="NaN" units="mg_per_day" constant="false"/>
-      <parameter id="v_net_export_rate" name="cholesterol net export (VLDL)" value="NaN" units="mmole_per_min" constant="false"/>
-      <parameter id="v_net_export" name="cholesterol net export (VLDL)" value="NaN" units="mg_per_day" constant="false"/>
-      <parameter id="v_liver_balance" name="cholesterol net  export (VLDL)" value="NaN" units="mg_per_day" constant="false"/>
-      <parameter id="TURNOVER_LDLR" name="total turnover of LDL-R expression" value="NaN" units="mmole_per_min" constant="false"/>
-      <parameter id="active_inhibitors" name="active HMG-CoA reductase inhibitors in liver" value="NaN" units="mM" constant="false"/>
+      <parameter id="ldlr_total" name="Total LDLR" units="dimensionless" constant="false"/>
+      <parameter id="ldlr_fraction" name="LDLR fraction" units="dimensionless" constant="false"/>
+      <parameter id="ldlr_membrane_fraction" name="LDLR membrane fraction" units="dimensionless" constant="false"/>
+      <parameter id="ldlr_ldlc_fraction" name="LDLR-LDLC fraction" units="dimensionless" constant="false"/>
+      <parameter id="v_cho_reference" name="reference cholesterol turnover [mmole/min]" units="mmole_per_min" constant="false"/>
+      <parameter id="v_synthesis" name="total synthesized cholesterol" units="mg_per_day" constant="false"/>
+      <parameter id="v_recycling" name="LDLR recycling and cholesterol release into free cholesterol" units="mg_per_day" constant="false"/>
+      <parameter id="v_uptake" name="cholesterol uptake (LDL receptor)" units="mg_per_day" constant="false"/>
+      <parameter id="v_export" name="cholesterol export (VLDL)" units="mg_per_day" constant="false"/>
+      <parameter id="v_reference" name="cholesterol reference flux" units="mg_per_day" constant="false"/>
+      <parameter id="v_net_export_rate" name="cholesterol net export rate (VLDL)" units="mmole_per_min" constant="false"/>
+      <parameter id="v_net_export" name="cholesterol net export (VLDL)" units="mg_per_day" constant="false"/>
+      <parameter id="v_liver_balance" name="cholesterol liver balance" units="mg_per_day" constant="false"/>
+      <parameter id="TURNOVER_LDLR" name="total turnover of LDL-R expression" units="mmole_per_min" constant="false"/>
+      <parameter id="active_inhibitors" name="active HMG-CoA reductase inhibitors in liver" units="mM" constant="false"/>
     </listOfParameters>
     <listOfRules>
-      <assignmentRule metaid="meta_d06978ab24512672205f7c68eb3cc89b" sboTerm="SBO:0000359" name="Total LDLR" variable="ldlr_total">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_d06978ab24512672205f7c68eb3cc89b">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000359"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
+      <assignmentRule sboTerm="SBO:0000359" name="Total LDLR" variable="ldlr_total">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <apply>
             <plus/>
@@ -1008,6 +614,16 @@ Keq = ldlr_membrane/ldlr_substrate</p>
           </apply>
         </math>
       </assignmentRule>
+      <assignmentRule name="LDLR recycling and cholesterol release into free cholesterol" variable="v_recycling">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> LDLRRECYCLING </ci>
+            <ci> Mr_ldlc </ci>
+            <ci> conversion_min_per_day </ci>
+          </apply>
+        </math>
+      </assignmentRule>
       <assignmentRule name="cholesterol uptake (LDL receptor)" variable="v_uptake">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <apply>
@@ -1038,7 +654,7 @@ Keq = ldlr_membrane/ldlr_substrate</p>
           </apply>
         </math>
       </assignmentRule>
-      <assignmentRule name="cholesterol net export (VLDL)" variable="v_net_export_rate">
+      <assignmentRule name="cholesterol net export rate (VLDL)" variable="v_net_export_rate">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <apply>
             <minus/>
@@ -1057,7 +673,7 @@ Keq = ldlr_membrane/ldlr_substrate</p>
           </apply>
         </math>
       </assignmentRule>
-      <assignmentRule name="cholesterol net  export (VLDL)" variable="v_liver_balance">
+      <assignmentRule name="cholesterol liver balance" variable="v_liver_balance">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <apply>
             <minus/>
@@ -1094,18 +710,7 @@ Keq = ldlr_membrane/ldlr_substrate</p>
       </assignmentRule>
     </listOfRules>
     <listOfReactions>
-      <reaction metaid="meta_VLDLCEXP" sboTerm="SBO:0000655" id="VLDLCEXP" name="VLDL-cholesterol export" reversible="false" compartment="Vbaso">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_VLDLCEXP">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000655"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
+      <reaction sboTerm="SBO:0000655" id="VLDLCEXP" name="VLDL-cholesterol export" reversible="false" compartment="Vbaso">
         <listOfReactants>
           <speciesReference species="cho" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -1131,18 +736,7 @@ Keq = ldlr_membrane/ldlr_substrate</p>
           </math>
         </kineticLaw>
       </reaction>
-      <reaction metaid="meta_LDLRLDLCIMP" sboTerm="SBO:0000655" id="LDLRLDLCIMP" name="LDLR-LDLC binding &amp; internalization" reversible="false" compartment="Vbaso">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_LDLRLDLCIMP">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000655"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
+      <reaction sboTerm="SBO:0000655" id="LDLRLDLCIMP" name="LDLR-LDLC binding &amp; internalization" reversible="false" compartment="Vbaso">
         <listOfReactants>
           <speciesReference species="ldlc_ext" stoichiometry="1" constant="true"/>
           <speciesReference species="ldlr_membrane" stoichiometry="1" constant="true"/>
@@ -1194,18 +788,7 @@ Keq = ldlr_membrane/ldlr_substrate</p>
           </math>
         </kineticLaw>
       </reaction>
-      <reaction metaid="meta_LDLR_TO_MEMBRANE" sboTerm="SBO:0000655" id="LDLR_TO_MEMBRANE" name="LDLR membrane transport" reversible="true" compartment="Vbaso">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_LDLR_TO_MEMBRANE">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000655"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
+      <reaction sboTerm="SBO:0000655" id="LDLR_TO_MEMBRANE" name="LDLR membrane transport" reversible="true" compartment="Vbaso">
         <listOfReactants>
           <speciesReference species="ldlr" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -1232,18 +815,7 @@ Keq = ldlr_membrane/ldlr_substrate</p>
           </math>
         </kineticLaw>
       </reaction>
-      <reaction metaid="meta_LDLRRECYCLING" sboTerm="SBO:0000655" id="LDLRRECYCLING" name="LDLR recycling" reversible="false" compartment="Vli">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_LDLRRECYCLING">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000655"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
+      <reaction sboTerm="SBO:0000655" id="LDLRRECYCLING" name="LDLR recycling" reversible="false" compartment="Vli">
         <listOfReactants>
           <speciesReference species="ldlr_ldlc" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -1263,18 +835,7 @@ Keq = ldlr_membrane/ldlr_substrate</p>
           </math>
         </kineticLaw>
       </reaction>
-      <reaction metaid="meta_HMGCOASYNTHASE" sboTerm="SBO:0000176" id="HMGCOASYNTHASE" name="HMG-CoA synthase" reversible="false" compartment="Vli">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_HMGCOASYNTHASE">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000176"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
+      <reaction sboTerm="SBO:0000176" id="HMGCOASYNTHASE" name="HMG-CoA synthase" reversible="false" compartment="Vli">
         <listOfReactants>
           <speciesReference species="acoa" stoichiometry="3" constant="true"/>
         </listOfReactants>
@@ -1309,18 +870,7 @@ Keq = ldlr_membrane/ldlr_substrate</p>
           </math>
         </kineticLaw>
       </reaction>
-      <reaction metaid="meta_HMGCOAREDUCTASE" sboTerm="SBO:0000176" id="HMGCOAREDUCTASE" name="HMG-CoA reductase" reversible="false" compartment="Vli">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_HMGCOAREDUCTASE">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000176"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
+      <reaction sboTerm="SBO:0000176" id="HMGCOAREDUCTASE" name="HMG-CoA reductase" reversible="false" compartment="Vli">
         <listOfReactants>
           <speciesReference species="hmgcoa" stoichiometry="6" constant="true"/>
         </listOfReactants>
@@ -1372,18 +922,7 @@ Keq = ldlr_membrane/ldlr_substrate</p>
           </math>
         </kineticLaw>
       </reaction>
-      <reaction metaid="meta_SYNTHESIS_HMGCOAREDUCTASE" sboTerm="SBO:0000176" id="SYNTHESIS_HMGCOAREDUCTASE" name="HMGCOAREDUCTASE synthesis" reversible="false" compartment="Vli">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_SYNTHESIS_HMGCOAREDUCTASE">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000176"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
+      <reaction sboTerm="SBO:0000176" id="SYNTHESIS_HMGCOAREDUCTASE" name="HMGCOAREDUCTASE synthesis" reversible="false" compartment="Vli">
         <listOfProducts>
           <speciesReference species="hmgcoareductase" stoichiometry="1" constant="true"/>
         </listOfProducts>
@@ -1412,18 +951,7 @@ Keq = ldlr_membrane/ldlr_substrate</p>
           </math>
         </kineticLaw>
       </reaction>
-      <reaction metaid="meta_DEGRADATION_HMGCOAREDUCTASE" sboTerm="SBO:0000176" id="DEGRADATION_HMGCOAREDUCTASE" name="HMGCOAREDUCTASE degradation" reversible="false" compartment="Vli">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_DEGRADATION_HMGCOAREDUCTASE">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000176"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
+      <reaction sboTerm="SBO:0000176" id="DEGRADATION_HMGCOAREDUCTASE" name="HMGCOAREDUCTASE degradation" reversible="false" compartment="Vli">
         <listOfReactants>
           <speciesReference species="hmgcoareductase" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -1450,18 +978,7 @@ Keq = ldlr_membrane/ldlr_substrate</p>
           </math>
         </kineticLaw>
       </reaction>
-      <reaction metaid="meta_SYNTHESIS_HMGCOASYNTHASE" sboTerm="SBO:0000176" id="SYNTHESIS_HMGCOASYNTHASE" name="HMGCOASYNTHASE synthesis" reversible="false" compartment="Vli">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_SYNTHESIS_HMGCOASYNTHASE">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000176"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
+      <reaction sboTerm="SBO:0000176" id="SYNTHESIS_HMGCOASYNTHASE" name="HMGCOASYNTHASE synthesis" reversible="false" compartment="Vli">
         <listOfProducts>
           <speciesReference species="hmgcoasynthase" stoichiometry="1" constant="true"/>
         </listOfProducts>
@@ -1490,18 +1007,7 @@ Keq = ldlr_membrane/ldlr_substrate</p>
           </math>
         </kineticLaw>
       </reaction>
-      <reaction metaid="meta_DEGRADATION_HMGCOASYNTHASE" sboTerm="SBO:0000176" id="DEGRADATION_HMGCOASYNTHASE" name="HMGCOASYNTHASE degradation" reversible="false" compartment="Vli">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_DEGRADATION_HMGCOASYNTHASE">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000176"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
+      <reaction sboTerm="SBO:0000176" id="DEGRADATION_HMGCOASYNTHASE" name="HMGCOASYNTHASE degradation" reversible="false" compartment="Vli">
         <listOfReactants>
           <speciesReference species="hmgcoasynthase" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -1528,18 +1034,7 @@ Keq = ldlr_membrane/ldlr_substrate</p>
           </math>
         </kineticLaw>
       </reaction>
-      <reaction metaid="meta_SYNTHESIS_LDLR" sboTerm="SBO:0000176" id="SYNTHESIS_LDLR" name="LDLR synthesis" reversible="false" compartment="Vli">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_SYNTHESIS_LDLR">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000176"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
+      <reaction sboTerm="SBO:0000176" id="SYNTHESIS_LDLR" name="LDLR synthesis" reversible="false" compartment="Vli">
         <listOfProducts>
           <speciesReference species="ldlr" stoichiometry="1" constant="true"/>
         </listOfProducts>
@@ -1569,18 +1064,7 @@ Keq = ldlr_membrane/ldlr_substrate</p>
           </math>
         </kineticLaw>
       </reaction>
-      <reaction metaid="meta_DEGRADATION_LDLR" sboTerm="SBO:0000176" id="DEGRADATION_LDLR" name="LDLR degradation" reversible="false" compartment="Vli">
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_DEGRADATION_LDLR">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000176"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
+      <reaction sboTerm="SBO:0000176" id="DEGRADATION_LDLR" name="LDLR degradation" reversible="false" compartment="Vli">
         <listOfReactants>
           <speciesReference species="ldlr" stoichiometry="1" constant="true"/>
         </listOfReactants>

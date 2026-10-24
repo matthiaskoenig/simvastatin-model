@@ -1,0 +1,31 @@
+study	subject	intervention	substance	tissue	measurement	mean	min	max	median	unit
+Chung2006	all	MID	midazolam	plasma	auc_inf	49	22.0	103.0	na	ng*hr/ml
+Chung2006	all	MID	midazolam	plasma	clearance	25	12.0	57.0	na	ml/min/kg
+Chung2006	all	MID	midazolam	plasma	thalf	98	73.0	165.0	na	min
+Chung2006	all	MID	midazolam	plasma	tmax	na	30.0	61.0	30	min
+Chung2006	all	MID	midazolam	plasma	cmax	23	9.0	41.0	na	ng/ml
+Chung2006	all	SIM	simvastatin	plasma	auc_inf	29	8.0	56.0	na	ng*hr/ml
+Chung2006	all	SIM	simvastatin	plasma	clearance	312	151.0	1478.0	na	ml/min/kg
+Chung2006	all	SIM	simvastatin	plasma	thalf	175	47.0	537.0	na	min
+Chung2006	all	SIM	simvastatin	plasma	tmax	na	30.0	542.0	60	min
+Chung2006	all	SIM	simvastatin	plasma	cmax	7.4	3.1	19.0	na	ng/ml
+Chung2006	all	MID, KET	midazolam	plasma	auc_inf	466	146.0	1010.0	na	ng*hr/ml
+Chung2006	all	MID, KET	midazolam	plasma	clearance	2.7	1.2	8.5	na	ml/min/kg
+Chung2006	all	MID, KET	midazolam	plasma	thalf	578	243.0	1112.0	na	min
+Chung2006	all	MID, KET	midazolam	plasma	tmax	na	26.0	240.0	31	min
+Chung2006	all	MID, KET	midazolam	plasma	cmax	55	31.0	100.0	na	ng/ml
+Chung2006	all	SIM, KET	simvastatin	plasma	auc_inf	364	84.0	1351.0	na	ng*hr/ml
+Chung2006	all	SIM, KET	simvastatin	plasma	clearance	25	8.0	147.0	na	ml/min/kg
+Chung2006	all	SIM, KET	simvastatin	plasma	thalf	326	238.0	541.0	na	min
+Chung2006	all	SIM, KET	simvastatin	plasma	tmax	na	51.0	360.0	120	min
+Chung2006	all	SIM, KET	simvastatin	plasma	cmax	55	17.0	218.0	na	ng/ml
+Chung2006	all_n18	MID, RIF	midazolam	plasma	auc_inf	6.1	3.4	10.0	na	ng*hr/ml
+Chung2006	all_n18	MID, RIF	midazolam	plasma	clearance	203	125.0	371.0	na	ml/min/kg
+Chung2006	all_n18	MID, RIF	midazolam	plasma	thalf	56	45.0	66.0	na	min
+Chung2006	all_n18	MID, RIF	midazolam	plasma	tmax	na	12.0	60.0	16	min
+Chung2006	all_n18	MID, RIF	midazolam	plasma	cmax	3.9	1.7	6.2	na	ng/ml
+Chung2006	all_n18	SIM, RIF	simvastatin	plasma	auc_inf	2.6	0.8	26.0	na	ng*hr/ml
+Chung2006	all_n18	SIM, RIF	simvastatin	plasma	clearance	3536	413.0	10329.0	na	ml/min/kg
+Chung2006	all_n18	SIM, RIF	simvastatin	plasma	thalf	116	36.0	859.0	na	min
+Chung2006	all_n18	SIM, RIF	simvastatin	plasma	tmax	na	29.0	360.0	60	min
+Chung2006	all_n18	SIM, RIF	simvastatin	plasma	cmax	1.1	0.3	7.2	na	ng/ml

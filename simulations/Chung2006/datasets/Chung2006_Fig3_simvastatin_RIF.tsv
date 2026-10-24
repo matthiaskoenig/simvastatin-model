@@ -1,0 +1,9 @@
+study	subject	label	count	intervention	substance	tissue	measurement	mean	mean_pm	time	time_unit	mean_unit	mean_sd	mean_se	count_unit
+Chung2006	all_n18	all_n18_SIM+RIF	18	SIM, RIF	simvastatin	plasma	concentration	2.3926263736263732e-08		0.0	hr	mole/meter^3			dimensionless
+Chung2006	all_n18	all_n18_SIM+RIF	18	SIM, RIF	simvastatin	plasma	concentration	1.4127231963688487e-06	1.2722065	0.5	hr	mole/meter^3	1.6264705446727185e-06	3.8336278384608453e-07	dimensionless
+Chung2006	all_n18	all_n18_SIM+RIF	18	SIM, RIF	simvastatin	plasma	concentration	1.6534030100334447e-06	1.5331676	1.0	hr	mole/meter^3	2.009204730052556e-06	4.7357409647075006e-07	dimensionless
+Chung2006	all_n18	all_n18_SIM+RIF	18	SIM, RIF	simvastatin	plasma	concentration	1.4157290969899665e-06	1.3935913	1.5	hr	mole/meter^3	1.9134426660296226e-06	4.510027615204037e-07	dimensionless
+Chung2006	all_n18	all_n18_SIM+RIF	18	SIM, RIF	simvastatin	plasma	concentration	8.911120401337792e-07	0.9537467	2.0	hr	mole/meter^3	1.3873081700907787e-06	3.2699167155556374e-07	dimensionless
+Chung2006	all_n18	all_n18_SIM+RIF	18	SIM, RIF	simvastatin	plasma	concentration	8.940893454371714e-07	0.85485566	3.0	hr	mole/meter^3	1.1480885332059244e-06	2.706070624108098e-07	dimensionless
+Chung2006	all_n18	all_n18_SIM+RIF	18	SIM, RIF	simvastatin	plasma	concentration	5.143323698041088e-07	0.53570074	4.0	hr	mole/meter^3	7.654113951266124e-07	1.8040919596382797e-07	dimensionless
+Chung2006	all_n18	all_n18_SIM+RIF	18	SIM, RIF	simvastatin	plasma	concentration	1.3814035594839941e-06		6.0	hr	mole/meter^3			dimensionless

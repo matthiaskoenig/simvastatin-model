@@ -1,0 +1,8 @@
+# the results of the simulations, fits and analyses, regenerated
+/results/
+# the COMBINE archives, created by the factory
+*.omex
+# the results of the fits of the former layout
+/results_fit/
+# the liver model with constant cholesterol, created by `models/model_liver.py`
+/models/output/models/simvastatin_liver_cholesterol_constant.xml

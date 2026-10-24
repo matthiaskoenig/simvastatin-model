@@ -1,0 +1,24 @@
+study	name	parent	measurement_type	group_count	choice	substance	count	mean	median	unit	sd	min	max	fractionofall
+Isaacsohn2003	all	NA	species	195	homo sapiens	NA	195	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	all	NA	healthy	195	Y	NA	195	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	all	NA	sex	195	M	NA	142	NA	NA	NA	NA	NA	NA	73.0
+Isaacsohn2003	all	NA	sex	195	F	NA	53	NA	NA	NA	NA	NA	NA	NA
+Isaacsohn2003	all	NA	age	195	NA	NA	51	NA	NA	yr	NA	25.0	70.0	NA
+Isaacsohn2003	all	NA	ethnicity	195	caucasian	NA	181	NA	NA	NA	NA	NA	NA	93.0
+Isaacsohn2003	all	NA	disease	195	cardiovascular system disease	NA	6	NA	NA	NA	NA	NA	NA	3.0
+Isaacsohn2003	all	NA	disease	195	hypertension	NA	47	NA	NA	NA	NA	NA	NA	24.0
+Isaacsohn2003	all	NA	disease	195	t2dm	NA	31	NA	NA	NA	NA	NA	NA	16.0
+Isaacsohn2003	all	NA	disease	195	t1dm	NA	31	NA	NA	NA	NA	NA	NA	16.0
+Isaacsohn2003	all	NA	concentration	195	NA	triglyceride	195	405.0	NA	mg/dl	201.0	NA	NA	NA
+Isaacsohn2003	all	NA	concentration	195	NA	ldl-c	195	123.0	NA	mg/dl	37.0	NA	NA	NA
+Isaacsohn2003	all	NA	concentration	195	NA	cholesterol	195	251.0	NA	mg/dl	49.0	NA	NA	NA
+Isaacsohn2003	all	NA	concentration	195	NA	non-hdl-c	195	213.0	NA	mg/dl	48.0	NA	NA	NA
+Isaacsohn2003	all	NA	concentration	195	NA	apoB100+48	195	154.0	NA	mg/dl	35.0	NA	NA	NA
+Isaacsohn2003	all	NA	concentration	195	NA	hdl-c	195	37.0	NA	mg/dl	9.0	NA	NA	NA
+Isaacsohn2003	all	NA	concentration	195	NA	apoA-I	195	141.0	NA	mg/dl	28.0	NA	NA	NA
+Isaacsohn2003	typeIV hyperlipidemia	all	concentration	117	NA	ldl-c	117	100.0	NA	mg/dl	23.0	NA	130.0	NA
+Isaacsohn2003	typeIV hyperlipidemia	all	concentration	117	NA	triglyceride	117	459.0	NA	mg/dl	204.0	300.0	900.0	NA
+Isaacsohn2003	typeIV hyperlipidemia	all	concentration	117	NA	cholesterol	117	233.0	NA	mg/dl	42.0	NA	NA	NA
+Isaacsohn2003	typeIV hyperlipidemia	all	concentration	117	NA	hdl-c	117	35.0	NA	mg/dl	7.0	NA	NA	NA
+Isaacsohn2003	typeIV hyperlipidemia	all	concentration	117	NA	non-hdl-c	117	198.0	NA	mg/dl	42.0	NA	NA	NA
+Isaacsohn2003	all	NA	alcohol amount	195	NA	NA	195	NA	NA	1/day	NA	NA	7.0	NA

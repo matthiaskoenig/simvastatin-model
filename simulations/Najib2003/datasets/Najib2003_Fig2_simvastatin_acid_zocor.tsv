@@ -1,0 +1,18 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	mean_se	pm	mean_sd	mean_unit	count_unit
+Najib2003	all	24	simvastatin acid_zocor	zocor	concentration	simvastatin acid	plasma	HPLC	0.0	hr	0.0				mole/meter^3	dimensionless
+Najib2003	all	24	simvastatin acid_zocor	zocor	concentration	simvastatin acid	plasma	HPLC	0.3	hr	3.1585027485112237e-07	2.0859024278515805e-08	0.12879318	1.0218793202937953e-07	mole/meter^3	dimensionless
+Najib2003	all	24	simvastatin acid_zocor	zocor	concentration	simvastatin acid	plasma	HPLC	0.7	hr	4.887075355016033e-07	8.043653229500688e-08	0.17825112	3.9405692160333487e-07	mole/meter^3	dimensionless
+Najib2003	all	24	simvastatin acid_zocor	zocor	concentration	simvastatin acid	plasma	HPLC	1.0	hr	6.407092533211178e-07	8.638744846541458e-08	0.2420169	4.2321033784248744e-07	mole/meter^3	dimensionless
+Najib2003	all	24	simvastatin acid_zocor	zocor	concentration	simvastatin acid	plasma	HPLC	1.3	hr	8.254785845167202e-07	1.4000377920293174e-07	0.2992783	6.85875642216924e-07	mole/meter^3	dimensionless
+Najib2003	all	24	simvastatin acid_zocor	zocor	concentration	simvastatin acid	plasma	HPLC	1.6	hr	1.0579100320659642e-06	2.0851463582226296e-07	0.37084603	1.0215089233336051e-06	mole/meter^3	dimensionless
+Najib2003	all	24	simvastatin acid_zocor	zocor	concentration	simvastatin acid	plasma	HPLC	2.0	hr	1.1533198350893265e-06	2.621343563902886e-07	0.38909158	1.2841908344181655e-06	mole/meter^3	dimensionless
+Najib2003	all	24	simvastatin acid_zocor	zocor	concentration	simvastatin acid	plasma	HPLC	2.3	hr	1.290430600091617e-06	2.8001445258818146e-07	0.44114769	1.371785058891592e-06	mole/meter^3	dimensionless
+Najib2003	all	24	simvastatin acid_zocor	zocor	concentration	simvastatin acid	plasma	HPLC	2.6	hr	1.3739216674301422e-06	2.770357306459001e-07	0.4789004	1.3571923612031516e-06	mole/meter^3	dimensionless
+Najib2003	all	24	simvastatin acid_zocor	zocor	concentration	simvastatin acid	plasma	HPLC	3.0	hr	1.421669491525424e-06	2.949124141090243e-07	0.49194214	1.4447698667589602e-06	mole/meter^3	dimensionless
+Najib2003	all	24	simvastatin acid_zocor	zocor	concentration	simvastatin acid	plasma	HPLC	3.5	hr	1.445617132386624e-06	2.7404988547869903e-07	0.51150626	1.3425647669819561e-06	mole/meter^3	dimensionless
+Najib2003	all	24	simvastatin acid_zocor	zocor	concentration	simvastatin acid	plasma	HPLC	4.0	hr	1.460642006413193e-06	2.6809560238204305e-07	0.52066576	1.3133948562401832e-06	mole/meter^3	dimensionless
+Najib2003	all	24	simvastatin acid_zocor	zocor	concentration	simvastatin acid	plasma	HPLC	5.0	hr	1.5651497022446175e-06	2.949158039395328e-07	0.8121046	1.4447864734690793e-06	mole/meter^3	dimensionless
+Najib2003	all	24	simvastatin acid_zocor	zocor	concentration	simvastatin acid	plasma	HPLC	6.0	hr	1.2704914338066882e-06	2.0256706367384333e-07	0.64313734	9.923718893895716e-07	mole/meter^3	dimensionless
+Najib2003	all	24	simvastatin acid_zocor	zocor	concentration	simvastatin acid	plasma	HPLC	8.0	hr	9.433090242785159e-07	1.4001065048098948e-07	0.47297737	6.859093044671691e-07	mole/meter^3	dimensionless
+Najib2003	all	24	simvastatin acid_zocor	zocor	concentration	simvastatin acid	plasma	HPLC	10.0	hr	6.637887081997251e-07	1.0128522675217591e-07	0.33403128	4.961942480498465e-07	mole/meter^3	dimensionless
+Najib2003	all	24	simvastatin acid_zocor	zocor	concentration	simvastatin acid	plasma	HPLC	12.0	hr	6.851384562528631e-07	7.447537792029319e-08	0.3316474	3.6485334861131703e-07	mole/meter^3	dimensionless

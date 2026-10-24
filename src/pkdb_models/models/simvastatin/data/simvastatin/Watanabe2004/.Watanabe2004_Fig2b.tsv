@@ -1,0 +1,23 @@
+study	individual	intervention	measurement_type	substance	method	tissue	time	time_unit	value	unit
+Watanabe2004	Ind12	DIL	auc_end	diltiazem	HPLC	plasma	6	hr	95.86629	ng*hr/ml
+Watanabe2004	Ind12	SIM, DIL	auc_end	diltiazem	HPLC	plasma	6	hr	104.58841	ng*hr/ml
+Watanabe2004	Ind13	DIL	auc_end	diltiazem	HPLC	plasma	6	hr	208.76355	ng*hr/ml
+Watanabe2004	Ind13	SIM, DIL	auc_end	diltiazem	HPLC	plasma	6	hr	242.44304	ng*hr/ml
+Watanabe2004	Ind14	DIL	auc_end	diltiazem	HPLC	plasma	6	hr	246.80411	ng*hr/ml
+Watanabe2004	Ind14	SIM, DIL	auc_end	diltiazem	HPLC	plasma	6	hr	196.0885	ng*hr/ml
+Watanabe2004	Ind15	DIL	auc_end	diltiazem	HPLC	plasma	6	hr	299.10086	ng*hr/ml
+Watanabe2004	Ind15	SIM, DIL	auc_end	diltiazem	HPLC	plasma	6	hr	197.28209	ng*hr/ml
+Watanabe2004	Ind16	DIL	auc_end	diltiazem	HPLC	plasma	6	hr	354.95786	ng*hr/ml
+Watanabe2004	Ind16	SIM, DIL	auc_end	diltiazem	HPLC	plasma	6	hr	225.8048	ng*hr/ml
+Watanabe2004	Ind17	DIL	auc_end	diltiazem	HPLC	plasma	6	hr	364.46542	ng*hr/ml
+Watanabe2004	Ind17	SIM, DIL	auc_end	diltiazem	HPLC	plasma	6	hr	330.3932	ng*hr/ml
+Watanabe2004	Ind18	DIL	auc_end	diltiazem	HPLC	plasma	6	hr	392.98813	ng*hr/ml
+Watanabe2004	Ind18	SIM, DIL	auc_end	diltiazem	HPLC	plasma	6	hr	294.73468	ng*hr/ml
+Watanabe2004	Ind19	DIL	auc_end	diltiazem	HPLC	plasma	6	hr	439.32214	ng*hr/ml
+Watanabe2004	Ind19	SIM, DIL	auc_end	diltiazem	HPLC	plasma	6	hr	383.863	ng*hr/ml
+Watanabe2004	Ind20	DIL	auc_end	diltiazem	HPLC	plasma	6	hr	479.73956	ng*hr/ml
+Watanabe2004	Ind20	SIM, DIL	auc_end	diltiazem	HPLC	plasma	6	hr	427.83554	ng*hr/ml
+Watanabe2004	Ind21	DIL	auc_end	diltiazem	HPLC	plasma	6	hr	503.5085	ng*hr/ml
+Watanabe2004	Ind21	SIM, DIL	auc_end	diltiazem	HPLC	plasma	6	hr	294.72955	ng*hr/ml
+Watanabe2004	Ind22	DIL	auc_end	diltiazem	HPLC	plasma	6	hr	653.25275	ng*hr/ml
+Watanabe2004	Ind22	SIM, DIL	auc_end	diltiazem	HPLC	plasma	6	hr	493.20007	ng*hr/ml

@@ -1,0 +1,3 @@
+study	group	count	intervention	measurement_type	substance	method	label	tissue	time	time_unit	mean	median	mean_sd	mean_se	change	change_sd	baseline	baseline_unit	mean_unit	median_unit	count_unit
+Isaacsohn2003	all	46	SIM40	concentration	cholesterol	enzymatic assay	SIM40_cholesterol_concentration	plasma	0	week	6.3098008792345475		1.3447116627876905	0.19826691802572144			244	mg/dl	mole/meter^3	mg/dl	dimensionless
+Isaacsohn2003	all	46	SIM40	concentration	cholesterol	enzymatic assay	SIM40_cholesterol_concentration	plasma	6	week	4.654771140418929		1.060253426428756	0.15632583921258805	-25.8	10.1	244	mg/dl	mole/meter^3	mg/dl	dimensionless

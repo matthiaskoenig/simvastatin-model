@@ -1,0 +1,4 @@
+study	group	label	count	intervention	measurement_type	substance	tissue	time	time_unit	mean	mean_sd	mean_se	mean_unit	count_unit
+Loria1993	all	hdl-c_plasma	5	SIM80	concentration	hdl-c	plasma	0	hr	1.2154124644427202	0.25859839668994045	0.1156487187742327	mole/meter^3	dimensionless
+Loria1993	all	hdl-c_plasma	5	SIM80	concentration	hdl-c	plasma	8	hr	1.137832945435738	0.25859839668994045	0.1156487187742327	mole/meter^3	dimensionless
+Loria1993	all	hdl-c_plasma	5	SIM80	concentration	hdl-c	plasma	18	hr	1.189552624773726	0.2844582363589345	0.12721359065165602	mole/meter^3	dimensionless

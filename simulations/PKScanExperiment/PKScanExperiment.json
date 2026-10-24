@@ -1,0 +1,162 @@
+{
+  "experiment_id": "PKScanExperiment",
+  "base_path": "/home/mkoenig/git/simvastatin-model/src/pkdb_models/models/simvastatin",
+  "data_path": [
+    "/home/mkoenig/git/simvastatin-model/src/pkdb_models/models/simvastatin/data/simvastatin",
+    "/home/mkoenig/git/simvastatin-model/src/pkdb_models/models/simvastatin/data/cholesterol"
+  ],
+  "models": {
+    "model": {
+      "sid": null,
+      "name": null,
+      "language": "SBML",
+      "language_type": "SBML",
+      "source": {
+        "source": "/home/mkoenig/git/simvastatin-model/src/pkdb_models/models/simvastatin/models/output/models/simvastatin_body_flat.xml",
+        "path": "/home/mkoenig/git/simvastatin-model/src/pkdb_models/models/simvastatin/models/output/models/simvastatin_body_flat.xml",
+        "content": null
+      },
+      "base_path": null,
+      "changes": {},
+      "selections": [
+        "PODOSE_simva",
+        "[Cve_simacid]",
+        "[Cve_simva]",
+        "time"
+      ],
+      "parameters": {}
+    }
+  },
+  "tasks": {
+    "task_simva_po_scan": {
+      "sid": "model__simva_po_scan",
+      "name": null,
+      "model": "model",
+      "simulation": "simva_po_scan",
+      "observables": []
+    }
+  },
+  "observables": {},
+  "simulations": {
+    "simva_po_scan": {
+      "type": "Scan",
+      "simulation": {
+        "type": "Simulation",
+        "time_unit": "min",
+        "start": 0.0,
+        "end": 2880,
+        "preinit_changes": {},
+        "changes": [],
+        "presimulation": null,
+        "times": null,
+        "steps": null,
+        "time_shift": 0.0
+      },
+      "dimensions": [
+        {
+          "id": "dim_dose",
+          "kind": "values",
+          "labels": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "values": {
+            "PODOSE_simva": {
+              "value": [
+                0.1,
+                0.16378937069540642,
+                0.2682695795279726,
+                0.43939705607607904,
+                0.7196856730011519,
+                1.1787686347935873,
+                1.9306977288832496,
+                3.1622776601683795,
+                5.17947467923121,
+                8.483428982440717,
+                13.894954943731374,
+                22.758459260747887,
+                37.27593720314938,
+                61.054022965853264,
+                100.0
+              ],
+              "unit": "milligram"
+            }
+          },
+          "simulations": {},
+          "models": {},
+          "at": null,
+          "design": null,
+          "coordinates": {}
+        }
+      ]
+    }
+  },
+  "data": {
+    "task_simva_po_scan__time": {
+      "type": "TASK",
+      "sid": "task_simva_po_scan__time",
+      "index": "time",
+      "selection": "time",
+      "unit": null,
+      "task": "task_simva_po_scan",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_simva_po_scan__PODOSE_simva": {
+      "type": "TASK",
+      "sid": "task_simva_po_scan__PODOSE_simva",
+      "index": "PODOSE_simva",
+      "selection": "PODOSE_simva",
+      "unit": null,
+      "task": "task_simva_po_scan",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_simva_po_scan__conc__Cve_simva": {
+      "type": "TASK",
+      "sid": "task_simva_po_scan__conc__Cve_simva",
+      "index": "Cve_simva",
+      "selection": "[Cve_simva]",
+      "unit": null,
+      "task": "task_simva_po_scan",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_simva_po_scan__conc__Cve_simacid": {
+      "type": "TASK",
+      "sid": "task_simva_po_scan__conc__Cve_simacid",
+      "index": "Cve_simacid",
+      "selection": "[Cve_simacid]",
+      "unit": null,
+      "task": "task_simva_po_scan",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    }
+  },
+  "figures": {}
+}

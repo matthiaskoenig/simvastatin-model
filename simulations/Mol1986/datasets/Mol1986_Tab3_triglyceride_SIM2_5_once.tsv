@@ -1,0 +1,3 @@
+study	group	count	intervention	measurement_type	substance	label	tissue	time	time_unit	mean	mean_sd	mean_se	mean_unit	change	change_sd	change_unit	count_unit
+Mol1986	all	8	SIM2_5_once	concentration	triglyceride	SIM2_5_once_triglyceride	serum	0	weeks	2.19	1.14	0.403050865276332	mmol/l			percent	dimensionless
+Mol1986	all	8	SIM2_5_once	concentration	triglyceride	SIM2_5_once_triglyceride	serum	4	weeks	1.71	0.89	0.314662517628014	mmol/l	-17.4	18.3	percent	dimensionless

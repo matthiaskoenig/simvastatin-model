@@ -1,0 +1,61 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	se	pm	sd	unit
+Kantola1998	all	12	SIM+ERY_simvastatin	SIM,ERY	concentration	simvastatin	serum	HPLC	0.0	hr	0.0	na	na	na	ng/ml
+Kantola1998	all	12	SIM+ERY_simvastatin	SIM,ERY	concentration	simvastatin	serum	HPLC	0.5	hr	16.38023	4.926321	21.306551	17.065276532787	ng/ml
+Kantola1998	all	12	SIM+ERY_simvastatin	SIM,ERY	concentration	simvastatin	serum	HPLC	1.0	hr	34.030632	6.873035	40.903667	23.8088916443983	ng/ml
+Kantola1998	all	12	SIM+ERY_simvastatin	SIM,ERY	concentration	simvastatin	serum	HPLC	2.0	hr	24.866299	3.831741	28.69804	13.2735401868895	ng/ml
+Kantola1998	all	12	SIM+ERY_simvastatin	SIM,ERY	concentration	simvastatin	serum	HPLC	3.0	hr	15.214784	2.310809	17.525593	8.00487718917486	ng/ml
+Kantola1998	all	12	SIM+ERY_simvastatin	SIM,ERY	concentration	simvastatin	serum	HPLC	4.0	hr	9.760541	1.885602	11.646143	6.53191693370698	ng/ml
+Kantola1998	all	12	SIM+ERY_simvastatin	SIM,ERY	concentration	simvastatin	serum	HPLC	6.0	hr	4.448321	1.155691	5.604012	4.00343105970017	ng/ml
+Kantola1998	all	12	SIM+ERY_simvastatin	SIM,ERY	concentration	simvastatin	serum	HPLC	8.0	hr	1.9949158	0.8509882	2.845904	2.94790959808317	ng/ml
+Kantola1998	all	12	SIM+ERY_simvastatin	SIM,ERY	concentration	simvastatin	serum	HPLC	12.0	hr	0.73737	na	na	na	ng/ml
+Kantola1998	all	12	SIM+ERY_simvastatin	SIM,ERY	concentration	simvastatin	serum	HPLC	24.0	hr	0.0	na	na	na	ng/ml
+Kantola1998	all	12	SIM+VER_simvastatin	SIM,VER	concentration	simvastatin	serum	HPLC	0.0	hr	0.0	na	na	na	ng/ml
+Kantola1998	all	12	SIM+VER_simvastatin	SIM,VER	concentration	simvastatin	serum	HPLC	0.5	hr	5.1882734	3.2848832	1.9033902	11.3791691986589	ng/ml
+Kantola1998	all	12	SIM+VER_simvastatin	SIM,VER	concentration	simvastatin	serum	HPLC	1.0	hr	19.371313	3.832315	15.538998	13.2755285812166	ng/ml
+Kantola1998	all	12	SIM+VER_simvastatin	SIM,VER	concentration	simvastatin	serum	HPLC	2.0	hr	22.493803	3.588726	18.905077	12.4317115328869	ng/ml
+Kantola1998	all	12	SIM+VER_simvastatin	SIM,VER	concentration	simvastatin	serum	HPLC	3.0	hr	13.815502	1.337881	12.477621	4.63455573296212	ng/ml
+Kantola1998	all	12	SIM+VER_simvastatin	SIM,VER	concentration	simvastatin	serum	HPLC	4.0	hr	8.969519	0.851563000000001	8.117956	2.94990076369155	ng/ml
+Kantola1998	all	12	SIM+VER_simvastatin	SIM,VER	concentration	simvastatin	serum	HPLC	6.0	hr	2.6840842	0.790736	1.8933482	2.73918985474757	ng/ml
+Kantola1998	all	12	SIM+VER_simvastatin	SIM,VER	concentration	simvastatin	serum	HPLC	8.0	hr	1.2041798	na	na	na	ng/ml
+Kantola1998	all	12	SIM+VER_simvastatin	SIM,VER	concentration	simvastatin	serum	HPLC	12.0	hr	0.43324074	na	na	na	ng/ml
+Kantola1998	all	12	SIM+VER_simvastatin	SIM,VER	concentration	simvastatin	serum	HPLC	24.0	hr	0.0	na	na	na	ng/ml
+Kantola1998	all	12	SIM_simvastatin	SIM	concentration	simvastatin	serum	HPLC	0.0	hr	0.0	na	na	na	ng/ml
+Kantola1998	all	12	SIM_simvastatin	SIM	concentration	simvastatin	serum	HPLC	0.5	hr	0.20055316	0.30412924	0.5046824	1.05353459149462	ng/ml
+Kantola1998	all	12	SIM_simvastatin	SIM	concentration	simvastatin	serum	HPLC	1.0	hr	6.5975966	1.8856016	4.711995	6.53191554806633	ng/ml
+Kantola1998	all	12	SIM_simvastatin	SIM	concentration	simvastatin	serum	HPLC	2.0	hr	7.895311	1.4603945	6.4349165	5.05895494618829	ng/ml
+Kantola1998	all	12	SIM_simvastatin	SIM	concentration	simvastatin	serum	HPLC	3.0	hr	2.6235454	0.7293363	3.3528817	2.5264950548086	ng/ml
+Kantola1998	all	12	SIM_simvastatin	SIM	concentration	simvastatin	serum	HPLC	4.0	hr	1.0621572	0.66851063	0.39364657	2.31578875311976	ng/ml
+Kantola1998	all	12	SIM_simvastatin	SIM	concentration	simvastatin	serum	HPLC	6.0	hr	0.0	na	na	na	ng/ml
+Kantola1998	all	12	SIM_simvastatin	SIM	concentration	simvastatin	serum	HPLC	8.0	hr	0.0	na	na	na	ng/ml
+Kantola1998	all	12	SIM_simvastatin	SIM	concentration	simvastatin	serum	HPLC	12.0	hr	0.0	na	na	na	ng/ml
+Kantola1998	all	12	SIM_simvastatin	SIM	concentration	simvastatin	serum	HPLC	24.0	hr	0.0	na	na	na	ng/ml
+Kantola1998	all	12	SIM+ERY_simvastatin acid	SIM,ERY	concentration	simvastatin acid	serum	HPLC	0.0	hr	0.0	na	na	na	ng/ml
+Kantola1998	all	12	SIM+ERY_simvastatin acid	SIM,ERY	concentration	simvastatin acid	serum	HPLC	0.5	hr	1.2643197	0.6302421	1.8945618	2.18322267653781	ng/ml
+Kantola1998	all	12	SIM+ERY_simvastatin acid	SIM,ERY	concentration	simvastatin acid	serum	HPLC	1.0	hr	8.781431	1.866599	10.64803	6.46608861071452	ng/ml
+Kantola1998	all	12	SIM+ERY_simvastatin acid	SIM,ERY	concentration	simvastatin acid	serum	HPLC	2.0	hr	13.488557	2.812047	16.300604	9.74121655454328	ng/ml
+Kantola1998	all	12	SIM+ERY_simvastatin acid	SIM,ERY	concentration	simvastatin acid	serum	HPLC	3.0	hr	14.12292	3.15144	17.27436	10.9169083940097	ng/ml
+Kantola1998	all	12	SIM+ERY_simvastatin acid	SIM,ERY	concentration	simvastatin acid	serum	HPLC	4.0	hr	13.472385	3.17574	16.648125	11.0010860632576	ng/ml
+Kantola1998	all	12	SIM+ERY_simvastatin acid	SIM,ERY	concentration	simvastatin acid	serum	HPLC	6.0	hr	8.025713	1.551679	9.577392	5.37517373007534	ng/ml
+Kantola1998	all	12	SIM+ERY_simvastatin acid	SIM,ERY	concentration	simvastatin acid	serum	HPLC	8.0	hr	4.5914373	0.7999382	3.7914991	2.77106721063039	ng/ml
+Kantola1998	all	12	SIM+ERY_simvastatin acid	SIM,ERY	concentration	simvastatin acid	serum	HPLC	12.0	hr	1.7228624	0.7756386	2.498501	2.68689092702319	ng/ml
+Kantola1998	all	12	SIM+ERY_simvastatin acid	SIM,ERY	concentration	simvastatin acid	serum	HPLC	24.0	hr	0.23191881	0.31514973	0.54706854	1.09171068870323	ng/ml
+Kantola1998	all	12	SIM+VER _simvastatin acid	SIM,VER	concentration	simvastatin acid	serum	HPLC	0.0	hr	0.0	na	na	na	ng/ml
+Kantola1998	all	12	SIM+VER _simvastatin acid	SIM,VER	concentration	simvastatin acid	serum	HPLC	0.5	hr	0.0	na	na	na	ng/ml
+Kantola1998	all	12	SIM+VER _simvastatin acid	SIM,VER	concentration	simvastatin acid	serum	HPLC	1.0	hr	2.042019	0.7999954	1.2420236	2.77126535724277	ng/ml
+Kantola1998	all	12	SIM+VER _simvastatin acid	SIM,VER	concentration	simvastatin acid	serum	HPLC	2.0	hr	6.3855095	1.3333255	5.052184	4.61877501805436	ng/ml
+Kantola1998	all	12	SIM+VER _simvastatin acid	SIM,VER	concentration	simvastatin acid	serum	HPLC	3.0	hr	8.886415	1.939326	6.947089	6.71802232887864	ng/ml
+Kantola1998	all	12	SIM+VER _simvastatin acid	SIM,VER	concentration	simvastatin acid	serum	HPLC	4.0	hr	9.01169	1.9635676	7.0481224	6.80199769459216	ng/ml
+Kantola1998	all	12	SIM+VER _simvastatin acid	SIM,VER	concentration	simvastatin acid	serum	HPLC	6.0	hr	6.9106827	1.3575107	5.553172	4.70255500843678	ng/ml
+Kantola1998	all	12	SIM+VER _simvastatin acid	SIM,VER	concentration	simvastatin acid	serum	HPLC	8.0	hr	4.955186	0.8241805	5.7793665	2.85504500121504	ng/ml
+Kantola1998	all	12	SIM+VER _simvastatin acid	SIM,VER	concentration	simvastatin acid	serum	HPLC	12.0	hr	1.553109	0.1939382	1.3591708	0.671821631856909	ng/ml
+Kantola1998	all	12	SIM+VER _simvastatin acid	SIM,VER	concentration	simvastatin acid	serum	HPLC	24.0	hr	0.0	na	na	na	ng/ml
+Kantola1998	all	12	SIM_simvastatin acid	SIM	concentration	simvastatin acid	serum	HPLC	0.0	hr	0.0	na	na	na	ng/ml
+Kantola1998	all	12	SIM_simvastatin acid	SIM	concentration	simvastatin acid	serum	HPLC	0.5	hr	0.027848575	na	na	na	ng/ml
+Kantola1998	all	12	SIM_simvastatin acid	SIM	concentration	simvastatin acid	serum	HPLC	1.0	hr	0.17530578	na	na	na	ng/ml
+Kantola1998	all	12	SIM_simvastatin acid	SIM	concentration	simvastatin acid	serum	HPLC	2.0	hr	1.8280171	0.6546561	1.173361	2.26779525336978	ng/ml
+Kantola1998	all	12	SIM_simvastatin acid	SIM	concentration	simvastatin acid	serum	HPLC	3.0	hr	2.5592356	0.9940483	1.5651873	3.44348432155494	ng/ml
+Kantola1998	all	12	SIM_simvastatin acid	SIM	concentration	simvastatin acid	serum	HPLC	4.0	hr	2.3208196	0.9696914	1.3511282	3.35910954492519	ng/ml
+Kantola1998	all	12	SIM_simvastatin acid	SIM	concentration	simvastatin acid	serum	HPLC	6.0	hr	1.7713755	0.7273831	1.0439924	2.51972897153391	ng/ml
+Kantola1998	all	12	SIM_simvastatin acid	SIM	concentration	simvastatin acid	serum	HPLC	8.0	hr	1.4885393	0.654599	0.8339403	2.26759745316756	ng/ml
+Kantola1998	all	12	SIM_simvastatin acid	SIM	concentration	simvastatin acid	serum	HPLC	12.0	hr	0.6561445	0.46066067	0.19548383	1.59577537097744	ng/ml
+Kantola1998	all	12	SIM_simvastatin acid	SIM	concentration	simvastatin acid	serum	HPLC	24.0	hr	0.2561611	na	na	na	ng/ml

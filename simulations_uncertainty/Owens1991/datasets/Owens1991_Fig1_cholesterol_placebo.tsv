@@ -1,0 +1,5 @@
+study	group	count	intervention	measurement_type	substance	method	tissue	label	time	time_unit	mean	mean_se	mean_sd	mean_unit	count_unit
+Owens1991	all	5	placebo	concentration	cholesterol	 enzymatic coiorimetric methods	serum	cholesterol_placebo	0	weeks	7.160635			mmol/l	dimensionless
+Owens1991	all	5	placebo	concentration	cholesterol	 enzymatic coiorimetric methods	serum	cholesterol_placebo	4	weeks	7.445253			mmol/l	dimensionless
+Owens1991	all	5	placebo	concentration	cholesterol	 enzymatic coiorimetric methods	serum	cholesterol_placebo	8	weeks	6.8906283			mmol/l	dimensionless
+Owens1991	all	5	placebo	concentration	cholesterol	 enzymatic coiorimetric methods	serum	cholesterol_placebo	12	weeks	7.2352886			mmol/l	dimensionless

@@ -1,0 +1,3 @@
+study	group	label	count	intervention	measurement_type	substance	tissue	time	time_unit	mean	mean_sd	mean_se	mean_unit	count_unit
+Kosoglou2002	SIM10	SIM10_ldl-c	12	SIM10	concentration	ldl-c	serum	0	day	4.3315231445565034	0.7972719000446339	0.23015257305404702	mole/meter^3	dimensionless
+Kosoglou2002	SIM10	SIM10_ldl-c	12	SIM10	concentration	ldl-c	serum	13	day	2.8032066201189547	0.5822772303696766	0.1680889578484613	mole/meter^3	dimensionless

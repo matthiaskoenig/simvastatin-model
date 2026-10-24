@@ -1,0 +1,8 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	comment	mean_unit	count_unit
+Jacobson2004	CLA_SIM	15	CLA_SIM_SIM2	SIM2	concentration	simvastatin	serum	LC MS/MS	0.5	hr	2.3076923076923077e-06	multiple dosing	mole/meter^3	dimensionless
+Jacobson2004	CLA_SIM	15	CLA_SIM_SIM2	SIM2	concentration	simvastatin	serum	LC MS/MS	1.0	hr	9.866220735785951e-06	multiple dosing	mole/meter^3	dimensionless
+Jacobson2004	CLA_SIM	15	CLA_SIM_SIM2	SIM2	concentration	simvastatin	serum	LC MS/MS	2.0	hr	1.3401815575728618e-05	multiple dosing	mole/meter^3	dimensionless
+Jacobson2004	CLA_SIM	15	CLA_SIM_SIM2	SIM2	concentration	simvastatin	serum	LC MS/MS	3.0	hr	1.2732919254658384e-05	multiple dosing	mole/meter^3	dimensionless
+Jacobson2004	CLA_SIM	15	CLA_SIM_SIM2	SIM2	concentration	simvastatin	serum	LC MS/MS	4.0	hr	9.316770186335402e-06	multiple dosing	mole/meter^3	dimensionless
+Jacobson2004	CLA_SIM	15	CLA_SIM_SIM2	SIM2	concentration	simvastatin	serum	LC MS/MS	6.0	hr	3.177257525083612e-06	multiple dosing	mole/meter^3	dimensionless
+Jacobson2004	CLA_SIM	15	CLA_SIM_SIM2	SIM2	concentration	simvastatin	serum	LC MS/MS	8.0	hr	1.8107978977544192e-06	multiple dosing	mole/meter^3	dimensionless

@@ -1,0 +1,3 @@
+study	group	count	intervention	measurement_type	substance	time	time_unit	tissue	mean	mean_sd	median	min	max	median_change	min_change	max_change	unitchange	baseline	baseline_unit	mean_unit	median_unit	count_unit
+Davidson1997	all	144	SIM80	concentration change	cholesterol	0	weeks	plasma	0.0	0.0	0.0							282.0	mg/dl	percent	percent	dimensionless
+Davidson1997	all	144	SIM80	concentration change	cholesterol	6	weeks	plasma	-35.0		-35.0	-41.0	-28.0	-35.0	-41.0	-28.0	percent	282.0	mg/dl	percent	percent	dimensionless

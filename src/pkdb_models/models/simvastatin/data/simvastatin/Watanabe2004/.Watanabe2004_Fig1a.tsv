@@ -1,0 +1,11 @@
+study	group	count	intervention	measurement_type	substance	label	tissue	time	time_curated	time_unit	mean	sd	se	unit	sdpm	timeoffset
+Watanabe2004	all	11	SIM	concentration	active simva inhibitors	active simva inhibitors_SIM	plasma	648	0	hr	0.024752155	na	na	ng/ml	na	648
+Watanabe2004	all	11	SIM	concentration	active simva inhibitors	active simva inhibitors_SIM	plasma	650	2	hr	7.6353784	2.1396444	0.645127059962283	ng/ml	5.495734	648
+Watanabe2004	all	11	SIM	concentration	active simva inhibitors	active simva inhibitors_SIM	plasma	651	3	hr	5.401881	2.9842947	0.899798707613294	ng/ml	2.4175863	648
+Watanabe2004	all	11	SIM	concentration	active simva inhibitors	active simva inhibitors_SIM	plasma	652	4	hr	2.830599	1.1824348	0.356517506423539	ng/ml	1.6481642	648
+Watanabe2004	all	11	SIM	concentration	active simva inhibitors	active simva inhibitors_SIM	plasma	654	6	hr	1.573017	0.4784427	0.144255901780416	ng/ml	1.0945743	648
+Watanabe2004	all	11	SIM, DIL	concentration	active simva inhibitors	active simva inhibitors_SIM, DIL	plasma	648	0	hr	0.16530228	0.76056867	0.229320082335421	ng/ml	0.92587095	648
+Watanabe2004	all	11	SIM, DIL	concentration	active simva inhibitors	active simva inhibitors_SIM, DIL	plasma	650	2	hr	13.068949	8.586731	2.58899680933756	ng/ml	21.65568	648
+Watanabe2004	all	11	SIM, DIL	concentration	active simva inhibitors	active simva inhibitors_SIM, DIL	plasma	651	3	hr	11.03247	6.165662	1.85901703983202	ng/ml	17.198132	648
+Watanabe2004	all	11	SIM, DIL	concentration	active simva inhibitors	active simva inhibitors_SIM, DIL	plasma	652	4	hr	5.73038	3.7163325	1.12051640897304	ng/ml	9.4467125	648
+Watanabe2004	all	11	SIM, DIL	concentration	active simva inhibitors	active simva inhibitors_SIM, DIL	plasma	654	6	hr	3.4592824	2.9563576	0.89137535502869	ng/ml	6.41564	648

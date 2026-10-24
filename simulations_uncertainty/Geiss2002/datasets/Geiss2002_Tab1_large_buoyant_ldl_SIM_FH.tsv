@@ -1,0 +1,3 @@
+study	group	count	intervention	measurement_type	substance	tissue	label	time	time_unit	mean	mean_sd	mean_se	mean_unit	count_unit
+Geiss2002	hetero_FH	9	SIM_FH	concentration	large-buoyant-ldl	plasma	SIM_FH_large-buoyant-ldl	0	weeks	0.9	0.3	0.1	mmol/l	dimensionless
+Geiss2002	hetero_FH	9	SIM_FH	concentration	large-buoyant-ldl	plasma	SIM_FH_large-buoyant-ldl	4	weeks	0.6	0.2	0.0666666666666667	mmol/l	dimensionless

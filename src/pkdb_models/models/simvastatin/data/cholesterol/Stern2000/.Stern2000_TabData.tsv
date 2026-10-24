@@ -1,0 +1,9 @@
+study	name_figure	name_image	shared	name	dimensions	x_label	y_label
+Stern2000	Fig3a	Fig3	individual	beta_vs_friedwald_ato5	beta quant_ATO5, friedewald_ATO5	friedewald_ATO5	beta quant_ATO5
+Stern2000	Fig3b	Fig3	individual	beta_vs_friedwald_ato20	beta quant_ATO20, friedewald_ATO20	friedewald_ATO20	beta quant_ATO20
+Stern2000	Fig3c	Fig3	individual	beta_vs_friedwald_ato80	beta quant_ATO80, friedewald_ATO80	friedewald_ATO80	beta quant_ATO80
+Stern2000	Fig4a	Fig4	individual	ldl_apoB_vs_ldlc_friedewald	ldl-apoB100+48_immunoturbidimetry, ldl-c_friedewald	ldl-c_friedewald	ldl-apoB100+48_immunoturbidimetry
+Stern2000	Fig4b	Fig4	individual	ldl_apoB_vs_ldlc_betaquant	immunoturbidimetry_ldl-apoB100+48, ldl-c_beta quant	ldl-c_beta quant	immunoturbidimetry_ldl-apoB100+48
+Stern2000	Fig5a	Fig5	individual	ATO5_apoB_vs_ldlc	ATO5_ldl-c, ATO5_total atorva inhibitors	ATO5_total atorva inhibitors	ATO5_ldl-c
+Stern2000	Fig5b	Fig5	individual	ATO20_apoB_vs_ldlc	ATO20_ldl-c, ATO20_total atorva inhibitors	ATO20_total atorva inhibitors	ATO20_ldl-c
+Stern2000	Fig5c	Fig5	individual	ATO80_apoB_vs_ldlc	ATO80_ldl-c, ATO80_total atorva inhibitors	ATO80_total atorva inhibitors	ATO80_ldl-c

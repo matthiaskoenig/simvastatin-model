@@ -1,0 +1,21 @@
+study	name	parent	measurement_type	group_count	choice	substance	count	mean	unit	sd	min	max
+Keskitalo2008	all	NA	healthy	24	Y	NA	24	NA	NA	NA	NA	NA
+Keskitalo2008	all	NA	species	24	homo sapiens	NA	24	NA	NA	NA	NA	NA
+Keskitalo2008	all	NA	abstinence	24	NA	nicotine	24	NA	NA	NA	NA	NA
+Keskitalo2008	all	NA	abstinence	24	NA	grapefruit juice	24	NA	NA	NA	NA	NA
+Keskitalo2008	all	NA	medication	24	N	NA	24	NA	NA	NA	NA	NA
+Keskitalo2008	all	NA	overnight fast	24	Y	NA	24	NA	NA	NA	NA	NA
+Keskitalo2008	all	NA	sex	24	M	NA	14	NA	NA	NA	NA	NA
+Keskitalo2008	all	NA	sex	24	F	NA	10	NA	NA	NA	NA	NA
+Keskitalo2008	CGC/CGC	all	ABCB1 genotype	12	CGC	NA	12	NA	NA	NA	NA	NA
+Keskitalo2008	CGC/CGC	all	sex	12	M	NA	7	NA	NA	NA	NA	NA
+Keskitalo2008	CGC/CGC	all	sex	12	F	NA	5	NA	NA	NA	NA	NA
+Keskitalo2008	CGC/CGC	all	age	12	NA	NA	12	22.0	yr	2.0	NA	NA
+Keskitalo2008	CGC/CGC	all	height	12	NA	NA	12	178.0	cm	11.0	NA	NA
+Keskitalo2008	CGC/CGC	all	weight	12	NA	NA	12	68.0	kg	12.0	NA	NA
+Keskitalo2008	TTT/TTT	all	ABCB1 genotype	12	TTT	NA	12	NA	NA	NA	NA	NA
+Keskitalo2008	TTT/TTT	all	sex	12	M	NA	7	NA	NA	NA	NA	NA
+Keskitalo2008	TTT/TTT	all	sex	12	F	NA	5	NA	NA	NA	NA	NA
+Keskitalo2008	TTT/TTT	all	age	12	NA	NA	12	24.0	yr	3.0	NA	NA
+Keskitalo2008	TTT/TTT	all	height	12	NA	NA	12	174.0	cm	10.0	NA	NA
+Keskitalo2008	TTT/TTT	all	weight	12	NA	NA	12	66.0	kg	10.0	NA	NA

@@ -1,0 +1,12 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	mean_se	pm	mean_sd	mean_unit	count_unit
+Ucar2004	all	12	SIM+CAR_simvastatin	SIM,CAR	concentration	simvastatin	serum	LC MS/MS	0.0	hr	5.997277353081701e-08				mole/meter^3	dimensionless
+Ucar2004	all	12	SIM+CAR_simvastatin	SIM,CAR	concentration	simvastatin	serum	LC MS/MS	0.5	hr	5.277603917821308e-06	1.97910176779742e-06	3.037657	6.85580963034902e-06	mole/meter^3	dimensionless
+Ucar2004	all	12	SIM+CAR_simvastatin	SIM,CAR	concentration	simvastatin	serum	LC MS/MS	1.0	hr	8.696052317247969e-06	2.1590193502150025e-06	4.543933	7.479062418193454e-06	mole/meter^3	dimensionless
+Ucar2004	all	12	SIM+CAR_simvastatin	SIM,CAR	concentration	simvastatin	serum	LC MS/MS	1.5	hr	7.616542283803152e-06	1.5592916865742953e-06	3.8410041	5.401544849932895e-06	mole/meter^3	dimensionless
+Ucar2004	all	12	SIM+CAR_simvastatin	SIM,CAR	concentration	simvastatin	serum	LC MS/MS	2.0	hr	6.836895843287147e-06	1.3793741041567127e-06	3.4393306	4.778292062088462e-06	mole/meter^3	dimensionless
+Ucar2004	all	12	SIM+CAR_simvastatin	SIM,CAR	concentration	simvastatin	serum	LC MS/MS	3.0	hr	8.87597061634018e-06	2.638801481127568e-06	4.8200836	9.14107647280191e-06	mole/meter^3	dimensionless
+Ucar2004	all	12	SIM+CAR_simvastatin	SIM,CAR	concentration	simvastatin	serum	LC MS/MS	4.0	hr	5.817358576206402e-06	1.4393471094123266e-06	3.037657	4.986044646459101e-06	mole/meter^3	dimensionless
+Ucar2004	all	12	SIM+CAR_simvastatin	SIM,CAR	concentration	simvastatin	serum	LC MS/MS	6.0	hr	2.6987747252747254e-06	7.196731963688485e-07	1.4309623	2.4930210819126854e-06	mole/meter^3	dimensionless
+Ucar2004	all	12	SIM+CAR_simvastatin	SIM,CAR	concentration	simvastatin	serum	LC MS/MS	9.0	hr	1.3793737935977067e-06				mole/meter^3	dimensionless
+Ucar2004	all	12	SIM+CAR_simvastatin	SIM,CAR	concentration	simvastatin	serum	LC MS/MS	12.0	hr	8.995915671285236e-07				mole/meter^3	dimensionless
+Ucar2004	all	12	SIM+CAR_simvastatin	SIM,CAR	concentration	simvastatin	serum	LC MS/MS	24.0	hr	4.1980938843764927e-07				mole/meter^3	dimensionless

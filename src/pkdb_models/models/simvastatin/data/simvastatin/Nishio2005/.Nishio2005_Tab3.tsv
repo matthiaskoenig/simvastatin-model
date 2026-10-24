@@ -1,0 +1,7 @@
+study	group	count	intervention	measurement_type	substance	method	tissue	time	time_unit	mean	sd	se	mean_unit
+Nishio2005	all	8	SIM, ENA	blood pressure systolic	na	NR	na	4	weeks	135	19	6.7175144212722	mmHg
+Nishio2005	all	8	SIM	blood pressure systolic	na	NR	na	4	weeks	152	22	7.77817459305202	mmHg
+Nishio2005	all	8	SIM, AML	blood pressure systolic	na	NR	na	4	weeks	140	17	6.01040764008565	mmHg
+Nishio2005	all	8	SIM, ENA	blood pressure diastolic	na	NR	na	4	weeks	78	13	4.59619407771256	mmHg
+Nishio2005	all	8	SIM	blood pressure diastolic	na	NR	na	4	weeks	89	13	4.59619407771256	mmHg
+Nishio2005	all	8	SIM, AML	blood pressure diastolic	na	NR	na	4	weeks	81	11	3.88908729652601	mmHg

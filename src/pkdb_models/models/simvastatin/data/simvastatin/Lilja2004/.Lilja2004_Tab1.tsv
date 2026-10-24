@@ -1,0 +1,17 @@
+study	group	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	sd	min	max	unit
+Lilja2004	all	SIM	cmax	simvastatin	plasma	HPLC MS/MS	NA	NA	7.3	3.4	NA	NA	ng/ml
+Lilja2004	all	SIM	tmax	simvastatin	plasma	HPLC MS/MS	NA	NA	1.5	NA	1.0	4.0	hr
+Lilja2004	all	SIM	thalf	simvastatin	plasma	HPLC MS/MS	NA	NA	2.7	1.9	NA	NA	hr
+Lilja2004	all	SIM	auc_end	simvastatin	plasma	HPLC MS/MS	24.0	hr	31.6	17.2	NA	NA	ng/ml*hr
+Lilja2004	all	SIM,GRA	cmax	simvastatin	plasma	HPLC MS/MS	NA	NA	28.5	13.0	NA	NA	ng/ml
+Lilja2004	all	SIM,GRA	tmax	simvastatin	plasma	HPLC MS/MS	NA	NA	3.0	NA	2.0	3.0	hr
+Lilja2004	all	SIM,GRA	thalf	simvastatin	plasma	HPLC MS/MS	NA	NA	2.0	0.7	NA	NA	hr
+Lilja2004	all	SIM,GRA	auc_end	simvastatin	plasma	HPLC MS/MS	24.0	hr	112.5	42.6	NA	NA	ng/ml*hr
+Lilja2004	all	SIM	cmax	simvastatin acid	plasma	HPLC MS/MS	NA	NA	2.6	1.3	NA	NA	ng/ml
+Lilja2004	all	SIM	tmax	simvastatin acid	plasma	HPLC MS/MS	NA	NA	4.0	NA	3.0	6.0	hr
+Lilja2004	all	SIM	thalf	simvastatin acid	plasma	HPLC MS/MS	NA	NA	2.9	0.7	NA	NA	hr
+Lilja2004	all	SIM	auc_end	simvastatin acid	plasma	HPLC MS/MS	24.0	hr	18.5	9.7	NA	NA	ng/ml*hr
+Lilja2004	all	SIM,GRA	cmax	simvastatin acid	plasma	HPLC MS/MS	NA	NA	11.1	5.1	NA	NA	ng/ml
+Lilja2004	all	SIM,GRA	tmax	simvastatin acid	plasma	HPLC MS/MS	NA	NA	4.0	NA	3.0	4.0	hr
+Lilja2004	all	SIM,GRA	thalf	simvastatin acid	plasma	HPLC MS/MS	NA	NA	2.4	0.5	NA	NA	hr
+Lilja2004	all	SIM,GRA	auc_end	simvastatin acid	plasma	HPLC MS/MS	24.0	hr	62.0	29.9	NA	NA	ng/ml*hr

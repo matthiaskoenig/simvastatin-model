@@ -1,0 +1,5 @@
+study	group	count	intervention	measurement_type	substance	label	time	time_unit	tissue	method	mean	mean_sd	baseline	mean_unit	count_unit
+Saito1991	5_morning	32	SIM5_morning, placebo_at_the_end	concentration	ldl-c	ldl-c_SIM5_morning, placebo_at_the_end	0	weeks	plasma	Friedewald-formula	5.021980863718643	1.2438582880786138	194.2	mole/meter^3	dimensionless
+Saito1991	5_morning	31	SIM5_morning, placebo_at_the_end	concentration	ldl-c	ldl-c_SIM5_morning, placebo_at_the_end	4	weeks	plasma	Friedewald-formula	4.1143004913369525	1.5645202999741397	194.2	mole/meter^3	dimensionless
+Saito1991	5_morning	28	SIM5_morning, placebo_at_the_end	concentration	ldl-c	ldl-c_SIM5_morning, placebo_at_the_end	8	weeks	plasma	Friedewald-formula	3.9462115334884915	1.2257564003103179	194.2	mole/meter^3	dimensionless
+Saito1991	5_morning	29	SIM5_morning, placebo_at_the_end	concentration	ldl-c	ldl-c_SIM5_morning, placebo_at_the_end	12	weeks	plasma	Friedewald-formula	3.943625549521592	1.3033359193173	194.2	mole/meter^3	dimensionless

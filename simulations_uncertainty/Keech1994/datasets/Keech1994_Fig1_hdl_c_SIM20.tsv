@@ -1,0 +1,11 @@
+study	group	count	intervention	measurement_type	substance	label	tissue	time	time_unit	mean	mean_se	mean_sd	sepm	mean_unit	count_unit
+Keech1994	SIM20	208	SIM20	concentration	hdl-c	SIM20_hdl-c	plasma	-8	weeks	1.1899927				mmol/l	dimensionless
+Keech1994	SIM20	198	SIM20	concentration	hdl-c	SIM20_hdl-c	plasma	8	weeks	1.2520033				mmol/l	dimensionless
+Keech1994	SIM20	208	SIM20	concentration	hdl-c	SIM20_hdl-c	plasma	20	weeks	1.2535163				mmol/l	dimensionless
+Keech1994	SIM20	208	SIM20	concentration	hdl-c	SIM20_hdl-c	plasma	32	weeks	1.2600292				mmol/l	dimensionless
+Keech1994	SIM20	208	SIM20	concentration	hdl-c	SIM20_hdl-c	plasma	44	weeks	1.2465606				mmol/l	dimensionless
+Keech1994	SIM20	208	SIM20	concentration	hdl-c	SIM20_hdl-c	plasma	56	weeks	1.2430366				mmol/l	dimensionless
+Keech1994	SIM20	208	SIM20	concentration	hdl-c	SIM20_hdl-c	plasma	68	weeks	1.2345496				mmol/l	dimensionless
+Keech1994	SIM20	208	SIM20	concentration	hdl-c	SIM20_hdl-c	plasma	80	weeks	1.2710439				mmol/l	dimensionless
+Keech1994	SIM20	130	SIM20	concentration	hdl-c	SIM20_hdl-c	plasma	104	weeks	1.1690334				mmol/l	dimensionless
+Keech1994	SIM20	114	SIM20	concentration	hdl-c	SIM20_hdl-c	plasma	152	weeks	1.2300293				mmol/l	dimensionless

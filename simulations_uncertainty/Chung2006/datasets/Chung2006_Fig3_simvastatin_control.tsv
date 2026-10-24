@@ -1,0 +1,10 @@
+study	subject	label	count	intervention	substance	tissue	measurement	mean	mean_pm	time	time_unit	mean_unit	mean_sd	mean_se	count_unit
+Chung2006	all	all_SIM	19	SIM	simvastatin	plasma	concentration	0.0		0.0	hr	mole/meter^3			dimensionless
+Chung2006	all	all_SIM	19	SIM	simvastatin	plasma	concentration	6.944055661729574e-07	0.73122984	0.25	hr	mole/meter^3	1.0524406832298135e-06	2.414464516984042e-07	dimensionless
+Chung2006	all	all_SIM	19	SIM	simvastatin	plasma	concentration	8.205663401815575e-06	6.17835	0.5	hr	mole/meter^3	6.5538922599139986e-06	1.5035660025167653e-06	dimensionless
+Chung2006	all	all_SIM	19	SIM	simvastatin	plasma	concentration	1.7774766841853796e-05	12.106384	1.0	hr	mole/meter^3	1.114636072623029e-05	2.557150525994123e-06	dimensionless
+Chung2006	all	all_SIM	19	SIM	simvastatin	plasma	concentration	1.4190049689440992e-05	9.884907	2.0	hr	mole/meter^3	9.42415719063545e-06	2.1620499380011633e-06	dimensionless
+Chung2006	all	all_SIM	19	SIM	simvastatin	plasma	concentration	5.5851254180602e-06	3.6996508	4.0	hr	mole/meter^3	3.2530274725274726e-06	7.46295684910989e-07	dimensionless
+Chung2006	all	all_SIM	19	SIM	simvastatin	plasma	concentration	5.256270186335403e-06	4.2829065	6.0	hr	mole/meter^3	4.9752312470138555e-06	1.1413963277094338e-06	dimensionless
+Chung2006	all	all_SIM	19	SIM	simvastatin	plasma	concentration	3.016691829909221e-06	2.4843528	9.0	hr	mole/meter^3	2.918216913521261e-06	6.694848748089656e-07	dimensionless
+Chung2006	all	all_SIM	19	SIM	simvastatin	plasma	concentration	1.5905633062589582e-06	1.1264105	12.0	hr	mole/meter^3	1.1003361204013378e-06	2.5243441856615865e-07	dimensionless

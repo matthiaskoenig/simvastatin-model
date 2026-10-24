@@ -1,0 +1,3 @@
+study	group	count	intervention	measurement_type	substance	time	time_unit	tissue	mean	mean_sd	median	min	max	median_change	min_change	max_change	unitchange	baseline	baseline_unit	mean_unit	median_unit	count_unit
+Davidson1997	all	147	SIM80	concentration	apoA-I	0	weeks	plasma	143.0	24.0										mg/dl	mg/dl	dimensionless
+Davidson1997	all	144	SIM80	concentration	apoA-I	6	weeks	plasma			154.44	145.86	165.88	8.0	2.0	16.0	percent			mg/dl	mg/dl	dimensionless

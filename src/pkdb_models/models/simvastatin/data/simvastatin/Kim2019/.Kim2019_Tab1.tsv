@@ -1,0 +1,21 @@
+study	group	intervention	measurement_type	substance	tissue	time	time_unit	unit	mean
+Kim2019	all_sub	SIM	cmax	simvastatin	plasma	na	na	ng/ml	5.84
+Kim2019	all_sub	SIM	auc_end	simvastatin	plasma	24	hr	ng hr/ml	19.97
+Kim2019	all_sub	SIM	auc_inf	simvastatin	plasma	na	na	ng hr/ml	23.15
+Kim2019	all_sub	SIM	tmax	simvastatin	plasma	na	na	hr	1.5
+Kim2019	all_sub	SIM	thalf	simvastatin	plasma	na	na	hr	3.73
+Kim2019	all_sub	SIM,CIL	cmax	simvastatin	plasma	na	na	ng/ml	10.27
+Kim2019	all_sub	SIM,CIL	auc_end	simvastatin	plasma	24	hr	ng hr/ml	34.06
+Kim2019	all_sub	SIM,CIL	auc_inf	simvastatin	plasma	na	na	ng hr/ml	38.02
+Kim2019	all_sub	SIM,CIL	tmax	simvastatin	plasma	na	na	hr	1.5
+Kim2019	all_sub	SIM,CIL	thalf	simvastatin	plasma	na	na	hr	3.74
+Kim2019	all_sub	SIM	cmax	simvastatin acid	plasma	na	na	ng/ml	2.48
+Kim2019	all_sub	SIM	auc_end	simvastatin acid	plasma	24	hr	ng hr/ml	17.81
+Kim2019	all_sub	SIM	auc_inf	simvastatin acid	plasma	na	na	ng hr/ml	23.08
+Kim2019	all_sub	SIM	tmax	simvastatin acid	plasma	na	na	hr	4.0
+Kim2019	all_sub	SIM	thalf	simvastatin acid	plasma	na	na	hr	5.97
+Kim2019	all_sub	SIM,CIL	cmax	simvastatin acid	plasma	na	na	ng/ml	3.92
+Kim2019	all_sub	SIM,CIL	auc_end	simvastatin acid	plasma	24	hr	ng hr/ml	25.62
+Kim2019	all_sub	SIM,CIL	auc_inf	simvastatin acid	plasma	na	na	ng hr/ml	30.27
+Kim2019	all_sub	SIM,CIL	tmax	simvastatin acid	plasma	na	na	hr	4.0
+Kim2019	all_sub	SIM,CIL	thalf	simvastatin acid	plasma	na	na	hr	5.39

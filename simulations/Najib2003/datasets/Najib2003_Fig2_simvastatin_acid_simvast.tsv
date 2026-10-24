@@ -1,0 +1,18 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	mean_se	pm	mean_sd	mean_unit	count_unit
+Najib2003	all	24	simvastatin acid_simvast	simvast	concentration	simvastatin acid	plasma	HPLC	0.0	hr	0.0				mole/meter^3	dimensionless
+Najib2003	all	24	simvastatin acid_simvast	simvast	concentration	simvastatin acid	plasma	HPLC	0.3	hr	4.737239120476409e-07	5.0640907008703624e-08	0.18471804	2.4808876456611316e-07	mole/meter^3	dimensionless
+Najib2003	all	24	simvastatin acid_simvast	simvast	concentration	simvastatin acid	plasma	HPLC	0.7	hr	5.721126889601466e-07	6.255302336234539e-08	0.27709505	3.0644597821228357e-07	mole/meter^3	dimensionless
+Najib2003	all	24	simvastatin acid_simvast	simvast	concentration	simvastatin acid	plasma	HPLC	1.0	hr	6.436881126889601e-07	1.0128181401740725e-07	0.23681459	4.961775291322241e-07	mole/meter^3	dimensionless
+Najib2003	all	24	simvastatin acid_simvast	simvast	concentration	simvastatin acid	plasma	HPLC	1.3	hr	7.95689876316995e-07	1.400038937242327e-07	0.2862725	6.858762032544274e-07	mole/meter^3	dimensionless
+Najib2003	all	24	simvastatin acid_simvast	simvast	concentration	simvastatin acid	plasma	HPLC	1.7	hr	8.88124301420064e-07	1.3405639028859369e-07	0.32922605	6.567395059328974e-07	mole/meter^3	dimensionless
+Najib2003	all	24	simvastatin acid_simvast	simvast	concentration	simvastatin acid	plasma	HPLC	2.0	hr	8.822454649564818e-07	1.3404949610627578e-07	0.32666236	6.567057314751512e-07	mole/meter^3	dimensionless
+Najib2003	all	24	simvastatin acid_simvast	simvast	concentration	simvastatin acid	plasma	HPLC	2.3	hr	9.865885478699038e-07	1.668137654603756e-07	0.35791367	8.172172149004582e-07	mole/meter^3	dimensionless
+Najib2003	all	24	simvastatin acid_simvast	simvast	concentration	simvastatin acid	plasma	HPLC	2.7	hr	1.0581708657810355e-06	1.93637379752634e-07	0.37745532	9.486255510469767e-07	mole/meter^3	dimensionless
+Najib2003	all	24	simvastatin acid_simvast	simvast	concentration	simvastatin acid	plasma	HPLC	3.0	hr	1.0493062299587724e-06	1.60852496564361e-07	0.3878989	7.880130808709369e-07	mole/meter^3	dimensionless
+Najib2003	all	24	simvastatin acid_simvast	simvast	concentration	simvastatin acid	plasma	HPLC	3.5	hr	1.1477431287219423e-06	2.1448614292258362e-07	0.40746	1.0507632141159894e-06	mole/meter^3	dimensionless
+Najib2003	all	24	simvastatin acid_simvast	simvast	concentration	simvastatin acid	plasma	HPLC	4.0	hr	1.216370590929913e-06	2.1149354099862553e-07	0.43872932	1.0361025186820544e-06	mole/meter^3	dimensionless
+Najib2003	all	24	simvastatin acid_simvast	simvast	concentration	simvastatin acid	plasma	HPLC	5.0	hr	1.270240723774622e-06	1.9362008703618872e-07	0.47005257	9.485408343838617e-07	mole/meter^3	dimensionless
+Najib2003	all	24	simvastatin acid_simvast	simvast	concentration	simvastatin acid	plasma	HPLC	6.0	hr	1.058991067338525e-06	1.2213055428309667e-07	0.4090333	5.98315079993738e-07	mole/meter^3	dimensionless
+Najib2003	all	24	simvastatin acid_simvast	simvast	concentration	simvastatin acid	plasma	HPLC	8.0	hr	8.479883646358222e-07	9.830295464956481e-08	0.32731265	4.815841581987769e-07	mole/meter^3	dimensionless
+Najib2003	all	24	simvastatin acid_simvast	simvast	concentration	simvastatin acid	plasma	HPLC	10.0	hr	6.935809207512597e-07	8.341202473660101e-08	0.26639974	4.086337980341617e-07	mole/meter^3	dimensionless
+Najib2003	all	24	simvastatin acid_simvast	simvast	concentration	simvastatin acid	plasma	HPLC	12.0	hr	6.613074667888227e-07	9.532411818598259e-08	0.24710833	4.66990899472831e-07	mole/meter^3	dimensionless

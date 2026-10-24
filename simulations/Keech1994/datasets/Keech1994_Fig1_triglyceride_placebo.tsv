@@ -1,0 +1,11 @@
+study	group	count	intervention	measurement_type	substance	label	tissue	time	time_unit	mean	mean_se	mean_sd	sepm	mean_unit	count_unit
+Keech1994	placebo	207	placebo	concentration	triglyceride	placebo_triglyceride	plasma	-8	weeks	2.6208024	0.1258431	1.81056691791418	2.7466455	mmol/l	dimensionless
+Keech1994	placebo	204	placebo	concentration	triglyceride	placebo_triglyceride	plasma	8	weeks	2.4702961	0.1207954	1.72530340719441	2.3495007	mmol/l	dimensionless
+Keech1994	placebo	207	placebo	concentration	triglyceride	placebo_triglyceride	plasma	20	weeks	2.526049	0.1258336	1.81043023671577	2.4002154	mmol/l	dimensionless
+Keech1994	placebo	207	placebo	concentration	triglyceride	placebo_triglyceride	plasma	32	weeks	2.5717163	0.095628	1.37584733073405	2.4760883	mmol/l	dimensionless
+Keech1994	placebo	207	placebo	concentration	triglyceride	placebo_triglyceride	plasma	44	weeks	2.7080011	0.1207957	1.73794747782187	2.5872054	mmol/l	dimensionless
+Keech1994	placebo	207	placebo	concentration	triglyceride	placebo_triglyceride	plasma	56	weeks	2.718443	0.1258477	1.8106331003892	2.5925953	mmol/l	dimensionless
+Keech1994	placebo	207	placebo	concentration	triglyceride	placebo_triglyceride	plasma	68	weeks	2.5225098	0.1560395	2.24501745894586	2.3664703	mmol/l	dimensionless
+Keech1994	placebo	207	placebo	concentration	triglyceride	placebo_triglyceride	plasma	80	weeks	2.5983968	0.1057134	1.5209509684697	2.4926834	mmol/l	dimensionless
+Keech1994	placebo	124	placebo	concentration	triglyceride	placebo_triglyceride	plasma	104	weeks	2.5991695	0.176183	1.9618908574729637	2.4229865	mmol/l	dimensionless
+Keech1994	placebo	109	placebo	concentration	triglyceride	placebo_triglyceride	plasma	152	weeks	2.5654104	0.135896	1.418795893334908	2.4295144	mmol/l	dimensionless

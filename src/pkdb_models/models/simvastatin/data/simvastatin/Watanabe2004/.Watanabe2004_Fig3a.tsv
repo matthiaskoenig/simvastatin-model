@@ -1,0 +1,25 @@
+study	group	intervention	measurement_type	substance	tissue	label	time	time_unit	mean	sd	se	unit	count
+Watanabe2004	all	SIM	concentration	cholesterol	plasma	SIM_cholesterol	4	weeks	205.20773	231.05292	69.6650765778185	mg/dl	11
+Watanabe2004	all	SIM, DIL	concentration	cholesterol	plasma	SIM, DIL_cholesterol	4	weeks	196.05202	228.48506	68.890837656531	mg/dl	11
+Watanabe2004	all	DIL	concentration	cholesterol	plasma	DIL_cholesterol	4	weeks	244.16048	278.11487	83.8547884007699	mg/dl	11
+Watanabe2004	all	SIM	concentration	ldl-c	plasma	SIM_ldl-c	4	weeks	128.05415	144.2715	43.4994939492508	mg/dl	11
+Watanabe2004	all	SIM, DIL	concentration	ldl-c	plasma	SIM, DIL_ldl-c	4	weeks	118.89844	135.6209	40.8912399118464	mg/dl	11
+Watanabe2004	all	DIL	concentration	ldl-c	plasma	DIL_ldl-c	4	weeks	162.95172	184.2361	55.5492742307633	mg/dl	11
+Watanabe2004	all	SIM	concentration	hdl-c	plasma	SIM_hdl-c	4	weeks	47.86002	61.03627	18.4031278357114	mg/dl	11
+Watanabe2004	all	SIM, DIL	concentration	hdl-c	plasma	SIM, DIL_hdl-c	4	weeks	49.34622	60.494884	18.2398938149158	mg/dl	11
+Watanabe2004	all	DIL	concentration	hdl-c	plasma	DIL_hdl-c	4	weeks	50.325657	61.474323	18.5352057847377	mg/dl	11
+Watanabe2004	all	SIM	concentration	triglyceride	plasma	SIM_triglyceride	4	weeks	131.34532	na	na	mg/dl	11
+Watanabe2004	all	SIM, DIL	concentration	triglyceride	plasma	SIM, DIL_triglyceride	4	weeks	138.91536	210.36874	63.42856165453	mg/dl	11
+Watanabe2004	all	DIL	concentration	triglyceride	plasma	DIL_triglyceride	4	weeks	156.61725	233.64552	70.4467748897708	mg/dl	11
+Watanabe2004	all	SIM	concentration	cholesterol	plasma	SIM_cholesterol	0	weeks	249.0	28	8.44231764817738	mg/dl	11
+Watanabe2004	all	SIM, DIL	concentration	cholesterol	plasma	SIM, DIL_cholesterol	0	weeks	249.0	28	8.44231764817738	mg/dl	11
+Watanabe2004	all	DIL	concentration	cholesterol	plasma	DIL_cholesterol	0	weeks	249.0	28	8.44231764817738	mg/dl	11
+Watanabe2004	all	SIM	concentration	ldl-c	plasma	SIM_ldl-c	0	weeks	166.0	23	6.93476092528856	mg/dl	11
+Watanabe2004	all	SIM, DIL	concentration	ldl-c	plasma	SIM, DIL_ldl-c	0	weeks	166.0	23	6.93476092528856	mg/dl	11
+Watanabe2004	all	DIL	concentration	ldl-c	plasma	DIL_ldl-c	0	weeks	166.0	23	6.93476092528856	mg/dl	11
+Watanabe2004	all	SIM	concentration	hdl-c	plasma	SIM_hdl-c	0	weeks	50.0	10	3.01511344577764	mg/dl	11
+Watanabe2004	all	SIM, DIL	concentration	hdl-c	plasma	SIM, DIL_hdl-c	0	weeks	50.0	10	3.01511344577764	mg/dl	11
+Watanabe2004	all	DIL	concentration	hdl-c	plasma	DIL_hdl-c	0	weeks	50.0	10	3.01511344577764	mg/dl	11
+Watanabe2004	all	SIM	concentration	triglyceride	plasma	SIM_triglyceride	0	weeks	168.0	82	24.7239302553766	mg/dl	11
+Watanabe2004	all	SIM, DIL	concentration	triglyceride	plasma	SIM, DIL_triglyceride	0	weeks	168.0	82	24.7239302553766	mg/dl	11
+Watanabe2004	all	DIL	concentration	triglyceride	plasma	DIL_triglyceride	0	weeks	168.0	82	24.7239302553766	mg/dl	11

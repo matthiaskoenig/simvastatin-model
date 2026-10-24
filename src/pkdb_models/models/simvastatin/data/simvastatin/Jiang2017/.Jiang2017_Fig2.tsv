@@ -1,0 +1,49 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	unit
+Jiang2017	all	26	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	0.0	hr	0.0	ng/ml
+Jiang2017	all	26	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	0.33	hr	0.5908257	ng/ml
+Jiang2017	all	26	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	0.67	hr	2.6972477	ng/ml
+Jiang2017	all	26	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	1.0	hr	3.4422019	ng/ml
+Jiang2017	all	26	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	1.5	hr	3.3779817	ng/ml
+Jiang2017	all	26	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	2.0	hr	3.159633	ng/ml
+Jiang2017	all	26	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	3.0	hr	2.4660552	ng/ml
+Jiang2017	all	26	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	4.0	hr	1.8238533	ng/ml
+Jiang2017	all	26	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	5.0	hr	1.9394495	ng/ml
+Jiang2017	all	26	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	7.0	hr	1.387156	ng/ml
+Jiang2017	all	26	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	9.0	hr	1.2587156	ng/ml
+Jiang2017	all	26	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	12.0	hr	0.9761468	ng/ml
+Jiang2017	all	26	SIM+AML_simvastatin	SIM,AML	concentration	simvastatin	plasma	LC MS/MS	0.0	hr	0.0	ng/ml
+Jiang2017	all	26	SIM+AML_simvastatin	SIM,AML	concentration	simvastatin	plasma	LC MS/MS	0.33	hr	1.6055046	ng/ml
+Jiang2017	all	26	SIM+AML_simvastatin	SIM,AML	concentration	simvastatin	plasma	LC MS/MS	0.67	hr	4.508257	ng/ml
+Jiang2017	all	26	SIM+AML_simvastatin	SIM,AML	concentration	simvastatin	plasma	LC MS/MS	1.0	hr	5.7669725	ng/ml
+Jiang2017	all	26	SIM+AML_simvastatin	SIM,AML	concentration	simvastatin	plasma	LC MS/MS	1.5	hr	6.319266	ng/ml
+Jiang2017	all	26	SIM+AML_simvastatin	SIM,AML	concentration	simvastatin	plasma	LC MS/MS	2.0	hr	6.4990826	ng/ml
+Jiang2017	all	26	SIM+AML_simvastatin	SIM,AML	concentration	simvastatin	plasma	LC MS/MS	3.0	hr	4.32844	ng/ml
+Jiang2017	all	26	SIM+AML_simvastatin	SIM,AML	concentration	simvastatin	plasma	LC MS/MS	4.0	hr	3.506422	ng/ml
+Jiang2017	all	26	SIM+AML_simvastatin	SIM,AML	concentration	simvastatin	plasma	LC MS/MS	5.0	hr	3.6477065	ng/ml
+Jiang2017	all	26	SIM+AML_simvastatin	SIM,AML	concentration	simvastatin	plasma	LC MS/MS	7.0	hr	2.2990825	ng/ml
+Jiang2017	all	26	SIM+AML_simvastatin	SIM,AML	concentration	simvastatin	plasma	LC MS/MS	9.0	hr	1.9137615	ng/ml
+Jiang2017	all	26	SIM+AML_simvastatin	SIM,AML	concentration	simvastatin	plasma	LC MS/MS	12.0	hr	1.3743119	ng/ml
+Jiang2017	all	26	SIM+AML_simvastatin acid	SIM,AML	concentration	simvastatin acid	plasma	LC MS/MS	0.0	hr	0.0	ng/ml
+Jiang2017	all	26	SIM+AML_simvastatin acid	SIM,AML	concentration	simvastatin acid	plasma	LC MS/MS	0.33	hr	0.25210547	ng/ml
+Jiang2017	all	26	SIM+AML_simvastatin acid	SIM,AML	concentration	simvastatin acid	plasma	LC MS/MS	0.67	hr	0.5540374	ng/ml
+Jiang2017	all	26	SIM+AML_simvastatin acid	SIM,AML	concentration	simvastatin acid	plasma	LC MS/MS	1.0	hr	0.9819302	ng/ml
+Jiang2017	all	26	SIM+AML_simvastatin acid	SIM,AML	concentration	simvastatin acid	plasma	LC MS/MS	1.5	hr	1.6236775	ng/ml
+Jiang2017	all	26	SIM+AML_simvastatin acid	SIM,AML	concentration	simvastatin acid	plasma	LC MS/MS	2.0	hr	2.3284304	ng/ml
+Jiang2017	all	26	SIM+AML_simvastatin acid	SIM,AML	concentration	simvastatin acid	plasma	LC MS/MS	3.0	hr	3.1712039	ng/ml
+Jiang2017	all	26	SIM+AML_simvastatin acid	SIM,AML	concentration	simvastatin acid	plasma	LC MS/MS	4.0	hr	3.6613338	ng/ml
+Jiang2017	all	26	SIM+AML_simvastatin acid	SIM,AML	concentration	simvastatin acid	plasma	LC MS/MS	5.0	hr	3.118755	ng/ml
+Jiang2017	all	26	SIM+AML_simvastatin acid	SIM,AML	concentration	simvastatin acid	plasma	LC MS/MS	7.0	hr	2.5624626	ng/ml
+Jiang2017	all	26	SIM+AML_simvastatin acid	SIM,AML	concentration	simvastatin acid	plasma	LC MS/MS	9.0	hr	2.3210807	ng/ml
+Jiang2017	all	26	SIM+AML_simvastatin acid	SIM,AML	concentration	simvastatin acid	plasma	LC MS/MS	12.0	hr	1.3229649	ng/ml
+Jiang2017	all	26	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	0.0	hr	0.0	ng/ml
+Jiang2017	all	26	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	0.33	hr	0.16394456	ng/ml
+Jiang2017	all	26	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	0.67	hr	0.39029327	ng/ml
+Jiang2017	all	26	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	1.0	hr	0.78040284	ng/ml
+Jiang2017	all	26	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	1.5	hr	1.2080618	ng/ml
+Jiang2017	all	26	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	2.0	hr	1.7112705	ng/ml
+Jiang2017	all	26	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	3.0	hr	2.0881007	ng/ml
+Jiang2017	all	26	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	4.0	hr	2.33892	ng/ml
+Jiang2017	all	26	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	5.0	hr	2.4260287	ng/ml
+Jiang2017	all	26	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	7.0	hr	2.0083084	ng/ml
+Jiang2017	all	26	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	9.0	hr	1.6788156	ng/ml
+Jiang2017	all	26	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	12.0	hr	0.9703213	ng/ml

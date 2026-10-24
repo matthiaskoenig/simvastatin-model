@@ -1,0 +1,21 @@
+study	individual	intervention	x_measurement_type	y_measurement_type	x_substance	y_substance	x_method	y_method	tissue	x_label	y_label	x	y	x_unit	y_unit	time	time_unit
+Stern2000	Ind258	ATO80	auc_end	concentration change	total atorva inhibitors	ldl-c	enzymatic method	friedewald	plasma	ATO80_total atorva inhibitors	ATO80_ldl-c	468.0437	-59.925983	ng*hr/ml	percent	24	hr
+Stern2000	Ind259	ATO80	auc_end	concentration change	total atorva inhibitors	ldl-c	enzymatic method	friedewald	plasma	ATO80_total atorva inhibitors	ATO80_ldl-c	674.8277	-57.97779	ng*hr/ml	percent	24	hr
+Stern2000	Ind260	ATO80	auc_end	concentration change	total atorva inhibitors	ldl-c	enzymatic method	friedewald	plasma	ATO80_total atorva inhibitors	ATO80_ldl-c	473.31702	-50.556877	ng*hr/ml	percent	24	hr
+Stern2000	Ind261	ATO80	auc_end	concentration change	total atorva inhibitors	ldl-c	enzymatic method	friedewald	plasma	ATO80_total atorva inhibitors	ATO80_ldl-c	737.4846	-50.61605	ng*hr/ml	percent	24	hr
+Stern2000	Ind262	ATO80	auc_end	concentration change	total atorva inhibitors	ldl-c	enzymatic method	friedewald	plasma	ATO80_total atorva inhibitors	ATO80_ldl-c	1098.1248	-52.128525	ng*hr/ml	percent	24	hr
+Stern2000	Ind263	ATO80	auc_end	concentration change	total atorva inhibitors	ldl-c	enzymatic method	friedewald	plasma	ATO80_total atorva inhibitors	ATO80_ldl-c	1215.6688	-52.218903	ng*hr/ml	percent	24	hr
+Stern2000	Ind264	ATO80	auc_end	concentration change	total atorva inhibitors	ldl-c	enzymatic method	friedewald	plasma	ATO80_total atorva inhibitors	ATO80_ldl-c	893.89716	-53.94447	ng*hr/ml	percent	24	hr
+Stern2000	Ind265	ATO80	auc_end	concentration change	total atorva inhibitors	ldl-c	enzymatic method	friedewald	plasma	ATO80_total atorva inhibitors	ATO80_ldl-c	930.9273	-56.484554	ng*hr/ml	percent	24	hr
+Stern2000	Ind266	ATO80	auc_end	concentration change	total atorva inhibitors	ldl-c	enzymatic method	friedewald	plasma	ATO80_total atorva inhibitors	ATO80_ldl-c	1014.5792	-57.494545	ng*hr/ml	percent	24	hr
+Stern2000	Ind267	ATO80	auc_end	concentration change	total atorva inhibitors	ldl-c	enzymatic method	friedewald	plasma	ATO80_total atorva inhibitors	ATO80_ldl-c	1229.6288	-54.831905	ng*hr/ml	percent	24	hr
+Stern2000	Ind268	ATO80	auc_end	concentration change	total atorva inhibitors	ldl-c	enzymatic method	friedewald	plasma	ATO80_total atorva inhibitors	ATO80_ldl-c	1393.204	-59.841106	ng*hr/ml	percent	24	hr
+Stern2000	Ind269	ATO80	auc_end	concentration change	total atorva inhibitors	ldl-c	enzymatic method	friedewald	plasma	ATO80_total atorva inhibitors	ATO80_ldl-c	1144.4731	-60.122097	ng*hr/ml	percent	24	hr
+Stern2000	Ind270	ATO80	auc_end	concentration change	total atorva inhibitors	ldl-c	enzymatic method	friedewald	plasma	ATO80_total atorva inhibitors	ATO80_ldl-c	900.4334	-60.01329	ng*hr/ml	percent	24	hr
+Stern2000	Ind271	ATO80	auc_end	concentration change	total atorva inhibitors	ldl-c	enzymatic method	friedewald	plasma	ATO80_total atorva inhibitors	ATO80_ldl-c	745.6909	-59.604088	ng*hr/ml	percent	24	hr
+Stern2000	Ind272	ATO80	auc_end	concentration change	total atorva inhibitors	ldl-c	enzymatic method	friedewald	plasma	ATO80_total atorva inhibitors	ATO80_ldl-c	1835.536	-66.40659	ng*hr/ml	percent	24	hr
+Stern2000	Ind273	ATO80	auc_end	concentration change	total atorva inhibitors	ldl-c	enzymatic method	friedewald	plasma	ATO80_total atorva inhibitors	ATO80_ldl-c	2194.0605	-57.0598	ng*hr/ml	percent	24	hr
+Stern2000	Ind274	ATO80	auc_end	concentration change	total atorva inhibitors	ldl-c	enzymatic method	friedewald	plasma	ATO80_total atorva inhibitors	ATO80_ldl-c	3115.1672	-55.800827	ng*hr/ml	percent	24	hr
+Stern2000	Ind275	ATO80	auc_end	concentration change	total atorva inhibitors	ldl-c	enzymatic method	friedewald	plasma	ATO80_total atorva inhibitors	ATO80_ldl-c	2193.624	-51.14554	ng*hr/ml	percent	24	hr
+Stern2000	Ind276	ATO80	auc_end	concentration change	total atorva inhibitors	ldl-c	enzymatic method	friedewald	plasma	ATO80_total atorva inhibitors	ATO80_ldl-c	1817.4767	-50.352356	ng*hr/ml	percent	24	hr
+Stern2000	Ind277	ATO80	auc_end	concentration change	total atorva inhibitors	ldl-c	enzymatic method	friedewald	plasma	ATO80_total atorva inhibitors	ATO80_ldl-c	1786.3131	-52.654297	ng*hr/ml	percent	24	hr

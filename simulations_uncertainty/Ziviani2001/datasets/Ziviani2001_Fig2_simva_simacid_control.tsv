@@ -1,0 +1,12 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	mean_sd	pm	mean_se	mean_unit	count_unit
+Ziviani2001	all	18	SIM_simva+simacid	SIM	concentration	simva+simacid	plasma	GC	0.0	hr	2.0568126431516267e-06				mole/meter^3	dimensionless
+Ziviani2001	all	18	SIM_simva+simacid	SIM	concentration	simva+simacid	plasma	GC	0.5	hr	9.979350893266146e-06	9.141390128263858e-06	0.36585367	2.1546463163890447e-06	mole/meter^3	dimensionless
+Ziviani2001	all	18	SIM_simva+simacid	SIM	concentration	simva+simacid	plasma	GC	1.0	hr	1.6835393266147505e-05	1.0817311268896014e-05	2.6274946	2.549664717480669e-06	mole/meter^3	dimensionless
+Ziviani2001	all	18	SIM_simva+simacid	SIM	concentration	simva+simacid	plasma	GC	1.5	hr	1.3712084745762711e-05	7.846359596885022e-06	2.5609756	1.8494046928618485e-06	mole/meter^3	dimensionless
+Ziviani2001	all	18	SIM_simva+simacid	SIM	concentration	simva+simacid	plasma	GC	2.0	hr	1.3255016032982135e-05	7.541647274393038e-06	2.4944568	1.7775833096801192e-06	mole/meter^3	dimensionless
+Ziviani2001	all	18	SIM_simva+simacid	SIM	concentration	simva+simacid	plasma	GC	3.0	hr	1.096966788822721e-05	5.027764544205222e-06	2.594235	1.1850554678056025e-06	mole/meter^3	dimensionless
+Ziviani2001	all	18	SIM_simva+simacid	SIM	concentration	simva+simacid	plasma	GC	4.0	hr	1.173144983967018e-05	1.0664954351809439e-05	0.46563193	2.5137538477364866e-06	mole/meter^3	dimensionless
+Ziviani2001	all	18	SIM_simva+simacid	SIM	concentration	simva+simacid	plasma	GC	6.0	hr	9.29374622079707e-06	4.342159871736143e-06	2.1618626	1.0234568967669125e-06	mole/meter^3	dimensionless
+Ziviani2001	all	18	SIM_simva+simacid	SIM	concentration	simva+simacid	plasma	GC	8.0	hr	6.627508016491067e-06	3.3518433348602845e-06	1.4301552	7.900370505182135e-07	mole/meter^3	dimensionless
+Ziviani2001	all	18	SIM_simva+simacid	SIM	concentration	simva+simacid	plasma	GC	12.0	hr	4.875408153916629e-06	2.894773705909299e-06	0.864745	6.823047058163262e-07	mole/meter^3	dimensionless
+Ziviani2001	all	18	SIM_simva+simacid	SIM	concentration	simva+simacid	plasma	GC	24.0	hr	1.295030233623454e-06	1.6759214841960605e-06	-0.16629712	3.9501848207041914e-07	mole/meter^3	dimensionless

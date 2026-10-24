@@ -1,0 +1,22 @@
+study	group	count	intervention	measurement_type	substance	label	tissue	time	time_unit	mean	unit	se	sd	sepm
+Moelgaard1988	FH	11.0	SIM20, SIM40	concentration	hdl2-c	hdl2-c_SIM20, SIM40	plasma	0.0	weeks	0.37836057	mmol/l	0.05932407	0.196755681226779	0.3190365
+Moelgaard1988	FH	11.0	SIM20, SIM40	concentration	hdl2-c	hdl2-c_SIM20, SIM40	plasma	4.0	weeks	0.36968485	mmol/l	0.05276265	0.174993912994845	0.3169222
+Moelgaard1988	FH	11.0	SIM20, SIM40	concentration	hdl2-c	hdl2-c_SIM20, SIM40	plasma	8.0	weeks	0.42370975	mmol/l	0.07583937	0.251530734626935	0.34787038
+Moelgaard1988	FH	11.0	SIM20, SIM40	concentration	hdl2-c	hdl2-c_SIM20, SIM40	plasma	12.0	weeks	0.43153334	mmol/l	0.06263671	0.207742465172302	0.36889663
+Moelgaard1988	FH	11.0	SIM20, SIM40	concentration	hdl2-c	hdl2-c_SIM20, SIM40	plasma	16.0	weeks	0.38987496	mmol/l	0.0560114	0.185768797782512	0.33386356
+Moelgaard1988	FH	11.0	SIM20, SIM40	concentration	hdl2-c	hdl2-c_SIM20, SIM40	plasma	20.0	weeks	0.37137315	mmol/l	0.06262073	0.207689465508152	0.30875242
+Moelgaard1988	FH	11.0	SIM20, SIM40	concentration	hdl2-c	hdl2-c_SIM20, SIM40	plasma	24.0	weeks	0.38907075	mmol/l	0.05274668	0.174940946496943	0.33632407
+Moelgaard1988	FH	11.0	SIM20, SIM40	concentration	hdl3-c	hdl3-c_SIM20, SIM40	plasma	0.0	weeks	0.81353676	mmol/l	0.02968596	0.0984571908614988	0.7838508
+Moelgaard1988	FH	11.0	SIM20, SIM40	concentration	hdl3-c	hdl3-c_SIM20, SIM40	plasma	4.0	weeks	0.8806844	mmol/l	0.0428886699999998	0.142245626147371	0.83779573
+Moelgaard1988	FH	11.0	SIM20, SIM40	concentration	hdl3-c	hdl3-c_SIM20, SIM40	plasma	8.0	weeks	0.8424026	mmol/l	0.0593401	0.196808846722168	0.7830625
+Moelgaard1988	FH	11.0	SIM20, SIM40	concentration	hdl3-c	hdl3-c_SIM20, SIM40	plasma	12.0	weeks	0.8699902	mmol/l	0.04945	0.164007095883075	0.8205402
+Moelgaard1988	FH	11.0	SIM20, SIM40	concentration	hdl3-c	hdl3-c_SIM20, SIM40	plasma	16.0	weeks	0.8679238	mmol/l	0.0527147699999999	0.174835112999883	0.81520903
+Moelgaard1988	FH	11.0	SIM20, SIM40	concentration	hdl3-c	hdl3-c_SIM20, SIM40	plasma	20.0	weeks	0.8493581	mmol/l	0.03954406	0.131152809707301	0.80981404
+Moelgaard1988	FH	11.0	SIM20, SIM40	concentration	hdl3-c	hdl3-c_SIM20, SIM40	plasma	24.0	weeks	0.8572296	mmol/l	0.0395281	0.131099876375647	0.8177015
+Moelgaard1988	FH	11.0	SIM20, SIM40	concentration	hdl-c	hdl-c_SIM20, SIM40	plasma	0.0	weeks	1.1926376	mmol/l	0.0725267000000001	0.240543851182669	1.1201109
+Moelgaard1988	FH	11.0	SIM20, SIM40	concentration	hdl-c	hdl-c_SIM20, SIM40	plasma	4.0	weeks	1.2696433	mmol/l	0.088978	0.295106640596243	1.1806653
+Moelgaard1988	FH	11.0	SIM20, SIM40	concentration	hdl-c	hdl-c_SIM20, SIM40	plasma	8.0	weeks	1.2742342	mmol/l	0.1087901	0.360815942605243	1.1654441
+Moelgaard1988	FH	11.0	SIM20, SIM40	concentration	hdl-c	hdl-c_SIM20, SIM40	plasma	12.0	weeks	1.3150724	mmol/l	0.1055094	0.349935091655524	1.209563
+Moelgaard1988	FH	11.0	SIM20, SIM40	concentration	hdl-c	hdl-c_SIM20, SIM40	plasma	16.0	weeks	1.2668366	mmol/l	0.108806	0.360868676939409	1.1580306
+Moelgaard1988	FH	11.0	SIM20, SIM40	concentration	hdl-c	hdl-c_SIM20, SIM40	plasma	20.0	weeks	1.2284749	mmol/l	0.1054454	0.349722827668941	1.1230295
+Moelgaard1988	FH	11.0	SIM20, SIM40	concentration	hdl-c	hdl-c_SIM20, SIM40	plasma	24.0	weeks	1.2363465	mmol/l	0.0857294	0.284332253302294	1.1506171

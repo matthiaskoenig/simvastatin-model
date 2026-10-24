@@ -1,0 +1,2 @@
+study	group	count	intervention	measurement_type	substance	time	time_unit	tissue	mean	mean_sd	median	min	max	median_change	min_change	max_change	unitchange	baseline	baseline_unit	mean_unit	median_unit	count_unit
+Davidson1997	all	144	SIM80	concentration	ldl-c	6	weeks	plasma			2.7274372898888024	93.53	125.37	-47.0	-53.0	-37.0	percent			mole/meter^3	mole/meter^3	dimensionless

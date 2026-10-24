@@ -1,0 +1,11 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	mean_se	pm	mean_sd	mean_unit	count_unit
+Sugimoto2001	sim_group	8	SIM+STJ_simvastatin acid	SIM,STJ	concentration	simvastatin acid	plasma	LC MS/MS	0.0	hr	0.0				mole/meter^3	dimensionless
+Sugimoto2001	sim_group	8	SIM+STJ_simvastatin acid	SIM,STJ	concentration	simvastatin acid	plasma	LC MS/MS	0.5	hr	0.0				mole/meter^3	dimensionless
+Sugimoto2001	sim_group	8	SIM+STJ_simvastatin acid	SIM,STJ	concentration	simvastatin acid	plasma	LC MS/MS	1.0	hr	6.458250572606506e-07	3.75479638112689e-07	0.44590163	1.0620167932278127e-06	mole/meter^3	dimensionless
+Sugimoto2001	sim_group	8	SIM+STJ_simvastatin acid	SIM,STJ	concentration	simvastatin acid	plasma	LC MS/MS	2.0	hr	1.2766308749427394e-06	5.85748327989006e-07	0.81311476	1.656746459158832e-06	mole/meter^3	dimensionless
+Sugimoto2001	sim_group	8	SIM+STJ_simvastatin acid	SIM,STJ	concentration	simvastatin acid	plasma	LC MS/MS	3.0	hr	2.2378589097572145e-06	7.059017407237747e-07	1.2852459	1.9965916308686763e-06	mole/meter^3	dimensionless
+Sugimoto2001	sim_group	8	SIM+STJ_simvastatin acid	SIM,STJ	concentration	simvastatin acid	plasma	LC MS/MS	4.0	hr	2.2228396701786535e-06	6.007675217590472e-07	1.2327869	1.6992271542098374e-06	mole/meter^3	dimensionless
+Sugimoto2001	sim_group	8	SIM+STJ_simvastatin acid	SIM,STJ	concentration	simvastatin acid	plasma	LC MS/MS	6.0	hr	1.306669262482822e-06	4.05518094365552e-07	0.747541	1.1469783776789122e-06	mole/meter^3	dimensionless
+Sugimoto2001	sim_group	8	SIM+STJ_simvastatin acid	SIM,STJ	concentration	simvastatin acid	plasma	LC MS/MS	8.0	hr	8.410744388456254e-07	3.9049894640403117e-07	0.53770494	1.1044978121939717e-06	mole/meter^3	dimensionless
+Sugimoto2001	sim_group	8	SIM+STJ_simvastatin acid	SIM,STJ	concentration	simvastatin acid	plasma	LC MS/MS	12.0	hr	0.0				mole/meter^3	dimensionless
+Sugimoto2001	sim_group	8	SIM+STJ_simvastatin acid	SIM,STJ	concentration	simvastatin acid	plasma	LC MS/MS	24.0	hr	0.0				mole/meter^3	dimensionless

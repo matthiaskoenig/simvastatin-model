@@ -1,0 +1,2 @@
+parameter	value	unit	lower_bound	upper_bound	ci_lower	ci_upper	identifiability	n_points	cost_min	converged
+LI__HMGCOAREDUCTASE_Ki_simacid	9.16748418506532e-07	mmole/l	1e-07	1e-05	7.618314329679334e-07	1.1079137301780625e-06	identifiable	15	30.266126095443557	True

@@ -1,0 +1,17 @@
+study	group	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	sd	unit
+Lohitnavy2004	all	SIM_test	tmax	simvastatin	plasma	LC MS/MS	NA	NA	1.6	0.6	hr
+Lohitnavy2004	all	SIM_test	cmax	simvastatin	plasma	LC MS/MS	NA	NA	7.78	2.82	ng/ml
+Lohitnavy2004	all	SIM_test	auc_inf	simvastatin	plasma	LC MS/MS	NA	NA	37.94	16.82	ng*hr/ml
+Lohitnavy2004	all	SIM_test	thalf	simvastatin	plasma	LC MS/MS	NA	NA	5.0	2.9	hr
+Lohitnavy2004	all	SIM_reference	tmax	simvastatin	plasma	LC MS/MS	NA	NA	1.9	0.8	hr
+Lohitnavy2004	all	SIM_reference	cmax	simvastatin	plasma	LC MS/MS	NA	NA	7.75	3.42	ng/ml
+Lohitnavy2004	all	SIM_reference	auc_inf	simvastatin	plasma	LC MS/MS	NA	NA	37.45	17.9	ng*hr/ml
+Lohitnavy2004	all	SIM_reference	thalf	simvastatin	plasma	LC MS/MS	NA	NA	5.5	3.8	hr
+Lohitnavy2004	all	SIM_test	tmax	simvastatin acid	plasma	LC MS/MS	NA	NA	2.6	0.4	hr
+Lohitnavy2004	all	SIM_test	cmax	simvastatin acid	plasma	LC MS/MS	NA	NA	16.91	10.84	ng/ml
+Lohitnavy2004	all	SIM_test	auc_inf	simvastatin acid	plasma	LC MS/MS	NA	NA	121.45	70.1	ng*hr/ml
+Lohitnavy2004	all	SIM_test	thalf	simvastatin acid	plasma	LC MS/MS	NA	NA	5.2	1.4	hr
+Lohitnavy2004	all	SIM_reference	tmax	simvastatin acid	plasma	LC MS/MS	NA	NA	2.7	0.6	hr
+Lohitnavy2004	all	SIM_reference	cmax	simvastatin acid	plasma	LC MS/MS	NA	NA	20.18	17.59	ng/ml
+Lohitnavy2004	all	SIM_reference	auc_inf	simvastatin acid	plasma	LC MS/MS	NA	NA	132.16	113.5	ng*hr/ml
+Lohitnavy2004	all	SIM_reference	thalf	simvastatin acid	plasma	LC MS/MS	NA	NA	5.3	1.4	hr

@@ -1,0 +1,6 @@
+study	group	count	intervention	measurement_type	substance	tissue	label	time	time_unit	mean	change	baseline	baseline_sd	baseline_unit	mean_unit	count_unit
+Tuomilehto1995	SIM2_5mg	28	SIM2_5	concentration change	triglyceride	serum	triglyceride_SIM2_5_concentration change	0	weeks	0.0	0.0	1.6	52.6	mM	percent	dimensionless
+Tuomilehto1995	SIM2_5mg	28	SIM2_5	concentration change	triglyceride	serum	triglyceride_SIM2_5_concentration change	2	weeks	-9.683167	-9.683167	1.6	52.6	mM	percent	dimensionless
+Tuomilehto1995	SIM2_5mg	28	SIM2_5	concentration change	triglyceride	serum	triglyceride_SIM2_5_concentration change	4	weeks	-1.768627	-1.768627	1.6	52.6	mM	percent	dimensionless
+Tuomilehto1995	SIM2_5mg	28	SIM2_5	concentration change	triglyceride	serum	triglyceride_SIM2_5_concentration change	6	weeks	0.3959847	0.3959847	1.6	52.6	mM	percent	dimensionless
+Tuomilehto1995	SIM2_5mg	28	SIM2_5	concentration change	triglyceride	serum	triglyceride_SIM2_5_concentration change	8	weeks	4.247831	4.247831	1.6	52.6	mM	percent	dimensionless

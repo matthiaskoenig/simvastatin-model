@@ -1,0 +1,3 @@
+study	group	count	intervention	measurement_type	label	substance	method	tissue	time	time_unit	mean	mean_sd	mean_se	sdpm	mean_unit	count_unit
+Nishio2005	all	8	SIM	concentration	SIM_cholesterol	cholesterol	enzymatic assay	serum	0	weeks	6.5425394362554945	0.8016550297388154	0.2834278538503103		mole/meter^3	dimensionless
+Nishio2005	all	8	SIM	concentration	SIM_cholesterol	cholesterol	enzymatic assay	serum	17	weeks	5.481588311352468	0.6410447375226273	0.2266435404731003	236.76222	mole/meter^3	dimensionless

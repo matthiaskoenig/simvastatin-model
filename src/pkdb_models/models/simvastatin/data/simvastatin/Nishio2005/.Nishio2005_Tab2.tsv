@@ -1,0 +1,7 @@
+study	group	count	intervention	measurement_type	substance	method	tissue	time	time_unit	mean	sd	se	mean_unit
+Nishio2005	all	8	SIM	cmax	active simva inhibitors	enzymatic assay	plasma	na	na	9.6	3.7	1.30814754519511	ng/ml
+Nishio2005	all	8	SIM, AML	cmax	active simva inhibitors	enzymatic assay	plasma	na	na	13.7	4.7	1.66170093578839	ng/ml
+Nishio2005	all	8	SIM	thalf	active simva inhibitors	enzymatic assay	plasma	na	na	2.08	0.59	0.208596500450031	hr
+Nishio2005	all	8	SIM, AML	thalf	active simva inhibitors	enzymatic assay	plasma	na	na	1.97	0.61	0.215667568261897	hr
+Nishio2005	all	8	SIM	auc_inf	active simva inhibitors	enzymatic assay	plasma	na	na	34.3	16.5	5.83363094478902	ng*hr/ml
+Nishio2005	all	8	SIM, AML	auc_inf	active simva inhibitors	enzymatic assay	plasma	na	na	43.9	16.6	5.86898628384834	ng*hr/ml

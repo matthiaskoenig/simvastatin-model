@@ -1,0 +1,11 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	mean_unit	count_unit
+Marino2000	all_sub	12	SIM+IRB_simva+simacid	SIM,IRB	concentration	simva+simacid	serum	GC/MS	0.0	hr	0.0	mole/meter^3	dimensionless
+Marino2000	all_sub	12	SIM+IRB_simva+simacid	SIM,IRB	concentration	simva+simacid	serum	GC/MS	0.5	hr	3.5192741639945025e-06	mole/meter^3	dimensionless
+Marino2000	all_sub	12	SIM+IRB_simva+simacid	SIM,IRB	concentration	simva+simacid	serum	GC/MS	1.0	hr	8.960340815391663e-06	mole/meter^3	dimensionless
+Marino2000	all_sub	12	SIM+IRB_simva+simacid	SIM,IRB	concentration	simva+simacid	serum	GC/MS	2.0	hr	1.8029718277599636e-05	mole/meter^3	dimensionless
+Marino2000	all_sub	12	SIM+IRB_simva+simacid	SIM,IRB	concentration	simva+simacid	serum	GC/MS	3.0	hr	1.7134021988089788e-05	mole/meter^3	dimensionless
+Marino2000	all_sub	12	SIM+IRB_simva+simacid	SIM,IRB	concentration	simva+simacid	serum	GC/MS	4.0	hr	1.5028843334860286e-05	mole/meter^3	dimensionless
+Marino2000	all_sub	12	SIM+IRB_simva+simacid	SIM,IRB	concentration	simva+simacid	serum	GC/MS	6.0	hr	1.0680093907466788e-05	mole/meter^3	dimensionless
+Marino2000	all_sub	12	SIM+IRB_simva+simacid	SIM,IRB	concentration	simva+simacid	serum	GC/MS	8.0	hr	6.436316994961063e-06	mole/meter^3	dimensionless
+Marino2000	all_sub	12	SIM+IRB_simva+simacid	SIM,IRB	concentration	simva+simacid	serum	GC/MS	12.0	hr	4.321612459917545e-06	mole/meter^3	dimensionless
+Marino2000	all_sub	12	SIM+IRB_simva+simacid	SIM,IRB	concentration	simva+simacid	serum	GC/MS	24.0	hr	2.3138570774163997e-06	mole/meter^3	dimensionless

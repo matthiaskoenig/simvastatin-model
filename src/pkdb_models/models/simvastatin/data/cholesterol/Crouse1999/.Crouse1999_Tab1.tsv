@@ -1,0 +1,73 @@
+study	group	count	intervention	measurement_type	substance	method	tissue	time	time_unit	mean	median	se	sd	change	change_se	baseline	baseline_unit	unit	change_unit
+Crouse1999	all	202	SIM40	concentration	ldl-c	NR	plasma	0	weeks	212.7	NA	NA	NA	0.0	NA	212.7	mg/dl	mg/dl	percent
+Crouse1999	all	210	ATO20	concentration	ldl-c	NR	plasma	0	weeks	212.7	NA	NA	NA	0.0	NA	212.7	mg/dl	mg/dl	percent
+Crouse1999	all	215	SIM80	concentration	ldl-c	NR	plasma	0	weeks	212.7	NA	NA	NA	0.0	NA	212.7	mg/dl	mg/dl	percent
+Crouse1999	all	215	ATO40	concentration	ldl-c	NR	plasma	0	weeks	212.7	NA	NA	NA	0.0	NA	212.7	mg/dl	mg/dl	percent
+Crouse1999	all	202	SIM40	concentration	triglyceride	NR	plasma	0	weeks	186.0	NA	NA	NA	0.0	NA	186.0	mg/dl	mg/dl	percent
+Crouse1999	all	210	ATO20	concentration	triglyceride	NR	plasma	0	weeks	186.0	NA	NA	NA	0.0	NA	186.0	mg/dl	mg/dl	percent
+Crouse1999	all	215	SIM80	concentration	triglyceride	NR	plasma	0	weeks	186.0	NA	NA	NA	0.0	NA	186.0	mg/dl	mg/dl	percent
+Crouse1999	all	215	ATO40	concentration	triglyceride	NR	plasma	0	weeks	186.0	NA	NA	NA	0.0	NA	186.0	mg/dl	mg/dl	percent
+Crouse1999	all	202	SIM40	concentration	hdl-c	NR	plasma	0	weeks	46.4	NA	NA	NA	0.0	NA	46.4	mg/dl	mg/dl	percent
+Crouse1999	all	210	ATO20	concentration	hdl-c	NR	plasma	0	weeks	46.4	NA	NA	NA	0.0	NA	46.4	mg/dl	mg/dl	percent
+Crouse1999	all	215	SIM80	concentration	hdl-c	NR	plasma	0	weeks	46.4	NA	NA	NA	0.0	NA	46.4	mg/dl	mg/dl	percent
+Crouse1999	all	215	ATO40	concentration	hdl-c	NR	plasma	0	weeks	46.4	NA	NA	NA	0.0	NA	46.4	mg/dl	mg/dl	percent
+Crouse1999	all	202	SIM40	concentration	apoA-I	NR	plasma	0	weeks	145.4	NA	NA	NA	0.0	NA	145.4	mg/dl	mg/dl	percent
+Crouse1999	all	210	ATO20	concentration	apoA-I	NR	plasma	0	weeks	145.4	NA	NA	NA	0.0	NA	145.4	mg/dl	mg/dl	percent
+Crouse1999	all	215	SIM80	concentration	apoA-I	NR	plasma	0	weeks	145.4	NA	NA	NA	0.0	NA	145.4	mg/dl	mg/dl	percent
+Crouse1999	all	215	ATO40	concentration	apoA-I	NR	plasma	0	weeks	145.4	NA	NA	NA	0.0	NA	145.4	mg/dl	mg/dl	percent
+Crouse1999	all	202	SIM40	metabolic ratio	ldl/hdl-c	NR	plasma	0	weeks	4.58405172413793	NA	NA	NA	NA	NA	4.58405172413793	dimensionless	dimensionless	percent
+Crouse1999	all	210	ATO20	metabolic ratio	ldl/hdl-c	NR	plasma	0	weeks	4.58405172413793	NA	NA	NA	NA	NA	4.58405172413793	dimensionless	dimensionless	percent
+Crouse1999	all	215	SIM80	metabolic ratio	ldl/hdl-c	NR	plasma	0	weeks	4.584051724137931	NA	NA	NA	NA	NA	4.584051724137931	dimensionless	dimensionless	percent
+Crouse1999	all	215	ATO40	metabolic ratio	ldl/hdl-c	NR	plasma	0	weeks	4.584051724137931	NA	NA	NA	NA	NA	4.584051724137931	dimensionless	dimensionless	percent
+Crouse1999	all	202	SIM40	concentration	ldl-c	NR	plasma	12	weeks	121.8771	NA	NA	NA	-42.7	0.8	212.7	mg/dl	mg/dl	percent
+Crouse1999	all	210	ATO20	concentration	ldl-c	NR	plasma	12	weeks	116.985	NA	NA	NA	-45.0	0.7	212.7	mg/dl	mg/dl	percent
+Crouse1999	all	215	SIM80	concentration	ldl-c	NR	plasma	12	weeks	108.0516	NA	NA	NA	-49.2	0.8	212.7	mg/dl	mg/dl	percent
+Crouse1999	all	215	ATO40	concentration	ldl-c	NR	plasma	12	weeks	104.0103	NA	NA	NA	-51.1	0.8	212.7	mg/dl	mg/dl	percent
+Crouse1999	all	202	SIM40	concentration	triglyceride	NR	plasma	12	weeks	NA	143.22	NA	NA	-23.0	1.5	186.0	mg/dl	mg/dl	percent
+Crouse1999	all	210	ATO20	concentration	triglyceride	NR	plasma	12	weeks	NA	142.662	NA	NA	-23.3	1.8	186.0	mg/dl	mg/dl	percent
+Crouse1999	all	215	SIM80	concentration	triglyceride	NR	plasma	12	weeks	NA	139.128	NA	NA	-25.2	1.6	186.0	mg/dl	mg/dl	percent
+Crouse1999	all	215	ATO40	concentration	triglyceride	NR	plasma	12	weeks	NA	130.944	NA	NA	-29.6	1.4	186.0	mg/dl	mg/dl	percent
+Crouse1999	all	202	SIM40	concentration	hdl-c	NR	plasma	12	weeks	49.5088	NA	NA	NA	6.7	0.8	46.4	mg/dl	mg/dl	percent
+Crouse1999	all	210	ATO20	concentration	hdl-c	NR	plasma	12	weeks	48.256	NA	NA	NA	4.0	0.7	46.4	mg/dl	mg/dl	percent
+Crouse1999	all	215	SIM80	concentration	hdl-c	NR	plasma	12	weeks	49.4624	NA	NA	NA	6.6	0.8	46.4	mg/dl	mg/dl	percent
+Crouse1999	all	215	ATO40	concentration	hdl-c	NR	plasma	12	weeks	47.792	NA	NA	NA	3.0	0.8	46.4	mg/dl	mg/dl	percent
+Crouse1999	all	202	SIM40	concentration	apoA-I	NR	plasma	12	weeks	154.5602	NA	NA	NA	6.3	0.9	145.4	mg/dl	mg/dl	percent
+Crouse1999	all	210	ATO20	concentration	apoA-I	NR	plasma	12	weeks	152.67	NA	NA	NA	5.0	0.9	145.4	mg/dl	mg/dl	percent
+Crouse1999	all	215	SIM80	concentration	apoA-I	NR	plasma	12	weeks	153.9786	NA	NA	NA	5.9	0.9	145.4	mg/dl	mg/dl	percent
+Crouse1999	all	215	ATO40	concentration	apoA-I	NR	plasma	12	weeks	145.4	NA	NA	NA	0.0	0.9	145.4	mg/dl	mg/dl	percent
+Crouse1999	all	202	SIM40	metabolic ratio	ldl/hdl-c	NR	plasma	12	weeks	2.47997198275862	NA	NA	NA	-45.9	0.8	4.58405172413793	dimensionless	dimensionless	percent
+Crouse1999	all	210	ATO20	metabolic ratio	ldl/hdl-c	NR	plasma	12	weeks	2.45246767241379	NA	NA	NA	-46.5	0.8	4.58405172413793	dimensionless	dimensionless	percent
+Crouse1999	all	215	SIM80	metabolic ratio	ldl/hdl-c	NR	plasma	12	weeks	2.2095129310344825	NA	NA	NA	-51.8	0.9	4.584051724137931	dimensionless	dimensionless	percent
+Crouse1999	all	215	ATO40	metabolic ratio	ldl/hdl-c	NR	plasma	12	weeks	2.2095129310344825	NA	NA	NA	-51.8	0.8	4.584051724137931	dimensionless	dimensionless	percent
+Crouse1999	all	202	SIM40	concentration change	ldl-c	NR	plasma	0	weeks	0.0	NA	NA	0.0	NA	NA	212.7	mg/dl	percent	percent
+Crouse1999	all	210	ATO20	concentration change	ldl-c	NR	plasma	0	weeks	0.0	NA	NA	0.0	NA	NA	212.7	mg/dl	percent	percent
+Crouse1999	all	215	SIM80	concentration change	ldl-c	NR	plasma	0	weeks	0.0	NA	NA	0.0	NA	NA	212.7	mg/dl	percent	percent
+Crouse1999	all	215	ATO40	concentration change	ldl-c	NR	plasma	0	weeks	0.0	NA	NA	0.0	NA	NA	212.7	mg/dl	percent	percent
+Crouse1999	all	202	SIM40	concentration change	triglyceride	NR	plasma	0	weeks	0.0	NA	NA	0.0	NA	NA	186.0	mg/dl	percent	percent
+Crouse1999	all	210	ATO20	concentration change	triglyceride	NR	plasma	0	weeks	0.0	NA	NA	0.0	NA	NA	186.0	mg/dl	percent	percent
+Crouse1999	all	215	SIM80	concentration change	triglyceride	NR	plasma	0	weeks	0.0	NA	NA	0.0	NA	NA	186.0	mg/dl	percent	percent
+Crouse1999	all	215	ATO40	concentration change	triglyceride	NR	plasma	0	weeks	0.0	NA	NA	0.0	NA	NA	186.0	mg/dl	percent	percent
+Crouse1999	all	202	SIM40	concentration change	hdl-c	NR	plasma	0	weeks	0.0	NA	NA	0.0	NA	NA	46.4	mg/dl	percent	percent
+Crouse1999	all	210	ATO20	concentration change	hdl-c	NR	plasma	0	weeks	0.0	NA	NA	0.0	NA	NA	46.4	mg/dl	percent	percent
+Crouse1999	all	215	SIM80	concentration change	hdl-c	NR	plasma	0	weeks	0.0	NA	NA	0.0	NA	NA	46.4	mg/dl	percent	percent
+Crouse1999	all	215	ATO40	concentration change	hdl-c	NR	plasma	0	weeks	0.0	NA	NA	0.0	NA	NA	46.4	mg/dl	percent	percent
+Crouse1999	all	202	SIM40	concentration change	apoA-I	NR	plasma	0	weeks	0.0	NA	NA	0.0	NA	NA	145.4	mg/dl	percent	percent
+Crouse1999	all	210	ATO20	concentration change	apoA-I	NR	plasma	0	weeks	0.0	NA	NA	0.0	NA	NA	145.4	mg/dl	percent	percent
+Crouse1999	all	215	SIM80	concentration change	apoA-I	NR	plasma	0	weeks	0.0	NA	NA	0.0	NA	NA	145.4	mg/dl	percent	percent
+Crouse1999	all	215	ATO40	concentration change	apoA-I	NR	plasma	0	weeks	0.0	NA	NA	0.0	NA	NA	145.4	mg/dl	percent	percent
+Crouse1999	all	202	SIM40	concentration change	ldl-c	NR	plasma	12	weeks	-42.7	NA	0.8	11.3701363228415	-42.7	0.8	212.7	mg/dl	percent	percent
+Crouse1999	all	210	ATO20	concentration change	ldl-c	NR	plasma	12	weeks	-45.0	NA	0.7	10.1439637223326	-45.0	0.7	212.7	mg/dl	percent	percent
+Crouse1999	all	215	SIM80	concentration change	ldl-c	NR	plasma	12	weeks	-49.2	NA	0.8	11.7303026388921	-49.2	0.8	212.7	mg/dl	percent	percent
+Crouse1999	all	215	ATO40	concentration change	ldl-c	NR	plasma	12	weeks	-51.1	NA	0.8	11.7303026388921	-51.1	0.8	212.7	mg/dl	percent	percent
+Crouse1999	all	202	SIM40	concentration change	triglyceride	NR	plasma	12	weeks	-23.0	NA	1.5	21.3190056053278	-23.0	1.5	186.0	mg/dl	percent	percent
+Crouse1999	all	210	ATO20	concentration change	triglyceride	NR	plasma	12	weeks	-23.3	NA	1.8	26.084478143141	-23.3	1.8	186.0	mg/dl	percent	percent
+Crouse1999	all	215	SIM80	concentration change	triglyceride	NR	plasma	12	weeks	-25.2	NA	1.6	23.4606052777843	-25.2	1.6	186.0	mg/dl	percent	percent
+Crouse1999	all	215	ATO40	concentration change	triglyceride	NR	plasma	12	weeks	-29.6	NA	1.4	20.5280296180613	-29.6	1.4	186.0	mg/dl	percent	percent
+Crouse1999	all	202	SIM40	concentration change	hdl-c	NR	plasma	12	weeks	6.7	NA	0.8	11.3701363228415	6.7	0.8	46.4	mg/dl	percent	percent
+Crouse1999	all	210	ATO20	concentration change	hdl-c	NR	plasma	12	weeks	4.0	NA	0.7	10.1439637223326	4.0	0.7	46.4	mg/dl	percent	percent
+Crouse1999	all	215	SIM80	concentration change	hdl-c	NR	plasma	12	weeks	6.6	NA	0.8	11.7303026388921	6.6	0.8	46.4	mg/dl	percent	percent
+Crouse1999	all	215	ATO40	concentration change	hdl-c	NR	plasma	12	weeks	3.0	NA	0.8	11.7303026388921	3.0	0.8	46.4	mg/dl	percent	percent
+Crouse1999	all	202	SIM40	concentration change	apoA-I	NR	plasma	12	weeks	6.3	NA	0.9	12.7914033631967	6.3	0.9	145.4	mg/dl	percent	percent
+Crouse1999	all	210	ATO20	concentration change	apoA-I	NR	plasma	12	weeks	5.0	NA	0.9	13.0422390715705	5.0	0.9	145.4	mg/dl	percent	percent
+Crouse1999	all	215	SIM80	concentration change	apoA-I	NR	plasma	12	weeks	5.9	NA	0.9	13.1965904687537	5.9	0.9	145.4	mg/dl	percent	percent
+Crouse1999	all	215	ATO40	concentration change	apoA-I	NR	plasma	12	weeks	0.0	NA	0.9	13.1965904687537	0.0	0.9	145.4	mg/dl	percent	percent

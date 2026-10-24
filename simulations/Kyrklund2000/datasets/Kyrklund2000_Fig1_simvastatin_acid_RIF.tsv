@@ -1,0 +1,12 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	mean_se	pm	mean_sd	mean_unit	count_unit
+Kyrklund2000	all	10	SIM+RIF_simvastatin acid	SIM,RIF	concentration	simvastatin acid	plasma	LC MS/MS	0.0	hr	0.0				mole/meter^3	dimensionless
+Kyrklund2000	all	10	SIM+RIF_simvastatin acid	SIM,RIF	concentration	simvastatin acid	plasma	LC MS/MS	0.5	hr	2.8223934951901053e-08	1.4422523133302794e-07	0.075291306	4.5608022707704995e-07	mole/meter^3	dimensionless
+Kyrklund2000	all	10	SIM+RIF_simvastatin acid	SIM,RIF	concentration	simvastatin acid	plasma	LC MS/MS	1.0	hr	4.4582858451672013e-07	1.5142393495190107e-07	0.12853707	4.78844526713186e-07	mole/meter^3	dimensionless
+Kyrklund2000	all	10	SIM+RIF_simvastatin acid	SIM,RIF	concentration	simvastatin acid	plasma	LC MS/MS	1.5	hr	5.533752404947321e-07	1.6586701786532295e-07	0.31402117	5.245175651542603e-07	mole/meter^3	dimensionless
+Kyrklund2000	all	10	SIM+RIF_simvastatin acid	SIM,RIF	concentration	simvastatin acid	plasma	LC MS/MS	2.0	hr	4.7347022446174983e-07	1.4416811726981218e-07	0.2696609	4.5589961655086124e-07	mole/meter^3	dimensionless
+Kyrklund2000	all	10	SIM+RIF_simvastatin acid	SIM,RIF	concentration	simvastatin acid	plasma	LC MS/MS	3.0	hr	4.2901067338524965e-07	1.1535048098946406e-07	0.23766808	3.647702491226592e-07	mole/meter^3	dimensionless
+Kyrklund2000	all	10	SIM+RIF_simvastatin acid	SIM,RIF	concentration	simvastatin acid	plasma	LC MS/MS	4.0	hr	4.7107256069628953e-07				mole/meter^3	dimensionless
+Kyrklund2000	all	10	SIM+RIF_simvastatin acid	SIM,RIF	concentration	simvastatin acid	plasma	LC MS/MS	6.0	hr	1.9469034356390287e-07				mole/meter^3	dimensionless
+Kyrklund2000	all	10	SIM+RIF_simvastatin acid	SIM,RIF	concentration	simvastatin acid	plasma	LC MS/MS	8.0	hr	7.691936097114064e-08				mole/meter^3	dimensionless
+Kyrklund2000	all	10	SIM+RIF_simvastatin acid	SIM,RIF	concentration	simvastatin acid	plasma	LC MS/MS	10.0	hr	9.596366239120476e-09				mole/meter^3	dimensionless
+Kyrklund2000	all	10	SIM+RIF_simvastatin acid	SIM,RIF	concentration	simvastatin acid	plasma	LC MS/MS	12.0	hr	3.602776454420523e-08				mole/meter^3	dimensionless

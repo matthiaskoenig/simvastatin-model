@@ -1,0 +1,3 @@
+study	group	count	intervention	measurement_type	substance	method	label	tissue	time	time_unit	mean	median	mean_sd	mean_se	change	change_sd	baseline	baseline_unit	mean_unit	median_unit	count_unit
+Isaacsohn2003	all	48	placebo	concentration	ldl-apoB100+48	immunochromatography	placebo_ldl-apoB100+48_concentration	plasma	0	week	130.0		28.0	4.04145188432738			130	mg/dl	mg/dl	mg/dl	dimensionless
+Isaacsohn2003	all	48	placebo	concentration	ldl-apoB100+48	immunochromatography	placebo_ldl-apoB100+48_concentration	plasma	6	week	128.0		32.0	4.61880215351701	-1.0	15.2	130	mg/dl	mg/dl	mg/dl	dimensionless

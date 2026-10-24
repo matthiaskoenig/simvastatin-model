@@ -1,0 +1,14 @@
+study	group	count	intervention	measurement_type	substance	method	tissue	label	time	time_unit	mean	mean_sd	mean_se	pm	mean_unit	count_unit
+Keskitalo2008	CGC/CGC	12	ATO_20mg	concentration	atorvastatin lactone	LC MS/MS	plasma	ATO_20mg_atorvastatin lactone_CGC/CGC	0.0	hr	0.0				ng/ml	dimensionless
+Keskitalo2008	CGC/CGC	12	ATO_20mg	concentration	atorvastatin lactone	LC MS/MS	plasma	ATO_20mg_atorvastatin lactone_CGC/CGC	0.5	hr	0.9423014	0.927918853752266	0.2678671	1.2101685	ng/ml	dimensionless
+Keskitalo2008	CGC/CGC	12	ATO_20mg	concentration	atorvastatin lactone	LC MS/MS	plasma	ATO_20mg_atorvastatin lactone_CGC/CGC	1.0	hr	1.2597202	0.756041216734299	0.2182503	1.0414699	ng/ml	dimensionless
+Keskitalo2008	CGC/CGC	12	ATO_20mg	concentration	atorvastatin lactone	LC MS/MS	plasma	ATO_20mg_atorvastatin lactone_CGC/CGC	2.0	hr	1.2365104	0.458201916786693	0.1322715	1.1042389	ng/ml	dimensionless
+Keskitalo2008	CGC/CGC	12	ATO_20mg	concentration	atorvastatin lactone	LC MS/MS	plasma	ATO_20mg_atorvastatin lactone_CGC/CGC	3.0	hr	1.4050889	0.458213694732185	0.1322749	1.272814	ng/ml	dimensionless
+Keskitalo2008	CGC/CGC	12	ATO_20mg	concentration	atorvastatin lactone	LC MS/MS	plasma	ATO_20mg_atorvastatin lactone_CGC/CGC	4.0	hr	1.3620311	0.378062350791612	0.1091372	1.2528939	ng/ml	dimensionless
+Keskitalo2008	CGC/CGC	12	ATO_20mg	concentration	atorvastatin lactone	LC MS/MS	plasma	ATO_20mg_atorvastatin lactone_CGC/CGC	5.0	hr	1.6628915	0.389529566368203	0.1124475	1.550444	ng/ml	dimensionless
+Keskitalo2008	CGC/CGC	12	ATO_20mg	concentration	atorvastatin lactone	LC MS/MS	plasma	ATO_20mg_atorvastatin lactone_CGC/CGC	7.0	hr	1.3320636	0.343672482007331	0.0992096999999998	1.2328539	ng/ml	dimensionless
+Keskitalo2008	CGC/CGC	12	ATO_20mg	concentration	atorvastatin lactone	LC MS/MS	plasma	ATO_20mg_atorvastatin lactone_CGC/CGC	9.0	hr	1.3153921	0.378026324134815	0.1091268	1.2062653	ng/ml	dimensionless
+Keskitalo2008	CGC/CGC	12	ATO_20mg	concentration	atorvastatin lactone	LC MS/MS	plasma	ATO_20mg_atorvastatin lactone_CGC/CGC	12.0	hr	0.9415064	0.332205127866677	0.09589936	0.84560704	ng/ml	dimensionless
+Keskitalo2008	CGC/CGC	12	ATO_20mg	concentration	atorvastatin lactone	LC MS/MS	plasma	ATO_20mg_atorvastatin lactone_CGC/CGC	24.0	hr	0.3685879	0.194740984806005	0.05621688	0.42480478	ng/ml	dimensionless
+Keskitalo2008	CGC/CGC	12	ATO_20mg	concentration	atorvastatin lactone	LC MS/MS	plasma	ATO_20mg_atorvastatin lactone_CGC/CGC	34.0	hr	0.1893348	0.103109954523028	0.02976528	0.15956952	ng/ml	dimensionless
+Keskitalo2008	CGC/CGC	12	ATO_20mg	concentration	atorvastatin lactone	LC MS/MS	plasma	ATO_20mg_atorvastatin lactone_CGC/CGC	48.0	hr	0.05277976				ng/ml	dimensionless

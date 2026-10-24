@@ -1,0 +1,13 @@
+study	group	label	count	intervention	measurement_type	substance	tissue	time	time_unit	mean	sd	se	unit
+Loria1993	all	cholesterol_plasma	5	SIM80	concentration	cholesterol	plasma	0	hr	163	29	12.9691942694988	mg/dl
+Loria1993	all	vldl-c_plasma	5	SIM80	concentration	vldl-c	plasma	0	hr	20	7	3.13049516849971	mg/dl
+Loria1993	all	ldl-c_plasma	5	SIM80	concentration	ldl-c	plasma	0	hr	97	24	10.733126291999	mg/dl
+Loria1993	all	hdl-c_plasma	5	SIM80	concentration	hdl-c	plasma	0	hr	47	10	4.47213595499958	mg/dl
+Loria1993	all	cholesterol_plasma	5	SIM80	concentration	cholesterol	plasma	8	hr	137	31	13.8636214604987	mg/dl
+Loria1993	all	vldl-c_plasma	5	SIM80	concentration	vldl-c	plasma	8	hr	16	11	4.91934955049954	mg/dl
+Loria1993	all	ldl-c_plasma	5	SIM80	concentration	ldl-c	plasma	8	hr	78	21	9.39148550549912	mg/dl
+Loria1993	all	hdl-c_plasma	5	SIM80	concentration	hdl-c	plasma	8	hr	44	10	4.47213595499958	mg/dl
+Loria1993	all	cholesterol_plasma	5	SIM80	concentration	cholesterol	plasma	18	hr	144	30	13.4164078649987	mg/dl
+Loria1993	all	vldl-c_plasma	5	SIM80	concentration	vldl-c	plasma	18	hr	16	10	4.47213595499958	mg/dl
+Loria1993	all	ldl-c_plasma	5	SIM80	concentration	ldl-c	plasma	18	hr	82	22	9.83869910099907	mg/dl
+Loria1993	all	hdl-c_plasma	5	SIM80	concentration	hdl-c	plasma	18	hr	46	11	4.91934955049954	mg/dl

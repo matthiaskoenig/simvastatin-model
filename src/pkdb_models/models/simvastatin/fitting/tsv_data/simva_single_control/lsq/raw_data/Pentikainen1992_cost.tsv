@@ -1,0 +1,5 @@
+id	experiment	mapping	cost	type
+Pentikainen1992_fm_activeInhibitors	Pentikainen1992	fm_activeInhibitors	45.85417351275957	initial
+Pentikainen1992_fm_activeInhibitors	Pentikainen1992	fm_activeInhibitors	0.11540224425980845	fit
+Pentikainen1992_fm_totalInhibitors	Pentikainen1992	fm_totalInhibitors	1019.6617412758836	initial
+Pentikainen1992_fm_totalInhibitors	Pentikainen1992	fm_totalInhibitors	0.27702737858917076	fit

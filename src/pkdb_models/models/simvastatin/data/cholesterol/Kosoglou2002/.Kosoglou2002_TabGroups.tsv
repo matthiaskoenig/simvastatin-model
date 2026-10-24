@@ -1,0 +1,38 @@
+study	name	parent	group_count	measurement_type	choice	count	substance	mean	se	median	min	max	unit
+Kosoglou2002	all	NA	82	species	homo sapiens	82	NA	NA	NA	NA	NA	NA	NA
+Kosoglou2002	all	NA	82	healthy	Y	82	NA	NA	NA	NA	NA	NA	NA
+Kosoglou2002	all	NA	82	medication	N	82	NA	NA	NA	NA	NA	NA	NA
+Kosoglou2002	all	NA	82	smoking amount (cigarettes)	NA	82	NA	NA	NA	NA	NA	10.0	1/day
+Kosoglou2002	all	NA	82	sex	M	82	NA	NA	NA	NA	NA	NA	NA
+Kosoglou2002	all	NA	82	ethnicity	caucasian	82	NA	NA	NA	NA	NA	NA	NA
+Kosoglou2002	all	NA	82	overnight fast	Y	82	NA	NA	NA	NA	NA	NA	NA
+Kosoglou2002	study1	all	58	sex	M	58	NA	NA	NA	NA	NA	NA	NA
+Kosoglou2002	study1	all	58	bmi	NA	58	NA	NA	NA	NA	19.0	31.0	kg/m^2
+Kosoglou2002	study1	all	58	age	NA	58	NA	NA	NA	NA	20.0	50.0	yr
+Kosoglou2002	study2	all	24	sex	M	24	NA	NA	NA	NA	NA	NA	NA
+Kosoglou2002	study2	all	24	bmi	NA	24	NA	NA	NA	NA	19.0	27.0	kg/m^2
+Kosoglou2002	study2	all	24	age	NA	24	NA	NA	NA	NA	22.0	49.0	yr
+Kosoglou2002	SIM10+EZE0.25	study1	11	age	NA	11	NA	36.0	1.5	37.0	28.0	44.0	yr
+Kosoglou2002	SIM10+EZE0.25	study1	11	weight	NA	11	NA	75.8	2.7	78.0	55.0	89.0	kg
+Kosoglou2002	SIM10+EZE0.25	study1	11	concentration	NA	11	ldl-c	177.1	12.7	164.0	132.0	282.0	mg/dl
+Kosoglou2002	SIM10+EZE1	study1	12	age	NA	12	NA	36.1	2.3	36.0	20.0	47.0	yr
+Kosoglou2002	SIM10+EZE1	study1	12	weight	NA	12	NA	73.3	3.0	71.0	55.0	90.0	kg
+Kosoglou2002	SIM10+EZE1	study1	12	concentration	NA	12	ldl-c	177.3	12.5	7.3	8.9	6.6	mg/dl
+Kosoglou2002	SIM10+EZE10	study1	12	age	NA	12	NA	38.0	2.1	41.0	24.0	46.0	yr
+Kosoglou2002	SIM10+EZE10	study1	12	weight	NA	12	NA	74.8	2.6	73.0	63.0	97.0	kg
+Kosoglou2002	SIM10+EZE10	study1	12	concentration	NA	12	ldl-c	171.4	7.3	166.0	135.0	219.0	mg/dl
+Kosoglou2002	SIM10	study1	12	age	NA	12	NA	34.1	2.3	34.0	21.0	49.0	yr
+Kosoglou2002	SIM10	study1	12	weight	NA	12	NA	72.8	1.9	75.0	60.0	81.0	kg
+Kosoglou2002	SIM10	study1	12	concentration	NA	12	ldl-c	167.5	8.9	166.0	108.0	228.0	mg/dl
+Kosoglou2002	placebo	study1	11	age	NA	11	NA	37.1	2.8	33.0	26.0	50.0	yr
+Kosoglou2002	placebo	study1	11	weight	NA	11	NA	72.3	2.7	68.0	62.0	88.0	kg
+Kosoglou2002	placebo	study1	11	concentration	NA	11	ldl-c	164.0	6.6	161.0	135.0	203.0	mg/dl
+Kosoglou2002	SIM20+EZE10	study2	8	age	NA	8	NA	38.0	2.9	38.0	22.0	49.0	yr
+Kosoglou2002	SIM20+EZE10	study2	8	weight	NA	8	NA	70.3	2.9	72.0	57.0	79.0	kg
+Kosoglou2002	SIM20+EZE10	study2	8	concentration	NA	8	ldl-c	183.4	11.9	182.0	147.0	221.0	mg/dl
+Kosoglou2002	SIM20	study2	8	age	NA	8	NA	37.6	2.7	36.0	27.0	47.0	yr
+Kosoglou2002	SIM20	study2	8	weight	NA	8	NA	81.0	2.0	81.0	72.0	89.0	kg
+Kosoglou2002	SIM20	study2	8	concentration	NA	8	ldl-c	157.8	6.4	159.0	134.0	181.0	mg/dl
+Kosoglou2002	EZE10	study2	8	age	NA	8	NA	33.3	2.0	33.0	26.0	43.0	yr
+Kosoglou2002	EZE10	study2	8	weight	NA	8	NA	72.3	2.9	74.0	60.0	82.0	kg
+Kosoglou2002	EZE10	study2	8	concentration	NA	8	ldl-c	168.5	9.5	165.0	135.0	197.0	mg/dl

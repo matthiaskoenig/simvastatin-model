@@ -1,0 +1,41 @@
+study	group	count	intervention	measurement_type	substance	tissue	time	time_unit	mean	sd	unit
+Kosoglou2002	SIM10+EZE0.25	11	SIM10,EZE0.25	cmax	simvastatin	plasma	NA	NA	2.94	1.84	ng/ml
+Kosoglou2002	SIM10+EZE0.25	11	SIM10,EZE0.25	tmax	simvastatin	plasma	NA	NA	1.0	na	hr
+Kosoglou2002	SIM10+EZE0.25	11	SIM10,EZE0.25	auc_end	simvastatin	plasma	24.0	hr	8.07	4.67	ng hr/ml
+Kosoglou2002	SIM10+EZE0.25	11	SIM10,EZE0.25	thalf	simvastatin	plasma	NA	NA	3.76	1.85	hr
+Kosoglou2002	SIM10+EZE0.25	11	SIM10,EZE0.25	clearance	simvastatin	plasma	NA	NA	362.0	172	ml/min/kg
+Kosoglou2002	SIM10+EZE0.25	11	SIM10,EZE0.25	vd	simvastatin	plasma	NA	NA	111.0	94	l/kg
+Kosoglou2002	SIM10+EZE0.25	11	SIM10,EZE0.25	cmax	simvastatin acid	plasma	NA	NA	0.9	1.03	ng/ml
+Kosoglou2002	SIM10+EZE0.25	11	SIM10,EZE0.25	tmax	simvastatin acid	plasma	NA	NA	3.0	na	hr
+Kosoglou2002	SIM10+EZE0.25	11	SIM10,EZE0.25	auc_end	simvastatin acid	plasma	24.0	hr	9.1	11.72	ng hr /ml
+Kosoglou2002	SIM10+EZE0.25	11	SIM10,EZE0.25	thalf	simvastatin acid	plasma	NA	NA	6.2	4.8	hr
+Kosoglou2002	SIM10+EZE1	12	SIM10,EZE1	cmax	simvastatin	plasma	NA	NA	2.38	1.32	ng/ml
+Kosoglou2002	SIM10+EZE1	12	SIM10,EZE1	tmax	simvastatin	plasma	NA	NA	1.0	na	hr
+Kosoglou2002	SIM10+EZE1	12	SIM10,EZE1	auc_end	simvastatin	plasma	24.0	hr	7.82	6.15	ng hr/ml
+Kosoglou2002	SIM10+EZE1	12	SIM10,EZE1	thalf	simvastatin	plasma	NA	NA	2.78	1.98	hr
+Kosoglou2002	SIM10+EZE1	12	SIM10,EZE1	clearance	simvastatin	plasma	NA	NA	455.0	262	ml/min/kg
+Kosoglou2002	SIM10+EZE1	12	SIM10,EZE1	vd	simvastatin	plasma	NA	NA	85.4	44	l/kg
+Kosoglou2002	SIM10+EZE1	12	SIM10,EZE1	cmax	simvastatin acid	plasma	NA	NA	0.63	0.34	ng/ml
+Kosoglou2002	SIM10+EZE1	12	SIM10,EZE1	tmax	simvastatin acid	plasma	NA	NA	3.5	na	hr
+Kosoglou2002	SIM10+EZE1	12	SIM10,EZE1	auc_end	simvastatin acid	plasma	24.0	hr	5.64	4.85	ng hr /ml
+Kosoglou2002	SIM10+EZE1	12	SIM10,EZE1	thalf	simvastatin acid	plasma	NA	NA	5.15	1.88	hr
+Kosoglou2002	SIM10+EZE10	11	SIM10,EZE10	cmax	simvastatin	plasma	NA	NA	2.65	1.65	ng/ml
+Kosoglou2002	SIM10+EZE10	11	SIM10,EZE10	tmax	simvastatin	plasma	NA	NA	1.0	na	hr
+Kosoglou2002	SIM10+EZE10	11	SIM10,EZE10	auc_end	simvastatin	plasma	24.0	hr	8.42	7.02	ng hr/ml
+Kosoglou2002	SIM10+EZE10	11	SIM10,EZE10	thalf	simvastatin	plasma	NA	NA	3.46	2.11	hr
+Kosoglou2002	SIM10+EZE10	11	SIM10,EZE10	clearance	simvastatin	plasma	NA	NA	502.0	509	ml/min/kg
+Kosoglou2002	SIM10+EZE10	11	SIM10,EZE10	vd	simvastatin	plasma	NA	NA	112.0	76	l/kg
+Kosoglou2002	SIM10+EZE10	11	SIM10,EZE10	cmax	simvastatin acid	plasma	NA	NA	0.62	na	ng/ml
+Kosoglou2002	SIM10+EZE10	11	SIM10,EZE10	tmax	simvastatin acid	plasma	NA	NA	3.0	na	hr
+Kosoglou2002	SIM10+EZE10	11	SIM10,EZE10	auc_end	simvastatin acid	plasma	24.0	hr	5.55	3.95	ng hr /ml
+Kosoglou2002	SIM10+EZE10	11	SIM10,EZE10	thalf	simvastatin acid	plasma	NA	NA	4.69	1.64	hr
+Kosoglou2002	SIM10	12	SIM10	cmax	simvastatin	plasma	NA	NA	2.36	1.09	ng/ml
+Kosoglou2002	SIM10	12	SIM10	tmax	simvastatin	plasma	NA	NA	1.0	na	hr
+Kosoglou2002	SIM10	12	SIM10	auc_end	simvastatin	plasma	24.0	hr	6.82	3.29	ng hr/ml
+Kosoglou2002	SIM10	12	SIM10	thalf	simvastatin	plasma	NA	NA	3.52	3.06	hr
+Kosoglou2002	SIM10	12	SIM10	clearance	simvastatin	plasma	NA	NA	448.0	283	ml/min/kg
+Kosoglou2002	SIM10	12	SIM10	vd	simvastatin	plasma	NA	NA	116.0	109	l/kg
+Kosoglou2002	SIM10	12	SIM10	cmax	simvastatin acid	plasma	NA	NA	0.57	0.26	ng/ml
+Kosoglou2002	SIM10	12	SIM10	tmax	simvastatin acid	plasma	NA	NA	4.0	na	hr
+Kosoglou2002	SIM10	12	SIM10	auc_end	simvastatin acid	plasma	24.0	hr	5.1	2.63	ng hr /ml
+Kosoglou2002	SIM10	12	SIM10	thalf	simvastatin acid	plasma	NA	NA	4.91	2	hr

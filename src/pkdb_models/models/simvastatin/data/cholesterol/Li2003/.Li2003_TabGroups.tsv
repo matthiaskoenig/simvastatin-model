@@ -1,0 +1,22 @@
+study	name	parent	measurement_type	group_count	choice	substance	count	mean	sd	min	max	unit
+Li2003	all	NA	healthy	42.0	N	NA	42.0	NA	NA	NA	NA	NA
+Li2003	all	NA	species	42.0	homo sapiens	NA	42.0	NA	NA	NA	NA	NA
+Li2003	all	NA	disease	42.0	mixed hypercholesterolemia	NA	42.0	NA	NA	NA	NA	NA
+Li2003	all	NA	consumption	42.0	NA	cholesterol	42.0	NA	NA	NA	300.0	mg/day
+Li2003	all	NA	blood pressure systolic	42.0	NA	NA	42.0	NA	NA	NA	160.0	mmHg
+Li2003	all	NA	blood pressure diastolic	42.0	NA	NA	42.0	NA	NA	NA	105.0	mmHg
+Li2003	all	NA	medication	42.0	Y	NA	42.0	NA	NA	NA	NA	NA
+Li2003	all	NA	sex	42.0	M	NA	29.0	NA	NA	NA	NA	NA
+Li2003	all	NA	sex	42.0	F	NA	13.0	NA	NA	NA	NA	NA
+Li2003	SIM_20mg	all	age	21.0	NA	NA	21.0	47.0	2.0	18.0	NA	yr
+Li2003	SIM_20mg	all	sex	21.0	M	NA	14.0	NA	NA	NA	NA	NA
+Li2003	SIM_20mg	all	sex	21.0	F	NA	7.0	NA	NA	NA	NA	NA
+Li2003	SIM_20mg	all	bmi	21.0	NA	NA	21.0	22.0	2.0	NA	NA	kg/m^2
+Li2003	SIM_20mg	all	disease	21.0	diabetes	NA	4.0	NA	NA	NA	NA	NA
+Li2003	SIM_20mg	all	smoking	21.0	Y	NA	3.0	NA	NA	NA	NA	NA
+Li2003	SIM_40mg	all	age	21.0	NA	NA	21.0	50.0	3.0	18.0	NA	yr
+Li2003	SIM_40mg	all	sex	21.0	M	NA	15.0	NA	NA	NA	NA	NA
+Li2003	SIM_40mg	all	sex	21.0	F	NA	6.0	NA	NA	NA	NA	NA
+Li2003	SIM_40mg	all	bmi	21.0	NA	NA	21.0	20.0	1.8	NA	NA	kg/m^2
+Li2003	SIM_40mg	all	disease	21.0	diabetes	NA	3.0	NA	NA	NA	NA	NA
+Li2003	SIM_40mg	all	smoking	21.0	Y	NA	3.0	NA	NA	NA	NA	NA

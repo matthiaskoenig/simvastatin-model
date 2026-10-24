@@ -1,0 +1,14 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	mean_se	pm	mean_sd	mean_unit	count_unit
+Kim2019	all_sub	17	SIM+CIL_simvastatin acid	SIM,CIL	concentration	simvastatin acid	plasma	LC MS/MS	0.0	hr	0.0				mole/meter^3	dimensionless
+Kim2019	all_sub	17	SIM+CIL_simvastatin acid	SIM,CIL	concentration	simvastatin acid	plasma	LC MS/MS	0.5	hr	7.105839441136052e-07	2.897527027027027e-07	0.43674698	1.1946809985514353e-06	mole/meter^3	dimensionless
+Kim2019	all_sub	17	SIM+CIL_simvastatin acid	SIM,CIL	concentration	simvastatin acid	plasma	LC MS/MS	1.0	hr	2.835437013284471e-06	7.036850664223546e-07	1.5451807	2.9013678560291483e-06	mole/meter^3	dimensionless
+Kim2019	all_sub	17	SIM+CIL_simvastatin acid	SIM,CIL	concentration	simvastatin acid	plasma	LC MS/MS	1.5	hr	4.822312872194228e-06	8.554601465872653e-07	2.4789157	3.527152542885662e-06	mole/meter^3	dimensionless
+Kim2019	all_sub	17	SIM+CIL_simvastatin acid	SIM,CIL	concentration	simvastatin acid	plasma	LC MS/MS	2.0	hr	6.298671552908841e-06	1.2555948236371965e-06	3.2981927	5.176950080834939e-06	mole/meter^3	dimensionless
+Kim2019	all_sub	17	SIM+CIL_simvastatin acid	SIM,CIL	concentration	simvastatin acid	plasma	LC MS/MS	2.5	hr	7.844019239578561e-06	1.2417970682546953e-06	3.9668674	5.120060477996452e-06	mole/meter^3	dimensionless
+Kim2019	all_sub	17	SIM+CIL_simvastatin acid	SIM,CIL	concentration	simvastatin acid	plasma	LC MS/MS	3.0	hr	8.478715758131012e-06	1.379774851122309e-06	4.304217	5.688957450748162e-06	mole/meter^3	dimensionless
+Kim2019	all_sub	17	SIM+CIL_simvastatin acid	SIM,CIL	concentration	simvastatin acid	plasma	LC MS/MS	4.0	hr	9.858490609253323e-06	1.4349649564819058e-06	4.9307227	5.916512084634747e-06	mole/meter^3	dimensionless
+Kim2019	all_sub	17	SIM+CIL_simvastatin acid	SIM,CIL	concentration	simvastatin acid	plasma	LC MS/MS	5.0	hr	6.919570087036189e-06	1.0624267063673843e-06	3.4849398	4.380497529829805e-06	mole/meter^3	dimensionless
+Kim2019	all_sub	17	SIM+CIL_simvastatin acid	SIM,CIL	concentration	simvastatin acid	plasma	LC MS/MS	6.0	hr	5.594986715529089e-06	1.0624262482821807e-06	2.9066265	4.380495641096125e-06	mole/meter^3	dimensionless
+Kim2019	all_sub	17	SIM+CIL_simvastatin acid	SIM,CIL	concentration	simvastatin acid	plasma	LC MS/MS	8.0	hr	4.518762253779203e-06	6.760897846999543e-07	2.2680724	2.787589594719014e-06	mole/meter^3	dimensionless
+Kim2019	all_sub	17	SIM+CIL_simvastatin acid	SIM,CIL	concentration	simvastatin acid	plasma	LC MS/MS	12.0	hr	1.9523812643151627e-06	3.1734823637196523e-07	0.9909639	1.3084602986650928e-06	mole/meter^3	dimensionless
+Kim2019	all_sub	17	SIM+CIL_simvastatin acid	SIM,CIL	concentration	simvastatin acid	plasma	LC MS/MS	24.0	hr	6.691907466788823e-07	3.173481905634448e-07	0.4307229	1.3084601097917247e-06	mole/meter^3	dimensionless

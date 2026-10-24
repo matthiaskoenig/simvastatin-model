@@ -1,0 +1,25 @@
+study	group	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	calculation_type	geo_mean	median	min	max	sd	unit
+Harvey2018	all_subset	SIM	auc_inf	simvastatin	plasma	LC MS/MS	NA	hr	80.3	geometric mean	NA	NA	NA	NA	NA	ng hr/ml
+Harvey2018	all_subset	SIM	auc_end	simvastatin	plasma	LC MS/MS	32.0	hr	78.0	geometric mean	NA	NA	NA	NA	NA	ng hr/ml
+Harvey2018	all_subset	SIM	cmax	simvastatin	plasma	LC MS/MS	NA	hr	24.5	geometric mean	NA	NA	NA	NA	NA	ng/ml
+Harvey2018	all_subset	SIM	tmax	simvastatin	plasma	LC MS/MS	NA	hr	NA	NA	NA	1.5	0.5	4.0	NA	hr
+Harvey2018	all_subset	SIM	thalf	simvastatin	plasma	LC MS/MS	NA	hr	5.8	sample mean	NA	NA	NA	NA	2.4	hr
+Harvey2018	all_subset	SIM	clearance	simvastatin	plasma	LC MS/MS	NA	hr	589.0	sample mean	NA	NA	NA	NA	343.0	l/hr
+Harvey2018	all_subset	SIM	vd	simvastatin	plasma	LC MS/MS	24.0	hr	4723.0	sample mean	NA	NA	NA	NA	3905.0	l
+Harvey2018	all_subset	SIM,OSI	auc_inf	simvastatin	plasma	LC MS/MS	NA	hr	73.5	geometric mean	NA	NA	NA	NA	NA	ng hr/ml
+Harvey2018	all_subset	SIM,OSI	auc_end	simvastatin	plasma	LC MS/MS	32.0	hr	70.2	geometric mean	NA	NA	NA	NA	NA	ng hr/ml
+Harvey2018	all_subset	SIM,OSI	cmax	simvastatin	plasma	LC MS/MS	NA	hr	18.7	geometric mean	NA	NA	NA	NA	NA	ng/ml
+Harvey2018	all_subset	SIM,OSI	tmax	simvastatin	plasma	LC MS/MS	NA	hr	NA	NA	NA	1.5	0.5	10.0	NA	hr
+Harvey2018	all_subset	SIM,OSI	thalf	simvastatin	plasma	LC MS/MS	NA	hr	5.8	sample mean	NA	NA	NA	NA	3.5	hr
+Harvey2018	all_subset	SIM,OSI	clearance	simvastatin	plasma	LC MS/MS	NA	hr	655.0	sample mean	NA	NA	NA	NA	363.0	l/hr
+Harvey2018	all_subset	SIM,OSI	vd	simvastatin	plasma	LC MS/MS	24.0	hr	4753.0	sample mean	NA	NA	NA	NA	2790.0	l
+Harvey2018	all_subset	SIM	auc_inf	simvastatin acid	plasma	LC MS/MS	NA	hr	31.2	geometric mean	NA	NA	NA	NA	NA	ng hr/ml
+Harvey2018	all_subset	SIM	auc_end	simvastatin acid	plasma	LC MS/MS	32.0	hr	29.3	geometric mean	NA	NA	NA	NA	NA	ng hr/ml
+Harvey2018	all_subset	SIM	cmax	simvastatin acid	plasma	LC MS/MS	NA	hr	4.2	geometric mean	NA	NA	NA	NA	NA	ng/ml
+Harvey2018	all_subset	SIM	tmax	simvastatin acid	plasma	LC MS/MS	NA	hr	NA	NA	NA	3.1	0.5	10.0	NA	hr
+Harvey2018	all_subset	SIM	thalf	simvastatin acid	plasma	LC MS/MS	NA	hr	5.1	sample mean	NA	NA	NA	NA	2.6	hr
+Harvey2018	all_subset	SIM,OSI	auc_inf	simvastatin acid	plasma	LC MS/MS	NA	hr	30.2	geometric mean	NA	NA	NA	NA	NA	ng hr/ml
+Harvey2018	all_subset	SIM,OSI	auc_end	simvastatin acid	plasma	LC MS/MS	32.0	hr	29.6	geometric mean	NA	NA	NA	NA	NA	ng hr/ml
+Harvey2018	all_subset	SIM,OSI	cmax	simvastatin acid	plasma	LC MS/MS	NA	hr	4.2	geometric mean	NA	NA	NA	NA	NA	ng/ml
+Harvey2018	all_subset	SIM,OSI	tmax	simvastatin acid	plasma	LC MS/MS	NA	hr	NA	NA	NA	3.1	1.5	12.5	NA	hr
+Harvey2018	all_subset	SIM,OSI	thalf	simvastatin acid	plasma	LC MS/MS	NA	hr	4.9	sample mean	NA	NA	NA	NA	2.9	hr

@@ -1,0 +1,13 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	mean_unit	count_unit
+Jiang2017	all	26	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	0.0	hr	0.0	mole/meter^3	dimensionless
+Jiang2017	all	26	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	0.33	hr	1.4114326325848063e-06	mole/meter^3	dimensionless
+Jiang2017	all	26	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	0.67	hr	6.443496655518395e-06	mole/meter^3	dimensionless
+Jiang2017	all	26	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	1.0	hr	8.223129240324892e-06	mole/meter^3	dimensionless
+Jiang2017	all	26	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	1.5	hr	8.069712613473481e-06	mole/meter^3	dimensionless
+Jiang2017	all	26	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	2.0	hr	7.548096034400382e-06	mole/meter^3	dimensionless
+Jiang2017	all	26	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	3.0	hr	5.8911973244147154e-06	mole/meter^3	dimensionless
+Jiang2017	all	26	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	4.0	hr	4.357031294792164e-06	mole/meter^3	dimensionless
+Jiang2017	all	26	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	5.0	hr	4.633180840898232e-06	mole/meter^3	dimensionless
+Jiang2017	all	26	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	7.0	hr	3.313798375537506e-06	mole/meter^3	dimensionless
+Jiang2017	all	26	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	9.0	hr	3.0069651218346868e-06	mole/meter^3	dimensionless
+Jiang2017	all	26	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	12.0	hr	2.3319321548017197e-06	mole/meter^3	dimensionless

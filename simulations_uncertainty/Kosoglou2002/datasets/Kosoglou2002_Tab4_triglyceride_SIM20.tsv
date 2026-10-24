@@ -1,0 +1,3 @@
+study	group	label	count	intervention	measurement_type	substance	tissue	time	time_unit	mean	mean_sd	mean_se	mean_unit	count_unit
+Kosoglou2002	SIM20	SIM20_triglyceride	8	SIM20	concentration	triglyceride	serum	0	day	153.8	35.0724963468528	12.4	mg/dl	dimensionless
+Kosoglou2002	SIM20	SIM20_triglyceride	8	SIM20	concentration	triglyceride	serum	13	day	134.9	38.7494516090228	13.7	mg/dl	dimensionless

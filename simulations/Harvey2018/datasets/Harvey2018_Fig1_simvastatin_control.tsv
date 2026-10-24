@@ -1,0 +1,14 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	mean_se	pm	mean_sd	mean_unit	count_unit
+Harvey2018	all_subset	46	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	0.5	hr	1.281623674151935e-05				mole/meter^3	dimensionless
+Harvey2018	all_subset	46	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	1.0	hr	3.106753463927377e-05				mole/meter^3	dimensionless
+Harvey2018	all_subset	46	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	1.5	hr	3.402824892498806e-05				mole/meter^3	dimensionless
+Harvey2018	all_subset	46	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	2.0	hr	2.8364426660296223e-05				mole/meter^3	dimensionless
+Harvey2018	all_subset	46	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	3.0	hr	2.1056875298614428e-05				mole/meter^3	dimensionless
+Harvey2018	all_subset	46	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	4.0	hr	1.3580562589584328e-05				mole/meter^3	dimensionless
+Harvey2018	all_subset	46	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	6.0	hr	7.2407255136168175e-06				mole/meter^3	dimensionless
+Harvey2018	all_subset	46	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	8.0	hr	4.555376015289058e-06				mole/meter^3	dimensionless
+Harvey2018	all_subset	46	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	10.0	hr	3.298849498327759e-06				mole/meter^3	dimensionless
+Harvey2018	all_subset	46	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	12.0	hr	2.616577161968466e-06				mole/meter^3	dimensionless
+Harvey2018	all_subset	46	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	24.0	hr	5.755083373148591e-07				mole/meter^3	dimensionless
+Harvey2018	all_subset	46	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	28.0	hr	3.868520544672718e-07				mole/meter^3	dimensionless
+Harvey2018	all_subset	46	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	32.0	hr	3.043140946010511e-07				mole/meter^3	dimensionless

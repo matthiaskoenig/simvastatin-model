@@ -1,0 +1,85 @@
+study	individual	intervention	measurement_type	substance	method	tissue	label	time	time_unit	value	unit
+Owens1991	SIM_Ind1	SIM	concentration	ldl-c	 enzymatic coiorimetric methods	serum	SIM_Ind1_ldl-c	0	weeks	4.311412	mmol/l
+Owens1991	SIM_Ind1	SIM	concentration	ldl-c	 enzymatic coiorimetric methods	serum	SIM_Ind1_ldl-c	12	weeks	3.1497838	mmol/l
+Owens1991	SIM_Ind2	SIM	concentration	ldl-c	 enzymatic coiorimetric methods	serum	SIM_Ind2_ldl-c	0	weeks	4.611176	mmol/l
+Owens1991	SIM_Ind2	SIM	concentration	ldl-c	 enzymatic coiorimetric methods	serum	SIM_Ind2_ldl-c	12	weeks	3.1558366	mmol/l
+Owens1991	SIM_Ind3	SIM	concentration	ldl-c	 enzymatic coiorimetric methods	serum	SIM_Ind3_ldl-c	0	weeks	4.658814	mmol/l
+Owens1991	SIM_Ind3	SIM	concentration	ldl-c	 enzymatic coiorimetric methods	serum	SIM_Ind3_ldl-c	12	weeks	4.2152863	mmol/l
+Owens1991	SIM_Ind4	SIM	concentration	ldl-c	 enzymatic coiorimetric methods	serum	SIM_Ind4_ldl-c	0	weeks	5.203671	mmol/l
+Owens1991	SIM_Ind4	SIM	concentration	ldl-c	 enzymatic coiorimetric methods	serum	SIM_Ind4_ldl-c	12	weeks	3.371123	mmol/l
+Owens1991	SIM_Ind5	SIM	concentration	ldl-c	 enzymatic coiorimetric methods	serum	SIM_Ind5_ldl-c	0	weeks	5.3412514	mmol/l
+Owens1991	SIM_Ind5	SIM	concentration	ldl-c	 enzymatic coiorimetric methods	serum	SIM_Ind5_ldl-c	12	weeks	3.7181985	mmol/l
+Owens1991	SIM_Ind6	SIM	concentration	ldl-c	 enzymatic coiorimetric methods	serum	SIM_Ind6_ldl-c	0	weeks	5.4432335	mmol/l
+Owens1991	SIM_Ind6	SIM	concentration	ldl-c	 enzymatic coiorimetric methods	serum	SIM_Ind6_ldl-c	12	weeks	2.8500855	mmol/l
+Owens1991	SIM_Ind7	SIM	concentration	ldl-c	 enzymatic coiorimetric methods	serum	SIM_Ind7_ldl-c	0	weeks	5.820181	mmol/l
+Owens1991	SIM_Ind7	SIM	concentration	ldl-c	 enzymatic coiorimetric methods	serum	SIM_Ind7_ldl-c	12	weeks	2.7425075	mmol/l
+Owens1991	SIM_Ind8	SIM	concentration	ldl-c	 enzymatic coiorimetric methods	serum	SIM_Ind8_ldl-c	0	weeks	5.9702587	mmol/l
+Owens1991	SIM_Ind8	SIM	concentration	ldl-c	 enzymatic coiorimetric methods	serum	SIM_Ind8_ldl-c	12	weeks	3.3895426	mmol/l
+Owens1991	SIM_Ind9	SIM	concentration	ldl-c	 enzymatic coiorimetric methods	serum	SIM_Ind9_ldl-c	0	weeks	6.2275877	mmol/l
+Owens1991	SIM_Ind9	SIM	concentration	ldl-c	 enzymatic coiorimetric methods	serum	SIM_Ind9_ldl-c	12	weeks	2.5989397	mmol/l
+Owens1991	SIM_Ind10	SIM	concentration	ldl-c	 enzymatic coiorimetric methods	serum	SIM_Ind10_ldl-c	0	weeks	6.5452485	mmol/l
+Owens1991	SIM_Ind10	SIM	concentration	ldl-c	 enzymatic coiorimetric methods	serum	SIM_Ind10_ldl-c	12	weeks	3.3594096	mmol/l
+Owens1991	SIM_Ind11	SIM	concentration	ldl-c	 enzymatic coiorimetric methods	serum	SIM_Ind11_ldl-c	0	weeks	6.4542613	mmol/l
+Owens1991	SIM_Ind11	SIM	concentration	ldl-c	 enzymatic coiorimetric methods	serum	SIM_Ind11_ldl-c	12	weeks	3.5868015	mmol/l
+Owens1991	SIM_Ind12	SIM	concentration	ldl-c	 enzymatic coiorimetric methods	serum	SIM_Ind12_ldl-c	0	weeks	6.6888165	mmol/l
+Owens1991	SIM_Ind12	SIM	concentration	ldl-c	 enzymatic coiorimetric methods	serum	SIM_Ind12_ldl-c	12	weeks	3.6466758	mmol/l
+Owens1991	PRA_Ind1	PRA	concentration	ldl-c	 enzymatic coiorimetric methods	serum	PRA_Ind1_ldl-c	0	weeks	4.3724513	mmol/l
+Owens1991	PRA_Ind1	PRA	concentration	ldl-c	 enzymatic coiorimetric methods	serum	PRA_Ind1_ldl-c	12	weeks	2.7515256	mmol/l
+Owens1991	PRA_Ind2	PRA	concentration	ldl-c	 enzymatic coiorimetric methods	serum	PRA_Ind2_ldl-c	0	weeks	4.5855036	mmol/l
+Owens1991	PRA_Ind2	PRA	concentration	ldl-c	 enzymatic coiorimetric methods	serum	PRA_Ind2_ldl-c	12	weeks	2.9233146	mmol/l
+Owens1991	PRA_Ind3	PRA	concentration	ldl-c	 enzymatic coiorimetric methods	serum	PRA_Ind3_ldl-c	0	weeks	4.6092424	mmol/l
+Owens1991	PRA_Ind3	PRA	concentration	ldl-c	 enzymatic coiorimetric methods	serum	PRA_Ind3_ldl-c	12	weeks	3.0769832	mmol/l
+Owens1991	PRA_Ind4	PRA	concentration	ldl-c	 enzymatic coiorimetric methods	serum	PRA_Ind4_ldl-c	0	weeks	5.12993	mmol/l
+Owens1991	PRA_Ind4	PRA	concentration	ldl-c	 enzymatic coiorimetric methods	serum	PRA_Ind4_ldl-c	12	weeks	3.9172869	mmol/l
+Owens1991	PRA_Ind5	PRA	concentration	ldl-c	 enzymatic coiorimetric methods	serum	PRA_Ind5_ldl-c	0	weeks	5.7339635	mmol/l
+Owens1991	PRA_Ind5	PRA	concentration	ldl-c	 enzymatic coiorimetric methods	serum	PRA_Ind5_ldl-c	12	weeks	3.0828247	mmol/l
+Owens1991	PRA_Ind6	PRA	concentration	ldl-c	 enzymatic coiorimetric methods	serum	PRA_Ind6_ldl-c	0	weeks	5.7574043	mmol/l
+Owens1991	PRA_Ind6	PRA	concentration	ldl-c	 enzymatic coiorimetric methods	serum	PRA_Ind6_ldl-c	12	weeks	3.2308006	mmol/l
+Owens1991	PRA_Ind7	PRA	concentration	ldl-c	 enzymatic coiorimetric methods	serum	PRA_Ind7_ldl-c	0	weeks	6.142767	mmol/l
+Owens1991	PRA_Ind7	PRA	concentration	ldl-c	 enzymatic coiorimetric methods	serum	PRA_Ind7_ldl-c	12	weeks	3.698467	mmol/l
+Owens1991	PRA_Ind8	PRA	concentration	ldl-c	 enzymatic coiorimetric methods	serum	PRA_Ind8_ldl-c	0	weeks	5.8105	mmol/l
+Owens1991	PRA_Ind8	PRA	concentration	ldl-c	 enzymatic coiorimetric methods	serum	PRA_Ind8_ldl-c	12	weeks	4.864005	mmol/l
+Owens1991	PRA_Ind9	PRA	concentration	ldl-c	 enzymatic coiorimetric methods	serum	PRA_Ind9_ldl-c	0	weeks	6.148683	mmol/l
+Owens1991	PRA_Ind9	PRA	concentration	ldl-c	 enzymatic coiorimetric methods	serum	PRA_Ind9_ldl-c	12	weeks	4.059942	mmol/l
+Owens1991	PRA_Ind10	PRA	concentration	ldl-c	 enzymatic coiorimetric methods	serum	PRA_Ind10_ldl-c	0	weeks	6.8518753	mmol/l
+Owens1991	PRA_Ind10	PRA	concentration	ldl-c	 enzymatic coiorimetric methods	serum	PRA_Ind10_ldl-c	12	weeks	4.8875203	mmol/l
+Owens1991	SIM_Ind13	SIM	metabolic ratio	ldl-esterified/free-cholesterol	 enzymatic coiorimetric methods	serum	SIM_Ind13_ldl-esterified/free-cholesterol	0	weeks	1.6542515	dimensionless
+Owens1991	SIM_Ind13	SIM	metabolic ratio	ldl-esterified/free-cholesterol	 enzymatic coiorimetric methods	serum	SIM_Ind13_ldl-esterified/free-cholesterol	12	weeks	1.5201583	dimensionless
+Owens1991	SIM_Ind14	SIM	metabolic ratio	ldl-esterified/free-cholesterol	 enzymatic coiorimetric methods	serum	SIM_Ind14_ldl-esterified/free-cholesterol	0	weeks	1.9536196	dimensionless
+Owens1991	SIM_Ind14	SIM	metabolic ratio	ldl-esterified/free-cholesterol	 enzymatic coiorimetric methods	serum	SIM_Ind14_ldl-esterified/free-cholesterol	12	weeks	1.4112929	dimensionless
+Owens1991	SIM_Ind15	SIM	metabolic ratio	ldl-esterified/free-cholesterol	 enzymatic coiorimetric methods	serum	SIM_Ind15_ldl-esterified/free-cholesterol	0	weeks	2.0504007	dimensionless
+Owens1991	SIM_Ind15	SIM	metabolic ratio	ldl-esterified/free-cholesterol	 enzymatic coiorimetric methods	serum	SIM_Ind15_ldl-esterified/free-cholesterol	12	weeks	1.3417635	dimensionless
+Owens1991	SIM_Ind16	SIM	metabolic ratio	ldl-esterified/free-cholesterol	 enzymatic coiorimetric methods	serum	SIM_Ind16_ldl-esterified/free-cholesterol	0	weeks	2.274215	dimensionless
+Owens1991	SIM_Ind16	SIM	metabolic ratio	ldl-esterified/free-cholesterol	 enzymatic coiorimetric methods	serum	SIM_Ind16_ldl-esterified/free-cholesterol	12	weeks	2.590786	dimensionless
+Owens1991	SIM_Ind17	SIM	metabolic ratio	ldl-esterified/free-cholesterol	 enzymatic coiorimetric methods	serum	SIM_Ind17_ldl-esterified/free-cholesterol	0	weeks	2.3286593	dimensionless
+Owens1991	SIM_Ind17	SIM	metabolic ratio	ldl-esterified/free-cholesterol	 enzymatic coiorimetric methods	serum	SIM_Ind17_ldl-esterified/free-cholesterol	12	weeks	2.3064792	dimensionless
+Owens1991	SIM_Ind18	SIM	metabolic ratio	ldl-esterified/free-cholesterol	 enzymatic coiorimetric methods	serum	SIM_Ind18_ldl-esterified/free-cholesterol	0	weeks	2.516138	dimensionless
+Owens1991	SIM_Ind18	SIM	metabolic ratio	ldl-esterified/free-cholesterol	 enzymatic coiorimetric methods	serum	SIM_Ind18_ldl-esterified/free-cholesterol	12	weeks	1.9103065	dimensionless
+Owens1991	SIM_Ind19	SIM	metabolic ratio	ldl-esterified/free-cholesterol	 enzymatic coiorimetric methods	serum	SIM_Ind19_ldl-esterified/free-cholesterol	0	weeks	2.6613271	dimensionless
+Owens1991	SIM_Ind19	SIM	metabolic ratio	ldl-esterified/free-cholesterol	 enzymatic coiorimetric methods	serum	SIM_Ind19_ldl-esterified/free-cholesterol	12	weeks	2.3306832	dimensionless
+Owens1991	SIM_Ind20	SIM	metabolic ratio	ldl-esterified/free-cholesterol	 enzymatic coiorimetric methods	serum	SIM_Ind20_ldl-esterified/free-cholesterol	0	weeks	2.8095052	dimensionless
+Owens1991	SIM_Ind20	SIM	metabolic ratio	ldl-esterified/free-cholesterol	 enzymatic coiorimetric methods	serum	SIM_Ind20_ldl-esterified/free-cholesterol	12	weeks	2.173433	dimensionless
+Owens1991	SIM_Ind21	SIM	metabolic ratio	ldl-esterified/free-cholesterol	 enzymatic coiorimetric methods	serum	SIM_Ind21_ldl-esterified/free-cholesterol	0	weeks	2.872963	dimensionless
+Owens1991	SIM_Ind21	SIM	metabolic ratio	ldl-esterified/free-cholesterol	 enzymatic coiorimetric methods	serum	SIM_Ind21_ldl-esterified/free-cholesterol	12	weeks	2.279251	dimensionless
+Owens1991	SIM_Ind22	SIM	metabolic ratio	ldl-esterified/free-cholesterol	 enzymatic coiorimetric methods	serum	SIM_Ind22_ldl-esterified/free-cholesterol	0	weeks	3.1451735	dimensionless
+Owens1991	SIM_Ind22	SIM	metabolic ratio	ldl-esterified/free-cholesterol	 enzymatic coiorimetric methods	serum	SIM_Ind22_ldl-esterified/free-cholesterol	12	weeks	2.3669364	dimensionless
+Owens1991	PRA_Ind11	PRA	metabolic ratio	ldl-esterified/free-cholesterol	 enzymatic coiorimetric methods	serum	PRA_Ind11_ldl-esterified/free-cholesterol	0	weeks	2.289215	dimensionless
+Owens1991	PRA_Ind11	PRA	metabolic ratio	ldl-esterified/free-cholesterol	 enzymatic coiorimetric methods	serum	PRA_Ind11_ldl-esterified/free-cholesterol	12	weeks	3.1087875	dimensionless
+Owens1991	PRA_Ind12	PRA	metabolic ratio	ldl-esterified/free-cholesterol	 enzymatic coiorimetric methods	serum	PRA_Ind12_ldl-esterified/free-cholesterol	0	weeks	2.5853553	dimensionless
+Owens1991	PRA_Ind12	PRA	metabolic ratio	ldl-esterified/free-cholesterol	 enzymatic coiorimetric methods	serum	PRA_Ind12_ldl-esterified/free-cholesterol	12	weeks	3.0337865	dimensionless
+Owens1991	PRA_Ind13	PRA	metabolic ratio	ldl-esterified/free-cholesterol	 enzymatic coiorimetric methods	serum	PRA_Ind13_ldl-esterified/free-cholesterol	0	weeks	2.6689308	dimensionless
+Owens1991	PRA_Ind13	PRA	metabolic ratio	ldl-esterified/free-cholesterol	 enzymatic coiorimetric methods	serum	PRA_Ind13_ldl-esterified/free-cholesterol	12	weeks	2.9800766	dimensionless
+Owens1991	PRA_Ind14	PRA	metabolic ratio	ldl-esterified/free-cholesterol	 enzymatic coiorimetric methods	serum	PRA_Ind14_ldl-esterified/free-cholesterol	0	weeks	2.7497938	dimensionless
+Owens1991	PRA_Ind14	PRA	metabolic ratio	ldl-esterified/free-cholesterol	 enzymatic coiorimetric methods	serum	PRA_Ind14_ldl-esterified/free-cholesterol	12	weeks	3.4795713	dimensionless
+Owens1991	PRA_Ind15	PRA	metabolic ratio	ldl-esterified/free-cholesterol	 enzymatic coiorimetric methods	serum	PRA_Ind15_ldl-esterified/free-cholesterol	0	weeks	2.8007119	dimensionless
+Owens1991	PRA_Ind15	PRA	metabolic ratio	ldl-esterified/free-cholesterol	 enzymatic coiorimetric methods	serum	PRA_Ind15_ldl-esterified/free-cholesterol	12	weeks	2.2712457	dimensionless
+Owens1991	PRA_Ind16	PRA	metabolic ratio	ldl-esterified/free-cholesterol	 enzymatic coiorimetric methods	serum	PRA_Ind16_ldl-esterified/free-cholesterol	0	weeks	2.824636	dimensionless
+Owens1991	PRA_Ind16	PRA	metabolic ratio	ldl-esterified/free-cholesterol	 enzymatic coiorimetric methods	serum	PRA_Ind16_ldl-esterified/free-cholesterol	12	weeks	3.4615886	dimensionless
+Owens1991	PRA_Ind17	PRA	metabolic ratio	ldl-esterified/free-cholesterol	 enzymatic coiorimetric methods	serum	PRA_Ind17_ldl-esterified/free-cholesterol	0	weeks	2.9890745	dimensionless
+Owens1991	PRA_Ind17	PRA	metabolic ratio	ldl-esterified/free-cholesterol	 enzymatic coiorimetric methods	serum	PRA_Ind17_ldl-esterified/free-cholesterol	12	weeks	2.87828	dimensionless
+Owens1991	PRA_Ind18	PRA	metabolic ratio	ldl-esterified/free-cholesterol	 enzymatic coiorimetric methods	serum	PRA_Ind18_ldl-esterified/free-cholesterol	0	weeks	3.294186	dimensionless
+Owens1991	PRA_Ind18	PRA	metabolic ratio	ldl-esterified/free-cholesterol	 enzymatic coiorimetric methods	serum	PRA_Ind18_ldl-esterified/free-cholesterol	12	weeks	2.896342	dimensionless
+Owens1991	PRA_Ind19	PRA	metabolic ratio	ldl-esterified/free-cholesterol	 enzymatic coiorimetric methods	serum	PRA_Ind19_ldl-esterified/free-cholesterol	0	weeks	3.6021295	dimensionless
+Owens1991	PRA_Ind19	PRA	metabolic ratio	ldl-esterified/free-cholesterol	 enzymatic coiorimetric methods	serum	PRA_Ind19_ldl-esterified/free-cholesterol	12	weeks	2.8784785	dimensionless
+Owens1991	PRA_Ind20	PRA	metabolic ratio	ldl-esterified/free-cholesterol	 enzymatic coiorimetric methods	serum	PRA_Ind20_ldl-esterified/free-cholesterol	0	weeks	3.5783246	dimensionless
+Owens1991	PRA_Ind20	PRA	metabolic ratio	ldl-esterified/free-cholesterol	 enzymatic coiorimetric methods	serum	PRA_Ind20_ldl-esterified/free-cholesterol	12	weeks	3.0967858	dimensionless

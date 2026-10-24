@@ -1,0 +1,14 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	mean_se	pm	mean_sd	mean_unit	count_unit
+Kim2019	all_sub	17	SIM+CIL_simvastatin	SIM,CIL	concentration	simvastatin	plasma	LC MS/MS	0.0	hr	0.0				mole/meter^3	dimensionless
+Kim2019	all_sub	17	SIM+CIL_simvastatin	SIM,CIL	concentration	simvastatin	plasma	LC MS/MS	0.5	hr	1.3750341137123745e-05	4.6270501672240795e-06	7.692776	1.9077816574496738e-05	mole/meter^3	dimensionless
+Kim2019	all_sub	17	SIM+CIL_simvastatin	SIM,CIL	concentration	simvastatin	plasma	LC MS/MS	1.0	hr	2.0345009555661725e-05	4.6414070711896795e-06	10.459314	1.913701160600376e-05	mole/meter^3	dimensionless
+Kim2019	all_sub	17	SIM+CIL_simvastatin	SIM,CIL	concentration	simvastatin	plasma	LC MS/MS	1.5	hr	2.2154749163879595e-05	4.612596751075011e-06	11.204811	1.9018223613063125e-05	mole/meter^3	dimensionless
+Kim2019	all_sub	17	SIM+CIL_simvastatin	SIM,CIL	concentration	simvastatin	plasma	LC MS/MS	2.0	hr	1.935182035355948e-05	3.90850812231247e-06	9.7367735	1.6115191826878865e-05	mole/meter^3	dimensionless
+Kim2019	all_sub	17	SIM+CIL_simvastatin	SIM,CIL	concentration	simvastatin	plasma	LC MS/MS	2.5	hr	1.6204024844720495e-05	3.1468877209746772e-06	8.100292	1.297495046553783e-05	mole/meter^3	dimensionless
+Kim2019	all_sub	17	SIM+CIL_simvastatin	SIM,CIL	concentration	simvastatin	plasma	LC MS/MS	3.0	hr	1.2625105112279024e-05	2.1267157190635447e-06	6.1751122	8.768673545360412e-06	mole/meter^3	dimensionless
+Kim2019	all_sub	17	SIM+CIL_simvastatin	SIM,CIL	concentration	simvastatin	plasma	LC MS/MS	4.0	hr	9.519483277591973e-06	2.586495222169135e-06	5.0675626	1.0664393001158761e-05	mole/meter^3	dimensionless
+Kim2019	all_sub	17	SIM+CIL_simvastatin	SIM,CIL	concentration	simvastatin	plasma	LC MS/MS	5.0	hr	6.801962971810798e-06	1.681249641662685e-06	3.5510728	6.931969855607092e-06	mole/meter^3	dimensionless
+Kim2019	all_sub	17	SIM+CIL_simvastatin	SIM,CIL	concentration	simvastatin	plasma	LC MS/MS	6.0	hr	5.8087725752508364e-06	1.6380852842809363e-06	3.1172547	6.753998650860234e-06	mole/meter^3	dimensionless
+Kim2019	all_sub	17	SIM+CIL_simvastatin	SIM,CIL	concentration	simvastatin	plasma	LC MS/MS	8.0	hr	3.606595795508839e-06	7.903748208313425e-07	1.8405719	3.258798870116259e-06	mole/meter^3	dimensionless
+Kim2019	all_sub	17	SIM+CIL_simvastatin	SIM,CIL	concentration	simvastatin	plasma	LC MS/MS	12.0	hr	1.8321005733397037e-06				mole/meter^3	dimensionless
+Kim2019	all_sub	17	SIM+CIL_simvastatin	SIM,CIL	concentration	simvastatin	plasma	LC MS/MS	24.0	hr	5.175115623506927e-07				mole/meter^3	dimensionless

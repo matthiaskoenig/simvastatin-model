@@ -1,0 +1,121 @@
+study	group	count	intervention	measurement_type	substance	tissue	label	time	time_unit	mean	unit	change	baseline	baseline_sd	baseline_unit
+Tuomilehto1995	SIM0mg	28	SIM0	concentration	cholesterol	serum	cholesterol_SIM0_concentration	0	weeks	7.4	mM	0.0	7.4	31.6	mM
+Tuomilehto1995	SIM0mg	28	SIM0	concentration	cholesterol	serum	cholesterol_SIM0_concentration	2	weeks	7.083215842	mM	-4.280867	7.4	31.6	mM
+Tuomilehto1995	SIM0mg	28	SIM0	concentration	cholesterol	serum	cholesterol_SIM0_concentration	4	weeks	7.201646626	mM	-2.680451	7.4	31.6	mM
+Tuomilehto1995	SIM0mg	28	SIM0	concentration	cholesterol	serum	cholesterol_SIM0_concentration	6	weeks	7.2766196002	mM	-1.6673027	7.4	31.6	mM
+Tuomilehto1995	SIM0mg	28	SIM0	concentration	cholesterol	serum	cholesterol_SIM0_concentration	8	weeks	7.1629638068	mM	-3.2031918	7.4	31.6	mM
+Tuomilehto1995	SIM2_5mg	28	SIM2_5	concentration	cholesterol	serum	cholesterol_SIM2_5_concentration	0	weeks	7.1	mM	0.0	7.1	20.0	mM
+Tuomilehto1995	SIM2_5mg	28	SIM2_5	concentration	cholesterol	serum	cholesterol_SIM2_5_concentration	2	weeks	6.021075835	mM	-15.196115	7.1	20.0	mM
+Tuomilehto1995	SIM2_5mg	28	SIM2_5	concentration	cholesterol	serum	cholesterol_SIM2_5_concentration	4	weeks	5.958413578	mM	-16.078682	7.1	20.0	mM
+Tuomilehto1995	SIM2_5mg	28	SIM2_5	concentration	cholesterol	serum	cholesterol_SIM2_5_concentration	6	weeks	5.942176659	mM	-16.307371	7.1	20.0	mM
+Tuomilehto1995	SIM2_5mg	28	SIM2_5	concentration	cholesterol	serum	cholesterol_SIM2_5_concentration	8	weeks	5.9862372	mM	-15.6868	7.1	20.0	mM
+Tuomilehto1995	SIM5mg	28	SIM5	concentration	cholesterol	serum	cholesterol_SIM5_concentration	0	weeks	7.0	mM	0.0	7.0	31.3	mM
+Tuomilehto1995	SIM5mg	28	SIM5	concentration	cholesterol	serum	cholesterol_SIM5_concentration	2	weeks	5.96830808	mM	-14.738456	7.0	31.3	mM
+Tuomilehto1995	SIM5mg	28	SIM5	concentration	cholesterol	serum	cholesterol_SIM5_concentration	4	weeks	5.63660153	mM	-19.477121	7.0	31.3	mM
+Tuomilehto1995	SIM5mg	28	SIM5	concentration	cholesterol	serum	cholesterol_SIM5_concentration	6	weeks	5.45586678	mM	-22.059046	7.0	31.3	mM
+Tuomilehto1995	SIM5mg	28	SIM5	concentration	cholesterol	serum	cholesterol_SIM5_concentration	8	weeks	5.7555372	mM	-17.77804	7.0	31.3	mM
+Tuomilehto1995	SIM10mg	27	SIM10	concentration	cholesterol	serum	cholesterol_SIM10_concentration	0	weeks	7.4	mM	0.0	7.4	25.5	mM
+Tuomilehto1995	SIM10mg	27	SIM10	concentration	cholesterol	serum	cholesterol_SIM10_concentration	2	weeks	6.01914594	mM	-18.66019	7.4	25.5	mM
+Tuomilehto1995	SIM10mg	27	SIM10	concentration	cholesterol	serum	cholesterol_SIM10_concentration	4	weeks	5.61528169	mM	-24.117815	7.4	25.5	mM
+Tuomilehto1995	SIM10mg	27	SIM10	concentration	cholesterol	serum	cholesterol_SIM10_concentration	6	weeks	5.661214378	mM	-23.497103	7.4	25.5	mM
+Tuomilehto1995	SIM10mg	27	SIM10	concentration	cholesterol	serum	cholesterol_SIM10_concentration	8	weeks	5.591098564	mM	-24.444614	7.4	25.5	mM
+Tuomilehto1995	SIM20mg	26	SIM20	concentration	cholesterol	serum	cholesterol_SIM20_concentration	0	weeks	7.3	mM	0.0	7.3	32.0	mM
+Tuomilehto1995	SIM20mg	26	SIM20	concentration	cholesterol	serum	cholesterol_SIM20_concentration	2	weeks	5.546571682	mM	-24.019566	7.3	32.0	mM
+Tuomilehto1995	SIM20mg	26	SIM20	concentration	cholesterol	serum	cholesterol_SIM20_concentration	4	weeks	5.37239485	mM	-26.40555	7.3	32.0	mM
+Tuomilehto1995	SIM20mg	26	SIM20	concentration	cholesterol	serum	cholesterol_SIM20_concentration	6	weeks	5.408184487	mM	-25.915281	7.3	32.0	mM
+Tuomilehto1995	SIM20mg	26	SIM20	concentration	cholesterol	serum	cholesterol_SIM20_concentration	8	weeks	5.453516684	mM	-25.294292	7.3	32.0	mM
+Tuomilehto1995	SIM40mg	29	SIM40	concentration	cholesterol	serum	cholesterol_SIM40_concentration	0	weeks	7.1	mM	0.0	7.1	26.0	mM
+Tuomilehto1995	SIM40mg	29	SIM40	concentration	cholesterol	serum	cholesterol_SIM40_concentration	2	weeks	5.125468487	mM	-27.810303	7.1	26.0	mM
+Tuomilehto1995	SIM40mg	29	SIM40	concentration	cholesterol	serum	cholesterol_SIM40_concentration	4	weeks	4.858602065	mM	-31.568985	7.1	26.0	mM
+Tuomilehto1995	SIM40mg	29	SIM40	concentration	cholesterol	serum	cholesterol_SIM40_concentration	6	weeks	4.87022796	mM	-31.40524	7.1	26.0	mM
+Tuomilehto1995	SIM40mg	29	SIM40	concentration	cholesterol	serum	cholesterol_SIM40_concentration	8	weeks	5.076727768	mM	-28.496792	7.1	26.0	mM
+Tuomilehto1995	SIM0mg	28	SIM0	concentration	ldl-c	serum	ldl-c_SIM0_concentration	0	weeks	5.3	mM	0.0	5.3	33.6	mM
+Tuomilehto1995	SIM0mg	28	SIM0	concentration	ldl-c	serum	ldl-c_SIM0_concentration	2	weeks	4.955543513	mM	-6.499179	5.3	33.6	mM
+Tuomilehto1995	SIM0mg	28	SIM0	concentration	ldl-c	serum	ldl-c_SIM0_concentration	4	weeks	5.139409046	mM	-3.030018	5.3	33.6	mM
+Tuomilehto1995	SIM0mg	28	SIM0	concentration	ldl-c	serum	ldl-c_SIM0_concentration	6	weeks	5.1415290036	mM	-2.9900188	5.3	33.6	mM
+Tuomilehto1995	SIM0mg	28	SIM0	concentration	ldl-c	serum	ldl-c_SIM0_concentration	8	weeks	5.06753723	mM	-4.38609	5.3	33.6	mM
+Tuomilehto1995	SIM2_5mg	28	SIM2_5	concentration	ldl-c	serum	ldl-c_SIM2_5_concentration	0	weeks	5.1	mM	0.0	5.1	20.7	mM
+Tuomilehto1995	SIM2_5mg	28	SIM2_5	concentration	ldl-c	serum	ldl-c_SIM2_5_concentration	2	weeks	4.142223876	mM	-18.779924	5.1	20.7	mM
+Tuomilehto1995	SIM2_5mg	28	SIM2_5	concentration	ldl-c	serum	ldl-c_SIM2_5_concentration	4	weeks	4.014138855	mM	-21.291395	5.1	20.7	mM
+Tuomilehto1995	SIM2_5mg	28	SIM2_5	concentration	ldl-c	serum	ldl-c_SIM2_5_concentration	6	weeks	3.934831305	mM	-22.846445	5.1	20.7	mM
+Tuomilehto1995	SIM2_5mg	28	SIM2_5	concentration	ldl-c	serum	ldl-c_SIM2_5_concentration	8	weeks	3.993791181	mM	-21.690369	5.1	20.7	mM
+Tuomilehto1995	SIM5mg	28	SIM5	concentration	ldl-c	serum	ldl-c_SIM5_concentration	0	weeks	5.0	mM	0.0	5.0	29.0	mM
+Tuomilehto1995	SIM5mg	28	SIM5	concentration	ldl-c	serum	ldl-c_SIM5_concentration	2	weeks	3.97331075	mM	-20.533785	5.0	29.0	mM
+Tuomilehto1995	SIM5mg	28	SIM5	concentration	ldl-c	serum	ldl-c_SIM5_concentration	4	weeks	3.62442015	mM	-27.511597	5.0	29.0	mM
+Tuomilehto1995	SIM5mg	28	SIM5	concentration	ldl-c	serum	ldl-c_SIM5_concentration	6	weeks	3.5546505	mM	-28.90699	5.0	29.0	mM
+Tuomilehto1995	SIM5mg	28	SIM5	concentration	ldl-c	serum	ldl-c_SIM5_concentration	8	weeks	3.7679636	mM	-24.640728	5.0	29.0	mM
+Tuomilehto1995	SIM10mg	27	SIM10	concentration	ldl-c	serum	ldl-c_SIM10_concentration	0	weeks	5.2	mM	0.0	5.2	26.2	mM
+Tuomilehto1995	SIM10mg	27	SIM10	concentration	ldl-c	serum	ldl-c_SIM10_concentration	2	weeks	4.049283004	mM	-22.129173	5.2	26.2	mM
+Tuomilehto1995	SIM10mg	27	SIM10	concentration	ldl-c	serum	ldl-c_SIM10_concentration	4	weeks	3.479128744	mM	-33.093678	5.2	26.2	mM
+Tuomilehto1995	SIM10mg	27	SIM10	concentration	ldl-c	serum	ldl-c_SIM10_concentration	6	weeks	3.510235456	mM	-32.495472	5.2	26.2	mM
+Tuomilehto1995	SIM10mg	27	SIM10	concentration	ldl-c	serum	ldl-c_SIM10_concentration	8	weeks	3.462528836	mM	-33.412907	5.2	26.2	mM
+Tuomilehto1995	SIM20mg	26	SIM20	concentration	ldl-c	serum	ldl-c_SIM20_concentration	0	weeks	5.2	mM	0.0	5.2	34.5	mM
+Tuomilehto1995	SIM20mg	26	SIM20	concentration	ldl-c	serum	ldl-c_SIM20_concentration	2	weeks	3.588991744	mM	-30.980928	5.2	34.5	mM
+Tuomilehto1995	SIM20mg	26	SIM20	concentration	ldl-c	serum	ldl-c_SIM20_concentration	4	weeks	3.412773	mM	-34.36975	5.2	34.5	mM
+Tuomilehto1995	SIM20mg	26	SIM20	concentration	ldl-c	serum	ldl-c_SIM20_concentration	6	weeks	3.42731064	mM	-34.09018	5.2	34.5	mM
+Tuomilehto1995	SIM20mg	26	SIM20	concentration	ldl-c	serum	ldl-c_SIM20_concentration	8	weeks	3.458399724	mM	-33.492313	5.2	34.5	mM
+Tuomilehto1995	SIM40mg	29	SIM40	concentration	ldl-c	serum	ldl-c_SIM40_concentration	0	weeks	5.0	mM	0.0	5.0	25.5	mM
+Tuomilehto1995	SIM40mg	29	SIM40	concentration	ldl-c	serum	ldl-c_SIM40_concentration	2	weeks	3.1000715	mM	-37.99857	5.0	25.5	mM
+Tuomilehto1995	SIM40mg	29	SIM40	concentration	ldl-c	serum	ldl-c_SIM40_concentration	4	weeks	2.83096735	mM	-43.380653	5.0	25.5	mM
+Tuomilehto1995	SIM40mg	29	SIM40	concentration	ldl-c	serum	ldl-c_SIM40_concentration	6	weeks	2.8409416	mM	-43.181168	5.0	25.5	mM
+Tuomilehto1995	SIM40mg	29	SIM40	concentration	ldl-c	serum	ldl-c_SIM40_concentration	8	weeks	2.9944298	mM	-40.111404	5.0	25.5	mM
+Tuomilehto1995	SIM0mg	28	SIM0	concentration change	cholesterol	serum	cholesterol_SIM0_concentration change	0	weeks	0.0	percent	0.0	7.4	31.6	mM
+Tuomilehto1995	SIM0mg	28	SIM0	concentration change	cholesterol	serum	cholesterol_SIM0_concentration change	2	weeks	-4.280867	percent	-4.280867	7.4	31.6	mM
+Tuomilehto1995	SIM0mg	28	SIM0	concentration change	cholesterol	serum	cholesterol_SIM0_concentration change	4	weeks	-2.680451	percent	-2.680451	7.4	31.6	mM
+Tuomilehto1995	SIM0mg	28	SIM0	concentration change	cholesterol	serum	cholesterol_SIM0_concentration change	6	weeks	-1.6673027	percent	-1.6673027	7.4	31.6	mM
+Tuomilehto1995	SIM0mg	28	SIM0	concentration change	cholesterol	serum	cholesterol_SIM0_concentration change	8	weeks	-3.2031918	percent	-3.2031918	7.4	31.6	mM
+Tuomilehto1995	SIM2_5mg	28	SIM2_5	concentration change	cholesterol	serum	cholesterol_SIM2_5_concentration change	0	weeks	0.0	percent	0.0	7.1	20.0	mM
+Tuomilehto1995	SIM2_5mg	28	SIM2_5	concentration change	cholesterol	serum	cholesterol_SIM2_5_concentration change	2	weeks	-15.196115	percent	-15.196115	7.1	20.0	mM
+Tuomilehto1995	SIM2_5mg	28	SIM2_5	concentration change	cholesterol	serum	cholesterol_SIM2_5_concentration change	4	weeks	-16.078682	percent	-16.078682	7.1	20.0	mM
+Tuomilehto1995	SIM2_5mg	28	SIM2_5	concentration change	cholesterol	serum	cholesterol_SIM2_5_concentration change	6	weeks	-16.307371	percent	-16.307371	7.1	20.0	mM
+Tuomilehto1995	SIM2_5mg	28	SIM2_5	concentration change	cholesterol	serum	cholesterol_SIM2_5_concentration change	8	weeks	-15.6868	percent	-15.6868	7.1	20.0	mM
+Tuomilehto1995	SIM5mg	28	SIM5	concentration change	cholesterol	serum	cholesterol_SIM5_concentration change	0	weeks	0.0	percent	0.0	7.0	31.3	mM
+Tuomilehto1995	SIM5mg	28	SIM5	concentration change	cholesterol	serum	cholesterol_SIM5_concentration change	2	weeks	-14.738456	percent	-14.738456	7.0	31.3	mM
+Tuomilehto1995	SIM5mg	28	SIM5	concentration change	cholesterol	serum	cholesterol_SIM5_concentration change	4	weeks	-19.477121	percent	-19.477121	7.0	31.3	mM
+Tuomilehto1995	SIM5mg	28	SIM5	concentration change	cholesterol	serum	cholesterol_SIM5_concentration change	6	weeks	-22.059046	percent	-22.059046	7.0	31.3	mM
+Tuomilehto1995	SIM5mg	28	SIM5	concentration change	cholesterol	serum	cholesterol_SIM5_concentration change	8	weeks	-17.77804	percent	-17.77804	7.0	31.3	mM
+Tuomilehto1995	SIM10mg	27	SIM10	concentration change	cholesterol	serum	cholesterol_SIM10_concentration change	0	weeks	0.0	percent	0.0	7.4	25.5	mM
+Tuomilehto1995	SIM10mg	27	SIM10	concentration change	cholesterol	serum	cholesterol_SIM10_concentration change	2	weeks	-18.66019	percent	-18.66019	7.4	25.5	mM
+Tuomilehto1995	SIM10mg	27	SIM10	concentration change	cholesterol	serum	cholesterol_SIM10_concentration change	4	weeks	-24.117815	percent	-24.117815	7.4	25.5	mM
+Tuomilehto1995	SIM10mg	27	SIM10	concentration change	cholesterol	serum	cholesterol_SIM10_concentration change	6	weeks	-23.497103	percent	-23.497103	7.4	25.5	mM
+Tuomilehto1995	SIM10mg	27	SIM10	concentration change	cholesterol	serum	cholesterol_SIM10_concentration change	8	weeks	-24.444614	percent	-24.444614	7.4	25.5	mM
+Tuomilehto1995	SIM20mg	26	SIM20	concentration change	cholesterol	serum	cholesterol_SIM20_concentration change	0	weeks	0.0	percent	0.0	7.3	32.0	mM
+Tuomilehto1995	SIM20mg	26	SIM20	concentration change	cholesterol	serum	cholesterol_SIM20_concentration change	2	weeks	-24.019566	percent	-24.019566	7.3	32.0	mM
+Tuomilehto1995	SIM20mg	26	SIM20	concentration change	cholesterol	serum	cholesterol_SIM20_concentration change	4	weeks	-26.40555	percent	-26.40555	7.3	32.0	mM
+Tuomilehto1995	SIM20mg	26	SIM20	concentration change	cholesterol	serum	cholesterol_SIM20_concentration change	6	weeks	-25.915281	percent	-25.915281	7.3	32.0	mM
+Tuomilehto1995	SIM20mg	26	SIM20	concentration change	cholesterol	serum	cholesterol_SIM20_concentration change	8	weeks	-25.294292	percent	-25.294292	7.3	32.0	mM
+Tuomilehto1995	SIM40mg	29	SIM40	concentration change	cholesterol	serum	cholesterol_SIM40_concentration change	0	weeks	0.0	percent	0.0	7.1	26.0	mM
+Tuomilehto1995	SIM40mg	29	SIM40	concentration change	cholesterol	serum	cholesterol_SIM40_concentration change	2	weeks	-27.810303	percent	-27.810303	7.1	26.0	mM
+Tuomilehto1995	SIM40mg	29	SIM40	concentration change	cholesterol	serum	cholesterol_SIM40_concentration change	4	weeks	-31.568985	percent	-31.568985	7.1	26.0	mM
+Tuomilehto1995	SIM40mg	29	SIM40	concentration change	cholesterol	serum	cholesterol_SIM40_concentration change	6	weeks	-31.40524	percent	-31.40524	7.1	26.0	mM
+Tuomilehto1995	SIM40mg	29	SIM40	concentration change	cholesterol	serum	cholesterol_SIM40_concentration change	8	weeks	-28.496792	percent	-28.496792	7.1	26.0	mM
+Tuomilehto1995	SIM0mg	28	SIM0	concentration change	ldl-c	serum	ldl-c_SIM0_concentration change	0	weeks	0.0	percent	0.0	5.3	33.6	mM
+Tuomilehto1995	SIM0mg	28	SIM0	concentration change	ldl-c	serum	ldl-c_SIM0_concentration change	2	weeks	-6.499179	percent	-6.499179	5.3	33.6	mM
+Tuomilehto1995	SIM0mg	28	SIM0	concentration change	ldl-c	serum	ldl-c_SIM0_concentration change	4	weeks	-3.030018	percent	-3.030018	5.3	33.6	mM
+Tuomilehto1995	SIM0mg	28	SIM0	concentration change	ldl-c	serum	ldl-c_SIM0_concentration change	6	weeks	-2.9900188	percent	-2.9900188	5.3	33.6	mM
+Tuomilehto1995	SIM0mg	28	SIM0	concentration change	ldl-c	serum	ldl-c_SIM0_concentration change	8	weeks	-4.38609	percent	-4.38609	5.3	33.6	mM
+Tuomilehto1995	SIM2_5mg	28	SIM2_5	concentration change	ldl-c	serum	ldl-c_SIM2_5_concentration change	0	weeks	0.0	percent	0.0	5.1	20.7	mM
+Tuomilehto1995	SIM2_5mg	28	SIM2_5	concentration change	ldl-c	serum	ldl-c_SIM2_5_concentration change	2	weeks	-18.779924	percent	-18.779924	5.1	20.7	mM
+Tuomilehto1995	SIM2_5mg	28	SIM2_5	concentration change	ldl-c	serum	ldl-c_SIM2_5_concentration change	4	weeks	-21.291395	percent	-21.291395	5.1	20.7	mM
+Tuomilehto1995	SIM2_5mg	28	SIM2_5	concentration change	ldl-c	serum	ldl-c_SIM2_5_concentration change	6	weeks	-22.846445	percent	-22.846445	5.1	20.7	mM
+Tuomilehto1995	SIM2_5mg	28	SIM2_5	concentration change	ldl-c	serum	ldl-c_SIM2_5_concentration change	8	weeks	-21.690369	percent	-21.690369	5.1	20.7	mM
+Tuomilehto1995	SIM5mg	28	SIM5	concentration change	ldl-c	serum	ldl-c_SIM5_concentration change	0	weeks	0.0	percent	0.0	5.0	29.0	mM
+Tuomilehto1995	SIM5mg	28	SIM5	concentration change	ldl-c	serum	ldl-c_SIM5_concentration change	2	weeks	-20.533785	percent	-20.533785	5.0	29.0	mM
+Tuomilehto1995	SIM5mg	28	SIM5	concentration change	ldl-c	serum	ldl-c_SIM5_concentration change	4	weeks	-27.511597	percent	-27.511597	5.0	29.0	mM
+Tuomilehto1995	SIM5mg	28	SIM5	concentration change	ldl-c	serum	ldl-c_SIM5_concentration change	6	weeks	-28.90699	percent	-28.90699	5.0	29.0	mM
+Tuomilehto1995	SIM5mg	28	SIM5	concentration change	ldl-c	serum	ldl-c_SIM5_concentration change	8	weeks	-24.640728	percent	-24.640728	5.0	29.0	mM
+Tuomilehto1995	SIM10mg	27	SIM10	concentration change	ldl-c	serum	ldl-c_SIM10_concentration change	0	weeks	0.0	percent	0.0	5.2	26.2	mM
+Tuomilehto1995	SIM10mg	27	SIM10	concentration change	ldl-c	serum	ldl-c_SIM10_concentration change	2	weeks	-22.129173	percent	-22.129173	5.2	26.2	mM
+Tuomilehto1995	SIM10mg	27	SIM10	concentration change	ldl-c	serum	ldl-c_SIM10_concentration change	4	weeks	-33.093678	percent	-33.093678	5.2	26.2	mM
+Tuomilehto1995	SIM10mg	27	SIM10	concentration change	ldl-c	serum	ldl-c_SIM10_concentration change	6	weeks	-32.495472	percent	-32.495472	5.2	26.2	mM
+Tuomilehto1995	SIM10mg	27	SIM10	concentration change	ldl-c	serum	ldl-c_SIM10_concentration change	8	weeks	-33.412907	percent	-33.412907	5.2	26.2	mM
+Tuomilehto1995	SIM20mg	26	SIM20	concentration change	ldl-c	serum	ldl-c_SIM20_concentration change	0	weeks	0.0	percent	0.0	5.2	34.5	mM
+Tuomilehto1995	SIM20mg	26	SIM20	concentration change	ldl-c	serum	ldl-c_SIM20_concentration change	2	weeks	-30.980928	percent	-30.980928	5.2	34.5	mM
+Tuomilehto1995	SIM20mg	26	SIM20	concentration change	ldl-c	serum	ldl-c_SIM20_concentration change	4	weeks	-34.36975	percent	-34.36975	5.2	34.5	mM
+Tuomilehto1995	SIM20mg	26	SIM20	concentration change	ldl-c	serum	ldl-c_SIM20_concentration change	6	weeks	-34.09018	percent	-34.09018	5.2	34.5	mM
+Tuomilehto1995	SIM20mg	26	SIM20	concentration change	ldl-c	serum	ldl-c_SIM20_concentration change	8	weeks	-33.492313	percent	-33.492313	5.2	34.5	mM
+Tuomilehto1995	SIM40mg	29	SIM40	concentration change	ldl-c	serum	ldl-c_SIM40_concentration change	0	weeks	0.0	percent	0.0	5.0	25.5	mM
+Tuomilehto1995	SIM40mg	29	SIM40	concentration change	ldl-c	serum	ldl-c_SIM40_concentration change	2	weeks	-37.99857	percent	-37.99857	5.0	25.5	mM
+Tuomilehto1995	SIM40mg	29	SIM40	concentration change	ldl-c	serum	ldl-c_SIM40_concentration change	4	weeks	-43.380653	percent	-43.380653	5.0	25.5	mM
+Tuomilehto1995	SIM40mg	29	SIM40	concentration change	ldl-c	serum	ldl-c_SIM40_concentration change	6	weeks	-43.181168	percent	-43.181168	5.0	25.5	mM
+Tuomilehto1995	SIM40mg	29	SIM40	concentration change	ldl-c	serum	ldl-c_SIM40_concentration change	8	weeks	-40.111404	percent	-40.111404	5.0	25.5	mM

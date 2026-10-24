@@ -1,0 +1,23 @@
+study	label	group	count	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	sd	pm	se	unit
+Mousa2000	SIM_simvastatin	all	10	SIM	concentration	simvastatin	serum	LC MS/MS	0.0	hr	0.0	na	na	na	ng/ml
+Mousa2000	SIM_simvastatin	all	10	SIM	concentration	simvastatin	serum	LC MS/MS	0.5	hr	0.8350152	1.1553278	1.990343	0.365346729211148	ng/ml
+Mousa2000	SIM_simvastatin	all	10	SIM	concentration	simvastatin	serum	LC MS/MS	0.75	hr	2.1381588	1.6885495	3.8267083	0.533966236193849	ng/ml
+Mousa2000	SIM_simvastatin	all	10	SIM	concentration	simvastatin	serum	LC MS/MS	1.0	hr	3.4989302	1.8789058	5.377836	0.59416218369008	ng/ml
+Mousa2000	SIM_simvastatin	all	10	SIM	concentration	simvastatin	serum	LC MS/MS	1.5	hr	3.4677382	1.6746225	5.1423607	0.529562132096532	ng/ml
+Mousa2000	SIM_simvastatin	all	10	SIM	concentration	simvastatin	serum	LC MS/MS	2.0	hr	3.2570412	1.6601548	4.917196	0.52498704364613	ng/ml
+Mousa2000	SIM_simvastatin	all	10	SIM	concentration	simvastatin	serum	LC MS/MS	2.5	hr	2.698697	1.600451	4.299148	0.506107044349414	ng/ml
+Mousa2000	SIM_simvastatin	all	10	SIM	concentration	simvastatin	serum	LC MS/MS	3.0	hr	1.8694113	1.2730304	3.1424417	0.402567559463522	ng/ml
+Mousa2000	SIM_simvastatin	all	10	SIM	concentration	simvastatin	serum	LC MS/MS	4.0	hr	1.306606	0.8124917	2.1190977	0.256932435198223	ng/ml
+Mousa2000	SIM_simvastatin	all	10	SIM	concentration	simvastatin	serum	LC MS/MS	6.0	hr	0.543278	0.4735617	1.0168397	0.149753358462136	ng/ml
+Mousa2000	SIM+DIL_simvastatin	all	10	SIM,DIL	concentration	simvastatin	serum	LC MS/MS	0.0	hr	0.0	na	na	na	ng/ml
+Mousa2000	SIM+DIL_simvastatin	all	10	SIM,DIL	concentration	simvastatin	serum	LC MS/MS	0.5	hr	3.0318744	2.7453549	5.7772293	0.86815744695038	ng/ml
+Mousa2000	SIM+DIL_simvastatin	all	10	SIM,DIL	concentration	simvastatin	serum	LC MS/MS	0.75	hr	9.624827	7.447366	17.072193	2.35506391288975	ng/ml
+Mousa2000	SIM+DIL_simvastatin	all	10	SIM,DIL	concentration	simvastatin	serum	LC MS/MS	1.0	hr	13.52618	11.564738	25.090918	3.65709126231003	ng/ml
+Mousa2000	SIM+DIL_simvastatin	all	10	SIM,DIL	concentration	simvastatin	serum	LC MS/MS	1.5	hr	15.332792	10.211541	25.544333	3.22917279801935	ng/ml
+Mousa2000	SIM+DIL_simvastatin	all	10	SIM,DIL	concentration	simvastatin	serum	LC MS/MS	2.0	hr	13.647848	7.707884	21.355732	2.43744693803693	ng/ml
+Mousa2000	SIM+DIL_simvastatin	all	10	SIM,DIL	concentration	simvastatin	serum	LC MS/MS	2.5	hr	10.621161	4.574942	15.196103	1.4467236883166	ng/ml
+Mousa2000	SIM+DIL_simvastatin	all	10	SIM,DIL	concentration	simvastatin	serum	LC MS/MS	3.0	hr	8.046608	4.210729	12.257337	1.33154942497231	ng/ml
+Mousa2000	SIM+DIL_simvastatin	all	10	SIM,DIL	concentration	simvastatin	serum	LC MS/MS	4.0	hr	5.42621	2.765807	8.192017	0.874624968843732	ng/ml
+Mousa2000	SIM+DIL_simvastatin	all	10	SIM,DIL	concentration	simvastatin	serum	LC MS/MS	6.0	hr	2.747465	1.2187969	3.9662619	0.385417420915247	ng/ml
+Mousa2000	SIM+DIL_simvastatin	all	10	SIM,DIL	concentration	simvastatin	serum	LC MS/MS	8.0	hr	1.7246614	0.9261333	2.6507947	0.292869064492802	ng/ml
+Mousa2000	SIM+DIL_simvastatin	all	10	SIM,DIL	concentration	simvastatin	serum	LC MS/MS	12.0	hr	0.938105	0.5970306	1.5351356	0.188797652881692	ng/ml

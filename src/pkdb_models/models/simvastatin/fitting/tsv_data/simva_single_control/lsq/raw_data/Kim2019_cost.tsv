@@ -1,0 +1,5 @@
+id	experiment	mapping	cost	type
+Kim2019_fm_simva	Kim2019	fm_simva	559.0986288146132	initial
+Kim2019_fm_simva	Kim2019	fm_simva	0.08100734179921808	fit
+Kim2019_fm_simacid	Kim2019	fm_simacid	30.731958918738485	initial
+Kim2019_fm_simacid	Kim2019	fm_simacid	0.04140121630836857	fit

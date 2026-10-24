@@ -1,0 +1,3 @@
+study	group	count	intervention	measurement_type	substance	tissue	label	time	time_unit	mean	change	mean_unit	count_unit
+Walker1990	SIM10mg	32	SIM10	concentration	ldl-c	serum	ldl-c_SIM10	0	weeks	5.813291957589862	0.0	mole/meter^3	dimensionless
+Walker1990	SIM10mg	32	SIM10	concentration	ldl-c	serum	ldl-c_SIM10	4	weeks	3.974657357124385	-30.9	mole/meter^3	dimensionless

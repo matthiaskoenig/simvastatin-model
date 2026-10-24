@@ -1,0 +1,16 @@
+study	group	count	intervention	measurement_type	label	substance	time	time_unit	tissue	method	mean	sd	unit
+Saito1991	2_5_morning	29	SIM2_5_morning, placebo_at_the_end	concentration	apoA-I_SIM2_5_morning, placebo_at_the_end	apoA-I	0	weeks	plasma	radial immunodiffusion	156.6	39.2	mg/dl
+Saito1991	2_5_morning	28	SIM2_5_morning, placebo_at_the_end	concentration	apoA-I_SIM2_5_morning, placebo_at_the_end	apoA-I	12	weeks	plasma	radial immunodiffusion	154.4	41.2	mg/dl
+Saito1991	2_5_morning	22	SIM2_5_morning, placebo_at_the_end	concentration	apoA-I_SIM2_5_morning, placebo_at_the_end	apoA-I	16	weeks	plasma	radial immunodiffusion	140.3	27.8	mg/dl
+Saito1991	2_5_evening	27	SIM2_5_evening, placebo_at_the_end	concentration	apoA-I_SIM2_5_evening, placebo_at_the_end	apoA-I	0	weeks	plasma	radial immunodiffusion	138.0	27.5	mg/dl
+Saito1991	2_5_evening	25	SIM2_5_evening, placebo_at_the_end	concentration	apoA-I_SIM2_5_evening, placebo_at_the_end	apoA-I	12	weeks	plasma	radial immunodiffusion	136.4	29.8	mg/dl
+Saito1991	2_5_evening	17	SIM2_5_evening, placebo_at_the_end	concentration	apoA-I_SIM2_5_evening, placebo_at_the_end	apoA-I	16	weeks	plasma	radial immunodiffusion	128.5	29.6	mg/dl
+Saito1991	5_morning	31	SIM5_morning, placebo_at_the_end	concentration	apoA-I_SIM5_morning, placebo_at_the_end	apoA-I	0	weeks	plasma	radial immunodiffusion	148.7	31.2	mg/dl
+Saito1991	5_morning	28	SIM5_morning, placebo_at_the_end	concentration	apoA-I_SIM5_morning, placebo_at_the_end	apoA-I	12	weeks	plasma	radial immunodiffusion	148.8	34.4	mg/dl
+Saito1991	5_morning	22	SIM5_morning, placebo_at_the_end	concentration	apoA-I_SIM5_morning, placebo_at_the_end	apoA-I	16	weeks	plasma	radial immunodiffusion	141.8	29.7	mg/dl
+Saito1991	5_evening	28	SIM5_evening, placebo_at_the_end	concentration	apoA-I_SIM5_evening, placebo_at_the_end	apoA-I	0	weeks	plasma	radial immunodiffusion	150.4	24.3	mg/dl
+Saito1991	5_evening	25	SIM5_evening, placebo_at_the_end	concentration	apoA-I_SIM5_evening, placebo_at_the_end	apoA-I	12	weeks	plasma	radial immunodiffusion	150.5	27.0	mg/dl
+Saito1991	5_evening	18	SIM5_evening, placebo_at_the_end	concentration	apoA-I_SIM5_evening, placebo_at_the_end	apoA-I	16	weeks	plasma	radial immunodiffusion	144.9	27.3	mg/dl
+Saito1991	placebo	30	placebo_complete	concentration	apoA-I_placebo_complete	apoA-I	0	weeks	plasma	radial immunodiffusion	147.4	22.9	mg/dl
+Saito1991	placebo	28	placebo_complete	concentration	apoA-I_placebo_complete	apoA-I	12	weeks	plasma	radial immunodiffusion	138.7	27.4	mg/dl
+Saito1991	placebo	21	placebo_complete	concentration	apoA-I_placebo_complete	apoA-I	16	weeks	plasma	radial immunodiffusion	134.6	26.4	mg/dl

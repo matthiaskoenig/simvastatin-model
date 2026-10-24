@@ -1,0 +1,23 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	sd	pm	se	unit
+Simard2001	all	11	SIM_cisapride	SIM	concentration	cisapride	plasma	LC MS/MS	0.0	hr	49.559807	14.667277	34.89253	4.42235040956451	ng/ml
+Simard2001	all	11	SIM_cisapride	SIM	concentration	cisapride	plasma	LC MS/MS	0.5	hr	56.415375	14.759865	41.65551	4.45026674193627	ng/ml
+Simard2001	all	11	SIM_cisapride	SIM	concentration	cisapride	plasma	LC MS/MS	1.0	hr	74.98685	20.75653	54.23032	6.25832926906869	ng/ml
+Simard2001	all	11	SIM_cisapride	SIM	concentration	cisapride	plasma	LC MS/MS	1.5	hr	79.99738	20.75652	59.24086	6.25832625395524	ng/ml
+Simard2001	all	11	SIM_cisapride	SIM	concentration	cisapride	plasma	LC MS/MS	2.0	hr	80.210526	19.64951	60.561016	5.92455018039421	ng/ml
+Simard2001	all	11	SIM_cisapride	SIM	concentration	cisapride	plasma	LC MS/MS	3.0	hr	76.76293	20.572355	56.190575	6.20279841718108	ng/ml
+Simard2001	all	11	SIM_cisapride	SIM	concentration	cisapride	plasma	LC MS/MS	4.0	hr	66.94966	19.74209	47.20757	5.95246410067522	ng/ml
+Simard2001	all	11	SIM_cisapride	SIM	concentration	cisapride	plasma	LC MS/MS	5.0	hr	59.442013	15.589127	43.852886	4.70029864256352	ng/ml
+Simard2001	all	11	SIM_cisapride	SIM	concentration	cisapride	plasma	LC MS/MS	6.0	hr	52.397617	16.236217	36.1614	4.89540361852634	ng/ml
+Simard2001	all	11	SIM_cisapride	SIM	concentration	cisapride	plasma	LC MS/MS	7.0	hr	47.47433	14.94503	32.5293	4.50609609005502	ng/ml
+Simard2001	all	11	SIM_cisapride	SIM	concentration	cisapride	plasma	LC MS/MS	8.0	hr	43.01097	13.930602	29.080368	4.20023453979768	ng/ml
+Simard2001	all	11	SIM+CIS_cisapride	SIM,CIS	concentration	cisapride	plasma	LC MS/MS	0.0	hr	53.24986	16.05204	69.3019	4.83987216361605	ng/ml
+Simard2001	all	11	SIM+CIS_cisapride	SIM,CIS	concentration	cisapride	plasma	LC MS/MS	0.5	hr	64.90215	14.577365	79.479515	4.39524092155083	ng/ml
+Simard2001	all	11	SIM+CIS_cisapride	SIM,CIS	concentration	cisapride	plasma	LC MS/MS	1.0	hr	81.44476	18.44958	99.89434	5.56275767269502	ng/ml
+Simard2001	all	11	SIM+CIS_cisapride	SIM,CIS	concentration	cisapride	plasma	LC MS/MS	1.5	hr	92.08163	25.18359	117.26522	7.59313808219512	ng/ml
+Simard2001	all	11	SIM+CIS_cisapride	SIM,CIS	concentration	cisapride	plasma	LC MS/MS	2.0	hr	91.9271	24.44491	116.37201	7.37041768218242	ng/ml
+Simard2001	all	11	SIM+CIS_cisapride	SIM,CIS	concentration	cisapride	plasma	LC MS/MS	3.0	hr	85.61805	24.723	110.34105	7.45426497199605	ng/ml
+Simard2001	all	11	SIM+CIS_cisapride	SIM,CIS	concentration	cisapride	plasma	LC MS/MS	4.0	hr	77.2818	24.53916	101.82096	7.39883512640887	ng/ml
+Simard2001	all	11	SIM+CIS_cisapride	SIM,CIS	concentration	cisapride	plasma	LC MS/MS	5.0	hr	69.40648	24.9075	94.31398	7.50989381507065	ng/ml
+Simard2001	all	11	SIM+CIS_cisapride	SIM,CIS	concentration	cisapride	plasma	LC MS/MS	6.0	hr	60.977314	21.400286	82.3776	6.45242900620869	ng/ml
+Simard2001	all	11	SIM+CIS_cisapride	SIM,CIS	concentration	cisapride	plasma	LC MS/MS	7.0	hr	53.10066	19.46501	72.56567	5.86892133731961	ng/ml
+Simard2001	all	11	SIM+CIS_cisapride	SIM,CIS	concentration	cisapride	plasma	LC MS/MS	8.0	hr	47.89962	18.54283	66.44245	5.59087360557689	ng/ml

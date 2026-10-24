@@ -1,0 +1,8 @@
+study	group	label	count	intervention	measurement_type	substance	tissue	time	time_unit	mean	mean_sd	mean_se	mean_unit	count_unit
+Loria1993	all	cholesterol_bile	5	SIM80	concentration	cholesterol	bile	0	hr	2.3	0.3	0.134164078649987	mmol/l	dimensionless
+Loria1993	all	cholesterol_bile	5	SIM80	concentration	cholesterol	bile	3	hr	2.2	0.5	0.223606797749979	mmol/l	dimensionless
+Loria1993	all	cholesterol_bile	5	SIM80	concentration	cholesterol	bile	6	hr	2.0	0.7	0.313049516849971	mmol/l	dimensionless
+Loria1993	all	cholesterol_bile	5	SIM80	concentration	cholesterol	bile	9	hr	1.6	0.4	0.178885438199983	mmol/l	dimensionless
+Loria1993	all	cholesterol_bile	5	SIM80	concentration	cholesterol	bile	12	hr	1.7	0.4	0.178885438199983	mmol/l	dimensionless
+Loria1993	all	cholesterol_bile	5	SIM80	concentration	cholesterol	bile	15	hr	1.8	0.4	0.178885438199983	mmol/l	dimensionless
+Loria1993	all	cholesterol_bile	5	SIM80	concentration	cholesterol	bile	30	hr	2.2	0.6	0.268328157299975	mmol/l	dimensionless

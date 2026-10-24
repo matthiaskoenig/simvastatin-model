@@ -1,0 +1,13 @@
+study	group	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	sd	unit
+Bergman2004	all	SIM,FEN	auc_end	active simva inhibitors	plasma	enzymatic assay	24.0	hr	166.7	75.3	ng hr/ml
+Bergman2004	all	SIM,FEN	cmax	active simva inhibitors	plasma	enzymatic assay	NA	NA	43.1	21.0	ng/ml
+Bergman2004	all	SIM,FEN	tmax	active simva inhibitors	plasma	enzymatic assay	NA	NA	2.7	NA	hr
+Bergman2004	all	SIM,FEN	auc_end	total simva inhibitors	plasma	enzymatic assay	24.0	hr	523.4	158.5	ng hr/ml
+Bergman2004	all	SIM,FEN	cmax	total simva inhibitors	plasma	enzymatic assay	NA	NA	165.2	62.1	ng/ml
+Bergman2004	all	SIM,FEN	tmax	total simva inhibitors	plasma	enzymatic assay	NA	NA	2.3	NA	hr
+Bergman2004	all	SIM	auc_end	active simva inhibitors	plasma	enzymatic assay	24.0	hr	190.0	85.8	ng hr/ml
+Bergman2004	all	SIM	cmax	active simva inhibitors	plasma	enzymatic assay	NA	NA	42.8	18.2	ng/ml
+Bergman2004	all	SIM	tmax	active simva inhibitors	plasma	enzymatic assay	NA	NA	2.5	NA	hr
+Bergman2004	all	SIM	auc_end	total simva inhibitors	plasma	enzymatic assay	24.0	hr	567.9	167.4	ng hr/ml
+Bergman2004	all	SIM	cmax	total simva inhibitors	plasma	enzymatic assay	NA	NA	178.7	51.6	ng/ml
+Bergman2004	all	SIM	tmax	total simva inhibitors	plasma	enzymatic assay	NA	NA	2.4	NA	hr

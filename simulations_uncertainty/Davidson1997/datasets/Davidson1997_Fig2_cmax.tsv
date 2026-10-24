@@ -1,0 +1,4 @@
+study	group	count	intervention	measurement_type	substance	tissue	time	time_unit	mean	mean_sd	sd_pm	median	min	max	comments	mean_unit	median_unit	count_unit
+Davidson1997	all	18	SIM40	cmax	active simva inhibitors	plasma			22.5	6.6	29.1				HMG-CoA reductase inhibitory activity in simvastatin acid equivalents, steady state over 24 h at the mid-point of the period (PK substudy, n=18); re-digitized	ng/ml	ng/ml	dimensionless
+Davidson1997	all	18	SIM80	cmax	active simva inhibitors	plasma			50.1	27.7	77.8				HMG-CoA reductase inhibitory activity in simvastatin acid equivalents, steady state over 24 h at the mid-point of the period (PK substudy, n=18); re-digitized	ng/ml	ng/ml	dimensionless
+Davidson1997	all	18	SIM160	cmax	active simva inhibitors	plasma			139.9	73.6	213.5				HMG-CoA reductase inhibitory activity in simvastatin acid equivalents, steady state over 24 h at the mid-point of the period (PK substudy, n=18); re-digitized	ng/ml	ng/ml	dimensionless

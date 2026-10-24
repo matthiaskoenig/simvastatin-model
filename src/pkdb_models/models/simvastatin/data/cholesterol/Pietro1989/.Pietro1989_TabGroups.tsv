@@ -1,0 +1,35 @@
+study	name	parent	measurement_type	group_count	choice	substance	count	mean	unit	sd	min	max
+Pietro1989	all	NA	age	243	NA	NA	243	NA	yr	NA	21.0	70.0
+Pietro1989	all	NA	healthy	243	N	NA	243	NA	NA	NA	NA	NA
+Pietro1989	all	NA	species	243	homo sapiens	NA	243	NA	NA	NA	NA	NA
+Pietro1989	all	NA	disease	243	hypercholesterolemia	NA	243	NA	NA	NA	NA	NA
+Pietro1989	all	NA	oral contraceptives	243	N	NA	243	NA	NA	NA	NA	NA
+Pietro1989	all	NA	fasting (duration)	243	NA	NA	243	NA	hr	NA	12.0	NA
+Pietro1989	all	NA	concentration	243	NA	triglyceride	243	NA	mg/dl	NA	NA	350.0
+Pietro1989	SIM_20mg	all	sex	82	M	NA	54	NA	NA	NA	NA	NA
+Pietro1989	all	NA	sex	243	M	NA	166	NA	NA	NA	NA	NA
+Pietro1989	all	NA	sex	243	F	NA	77	NA	NA	NA	NA	NA
+Pietro1989	SIM_20mg	all	sex	82	F	NA	28	NA	NA	NA	NA	NA
+Pietro1989	SIM_20mg	all	ethnicity	82	caucasian	NA	80	NA	NA	NA	NA	NA
+Pietro1989	SIM_20mg	all	ethnicity	82	black	NA	2	NA	NA	NA	NA	NA
+Pietro1989	SIM_20mg	all	disease	82	FH	NA	48	NA	NA	NA	NA	NA
+Pietro1989	SIM_20mg	all	disease	82	hypercholesterolemia	NA	34	NA	NA	NA	NA	NA
+Pietro1989	SIM_40mg	all	sex	80	M	NA	54	NA	NA	NA	NA	NA
+Pietro1989	SIM_40mg	all	sex	80	F	NA	26	NA	NA	NA	NA	NA
+Pietro1989	SIM_40mg	all	ethnicity	80	caucasian	NA	73	NA	NA	NA	NA	NA
+Pietro1989	SIM_40mg	all	ethnicity	80	black	NA	6	NA	NA	NA	NA	NA
+Pietro1989	SIM_40mg	all	ethnicity	80	other	NA	1	NA	NA	NA	NA	NA
+Pietro1989	SIM_40mg	all	disease	80	FH	NA	43	NA	NA	NA	NA	NA
+Pietro1989	SIM_40mg	all	disease	80	hypercholesterolemia	NA	37	NA	NA	NA	NA	NA
+Pietro1989	probucol	all	sex	81	M	NA	58	NA	NA	NA	NA	NA
+Pietro1989	probucol	all	sex	81	F	NA	23	NA	NA	NA	NA	NA
+Pietro1989	probucol	all	ethnicity	81	caucasian	NA	78	NA	NA	NA	NA	NA
+Pietro1989	probucol	all	ethnicity	81	black	NA	3	NA	NA	NA	NA	NA
+Pietro1989	probucol	all	disease	81	FH	NA	43	NA	NA	NA	NA	NA
+Pietro1989	probucol	all	disease	81	hypercholesterolemia	NA	38	NA	NA	NA	NA	NA
+Pietro1989	FH	all	disease	134	FH	NA	134	NA	NA	NA	NA	NA
+Pietro1989	non-FH	all	disease	109	hypercholesterolemia	NA	109	NA	NA	NA	NA	NA
+Pietro1989	<300_total_cho	all	concentration	243	NA	cholesterol	243	NA	mg/dl	NA	NA	300.0
+Pietro1989	>300_total_cho	all	concentration	243	NA	cholesterol	243	NA	mg/dl	NA	300.0	NA
+Pietro1989	<200_triglyceride	all	concentration	243	NA	triglyceride	243	NA	mg/dl	NA	NA	200.0
+Pietro1989	>200_triglyceride	all	concentration	243	NA	triglyceride	243	NA	mg/dl	NA	200.0	NA

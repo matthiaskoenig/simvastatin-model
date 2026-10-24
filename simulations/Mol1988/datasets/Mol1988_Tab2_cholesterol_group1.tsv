@@ -1,0 +1,6 @@
+study	group	count	intervention	measurement_type	substance	method	tissue	label	time	time_unit	mean	mean_sd	mean_se	mean_unit	count_unit
+Mol1988	group1	10	SIM_10mg_twice	concentration	cholesterol	enzymatic assay	serum	SIM_10mg_twice_cholesterol	0	weeks	11.74	1.9	0.600832755431992	mmol/l	dimensionless
+Mol1988	group1	10	SIM_20mg_twice	concentration	cholesterol	enzymatic assay	serum	SIM_20mg_twice_cholesterol	12	weeks	7.21	1.39	0.439556594763405	mmol/l	dimensionless
+Mol1988	group1	10	SIM_20mg_twice	concentration	cholesterol	enzymatic assay	serum	SIM_20mg_twice_cholesterol	16	weeks	7.41	1.67	0.528100369248119	mmol/l	dimensionless
+Mol1988	group1	10	SIM_20mg_twice	concentration	cholesterol	enzymatic assay	serum	SIM_20mg_twice_cholesterol	20	weeks	7.18	1.42	0.44904342774391	mmol/l	dimensionless
+Mol1988	group1	10	SIM_20mg_twice	concentration	cholesterol	enzymatic assay	serum	SIM_20mg_twice_cholesterol	24	weeks	7.28	1.49	0.471179371365088	mmol/l	dimensionless

@@ -1,0 +1,49 @@
+study	group	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	sd	unit
+Jiang2017	c521TT-CGC/CGC	SIM	auc_end	simvastatin	plasma	LC MS/MS	12.0	hr	23.9	15.5	ng/ml*hr
+Jiang2017	c521TT-CGC/CGC	SIM,AML	auc_end	simvastatin	plasma	LC MS/MS	12.0	hr	36.5	22.9	ng/ml*hr
+Jiang2017	c521TT-CGC/CGC	SIM	cmax	simvastatin	plasma	LC MS/MS	NA	NA	7.03	4.67	ng/ml
+Jiang2017	c521TT-CGC/CGC	SIM,AML	cmax	simvastatin	plasma	LC MS/MS	NA	NA	12.0	10.9	ng/ml
+Jiang2017	c521TT-CGC/CGC	SIM	thalf	simvastatin	plasma	LC MS/MS	NA	NA	2.7	1.28	hr
+Jiang2017	c521TT-CGC/CGC	SIM,AML	thalf	simvastatin	plasma	LC MS/MS	NA	NA	2.86	0.6	hr
+Jiang2017	c521TT-CGC/CGC	SIM	auc_end	simvastatin acid	plasma	LC MS/MS	12.0	hr	19.5	7.1	ng/ml*hr
+Jiang2017	c521TT-CGC/CGC	SIM,AML	auc_end	simvastatin acid	plasma	LC MS/MS	12.0	hr	23.9	8.07	ng/ml*hr
+Jiang2017	c521TT-CGC/CGC	SIM	cmax	simvastatin acid	plasma	LC MS/MS	NA	NA	2.78	1.06	ng/ml
+Jiang2017	c521TT-CGC/CGC	SIM,AML	cmax	simvastatin acid	plasma	LC MS/MS	NA	NA	3.55	1.42	ng/ml
+Jiang2017	c521TT-CGC/CGC	SIM	thalf	simvastatin acid	plasma	LC MS/MS	NA	NA	3.84	1.09	hr
+Jiang2017	c521TT-CGC/CGC	SIM,AML	thalf	simvastatin acid	plasma	LC MS/MS	NA	NA	5.83	3.51	hr
+Jiang2017	c521TT-TTT/TTT	SIM	auc_end	simvastatin	plasma	LC MS/MS	12.0	hr	22.3	9.66	ng/ml*hr
+Jiang2017	c521TT-TTT/TTT	SIM,AML	auc_end	simvastatin	plasma	LC MS/MS	12.0	hr	42.0	27.7	ng/ml*hr
+Jiang2017	c521TT-TTT/TTT	SIM	cmax	simvastatin	plasma	LC MS/MS	NA	NA	3.46	0.86	ng/ml
+Jiang2017	c521TT-TTT/TTT	SIM,AML	cmax	simvastatin	plasma	LC MS/MS	NA	NA	10.0	11.6	ng/ml
+Jiang2017	c521TT-TTT/TTT	SIM	thalf	simvastatin	plasma	LC MS/MS	NA	NA	3.33	0.77	hr
+Jiang2017	c521TT-TTT/TTT	SIM,AML	thalf	simvastatin	plasma	LC MS/MS	NA	NA	4.45	1.98	hr
+Jiang2017	c521TT-TTT/TTT	SIM	auc_end	simvastatin acid	plasma	LC MS/MS	12.0	hr	15.4	7.05	ng/ml*hr
+Jiang2017	c521TT-TTT/TTT	SIM,AML	auc_end	simvastatin acid	plasma	LC MS/MS	12.0	hr	23.4	8.5	ng/ml*hr
+Jiang2017	c521TT-TTT/TTT	SIM	cmax	simvastatin acid	plasma	LC MS/MS	NA	NA	2.07	0.91	ng/ml
+Jiang2017	c521TT-TTT/TTT	SIM,AML	cmax	simvastatin acid	plasma	LC MS/MS	NA	NA	3.41	1.2	ng/ml
+Jiang2017	c521TT-TTT/TTT	SIM	thalf	simvastatin acid	plasma	LC MS/MS	NA	NA	6.12	3.76	hr
+Jiang2017	c521TT-TTT/TTT	SIM,AML	thalf	simvastatin acid	plasma	LC MS/MS	NA	NA	4.75	1.39	hr
+Jiang2017	c521TC-CGC/CGC	SIM	auc_end	simvastatin	plasma	LC MS/MS	12.0	hr	17.8	10.4	ng/ml*hr
+Jiang2017	c521TC-CGC/CGC	SIM,AML	auc_end	simvastatin	plasma	LC MS/MS	12.0	hr	30.4	17.2	ng/ml*hr
+Jiang2017	c521TC-CGC/CGC	SIM	cmax	simvastatin	plasma	LC MS/MS	NA	NA	4.62	2.77	ng/ml
+Jiang2017	c521TC-CGC/CGC	SIM,AML	cmax	simvastatin	plasma	LC MS/MS	NA	NA	6.3	3.68	ng/ml
+Jiang2017	c521TC-CGC/CGC	SIM	thalf	simvastatin	plasma	LC MS/MS	NA	NA	3.09	1.55	hr
+Jiang2017	c521TC-CGC/CGC	SIM,AML	thalf	simvastatin	plasma	LC MS/MS	NA	NA	7.08	3.57	hr
+Jiang2017	c521TC-CGC/CGC	SIM	auc_end	simvastatin acid	plasma	LC MS/MS	12.0	hr	23.8	6.51	ng/ml*hr
+Jiang2017	c521TC-CGC/CGC	SIM,AML	auc_end	simvastatin acid	plasma	LC MS/MS	12.0	hr	29.6	9.99	ng/ml*hr
+Jiang2017	c521TC-CGC/CGC	SIM	cmax	simvastatin acid	plasma	LC MS/MS	NA	NA	3.34	0.62	ng/ml
+Jiang2017	c521TC-CGC/CGC	SIM,AML	cmax	simvastatin acid	plasma	LC MS/MS	NA	NA	4.26	1.87	ng/ml
+Jiang2017	c521TC-CGC/CGC	SIM	thalf	simvastatin acid	plasma	LC MS/MS	NA	NA	3.55	0.65	hr
+Jiang2017	c521TC-CGC/CGC	SIM,AML	thalf	simvastatin acid	plasma	LC MS/MS	NA	NA	5.71	2.2	hr
+Jiang2017	c521TC-TTT/TTT	SIM	auc_end	simvastatin	plasma	LC MS/MS	12.0	hr	19.4	13.8	ng/ml*hr
+Jiang2017	c521TC-TTT/TTT	SIM,AML	auc_end	simvastatin	plasma	LC MS/MS	12.0	hr	37.4	11.6	ng/ml*hr
+Jiang2017	c521TC-TTT/TTT	SIM	cmax	simvastatin	plasma	LC MS/MS	NA	NA	3.27	1.76	ng/ml
+Jiang2017	c521TC-TTT/TTT	SIM,AML	cmax	simvastatin	plasma	LC MS/MS	NA	NA	7.08	3.57	ng/ml
+Jiang2017	c521TC-TTT/TTT	SIM	thalf	simvastatin	plasma	LC MS/MS	NA	NA	4.28	2.66	hr
+Jiang2017	c521TC-TTT/TTT	SIM,AML	thalf	simvastatin	plasma	LC MS/MS	NA	NA	5.51	1.52	hr
+Jiang2017	c521TC-TTT/TTT	SIM	auc_end	simvastatin acid	plasma	LC MS/MS	12.0	hr	26.6	17.3	ng/ml*hr
+Jiang2017	c521TC-TTT/TTT	SIM,AML	auc_end	simvastatin acid	plasma	LC MS/MS	12.0	hr	41.2	27.5	ng/ml*hr
+Jiang2017	c521TC-TTT/TTT	SIM	cmax	simvastatin acid	plasma	LC MS/MS	NA	NA	4.29	3.58	ng/ml
+Jiang2017	c521TC-TTT/TTT	SIM,AML	cmax	simvastatin acid	plasma	LC MS/MS	NA	NA	6.73	5.53	ng/ml
+Jiang2017	c521TC-TTT/TTT	SIM	thalf	simvastatin acid	plasma	LC MS/MS	NA	NA	5.07	2.17	hr
+Jiang2017	c521TC-TTT/TTT	SIM,AML	thalf	simvastatin acid	plasma	LC MS/MS	NA	NA	5.26	2.4	hr

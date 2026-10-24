@@ -1,0 +1,14 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	sd	pm	se	unit
+Zhou2013	all	17	SIM_simvastatin	SIM	concentration	simvastatin	plasma	HPLC-ESI-MS/MS	0.0	hr	0.0	na	na	na	µg/l
+Zhou2013	all	17	SIM_simvastatin	SIM	concentration	simvastatin	plasma	HPLC-ESI-MS/MS	0.5	hr	3.4645004	1.9567327	1.5077677	0.474577388423531	µg/l
+Zhou2013	all	17	SIM_simvastatin	SIM	concentration	simvastatin	plasma	HPLC-ESI-MS/MS	1.0	hr	7.1537027	3.878766	3.2749367	0.940738936179677	µg/l
+Zhou2013	all	17	SIM_simvastatin	SIM	concentration	simvastatin	plasma	HPLC-ESI-MS/MS	1.5	hr	8.159207	2.9610554	5.1981516	0.718161422206209	µg/l
+Zhou2013	all	17	SIM_simvastatin	SIM	concentration	simvastatin	plasma	HPLC-ESI-MS/MS	2.0	hr	6.705649	1.8182055	4.8874435	0.440979607386998	µg/l
+Zhou2013	all	17	SIM_simvastatin	SIM	concentration	simvastatin	plasma	HPLC-ESI-MS/MS	2.5	hr	5.0098705	1.696994	3.3128765	0.411581500472907	µg/l
+Zhou2013	all	17	SIM_simvastatin	SIM	concentration	simvastatin	plasma	HPLC-ESI-MS/MS	3.0	hr	4.19717	1.5757153	2.6214547	0.382167095164813	µg/l
+Zhou2013	all	17	SIM_simvastatin	SIM	concentration	simvastatin	plasma	HPLC-ESI-MS/MS	4.0	hr	3.2122889	1.1947985	2.0174904	0.289781200989973	µg/l
+Zhou2013	all	17	SIM_simvastatin	SIM	concentration	simvastatin	plasma	HPLC-ESI-MS/MS	5.0	hr	2.6083581	0.9004616	1.7078965	0.218394016977216	µg/l
+Zhou2013	all	17	SIM_simvastatin	SIM	concentration	simvastatin	plasma	HPLC-ESI-MS/MS	6.0	hr	2.00436	0.4848121	1.5195479	0.117584205698677	µg/l
+Zhou2013	all	17	SIM_simvastatin	SIM	concentration	simvastatin	plasma	HPLC-ESI-MS/MS	8.0	hr	1.4892029	0.5713916	0.9178113	0.13858281884651	µg/l
+Zhou2013	all	17	SIM_simvastatin	SIM	concentration	simvastatin	plasma	HPLC-ESI-MS/MS	12.0	hr	0.9264186	0.31165284	0.61476576	0.0755869163437483	µg/l
+Zhou2013	all	17	SIM_simvastatin	SIM	concentration	simvastatin	plasma	HPLC-ESI-MS/MS	24.0	hr	0.24232161	na	na	na	µg/l

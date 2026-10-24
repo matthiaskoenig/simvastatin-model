@@ -1,0 +1,10 @@
+study	subject	label	count	intervention	substance	tissue	measurement	mean	mean_pm	time	time_unit	mean_unit	mean_sd	mean_se	count_unit
+Chung2006	all	all_SIM+KET	19	SIM, KET	simvastatin	plasma	concentration	0.0		0.0	hr	mole/meter^3			dimensionless
+Chung2006	all	all_SIM+KET	19	SIM, KET	simvastatin	plasma	concentration	9.821182513139034e-05	68.66816	1.0	hr	mole/meter^3	6.583060200668896e-05	1.5102575870505421e-05	dimensionless
+Chung2006	all	all_SIM+KET	19	SIM, KET	simvastatin	plasma	concentration	0.00010430181557572859	73.77072	2.0	hr	mole/meter^3	7.193019589106545e-05	1.650191867780205e-05	dimensionless
+Chung2006	all	all_SIM+KET	19	SIM, KET	simvastatin	plasma	concentration	9.797357381748686e-05	89.610306	4.0	hr	mole/meter^3	0.00011609786908743429	2.6634677837502147e-05	dimensionless
+Chung2006	all	all_SIM+KET	19	SIM, KET	simvastatin	plasma	concentration	7.292677974199713e-05	63.98258	6.0	hr	mole/meter^3	7.992219302436693e-05	1.8335408565229835e-05	dimensionless
+Chung2006	all	all_SIM+KET	19	SIM, KET	simvastatin	plasma	concentration	4.893068800764453e-05	36.153664	8.0	hr	mole/meter^3	3.743735785953177e-05	8.588718927519326e-06	dimensionless
+Chung2006	all	all_SIM+KET	19	SIM, KET	simvastatin	plasma	concentration	2.3865317725752506e-05	18.17766	12.0	hr	mole/meter^3	1.9559574773053032e-05	4.487274200756091e-06	dimensionless
+Chung2006	all	all_SIM+KET	19	SIM, KET	simvastatin	plasma	concentration	5.2443287147634965e-06	3.6036582	24.0	hr	mole/meter^3	3.3645059722885805e-06	7.718706067444719e-07	dimensionless
+Chung2006	all	all_SIM+KET	19	SIM, KET	simvastatin	plasma	concentration	3.92653463927377e-06	2.5237844	30.0	hr	mole/meter^3	2.1025728619206877e-06	4.823632961338628e-07	dimensionless

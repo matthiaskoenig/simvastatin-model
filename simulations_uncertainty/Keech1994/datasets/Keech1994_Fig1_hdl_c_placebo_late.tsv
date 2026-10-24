@@ -1,0 +1,9 @@
+study	group	count	intervention	measurement_type	substance	label	tissue	time	time_unit	mean	mean_se	mean_sd	sepm	mean_unit	count_unit
+Keech1994	placebo	207	placebo	concentration	hdl-c	placebo_hdl-c	plasma	20	weeks	1.2085166				mmol/l	dimensionless
+Keech1994	placebo	207	placebo	concentration	hdl-c	placebo_hdl-c	plasma	32	weeks	1.1950295				mmol/l	dimensionless
+Keech1994	placebo	207	placebo	concentration	hdl-c	placebo_hdl-c	plasma	44	weeks	1.1865795				mmol/l	dimensionless
+Keech1994	placebo	207	placebo	concentration	hdl-c	placebo_hdl-c	plasma	56	weeks	1.1780924				mmol/l	dimensionless
+Keech1994	placebo	207	placebo	concentration	hdl-c	placebo_hdl-c	plasma	68	weeks	1.2445127				mmol/l	dimensionless
+Keech1994	placebo	207	placebo	concentration	hdl-c	placebo_hdl-c	plasma	80	weeks	1.1960074				mmol/l	dimensionless
+Keech1994	placebo	124	placebo	concentration	hdl-c	placebo_hdl-c	plasma	104	weeks	1.1540704				mmol/l	dimensionless
+Keech1994	placebo	109	placebo	concentration	hdl-c	placebo_hdl-c	plasma	152	weeks	1.1649743				mmol/l	dimensionless

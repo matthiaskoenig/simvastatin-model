@@ -1,0 +1,5 @@
+study	group	count	intervention	label	measurement_type	substance	method	tissue	time	time_unit	mean	mean_sd	mean_se	sdpm	mean_unit	count_unit
+Nishio2005	all	8	SIM	SIM	concentration	active simva inhibitors	enzymatic assay	plasma	2	hr	2.0971461291800276e-05	7.610668804397618e-06	2.690777760477233e-06	5.833322	mole/meter^3	dimensionless
+Nishio2005	all	8	SIM	SIM	concentration	active simva inhibitors	enzymatic assay	plasma	3	hr	1.576464498396702e-05	9.205038937242327e-06	3.2544727268051305e-06	2.863924	mole/meter^3	dimensionless
+Nishio2005	all	8	SIM	SIM	concentration	active simva inhibitors	enzymatic assay	plasma	4	hr	8.456008474576272e-06	4.638528859367843e-06	1.639967605594251e-06	1.6667116	mole/meter^3	dimensionless
+Nishio2005	all	8	SIM	SIM	concentration	active simva inhibitors	enzymatic assay	plasma	6	hr	5.001015345854329e-06	2.609114750343564e-06	9.224613664308911e-07	1.0443038	mole/meter^3	dimensionless

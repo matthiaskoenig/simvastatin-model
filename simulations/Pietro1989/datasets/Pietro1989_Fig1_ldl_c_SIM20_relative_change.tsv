@@ -1,0 +1,6 @@
+study	group	count	intervention	measurement_type	substance	method	tissue	label	time	time_unit	mean	change	change_unit	baseline	baseline_unit	comment	mean_unit	count_unit
+Pietro1989	SIM_20mg	82	SIM20	concentration change	ldl-c	NR	plasma	ldl-c_SIM20_concentration change	0	weeks	0.0	0.0	percent	251	mg/dl		percent	dimensionless
+Pietro1989	SIM_20mg	82	SIM20	concentration change	ldl-c	NR	plasma	ldl-c_SIM20_concentration change	2	weeks	-30.628168	-30.628168	percent	251	mg/dl		percent	dimensionless
+Pietro1989	SIM_20mg	82	SIM20	concentration change	ldl-c	NR	plasma	ldl-c_SIM20_concentration change	6	weeks	-34.804264	-34.804264	percent	251	mg/dl		percent	dimensionless
+Pietro1989	SIM_20mg	82	SIM20	concentration change	ldl-c	NR	plasma	ldl-c_SIM20_concentration change	10	weeks	-34.295807	-34.295807	percent	251	mg/dl		percent	dimensionless
+Pietro1989	SIM_20mg	82	SIM20	concentration change	ldl-c	NR	plasma	ldl-c_SIM20_concentration change	12	weeks	-34.20506	-34.20506	percent	251	mg/dl		percent	dimensionless

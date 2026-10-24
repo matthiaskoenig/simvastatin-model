@@ -1,0 +1,12 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	mean_se	pm	mean_sd	mean_unit	count_unit
+Ucar2004	all	12	SIM_simvastatin acid	SIM	concentration	simvastatin acid	serum	LC MS/MS	0.0	hr	1.3250778744846543e-08				mole/meter^3	dimensionless
+Ucar2004	all	12	SIM_simvastatin acid	SIM	concentration	simvastatin acid	serum	LC MS/MS	0.5	hr	9.270344709115895e-07	3.045079019697664e-07	0.5376914	1.0548463150356756e-06	mole/meter^3	dimensionless
+Ucar2004	all	12	SIM_simvastatin acid	SIM	concentration	simvastatin acid	serum	LC MS/MS	1.0	hr	2.860280348144755e-06	7.94334402198809e-07	1.5956048	2.7516550856163764e-06	mole/meter^3	dimensionless
+Ucar2004	all	12	SIM_simvastatin acid	SIM	concentration	simvastatin acid	serum	LC MS/MS	1.5	hr	3.80056550618415e-06	1.0194051763628033e-06	2.1043992	3.5313231179181865e-06	mole/meter^3	dimensionless
+Ucar2004	all	12	SIM_simvastatin acid	SIM	concentration	simvastatin acid	serum	LC MS/MS	2.0	hr	4.489278057718736e-06	1.0591580393953277e-06	2.4224472	3.669031074955497e-06	mole/meter^3	dimensionless
+Ucar2004	all	12	SIM_simvastatin acid	SIM	concentration	simvastatin acid	serum	LC MS/MS	3.0	hr	7.1244869445716916e-06	1.337187356848374e-06	3.694367	4.63215288260023e-06	mole/meter^3	dimensionless
+Ucar2004	all	12	SIM_simvastatin acid	SIM	concentration	simvastatin acid	serum	LC MS/MS	4.0	hr	6.608724232707283e-06	1.0194170865781035e-06	3.3304465	3.531364376114224e-06	mole/meter^3	dimensionless
+Ucar2004	all	12	SIM_simvastatin acid	SIM	concentration	simvastatin acid	serum	LC MS/MS	6.0	hr	4.795968392120935e-06	5.560574896930829e-07	2.3366945	1.9262396481552545e-06	mole/meter^3	dimensionless
+Ucar2004	all	12	SIM_simvastatin acid	SIM	concentration	simvastatin acid	serum	LC MS/MS	9.0	hr	4.0694931287219425e-06	4.898376087952359e-07	1.9906038	1.6968472517827923e-06	mole/meter^3	dimensionless
+Ucar2004	all	12	SIM_simvastatin acid	SIM	concentration	simvastatin acid	serum	LC MS/MS	12.0	hr	2.482406779661017e-06	2.7802908841044436e-07	1.2052063	9.631210142178975e-07	mole/meter^3	dimensionless
+Ucar2004	all	12	SIM_simvastatin acid	SIM	concentration	simvastatin acid	serum	LC MS/MS	24.0	hr	6.752470453504352e-07	1.3239473202015575e-07	0.3526164	4.586288050267522e-07	mole/meter^3	dimensionless

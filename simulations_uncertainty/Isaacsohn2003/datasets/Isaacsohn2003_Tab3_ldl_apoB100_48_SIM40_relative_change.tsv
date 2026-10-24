@@ -1,0 +1,3 @@
+study	group	count	intervention	measurement_type	substance	method	label	tissue	time	time_unit	mean	median	mean_sd	mean_se	change	change_sd	baseline	baseline_unit	mean_unit	median_unit	count_unit
+Isaacsohn2003	all	45	SIM40	concentration change	ldl-apoB100+48	immunochromatography	SIM40_ldl-apoB100+48_concentration change	plasma	0	week	0.0						115	mg/dl	percent	percent	dimensionless
+Isaacsohn2003	all	45	SIM40	concentration change	ldl-apoB100+48	immunochromatography	SIM40_ldl-apoB100+48_concentration change	plasma	6	week	-13.5		66.7	9.94304893994907	-13.5	66.7	115	mg/dl	percent	percent	dimensionless

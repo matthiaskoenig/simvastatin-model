@@ -1,0 +1,9 @@
+study	group	count	intervention	measurement_type	substance	label	tissue	time	time_unit	mean	mean_se	mean_sd	sepm	mean_unit	count_unit
+Keech1994	SIM40	206	SIM40	concentration	triglyceride	SIM40_triglyceride	plasma	20	weeks	2.042816	0.1409206	2.02259110892394	1.9018954	mmol/l	dimensionless
+Keech1994	SIM40	206	SIM40	concentration	triglyceride	SIM40_triglyceride	plasma	32	weeks	2.073401	0.1208188	1.73407600216618	2.1942198	mmol/l	dimensionless
+Keech1994	SIM40	206	SIM40	concentration	triglyceride	SIM40_triglyceride	plasma	44	weeks	2.088881	0.0704648000000003	1.0113601416124	2.0184162	mmol/l	dimensionless
+Keech1994	SIM40	206	SIM40	concentration	triglyceride	SIM40_triglyceride	plasma	56	weeks	2.0087192	0.0704601999999999	1.01129411919196	1.938259	mmol/l	dimensionless
+Keech1994	SIM40	206	SIM40	concentration	triglyceride	SIM40_triglyceride	plasma	68	weeks	2.0946734	0.526129	7.55137174797043	2.6208024	mmol/l	dimensionless
+Keech1994	SIM40	206	SIM40	concentration	triglyceride	SIM40_triglyceride	plasma	80	weeks	2.1604748	0.0956325999999996	1.37258602704841	2.0648422	mmol/l	dimensionless
+Keech1994	SIM40	127	SIM40	concentration	triglyceride	SIM40_triglyceride	plasma	104	weeks	1.8743267	0.100666	1.1344482057864078	1.7736607	mmol/l	dimensionless
+Keech1994	SIM40	106	SIM40	concentration	triglyceride	SIM40_triglyceride	plasma	152	weeks	1.9966304	0.1157713	1.1919384857412485	1.8808591	mmol/l	dimensionless

@@ -1,0 +1,4 @@
+study	group	label	count	intervention	measurement_type	substance	tissue	time	time_unit	mean	mean_sd	mean_se	mean_unit	count_unit
+Loria1993	all	ldl-c_plasma	5	SIM80	concentration	ldl-c	plasma	0	hr	2.5084044478924223	0.6206361520558571	0.2775569250581587	mole/meter^3	dimensionless
+Loria1993	all	ldl-c_plasma	5	SIM80	concentration	ldl-c	plasma	8	hr	2.0170674941815356	0.543056633048875	0.24286230942588874	mole/meter^3	dimensionless
+Loria1993	all	ldl-c_plasma	5	SIM80	concentration	ldl-c	plasma	18	hr	2.120506852857512	0.568916472717869	0.2544271813033118	mole/meter^3	dimensionless

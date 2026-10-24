@@ -1,0 +1,58 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	sd	pm	se	unit
+Simard2001	all	11	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	0.0	hr	0.96092045	1.15925643	-0.19833598	0.349528964919718	ng/ml
+Simard2001	all	11	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	0.5	hr	1.743933	3.6533478	-1.9094148	1.10152580738821	ng/ml
+Simard2001	all	11	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	1.0	hr	4.3771462	2.4238348	6.800981	0.730813689582375	ng/ml
+Simard2001	all	11	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	1.5	hr	3.122732	2.5760877	0.5466443	0.776719666177238	ng/ml
+Simard2001	all	11	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	2.0	hr	3.0393453	1.0421627	4.081508	0.314223876945793	ng/ml
+Simard2001	all	11	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	3.0	hr	1.8888322	0.4215676	2.3103998	0.127107413906421	ng/ml
+Simard2001	all	11	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	4.0	hr	1.2184643	0.3628971	0.8555672	0.109417592564371	ng/ml
+Simard2001	all	11	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	5.0	hr	0.8174423	0.3161215	1.1335638	0.0953142185149395	ng/ml
+Simard2001	all	11	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	6.0	hr	0.7559296	na	na	na	ng/ml
+Simard2001	all	11	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	7.0	hr	0.67105997	na	na	na	ng/ml
+Simard2001	all	11	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	8.0	hr	0.52761275	na	na	na	ng/ml
+Simard2001	all	11	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	10.0	hr	0.5451613	na	na	na	ng/ml
+Simard2001	all	11	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	11.0	hr	0.5421954	na	na	na	ng/ml
+Simard2001	all	11	SIM+CIS_simvastatin	SIM,CIS	concentration	simvastatin	plasma	LC MS/MS	0.5	hr	2.5987153	3.4660602	6.0647755	1.04505647128947	ng/ml
+Simard2001	all	11	SIM+CIS_simvastatin	SIM,CIS	concentration	simvastatin	plasma	LC MS/MS	1.0	hr	3.0890868	1.5221844	1.5669024	0.458955865139296	ng/ml
+Simard2001	all	11	SIM+CIS_simvastatin	SIM,CIS	concentration	simvastatin	plasma	LC MS/MS	1.5	hr	3.567749	3.4543195	7.0220685	1.04151651704619	ng/ml
+Simard2001	all	11	SIM+CIS_simvastatin	SIM,CIS	concentration	simvastatin	plasma	LC MS/MS	2.0	hr	2.4772038	2.15445833	0.32274547	0.649593627915063	ng/ml
+Simard2001	all	11	SIM+CIS_simvastatin	SIM,CIS	concentration	simvastatin	plasma	LC MS/MS	3.0	hr	1.4321676	0.93674783	0.49541977	0.282440097753602	ng/ml
+Simard2001	all	11	SIM+CIS_simvastatin	SIM,CIS	concentration	simvastatin	plasma	LC MS/MS	4.0	hr	1.3589147	na	na	na	ng/ml
+Simard2001	all	11	SIM+CIS_simvastatin	SIM,CIS	concentration	simvastatin	plasma	LC MS/MS	5.0	hr	0.99305165	na	na	na	ng/ml
+Simard2001	all	11	SIM+CIS_simvastatin	SIM,CIS	concentration	simvastatin	plasma	LC MS/MS	6.0	hr	0.97843814	na	na	na	ng/ml
+Simard2001	all	11	SIM+CIS_simvastatin	SIM,CIS	concentration	simvastatin	plasma	LC MS/MS	7.0	hr	0.78815347	na	na	na	ng/ml
+Simard2001	all	11	SIM+CIS_simvastatin	SIM,CIS	concentration	simvastatin	plasma	LC MS/MS	8.0	hr	0.7266717	na	na	na	ng/ml
+Simard2001	all	11	SIM+CIS_simvastatin	SIM,CIS	concentration	simvastatin	plasma	LC MS/MS	9.0	hr	0.6886086	na	na	na	ng/ml
+Simard2001	all	11	SIM+CIS_simvastatin	SIM,CIS	concentration	simvastatin	plasma	LC MS/MS	10.0	hr	0.60376984	na	na	na	ng/ml
+Simard2001	all	11	SIM+CIS_simvastatin	SIM,CIS	concentration	simvastatin	plasma	LC MS/MS	11.0	hr	0.5773852	na	na	na	ng/ml
+Simard2001	all	11	SIM+CIS_simvastatin	SIM,CIS	concentration	simvastatin	plasma	LC MS/MS	12.0	hr	0.52761275	na	na	na	ng/ml
+Simard2001	all	11	SIM+CIS_simvastatin acid	SIM,CIS	concentration	simvastatin acid	plasma	LC MS/MS	0.0	hr	0.27721822	0.14912034	0.12809788	0.0449614742172933	ng/ml
+Simard2001	all	11	SIM+CIS_simvastatin acid	SIM,CIS	concentration	simvastatin acid	plasma	LC MS/MS	0.5	hr	0.60422546	0.27192536	0.3323001	0.0819885809183924	ng/ml
+Simard2001	all	11	SIM+CIS_simvastatin acid	SIM,CIS	concentration	simvastatin acid	plasma	LC MS/MS	1.0	hr	0.78793967	0.22806647	0.5598732	0.0687646280228042	ng/ml
+Simard2001	all	11	SIM+CIS_simvastatin acid	SIM,CIS	concentration	simvastatin acid	plasma	LC MS/MS	1.5	hr	1.1324801	0.8801024	0.2523777	0.265360857990117	ng/ml
+Simard2001	all	11	SIM+CIS_simvastatin acid	SIM,CIS	concentration	simvastatin acid	plasma	LC MS/MS	2.0	hr	0.8600512	0.4590362	0.401015	0.138404621871867	ng/ml
+Simard2001	all	11	SIM+CIS_simvastatin acid	SIM,CIS	concentration	simvastatin acid	plasma	LC MS/MS	3.0	hr	0.75091004	0.37719702	0.37371302	0.113729180670926	ng/ml
+Simard2001	all	11	SIM+CIS_simvastatin acid	SIM,CIS	concentration	simvastatin acid	plasma	LC MS/MS	4.0	hr	0.5861732	0.26605698	0.32011622	0.0802191977740992	ng/ml
+Simard2001	all	11	SIM+CIS_simvastatin acid	SIM,CIS	concentration	simvastatin acid	plasma	LC MS/MS	5.0	hr	0.69338214	0.31282949	0.38055265	0.0943216401534761	ng/ml
+Simard2001	all	11	SIM+CIS_simvastatin acid	SIM,CIS	concentration	simvastatin acid	plasma	LC MS/MS	6.0	hr	0.5871546	0.30699188	0.28016272	0.0925615345132554	ng/ml
+Simard2001	all	11	SIM+CIS_simvastatin acid	SIM,CIS	concentration	simvastatin acid	plasma	LC MS/MS	7.0	hr	0.5510809	0.33039367	0.22068723	0.0996174396816819	ng/ml
+Simard2001	all	11	SIM+CIS_simvastatin acid	SIM,CIS	concentration	simvastatin acid	plasma	LC MS/MS	8.0	hr	0.51796186	0.34795778	0.17000408	0.104913218104094	ng/ml
+Simard2001	all	11	SIM+CIS_simvastatin acid	SIM,CIS	concentration	simvastatin acid	plasma	LC MS/MS	9.0	hr	0.443877	0.28069713	0.16317987	0.0846333690854193	ng/ml
+Simard2001	all	11	SIM+CIS_simvastatin acid	SIM,CIS	concentration	simvastatin acid	plasma	LC MS/MS	10.0	hr	0.3785845	0.23684848	0.14173602	0.0714125036659996	ng/ml
+Simard2001	all	11	SIM+CIS_simvastatin acid	SIM,CIS	concentration	simvastatin acid	plasma	LC MS/MS	11.0	hr	0.31036806	0.18715197	0.12321609	0.0564284421150773	ng/ml
+Simard2001	all	11	SIM+CIS_simvastatin acid	SIM,CIS	concentration	simvastatin acid	plasma	LC MS/MS	12.0	hr	0.2918276	0.14328278	0.14854482	0.0432013836526399	ng/ml
+Simard2001	all	11	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	0.0	hr	0.6895127	0.584796	1.2743087	0.176322628263698	ng/ml
+Simard2001	all	11	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	0.5	hr	0.8761303	0.6842506	1.5603809	0.206309318434141	ng/ml
+Simard2001	all	11	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	1.0	hr	1.4779971	0.8391983	2.3171954	0.253027807800373	ng/ml
+Simard2001	all	11	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	1.5	hr	1.4716661	0.9181342	2.3898003	0.276827877144829	ng/ml
+Simard2001	all	11	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	2.0	hr	1.3483781	0.8625897	2.2109678	0.26008058026593	ng/ml
+Simard2001	all	11	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	3.0	hr	1.2801617	0.7572873	2.037449	0.228330712054664	ng/ml
+Simard2001	all	11	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	4.0	hr	0.954619	0.4620013	1.4166203	0.139298633159675	ng/ml
+Simard2001	all	11	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	5.0	hr	0.868859	0.40935	1.278209	0.123423668902908	ng/ml
+Simard2001	all	11	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	6.0	hr	0.92051333	0.59064387	1.5111572	0.178085827410314	ng/ml
+Simard2001	all	11	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	7.0	hr	0.7762439	0.4035228	1.1797667	0.121666701995784	ng/ml
+Simard2001	all	11	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	8.0	hr	0.6963318	0.3918269	1.0881587	0.118140255460737	ng/ml
+Simard2001	all	11	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	9.0	hr	0.6485623	0.30994667	0.95850897	0.0934524372191004	ng/ml
+Simard2001	all	11	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	10.0	hr	0.6125091	0.3567398	0.9692489	0.107561096762402	ng/ml
+Simard2001	all	11	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	11.0	hr	0.45071664	0.28946892	0.74018556	0.0872781632826731	ng/ml
+Simard2001	all	11	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	12.0	hr	0.39417538	0.22516302	0.6193384	0.0678892049093899	ng/ml

@@ -1,0 +1,16 @@
+study	group	count	intervention	measurement_type	substance	method	tissue	time	time_unit	mean	unit
+Stern2000	all	24	ATO5	cmax	total atorva inhibitors	enzymatic methods	plasma	na	na	4.34	ng/ml
+Stern2000	all	24	ATO5	auc_end	total atorva inhibitors	enzymatic methods	plasma	24	hr	53.4	ng/ml*hr
+Stern2000	all	24	ATO5	cmin	total atorva inhibitors	enzymatic methods	plasma	na	na	0.986	ng/ml
+Stern2000	all	24	ATO5	tmax	total atorva inhibitors	enzymatic methods	plasma	na	na	2.5	hr
+Stern2000	all	24	ATO5	thalf	total atorva inhibitors	enzymatic methods	plasma	na	na	na	hr
+Stern2000	all	24	ATO20	cmax	total atorva inhibitors	enzymatic methods	plasma	na	na	22.6	ng/ml
+Stern2000	all	24	ATO20	auc_end	total atorva inhibitors	enzymatic methods	plasma	24	hr	199	ng/ml*hr
+Stern2000	all	24	ATO20	cmin	total atorva inhibitors	enzymatic methods	plasma	na	na	2.26	ng/ml
+Stern2000	all	24	ATO20	tmax	total atorva inhibitors	enzymatic methods	plasma	na	na	1.96	hr
+Stern2000	all	24	ATO20	thalf	total atorva inhibitors	enzymatic methods	plasma	na	na	na	hr
+Stern2000	all	24	ATO80	cmax	total atorva inhibitors	enzymatic methods	plasma	na	na	187	ng/ml
+Stern2000	all	24	ATO80	auc_end	total atorva inhibitors	enzymatic methods	plasma	24	hr	1159	ng/ml*hr
+Stern2000	all	24	ATO80	cmin	total atorva inhibitors	enzymatic methods	plasma	na	na	4.95	ng/ml
+Stern2000	all	24	ATO80	tmax	total atorva inhibitors	enzymatic methods	plasma	na	na	2.24	hr
+Stern2000	all	24	ATO80	thalf	total atorva inhibitors	enzymatic methods	plasma	na	na	16.8	hr

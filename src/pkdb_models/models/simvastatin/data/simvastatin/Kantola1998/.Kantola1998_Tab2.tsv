@@ -1,0 +1,25 @@
+study	group	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	sd	min	max	unit
+Kantola1998	all	SIM	cmax	simvastatin	serum	HPLC	NA	NA	10.5	5.8	NA	NA	ng/ml
+Kantola1998	all	SIM	tmax	simvastatin	serum	HPLC	NA	NA	2	NA	1.0	2.0	hr
+Kantola1998	all	SIM	thalf	simvastatin	serum	HPLC	NA	NA	1.2	0.4	NA	NA	hr
+Kantola1998	all	SIM	auc_end	simvastatin	serum	HPLC	24.0	hr	17.7	10.7	NA	NA	ng*hr/ml
+Kantola1998	all	SIM, ERY	cmax	simvastatin	serum	HPLC	NA	NA	36.3	21.6	NA	NA	ng/ml
+Kantola1998	all	SIM, ERY	tmax	simvastatin	serum	HPLC	NA	NA	1	NA	1.0	2.0	hr
+Kantola1998	all	SIM, ERY	thalf	simvastatin	serum	HPLC	NA	NA	2.1	1.1	NA	NA	hr
+Kantola1998	all	SIM, ERY	auc_end	simvastatin	serum	HPLC	24.0	hr	110	67.6	NA	NA	ng*hr/ml
+Kantola1998	all	SIM,VER	cmax	simvastatin	serum	HPLC	NA	NA	26.9	13.6	NA	NA	ng/ml
+Kantola1998	all	SIM,VER	tmax	simvastatin	serum	HPLC	NA	NA	2	NA	0.5	3.0	hr
+Kantola1998	all	SIM,VER	thalf	simvastatin	serum	HPLC	NA	NA	2	0.9	NA	NA	hr
+Kantola1998	all	SIM,VER	auc_end	simvastatin	serum	HPLC	24.0	hr	82.3	30.8	NA	NA	ng*hr/ml
+Kantola1998	all	SIM	cmax	simvastatin acid	serum	HPLC	NA	NA	3	3.4	NA	NA	ng/ml
+Kantola1998	all	SIM	tmax	simvastatin acid	serum	HPLC	NA	NA	3	NA	1.0	6.0	hr
+Kantola1998	all	SIM	thalf	simvastatin acid	serum	HPLC	NA	NA	na	na	NA	NA	hr
+Kantola1998	all	SIM	auc_end	simvastatin acid	serum	HPLC	24.0	hr	25.5	38.1	NA	NA	ng*hr/ml
+Kantola1998	all	SIM, ERY	cmax	simvastatin acid	serum	HPLC	NA	NA	15.2	11.2	NA	NA	ng/ml
+Kantola1998	all	SIM, ERY	tmax	simvastatin acid	serum	HPLC	NA	NA	2.5	NA	1.0	4.0	hr
+Kantola1998	all	SIM, ERY	thalf	simvastatin acid	serum	HPLC	NA	NA	6.1	4.1	NA	NA	hr
+Kantola1998	all	SIM, ERY	auc_end	simvastatin acid	serum	HPLC	24.0	hr	100	82.5	NA	NA	ng*hr/ml
+Kantola1998	all	SIM,VER	cmax	simvastatin acid	serum	HPLC	NA	NA	10.3	6.5	NA	NA	ng/ml
+Kantola1998	all	SIM,VER	tmax	simvastatin acid	serum	HPLC	NA	NA	3.5	NA	1.0	8.0	hr
+Kantola1998	all	SIM,VER	thalf	simvastatin acid	serum	HPLC	NA	NA	4.4	1.3	NA	NA	hr
+Kantola1998	all	SIM,VER	auc_end	simvastatin acid	serum	HPLC	24.0	hr	71.8	53.4	NA	NA	ng*hr/ml

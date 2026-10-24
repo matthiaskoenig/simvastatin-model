@@ -1,0 +1,13 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	mean_unit	count_unit
+Zhi2003	all	29	SIM+ORL_simvastatin	SIM,ORL	concentration	simvastatin	plasma	LC MS/MS	0.5	hr	4.5296244624940274e-05	mole/meter^3	dimensionless
+Zhi2003	all	29	SIM+ORL_simvastatin	SIM,ORL	concentration	simvastatin	plasma	LC MS/MS	1.0	hr	3.980056139512661e-05	mole/meter^3	dimensionless
+Zhi2003	all	29	SIM+ORL_simvastatin	SIM,ORL	concentration	simvastatin	plasma	LC MS/MS	1.5	hr	3.030121118012422e-05	mole/meter^3	dimensionless
+Zhi2003	all	29	SIM+ORL_simvastatin	SIM,ORL	concentration	simvastatin	plasma	LC MS/MS	2.0	hr	2.3741184902054465e-05	mole/meter^3	dimensionless
+Zhi2003	all	29	SIM+ORL_simvastatin	SIM,ORL	concentration	simvastatin	plasma	LC MS/MS	2.5	hr	1.8075764452938365e-05	mole/meter^3	dimensionless
+Zhi2003	all	29	SIM+ORL_simvastatin	SIM,ORL	concentration	simvastatin	plasma	LC MS/MS	3.0	hr	1.5433339703774485e-05	mole/meter^3	dimensionless
+Zhi2003	all	29	SIM+ORL_simvastatin	SIM,ORL	concentration	simvastatin	plasma	LC MS/MS	4.0	hr	1.1414306020066888e-05	mole/meter^3	dimensionless
+Zhi2003	all	29	SIM+ORL_simvastatin	SIM,ORL	concentration	simvastatin	plasma	LC MS/MS	6.0	hr	4.426249402771142e-06	mole/meter^3	dimensionless
+Zhi2003	all	29	SIM+ORL_simvastatin	SIM,ORL	concentration	simvastatin	plasma	LC MS/MS	8.0	hr	2.7151376015289056e-06	mole/meter^3	dimensionless
+Zhi2003	all	29	SIM+ORL_simvastatin	SIM,ORL	concentration	simvastatin	plasma	LC MS/MS	10.0	hr	2.0065623506927853e-06	mole/meter^3	dimensionless
+Zhi2003	all	29	SIM+ORL_simvastatin	SIM,ORL	concentration	simvastatin	plasma	LC MS/MS	12.0	hr	1.812481700907788e-06	mole/meter^3	dimensionless
+Zhi2003	all	29	SIM+ORL_simvastatin	SIM,ORL	concentration	simvastatin	plasma	LC MS/MS	16.0	hr	1.5436492355470614e-06	mole/meter^3	dimensionless

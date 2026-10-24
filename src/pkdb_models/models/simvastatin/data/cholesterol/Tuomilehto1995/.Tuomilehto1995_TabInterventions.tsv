@@ -1,0 +1,7 @@
+study	name	time	time_unit	route	application	measurement_type	form	substance	value	unit
+Tuomilehto1995	SIM0	0	hr	oral	multiple dose	qualitative dosing	capsule	simvastatin	0.0	mg
+Tuomilehto1995	SIM2_5	0	hr	oral	multiple dose	qualitative dosing	capsule	simvastatin	2.5	mg
+Tuomilehto1995	SIM5	0	hr	oral	multiple dose	qualitative dosing	capsule	simvastatin	5.0	mg
+Tuomilehto1995	SIM10	0	hr	oral	multiple dose	qualitative dosing	capsule	simvastatin	10.0	mg
+Tuomilehto1995	SIM20	0	hr	oral	multiple dose	qualitative dosing	capsule	simvastatin	20.0	mg
+Tuomilehto1995	SIM40	0	hr	oral	multiple dose	qualitative dosing	capsule	simvastatin	40.0	mg

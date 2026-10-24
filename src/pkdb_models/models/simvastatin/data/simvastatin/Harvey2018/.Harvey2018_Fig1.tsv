@@ -1,0 +1,53 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	se	pm	sd	unit
+Harvey2018	all_subset	43	SIM+OSI_simvastatin	SIM,OSI	concentration	simvastatin	plasma	LC MS/MS	0.5	hr	3.2384145	NA	NA	NA	ng/ml
+Harvey2018	all_subset	43	SIM+OSI_simvastatin	SIM,OSI	concentration	simvastatin	plasma	LC MS/MS	1.0	hr	7.286747	NA	NA	NA	ng/ml
+Harvey2018	all_subset	43	SIM+OSI_simvastatin	SIM,OSI	concentration	simvastatin	plasma	LC MS/MS	1.5	hr	10.487329	NA	NA	NA	ng/ml
+Harvey2018	all_subset	43	SIM+OSI_simvastatin	SIM,OSI	concentration	simvastatin	plasma	LC MS/MS	2.0	hr	10.400902	NA	NA	NA	ng/ml
+Harvey2018	all_subset	43	SIM+OSI_simvastatin	SIM,OSI	concentration	simvastatin	plasma	LC MS/MS	3.0	hr	7.7213087	NA	NA	NA	ng/ml
+Harvey2018	all_subset	43	SIM+OSI_simvastatin	SIM,OSI	concentration	simvastatin	plasma	LC MS/MS	4.0	hr	5.6848235	NA	NA	NA	ng/ml
+Harvey2018	all_subset	43	SIM+OSI_simvastatin	SIM,OSI	concentration	simvastatin	plasma	LC MS/MS	6.0	hr	3.2924578	NA	NA	NA	ng/ml
+Harvey2018	all_subset	43	SIM+OSI_simvastatin	SIM,OSI	concentration	simvastatin	plasma	LC MS/MS	8.0	hr	2.037392	NA	NA	NA	ng/ml
+Harvey2018	all_subset	43	SIM+OSI_simvastatin	SIM,OSI	concentration	simvastatin	plasma	LC MS/MS	10.0	hr	1.5250652	NA	NA	NA	ng/ml
+Harvey2018	all_subset	43	SIM+OSI_simvastatin	SIM,OSI	concentration	simvastatin	plasma	LC MS/MS	12.0	hr	1.0952992	NA	NA	NA	ng/ml
+Harvey2018	all_subset	43	SIM+OSI_simvastatin	SIM,OSI	concentration	simvastatin	plasma	LC MS/MS	24.0	hr	0.21633674	NA	NA	NA	ng/ml
+Harvey2018	all_subset	43	SIM+OSI_simvastatin	SIM,OSI	concentration	simvastatin	plasma	LC MS/MS	28.0	hr	0.14662817	NA	NA	NA	ng/ml
+Harvey2018	all_subset	43	SIM+OSI_simvastatin	SIM,OSI	concentration	simvastatin	plasma	LC MS/MS	32.0	hr	0.11824323	NA	NA	NA	ng/ml
+Harvey2018	all_subset	46	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	0.5	hr	5.3648767	NA	NA	NA	ng/ml
+Harvey2018	all_subset	46	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	1.0	hr	13.00487	NA	NA	NA	ng/ml
+Harvey2018	all_subset	46	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	1.5	hr	14.244225	NA	NA	NA	ng/ml
+Harvey2018	all_subset	46	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	2.0	hr	11.873349	NA	NA	NA	ng/ml
+Harvey2018	all_subset	46	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	3.0	hr	8.814408	NA	NA	NA	ng/ml
+Harvey2018	all_subset	46	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	4.0	hr	5.6848235	NA	NA	NA	ng/ml
+Harvey2018	all_subset	46	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	6.0	hr	3.0309677	NA	NA	NA	ng/ml
+Harvey2018	all_subset	46	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	8.0	hr	1.9068804	NA	NA	NA	ng/ml
+Harvey2018	all_subset	46	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	10.0	hr	1.3808984	NA	NA	NA	ng/ml
+Harvey2018	all_subset	46	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	12.0	hr	1.0952992	NA	NA	NA	ng/ml
+Harvey2018	all_subset	46	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	24.0	hr	0.24090779	NA	NA	NA	ng/ml
+Harvey2018	all_subset	46	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	28.0	hr	0.16193627	NA	NA	NA	ng/ml
+Harvey2018	all_subset	46	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	32.0	hr	0.12738588	NA	NA	NA	ng/ml
+Harvey2018	all_subset	43	SIM+OSI_simvastatin acid	SIM,OSI	concentration	simvastatin acid	plasma	LC MS/MS	0.5	hr	0.23530641	NA	NA	NA	ng/ml
+Harvey2018	all_subset	43	SIM+OSI_simvastatin acid	SIM,OSI	concentration	simvastatin acid	plasma	LC MS/MS	1.0	hr	0.70663005	NA	NA	NA	ng/ml
+Harvey2018	all_subset	43	SIM+OSI_simvastatin acid	SIM,OSI	concentration	simvastatin acid	plasma	LC MS/MS	1.5	hr	1.4387629	NA	NA	NA	ng/ml
+Harvey2018	all_subset	43	SIM+OSI_simvastatin acid	SIM,OSI	concentration	simvastatin acid	plasma	LC MS/MS	2.0	hr	2.0193262	NA	NA	NA	ng/ml
+Harvey2018	all_subset	43	SIM+OSI_simvastatin acid	SIM,OSI	concentration	simvastatin acid	plasma	LC MS/MS	3.0	hr	3.1819475	NA	NA	NA	ng/ml
+Harvey2018	all_subset	43	SIM+OSI_simvastatin acid	SIM,OSI	concentration	simvastatin acid	plasma	LC MS/MS	4.0	hr	2.9294517	NA	NA	NA	ng/ml
+Harvey2018	all_subset	43	SIM+OSI_simvastatin acid	SIM,OSI	concentration	simvastatin acid	plasma	LC MS/MS	6.0	hr	2.2484596	NA	NA	NA	ng/ml
+Harvey2018	all_subset	43	SIM+OSI_simvastatin acid	SIM,OSI	concentration	simvastatin acid	plasma	LC MS/MS	8.0	hr	1.683495	NA	NA	NA	ng/ml
+Harvey2018	all_subset	43	SIM+OSI_simvastatin acid	SIM,OSI	concentration	simvastatin acid	plasma	LC MS/MS	10.0	hr	1.1896082	NA	NA	NA	ng/ml
+Harvey2018	all_subset	43	SIM+OSI_simvastatin acid	SIM,OSI	concentration	simvastatin acid	plasma	LC MS/MS	12.0	hr	0.73645365	NA	NA	NA	ng/ml
+Harvey2018	all_subset	43	SIM+OSI_simvastatin acid	SIM,OSI	concentration	simvastatin acid	plasma	LC MS/MS	24.0	hr	0.15954109	NA	NA	NA	ng/ml
+Harvey2018	all_subset	43	SIM+OSI_simvastatin acid	SIM,OSI	concentration	simvastatin acid	plasma	LC MS/MS	28.0	hr	0.11180828	NA	NA	NA	ng/ml
+Harvey2018	all_subset	43	SIM+OSI_simvastatin acid	SIM,OSI	concentration	simvastatin acid	plasma	LC MS/MS	32.0	hr	0.087972045	NA	NA	NA	ng/ml
+Harvey2018	all_subset	46	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	0.5	hr	0.32753697	NA	NA	NA	ng/ml
+Harvey2018	all_subset	46	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	1.0	hr	1.0683789	NA	NA	NA	ng/ml
+Harvey2018	all_subset	46	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	1.5	hr	1.9536366	NA	NA	NA	ng/ml
+Harvey2018	all_subset	46	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	2.0	hr	2.3049266	NA	NA	NA	ng/ml
+Harvey2018	all_subset	46	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	3.0	hr	3.0530906	NA	NA	NA	ng/ml
+Harvey2018	all_subset	46	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	4.0	hr	3.0030208	NA	NA	NA	ng/ml
+Harvey2018	all_subset	46	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	6.0	hr	2.139642	NA	NA	NA	ng/ml
+Harvey2018	all_subset	46	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	8.0	hr	1.4151677	NA	NA	NA	ng/ml
+Harvey2018	all_subset	46	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	10.0	hr	1.0251136	NA	NA	NA	ng/ml
+Harvey2018	all_subset	46	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	12.0	hr	0.78033316	NA	NA	NA	ng/ml
+Harvey2018	all_subset	46	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	24.0	hr	0.14328274	NA	NA	NA	ng/ml
+Harvey2018	all_subset	46	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	28.0	hr	0.10208846	NA	NA	NA	ng/ml
+Harvey2018	all_subset	46	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	32.0	hr	0.09321362	NA	NA	NA	ng/ml

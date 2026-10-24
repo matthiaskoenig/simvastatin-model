@@ -1,0 +1,21 @@
+study	group	count	intervention	measurement_type	substance	tissue	time	time_unit	mean	unit	sd	median	min	max
+Keskitalo2008	CGC/CGC	12	SIM_20mg	cmax	simvastatin	plasma	na	na	3.58	ng/ml	2.03	NA	NA	NA
+Keskitalo2008	CGC/CGC	12	SIM_20mg	tmax	simvastatin	plasma	na	na	NA	hr	NA	1.5	0.5	2.0
+Keskitalo2008	CGC/CGC	12	SIM_20mg	thalf	simvastatin	plasma	na	na	3.8	hr	2.2	NA	NA	NA
+Keskitalo2008	CGC/CGC	12	SIM_20mg	auc_end	simvastatin	plasma	12	hr	10.8	ng/ml*hr	4.2	NA	NA	NA
+Keskitalo2008	CGC/CGC	12	SIM_20mg	auc_inf	simvastatin	plasma	na	na	13.2	ng/ml*hr	7.3	NA	NA	NA
+Keskitalo2008	TTT/TTT	12	SIM_20mg	cmax	simvastatin	plasma	na	na	4.46	ng/ml	2.51	NA	NA	NA
+Keskitalo2008	TTT/TTT	12	SIM_20mg	tmax	simvastatin	plasma	na	na	NA	hr	NA	1.0	0.5	3.0
+Keskitalo2008	TTT/TTT	12	SIM_20mg	thalf	simvastatin	plasma	na	na	3.2	hr	1.1	NA	NA	NA
+Keskitalo2008	TTT/TTT	12	SIM_20mg	auc_end	simvastatin	plasma	12	hr	12.3	ng/ml*hr	9.8	NA	NA	NA
+Keskitalo2008	TTT/TTT	12	SIM_20mg	auc_inf	simvastatin	plasma	na	na	13.4	ng/ml*hr	10.7	NA	NA	NA
+Keskitalo2008	CGC/CGC	12	SIM_20mg	cmax	simvastatin acid	plasma	na	na	0.8	ng/ml	0.4	NA	NA	NA
+Keskitalo2008	CGC/CGC	12	SIM_20mg	tmax	simvastatin acid	plasma	na	na	NA	hr	NA	5.0	1.0	7.0
+Keskitalo2008	CGC/CGC	12	SIM_20mg	thalf	simvastatin acid	plasma	na	na	3.8	hr	1.5	NA	NA	NA
+Keskitalo2008	CGC/CGC	12	SIM_20mg	auc_end	simvastatin acid	plasma	12	hr	5.4	ng/ml*hr	2.6	NA	NA	NA
+Keskitalo2008	CGC/CGC	12	SIM_20mg	auc_inf	simvastatin acid	plasma	na	na	6.7	ng/ml*hr	3.5	NA	NA	NA
+Keskitalo2008	TTT/TTT	12	SIM_20mg	cmax	simvastatin acid	plasma	na	na	1.41	ng/ml	1.12	NA	NA	NA
+Keskitalo2008	TTT/TTT	12	SIM_20mg	tmax	simvastatin acid	plasma	na	na	NA	hr	NA	5.0	2.0	7.0
+Keskitalo2008	TTT/TTT	12	SIM_20mg	thalf	simvastatin acid	plasma	na	na	3.4	hr	1.1	NA	NA	NA
+Keskitalo2008	TTT/TTT	12	SIM_20mg	auc_end	simvastatin acid	plasma	12	hr	8.6	ng/ml*hr	5.6	NA	NA	NA
+Keskitalo2008	TTT/TTT	12	SIM_20mg	auc_inf	simvastatin acid	plasma	na	na	9.9	ng/ml*hr	6.1	NA	NA	NA

@@ -1,0 +1,13 @@
+study	group	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	median	min	max	unit
+Hsyu2001	group_ato	ATO	cmax	active atorva inhibitors	plasma	enzymatic assay	NA	NA	7.4	NA	5.8	9.4	ng/ml
+Hsyu2001	group_ato	ATO	tmax	active atorva inhibitors	plasma	enzymatic assay	NA	NA	NA	5.0	1.0	6.0	hr
+Hsyu2001	group_ato	ATO	auc_end	active atorva inhibitors	plasma	enzymatic assay	24.0	hr	77.0	NA	64.0	93.0	ng hr/ml
+Hsyu2001	group_ato	ATO,NEL	cmax	active atorva inhibitors	plasma	enzymatic assay	NA	NA	16.4	NA	12.9	20.9	ng/ml
+Hsyu2001	group_ato	ATO,NEL	tmax	active atorva inhibitors	plasma	enzymatic assay	NA	NA	NA	5.0	3.0	8.0	hr
+Hsyu2001	group_ato	ATO,NEL	auc_end	active atorva inhibitors	plasma	enzymatic assay	24.0	hr	134.0	NA	112.0	161.0	ng hr/ml
+Hsyu2001	group_sim	SIM	cmax	active simva inhibitors	plasma	enzymatic assay	NA	NA	7.4	NA	5.8	9.4	ng/ml
+Hsyu2001	group_sim	SIM	tmax	active simva inhibitors	plasma	enzymatic assay	NA	NA	NA	3.0	1.0	6.0	hr
+Hsyu2001	group_sim	SIM	auc_end	active simva inhibitors	plasma	enzymatic assay	24.0	hr	42.0	NA	35.0	50.0	ng hr/ml
+Hsyu2001	group_sim	SIM,NEL	cmax	active simva inhibitors	plasma	enzymatic assay	NA	NA	45.7	NA	36.0	57.9	ng/ml
+Hsyu2001	group_sim	SIM,NEL	tmax	active simva inhibitors	plasma	enzymatic assay	NA	NA	NA	4.0	2.0	6.0	hr
+Hsyu2001	group_sim	SIM,NEL	auc_end	active simva inhibitors	plasma	enzymatic assay	24.0	hr	255.0	NA	214.0	304.0	ng hr/ml

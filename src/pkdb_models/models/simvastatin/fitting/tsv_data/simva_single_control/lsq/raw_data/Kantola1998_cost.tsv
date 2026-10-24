@@ -1,0 +1,5 @@
+id	experiment	mapping	cost	type
+Kantola1998_fm_simva	Kantola1998	fm_simva	1404.2964635770852	initial
+Kantola1998_fm_simva	Kantola1998	fm_simva	1.6732528949143164	fit
+Kantola1998_fm_simacid	Kantola1998	fm_simacid	54.03469175158394	initial
+Kantola1998_fm_simacid	Kantola1998	fm_simacid	0.18199702840949983	fit

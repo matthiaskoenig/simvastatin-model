@@ -1,0 +1,31 @@
+study	group	count	intervention	measurement_type	substance	time	time_unit	tissue	method	mean	unit	baseline	min	max
+Pietro1989	SIM_20mg	82	SIM20	concentration	cholesterol	12	weeks	plasma	NR	240	mg/dl	323	NA	NA
+Pietro1989	SIM_20mg	82	SIM20	concentration	ldl-c	12	weeks	plasma	NR	168	mg/dl	251	NA	NA
+Pietro1989	SIM_20mg	82	SIM20	concentration	hdl-c	12	weeks	plasma	NR	50	mg/dl	45	NA	NA
+Pietro1989	SIM_20mg	82	SIM20	concentration	apoB100+48	12	weeks	plasma	enzymatic assay	137	mg/dl	203	NA	NA
+Pietro1989	SIM_20mg	82	SIM20	concentration	triglyceride	12	weeks	plasma	NR	120	mg/dl	158	NA	NA
+Pietro1989	SIM_40mg	80	SIM40	concentration	cholesterol	12	weeks	plasma	NR	216	mg/dl	323	NA	NA
+Pietro1989	SIM_40mg	80	SIM40	concentration	ldl-c	12	weeks	plasma	NR	142	mg/dl	251	NA	NA
+Pietro1989	SIM_40mg	80	SIM40	concentration	hdl-c	12	weeks	plasma	NR	50	mg/dl	45	NA	NA
+Pietro1989	SIM_40mg	80	SIM40	concentration	apoB100+48	12	weeks	plasma	enzymatic assay	116	mg/dl	203	NA	NA
+Pietro1989	SIM_40mg	80	SIM40	concentration	triglyceride	12	weeks	plasma	NR	121	mg/dl	158	NA	NA
+Pietro1989	probucol	81	probucol	concentration	cholesterol	12	weeks	plasma	NR	285	mg/dl	323	NA	NA
+Pietro1989	probucol	81	probucol	concentration	ldl-c	12	weeks	plasma	NR	227	mg/dl	251	NA	NA
+Pietro1989	probucol	81	probucol	concentration	hdl-c	12	weeks	plasma	NR	33	mg/dl	45	NA	NA
+Pietro1989	probucol	81	probucol	concentration	apoB100+48	12	weeks	plasma	enzymatic assay	162	mg/dl	203	NA	NA
+Pietro1989	probucol	81	probucol	concentration	triglyceride	12	weeks	plasma	NR	152	mg/dl	158	NA	NA
+Pietro1989	SIM_20mg	82	SIM20	concentration	cholesterol	0	weeks	plasma	NR	323	mg/dl	323	NA	NA
+Pietro1989	SIM_20mg	82	SIM20	concentration	ldl-c	0	weeks	plasma	NR	251	mg/dl	251	NA	NA
+Pietro1989	SIM_20mg	82	SIM20	concentration	hdl-c	0	weeks	plasma	NR	45	mg/dl	45	NA	NA
+Pietro1989	SIM_20mg	82	SIM20	concentration	apoB100+48	0	weeks	plasma	enzymatic assay	203	mg/dl	203	NA	NA
+Pietro1989	SIM_20mg	82	SIM20	concentration	triglyceride	0	weeks	plasma	NR	158	mg/dl	158	NA	NA
+Pietro1989	SIM_40mg	80	SIM40	concentration	cholesterol	0	weeks	plasma	NR	323	mg/dl	323	NA	NA
+Pietro1989	SIM_40mg	80	SIM40	concentration	ldl-c	0	weeks	plasma	NR	251	mg/dl	251	NA	NA
+Pietro1989	SIM_40mg	80	SIM40	concentration	hdl-c	0	weeks	plasma	NR	45	mg/dl	45	NA	NA
+Pietro1989	SIM_40mg	80	SIM40	concentration	apoB100+48	0	weeks	plasma	enzymatic assay	203	mg/dl	203	NA	NA
+Pietro1989	SIM_40mg	80	SIM40	concentration	triglyceride	0	weeks	plasma	NR	158	mg/dl	158	NA	NA
+Pietro1989	probucol	81	probucol	concentration	cholesterol	0	weeks	plasma	NR	323	mg/dl	323	NA	NA
+Pietro1989	probucol	81	probucol	concentration	ldl-c	0	weeks	plasma	NR	251	mg/dl	251	NA	NA
+Pietro1989	probucol	81	probucol	concentration	hdl-c	0	weeks	plasma	NR	45	mg/dl	45	NA	NA
+Pietro1989	probucol	81	probucol	concentration	apoB100+48	0	weeks	plasma	enzymatic assay	203	mg/dl	203	NA	NA
+Pietro1989	probucol	81	probucol	concentration	triglyceride	0	weeks	plasma	NR	158	mg/dl	158	NA	NA

@@ -1,0 +1,6 @@
+study	name	time	time_unit	route	application	measurement_type	form	substance	value	unit
+Stern2000	ATO5	-8	day	oral	multiple dose	qualitative dosing	NR	atorvastatin	5	mg
+Stern2000	ATO20	0	day	oral	multiple dose	qualitative dosing	NR	atorvastatin	20	mg
+Stern2000	ATO80	43	day	oral	multiple dose	qualitative dosing	NR	atorvastatin	80	mg
+Stern2000	placebo_pre	85	day	oral	multiple dose	qualitative dosing	NR	atorvastatin	0	mg
+Stern2000	placebo_post	125	day	oral	multiple dose	qualitative dosing	NR	atorvastatin	0	mg

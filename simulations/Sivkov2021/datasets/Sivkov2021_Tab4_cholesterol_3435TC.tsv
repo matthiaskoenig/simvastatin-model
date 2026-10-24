@@ -1,0 +1,3 @@
+study	group	count	intervention	measurement_type	substance	method	tissue	time	time_unit	mean	mean_sd	mean_se	change	baseline	baseline_unit	comment	mean_unit	count_unit
+Sivkov2021	subgroup_sim_3435TC	15	SIM10	concentration	cholesterol		serum	0	weeks	7.17	0.6584	0.17	0.0	7.17	mM	4 months assumed to be 17 weeks	mM	dimensionless
+Sivkov2021	subgroup_sim_3435TC	15	SIM10	concentration	cholesterol		serum	17	weeks	5.01	1.084	0.28	-30.1	7.17	mM	4 months assumed to be 17 weeks	mM	dimensionless

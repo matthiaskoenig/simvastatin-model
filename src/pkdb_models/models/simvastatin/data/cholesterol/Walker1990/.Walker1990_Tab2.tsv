@@ -1,0 +1,11 @@
+study	group	count	intervention	measurement_type	substance	tissue	label	time	time_unit	mean	change	unit
+Walker1990	SIM0mg	31	SIM0	concentration	cholesterol	serum	cholesterol_SIM0	0	weeks	327.6	0.0	mg/dl
+Walker1990	SIM2_5mg	32	SIM2_5	concentration	cholesterol	serum	cholesterol_SIM2_5	0	weeks	312.0	0.0	mg/dl
+Walker1990	SIM5mg	32	SIM5	concentration	cholesterol	serum	cholesterol_SIM5	0	weeks	306.9	0.0	mg/dl
+Walker1990	SIM10mg	32	SIM10	concentration	cholesterol	serum	cholesterol_SIM10	0	weeks	305.5	0.0	mg/dl
+Walker1990	SIM20mg	32	SIM20	concentration	cholesterol	serum	cholesterol_SIM20	0	weeks	318.4	0.0	mg/dl
+Walker1990	SIM0mg	31	SIM0	concentration	cholesterol	serum	cholesterol_SIM0	4	weeks	316.8	-3.4	mg/dl
+Walker1990	SIM2_5mg	32	SIM2_5	concentration	cholesterol	serum	cholesterol_SIM2_5	4	weeks	258.6	-16.7	mg/dl
+Walker1990	SIM5mg	32	SIM5	concentration	cholesterol	serum	cholesterol_SIM5	4	weeks	247.8	-19.3	mg/dl
+Walker1990	SIM10mg	32	SIM10	concentration	cholesterol	serum	cholesterol_SIM10	4	weeks	234.6	-22.8	mg/dl
+Walker1990	SIM20mg	32	SIM20	concentration	cholesterol	serum	cholesterol_SIM20	4	weeks	227.1	-28.4	mg/dl

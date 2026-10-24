@@ -1,0 +1,4 @@
+run	success	duration	cost	LI__HMGCOAREDUCTASE_Ki_simacid	message	x0.LI__HMGCOAREDUCTASE_Ki_simacid
+1	True	679.5021188259125	30.266126095443557	9.16748418506532e-07	Optimization terminated successfully.	1.2e-06
+2	True	656.9133768081665	30.266383086392985	9.144749060735942e-07	Optimization terminated successfully.	1.2e-06
+0	True	942.0824673175812	30.267068352599125	9.129750787843593e-07	Optimization terminated successfully.	1.2e-06

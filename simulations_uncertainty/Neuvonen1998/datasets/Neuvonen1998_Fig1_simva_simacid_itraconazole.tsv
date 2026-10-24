@@ -1,0 +1,11 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	mean_se	pm	mean_sd	mean_unit	count_unit
+Neuvonen1998	simvastatin	10	SIM+ITR_simva+simacid	SIM,ITR	concentration	simva+simacid	serum	GC/MS	0.0	hr	0.0				mole/meter^3	dimensionless
+Neuvonen1998	simvastatin	10	SIM+ITR_simva+simacid	SIM,ITR	concentration	simva+simacid	serum	GC/MS	0.5	hr	2.7815137425561152e-05				mole/meter^3	dimensionless
+Neuvonen1998	simvastatin	10	SIM+ITR_simva+simacid	SIM,ITR	concentration	simva+simacid	serum	GC/MS	1.0	hr	0.00019258815849748054	7.589470911589556e-05	50.94836	0.00024000014316217364	mole/meter^3	dimensionless
+Neuvonen1998	simvastatin	10	SIM+ITR_simva+simacid	SIM,ITR	concentration	simva+simacid	serum	GC/MS	2.0	hr	0.0003684930371049016	5.3063971598717364e-05	184.05179	0.00016780301194643335	mole/meter^3	dimensionless
+Neuvonen1998	simvastatin	10	SIM+ITR_simva+simacid	SIM,ITR	concentration	simva+simacid	serum	GC/MS	3.0	hr	0.0004290145900137426	8.761889601465874e-05	149.05336	0.0002770752774757719	mole/meter^3	dimensionless
+Neuvonen1998	simvastatin	10	SIM+ITR_simva+simacid	SIM,ITR	concentration	simva+simacid	serum	GC/MS	4.0	hr	0.00029208522675217593	5.491633073751718e-05	103.54794	0.00017366068586966883	mole/meter^3	dimensionless
+Neuvonen1998	simvastatin	10	SIM+ITR_simva+simacid	SIM,ITR	concentration	simva+simacid	serum	GC/MS	6.0	hr	0.0001397795006871278	1.8510902427851583e-05	69.10959	5.853661321715163e-05	mole/meter^3	dimensionless
+Neuvonen1998	simvastatin	10	SIM+ITR_simva+simacid	SIM,ITR	concentration	simva+simacid	serum	GC/MS	8.0	hr	7.694568483737976e-05	9.254819056344481e-06	37.63514	2.9266307550778746e-05	mole/meter^3	dimensionless
+Neuvonen1998	simvastatin	10	SIM+ITR_simva+simacid	SIM,ITR	concentration	simva+simacid	serum	GC/MS	12.0	hr	3.395883188273019e-05	5.553270728355475e-06	17.250984	1.756098396514549e-05	mole/meter^3	dimensionless
+Neuvonen1998	simvastatin	10	SIM+ITR_simva+simacid	SIM,ITR	concentration	simva+simacid	serum	GC/MS	24.0	hr	5.1129880897847e-06				mole/meter^3	dimensionless

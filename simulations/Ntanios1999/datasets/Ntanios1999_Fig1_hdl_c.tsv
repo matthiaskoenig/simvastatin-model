@@ -1,0 +1,6 @@
+study	group	count	intervention	measurement_type	substance	tissue	label	time	time_unit	mean	mean_sd	pm	mean_se	mean_unit	count_unit
+Ntanios1999	all	18	SIM	concentration	hdl-c	plasma	fig1_hdl-c	0	weeks	1.1749663	0.3214435	1.4964098	0.075764959539446	mmol/l	dimensionless
+Ntanios1999	all	18	SIM	concentration	hdl-c	plasma	fig1_hdl-c	6	weeks	1.5106764	0.1785692	1.6892456	0.042089164077019	mmol/l	dimensionless
+Ntanios1999	all	18	SIM	concentration	hdl-c	plasma	fig1_hdl-c	12	weeks	1.292822	0.2856917	1.5785137	0.0673381794662376	mmol/l	dimensionless
+Ntanios1999	all	18	SIM	concentration	hdl-c	plasma	fig1_hdl-c	18	weeks	1.3250022	0.2678727	1.5928749	0.0631382008882499	mmol/l	dimensionless
+Ntanios1999	all	18	SIM	concentration	hdl-c	plasma	fig1_hdl-c	24	weeks	1.2499653	0.3571762	1.6071415	0.0841872376994809	mmol/l	dimensionless

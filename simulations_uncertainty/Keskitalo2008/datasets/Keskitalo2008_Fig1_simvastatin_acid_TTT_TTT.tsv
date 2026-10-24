@@ -1,0 +1,12 @@
+study	group	count	intervention	measurement_type	substance	method	tissue	label	time	time_unit	mean	mean_sd	mean_se	pm	mean_unit	count_unit
+Keskitalo2008	TTT/TTT	12	SIM_20mg	concentration	simvastatin acid	LC MS/MS	plasma	SIM_20mg_simvastatin acid_TTT/TTT	0.0	hr	0.0				mole/meter^3	dimensionless
+Keskitalo2008	TTT/TTT	12	SIM_20mg	concentration	simvastatin acid	LC MS/MS	plasma	SIM_20mg_simvastatin acid_TTT/TTT	0.5	hr	3.7454935868071467e-07	4.6001460435817685e-07	1.3279477782867613e-07	0.22150645	mole/meter^3	dimensionless
+Keskitalo2008	TTT/TTT	12	SIM_20mg	concentration	simvastatin acid	LC MS/MS	plasma	SIM_20mg_simvastatin acid_TTT/TTT	1.0	hr	1.0555481447549243e-06	7.313053335685342e-07	2.111096655978012e-07	0.5530228	mole/meter^3	dimensionless
+Keskitalo2008	TTT/TTT	12	SIM_20mg	concentration	simvastatin acid	LC MS/MS	plasma	SIM_20mg_simvastatin acid_TTT/TTT	1.5	hr	1.637802107191938e-06	1.3092722805514133e-06	3.7795435180943657e-07	0.88007927	mole/meter^3	dimensionless
+Keskitalo2008	TTT/TTT	12	SIM_20mg	concentration	simvastatin acid	LC MS/MS	plasma	SIM_20mg_simvastatin acid_TTT/TTT	2.0	hr	2.080451442968392e-06	1.6749248679929936e-06	4.835091617040771e-07	1.1194252	mole/meter^3	dimensionless
+Keskitalo2008	TTT/TTT	12	SIM_20mg	concentration	simvastatin acid	LC MS/MS	plasma	SIM_20mg_simvastatin acid_TTT/TTT	3.0	hr	2.5094805313788364e-06	2.170326309738974e-06	6.265192395785616e-07	1.3691775	mole/meter^3	dimensionless
+Keskitalo2008	TTT/TTT	12	SIM_20mg	concentration	simvastatin acid	LC MS/MS	plasma	SIM_20mg_simvastatin acid_TTT/TTT	4.0	hr	2.744425332111773e-06	2.394434483308681e-06	6.912136967475951e-07	1.5	mole/meter^3	dimensionless
+Keskitalo2008	TTT/TTT	12	SIM_20mg	concentration	simvastatin acid	LC MS/MS	plasma	SIM_20mg_simvastatin acid_TTT/TTT	5.0	hr	2.655895327530921e-06	1.7103109119539487e-06	4.937242327072836e-07	1.3751239	mole/meter^3	dimensionless
+Keskitalo2008	TTT/TTT	12	SIM_20mg	concentration	simvastatin acid	LC MS/MS	plasma	SIM_20mg_simvastatin acid_TTT/TTT	7.0	hr	1.8659367842418688e-06	1.191319541213287e-06	3.439043289051764e-07	0.96481663	mole/meter^3	dimensionless
+Keskitalo2008	TTT/TTT	12	SIM_20mg	concentration	simvastatin acid	LC MS/MS	plasma	SIM_20mg_simvastatin acid_TTT/TTT	9.0	hr	1.1576980302336235e-06	6.369433166519423e-07	1.8386969766376567e-07	0.58572847	mole/meter^3	dimensionless
+Keskitalo2008	TTT/TTT	12	SIM_20mg	concentration	simvastatin acid	LC MS/MS	plasma	SIM_20mg_simvastatin acid_TTT/TTT	12.0	hr	6.128989693082914e-07	3.7744767095295235e-07	1.0895975721484198e-07	0.31516352	mole/meter^3	dimensionless

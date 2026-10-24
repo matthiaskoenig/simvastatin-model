@@ -1,0 +1,45 @@
+study	count	group	label	intervention	measurement	substance	tissue	method	time	time_unit	mean	se	sd	pm	unit
+Backman2000	10	all	simvastatin_SIMwithGEM	SIM,GEM	concentration	simvastatin	plasma	LC MS/MS	0.0	hr	0.0	NA	NA	NA	ng/ml
+Backman2000	10	all	simvastatin_SIMwithGEM	SIM,GEM	concentration	simvastatin	plasma	LC MS/MS	0.5	hr	1.5624744	0.4382274	1.38579671709367	1.124247	ng/ml
+Backman2000	10	all	simvastatin_SIMwithGEM	SIM,GEM	concentration	simvastatin	plasma	LC MS/MS	1.0	hr	4.357235	1.0541711	3.33358171952513	3.3030639	ng/ml
+Backman2000	10	all	simvastatin_SIMwithGEM	SIM,GEM	concentration	simvastatin	plasma	LC MS/MS	1.5	hr	3.231535	0.686984	2.17243415609311	2.544551	ng/ml
+Backman2000	10	all	simvastatin_SIMwithGEM	SIM,GEM	concentration	simvastatin	plasma	LC MS/MS	2.0	hr	2.828326	0.3790186	1.19856205156829	2.4493074	ng/ml
+Backman2000	10	all	simvastatin_SIMwithGEM	SIM,GEM	concentration	simvastatin	plasma	LC MS/MS	3.0	hr	2.614125	0.461916	1.46070664767434	2.152209	ng/ml
+Backman2000	10	all	simvastatin_SIMwithGEM	SIM,GEM	concentration	simvastatin	plasma	LC MS/MS	4.0	hr	3.0632322	0.8764934	2.77171549810503	3.9397256	ng/ml
+Backman2000	10	all	simvastatin_SIMwithGEM	SIM,GEM	concentration	simvastatin	plasma	LC MS/MS	6.0	hr	1.9952748	0.5803722	1.83529804264277	2.575647	ng/ml
+Backman2000	10	all	simvastatin_SIMwithGEM	SIM,GEM	concentration	simvastatin	plasma	LC MS/MS	8.0	hr	1.6498086	0.4974876	1.57319392369078	2.1472962	ng/ml
+Backman2000	10	all	simvastatin_SIMwithGEM	SIM,GEM	concentration	simvastatin	plasma	LC MS/MS	10.0	hr	1.2451338	0.3316669	1.0488228284873	1.5768007	ng/ml
+Backman2000	10	all	simvastatin_SIMwithGEM	SIM,GEM	concentration	simvastatin	plasma	LC MS/MS	12.0	hr	1.0773455	0.296134	0.936457932616303	1.3734795	ng/ml
+Backman2000	10	all	simvastatin_SIM	SIM	concentration	simvastatin	plasma	LC MS/MS	0.0	hr	0.0	NA	NA	NA	ng/ml
+Backman2000	10	all	simvastatin_SIM	SIM	concentration	simvastatin	plasma	LC MS/MS	0.5	hr	2.154678	0.5803853	1.83533946848012	2.7350633	ng/ml
+Backman2000	10	all	simvastatin_SIM	SIM	concentration	simvastatin	plasma	LC MS/MS	1.0	hr	6.0864944	0.7225176	2.28480126555847	6.809012	ng/ml
+Backman2000	10	all	simvastatin_SIM	SIM	concentration	simvastatin	plasma	LC MS/MS	1.5	hr	5.61222	1.077834	3.40841037956993	6.690054	ng/ml
+Backman2000	10	all	simvastatin_SIM	SIM	concentration	simvastatin	plasma	LC MS/MS	2.0	hr	4.4154534	0.947559900000001	2.99644750344139	5.3630133	ng/ml
+Backman2000	10	all	simvastatin_SIM	SIM	concentration	simvastatin	plasma	LC MS/MS	3.0	hr	2.8510118	0.686984	2.17243415609311	3.5379958	ng/ml
+Backman2000	10	all	simvastatin_SIM	SIM	concentration	simvastatin	plasma	LC MS/MS	4.0	hr	2.2815192	0.5922166	1.87275332416087	1.6893026	ng/ml
+Backman2000	10	all	simvastatin_SIM	SIM	concentration	simvastatin	plasma	LC MS/MS	6.0	hr	1.1898731	0.31980985	1.0113275441568	0.87006325	ng/ml
+Backman2000	10	all	simvastatin_SIM	SIM	concentration	simvastatin	plasma	LC MS/MS	8.0	hr	0.8325626	0.2605624	0.823970656599857	0.5720002	ng/ml
+Backman2000	10	all	simvastatin_SIM	SIM	concentration	simvastatin	plasma	LC MS/MS	10.0	hr	0.5700197	0.17766497	0.561825965625485	0.39235473	ng/ml
+Backman2000	10	all	simvastatin_SIM	SIM	concentration	simvastatin	plasma	LC MS/MS	12.0	hr	0.48514175	0.17767781	0.561866569270642	0.30746394	ng/ml
+Backman2000	10	all	simvastatin acid_SIMwithGEM	SIM,GEM	concentration	simvastatin acid	plasma	LC MS/MS	0.0	hr	0.0	NA	NA	NA	ng/ml
+Backman2000	10	all	simvastatin acid_SIMwithGEM	SIM,GEM	concentration	simvastatin acid	plasma	LC MS/MS	0.5	hr	0.2147651	NA	NA	NA	ng/ml
+Backman2000	10	all	simvastatin acid_SIMwithGEM	SIM,GEM	concentration	simvastatin acid	plasma	LC MS/MS	1.0	hr	1.47651	0.3892618	1.23095389409693	1.8657718	ng/ml
+Backman2000	10	all	simvastatin acid_SIMwithGEM	SIM,GEM	concentration	simvastatin acid	plasma	LC MS/MS	1.5	hr	2.1342282	0.5637584	1.78276059405227	2.6979866	ng/ml
+Backman2000	10	all	simvastatin acid_SIMwithGEM	SIM,GEM	concentration	simvastatin acid	plasma	LC MS/MS	2.0	hr	3.1543624	0.7651008	2.41946116761695	3.9194632	ng/ml
+Backman2000	10	all	simvastatin acid_SIMwithGEM	SIM,GEM	concentration	simvastatin acid	plasma	LC MS/MS	3.0	hr	4.2550335	0.604026800000001	1.910100455783	4.8590603	ng/ml
+Backman2000	10	all	simvastatin acid_SIMwithGEM	SIM,GEM	concentration	simvastatin acid	plasma	LC MS/MS	4.0	hr	6.4832215	1.5033555	4.75402751294126	7.986577	ng/ml
+Backman2000	10	all	simvastatin acid_SIMwithGEM	SIM,GEM	concentration	simvastatin acid	plasma	LC MS/MS	6.0	hr	5.0201344	1.0604026	3.35328745276447	6.080537	ng/ml
+Backman2000	10	all	simvastatin acid_SIMwithGEM	SIM,GEM	concentration	simvastatin acid	plasma	LC MS/MS	8.0	hr	4.134228	0.805369	2.54680039689215	4.939597	ng/ml
+Backman2000	10	all	simvastatin acid_SIMwithGEM	SIM,GEM	concentration	simvastatin acid	plasma	LC MS/MS	10.0	hr	2.6442952	0.52349	1.65542073232155	3.1677852	ng/ml
+Backman2000	10	all	simvastatin acid_SIMwithGEM	SIM,GEM	concentration	simvastatin acid	plasma	LC MS/MS	12.0	hr	2.0268457	0.4295301	1.35829343959989	2.4563758	ng/ml
+Backman2000	10	all	simvastatin acid_SIM	SIM	concentration	simvastatin acid	plasma	LC MS/MS	0.0	hr	0.0	NA	NA	NA	ng/ml
+Backman2000	10	all	simvastatin acid_SIM	SIM	concentration	simvastatin acid	plasma	LC MS/MS	0.5	hr	0.21512605	NA	NA	NA	ng/ml
+Backman2000	10	all	simvastatin acid_SIM	SIM	concentration	simvastatin acid	plasma	LC MS/MS	1.0	hr	0.8605042	0.20168065	0.637770213983238	0.65882355	ng/ml
+Backman2000	10	all	simvastatin acid_SIM	SIM	concentration	simvastatin acid	plasma	LC MS/MS	1.5	hr	1.5193278	0.4840336	1.53064864005088	1.0352942	ng/ml
+Backman2000	10	all	simvastatin acid_SIM	SIM	concentration	simvastatin acid	plasma	LC MS/MS	2.0	hr	1.8151261	0.5378151	1.70072067603122	1.277311	ng/ml
+Backman2000	10	all	simvastatin acid_SIM	SIM	concentration	simvastatin acid	plasma	LC MS/MS	3.0	hr	2.1243699	0.5243699	1.65820322043473	1.6	ng/ml
+Backman2000	10	all	simvastatin acid_SIM	SIM	concentration	simvastatin acid	plasma	LC MS/MS	4.0	hr	3.092437	0.8470587	2.67863480386127	2.2453783	ng/ml
+Backman2000	10	all	simvastatin acid_SIM	SIM	concentration	simvastatin acid	plasma	LC MS/MS	6.0	hr	1.7882353	0.2823529	0.892878267953756	1.5058824	ng/ml
+Backman2000	10	all	simvastatin acid_SIM	SIM	concentration	simvastatin acid	plasma	LC MS/MS	8.0	hr	1.4117647	0.215126	0.680288143921383	1.1966387	ng/ml
+Backman2000	10	all	simvastatin acid_SIM	SIM	concentration	simvastatin acid	plasma	LC MS/MS	10.0	hr	0.6319328	NA	NA	NA	ng/ml
+Backman2000	10	all	simvastatin acid_SIM	SIM	concentration	simvastatin acid	plasma	LC MS/MS	12.0	hr	0.4840336	NA	NA	NA	ng/ml

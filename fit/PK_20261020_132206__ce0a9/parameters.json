@@ -1,0 +1,27 @@
+{
+  "sets": [
+    {
+      "sid": "PK_20261020_132206__ce0a9_0",
+      "values": {
+        "Ka_dis_simva": 0.6035956981945371,
+        "LI__SIMVA_CYP3A4_Vmax": 0.07137188065217302,
+        "LI__ESTERASE_Vmax": 0.0003554977355814531,
+        "LI__SIMACIDIMP_Vmax": 0.0001558615932416344,
+        "ftissue_simva": 1.37427767139463,
+        "Kp_simva": 5.873620364744849,
+        "LI__EHC_simmets_k": 3.028031018102117
+      },
+      "units": {
+        "Ka_dis_simva": "1/(hr)",
+        "LI__SIMVA_CYP3A4_Vmax": "(mmol)/(min)/l",
+        "LI__ESTERASE_Vmax": "(mmol)/(min)/l",
+        "LI__SIMACIDIMP_Vmax": "(mmol)/(min)/l",
+        "ftissue_simva": "l/(min)",
+        "Kp_simva": "dimensionless",
+        "LI__EHC_simmets_k": "1/(min)"
+      },
+      "cost": 91.49162397031395,
+      "provenance": "optimization 'PK_20261020_132206__ce0a9', run '1'"
+    }
+  ]
+}

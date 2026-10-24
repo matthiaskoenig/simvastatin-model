@@ -1,0 +1,3 @@
+study	group	count	intervention	measurement_type	substance	method	tissue	time	time_unit	mean	median	mean_se	mean_sd	change	change_se	baseline	baseline_unit	change_unit	mean_unit	median_unit	count_unit
+Crouse1999	all	202	SIM40	concentration	apoA-I	NR	plasma	0	weeks	145.4				0.0		145.4	mg/dl	percent	mg/dl	mg/dl	dimensionless
+Crouse1999	all	202	SIM40	concentration	apoA-I	NR	plasma	12	weeks	154.5602				6.3	0.9	145.4	mg/dl	percent	mg/dl	mg/dl	dimensionless

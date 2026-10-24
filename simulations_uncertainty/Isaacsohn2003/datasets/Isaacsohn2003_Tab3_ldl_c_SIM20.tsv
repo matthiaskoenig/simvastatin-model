@@ -1,0 +1,3 @@
+study	group	count	intervention	measurement_type	substance	method	label	tissue	time	time_unit	mean	median	mean_sd	mean_se	change	change_sd	baseline	baseline_unit	mean_unit	median_unit	count_unit
+Isaacsohn2003	all	47	SIM20	concentration	ldl-c	ultracentrifugation	SIM20_ldl-c_concentration	plasma	0	week	3.284199637962244		0.9050943884147916	0.13202158527091568			127	mg/dl	mole/meter^3	mg/dl	dimensionless
+Isaacsohn2003	all	47	SIM20	concentration	ldl-c	ultracentrifugation	SIM20_ldl-c_concentration	plasma	6	week	2.4049650892164465		0.7240755107318334	0.10561726821673259	-25.0	14.8	127	mg/dl	mole/meter^3	mg/dl	dimensionless

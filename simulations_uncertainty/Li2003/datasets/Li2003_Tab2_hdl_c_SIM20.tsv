@@ -1,0 +1,3 @@
+study	group	count	intervention	measurement_type	substance	method	label	tissue	time	time_unit	mean	mean_se	mean_sd	median	mean_unit	median_unit	count_unit
+Li2003	SIM_20mg	21	SIM_20mg	concentration	hdl-c	anionic detergent method	SIM_20mg_hdl-c	serum	0	day	1.060253426428756	0.01692923896322671	0.07757951900698214		mole/meter^3	mg/dl	dimensionless
+Li2003	SIM_20mg	21	SIM_20mg	concentration	hdl-c	anionic detergent method	SIM_20mg_hdl-c	serum	14	day	1.060253426428756	0.01692923896322671	0.07757951900698214		mole/meter^3	mg/dl	dimensionless

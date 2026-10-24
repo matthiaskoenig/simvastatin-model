@@ -1,0 +1,15 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	mean_unit	count_unit
+Bergman2004	all	12	simvastatin_SIMwithFEN	SIM,FEN	concentration	simvastatin	plasma	LC MS/MS	0.0	hr	3.975712852365026e-07	mole/meter^3	dimensionless
+Bergman2004	all	12	simvastatin_SIMwithFEN	SIM,FEN	concentration	simvastatin	plasma	LC MS/MS	0.5	hr	4.171621356903965e-06	mole/meter^3	dimensionless
+Bergman2004	all	12	simvastatin_SIMwithFEN	SIM,FEN	concentration	simvastatin	plasma	LC MS/MS	1.0	hr	1.5966048256091735e-05	mole/meter^3	dimensionless
+Bergman2004	all	12	simvastatin_SIMwithFEN	SIM,FEN	concentration	simvastatin	plasma	LC MS/MS	1.5	hr	3.2533296703296706e-05	mole/meter^3	dimensionless
+Bergman2004	all	12	simvastatin_SIMwithFEN	SIM,FEN	concentration	simvastatin	plasma	LC MS/MS	2.0	hr	4.8238834209268986e-05	mole/meter^3	dimensionless
+Bergman2004	all	12	simvastatin_SIMwithFEN	SIM,FEN	concentration	simvastatin	plasma	LC MS/MS	2.5	hr	3.5309278547539415e-05	mole/meter^3	dimensionless
+Bergman2004	all	12	simvastatin_SIMwithFEN	SIM,FEN	concentration	simvastatin	plasma	LC MS/MS	3.0	hr	3.0664818442427136e-05	mole/meter^3	dimensionless
+Bergman2004	all	12	simvastatin_SIMwithFEN	SIM,FEN	concentration	simvastatin	plasma	LC MS/MS	4.0	hr	2.0050895843287145e-05	mole/meter^3	dimensionless
+Bergman2004	all	12	simvastatin_SIMwithFEN	SIM,FEN	concentration	simvastatin	plasma	LC MS/MS	6.0	hr	7.174994027711418e-06	mole/meter^3	dimensionless
+Bergman2004	all	12	simvastatin_SIMwithFEN	SIM,FEN	concentration	simvastatin	plasma	LC MS/MS	8.0	hr	3.778166746297181e-06	mole/meter^3	dimensionless
+Bergman2004	all	12	simvastatin_SIMwithFEN	SIM,FEN	concentration	simvastatin	plasma	LC MS/MS	10.0	hr	2.369335738174869e-06	mole/meter^3	dimensionless
+Bergman2004	all	12	simvastatin_SIMwithFEN	SIM,FEN	concentration	simvastatin	plasma	LC MS/MS	12.0	hr	1.8227747252747252e-06	mole/meter^3	dimensionless
+Bergman2004	all	12	simvastatin_SIMwithFEN	SIM,FEN	concentration	simvastatin	plasma	LC MS/MS	16.0	hr	1.126943143812709e-06	mole/meter^3	dimensionless
+Bergman2004	all	12	simvastatin_SIMwithFEN	SIM,FEN	concentration	simvastatin	plasma	LC MS/MS	24.0	hr	6.632736741519349e-07	mole/meter^3	dimensionless

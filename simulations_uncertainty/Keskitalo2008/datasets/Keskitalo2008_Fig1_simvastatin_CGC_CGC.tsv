@@ -1,0 +1,12 @@
+study	group	count	intervention	measurement_type	substance	method	tissue	label	time	time_unit	mean	mean_sd	mean_se	pm	mean_unit	count_unit
+Keskitalo2008	CGC/CGC	12	SIM_20mg	concentration	simvastatin	LC MS/MS	plasma	SIM_20mg_simvastatin_CGC/CGC	0.0	hr	0.0				mole/meter^3	dimensionless
+Keskitalo2008	CGC/CGC	12	SIM_20mg	concentration	simvastatin	LC MS/MS	plasma	SIM_20mg_simvastatin_CGC/CGC	0.5	hr	2.388915432393693e-06	4.467606172582298e-06	1.2896868131868132e-06	0.4601371	mole/meter^3	dimensionless
+Keskitalo2008	CGC/CGC	12	SIM_20mg	concentration	simvastatin	LC MS/MS	plasma	SIM_20mg_simvastatin_CGC/CGC	1.0	hr	6.0227415193502146e-06	4.8099952949780696e-06	1.388526039178213e-06	1.9398826	mole/meter^3	dimensionless
+Keskitalo2008	CGC/CGC	12	SIM_20mg	concentration	simvastatin	LC MS/MS	plasma	SIM_20mg_simvastatin_CGC/CGC	1.5	hr	6.326245102723364e-06	3.935580244233707e-06	1.1361041567128522e-06	2.172593	mole/meter^3	dimensionless
+Keskitalo2008	CGC/CGC	12	SIM_20mg	concentration	simvastatin	LC MS/MS	plasma	SIM_20mg_simvastatin_CGC/CGC	2.0	hr	5.809195652173913e-06	2.7549314938277586e-06	7.952802197802197e-07	2.098825	mole/meter^3	dimensionless
+Keskitalo2008	CGC/CGC	12	SIM_20mg	concentration	simvastatin	LC MS/MS	plasma	SIM_20mg_simvastatin_CGC/CGC	3.0	hr	3.538100095556617e-06	1.4430581717032391e-06	4.1657501194457715e-07	1.3066704	mole/meter^3	dimensionless
+Keskitalo2008	CGC/CGC	12	SIM_20mg	concentration	simvastatin	LC MS/MS	plasma	SIM_20mg_simvastatin_CGC/CGC	4.0	hr	2.3525635451505016e-06	8.74507487474042e-07	2.524485666507405e-07	0.87910813	mole/meter^3	dimensionless
+Keskitalo2008	CGC/CGC	12	SIM_20mg	concentration	simvastatin	LC MS/MS	plasma	SIM_20mg_simvastatin_CGC/CGC	5.0	hr	1.8865821786908744e-06	1.0056901026823842e-06	2.9031772575250833e-07	0.9112503	mole/meter^3	dimensionless
+Keskitalo2008	CGC/CGC	12	SIM_20mg	concentration	simvastatin	LC MS/MS	plasma	SIM_20mg_simvastatin_CGC/CGC	7.0	hr	1.3458955088389869e-06	7.870519968961896e-07	2.272023411371237e-07	0.65849876	mole/meter^3	dimensionless
+Keskitalo2008	CGC/CGC	12	SIM_20mg	concentration	simvastatin	LC MS/MS	plasma	SIM_20mg_simvastatin_CGC/CGC	9.0	hr	9.819189679885331e-07	8.74598600132384e-07	2.524748686096512e-07	0.51671726	mole/meter^3	dimensionless
+Keskitalo2008	CGC/CGC	12	SIM_20mg	concentration	simvastatin	LC MS/MS	plasma	SIM_20mg_simvastatin_CGC/CGC	12.0	hr	7.073767319636884e-07	7.87052162405105e-07	2.2720238891543237e-07	0.39121482	mole/meter^3	dimensionless

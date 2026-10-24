@@ -1,0 +1,67 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	se	pm	sd	unit
+Pasanen2006	c521TT	16	simvastatin_c521TT	SIM	concentration	simvastatin	plasma	LC MS/MS	0.0	hr	0.0	na	na	na	ng/ml
+Pasanen2006	c521TT	16	simvastatin_c521TT	SIM	concentration	simvastatin	plasma	LC MS/MS	0.5	hr	2.4362614	0.5975804	1.838681	2.3903216	ng/ml
+Pasanen2006	c521TT	16	simvastatin_c521TT	SIM	concentration	simvastatin	plasma	LC MS/MS	1.0	hr	6.262614	0.839813	5.422801	3.359252	ng/ml
+Pasanen2006	c521TT	16	simvastatin_c521TT	SIM	concentration	simvastatin	plasma	LC MS/MS	1.5	hr	7.924816	na	na	na	ng/ml
+Pasanen2006	c521TT	16	simvastatin_c521TT	SIM	concentration	simvastatin	plasma	LC MS/MS	2.0	hr	6.7121725	na	na	na	ng/ml
+Pasanen2006	c521TT	16	simvastatin_c521TT	SIM	concentration	simvastatin	plasma	LC MS/MS	3.0	hr	3.640792	na	na	na	ng/ml
+Pasanen2006	c521TT	16	simvastatin_c521TT	SIM	concentration	simvastatin	plasma	LC MS/MS	4.0	hr	2.355	na	na	na	ng/ml
+Pasanen2006	c521TT	16	simvastatin_c521TT	SIM	concentration	simvastatin	plasma	LC MS/MS	5.0	hr	1.4065595	na	na	na	ng/ml
+Pasanen2006	c521TT	16	simvastatin_c521TT	SIM	concentration	simvastatin	plasma	LC MS/MS	7.0	hr	0.8682845	na	na	na	ng/ml
+Pasanen2006	c521TT	16	simvastatin_c521TT	SIM	concentration	simvastatin	plasma	LC MS/MS	9.0	hr	0.53994	na	na	na	ng/ml
+Pasanen2006	c521TT	16	simvastatin_c521TT	SIM	concentration	simvastatin	plasma	LC MS/MS	12.0	hr	0.3057455	na	na	na	ng/ml
+Pasanen2006	c521TC	11	simvastatin_c521TC	SIM	concentration	simvastatin	plasma	LC MS/MS	0.0	hr	0.0	na	na	na	ng/ml
+Pasanen2006	c521TC	11	simvastatin_c521TC	SIM	concentration	simvastatin	plasma	LC MS/MS	0.5	hr	5.7471495	1.2274625	6.974612	4.07103255673161	ng/ml
+Pasanen2006	c521TC	11	simvastatin_c521TC	SIM	concentration	simvastatin	plasma	LC MS/MS	1.0	hr	8.16841	1.679747	9.848157	5.57109054172511	ng/ml
+Pasanen2006	c521TC	11	simvastatin_c521TC	SIM	concentration	simvastatin	plasma	LC MS/MS	1.5	hr	6.681203	0.968989	5.712214	3.21377293898169	ng/ml
+Pasanen2006	c521TC	11	simvastatin_c521TC	SIM	concentration	simvastatin	plasma	LC MS/MS	2.0	hr	5.2100554	0.7589674	4.451088	2.51721009391158	ng/ml
+Pasanen2006	c521TC	11	simvastatin_c521TC	SIM	concentration	simvastatin	plasma	LC MS/MS	3.0	hr	3.1077845	0.3714085	2.736376	1.23182263844871	ng/ml
+Pasanen2006	c521TC	11	simvastatin_c521TC	SIM	concentration	simvastatin	plasma	LC MS/MS	4.0	hr	2.2814586	0.3713779	1.9100807	1.23172114973013	ng/ml
+Pasanen2006	c521TC	11	simvastatin_c521TC	SIM	concentration	simvastatin	plasma	LC MS/MS	5.0	hr	2.3272471	0.7913599	3.118607	2.62464386243317	ng/ml
+Pasanen2006	c521TC	11	simvastatin_c521TC	SIM	concentration	simvastatin	plasma	LC MS/MS	7.0	hr	1.4496838	0.6298519	2.0795357	2.08898242579245	ng/ml
+Pasanen2006	c521TC	11	simvastatin_c521TC	SIM	concentration	simvastatin	plasma	LC MS/MS	9.0	hr	0.89525807	0.27450343	1.1697615	0.910424880975588	ng/ml
+Pasanen2006	c521TC	11	simvastatin_c521TC	SIM	concentration	simvastatin	plasma	LC MS/MS	12.0	hr	0.66106355	na	na	na	ng/ml
+Pasanen2006	c521CC	4	simvastatin_c521CC	SIM	concentration	simvastatin	plasma	LC MS/MS	0.0	hr	0.0	na	na	na	ng/ml
+Pasanen2006	c521CC	4	simvastatin_c521CC	SIM	concentration	simvastatin	plasma	LC MS/MS	0.5	hr	4.083615	na	na	na	ng/ml
+Pasanen2006	c521CC	4	simvastatin_c521CC	SIM	concentration	simvastatin	plasma	LC MS/MS	1.0	hr	7.4255633	na	na	na	ng/ml
+Pasanen2006	c521CC	4	simvastatin_c521CC	SIM	concentration	simvastatin	plasma	LC MS/MS	1.5	hr	9.78213	2.568072	12.350202	5.136144	ng/ml
+Pasanen2006	c521CC	4	simvastatin_c521CC	SIM	concentration	simvastatin	plasma	LC MS/MS	2.0	hr	9.118675	2.422532	11.541207	4.845064	ng/ml
+Pasanen2006	c521CC	4	simvastatin_c521CC	SIM	concentration	simvastatin	plasma	LC MS/MS	3.0	hr	5.3366585	1.4374232	6.7740817	2.8748464	ng/ml
+Pasanen2006	c521CC	4	simvastatin_c521CC	SIM	concentration	simvastatin	plasma	LC MS/MS	4.0	hr	3.266689	0.839873	4.106562	1.679746	ng/ml
+Pasanen2006	c521CC	4	simvastatin_c521CC	SIM	concentration	simvastatin	plasma	LC MS/MS	5.0	hr	2.1334372	na	na	na	ng/ml
+Pasanen2006	c521CC	4	simvastatin_c521CC	SIM	concentration	simvastatin	plasma	LC MS/MS	7.0	hr	1.4174125	na	na	na	ng/ml
+Pasanen2006	c521CC	4	simvastatin_c521CC	SIM	concentration	simvastatin	plasma	LC MS/MS	9.0	hr	0.91134834	na	na	na	ng/ml
+Pasanen2006	c521CC	4	simvastatin_c521CC	SIM	concentration	simvastatin	plasma	LC MS/MS	12.0	hr	0.6288225	na	na	na	ng/ml
+Pasanen2006	c521TT	16	simvastatin acid_c521TT	SIM	concentration	simvastatin acid	plasma	LC MS/MS	0.0	hr	0.0	na	na	na	ng/ml
+Pasanen2006	c521TT	16	simvastatin acid_c521TT	SIM	concentration	simvastatin acid	plasma	LC MS/MS	0.5	hr	0.08649563	na	na	na	ng/ml
+Pasanen2006	c521TT	16	simvastatin acid_c521TT	SIM	concentration	simvastatin acid	plasma	LC MS/MS	1.0	hr	0.5045674	na	na	na	ng/ml
+Pasanen2006	c521TT	16	simvastatin acid_c521TT	SIM	concentration	simvastatin acid	plasma	LC MS/MS	1.5	hr	0.9662012	na	na	na	ng/ml
+Pasanen2006	c521TT	16	simvastatin acid_c521TT	SIM	concentration	simvastatin acid	plasma	LC MS/MS	2.0	hr	1.2883989	0.1394771	1.1489218	0.5579084	ng/ml
+Pasanen2006	c521TT	16	simvastatin acid_c521TT	SIM	concentration	simvastatin acid	plasma	LC MS/MS	3.0	hr	1.5753273	0.1917645	1.3835628	0.767058	ng/ml
+Pasanen2006	c521TT	16	simvastatin acid_c521TT	SIM	concentration	simvastatin acid	plasma	LC MS/MS	4.0	hr	1.7576725	0.2004981	1.5571744	0.8019924	ng/ml
+Pasanen2006	c521TT	16	simvastatin acid_c521TT	SIM	concentration	simvastatin acid	plasma	LC MS/MS	5.0	hr	2.088212	0.2004981	1.8877139	0.8019924	ng/ml
+Pasanen2006	c521TT	16	simvastatin acid_c521TT	SIM	concentration	simvastatin acid	plasma	LC MS/MS	7.0	hr	1.4155345	0.1394933	1.2760412	0.5579732	ng/ml
+Pasanen2006	c521TT	16	simvastatin acid_c521TT	SIM	concentration	simvastatin acid	plasma	LC MS/MS	9.0	hr	1.1632149	na	na	na	ng/ml
+Pasanen2006	c521TT	16	simvastatin acid_c521TT	SIM	concentration	simvastatin acid	plasma	LC MS/MS	12.0	hr	0.5140193	na	na	na	ng/ml
+Pasanen2006	c521TC	11	simvastatin acid_c521TC	SIM	concentration	simvastatin acid	plasma	LC MS/MS	0.0	hr	0.0	na	na	na	ng/ml
+Pasanen2006	c521TC	11	simvastatin acid_c521TC	SIM	concentration	simvastatin acid	plasma	LC MS/MS	0.5	hr	0.2608255	na	na	na	ng/ml
+Pasanen2006	c521TC	11	simvastatin acid_c521TC	SIM	concentration	simvastatin acid	plasma	LC MS/MS	1.0	hr	1.0973282	0.2528101	1.3501383	0.838476244912228	ng/ml
+Pasanen2006	c521TC	11	simvastatin acid_c521TC	SIM	concentration	simvastatin acid	plasma	LC MS/MS	1.5	hr	1.8379486	0.3661351	2.2040837	1.21433274927925	ng/ml
+Pasanen2006	c521TC	11	simvastatin acid_c521TC	SIM	concentration	simvastatin acid	plasma	LC MS/MS	2.0	hr	2.273455	0.339975	2.61343	1.12756951310108	ng/ml
+Pasanen2006	c521TC	11	simvastatin acid_c521TC	SIM	concentration	simvastatin acid	plasma	LC MS/MS	3.0	hr	2.4209063	0.3922873	2.8131936	1.30106978412159	ng/ml
+Pasanen2006	c521TC	11	simvastatin acid_c521TC	SIM	concentration	simvastatin acid	plasma	LC MS/MS	4.0	hr	2.455041	0.4184717	2.8735127	1.38791361428217	ng/ml
+Pasanen2006	c521TC	11	simvastatin acid_c521TC	SIM	concentration	simvastatin acid	plasma	LC MS/MS	5.0	hr	2.2451236	0.2702284	2.515352	0.896246210498076	ng/ml
+Pasanen2006	c521TC	11	simvastatin acid_c521TC	SIM	concentration	simvastatin acid	plasma	LC MS/MS	7.0	hr	1.4765393	0.2004982	1.6770375	0.664977300541635	ng/ml
+Pasanen2006	c521TC	11	simvastatin acid_c521TC	SIM	concentration	simvastatin acid	plasma	LC MS/MS	9.0	hr	1.0043598	0.1656207	1.1699805	0.549301719416014	ng/ml
+Pasanen2006	c521TC	11	simvastatin acid_c521TC	SIM	concentration	simvastatin acid	plasma	LC MS/MS	12.0	hr	0.51401114	na	na	na	ng/ml
+Pasanen2006	c521CC	4	simvastatin acid_c521CC	SIM	concentration	simvastatin acid	plasma	LC MS/MS	0.0	hr	0.0	na	na	na	ng/ml
+Pasanen2006	c521CC	4	simvastatin acid_c521CC	SIM	concentration	simvastatin acid	plasma	LC MS/MS	0.5	hr	0.50491834	0.4009881	0.90590644	0.8019762	ng/ml
+Pasanen2006	c521CC	4	simvastatin acid_c521CC	SIM	concentration	simvastatin acid	plasma	LC MS/MS	1.0	hr	1.6900971	0.6276545	2.3177516	1.255309	ng/ml
+Pasanen2006	c521CC	4	simvastatin acid_c521CC	SIM	concentration	simvastatin acid	plasma	LC MS/MS	1.5	hr	2.9711988	0.6625156	3.6337144	1.3250312	ng/ml
+Pasanen2006	c521CC	4	simvastatin acid_c521CC	SIM	concentration	simvastatin acid	plasma	LC MS/MS	2.0	hr	4.4266305	0.6102118	5.0368423	1.2204236	ng/ml
+Pasanen2006	c521CC	4	simvastatin acid_c521CC	SIM	concentration	simvastatin acid	plasma	LC MS/MS	3.0	hr	5.672463	0.470751000000001	6.143214	0.941502000000002	ng/ml
+Pasanen2006	c521CC	4	simvastatin acid_c521CC	SIM	concentration	simvastatin acid	plasma	LC MS/MS	4.0	hr	5.8460665	0.1830878	6.0291543	0.3661756	ng/ml
+Pasanen2006	c521CC	4	simvastatin acid_c521CC	SIM	concentration	simvastatin acid	plasma	LC MS/MS	5.0	hr	5.82793	0.845571	6.673501	1.691142	ng/ml
+Pasanen2006	c521CC	4	simvastatin acid_c521CC	SIM	concentration	simvastatin acid	plasma	LC MS/MS	7.0	hr	4.5363317	0.8717227	5.4080544	1.7434454	ng/ml
+Pasanen2006	c521CC	4	simvastatin acid_c521CC	SIM	concentration	simvastatin acid	plasma	LC MS/MS	9.0	hr	2.8437204	0.6015108	3.4452312	1.2030216	ng/ml
+Pasanen2006	c521CC	4	simvastatin acid_c521CC	SIM	concentration	simvastatin acid	plasma	LC MS/MS	12.0	hr	1.638536	0.3922953	2.0308313	0.7845906	ng/ml

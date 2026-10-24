@@ -1,0 +1,22 @@
+study	name	parent	measurement_type	group_count	choice	substance	count	mean	unit	sd	min	max	comment
+Jones1998a	all	NA	age	518.0	NA	NA	518	55.0	yr	NA	20.0	80.0	NA
+Jones1998a	all	NA	species	518.0	homo sapiens	NA	518	NA	NA	NA	NA	NA	NA
+Jones1998a	all	NA	healthy	518.0	N	NA	518	NA	NA	NA	NA	NA	primary hypercholesterolemic with ldl-c levels above 160 mg/dl
+Jones1998a	all	NA	medication	518.0	N	NA	518	NA	NA	NA	NA	NA	NA
+Jones1998a	all	NA	oral contraceptives	518.0	N	NA	518	NA	NA	NA	NA	NA	NA
+Jones1998a	all	NA	disease	518.0	hypercholesterolemia	NA	518	NA	NA	NA	NA	NA	NA
+Jones1998a	all	NA	sex	518.0	MF	NA	518	NA	NA	NA	NA	NA	NA
+Jones1998a	all	NA	healthy	NA	N	NA	518	NA	NA	NA	NA	NA	NA
+Jones1998a	ATO10	all	healthy	73.0	N	NA	73	NA	NA	NA	NA	NA	NA
+Jones1998a	ATO20	all	healthy	51.0	N	NA	51	NA	NA	NA	NA	NA	NA
+Jones1998a	ATO40	all	healthy	61.0	N	NA	61	NA	NA	NA	NA	NA	NA
+Jones1998a	ATO80	all	healthy	10.0	N	NA	10	NA	NA	NA	NA	NA	NA
+Jones1998a	SIM10	all	healthy	70.0	N	NA	70	NA	NA	NA	NA	NA	NA
+Jones1998a	SIM20	all	healthy	49.0	N	NA	49	NA	NA	NA	NA	NA	NA
+Jones1998a	SIM40	all	healthy	61.0	N	NA	61	NA	NA	NA	NA	NA	NA
+Jones1998a	PRA10	all	healthy	14.0	N	NA	14	NA	NA	NA	NA	NA	NA
+Jones1998a	PRA20	all	healthy	41.0	N	NA	41	NA	NA	NA	NA	NA	NA
+Jones1998a	PRA40	all	healthy	25.0	N	NA	25	NA	NA	NA	NA	NA	NA
+Jones1998a	LOVA20	all	healthy	16.0	N	NA	16	NA	NA	NA	NA	NA	NA
+Jones1998a	LOVA40	all	healthy	16.0	N	NA	16	NA	NA	NA	NA	NA	NA
+Jones1998a	LOVA80	all	healthy	11.0	N	NA	11	NA	NA	NA	NA	NA	NA

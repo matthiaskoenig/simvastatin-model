@@ -1,0 +1,5 @@
+id	experiment	mapping	cost	type
+Jiang2017_fm_simva	Jiang2017	fm_simva	5683.6361529030955	initial
+Jiang2017_fm_simva	Jiang2017	fm_simva	0.6679628435407413	fit
+Jiang2017_fm_simacid	Jiang2017	fm_simacid	45.0260432744296	initial
+Jiang2017_fm_simacid	Jiang2017	fm_simacid	0.03125484328522792	fit

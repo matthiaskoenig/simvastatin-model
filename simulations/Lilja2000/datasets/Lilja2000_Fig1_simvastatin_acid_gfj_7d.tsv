@@ -1,0 +1,10 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	mean_unit	count_unit
+Lilja2000	all	10	SIM7D+GRA_simvastatin acid	SIM7D,GRA	concentration	simvastatin acid	serum	LC MS/MS	0	hr	0.0	mole/meter^3	dimensionless
+Lilja2000	all	10	SIM7D+GRA_simvastatin acid	SIM7D,GRA	concentration	simvastatin acid	serum	LC MS/MS	1	hr	1.5315918460833715e-06	mole/meter^3	dimensionless
+Lilja2000	all	10	SIM7D+GRA_simvastatin acid	SIM7D,GRA	concentration	simvastatin acid	serum	LC MS/MS	2	hr	5.244541914796152e-06	mole/meter^3	dimensionless
+Lilja2000	all	10	SIM7D+GRA_simvastatin acid	SIM7D,GRA	concentration	simvastatin acid	serum	LC MS/MS	3	hr	5.940719880897846e-06	mole/meter^3	dimensionless
+Lilja2000	all	10	SIM7D+GRA_simvastatin acid	SIM7D,GRA	concentration	simvastatin acid	serum	LC MS/MS	4	hr	9.143139486944571e-06	mole/meter^3	dimensionless
+Lilja2000	all	10	SIM7D+GRA_simvastatin acid	SIM7D,GRA	concentration	simvastatin acid	serum	LC MS/MS	6	hr	5.1517182775996335e-06	mole/meter^3	dimensionless
+Lilja2000	all	10	SIM7D+GRA_simvastatin acid	SIM7D,GRA	concentration	simvastatin acid	serum	LC MS/MS	8	hr	3.99142143838754e-06	mole/meter^3	dimensionless
+Lilja2000	all	10	SIM7D+GRA_simvastatin acid	SIM7D,GRA	concentration	simvastatin acid	serum	LC MS/MS	10	hr	2.0885343563902887e-06	mole/meter^3	dimensionless
+Lilja2000	all	10	SIM7D+GRA_simvastatin acid	SIM7D,GRA	concentration	simvastatin acid	serum	LC MS/MS	12	hr	9.746493815849748e-07	mole/meter^3	dimensionless

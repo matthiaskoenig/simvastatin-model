@@ -1,0 +1,5 @@
+study	group	count	intervention	measurement_type	substance	method	tissue	label	time	time_unit	mean	mean_se	mean_sd	mean_unit	count_unit
+Owens1991	all	4	SIM40	concentration	cholesterol	 enzymatic coiorimetric methods	serum	cholesterol_SIM40	0	weeks	8.262327			mmol/l	dimensionless
+Owens1991	all	4	SIM40	concentration	cholesterol	 enzymatic coiorimetric methods	serum	cholesterol_SIM40	4	weeks	6.989787			mmol/l	dimensionless
+Owens1991	all	4	SIM40	concentration	cholesterol	 enzymatic coiorimetric methods	serum	cholesterol_SIM40	8	weeks	6.3873005			mmol/l	dimensionless
+Owens1991	all	4	SIM40	concentration	cholesterol	 enzymatic coiorimetric methods	serum	cholesterol_SIM40	12	weeks	5.712114			mmol/l	dimensionless

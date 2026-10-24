@@ -1,0 +1,12 @@
+study	individual	intervention	measurement_type	x_substance	y_substance	method	x_label	y_label	tissue	time	time_unit	x	y	unit
+Watanabe2004	Ind45	DIL	auc_end	active simva inhibitors	diltiazem	HPLC	auc_active_inhibitors	auc_diltiazem	plasma	6	hr	12.782956	97.36841	ng*hr/ml
+Watanabe2004	Ind46	DIL	auc_end	active simva inhibitors	diltiazem	HPLC	auc_active_inhibitors	auc_diltiazem	plasma	6	hr	20.556118	210.30112	ng*hr/ml
+Watanabe2004	Ind47	DIL	auc_end	active simva inhibitors	diltiazem	HPLC	auc_active_inhibitors	auc_diltiazem	plasma	6	hr	16.26394	248.31007	ng*hr/ml
+Watanabe2004	Ind48	DIL	auc_end	active simva inhibitors	diltiazem	HPLC	auc_active_inhibitors	auc_diltiazem	plasma	6	hr	20.122383	297.0335	ng*hr/ml
+Watanabe2004	Ind49	DIL	auc_end	active simva inhibitors	diltiazem	HPLC	auc_active_inhibitors	auc_diltiazem	plasma	6	hr	25.303682	361.9975	ng*hr/ml
+Watanabe2004	Ind50	DIL	auc_end	active simva inhibitors	diltiazem	HPLC	auc_active_inhibitors	auc_diltiazem	plasma	6	hr	27.450468	351.8979	ng*hr/ml
+Watanabe2004	Ind51	DIL	auc_end	active simva inhibitors	diltiazem	HPLC	auc_active_inhibitors	auc_diltiazem	plasma	6	hr	27.792448	499.79083	ng*hr/ml
+Watanabe2004	Ind52	DIL	auc_end	active simva inhibitors	diltiazem	HPLC	auc_active_inhibitors	auc_diltiazem	plasma	6	hr	19.586035	479.78516	ng*hr/ml
+Watanabe2004	Ind53	DIL	auc_end	active simva inhibitors	diltiazem	HPLC	auc_active_inhibitors	auc_diltiazem	plasma	6	hr	20.463696	436.40875	ng*hr/ml
+Watanabe2004	Ind54	DIL	auc_end	active simva inhibitors	diltiazem	HPLC	auc_active_inhibitors	auc_diltiazem	plasma	6	hr	20.570005	387.6239	ng*hr/ml
+Watanabe2004	Ind55	DIL	auc_end	active simva inhibitors	diltiazem	HPLC	auc_active_inhibitors	auc_diltiazem	plasma	6	hr	27.859581	653.8827	ng*hr/ml

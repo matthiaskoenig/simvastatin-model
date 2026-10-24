@@ -1,0 +1,13 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	mean_unit	count_unit
+Lohitnavy2004	all	18	simvastatin_SIM_reference	SIM_reference	concentration	simvastatin	plasma	LC MS/MS	0.0	hr	0.0	mole/meter^3	dimensionless
+Lohitnavy2004	all	18	simvastatin_SIM_reference	SIM_reference	concentration	simvastatin	plasma	LC MS/MS	0.5	hr	5.0382226469182986e-06	mole/meter^3	dimensionless
+Lohitnavy2004	all	18	simvastatin_SIM_reference	SIM_reference	concentration	simvastatin	plasma	LC MS/MS	1.0	hr	9.694218824653607e-06	mole/meter^3	dimensionless
+Lohitnavy2004	all	18	simvastatin_SIM_reference	SIM_reference	concentration	simvastatin	plasma	LC MS/MS	1.5	hr	1.1935021500238891e-05	mole/meter^3	dimensionless
+Lohitnavy2004	all	18	simvastatin_SIM_reference	SIM_reference	concentration	simvastatin	plasma	LC MS/MS	2.0	hr	1.3499761108456759e-05	mole/meter^3	dimensionless
+Lohitnavy2004	all	18	simvastatin_SIM_reference	SIM_reference	concentration	simvastatin	plasma	LC MS/MS	2.5	hr	1.4352603917821307e-05	mole/meter^3	dimensionless
+Lohitnavy2004	all	18	simvastatin_SIM_reference	SIM_reference	concentration	simvastatin	plasma	LC MS/MS	3.0	hr	1.0370281892021021e-05	mole/meter^3	dimensionless
+Lohitnavy2004	all	18	simvastatin_SIM_reference	SIM_reference	concentration	simvastatin	plasma	LC MS/MS	4.0	hr	9.233158146201624e-06	mole/meter^3	dimensionless
+Lohitnavy2004	all	18	simvastatin_SIM_reference	SIM_reference	concentration	simvastatin	plasma	LC MS/MS	6.0	hr	5.463449593884376e-06	mole/meter^3	dimensionless
+Lohitnavy2004	all	18	simvastatin_SIM_reference	SIM_reference	concentration	simvastatin	plasma	LC MS/MS	8.0	hr	3.4734830387004297e-06	mole/meter^3	dimensionless
+Lohitnavy2004	all	18	simvastatin_SIM_reference	SIM_reference	concentration	simvastatin	plasma	LC MS/MS	12.0	hr	1.696129956999522e-06	mole/meter^3	dimensionless
+Lohitnavy2004	all	18	simvastatin_SIM_reference	SIM_reference	concentration	simvastatin	plasma	LC MS/MS	24.0	hr	5.948399426660296e-07	mole/meter^3	dimensionless

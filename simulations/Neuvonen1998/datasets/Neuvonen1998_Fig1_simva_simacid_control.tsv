@@ -1,0 +1,9 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	mean_se	pm	mean_sd	mean_unit	count_unit
+Neuvonen1998	simvastatin	10	SIM_simva+simacid	SIM	concentration	simva+simacid	serum	GC/MS	0.0	hr	0.0				mole/meter^3	dimensionless
+Neuvonen1998	simvastatin	10	SIM_simva+simacid	SIM	concentration	simva+simacid	serum	GC/MS	0.5	hr	7.451240723774622e-06				mole/meter^3	dimensionless
+Neuvonen1998	simvastatin	10	SIM_simva+simacid	SIM	concentration	simva+simacid	serum	GC/MS	1.0	hr	2.5372354557947777e-05	7.403731103985341e-06	14.310039	2.3412653472026574e-05	mole/meter^3	dimensionless
+Neuvonen1998	simvastatin	10	SIM_simva+simacid	SIM	concentration	simva+simacid	serum	GC/MS	2.0	hr	1.9254001374255614e-05	3.701546037562987e-06	10.022392	1.1705316342670225e-05	mole/meter^3	dimensionless
+Neuvonen1998	simvastatin	10	SIM_simva+simacid	SIM	concentration	simva+simacid	serum	GC/MS	3.0	hr	1.5603133989922127e-05				mole/meter^3	dimensionless
+Neuvonen1998	simvastatin	10	SIM_simva+simacid	SIM	concentration	simva+simacid	serum	GC/MS	4.0	hr	1.1952899679340359e-05				mole/meter^3	dimensionless
+Neuvonen1998	simvastatin	10	SIM_simva+simacid	SIM	concentration	simva+simacid	serum	GC/MS	6.0	hr	7.118018781493358e-06				mole/meter^3	dimensionless
+Neuvonen1998	simvastatin	10	SIM_simva+simacid	SIM	concentration	simva+simacid	serum	GC/MS	8.0	hr	3.51783211177279e-06				mole/meter^3	dimensionless

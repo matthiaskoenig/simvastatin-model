@@ -1,0 +1,19 @@
+study	subject	intervention	substance	tissue	measurement	mean	min	max	unit
+Chung2006	all	MID	midazolam	plasma	clearance	25.0	12.0	57.0	ml/min/kg
+Chung2006	all	MID, KET	midazolam	plasma	clearance	2.7	1.2	8.5	ml/min/kg
+Chung2006	all	MID, RIF	midazolam	plasma	clearance	203.0	125.0	371.0	ml/min/kg
+Chung2006	all	SIM	simvastatin	plasma	clearance	312.0	151.0	1478.0	ml/min/kg
+Chung2006	all	SIM, KET	simvastatin	plasma	clearance	25.0	8.0	147.0	ml/min/kg
+Chung2006	all	SIM, RIF	simvastatin	plasma	clearance	3536.0	413.0	10329.0	ml/min/kg
+Chung2006	men	MID	midazolam	plasma	clearance	18.0	12.0	29.0	ml/min/kg
+Chung2006	men	MID, KET	midazolam	plasma	clearance	1.9	1.2	3.2	ml/min/kg
+Chung2006	men	MID, RIF	midazolam	plasma	clearance	156.0	125.0	187.0	ml/min/kg
+Chung2006	men	SIM	simvastatin	plasma	clearance	291.0	151.0	800.0	ml/min/kg
+Chung2006	men	SIM, KET	simvastatin	plasma	clearance	23.0	12.0	42.0	ml/min/kg
+Chung2006	men_n8	SIM, RIF	simvastatin	plasma	clearance	5790.0	2326.0	10329.0	ml/min/kg
+Chung2006	women	MID	midazolam	plasma	clearance	34.0	21.0	57.0	ml/min/kg
+Chung2006	women	MID, KET	midazolam	plasma	clearance	3.6	2.1	8.6	ml/min/kg
+Chung2006	women_n9	MID, RIF	midazolam	plasma	clearance	265.0	183.0	371.0	ml/min/kg
+Chung2006	women	SIM	simvastatin	plasma	clearance	332.0	161.0	1478.0	ml/min/kg
+Chung2006	women	SIM, KET	simvastatin	plasma	clearance	27.0	8.0	146.0	ml/min/kg
+Chung2006	women	SIM, RIF	simvastatin	plasma	clearance	2383.0	413.0	8383.0	ml/min/kg

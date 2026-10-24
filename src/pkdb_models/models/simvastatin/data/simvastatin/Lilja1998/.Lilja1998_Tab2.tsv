@@ -1,0 +1,17 @@
+study	group	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	se	min	max	unit
+Lilja1998	all	SIM	cmax	simvastatin	serum	LC MS/MS	NA	NA	15.6	2.9	NA	NA	ng/ml
+Lilja1998	all	SIM	tmax	simvastatin	serum	LC MS/MS	NA	NA	1.0	NA	0.5	6.0	hr
+Lilja1998	all	SIM	thalf	simvastatin	serum	LC MS/MS	NA	NA	3.4	0.6	NA	NA	hr
+Lilja1998	all	SIM	auc_inf	simvastatin	serum	LC MS/MS	NA	NA	46.6	5.8	NA	NA	ng*hr/ml
+Lilja1998	all	SIM,GRA	cmax	simvastatin	serum	LC MS/MS	NA	NA	147.0	38.2	NA	NA	ng/ml
+Lilja1998	all	SIM,GRA	tmax	simvastatin	serum	LC MS/MS	NA	NA	2.5	NA	1.0	10.0	hr
+Lilja1998	all	SIM,GRA	thalf	simvastatin	serum	LC MS/MS	NA	NA	2.9	0.2	NA	NA	hr
+Lilja1998	all	SIM,GRA	auc_inf	simvastatin	serum	LC MS/MS	NA	NA	752.0	239.0	NA	NA	ng*hr/ml
+Lilja1998	all	SIM	cmax	simvastatin acid	serum	LC MS/MS	NA	NA	3.1	0.7	NA	NA	ng/ml
+Lilja1998	all	SIM	tmax	simvastatin acid	serum	LC MS/MS	NA	NA	4.0	NA	2.0	8.0	hr
+Lilja1998	all	SIM	thalf	simvastatin acid	serum	LC MS/MS	NA	NA	2.8	0.2	NA	NA	hr
+Lilja1998	all	SIM	auc_inf	simvastatin acid	serum	LC MS/MS	NA	NA	21.7	4.5	NA	NA	ng*hr/ml
+Lilja1998	all	SIM,GRA	cmax	simvastatin acid	serum	LC MS/MS	NA	NA	20.3	3.6	NA	NA	ng/ml
+Lilja1998	all	SIM,GRA	tmax	simvastatin acid	serum	LC MS/MS	NA	NA	4.0	NA	2.0	6.0	hr
+Lilja1998	all	SIM,GRA	thalf	simvastatin acid	serum	LC MS/MS	NA	NA	2.5	0.3	NA	NA	hr
+Lilja1998	all	SIM,GRA	auc_inf	simvastatin acid	serum	LC MS/MS	NA	NA	147.0	32.9	NA	NA	ng*hr/ml

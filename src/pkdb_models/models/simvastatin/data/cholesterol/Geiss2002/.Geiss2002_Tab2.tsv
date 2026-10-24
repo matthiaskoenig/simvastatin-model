@@ -1,0 +1,13 @@
+study	group	count	intervention	measurement_type	substance	tissue	label	time	time_unit	mean	sd	se	unit
+Geiss2002	hetero_FH	9	SIM_FH	fraction of cholesterol	large-buoyant-ldl	plasma	hetero_FH_large-buoyant-ldl	0	weeks	12.7	3.4	1.13333333333333	percentage
+Geiss2002	dia_mellitus_hyperlipoproteiemia	8	SIM_diabetics	fraction of cholesterol	large-buoyant-ldl	plasma	dia_mellitus_hyperlipoproteiemia_large-buoyant-ldl	0	weeks	13.1	3.7	1.30814754519511	percentage
+Geiss2002	hetero_FH	9	SIM_FH	fraction of cholesterol	large-buoyant-ldl	plasma	hetero_FH_large-buoyant-ldl	4	weeks	11.9	3.0	1.0	percentage
+Geiss2002	dia_mellitus_hyperlipoproteiemia	8	SIM_diabetics	fraction of cholesterol	large-buoyant-ldl	plasma	dia_mellitus_hyperlipoproteiemia_large-buoyant-ldl	4	weeks	12.6	2.4	0.848528137423857	percentage
+Geiss2002	hetero_FH	9	SIM_FH	fraction of cholesterol	intermediate-dense-ldl	plasma	hetero_FH_intermediate-dense-ldl	0	weeks	58.4	5.3	1.76666666666667	percentage
+Geiss2002	dia_mellitus_hyperlipoproteiemia	8	SIM_diabetics	fraction of cholesterol	intermediate-dense-ldl	plasma	dia_mellitus_hyperlipoproteiemia_intermediate-dense-ldl	0	weeks	45.2	8.8	3.11126983722081	percentage
+Geiss2002	hetero_FH	9	SIM_FH	fraction of cholesterol	intermediate-dense-ldl	plasma	hetero_FH_intermediate-dense-ldl	4	weeks	54.5	4.5	1.5	percentage
+Geiss2002	dia_mellitus_hyperlipoproteiemia	8	SIM_diabetics	fraction of cholesterol	intermediate-dense-ldl	plasma	dia_mellitus_hyperlipoproteiemia_intermediate-dense-ldl	4	weeks	46.3	10.1	3.57088924499206	percentage
+Geiss2002	hetero_FH	9	SIM_FH	fraction of cholesterol	small-dense-ldl	plasma	hetero_FH_small-dense-ldl	0	weeks	28.8	4.7	1.56666666666667	percentage
+Geiss2002	dia_mellitus_hyperlipoproteiemia	8	SIM_diabetics	fraction of cholesterol	small-dense-ldl	plasma	dia_mellitus_hyperlipoproteiemia_small-dense-ldl	0	weeks	41.6	10.3	3.64159992311072	percentage
+Geiss2002	hetero_FH	9	SIM_FH	fraction of cholesterol	small-dense-ldl	plasma	hetero_FH_small-dense-ldl	4	weeks	33.4	4.7	1.56666666666667	percentage
+Geiss2002	dia_mellitus_hyperlipoproteiemia	8	SIM_diabetics	fraction of cholesterol	small-dense-ldl	plasma	dia_mellitus_hyperlipoproteiemia_small-dense-ldl	4	weeks	41.1	11.4	4.03050865276332	percentage

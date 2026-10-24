@@ -1,0 +1,51 @@
+study	name	parent	measurement_type	group_count	choice	substance	tissue	count	mean	unit	sd	min	max
+Saito1991	all	NA	healthy	150.0	N	NA	NA	150.0	NA	NA	NA	NA	NA
+Saito1991	all	NA	species	150.0	homo sapiens	NA	NA	150.0	NA	NA	NA	NA	NA
+Saito1991	all	NA	concentration	150.0	NA	cholesterol	serum	150.0	NA	mg/dl	NA	220.0	NA
+Saito1991	all	NA	disease	150.0	hypercholesterolemia	NA	NA	150.0	NA	NA	NA	NA	NA
+Saito1991	all	NA	sex	150.0	M	NA	NA	33.0	NA	NA	NA	NA	NA
+Saito1991	all	NA	sex	150.0	F	NA	NA	117.0	NA	NA	NA	NA	NA
+Saito1991	all	NA	age	150.0	NA	NA	NA	7.0	NA	yr	NA	NA	39.0
+Saito1991	all	NA	age	150.0	NA	NA	NA	13.0	NA	yr	NA	40.0	49.0
+Saito1991	all	NA	age	150.0	NA	NA	NA	63.0	NA	yr	NA	50.0	59.0
+Saito1991	all	NA	age	150.0	NA	NA	NA	59.0	NA	yr	NA	60.0	69.0
+Saito1991	all	NA	age	150.0	NA	NA	NA	8.0	NA	yr	NA	70.0	NA
+Saito1991	all	NA	disease	150.0	heterozygous FH	NA	NA	22.0	NA	NA	NA	NA	NA
+Saito1991	2_5_morning	all	sex	30.0	M	NA	NA	8.0	NA	NA	NA	NA	NA
+Saito1991	2_5_morning	all	sex	30.0	F	NA	NA	22.0	NA	NA	NA	NA	NA
+Saito1991	2_5_evening	all	sex	28.0	M	NA	NA	6.0	NA	NA	NA	NA	NA
+Saito1991	2_5_evening	all	sex	28.0	F	NA	NA	22.0	NA	NA	NA	NA	NA
+Saito1991	5_morning	all	sex	32.0	M	NA	NA	8.0	NA	NA	NA	NA	NA
+Saito1991	5_morning	all	sex	32.0	F	NA	NA	24.0	NA	NA	NA	NA	NA
+Saito1991	5_evening	all	sex	29.0	M	NA	NA	4.0	NA	NA	NA	NA	NA
+Saito1991	5_evening	all	sex	29.0	F	NA	NA	25.0	NA	NA	NA	NA	NA
+Saito1991	placebo	all	sex	31.0	M	NA	NA	7.0	NA	NA	NA	NA	NA
+Saito1991	placebo	all	sex	31.0	F	NA	NA	24.0	NA	NA	NA	NA	NA
+Saito1991	2_5_evening	all	age	28.0	NA	NA	NA	2.0	NA	yr	NA	NA	39.0
+Saito1991	5_morning	all	age	32.0	NA	NA	NA	1.0	NA	yr	NA	NA	39.0
+Saito1991	5_evening	all	age	29.0	NA	NA	NA	2.0	NA	yr	NA	NA	39.0
+Saito1991	placebo	all	age	31.0	NA	NA	NA	2.0	NA	yr	NA	NA	39.0
+Saito1991	2_5_morning	all	age	30.0	NA	NA	NA	2.0	NA	yr	NA	40.0	49.0
+Saito1991	2_5_evening	all	age	28.0	NA	NA	NA	2.0	NA	yr	NA	40.0	49.0
+Saito1991	5_morning	all	age	32.0	NA	NA	NA	5.0	NA	yr	NA	40.0	49.0
+Saito1991	5_evening	all	age	29.0	NA	NA	NA	2.0	NA	yr	NA	40.0	49.0
+Saito1991	placebo	all	age	31.0	NA	NA	NA	2.0	NA	yr	NA	40.0	49.0
+Saito1991	2_5_morning	all	age	30.0	NA	NA	NA	9.0	NA	yr	NA	50.0	59.0
+Saito1991	2_5_evening	all	age	28.0	NA	NA	NA	13.0	NA	yr	NA	50.0	59.0
+Saito1991	5_morning	all	age	32.0	NA	NA	NA	12.0	NA	yr	NA	50.0	59.0
+Saito1991	5_evening	all	age	29.0	NA	NA	NA	15.0	NA	yr	NA	50.0	59.0
+Saito1991	placebo	all	age	31.0	NA	NA	NA	14.0	NA	yr	NA	50.0	59.0
+Saito1991	2_5_morning	all	age	30.0	NA	NA	NA	18.0	NA	yr	NA	60.0	69.0
+Saito1991	2_5_evening	all	age	28.0	NA	NA	NA	9.0	NA	yr	NA	60.0	69.0
+Saito1991	5_morning	all	age	32.0	NA	NA	NA	12.0	NA	yr	NA	60.0	69.0
+Saito1991	5_evening	all	age	29.0	NA	NA	NA	10.0	NA	yr	NA	60.0	69.0
+Saito1991	placebo	all	age	31.0	NA	NA	NA	10.0	NA	yr	NA	60.0	69.0
+Saito1991	2_5_morning	all	age	30.0	NA	NA	NA	1.0	NA	yr	NA	70.0	NA
+Saito1991	2_5_evening	all	age	28.0	NA	NA	NA	2.0	NA	yr	NA	70.0	NA
+Saito1991	5_morning	all	age	32.0	NA	NA	NA	2.0	NA	yr	NA	70.0	NA
+Saito1991	placebo	all	age	31.0	NA	NA	NA	3.0	NA	yr	NA	70.0	NA
+Saito1991	2_5_morning	all	disease	30.0	heterozygous FH	NA	NA	4.0	NA	NA	NA	NA	NA
+Saito1991	2_5_evening	all	disease	28.0	heterozygous FH	NA	NA	1.0	NA	NA	NA	NA	NA
+Saito1991	5_morning	all	disease	32.0	heterozygous FH	NA	NA	5.0	NA	NA	NA	NA	NA
+Saito1991	5_evening	all	disease	29.0	heterozygous FH	NA	NA	5.0	NA	NA	NA	NA	NA
+Saito1991	placebo	all	disease	31.0	heterozygous FH	NA	NA	7.0	NA	NA	NA	NA	NA

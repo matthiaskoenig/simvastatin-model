@@ -1,0 +1,3 @@
+study	group	count	intervention	measurement_type	substance	label	tissue	time	time_unit	mean	mean_sd	mean_se	mean_unit	change	change_sd	change_unit	count_unit
+Mol1986	all	4	SIM40_twice	concentration	cholesterol	SIM40_twice_cholesterol_concentration	serum	0	weeks	10.17	0.95		mmol/l			percent	dimensionless
+Mol1986	all	4	SIM40_twice	concentration	cholesterol	SIM40_twice_cholesterol_concentration	serum	4	weeks	6.54	0.48		mmol/l	-35.5	5.9	percent	dimensionless

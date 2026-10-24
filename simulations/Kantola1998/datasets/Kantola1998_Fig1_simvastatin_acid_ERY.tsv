@@ -1,0 +1,11 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	mean_se	pm	mean_sd	mean_unit	count_unit
+Kantola1998	all	12	SIM+ERY_simvastatin acid	SIM,ERY	concentration	simvastatin acid	serum	HPLC	0.0	hr	0.0				mole/meter^3	dimensionless
+Kantola1998	all	12	SIM+ERY_simvastatin acid	SIM,ERY	concentration	simvastatin acid	serum	HPLC	0.5	hr	2.8958307375171783e-06	1.4435229042601925e-06	1.8945618	5.000510024136074e-06	mole/meter^3	dimensionless
+Kantola1998	all	12	SIM+ERY_simvastatin acid	SIM,ERY	concentration	simvastatin acid	serum	HPLC	1.0	hr	2.0113218048557033e-05	4.275306917086579e-06	10.64803	1.4810097596689237e-05	mole/meter^3	dimensionless
+Kantola1998	all	12	SIM+ERY_simvastatin acid	SIM,ERY	concentration	simvastatin acid	serum	HPLC	2.0	hr	3.089454191479615e-05	6.440785616124599e-06	16.300604	2.231153585557325e-05	mole/meter^3	dimensionless
+Kantola1998	all	12	SIM+ERY_simvastatin acid	SIM,ERY	concentration	simvastatin acid	serum	HPLC	3.0	hr	3.234750343563903e-05	7.218140174072378e-06	17.27436	2.500437103529478e-05	mole/meter^3	dimensionless
+Kantola1998	all	12	SIM+ERY_simvastatin acid	SIM,ERY	concentration	simvastatin acid	serum	HPLC	4.0	hr	3.085750114521301e-05	7.273797526339899e-06	16.648125	2.5197173759179116e-05	mole/meter^3	dimensionless
+Kantola1998	all	12	SIM+ERY_simvastatin acid	SIM,ERY	concentration	simvastatin acid	serum	HPLC	6.0	hr	1.8382301878149334e-05	3.5540059551076506e-06	9.577392	1.2311437769297618e-05	mole/meter^3	dimensionless
+Kantola1998	all	12	SIM+ERY_simvastatin acid	SIM,ERY	concentration	simvastatin acid	serum	HPLC	8.0	hr	1.0516347457627119e-05	1.832199267063674e-06	3.7914991	6.346924440289487e-06	mole/meter^3	dimensionless
+Kantola1998	all	12	SIM+ERY_simvastatin acid	SIM,ERY	concentration	simvastatin acid	serum	HPLC	12.0	hr	3.9460888685295464e-06	1.7765428309665599e-06	2.498501	6.154124890112667e-06	mole/meter^3	dimensionless
+Kantola1998	all	12	SIM+ERY_simvastatin acid	SIM,ERY	concentration	simvastatin acid	serum	HPLC	24.0	hr	5.311928767750801e-07	7.218271415483281e-07	0.54706854	2.500482566887838e-06	mole/meter^3	dimensionless

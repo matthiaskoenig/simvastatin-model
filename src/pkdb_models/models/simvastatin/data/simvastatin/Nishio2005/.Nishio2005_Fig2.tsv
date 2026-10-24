@@ -1,0 +1,13 @@
+study	group	count	intervention	measurement_type	label	substance	method	tissue	time	time_unit	mean	sd	se	sdpm	unit
+Nishio2005	all	8	SIM	concentration	SIM_cholesterol	cholesterol	enzymatic assay	serum	0	weeks	253.0	31.0	10.9601551083915	NA	mg/dl
+Nishio2005	all	8	SIM	concentration	SIM_ldl-c	ldl-c	enzymatic assay	serum	0	weeks	164.0	26.0	9.19238815542512	NA	mg/dl
+Nishio2005	all	8	SIM	concentration	SIM_hdl-c	hdl-c	enzymatic assay	serum	0	weeks	54.0	9.0	3.18198051533946	NA	mg/dl
+Nishio2005	all	8	SIM	concentration	SIM_triglyceride	triglyceride	enzymatic assay	serum	0	weeks	179.0	95.0	33.587572106361	NA	mg/dl
+Nishio2005	all	8	SIM	concentration	SIM_cholesterol	cholesterol	enzymatic assay	serum	4	weeks	211.97302	24.7892	8.76430571009479	236.76222	mg/dl
+Nishio2005	all	8	SIM, AML	concentration	SIM, AML_cholesterol	cholesterol	enzymatic assay	serum	8	weeks	211.46712	36.93086	13.0570307705255	248.39798	mg/dl
+Nishio2005	all	8	SIM	concentration	SIM_ldl-c	ldl-c	enzymatic assay	serum	4	weeks	136.47058	21.84874	7.72469610719088	158.31932	mg/dl
+Nishio2005	all	8	SIM, AML	concentration	SIM, AML_ldl-c	ldl-c	enzymatic assay	serum	8	weeks	126.72269	27.56303	9.74500271152412	154.28572	mg/dl
+Nishio2005	all	8	SIM	concentration	SIM_hdl-c	hdl-c	enzymatic assay	serum	4	weeks	53.445946	10.050674	3.55344987044766	63.49662	mg/dl
+Nishio2005	all	8	SIM, AML	concentration	SIM, AML_hdl-c	hdl-c	enzymatic assay	serum	8	weeks	54.864864	11.706082	4.13872498166289	66.570946	mg/dl
+Nishio2005	all	8	SIM	concentration	SIM_triglyceride	triglyceride	enzymatic assay	serum	4	weeks	142.05527	82.03799	29.0048095219571	224.09326	mg/dl
+Nishio2005	all	8	SIM, AML	concentration	SIM, AML_triglyceride	triglyceride	enzymatic assay	serum	8	weeks	150.69084	85.92401	30.3787250688704	236.61485	mg/dl

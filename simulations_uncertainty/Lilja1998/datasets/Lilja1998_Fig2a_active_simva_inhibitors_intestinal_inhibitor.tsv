@@ -1,0 +1,11 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	mean_se	pm	mean_sd	mean_unit	count_unit
+Lilja1998	all	10	SIM+GRA_active simva inhibitors	SIM,GRA	concentration	active simva inhibitors	serum	radioenzymatic assay	0.0	hr	0.0				mole/meter^3	dimensionless
+Lilja1998	all	10	SIM+GRA_active simva inhibitors	SIM,GRA	concentration	active simva inhibitors	serum	radioenzymatic assay	0.5	hr	1.2404694457169033e-06				mole/meter^3	dimensionless
+Lilja1998	all	10	SIM+GRA_active simva inhibitors	SIM,GRA	concentration	active simva inhibitors	serum	radioenzymatic assay	1.0	hr	1.1744e-05	4.728631699496105e-06	3.0629098	1.4953246386480578e-05	mole/meter^3	dimensionless
+Lilja1998	all	10	SIM+GRA_active simva inhibitors	SIM,GRA	concentration	active simva inhibitors	serum	radioenzymatic assay	2.0	hr	4.040325240494732e-05	7.737759963353183e-06	14.261754	2.446894547185708e-05	mole/meter^3	dimensionless
+Lilja1998	all	10	SIM+GRA_active simva inhibitors	SIM,GRA	concentration	active simva inhibitors	serum	radioenzymatic assay	3.0	hr	4.688051992670637e-05	6.534111314704536e-06	17.615242	2.066267423954361e-05	mole/meter^3	dimensionless
+Lilja1998	all	10	SIM+GRA_active simva inhibitors	SIM,GRA	concentration	active simva inhibitors	serum	radioenzymatic assay	4.0	hr	4.53616903344022e-05	5.330861200183234e-06	17.47746	1.6857663282797825e-05	mole/meter^3	dimensionless
+Lilja1998	all	10	SIM+GRA_active simva inhibitors	SIM,GRA	concentration	active simva inhibitors	serum	radioenzymatic assay	6.0	hr	4.816994502977554e-05	7.307888227210261e-06	17.840374	2.310957168391457e-05	mole/meter^3	dimensionless
+Lilja1998	all	10	SIM+GRA_active simva inhibitors	SIM,GRA	concentration	active simva inhibitors	serum	radioenzymatic assay	8.0	hr	3.971545350435181e-05	6.792036188731104e-06	14.374364	2.1478304306679546e-05	mole/meter^3	dimensionless
+Lilja1998	all	10	SIM+GRA_active simva inhibitors	SIM,GRA	concentration	active simva inhibitors	serum	radioenzymatic assay	10.0	hr	2.5328273018781498e-05	5.244482363719652e-06	8.768583	1.6584509417937723e-05	mole/meter^3	dimensionless
+Lilja1998	all	10	SIM+GRA_active simva inhibitors	SIM,GRA	concentration	active simva inhibitors	serum	radioenzymatic assay	12.0	hr	1.5584964956481905e-05	3.009534356390289e-06	5.490433	9.51698326272224e-06	mole/meter^3	dimensionless

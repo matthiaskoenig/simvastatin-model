@@ -1,0 +1,4 @@
+study	name	time	time_unit	route	application	measurement_type	form	substance	value	unit
+Sivkov2021	ATO10	0	days	oral	multiple dose	qualitative dosing	NR	atorvastatin	10	mg
+Sivkov2021	SIM10	0	days	oral	multiple dose	qualitative dosing	NR	simvastatin	10	mg
+Sivkov2021	ROSU10	0	days	oral	multiple dose	qualitative dosing	NR	rosuvastatin	10	mg

@@ -1,0 +1,3 @@
+study	group	count	intervention	measurement_type	substance	time	time_unit	tissue	mean	mean_sd	median	min	max	median_change	min_change	max_change	unitchange	baseline	baseline_unit	mean_unit	median_unit	count_unit
+Davidson1997	all	147	SIM160	concentration	triglyceride	0	weeks	plasma	175.0	84.0										mg/dl	mg/dl	dimensionless
+Davidson1997	all	140	SIM160	concentration	triglyceride	6	weeks	plasma			117.25	99.75	147.0	-33.0	-43.0	-16.0	percent			mg/dl	mg/dl	dimensionless

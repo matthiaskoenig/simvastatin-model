@@ -1,0 +1,37 @@
+study	group	intervention	measurement_type	substance	tissue	time	time_unit	unit	mean	sem
+Cilla1996	subgroup	ATO2.5	cmax	atorvastatin	plasma	na	na	ng/ml	1.95	NA
+Cilla1996	subgroup	ATO10	cmax	atorvastatin	plasma	na	na	ng/ml	7.41	NA
+Cilla1996	subgroup	ATO20	cmax	atorvastatin	plasma	na	na	ng/ml	14.9	NA
+Cilla1996	subgroup	ATO40	cmax	atorvastatin	plasma	na	na	ng/ml	66.8	NA
+Cilla1996	subgroup	ATO80	cmax	atorvastatin	plasma	na	na	ng/ml	252.0	NA
+Cilla1996	subgroup	ATO2.5	tmax	atorvastatin	plasma	na	na	hr	5.3	NA
+Cilla1996	subgroup	ATO10	tmax	atorvastatin	plasma	na	na	hr	2.0	NA
+Cilla1996	subgroup	ATO20	tmax	atorvastatin	plasma	na	na	hr	2.3	NA
+Cilla1996	subgroup	ATO40	tmax	atorvastatin	plasma	na	na	hr	2.5	NA
+Cilla1996	subgroup	ATO80	tmax	atorvastatin	plasma	na	na	hr	2.0	NA
+Cilla1996	subgroup	ATO2.5	auc_end	atorvastatin	plasma	24	hr	ng hr/ml	25.2	NA
+Cilla1996	subgroup	ATO10	auc_end	atorvastatin	plasma	24	hr	ng hr/ml	77.6	NA
+Cilla1996	subgroup	ATO20	auc_end	atorvastatin	plasma	24	hr	ng hr/ml	164.0	NA
+Cilla1996	subgroup	ATO40	auc_end	atorvastatin	plasma	24	hr	ng hr/ml	618.0	NA
+Cilla1996	subgroup	ATO80	auc_end	atorvastatin	plasma	24	hr	ng hr/ml	1293.0	NA
+Cilla1996	subgroup	ATO2.5	thalf	atorvastatin	plasma	na	na	hr	11.0	NA
+Cilla1996	subgroup	ATO10	thalf	atorvastatin	plasma	na	na	hr	24.1	NA
+Cilla1996	subgroup	ATO20	thalf	atorvastatin	plasma	na	na	hr	19.5	NA
+Cilla1996	subgroup	ATO40	thalf	atorvastatin	plasma	na	na	hr	20.7	NA
+Cilla1996	subgroup	ATO80	thalf	atorvastatin	plasma	na	na	hr	19.3	NA
+Cilla1996	subgroup	ATO5_morn,ATO5_eve	cmax	atorvastatin	plasma	na	na	ng/ml	3.85	NA
+Cilla1996	subgroup	ATO10_morn,ATO10_eve	cmax	atorvastatin	plasma	na	na	ng/ml	11.5	NA
+Cilla1996	subgroup	ATO20_morn,ATO20_eve	cmax	atorvastatin	plasma	na	na	ng/ml	24.3	NA
+Cilla1996	subgroup	ATO40_morn,ATO40_eve	cmax	atorvastatin	plasma	na	na	ng/ml	115.0	NA
+Cilla1996	subgroup	ATO5_morn,ATO5_eve	tmax	atorvastatin	plasma	na	na	hr	3.8	NA
+Cilla1996	subgroup	ATO10_morn,ATO10_eve	tmax	atorvastatin	plasma	na	na	hr	5.0	NA
+Cilla1996	subgroup	ATO20_morn,ATO20_eve	tmax	atorvastatin	plasma	na	na	hr	1.8	NA
+Cilla1996	subgroup	ATO40_morn,ATO40_eve	tmax	atorvastatin	plasma	na	na	hr	2.3	NA
+Cilla1996	subgroup	ATO5_morn,ATO5_eve	auc_end	atorvastatin	plasma	24	hr	ng hr/ml	38.1	NA
+Cilla1996	subgroup	ATO10_morn,ATO10_eve	auc_end	atorvastatin	plasma	24	hr	ng hr/ml	102.0	NA
+Cilla1996	subgroup	ATO20_morn,ATO20_eve	auc_end	atorvastatin	plasma	24	hr	ng hr/ml	186.0	NA
+Cilla1996	subgroup	ATO40_morn,ATO40_eve	auc_end	atorvastatin	plasma	24	hr	ng hr/ml	775.0	NA
+Cilla1996	subgroup	ATO5_morn,ATO5_eve	thalf	atorvastatin	plasma	na	na	hr	11.3	NA
+Cilla1996	subgroup	ATO10_morn,ATO10_eve	thalf	atorvastatin	plasma	na	na	hr	16.0	NA
+Cilla1996	subgroup	ATO20_morn,ATO20_eve	thalf	atorvastatin	plasma	na	na	hr	17.3	NA
+Cilla1996	subgroup	ATO40_morn,ATO40_eve	thalf	atorvastatin	plasma	na	na	hr	13.9	NA

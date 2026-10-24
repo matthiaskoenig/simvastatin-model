@@ -1,0 +1,27 @@
+study	subject	label	count	intervention	substance	tissue	measurement	mean	mean_pm	mean_sd	mean_se	unit	time	time_unit
+Chung2006	all	all_SIM	19	SIM	simvastatin	plasma	concentration	0.0	na	na	na	ng/ml	0.0	hr
+Chung2006	all	all_SIM	19	SIM	simvastatin	plasma	concentration	0.29067817	0.73122984	0.44055167	0.101069484680952	ng/ml	0.25	hr
+Chung2006	all	all_SIM	19	SIM	simvastatin	plasma	concentration	3.4348907	6.17835	2.7434593	0.629392728653518	ng/ml	0.5	hr
+Chung2006	all	all_SIM	19	SIM	simvastatin	plasma	concentration	7.4405174	12.106384	4.6658666	1.07042321018114	ng/ml	1.0	hr
+Chung2006	all	all_SIM	19	SIM	simvastatin	plasma	concentration	5.9399548	9.884907	3.9449522	0.905034104047287	ng/ml	2.0	hr
+Chung2006	all	all_SIM	19	SIM	simvastatin	plasma	concentration	2.3379335	3.6996508	1.3617173	0.31239937370374	ng/ml	4.0	hr
+Chung2006	all	all_SIM	19	SIM	simvastatin	plasma	concentration	2.2002747	4.2829065	2.0826318	0.477788502779169	ng/ml	6.0	hr
+Chung2006	all	all_SIM	19	SIM	simvastatin	plasma	concentration	1.2627872	2.4843528	1.2215656	0.280246368595033	ng/ml	9.0	hr
+Chung2006	all	all_SIM	19	SIM	simvastatin	plasma	concentration	0.6658098	1.1264105	0.4606007	0.105669047611794	ng/ml	12.0	hr
+Chung2006	all	all_SIM+KET	19	SIM, KET	simvastatin	plasma	concentration	0.0	na	na	na	ng/ml	0.0	hr
+Chung2006	all	all_SIM+KET	19	SIM, KET	simvastatin	plasma	concentration	41.11147	68.66816	27.55669	6.32193825939357	ng/ml	1.0	hr
+Chung2006	all	all_SIM+KET	19	SIM, KET	simvastatin	plasma	concentration	43.66074	73.77072	30.10998	6.90770315852794	ng/ml	2.0	hr
+Chung2006	all	all_SIM+KET	19	SIM, KET	simvastatin	plasma	concentration	41.011738	89.610306	48.598568	11.1492761427784	ng/ml	4.0	hr
+Chung2006	all	all_SIM+KET	19	SIM, KET	simvastatin	plasma	concentration	30.52715	63.98258	33.45543	7.67520202540521	ng/ml	6.0	hr
+Chung2006	all	all_SIM+KET	19	SIM, KET	simvastatin	plasma	concentration	20.482386	36.153664	15.671278	3.59523774305959	ng/ml	8.0	hr
+Chung2006	all	all_SIM+KET	19	SIM, KET	simvastatin	plasma	concentration	9.990022	18.17766	8.187638	1.8783729804365	ng/ml	12.0	hr
+Chung2006	all	all_SIM+KET	19	SIM, KET	simvastatin	plasma	concentration	2.195276	3.6036582	1.4083822	0.323105035983236	ng/ml	24.0	hr
+Chung2006	all	all_SIM+KET	19	SIM, KET	simvastatin	plasma	concentration	1.6436474	2.5237844	0.880137	0.201917275761635	ng/ml	30.0	hr
+Chung2006	all_n18	all_n18_SIM+RIF	18	SIM, RIF	simvastatin	plasma	concentration	0.010015534	na	na	na	ng/ml	0.0	hr
+Chung2006	all_n18	all_n18_SIM+RIF	18	SIM, RIF	simvastatin	plasma	concentration	0.59136593	1.2722065	0.68084057	0.160475661317971	ng/ml	0.5	hr
+Chung2006	all_n18	all_n18_SIM+RIF	18	SIM, RIF	simvastatin	plasma	concentration	0.6921145	1.5331676	0.8410531	0.198238116782656	ng/ml	1.0	hr
+Chung2006	all_n18	all_n18_SIM+RIF	18	SIM, RIF	simvastatin	plasma	concentration	0.5926242	1.3935913	0.8009671	0.188789755972441	ng/ml	1.5	hr
+Chung2006	all_n18	all_n18_SIM+RIF	18	SIM, RIF	simvastatin	plasma	concentration	0.3730195	0.9537467	0.5807272	0.136878713713159	ng/ml	2.0	hr
+Chung2006	all_n18	all_n18_SIM+RIF	18	SIM, RIF	simvastatin	plasma	concentration	0.3742658	0.85485566	0.48058986	0.113276116325165	ng/ml	3.0	hr
+Chung2006	all_n18	all_n18_SIM+RIF	18	SIM, RIF	simvastatin	plasma	concentration	0.21529953	0.53570074	0.32040121	0.0755192894304584	ng/ml	4.0	hr
+Chung2006	all_n18	all_n18_SIM+RIF	18	SIM, RIF	simvastatin	plasma	concentration	0.57825553	na	na	na	ng/ml	6.0	hr

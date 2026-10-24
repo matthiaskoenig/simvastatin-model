@@ -1,0 +1,254 @@
+{
+  "experiment_id": "FH_scans_3D",
+  "base_path": "/home/mkoenig/git/simvastatin-model/src/pkdb_models/models/simvastatin",
+  "data_path": [
+    "/home/mkoenig/git/simvastatin-model/src/pkdb_models/models/simvastatin/data/simvastatin",
+    "/home/mkoenig/git/simvastatin-model/src/pkdb_models/models/simvastatin/data/cholesterol"
+  ],
+  "models": {
+    "model": {
+      "sid": null,
+      "name": null,
+      "language": "SBML",
+      "language_type": "SBML",
+      "source": {
+        "source": "/home/mkoenig/git/simvastatin-model/src/pkdb_models/models/simvastatin/models/output/models/simvastatin_body_flat.xml",
+        "path": "/home/mkoenig/git/simvastatin-model/src/pkdb_models/models/simvastatin/models/output/models/simvastatin_body_flat.xml",
+        "content": null
+      },
+      "base_path": null,
+      "changes": {},
+      "selections": [
+        "[Cve_ldlc]",
+        "time"
+      ],
+      "parameters": {}
+    }
+  },
+  "tasks": {
+    "task_FH_scan_1vs2_6": {
+      "sid": "model__FH_scan_1vs2_6",
+      "name": null,
+      "model": "model",
+      "simulation": "FH_scan_1vs2_6",
+      "observables": []
+    }
+  },
+  "observables": {},
+  "simulations": {
+    "FH_scan_1vs2_6": {
+      "type": "Scan",
+      "simulation": {
+        "type": "Simulation",
+        "time_unit": null,
+        "start": -524160,
+        "end": 534240,
+        "preinit_changes": {
+          "Ka_dis_simva": {
+            "value": 0.6035956981945371,
+            "unit": "1 / hour"
+          },
+          "LI__SIMVA_CYP3A4_Vmax": {
+            "value": 0.07137188065217302,
+            "unit": "millimole / liter / minute"
+          },
+          "LI__ESTERASE_Vmax": {
+            "value": 0.0003554977355814531,
+            "unit": "millimole / liter / minute"
+          },
+          "LI__SIMACIDIMP_Vmax": {
+            "value": 0.0001558615932416344,
+            "unit": "millimole / liter / minute"
+          },
+          "ftissue_simva": {
+            "value": 1.37427767139463,
+            "unit": "liter / minute"
+          },
+          "Kp_simva": {
+            "value": 5.873620364744849,
+            "unit": "dimensionless"
+          },
+          "LI__EHC_simmets_k": {
+            "value": 3.028031018102117,
+            "unit": "1 / minute"
+          },
+          "LI__HMGCOAREDUCTASE_Ki_simacid": {
+            "value": 9.16748418506532e-07,
+            "unit": "millimole / liter"
+          }
+        },
+        "changes": [],
+        "presimulation": null,
+        "times": [
+          0,
+          10080,
+          20160,
+          30240,
+          40320,
+          50400,
+          60480,
+          70560,
+          80640,
+          90720,
+          100800,
+          110880,
+          120960,
+          131040,
+          141120,
+          151200,
+          161280,
+          171360,
+          181440,
+          191520,
+          201600,
+          211680,
+          221760,
+          231840,
+          241920,
+          252000,
+          262080,
+          272160,
+          282240,
+          292320,
+          302400,
+          312480,
+          322560,
+          332640,
+          342720,
+          352800,
+          362880,
+          372960,
+          383040,
+          393120,
+          403200,
+          413280,
+          423360,
+          433440,
+          443520,
+          453600,
+          463680,
+          473760,
+          483840,
+          493920,
+          504000,
+          514080,
+          524160,
+          534240
+        ],
+        "steps": null,
+        "time_shift": 0.0
+      },
+      "dimensions": [
+        {
+          "id": "dim_fh1",
+          "kind": "values",
+          "labels": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "values": {
+            "LI__SYNTHESIS_LDLR_Vmax_f": {
+              "value": [
+                0.01,
+                0.025118864315095794,
+                0.06309573444801933,
+                0.15848931924611143,
+                0.3981071705534973,
+                1.0,
+                2.5118864315095824,
+                6.309573444801936,
+                15.848931924611142,
+                39.810717055349734,
+                100.0
+              ],
+              "unit": "dimensionless"
+            }
+          },
+          "simulations": {},
+          "models": {},
+          "at": 0,
+          "design": null,
+          "coordinates": {}
+        },
+        {
+          "id": "dim_fh2_6",
+          "kind": "values",
+          "labels": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "values": {
+            "LI__LDLRMEMBRANE_Kcat_f": {
+              "value": [
+                0.01,
+                0.025118864315095794,
+                0.06309573444801933,
+                0.15848931924611143,
+                0.3981071705534973,
+                1.0,
+                2.5118864315095824,
+                6.309573444801936,
+                15.848931924611142,
+                39.810717055349734,
+                100.0
+              ],
+              "unit": "dimensionless"
+            }
+          },
+          "simulations": {},
+          "models": {},
+          "at": 0,
+          "design": null,
+          "coordinates": {}
+        }
+      ]
+    }
+  },
+  "data": {
+    "task_FH_scan_1vs2_6__time": {
+      "type": "TASK",
+      "sid": "task_FH_scan_1vs2_6__time",
+      "index": "time",
+      "selection": "time",
+      "unit": null,
+      "task": "task_FH_scan_1vs2_6",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    },
+    "task_FH_scan_1vs2_6__conc__Cve_ldlc": {
+      "type": "TASK",
+      "sid": "task_FH_scan_1vs2_6__conc__Cve_ldlc",
+      "index": "Cve_ldlc",
+      "selection": "[Cve_ldlc]",
+      "unit": null,
+      "task": "task_FH_scan_1vs2_6",
+      "dataset": null,
+      "function": null,
+      "variables": null,
+      "parameters": {},
+      "sel": null
+    }
+  },
+  "figures": {}
+}

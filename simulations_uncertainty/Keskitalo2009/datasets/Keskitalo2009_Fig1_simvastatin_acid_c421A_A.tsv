@@ -1,0 +1,12 @@
+study	group	count	intervention	measurement_type	substance	method	tissue	label	time	time_unit	mean	mean_sd	sem	sem_pm	mean_unit	count_unit
+Keskitalo2009	c.421A/A	5	SIM_40mg	concentration	simvastatin acid	LC MS/MS	plasma	simvastatin acid_c.421A/A	0.0	hr	0.0				mole/meter^3	dimensionless
+Keskitalo2009	c.421A/A	5	SIM_40mg	concentration	simvastatin acid	LC MS/MS	plasma	simvastatin acid_c.421A/A	0.5	hr	7.853898305084747e-07	9.492977691229135e-07	0.18535367	0.52825487	mole/meter^3	dimensionless
+Keskitalo2009	c.421A/A	5	SIM_40mg	concentration	simvastatin acid	LC MS/MS	plasma	simvastatin acid_c.421A/A	1.0	hr	3.614238433348603e-06	3.390667260169423e-06	0.6620395	2.240016	mole/meter^3	dimensionless
+Keskitalo2009	c.421A/A	5	SIM_40mg	concentration	simvastatin acid	LC MS/MS	plasma	simvastatin acid_c.421A/A	1.5	hr	7.413512597343106e-06	7.5498863464194e-06	1.4741414	4.710881	mole/meter^3	dimensionless
+Keskitalo2009	c.421A/A	5	SIM_40mg	concentration	simvastatin acid	LC MS/MS	plasma	simvastatin acid_c.421A/A	2.0	hr	9.494294548786075e-06	9.267735070959643e-06	1.8095573	5.9547663	mole/meter^3	dimensionless
+Keskitalo2009	c.421A/A	5	SIM_40mg	concentration	simvastatin acid	LC MS/MS	plasma	simvastatin acid_c.421A/A	3.0	hr	1.0562456481905635e-05	1.0172002804817934e-05	1.9861187	6.5976872	mole/meter^3	dimensionless
+Keskitalo2009	c.421A/A	5	SIM_40mg	concentration	simvastatin acid	LC MS/MS	plasma	simvastatin acid_c.421A/A	4.0	hr	1.0073870819972516e-05	9.539167910824806e-06	1.8625555	6.2608075	mole/meter^3	dimensionless
+Keskitalo2009	c.421A/A	5	SIM_40mg	concentration	simvastatin acid	LC MS/MS	plasma	simvastatin acid_c.421A/A	5.0	hr	9.787425561154373e-06	5.605903340054741e-06	1.094572	5.367762	mole/meter^3	dimensionless
+Keskitalo2009	c.421A/A	5	SIM_40mg	concentration	simvastatin acid	LC MS/MS	plasma	simvastatin acid_c.421A/A	7.0	hr	6.768191708657811e-06	3.209833072850252e-06	0.626731	3.5817235	mole/meter^3	dimensionless
+Keskitalo2009	c.421A/A	5	SIM_40mg	concentration	simvastatin acid	LC MS/MS	plasma	simvastatin acid_c.421A/A	9.0	hr	4.153319285387082e-06	1.7179388637899132e-06	0.3354335	2.1487727	mole/meter^3	dimensionless
+Keskitalo2009	c.421A/A	5	SIM_40mg	concentration	simvastatin acid	LC MS/MS	plasma	simvastatin acid_c.421A/A	12.0	hr	1.919236532295007e-06	4.972082548018392e-07	0.0970816299999999	0.9350203	mole/meter^3	dimensionless

@@ -1,0 +1,5 @@
+id	experiment	mapping	cost	type
+Ucar2004_fm_simva	Ucar2004	fm_simva	507.3816598032766	initial
+Ucar2004_fm_simva	Ucar2004	fm_simva	0.17656806534917988	fit
+Ucar2004_fm_simacid	Ucar2004	fm_simacid	98.50743968254774	initial
+Ucar2004_fm_simacid	Ucar2004	fm_simacid	0.018799381250531873	fit

@@ -1,0 +1,5 @@
+study	group	count	intervention	measurement_type	substance	tissue	label	time	time_unit	mean	mean_unit	mean_se	mean_sd	change	change_unit	change_se	change_sd	change_se_pm	baseline	baseline_sd	baseline_unit	count_unit
+Mol1986	all	7	SIM40	concentration	ldl-c	serum	SIM40_ldl-c	0	weeks	8.78	mmol/l			0.0	percent				8.78	1.6	mmol/l	dimensionless
+Mol1986	all	7	SIM40	concentration	ldl-c	serum	SIM40_ldl-c	1	weeks	7.0839566006	mmol/l	0.154235232567865	0.408068068778782	-19.317123	percent	2.177247	5.76045410476145	-21.49437	8.78	1.6	mmol/l	dimensionless
+Mol1986	all	7	SIM40	concentration	ldl-c	serum	SIM40_ldl-c	2	weeks	5.9183357414	mmol/l	0.128866907733677	0.340949790089215	-32.592987	percent	2.177418	5.76090652823563	-34.770405	8.78	1.6	mmol/l	dimensionless
+Mol1986	all	7	SIM40	concentration	ldl-c	serum	SIM40_ldl-c	4	weeks	5.541291548	mmol/l	0.140766537452154	0.372433251018058	-36.88734	percent	2.54032	6.7210549705236	-39.42766	8.78	1.6	mmol/l	dimensionless

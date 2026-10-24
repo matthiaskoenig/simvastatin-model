@@ -1,0 +1,45 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	sd	pm	se	unit
+Lilja2004	all	10	SIM+GRA_simvastatin acid	SIM,GRA	concentration	simvastatin acid	plasma	HPLC MS/MS	0.0	hr	0	na	na	na	ng/ml
+Lilja2004	all	10	SIM+GRA_simvastatin acid	SIM,GRA	concentration	simvastatin acid	plasma	HPLC MS/MS	0.5	hr	0.007	na	na	na	ng/ml
+Lilja2004	all	10	SIM+GRA_simvastatin acid	SIM,GRA	concentration	simvastatin acid	plasma	HPLC MS/MS	1.0	hr	0.467	0.392	0.591	0.124	ng/ml
+Lilja2004	all	10	SIM+GRA_simvastatin acid	SIM,GRA	concentration	simvastatin acid	plasma	HPLC MS/MS	2.0	hr	3.015	1.758	3.571	0.556	ng/ml
+Lilja2004	all	10	SIM+GRA_simvastatin acid	SIM,GRA	concentration	simvastatin acid	plasma	HPLC MS/MS	3.0	hr	7.514	3.864	8.736	1.222	ng/ml
+Lilja2004	all	10	SIM+GRA_simvastatin acid	SIM,GRA	concentration	simvastatin acid	plasma	HPLC MS/MS	4.0	hr	10.721	5.389	12.425	1.704	ng/ml
+Lilja2004	all	10	SIM+GRA_simvastatin acid	SIM,GRA	concentration	simvastatin acid	plasma	HPLC MS/MS	6.0	hr	7.04	3.605	8.180	1.140	ng/ml
+Lilja2004	all	10	SIM+GRA_simvastatin acid	SIM,GRA	concentration	simvastatin acid	plasma	HPLC MS/MS	8.0	hr	4.286	2.388	5.041	0.755	ng/ml
+Lilja2004	all	10	SIM+GRA_simvastatin acid	SIM,GRA	concentration	simvastatin acid	plasma	HPLC MS/MS	10.0	hr	1.793	0.759	2.033	0.240	ng/ml
+Lilja2004	all	10	SIM+GRA_simvastatin acid	SIM,GRA	concentration	simvastatin acid	plasma	HPLC MS/MS	12.0	hr	1.078	0.651	1.284	0.206	ng/ml
+Lilja2004	all	10	SIM+GRA_simvastatin acid	SIM,GRA	concentration	simvastatin acid	plasma	HPLC MS/MS	24.0	hr	0.199	0.152	0.247	0.048	ng/ml
+Lilja2004	all	10	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	HPLC MS/MS	0.0	hr	0	na	na	na	ng/ml
+Lilja2004	all	10	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	HPLC MS/MS	0.5	hr	0.178	0.262	0.261	0.083	ng/ml
+Lilja2004	all	10	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	HPLC MS/MS	1.0	hr	0.776	0.696	0.996	0.220	ng/ml
+Lilja2004	all	10	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	HPLC MS/MS	2.0	hr	1.367	0.933	1.662	0.295	ng/ml
+Lilja2004	all	10	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	HPLC MS/MS	3.0	hr	2.17	1.391	2.610	0.440	ng/ml
+Lilja2004	all	10	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	HPLC MS/MS	4.0	hr	2.184	0.933	2.479	0.295	ng/ml
+Lilja2004	all	10	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	HPLC MS/MS	6.0	hr	1.847	0.870	2.122	0.275	ng/ml
+Lilja2004	all	10	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	HPLC MS/MS	8.0	hr	1.236	0.607	1.428	0.192	ng/ml
+Lilja2004	all	10	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	HPLC MS/MS	10.0	hr	0.68	0.433	0.817	0.137	ng/ml
+Lilja2004	all	10	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	HPLC MS/MS	12.0	hr	0.398	0.304	0.494	0.096	ng/ml
+Lilja2004	all	10	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	HPLC MS/MS	24.0	hr	0.11	0.174	0.165	0.055	ng/ml
+Lilja2004	all	10	SIM+GRA_simvastatin	SIM,GRA	concentration	simvastatin	plasma	HPLC MS/MS	0.0	hr	0	na	na	na	ng/ml
+Lilja2004	all	10	SIM+GRA_simvastatin	SIM,GRA	concentration	simvastatin	plasma	HPLC MS/MS	0.5	hr	0.494	0.436	0.632	0.138	ng/ml
+Lilja2004	all	10	SIM+GRA_simvastatin	SIM,GRA	concentration	simvastatin	plasma	HPLC MS/MS	1.0	hr	6.717	3.909	7.953	1.236	ng/ml
+Lilja2004	all	10	SIM+GRA_simvastatin	SIM,GRA	concentration	simvastatin	plasma	HPLC MS/MS	2.0	hr	20.879	9.424	23.859	2.980	ng/ml
+Lilja2004	all	10	SIM+GRA_simvastatin	SIM,GRA	concentration	simvastatin	plasma	HPLC MS/MS	3.0	hr	26.943	13.835	22.568	4.375	ng/ml
+Lilja2004	all	10	SIM+GRA_simvastatin	SIM,GRA	concentration	simvastatin	plasma	HPLC MS/MS	4.0	hr	16.497	9.730	19.574	3.077	ng/ml
+Lilja2004	all	10	SIM+GRA_simvastatin	SIM,GRA	concentration	simvastatin	plasma	HPLC MS/MS	6.0	hr	6.538	3.390	7.610	1.072	ng/ml
+Lilja2004	all	10	SIM+GRA_simvastatin	SIM,GRA	concentration	simvastatin	plasma	HPLC MS/MS	8.0	hr	3.063	1.303	3.475	0.412	ng/ml
+Lilja2004	all	10	SIM+GRA_simvastatin	SIM,GRA	concentration	simvastatin	plasma	HPLC MS/MS	10.0	hr	1.868	0.999	2.184	0.316	ng/ml
+Lilja2004	all	10	SIM+GRA_simvastatin	SIM,GRA	concentration	simvastatin	plasma	HPLC MS/MS	12.0	hr	1.25	0.737	1.483	0.233	ng/ml
+Lilja2004	all	10	SIM+GRA_simvastatin	SIM,GRA	concentration	simvastatin	plasma	HPLC MS/MS	24.0	hr	0.481	0.478	0.632	0.151	ng/ml
+Lilja2004	all	10	SIM_simvastatin	SIM	concentration	simvastatin	plasma	HPLC MS/MS	0.0	hr	0	na	na	na	ng/ml
+Lilja2004	all	10	SIM_simvastatin	SIM	concentration	simvastatin	plasma	HPLC MS/MS	0.5	hr	2.5	2.954	3.434	0.934	ng/ml
+Lilja2004	all	10	SIM_simvastatin	SIM	concentration	simvastatin	plasma	HPLC MS/MS	1.0	hr	5.687	4.041	4.409	1.278	ng/ml
+Lilja2004	all	10	SIM_simvastatin	SIM	concentration	simvastatin	plasma	HPLC MS/MS	2.0	hr	4.945	2.520	5.742	0.797	ng/ml
+Lilja2004	all	10	SIM_simvastatin	SIM	concentration	simvastatin	plasma	HPLC MS/MS	3.0	hr	3.997	1.913	4.602	0.605	ng/ml
+Lilja2004	all	10	SIM_simvastatin	SIM	concentration	simvastatin	plasma	HPLC MS/MS	4.0	hr	3.173	2.909	4.093	0.920	ng/ml
+Lilja2004	all	10	SIM_simvastatin	SIM	concentration	simvastatin	plasma	HPLC MS/MS	6.0	hr	1.525	0.911	1.813	0.288	ng/ml
+Lilja2004	all	10	SIM_simvastatin	SIM	concentration	simvastatin	plasma	HPLC MS/MS	8.0	hr	0.92	0.696	1.140	0.220	ng/ml
+Lilja2004	all	10	SIM_simvastatin	SIM	concentration	simvastatin	plasma	HPLC MS/MS	10.0	hr	0.687	0.607	0.879	0.192	ng/ml
+Lilja2004	all	10	SIM_simvastatin	SIM	concentration	simvastatin	plasma	HPLC MS/MS	12.0	hr	0.577	0.607	0.769	0.192	ng/ml
+Lilja2004	all	10	SIM_simvastatin	SIM	concentration	simvastatin	plasma	HPLC MS/MS	24.0	hr	0.357	0.433	0.494	0.137	ng/ml

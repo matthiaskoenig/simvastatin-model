@@ -1,0 +1,26 @@
+study	group	count	intervention	measurement_type	substance	label	time	time_unit	tissue	method	mean	sd	unit
+Saito1991	2_5_morning	29	SIM2_5_morning, placebo_at_the_end	concentration	apoB100+48	apoB100+48_SIM2_5_morning, placebo_at_the_end	0	weeks	plasma	radial immunodiffusion	131.6	28.6	mg/dl
+Saito1991	2_5_morning	25	SIM2_5_morning, placebo_at_the_end	concentration	apoB100+48	apoB100+48_SIM2_5_morning, placebo_at_the_end	4	weeks	plasma	radial immunodiffusion	112.7	23.5	mg/dl
+Saito1991	2_5_morning	27	SIM2_5_morning, placebo_at_the_end	concentration	apoB100+48	apoB100+48_SIM2_5_morning, placebo_at_the_end	8	weeks	plasma	radial immunodiffusion	114.8	22.0	mg/dl
+Saito1991	2_5_morning	28	SIM2_5_morning, placebo_at_the_end	concentration	apoB100+48	apoB100+48_SIM2_5_morning, placebo_at_the_end	12	weeks	plasma	radial immunodiffusion	108.5	22.1	mg/dl
+Saito1991	2_5_morning	22	SIM2_5_morning, placebo_at_the_end	concentration	apoB100+48	apoB100+48_SIM2_5_morning, placebo_at_the_end	16	weeks	plasma	radial immunodiffusion	130.8	26.8	mg/dl
+Saito1991	2_5_evening	27	SIM2_5_morning, placebo_at_the_end	concentration	apoB100+48	apoB100+48_SIM2_5_morning, placebo_at_the_end	0	weeks	plasma	radial immunodiffusion	132.6	20.0	mg/dl
+Saito1991	2_5_evening	27	SIM2_5_morning, placebo_at_the_end	concentration	apoB100+48	apoB100+48_SIM2_5_morning, placebo_at_the_end	4	weeks	plasma	radial immunodiffusion	113.6	20.9	mg/dl
+Saito1991	2_5_evening	26	SIM2_5_morning, placebo_at_the_end	concentration	apoB100+48	apoB100+48_SIM2_5_morning, placebo_at_the_end	8	weeks	plasma	radial immunodiffusion	112.3	29.6	mg/dl
+Saito1991	2_5_evening	25	SIM2_5_morning, placebo_at_the_end	concentration	apoB100+48	apoB100+48_SIM2_5_morning, placebo_at_the_end	12	weeks	plasma	radial immunodiffusion	110.2	23.0	mg/dl
+Saito1991	2_5_evening	17	SIM2_5_morning, placebo_at_the_end	concentration	apoB100+48	apoB100+48_SIM2_5_morning, placebo_at_the_end	16	weeks	plasma	radial immunodiffusion	136.1	27.8	mg/dl
+Saito1991	5_morning	31	SIM5_morning, placebo_at_the_end	concentration	apoB100+48	apoB100+48_SIM5_morning, placebo_at_the_end	0	weeks	plasma	radial immunodiffusion	126.2	22.0	mg/dl
+Saito1991	5_morning	30	SIM5_morning, placebo_at_the_end	concentration	apoB100+48	apoB100+48_SIM5_morning, placebo_at_the_end	4	weeks	plasma	radial immunodiffusion	108.0	22.6	mg/dl
+Saito1991	5_morning	26	SIM5_morning, placebo_at_the_end	concentration	apoB100+48	apoB100+48_SIM5_morning, placebo_at_the_end	8	weeks	plasma	radial immunodiffusion	106.3	17.6	mg/dl
+Saito1991	5_morning	28	SIM5_morning, placebo_at_the_end	concentration	apoB100+48	apoB100+48_SIM5_morning, placebo_at_the_end	12	weeks	plasma	radial immunodiffusion	104.4	18.5	mg/dl
+Saito1991	5_morning	22	SIM5_morning, placebo_at_the_end	concentration	apoB100+48	apoB100+48_SIM5_morning, placebo_at_the_end	16	weeks	plasma	radial immunodiffusion	121.0	18.5	mg/dl
+Saito1991	5_evening	28	SIM5_evening, placebo_at_the_end	concentration	apoB100+48	apoB100+48_SIM5_evening, placebo_at_the_end	0	weeks	plasma	radial immunodiffusion	135.5	25.9	mg/dl
+Saito1991	5_evening	27	SIM5_evening, placebo_at_the_end	concentration	apoB100+48	apoB100+48_SIM5_evening, placebo_at_the_end	4	weeks	plasma	radial immunodiffusion	105.4	23.2	mg/dl
+Saito1991	5_evening	26	SIM5_evening, placebo_at_the_end	concentration	apoB100+48	apoB100+48_SIM5_evening, placebo_at_the_end	8	weeks	plasma	radial immunodiffusion	108.8	21.2	mg/dl
+Saito1991	5_evening	25	SIM5_evening, placebo_at_the_end	concentration	apoB100+48	apoB100+48_SIM5_evening, placebo_at_the_end	12	weeks	plasma	radial immunodiffusion	103.5	18.5	mg/dl
+Saito1991	5_evening	18	SIM5_evening, placebo_at_the_end	concentration	apoB100+48	apoB100+48_SIM5_evening, placebo_at_the_end	16	weeks	plasma	radial immunodiffusion	129.3	25.7	mg/dl
+Saito1991	placebo	30	placebo_complete	concentration	apoB100+48	apoB100+48_placebo_complete	0	weeks	plasma	radial immunodiffusion	136.1	24.6	mg/dl
+Saito1991	placebo	27	placebo_complete	concentration	apoB100+48	apoB100+48_placebo_complete	4	weeks	plasma	radial immunodiffusion	136.0	26.2	mg/dl
+Saito1991	placebo	28	placebo_complete	concentration	apoB100+48	apoB100+48_placebo_complete	8	weeks	plasma	radial immunodiffusion	136.2	22.1	mg/dl
+Saito1991	placebo	28	placebo_complete	concentration	apoB100+48	apoB100+48_placebo_complete	12	weeks	plasma	radial immunodiffusion	135.9	21.2	mg/dl
+Saito1991	placebo	21	placebo_complete	concentration	apoB100+48	apoB100+48_placebo_complete	16	weeks	plasma	radial immunodiffusion	141.7	26.0	mg/dl

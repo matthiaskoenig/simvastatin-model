@@ -1,0 +1,11 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	mean_unit	count_unit
+Marino2000	all_sub	12	SIM_simva+simacid	SIM	concentration	simva+simacid	serum	GC/MS	0.0	hr	0.0	mole/meter^3	dimensionless
+Marino2000	all_sub	12	SIM_simva+simacid	SIM	concentration	simva+simacid	serum	GC/MS	0.5	hr	3.493047869903802e-06	mole/meter^3	dimensionless
+Marino2000	all_sub	12	SIM_simva+simacid	SIM	concentration	simva+simacid	serum	GC/MS	1.0	hr	1.1642166743014202e-05	mole/meter^3	dimensionless
+Marino2000	all_sub	12	SIM_simva+simacid	SIM	concentration	simva+simacid	serum	GC/MS	2.0	hr	1.482189647274393e-05	mole/meter^3	dimensionless
+Marino2000	all_sub	12	SIM_simva+simacid	SIM	concentration	simva+simacid	serum	GC/MS	3.0	hr	1.4767579019697663e-05	mole/meter^3	dimensionless
+Marino2000	all_sub	12	SIM_simva+simacid	SIM	concentration	simva+simacid	serum	GC/MS	4.0	hr	1.847310352725607e-05	mole/meter^3	dimensionless
+Marino2000	all_sub	12	SIM_simva+simacid	SIM	concentration	simva+simacid	serum	GC/MS	6.0	hr	9.865075584058636e-06	mole/meter^3	dimensionless
+Marino2000	all_sub	12	SIM_simva+simacid	SIM	concentration	simva+simacid	serum	GC/MS	8.0	hr	6.4625437471369686e-06	mole/meter^3	dimensionless
+Marino2000	all_sub	12	SIM_simva+simacid	SIM	concentration	simva+simacid	serum	GC/MS	12.0	hr	5.057618644067797e-06	mole/meter^3	dimensionless
+Marino2000	all_sub	12	SIM_simva+simacid	SIM	concentration	simva+simacid	serum	GC/MS	24.0	hr	3.286700641319285e-06	mole/meter^3	dimensionless

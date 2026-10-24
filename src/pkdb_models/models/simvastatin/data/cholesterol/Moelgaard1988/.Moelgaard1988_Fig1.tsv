@@ -1,0 +1,25 @@
+study	group	count	intervention	measurement_type	substance	label	tissue	time	time_unit	mean	unit	se	sd	sepm
+Moelgaard1988	FH	11.0	SIM20, SIM40	concentration	hdl-c	hdl-c_SIM20, SIM40	plasma	0.0	weeks	1.135706	mmol/l	NA	NA	NA
+Moelgaard1988	FH	11.0	SIM20, SIM40	concentration	hdl-c	hdl-c_SIM20, SIM40	plasma	4.0	weeks	1.2465425	mmol/l	NA	NA	NA
+Moelgaard1988	FH	11.0	SIM20, SIM40	concentration	hdl-c	hdl-c_SIM20, SIM40	plasma	8.0	weeks	1.2837455	mmol/l	0.1975332	0.655143508038232	1.0862123
+Moelgaard1988	FH	11.0	SIM20, SIM40	concentration	hdl-c	hdl-c_SIM20, SIM40	plasma	12.0	weeks	1.2715653	mmol/l	0.1236055	0.409953065524274	1.1479598
+Moelgaard1988	FH	11.0	SIM20, SIM40	concentration	hdl-c	hdl-c_SIM20, SIM40	plasma	16.0	weeks	1.3086213	mmol/l	0.1729889	0.573739274196311	1.1356324
+Moelgaard1988	FH	11.0	SIM20, SIM40	concentration	hdl-c	hdl-c_SIM20, SIM40	plasma	20.0	weeks	1.1720995	mmol/l	0.0986194	0.327083546849975	1.0734801
+Moelgaard1988	FH	11.0	SIM20, SIM40	concentration	hdl-c	hdl-c_SIM20, SIM40	plasma	24.0	weeks	1.2100385	mmol/l	NA	NA	NA
+Moelgaard1988	FH	11.0	SIM20, SIM40	concentration	ldl-c	ldl-c_SIM20, SIM40	plasma	0.0	weeks	8.906173	mmol/l	0.468888999999999	1.55512888132495	9.375062
+Moelgaard1988	FH	11.0	SIM20, SIM40	concentration	ldl-c	ldl-c_SIM20, SIM40	plasma	4.0	weeks	5.7901235	mmol/l	0.4444445	1.47405564663711	5.345679
+Moelgaard1988	FH	11.0	SIM20, SIM40	concentration	ldl-c	ldl-c_SIM20, SIM40	plasma	8.0	weeks	5.662963	mmol/l	0.42	1.39298241194927	5.242963
+Moelgaard1988	FH	11.0	SIM20, SIM40	concentration	ldl-c	ldl-c_SIM20, SIM40	plasma	12.0	weeks	5.2392592	mmol/l	0.4441976	1.47323677197637	4.7950616
+Moelgaard1988	FH	11.0	SIM20, SIM40	concentration	ldl-c	ldl-c_SIM20, SIM40	plasma	16.0	weeks	5.210864	mmol/l	0.3456787	1.14648654591783	4.8651853
+Moelgaard1988	FH	11.0	SIM20, SIM40	concentration	ldl-c	ldl-c_SIM20, SIM40	plasma	20.0	weeks	5.0328393	mmol/l	0.4444443	1.47405498331215	4.588395
+Moelgaard1988	FH	11.0	SIM20, SIM40	concentration	ldl-c	ldl-c_SIM20, SIM40	plasma	24.0	weeks	5.178272	mmol/l	0.4197533	1.39216420061349	4.7585187
+Moelgaard1988	FH	11.0	SIM20, SIM40	concentration	cholesterol	cholesterol_SIM20, SIM40	plasma	0.0	weeks	10.5438175	mmol/l	0.5438055	1.80359880243161	10.000012
+Moelgaard1988	FH	11.0	SIM20, SIM40	concentration	cholesterol	cholesterol_SIM20, SIM40	plasma	4.0	weeks	7.19738	mmol/l	0.3456835	1.14650246571682	6.8516965
+Moelgaard1988	FH	11.0	SIM20, SIM40	concentration	cholesterol	cholesterol_SIM20, SIM40	plasma	8.0	weeks	7.209744	mmol/l	0.5185247	1.7197518744316	6.6912193
+Moelgaard1988	FH	11.0	SIM20, SIM40	concentration	cholesterol	cholesterol_SIM20, SIM40	plasma	12.0	weeks	6.7037306	mmol/l	0.4443026	1.47358501757936	6.259428
+Moelgaard1988	FH	11.0	SIM20, SIM40	concentration	cholesterol	cholesterol_SIM20, SIM40	plasma	16.0	weeks	6.6420197	mmol/l	0.4691414	1.55596599742204	6.1728783
+Moelgaard1988	FH	11.0	SIM20, SIM40	concentration	cholesterol	cholesterol_SIM20, SIM40	plasma	20.0	weeks	6.4813952	mmol/l	0.3953609	1.31126376207722	6.0860343
+Moelgaard1988	FH	11.0	SIM20, SIM40	concentration	cholesterol	cholesterol_SIM20, SIM40	plasma	24.0	weeks	6.6915874	mmol/l	0.370227799999999	1.22790669955874	6.3213596
+Moelgaard1988	FH	11.0	SIM20	concentration	ldl-c	ldl-c_SIM20	plasma	0.0	weeks	8.906173	mmol/l	0.468888999999999	1.55512888132495	9.375062
+Moelgaard1988	FH	11.0	SIM20	concentration	ldl-c	ldl-c_SIM20	plasma	4.0	weeks	5.7901235	mmol/l	0.4444445	1.47405564663711	5.345679
+Moelgaard1988	FH	11.0	SIM20	concentration	ldl-c	ldl-c_SIM20	plasma	8.0	weeks	5.662963	mmol/l	0.42	1.39298241194927	5.242963

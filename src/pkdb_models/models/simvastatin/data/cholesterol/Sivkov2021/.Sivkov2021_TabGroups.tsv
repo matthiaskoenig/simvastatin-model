@@ -1,0 +1,57 @@
+study	name	parent	measurement_type	group_count	choice	substance	count	mean	median	unit	sd	min	max	comment
+Sivkov2021	all	NA	species	180.0	homo sapiens	NA	180.0	NA	NA	NA	NA	NA	NA	NA
+Sivkov2021	all	NA	healthy	180.0	N	NA	180.0	NA	NA	NA	NA	NA	NA	NA
+Sivkov2021	all	NA	age	180.0	NA	NA	NA	NA	NA	NA	NA	40.0	75.0	NA
+Sivkov2021	all	NA	sex	180.0	M	NA	43.0	NA	NA	NA	NA	NA	NA	NA
+Sivkov2021	all	NA	sex	180.0	F	NA	137.0	NA	NA	NA	NA	NA	NA	NA
+Sivkov2021	all	NA	disease	180.0	hypercholesterolemia	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Sivkov2021	group_521	all	slco1b1-genotype	90.0	c.521 T/T, c.521 T/C , c.521 C/C 	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Sivkov2021	group_3435	all	abcb1-genotype	90.0	C3435T C/C, C3435T T/C, C3435T T/T  	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Sivkov2021	subgroup_rosu_521	group_521	slco1b1-genotype	30.0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Sivkov2021	subgroup_rosu_521TT	subgroup_rosu_521	slco1b1-genotype	15.0	c.521 T/T	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Sivkov2021	subgroup_rosu_521TC	subgroup_rosu_521	slco1b1-genotype	9.0	c.521 T/C	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Sivkov2021	subgroup_rosu_521CC	subgroup_rosu_521	slco1b1-genotype	6.0	c.521 C/C	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Sivkov2021	subgroup_ato_521	group_521	slco1b1-genotype	30.0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Sivkov2021	subgroup_ato_521TT	subgroup_ato_521	slco1b1-genotype	16.0	c.521 T/T	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Sivkov2021	subgroup_ato_521TC	subgroup_ato_521	slco1b1-genotype	8.0	c.521 T/C	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Sivkov2021	subgroup_ato_521CC	subgroup_ato_521	slco1b1-genotype	6.0	c.521 C/C	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Sivkov2021	subgroup_sim_521	group_521	slco1b1-genotype	30.0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Sivkov2021	subgroup_sim_521TT	subgroup_sim_521	slco1b1-genotype	12.0	c.521 T/T	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Sivkov2021	subgroup_sim_521TC	subgroup_sim_521	slco1b1-genotype	10.0	c.521 T/C	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Sivkov2021	subgroup_sim_521CC	subgroup_sim_521	slco1b1-genotype	8.0	c.521 C/C	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Sivkov2021	subgroup_rosu_3435	group_3435	abcb1-genotype	30.0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Sivkov2021	subgroup_rosu_3435CC	subgroup_rosu_3435	abcb1-genotype	8.0	C3435T C/C	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Sivkov2021	subgroup_rosu_3435TC	subgroup_rosu_3435	abcb1-genotype	15.0	C3435T T/C	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Sivkov2021	subgroup_rosu_3435TT	subgroup_rosu_3435	abcb1-genotype	7.0	C3435T T/T	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Sivkov2021	subgroup_ato_3435	group_3435	abcb1-genotype	30.0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Sivkov2021	subgroup_ato_3435CC	subgroup_ato_3435	abcb1-genotype	9.0	C3435T C/C	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Sivkov2021	subgroup_ato_3435TC	subgroup_ato_3435	abcb1-genotype	14.0	C3435T T/C	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Sivkov2021	subgroup_ato_3435TT	subgroup_ato_3435	abcb1-genotype	7.0	C3435T T/T	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Sivkov2021	subgroup_sim_3435	group_3435	abcb1-genotype	30.0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Sivkov2021	subgroup_sim_3435CC	subgroup_sim_3435	abcb1-genotype	7.0	C3435T C/C	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Sivkov2021	subgroup_sim_3435TC	subgroup_sim_3435	abcb1-genotype	15.0	C3435T T/C	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Sivkov2021	subgroup_sim_3435TT	subgroup_sim_3435	abcb1-genotype	8.0	C3435T T/T	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Sivkov2021	subgroup_rosu_521	group_521	sex	30.0	M	NA	24.0	NA	NA	NA	NA	NA	NA	NA
+Sivkov2021	subgroup_rosu_521	group_521	sex	30.0	F	NA	NA	55.2	NA	NA	1.47	NA	NA	NA
+Sivkov2021	subgroup_rosu_521	group_521	age	30.0	NA	NA	NA	55.2	NA	NA	1.47	NA	NA	NA
+Sivkov2021	subgroup_rosu_521	group_521	disease	30.0	hypertension	NA	25.0	NA	NA	NA	NA	NA	NA	Arterial hypertension degree I-II
+Sivkov2021	subgroup_rosu_3435	group_3435	sex	30.0	M	NA	8.0	NA	NA	NA	NA	NA	NA	M
+Sivkov2021	subgroup_rosu_3435	group_3435	sex	30.0	F	NA	22.0	NA	NA	NA	NA	NA	NA	F
+Sivkov2021	subgroup_rosu_3435	group_3435	age	30.0	NA	NA	NA	54.7	NA	NA	1.42	NA	NA	NA
+Sivkov2021	subgroup_rosu_3435	group_3435	disease	30.0	hypertension	NA	24.0	NA	NA	NA	NA	NA	NA	Arterial hypertension degree I-II
+Sivkov2021	subgroup_ato_521	group_521	sex	30.0	M	NA	7.0	NA	NA	NA	NA	NA	NA	M
+Sivkov2021	subgroup_ato_521	group_521	sex	30.0	F	NA	23.0	NA	NA	NA	NA	NA	NA	F
+Sivkov2021	subgroup_ato_521	group_521	age	30.0	NA	NA	NA	57.3	NA	NA	1.59	NA	NA	NA
+Sivkov2021	subgroup_ato_521	group_521	disease	30.0	hypertension	NA	29.0	NA	NA	NA	NA	NA	NA	Arterial hypertension degree I-II
+Sivkov2021	subgroup_ato_3435	group_3435	sex	30.0	M	NA	9.0	NA	NA	NA	NA	NA	NA	M
+Sivkov2021	subgroup_ato_3435	group_3435	sex	30.0	F	NA	21.0	NA	NA	NA	NA	NA	NA	F
+Sivkov2021	subgroup_ato_3435	group_3435	age	30.0	NA	NA	NA	58.2	NA	NA	1.61	NA	NA	NA
+Sivkov2021	subgroup_ato_3435	group_3435	disease	30.0	hypertension	NA	27.0	NA	NA	NA	NA	NA	NA	Arterial hypertension degree I-II
+Sivkov2021	subgroup_sim_521	group_521	sex	30.0	M	NA	5.0	NA	NA	NA	NA	NA	NA	M
+Sivkov2021	subgroup_sim_521	group_521	sex	30.0	F	NA	25.0	NA	NA	NA	NA	NA	NA	F
+Sivkov2021	subgroup_sim_521	group_521	age	30.0	NA	NA	NA	55.9	NA	NA	1.63	NA	NA	NA
+Sivkov2021	subgroup_sim_521	group_521	disease	30.0	hypertension	NA	30.0	NA	NA	NA	NA	NA	NA	Arterial hypertension degree I-II
+Sivkov2021	subgroup_sim_3435	group_3435	sex	30.0	M	NA	8.0	NA	NA	NA	NA	NA	NA	M
+Sivkov2021	subgroup_sim_3435	group_3435	sex	30.0	F	NA	22.0	NA	NA	NA	NA	NA	NA	F
+Sivkov2021	subgroup_sim_3435	group_3435	age	30.0	NA	NA	NA	56.8	NA	NA	1.54	NA	NA	NA
+Sivkov2021	subgroup_sim_3435	group_3435	disease	30.0	hypertension	NA	28.0	NA	NA	NA	NA	NA	NA	Arterial hypertension degree I-II

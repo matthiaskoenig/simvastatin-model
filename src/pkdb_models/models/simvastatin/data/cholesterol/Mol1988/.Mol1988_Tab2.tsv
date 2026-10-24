@@ -1,0 +1,31 @@
+study	group	count	intervention	measurement_type	substance	method	tissue	label	time	time_unit	mean	sd	se	unit
+Mol1988	group1	10	SIM_10mg_twice	concentration	cholesterol	enzymatic assay	serum	SIM_10mg_twice_cholesterol	0	weeks	11.74	1.9	0.600832755431992	mmol/l
+Mol1988	group1	10	SIM_20mg_twice	concentration	cholesterol	enzymatic assay	serum	SIM_20mg_twice_cholesterol	12	weeks	7.21	1.39	0.439556594763405	mmol/l
+Mol1988	group1	10	SIM_20mg_twice	concentration	cholesterol	enzymatic assay	serum	SIM_20mg_twice_cholesterol	16	weeks	7.41	1.67	0.528100369248119	mmol/l
+Mol1988	group1	10	SIM_20mg_twice	concentration	cholesterol	enzymatic assay	serum	SIM_20mg_twice_cholesterol	20	weeks	7.18	1.42	0.44904342774391	mmol/l
+Mol1988	group1	10	SIM_20mg_twice	concentration	cholesterol	enzymatic assay	serum	SIM_20mg_twice_cholesterol	24	weeks	7.28	1.49	0.471179371365088	mmol/l
+Mol1988	group2	20	SIM_10mg_twice	concentration	cholesterol	enzymatic assay	serum	SIM_10mg_twice_cholesterol	0	weeks	11.17	1.98	0.442741459544958	mmol/l
+Mol1988	group2	20	SIM_20mg_twice	concentration	cholesterol	enzymatic assay	serum	SIM_20mg_twice_cholesterol	12	weeks	7.03	1.11	0.248203545502477	mmol/l
+Mol1988	group2	20	SIM_20mg_twice	concentration	cholesterol	enzymatic assay	serum	SIM_20mg_twice_cholesterol	16	weeks	7.06	1.09	0.243731409547477	mmol/l
+Mol1988	group2	20	SIM_40mg_once	concentration	cholesterol	enzymatic assay	serum	SIM_40mg_once_cholesterol	20	weeks	6.89	1.16	0.259383885389976	mmol/l
+Mol1988	group2	20	SIM_40mg_once	concentration	cholesterol	enzymatic assay	serum	SIM_40mg_once_cholesterol	24	weeks	7.09	1.2	0.268328157299975	mmol/l
+Mol1988	group3	8	SIM_10mg_twice	concentration	cholesterol	enzymatic assay	serum	SIM_10mg_twice_cholesterol	0	weeks	11.88	2.39	0.844992603517924	mmol/l
+Mol1988	group3	8	SIM_20mg_twice	concentration	cholesterol	enzymatic assay	serum	SIM_20mg_twice_cholesterol	12	weeks	6.92	1.7	0.601040764008565	mmol/l
+Mol1988	group3	8	SIM_20mg_twice	concentration	cholesterol	enzymatic assay	serum	SIM_20mg_twice_cholesterol	16	weeks	6.89	1.8	0.636396103067893	mmol/l
+Mol1988	group3	8	SIM_20mg_twice	concentration	cholesterol	enzymatic assay	serum	SIM_20mg_twice_cholesterol	20	weeks	6.7	1.68	0.5939696961967	mmol/l
+Mol1988	group3	8	SIM_40mg_once	concentration	cholesterol	enzymatic assay	serum	SIM_40mg_once_cholesterol	24	weeks	7.37	2.12	0.74953318805774	mmol/l
+Mol1988	group1	10	SIM_10mg_twice	concentration	ldl-c	NR	serum	SIM_10mg_twice_ldl-c	0	weeks	10.03	1.99	0.629293254373507	mmol/l
+Mol1988	group1	10	SIM_20mg_twice	concentration	ldl-c	NR	serum	SIM_20mg_twice_ldl-c	12	weeks	5.57	1.4	0.442718872423573	mmol/l
+Mol1988	group1	10	SIM_20mg_twice	concentration	ldl-c	NR	serum	SIM_20mg_twice_ldl-c	16	weeks	5.7	1.69	0.534424924568456	mmol/l
+Mol1988	group1	10	SIM_20mg_twice	concentration	ldl-c	NR	serum	SIM_20mg_twice_ldl-c	20	weeks	5.58	1.46	0.461692538384583	mmol/l
+Mol1988	group1	10	SIM_20mg_twice	concentration	ldl-c	NR	serum	SIM_20mg_twice_ldl-c	24	weeks	5.61	1.52	0.480666204345594	mmol/l
+Mol1988	group2	20	SIM_10mg_twice	concentration	ldl-c	NR	serum	SIM_10mg_twice_ldl-c	0	weeks	9.39	1.93	0.431561119657459	mmol/l
+Mol1988	group2	20	SIM_20mg_twice	concentration	ldl-c	NR	serum	SIM_20mg_twice_ldl-c	12	weeks	5.32	1.05	0.234787137637478	mmol/l
+Mol1988	group2	20	SIM_20mg_twice	concentration	ldl-c	NR	serum	SIM_20mg_twice_ldl-c	16	weeks	5.31	1.17	0.261619953367475	mmol/l
+Mol1988	group2	20	SIM_40mg_once	concentration	ldl-c	NR	serum	SIM_40mg_once_ldl-c	20	weeks	5.19	1.13	0.252675681457476	mmol/l
+Mol1988	group2	20	SIM_40mg_once	concentration	ldl-c	NR	serum	SIM_40mg_once_ldl-c	24	weeks	5.46	1.19	0.266092089322475	mmol/l
+Mol1988	group3	8	SIM_10mg_twice	concentration	ldl-c	NR	serum	SIM_10mg_twice_ldl-c	0	weeks	10.05	1.97	0.696500179468749	mmol/l
+Mol1988	group3	8	SIM_20mg_twice	concentration	ldl-c	NR	serum	SIM_20mg_twice_ldl-c	12	weeks	5.24	1.39	0.491439212924651	mmol/l
+Mol1988	group3	8	SIM_20mg_twice	concentration	ldl-c	NR	serum	SIM_20mg_twice_ldl-c	16	weeks	5.24	1.51	0.533865619795843	mmol/l
+Mol1988	group3	8	SIM_20mg_twice	concentration	ldl-c	NR	serum	SIM_20mg_twice_ldl-c	20	weeks	5.1	1.42	0.502045814642449	mmol/l
+Mol1988	group3	8	SIM_40mg_once	concentration	ldl-c	NR	serum	SIM_40mg_once_ldl-c	24	weeks	5.67	1.79	0.63286056916196	mmol/l

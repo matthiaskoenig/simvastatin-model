@@ -1,0 +1,19 @@
+study	name	parent	measurement_type	group_count	choice	substance	count	mean	median	sd	min	max	unit	fraction
+Recto2000	all	NA	species	258.0	homo sapiens	NA	258.0	NA	NA	NA	NA	NA	NA	NA
+Recto2000	all	NA	healthy	258.0	N	NA	258.0	NA	NA	NA	NA	NA	NA	NA
+Recto2000	all	NA	sex	258.0	M	NA	132.0	NA	NA	NA	NA	NA	NA	NA
+Recto2000	all	NA	sex	258.0	F	NA	126.0	NA	NA	NA	NA	NA	NA	NA
+Recto2000	all	NA	concentration	258.0	NA	ldl-c	258.0	193.4	183.0	53.8	105.0	429.0	mg/dl	NA
+Recto2000	all	NA	concentration	257.0	NA	cholesterol	257.0	277.4	269.0	58.2	184.0	657.0	mg/dl	NA
+Recto2000	all	NA	concentration	257.0	NA	hdl-c	257.0	47.2	46.0	12.2	10.0	96.0	mg/dl	NA
+Recto2000	all	NA	concentration	257.0	NA	triglyceride	257.0	181.3	166.0	79.6	52.0	526.0	mg/dl	NA
+Recto2000	all	NA	concentration	257.0	NA	apoB100+48	257.0	177.4	171.0	42.1	98.0	501.0	mg/dl	NA
+Recto2000	all	NA	metabolic ratio	257.0	NA	ldl/hdl-c	257.0	4.5	3.9	3.0	1.6	42.9	dimensionless	NA
+Recto2000	all	NA	metabolic ratio	257.0	NA	total/hdl-c	257.0	6.4	5.8	4.2	2.9	65.7	dimensionless	NA
+Recto2000	all	NA	consumption	257.0	NA	cholesterol	257.0	NA	NA	NA	NA	300.0	mg/day	NA
+Recto2000	all	NA	age	258.0	NA	NA	258.0	NA	55.0	NA	21.0	70.0	yr	NA
+Recto2000	all	NA	alcohol amount	258.0	NA	NA	258.0	NA	NA	NA	NA	10.0	1/week	NA
+Recto2000	all	NA	ethnicity	258.0	caucasian	NA	165.0	NA	NA	NA	NA	NA	NA	64.0
+Recto2000	all	NA	ethnicity	258.0	hispanic	NA	41.0	NA	NA	NA	NA	NA	NA	16.0
+Recto2000	all	NA	ethnicity	258.0	asian	NA	31.0	NA	NA	NA	NA	NA	NA	12.0
+Recto2000	all	NA	ethnicity	258.0	black	NA	5.0	NA	NA	NA	NA	NA	NA	2.0

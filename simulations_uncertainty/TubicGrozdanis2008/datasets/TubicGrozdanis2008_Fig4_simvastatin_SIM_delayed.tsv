@@ -1,0 +1,19 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	mean_se	pm	mean_sd	mean_unit	count_unit
+TubicGrozdanis2008	all	7	simvastatin_SIM_delayed	SIM_delayed	concentration	simvastatin	plasma	LC MS/MS	0.0	hr	0.0				mole/meter^3	dimensionless
+TubicGrozdanis2008	all	7	simvastatin_SIM_delayed	SIM_delayed	concentration	simvastatin	plasma	LC MS/MS	0.5	hr	3.237012661251791e-08				mole/meter^3	dimensionless
+TubicGrozdanis2008	all	7	simvastatin_SIM_delayed	SIM_delayed	concentration	simvastatin	plasma	LC MS/MS	1.0	hr	3.237012661251791e-08				mole/meter^3	dimensionless
+TubicGrozdanis2008	all	7	simvastatin_SIM_delayed	SIM_delayed	concentration	simvastatin	plasma	LC MS/MS	1.5	hr	0.0				mole/meter^3	dimensionless
+TubicGrozdanis2008	all	7	simvastatin_SIM_delayed	SIM_delayed	concentration	simvastatin	plasma	LC MS/MS	2.0	hr	1.132954491161013e-07				mole/meter^3	dimensionless
+TubicGrozdanis2008	all	7	simvastatin_SIM_delayed	SIM_delayed	concentration	simvastatin	plasma	LC MS/MS	2.5	hr	2.1040582895365502e-07				mole/meter^3	dimensionless
+TubicGrozdanis2008	all	7	simvastatin_SIM_delayed	SIM_delayed	concentration	simvastatin	plasma	LC MS/MS	3.0	hr	5.826623029144768e-07	2.427759675107501e-07	0.14227642	6.423248343365409e-07	mole/meter^3	dimensionless
+TubicGrozdanis2008	all	7	simvastatin_SIM_delayed	SIM_delayed	concentration	simvastatin	plasma	LC MS/MS	3.5	hr	1.5052109412326802e-06	4.369967510750119e-07	0.44715446	1.1561847270876779e-06	mole/meter^3	dimensionless
+TubicGrozdanis2008	all	7	simvastatin_SIM_delayed	SIM_delayed	concentration	simvastatin	plasma	LC MS/MS	4.0	hr	2.184983683707597e-06				mole/meter^3	dimensionless
+TubicGrozdanis2008	all	7	simvastatin_SIM_delayed	SIM_delayed	concentration	simvastatin	plasma	LC MS/MS	5.0	hr	8.610453893932155e-06	1.8936524128045866e-06	2.8116531	5.010133353878355e-06	mole/meter^3	dimensionless
+TubicGrozdanis2008	all	7	simvastatin_SIM_delayed	SIM_delayed	concentration	simvastatin	plasma	LC MS/MS	6.0	hr	9.031265647396081e-06	1.7803569039655993e-06	3.0352304	4.710381612829884e-06	mole/meter^3	dimensionless
+TubicGrozdanis2008	all	7	simvastatin_SIM_delayed	SIM_delayed	concentration	simvastatin	plasma	LC MS/MS	8.0	hr	6.6196913521261345e-06	1.1976951743908264e-06	2.2696476	3.1688035779002624e-06	mole/meter^3	dimensionless
+TubicGrozdanis2008	all	7	simvastatin_SIM_delayed	SIM_delayed	concentration	simvastatin	plasma	LC MS/MS	10.0	hr	5.308701146679406e-06	9.549190157668418e-07	1.8224932	2.526478237925633e-06	mole/meter^3	dimensionless
+TubicGrozdanis2008	all	7	simvastatin_SIM_delayed	SIM_delayed	concentration	simvastatin	plasma	LC MS/MS	12.0	hr	4.046266125179168e-06	6.635876731963689e-07	1.4159892	1.7556879563655946e-06	mole/meter^3	dimensionless
+TubicGrozdanis2008	all	7	simvastatin_SIM_delayed	SIM_delayed	concentration	simvastatin	plasma	LC MS/MS	16.0	hr	2.6705355948399423e-06	5.502921643573817e-07	0.8875339	1.4559362153171142e-06	mole/meter^3	dimensionless
+TubicGrozdanis2008	all	7	simvastatin_SIM_delayed	SIM_delayed	concentration	simvastatin	plasma	LC MS/MS	20.0	hr	1.828912326803631e-06	3.398865265169613e-07	0.6233062	8.992552231454395e-07	mole/meter^3	dimensionless
+TubicGrozdanis2008	all	7	simvastatin_SIM_delayed	SIM_delayed	concentration	simvastatin	plasma	LC MS/MS	24.0	hr	1.79654204491161e-06	4.369966555183946e-07	0.5691057	1.1561844742686336e-06	mole/meter^3	dimensionless
+TubicGrozdanis2008	all	7	simvastatin_SIM_delayed	SIM_delayed	concentration	simvastatin	plasma	LC MS/MS	30.0	hr	1.0358440754897276e-06	1.618505972288581e-07	0.36585367	4.282164298148375e-07	mole/meter^3	dimensionless

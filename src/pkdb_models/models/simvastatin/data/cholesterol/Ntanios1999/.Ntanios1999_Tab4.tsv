@@ -1,0 +1,15 @@
+study	group	count	intervention	measurement_type	substance	tissue	time	time_unit	mean	sd	se	baseline	baseline_sd	unit	percentage_change	percentage_change_sd
+Ntanios1999	SIM40	7	SIM40	concentration	cholesterol	plasma	24	weeks	3.86152	1.4053	0.531153473919867	9.91	1.31	mmol/l	63.2	23.0
+Ntanios1999	SIM80	11	SIM80	concentration	cholesterol	plasma	24	weeks	4.35032	1.9552	0.589514980918443	10.17	2.17	mmol/l	71.2	32.0
+Ntanios1999	SIM40	7	SIM40	concentration	ldl-c	plasma	24	weeks	3.91616	1.79772	0.679474292418148	7.69	1.51	mmol/l	92.8	42.6
+Ntanios1999	SIM80	11	SIM80	concentration	ldl-c	plasma	24	weeks	4.15248	1.84414	0.556029130989637	8.12	2.17	mmol/l	98.4	43.7
+Ntanios1999	SIM40	7	SIM40	concentration	hdl-c	plasma	24	weeks	1.1525	0.19875	0.0751204390105839	1.25	0.36	mmol/l	-7.8	15.9
+Ntanios1999	SIM80	11	SIM80	concentration	hdl-c	plasma	24	weeks	1.23125	0.25625	0.0772622820480519	1.13	0.28	mmol/l	-1.5	20.5
+Ntanios1999	SIM40	7	SIM40	concentration	triglyceride	plasma	24	weeks	0.51125	0.91375	0.345365037212181	2.12	1.45	mmol/l	40.9	73.1
+Ntanios1999	SIM80	11	SIM80	concentration	triglyceride	plasma	24	weeks	0.725	0.5975	0.180153028385214	1.99	0.64	mmol/l	58.0	47.8
+Ntanios1999	SIM40	7	SIM40	concentration	campesterol	plasma	24	weeks	0.00676	0.0145	0.00548048485863379	0.026	0.01	mmol/l	33.8	72.5
+Ntanios1999	SIM80	11	SIM80	concentration	campesterol	plasma	24	weeks	0.01282	0.01666	0.00502317900066554	0.026	0.017	mmol/l	64.1	83.3
+Ntanios1999	SIM40	7	SIM40	concentration	stigmasterol	plasma	24	weeks	0.0066	0.0022	0.0008315218406203	0.01	0.007	mmol/l	-34.0	22.0
+Ntanios1999	SIM80	11	SIM80	concentration	stigmasterol	plasma	24	weeks	0.00706	0.00352	0.00106131993291373	0.012	0.008	mmol/l	-29.4	35.2
+Ntanios1999	SIM40	7	SIM40	concentration	sitosterol	plasma	24	weeks	0.024208	0.014722	0.00556439297164184	0.037	0.011	mmol/l	-28.8	43.3
+Ntanios1999	SIM80	11	SIM80	concentration	sitosterol	plasma	24	weeks	0.029342	0.017442	98.4	0.043	0.024	mmol/l	-13.7	51.3

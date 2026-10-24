@@ -1,0 +1,56 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	sd	se	pm	unit
+Gehin2015	all	22	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	0.0	hr	na	na	na	na	ng/ml
+Gehin2015	all	22	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	0.5	hr	5.2777267	6.1579053	1.31286982121001	11.435632	ng/ml
+Gehin2015	all	22	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	1.0	hr	5.8637123	3.5639227	0.759830872676021	9.427635	ng/ml
+Gehin2015	all	22	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	1.5	hr	6.9910507	5.7293513	1.22150180141295	12.720402	ng/ml
+Gehin2015	all	22	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	2.0	hr	5.4341984	4.2857266	0.913719981224295	9.719925	ng/ml
+Gehin2015	all	22	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	2.5	hr	4.7344713	3.2706897	0.697313387016916	8.005161	ng/ml
+Gehin2015	all	22	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	3.0	hr	3.831754	2.5442	0.54244	6.376	ng/ml
+Gehin2015	all	22	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	4.0	hr	2.522542	1.5385	0.328	4.061	ng/ml
+Gehin2015	all	22	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	5.0	hr	2.2735136	1.6691539	0.355864807187761	3.9426675	ng/ml
+Gehin2015	all	22	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	6.0	hr	1.618402	1.285747	0.274122181452077	2.904149	ng/ml
+Gehin2015	all	22	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	8.0	hr	1.4811956	1.9849774	0.423198603629697	3.466173	ng/ml
+Gehin2015	all	22	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	12.0	hr	0.9134985	1.6466662	0.351070413438571	2.5601647	ng/ml
+Gehin2015	all	22	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	16.0	hr	0.5037645	0.6992645	0.149083692322048	1.203029	ng/ml
+Gehin2015	all	22	SIM_simvastatin	SIM	concentration	simvastatin	plasma	LC MS/MS	24.0	hr	0.27067637	0.58661973	0.125067746664335	0.8572961	ng/ml
+Gehin2015	all	22	SIM_SET_simvastatin	SIM,SET	concentration	simvastatin	plasma	LC MS/MS	0.0	hr	na	na	na	na	ng/ml
+Gehin2015	all	22	SIM_SET_simvastatin	SIM,SET	concentration	simvastatin	plasma	LC MS/MS	0.5	hr	3.2476537	3.203020893	0.682886348889587	0.044632807	ng/ml
+Gehin2015	all	22	SIM_SET_simvastatin	SIM,SET	concentration	simvastatin	plasma	LC MS/MS	1.0	hr	5.796043	4.6240548	0.985851795827599	1.1719882	ng/ml
+Gehin2015	all	22	SIM_SET_simvastatin	SIM,SET	concentration	simvastatin	plasma	LC MS/MS	1.5	hr	5.479791	3.8796774	0.827150000908672	1.6001136	ng/ml
+Gehin2015	all	22	SIM_SET_simvastatin	SIM,SET	concentration	simvastatin	plasma	LC MS/MS	2.0	hr	4.7800813	3.2030383	0.682890060074457	1.577043	ng/ml
+Gehin2015	all	22	SIM_SET_simvastatin	SIM,SET	concentration	simvastatin	plasma	LC MS/MS	2.5	hr	4.6217237	2.4361215	0.519382848929304	2.1856022	ng/ml
+Gehin2015	all	22	SIM_SET_simvastatin	SIM,SET	concentration	simvastatin	plasma	LC MS/MS	3.0	hr	4.170082	2.0074991	0.428000246203243	2.1625829	ng/ml
+Gehin2015	all	22	SIM_SET_simvastatin	SIM,SET	concentration	simvastatin	plasma	LC MS/MS	4.0	hr	3.1766768	2.1428548	0.456858178406058	1.033822	ng/ml
+Gehin2015	all	22	SIM_SET_simvastatin	SIM,SET	concentration	simvastatin	plasma	LC MS/MS	5.0	hr	2.296053	1.5563722	0.331819667955957	0.7396808	ng/ml
+Gehin2015	all	22	SIM_SET_simvastatin	SIM,SET	concentration	simvastatin	plasma	LC MS/MS	6.0	hr	1.5056546	1.01501938	0.216402858930828	0.49063522	ng/ml
+Gehin2015	all	22	SIM_SET_simvastatin	SIM,SET	concentration	simvastatin	plasma	LC MS/MS	8.0	hr	0.8721737	0.51879636	0.110607755594683	0.35337734	ng/ml
+Gehin2015	all	22	SIM_SET_simvastatin	SIM,SET	concentration	simvastatin	plasma	LC MS/MS	12.0	hr	0.37219715	0.248137145	0.052903017068436	0.124060005	ng/ml
+Gehin2015	all	22	SIM_SET_simvastatin	SIM,SET	concentration	simvastatin	plasma	LC MS/MS	16.0	hr	0.23308815	0.1671	0.03562	0.066	ng/ml
+Gehin2015	all	22	SIM_SET_simvastatin	SIM,SET	concentration	simvastatin	plasma	LC MS/MS	24.0	hr	0.082	na	na	na	ng/ml
+Gehin2015	all	22	SIM_SET_simvastatin acid	SIM,SET	concentration	simvastatin acid	plasma	LC MS/MS	0.0	hr	na	na	na	na	ng/ml
+Gehin2015	all	22	SIM_SET_simvastatin acid	SIM,SET	concentration	simvastatin acid	plasma	LC MS/MS	0.5	hr	0.5657504	0.5782983	0.123293611827232	1.1440487	ng/ml
+Gehin2015	all	22	SIM_SET_simvastatin acid	SIM,SET	concentration	simvastatin acid	plasma	LC MS/MS	1.0	hr	2.5561874	2.0532143	0.437746759591583	4.6094017	ng/ml
+Gehin2015	all	22	SIM_SET_simvastatin acid	SIM,SET	concentration	simvastatin acid	plasma	LC MS/MS	1.5	hr	3.652075	3.254007	0.693756623426171	6.906082	ng/ml
+Gehin2015	all	22	SIM_SET_simvastatin acid	SIM,SET	concentration	simvastatin acid	plasma	LC MS/MS	2.0	hr	3.5521643	3.0401507	0.648162307069011	6.592315	ng/ml
+Gehin2015	all	22	SIM_SET_simvastatin acid	SIM,SET	concentration	simvastatin acid	plasma	LC MS/MS	2.5	hr	3.660112	3.152608	0.672138283988428	6.81272	ng/ml
+Gehin2015	all	22	SIM_SET_simvastatin acid	SIM,SET	concentration	simvastatin acid	plasma	LC MS/MS	3.0	hr	3.5692508	2.6566342	0.566396314534814	6.225885	ng/ml
+Gehin2015	all	22	SIM_SET_simvastatin acid	SIM,SET	concentration	simvastatin acid	plasma	LC MS/MS	4.0	hr	2.797137	3.279124	0.699111585818875	6.076261	ng/ml
+Gehin2015	all	22	SIM_SET_simvastatin acid	SIM,SET	concentration	simvastatin acid	plasma	LC MS/MS	5.0	hr	1.4678773	1.7078047	0.364105185435478	3.175682	ng/ml
+Gehin2015	all	22	SIM_SET_simvastatin acid	SIM,SET	concentration	simvastatin acid	plasma	LC MS/MS	6.0	hr	0.8855174	0.3694876	0.0787750210045153	0.5160298	ng/ml
+Gehin2015	all	22	SIM_SET_simvastatin acid	SIM,SET	concentration	simvastatin acid	plasma	LC MS/MS	8.0	hr	0.47083703	0.25800428	0.0550066973188135	0.21283275	ng/ml
+Gehin2015	all	22	SIM_SET_simvastatin acid	SIM,SET	concentration	simvastatin acid	plasma	LC MS/MS	12.0	hr	0.171	na	na	na	ng/ml
+Gehin2015	all	22	SIM_SET_simvastatin acid	SIM,SET	concentration	simvastatin acid	plasma	LC MS/MS	16.0	hr	0.097	na	na	na	ng/ml
+Gehin2015	all	22	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	0.0	hr	na	na	na	na	ng/ml
+Gehin2015	all	22	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	0.5	hr	0.39302218	0.32528229	0.0693504172457934	0.06773989	ng/ml
+Gehin2015	all	22	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	1.0	hr	0.70980597	0.41766975	0.0890474899000687	0.29213622	ng/ml
+Gehin2015	all	22	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	1.5	hr	1.1109087	0.74698625	0.159258003607791	0.36392245	ng/ml
+Gehin2015	all	22	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	2.0	hr	1.198741	0.6666531	0.142130918480688	0.5320879	ng/ml
+Gehin2015	all	22	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	2.5	hr	1.302698	0.6987875	0.148981995580346	0.6039105	ng/ml
+Gehin2015	all	22	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	3.0	hr	1.3664461	0.7429702	0.158401778870871	0.6234759	ng/ml
+Gehin2015	all	22	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	4.0	hr	1.3895248	0.718886	0.153267010178019	0.6706388	ng/ml
+Gehin2015	all	22	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	5.0	hr	1.6134366	0.8594238	0.183229769813061	0.7540128	ng/ml
+Gehin2015	all	22	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	6.0	hr	1.2188455	0.6947715	0.148125781503462	0.524074	ng/ml
+Gehin2015	all	22	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	8.0	hr	1.256995	0.36947713	0.078772788793015	0.88751787	ng/ml
+Gehin2015	all	22	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	12.0	hr	0.6867394	0.3052081	0.0650705855575348	0.3815313	ng/ml
+Gehin2015	all	22	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	16.0	hr	0.44173577	0.25299935	0.0539396426575038	0.18873642	ng/ml
+Gehin2015	all	22	SIM_simvastatin acid	SIM	concentration	simvastatin acid	plasma	LC MS/MS	24.0	hr	na	na	na	na	ng/ml

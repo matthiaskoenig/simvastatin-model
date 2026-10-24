@@ -1,0 +1,5 @@
+id	experiment	mapping	cost	type
+Backman2000_fm_simva	Backman2000	fm_simva	743.8788478202392	initial
+Backman2000_fm_simva	Backman2000	fm_simva	0.1188742059486076	fit
+Backman2000_fm_simacid	Backman2000	fm_simacid	26.798950264205548	initial
+Backman2000_fm_simacid	Backman2000	fm_simacid	0.06975958672115849	fit

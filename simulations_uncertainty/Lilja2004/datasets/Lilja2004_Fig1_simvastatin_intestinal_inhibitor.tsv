@@ -1,0 +1,12 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	mean_sd	pm	mean_se	mean_unit	count_unit
+Lilja2004	all	10	SIM+GRA_simvastatin	SIM,GRA	concentration	simvastatin	plasma	HPLC MS/MS	0.0	hr	0.0				mole/meter^3	dimensionless
+Lilja2004	all	10	SIM+GRA_simvastatin	SIM,GRA	concentration	simvastatin	plasma	HPLC MS/MS	0.5	hr	1.1801242236024842e-06	1.0415671285236503e-06	0.632	3.296703296703297e-07	mole/meter^3	dimensionless
+Lilja2004	all	10	SIM+GRA_simvastatin	SIM,GRA	concentration	simvastatin	plasma	HPLC MS/MS	1.0	hr	1.6046344959388435e-05	9.338270425226944e-06	7.953	2.952699474438605e-06	mole/meter^3	dimensionless
+Lilja2004	all	10	SIM+GRA_simvastatin	SIM,GRA	concentration	simvastatin	plasma	HPLC MS/MS	2.0	hr	4.987816531294792e-05	2.251313903487816e-05	23.859	7.118967988533206e-06	mole/meter^3	dimensionless
+Lilja2004	all	10	SIM+GRA_simvastatin	SIM,GRA	concentration	simvastatin	plasma	HPLC MS/MS	3.0	hr	6.436454849498327e-05	3.305064500716674e-05	22.568	1.0451505016722406e-05	mole/meter^3	dimensionless
+Lilja2004	all	10	SIM+GRA_simvastatin	SIM,GRA	concentration	simvastatin	plasma	HPLC MS/MS	4.0	hr	3.940993788819876e-05	2.3244147157190635e-05	19.574	7.350692785475394e-06	mole/meter^3	dimensionless
+Lilja2004	all	10	SIM+GRA_simvastatin	SIM,GRA	concentration	simvastatin	plasma	HPLC MS/MS	6.0	hr	1.5618729096989968e-05	8.09842331581462e-06	7.61	2.560917343526039e-06	mole/meter^3	dimensionless
+Lilja2004	all	10	SIM+GRA_simvastatin	SIM,GRA	concentration	simvastatin	plasma	HPLC MS/MS	8.0	hr	7.317247969421882e-06	3.112756808408982e-06	3.475	9.842331581462013e-07	mole/meter^3	dimensionless
+Lilja2004	all	10	SIM+GRA_simvastatin	SIM,GRA	concentration	simvastatin	plasma	HPLC MS/MS	10.0	hr	4.462494027711419e-06	2.3865265169612994e-06	2.184	7.54897276636407e-07	mole/meter^3	dimensionless
+Lilja2004	all	10	SIM+GRA_simvastatin	SIM,GRA	concentration	simvastatin	plasma	HPLC MS/MS	12.0	hr	2.986144290492116e-06	1.760630673674152e-06	1.483	5.566172957477305e-07	mole/meter^3	dimensionless
+Lilja2004	all	10	SIM+GRA_simvastatin	SIM,GRA	concentration	simvastatin	plasma	HPLC MS/MS	24.0	hr	1.1490683229813662e-06	1.1419015766841854e-06	0.632	3.607262302914477e-07	mole/meter^3	dimensionless

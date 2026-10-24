@@ -1,0 +1,3 @@
+study	group	label	count	intervention	measurement_type	substance	tissue	time	time_unit	mean	mean_sd	mean_se	mean_unit	count_unit
+Kosoglou2002	SIM10+EZE1	SIM10+EZE1_triglyceride	12	SIM10,EZE1	concentration	triglyceride	serum	0	day	167.7	60.2753681033969	17.4	mg/dl	dimensionless
+Kosoglou2002	SIM10+EZE1	SIM10+EZE1_triglyceride	12	SIM10,EZE1	concentration	triglyceride	serum	13	day	144.3	66.1643408491311	19.1	mg/dl	dimensionless

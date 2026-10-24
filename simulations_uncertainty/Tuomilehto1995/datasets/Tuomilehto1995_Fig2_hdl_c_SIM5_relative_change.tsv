@@ -1,0 +1,6 @@
+study	group	count	intervention	measurement_type	substance	tissue	label	time	time_unit	mean	change	baseline	baseline_sd	baseline_unit	mean_unit	count_unit
+Tuomilehto1995	SIM5mg	28	SIM5	concentration change	hdl-c	serum	hdl-c_SIM5_concentration change	0	weeks	0.0	0.0	1.2	13.5	mM	percent	dimensionless
+Tuomilehto1995	SIM5mg	28	SIM5	concentration change	hdl-c	serum	hdl-c_SIM5_concentration change	2	weeks	4.679363	4.679363	1.2	13.5	mM	percent	dimensionless
+Tuomilehto1995	SIM5mg	28	SIM5	concentration change	hdl-c	serum	hdl-c_SIM5_concentration change	4	weeks	7.1549993	7.1549993	1.2	13.5	mM	percent	dimensionless
+Tuomilehto1995	SIM5mg	28	SIM5	concentration change	hdl-c	serum	hdl-c_SIM5_concentration change	6	weeks	3.0511234	3.0511234	1.2	13.5	mM	percent	dimensionless
+Tuomilehto1995	SIM5mg	28	SIM5	concentration change	hdl-c	serum	hdl-c_SIM5_concentration change	8	weeks	7.039488	7.039488	1.2	13.5	mM	percent	dimensionless

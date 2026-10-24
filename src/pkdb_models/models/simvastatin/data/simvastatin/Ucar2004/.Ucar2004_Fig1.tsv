@@ -1,0 +1,45 @@
+study	group	count	label	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	se	pm	sd	unit
+Ucar2004	all	12	SIM+CAR_simvastatin	SIM,CAR	concentration	simvastatin	serum	LC MS/MS	0.0	hr	0.025104603	na	na	na	ng/ml
+Ucar2004	all	12	SIM+CAR_simvastatin	SIM,CAR	concentration	simvastatin	serum	LC MS/MS	0.5	hr	2.209205	0.828452	3.037657	2.8698419112641	ng/ml
+Ucar2004	all	12	SIM+CAR_simvastatin	SIM,CAR	concentration	simvastatin	serum	LC MS/MS	1.0	hr	3.6401675	0.9037655	4.543933	3.13073552825578	ng/ml
+Ucar2004	all	12	SIM+CAR_simvastatin	SIM,CAR	concentration	simvastatin	serum	LC MS/MS	1.5	hr	3.1882846	0.6527195	3.8410041	2.26108667418191	ng/ml
+Ucar2004	all	12	SIM+CAR_simvastatin	SIM,CAR	concentration	simvastatin	serum	LC MS/MS	2.0	hr	2.8619246	0.577406	3.4393306	2.00019305719023	ng/ml
+Ucar2004	all	12	SIM+CAR_simvastatin	SIM,CAR	concentration	simvastatin	serum	LC MS/MS	3.0	hr	3.7154813	1.1046023	4.8200836	3.82645461151488	ng/ml
+Ucar2004	all	12	SIM+CAR_simvastatin	SIM,CAR	concentration	simvastatin	serum	LC MS/MS	4.0	hr	2.4351463	0.6025107	3.037657	2.08715828900778	ng/ml
+Ucar2004	all	12	SIM+CAR_simvastatin	SIM,CAR	concentration	simvastatin	serum	LC MS/MS	6.0	hr	1.1297071	0.3012552	1.4309623	1.04357862488865	ng/ml
+Ucar2004	all	12	SIM+CAR_simvastatin	SIM,CAR	concentration	simvastatin	serum	LC MS/MS	9.0	hr	0.57740587	na	na	na	ng/ml
+Ucar2004	all	12	SIM+CAR_simvastatin	SIM,CAR	concentration	simvastatin	serum	LC MS/MS	12.0	hr	0.37656903	na	na	na	ng/ml
+Ucar2004	all	12	SIM+CAR_simvastatin	SIM,CAR	concentration	simvastatin	serum	LC MS/MS	24.0	hr	0.17573221	na	na	na	ng/ml
+Ucar2004	all	12	SIM_simvastatin	SIM	concentration	simvastatin	serum	LC MS/MS	0.0	hr	0.025104603	na	na	na	ng/ml
+Ucar2004	all	12	SIM_simvastatin	SIM	concentration	simvastatin	serum	LC MS/MS	0.5	hr	7.3556485	1.8075315	9.16318	6.26147278856237	ng/ml
+Ucar2004	all	12	SIM_simvastatin	SIM	concentration	simvastatin	serum	LC MS/MS	1.0	hr	10.74477	1.832636	12.577406	6.34843732755959	ng/ml
+Ucar2004	all	12	SIM_simvastatin	SIM	concentration	simvastatin	serum	LC MS/MS	1.5	hr	10.117155	1.8577405	11.9748955	6.43540186655682	ng/ml
+Ucar2004	all	12	SIM_simvastatin	SIM	concentration	simvastatin	serum	LC MS/MS	2.0	hr	8.88703	1.280334	10.167364	4.43520707731578	ng/ml
+Ucar2004	all	12	SIM_simvastatin	SIM	concentration	simvastatin	serum	LC MS/MS	3.0	hr	12.351464	5.07113	17.422594	17.5669096235735	ng/ml
+Ucar2004	all	12	SIM_simvastatin	SIM	concentration	simvastatin	serum	LC MS/MS	4.0	hr	7.782427	2.435146	10.217573	8.43559319169624	ng/ml
+Ucar2004	all	12	SIM_simvastatin	SIM	concentration	simvastatin	serum	LC MS/MS	6.0	hr	4.2426777	0.8535566	5.0962343	2.95680679667149	ng/ml
+Ucar2004	all	12	SIM_simvastatin	SIM	concentration	simvastatin	serum	LC MS/MS	9.0	hr	2.5104601	0.5271969	3.037657	1.82626363278562	ng/ml
+Ucar2004	all	12	SIM_simvastatin	SIM	concentration	simvastatin	serum	LC MS/MS	12.0	hr	1.8828452	0.4518828	2.334728	1.56536793733297	ng/ml
+Ucar2004	all	12	SIM_simvastatin	SIM	concentration	simvastatin	serum	LC MS/MS	24.0	hr	0.6527197	na	na	na	ng/ml
+Ucar2004	all	12	SIM+CAR_simvastatin acid	SIM,CAR	concentration	simvastatin acid	serum	LC MS/MS	0.0	hr	0.011560708	na	na	na	ng/ml
+Ucar2004	all	12	SIM+CAR_simvastatin acid	SIM,CAR	concentration	simvastatin acid	serum	LC MS/MS	0.5	hr	0.1504126	na	na	na	ng/ml
+Ucar2004	all	12	SIM+CAR_simvastatin acid	SIM,CAR	concentration	simvastatin acid	serum	LC MS/MS	1.0	hr	0.37018454	0.09248072	0.46266526	0.320362611521102	ng/ml
+Ucar2004	all	12	SIM+CAR_simvastatin acid	SIM,CAR	concentration	simvastatin acid	serum	LC MS/MS	1.5	hr	0.5321529	0.1329432	0.6650961	0.460528753841582	ng/ml
+Ucar2004	all	12	SIM+CAR_simvastatin acid	SIM,CAR	concentration	simvastatin acid	serum	LC MS/MS	2.0	hr	0.63631773	0.15028427	0.786602	0.520599982436798	ng/ml
+Ucar2004	all	12	SIM+CAR_simvastatin acid	SIM,CAR	concentration	simvastatin acid	serum	LC MS/MS	3.0	hr	1.1221143	0.1734008	1.2955151	0.600677991346179	ng/ml
+Ucar2004	all	12	SIM+CAR_simvastatin acid	SIM,CAR	concentration	simvastatin acid	serum	LC MS/MS	4.0	hr	0.8102171	0.1387285	0.9489456	0.480569620915638	ng/ml
+Ucar2004	all	12	SIM+CAR_simvastatin acid	SIM,CAR	concentration	simvastatin acid	serum	LC MS/MS	6.0	hr	0.4580795	0.0578035	0.515883	0.200237197710615	ng/ml
+Ucar2004	all	12	SIM+CAR_simvastatin acid	SIM,CAR	concentration	simvastatin acid	serum	LC MS/MS	9.0	hr	0.22760081	na	na	na	ng/ml
+Ucar2004	all	12	SIM+CAR_simvastatin acid	SIM,CAR	concentration	simvastatin acid	serum	LC MS/MS	12.0	hr	0.118499726	na	na	na	ng/ml
+Ucar2004	all	12	SIM+CAR_simvastatin acid	SIM,CAR	concentration	simvastatin acid	serum	LC MS/MS	24.0	hr	0.052037995	na	na	na	ng/ml
+Ucar2004	all	12	SIM_simvastatin acid	SIM	concentration	simvastatin acid	serum	LC MS/MS	0.0	hr	0.00578529	na	na	na	ng/ml
+Ucar2004	all	12	SIM_simvastatin acid	SIM	concentration	simvastatin acid	serum	LC MS/MS	0.5	hr	0.40474325	0.13294815	0.5376914	0.460545901144576	ng/ml
+Ucar2004	all	12	SIM_simvastatin acid	SIM	concentration	simvastatin acid	serum	LC MS/MS	1.0	hr	1.2487984	0.3468064	1.5956048	1.20137261038011	ng/ml
+Ucar2004	all	12	SIM_simvastatin acid	SIM	concentration	simvastatin acid	serum	LC MS/MS	1.5	hr	1.6593269	0.4450723	2.1043992	1.54177567328308	ng/ml
+Ucar2004	all	12	SIM_simvastatin acid	SIM	concentration	simvastatin acid	serum	LC MS/MS	2.0	hr	1.9600188	0.4624284	2.4224472	1.60189896732557	ng/ml
+Ucar2004	all	12	SIM_simvastatin acid	SIM	concentration	simvastatin acid	serum	LC MS/MS	3.0	hr	3.110551	0.583816	3.694367	2.02239794854326	ng/ml
+Ucar2004	all	12	SIM_simvastatin acid	SIM	concentration	simvastatin acid	serum	LC MS/MS	4.0	hr	2.885369	0.4450775	3.3304465	1.54179368661147	ng/ml
+Ucar2004	all	12	SIM_simvastatin acid	SIM	concentration	simvastatin acid	serum	LC MS/MS	6.0	hr	2.0939198	0.2427747	2.3366945	0.840996230384584	ng/ml
+Ucar2004	all	12	SIM_simvastatin acid	SIM	concentration	simvastatin acid	serum	LC MS/MS	9.0	hr	1.7767407	0.2138631	1.9906038	0.740843510128367	ng/ml
+Ucar2004	all	12	SIM_simvastatin acid	SIM	concentration	simvastatin acid	serum	LC MS/MS	12.0	hr	1.0838188	0.1213875	1.2052063	0.420498634807534	ng/ml
+Ucar2004	all	12	SIM_simvastatin acid	SIM	concentration	simvastatin acid	serum	LC MS/MS	24.0	hr	0.29481286	0.05780354	0.3526164	0.20023733627468	ng/ml
